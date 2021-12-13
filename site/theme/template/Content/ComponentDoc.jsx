@@ -90,7 +90,6 @@ class ComponentDoc extends React.Component {
       demos,
     } = this.props;
     const { content, meta } = doc;
-    console.log("doc:",doc);
     const demoValues = Object.keys(demos).map(key => demos[key]);
     const { expandAll, visibleAll, showRiddleButton } = this.state;
     const isSingleCol = meta.cols === 1;

@@ -15,7 +15,7 @@ Custom action.
 
 ```tsx
 import React from 'react';
-import { Alert, Button, Space } from '@ezviz/evvd';
+import { Alert, Button, Space } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

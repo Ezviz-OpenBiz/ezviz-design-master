@@ -14,7 +14,7 @@ title:
 Right alternate timeline.
 
 ```jsx
-import { Timeline } from '@ezviz/evvd';
+import { Timeline } from '@ezviz/ezd';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

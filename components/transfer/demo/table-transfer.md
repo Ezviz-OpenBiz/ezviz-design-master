@@ -14,7 +14,7 @@ title:
 Customize render list with Table component.
 
 ```jsx
-import { Transfer, Switch, Table, Tag } from '@ezviz/evvd';
+import { Transfer, Switch, Table, Tag } from '@ezviz/ezd';
 import difference from 'lodash/difference';
 
 // Customize Table Transfer

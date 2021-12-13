@@ -1,7 +1,7 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@spin-prefix-cls: ~'@{ant-prefix}-spin';
+@spin-prefix-cls: ~'@{ezd-prefix}-spin';
 @spin-dot-default: @text-color-secondary;
 
 .@{spin-prefix-cls} {
@@ -9,7 +9,7 @@
 
   position: absolute;
   display: none;
-  color: @primary-color;
+  color: @ezd-primary-color;
   text-align: center;
   vertical-align: middle;
   opacity: 0;
@@ -130,7 +130,7 @@
       display: block;
       width: 9px;
       height: 9px;
-      background-color: @primary-color;
+      background-color: @ezd-primary-color;
       border-radius: 100%;
       transform: scale(0.75);
       transform-origin: 50% 50%;

@@ -15,8 +15,8 @@ The default width (or height) of Drawer is `378px`, and there is a presetted lar
 
 ```tsx
 import React, { useState } from 'react';
-import { Drawer, Button, Space } from '@ezviz/evvd';
-import { DrawerProps } from 'antd/es/drawer';
+import { Drawer, Button, Space } from '@ezviz/ezd';
+import { DrawerProps } from '@ezviz/ezd/es/drawer';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

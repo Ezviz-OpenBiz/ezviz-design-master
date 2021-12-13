@@ -14,7 +14,7 @@ title:
 Disable option by specifying the `disabled` property in `options`.
 
 ```jsx
-import { Cascader } from '@ezviz/evvd';
+import { Cascader } from '@ezviz/ezd';
 
 const options = [
   {

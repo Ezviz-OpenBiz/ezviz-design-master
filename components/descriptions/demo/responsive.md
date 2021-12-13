@@ -14,7 +14,7 @@ title:
 Responsive configuration enables perfect presentation on small screen devices.
 
 ```jsx
-import { Descriptions } from '@ezviz/evvd';
+import { Descriptions } from '@ezviz/ezd';
 
 const Demo = () => (
   <div>

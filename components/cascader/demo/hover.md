@@ -14,7 +14,7 @@ title:
 Hover to expand sub menu, click to select option.
 
 ```jsx
-import { Cascader } from '@ezviz/evvd';
+import { Cascader } from '@ezviz/ezd';
 
 const options = [
   {

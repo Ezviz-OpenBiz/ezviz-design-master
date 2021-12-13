@@ -14,7 +14,7 @@ title:
 Descriptions with border and background color.
 
 ```jsx
-import { Descriptions, Badge } from '@ezviz/evvd';
+import { Descriptions, Badge } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Descriptions title="User Info" layout="vertical" bordered>

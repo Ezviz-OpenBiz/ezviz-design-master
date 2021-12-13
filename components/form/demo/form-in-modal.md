@@ -17,7 +17,7 @@ When user visit a page with a list of items, and want to create a new item. The 
 
 ```tsx
 import React, { useState } from 'react';
-import { Button, Modal, Form, Input, Radio } from '@ezviz/evvd';
+import { Button, Modal, Form, Input, Radio } from '@ezviz/ezd';
 
 interface Values {
   title: string;

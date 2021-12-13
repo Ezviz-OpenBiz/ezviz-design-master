@@ -14,7 +14,7 @@ title:
 Use Aliyun OSS upload example.
 
 ```jsx
-import { Form, Upload, message, Button } from '@ezviz/evvd';
+import { Form, Upload, message, Button } from '@ezviz/ezd';
 import { UploadOutlined } from '@ant-design/icons';
 
 class AliyunOSSUpload extends React.Component {

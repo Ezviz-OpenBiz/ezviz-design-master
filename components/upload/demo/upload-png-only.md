@@ -15,7 +15,7 @@ title:
 
 ```jsx
 import React, { useState } from 'react';
-import { Upload, Button, message } from '@ezviz/evvd';
+import { Upload, Button, message } from '@ezviz/ezd';
 import { UploadOutlined } from '@ant-design/icons';
 
 const Uploader = () => {

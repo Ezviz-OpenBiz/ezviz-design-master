@@ -10,7 +10,7 @@ if (
 ) {
   // eslint-disable-next-line no-console
   console.warn(
-    'You are using a whole package of antd, ' +
+    'You are using a whole package of ezd, ' +
       'please use https://www.npmjs.com/package/babel-plugin-import to reduce app bundle size.',
   );
 }

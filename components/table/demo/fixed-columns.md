@@ -26,7 +26,7 @@ To fix some columns and scroll inside other columns, and you must set `scroll.x`
 **Note: v4 using sticky to implement fixed effect. IE 11 will downgrade to horizontal scroll.**
 
 ```jsx
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 const columns = [
   {

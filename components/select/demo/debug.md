@@ -15,7 +15,7 @@ debug: true
 Basic Usage.
 
 ```jsx
-import { Select, Input, Button } from '@ezviz/evvd';
+import { Select, Input, Button } from '@ezviz/ezd';
 
 const { Option } = Select;
 

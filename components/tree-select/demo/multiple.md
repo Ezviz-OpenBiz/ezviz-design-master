@@ -14,7 +14,7 @@ title:
 Multiple selection usage.
 
 ```jsx
-import { TreeSelect } from '@ezviz/evvd';
+import { TreeSelect } from '@ezviz/ezd';
 
 const { TreeNode } = TreeSelect;
 

@@ -15,7 +15,7 @@ The most basic usage.
 
 ```jsx
 import React, { useState } from 'react';
-import { TreeSelect } from '@ezviz/evvd';
+import { TreeSelect } from '@ezviz/ezd';
 
 const { TreeNode } = TreeSelect;
 

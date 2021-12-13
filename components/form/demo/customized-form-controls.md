@@ -21,7 +21,7 @@ Customized or third-party form controls can be used in Form, too. Controls must 
 
 ```tsx
 import React, { useState } from 'react';
-import { Form, Input, Select, Button } from '@ezviz/evvd';
+import { Form, Input, Select, Button } from '@ezviz/ezd';
 
 const { Option } = Select;
 

@@ -14,7 +14,7 @@ title:
 Cascade selection box of different sizes.
 
 ```jsx
-import { Cascader } from '@ezviz/evvd';
+import { Cascader } from '@ezviz/ezd';
 
 const options = [
   {

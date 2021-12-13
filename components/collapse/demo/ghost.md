@@ -14,7 +14,7 @@ title:
 Making collapse's background to transparent.
 
 ```jsx
-import { Collapse } from '@ezviz/evvd';
+import { Collapse } from '@ezviz/ezd';
 
 const { Panel } = Collapse;
 

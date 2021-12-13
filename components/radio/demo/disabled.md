@@ -14,7 +14,7 @@ Radio 不可用。
 Radio unavailable.
 
 ```jsx
-import { Radio, Button } from '@ezviz/evvd';
+import { Radio, Button } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

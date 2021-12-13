@@ -14,7 +14,7 @@ title:
 Controlled page number.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

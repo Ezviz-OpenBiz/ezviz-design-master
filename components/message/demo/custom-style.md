@@ -14,7 +14,7 @@ title:
 The `style` and `className` are available to customize Message.
 
 ```jsx
-import { message, Button } from '@ezviz/evvd';
+import { message, Button } from '@ezviz/ezd';
 
 const success = () => {
   message.success({

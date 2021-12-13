@@ -14,7 +14,7 @@ title:
 A non-case-sensitive AutoComplete
 
 ```tsx
-import { AutoComplete } from '@ezviz/evvd';
+import { AutoComplete } from '@ezviz/ezd';
 
 const options = [
   { value: 'Burns Bay Road' },

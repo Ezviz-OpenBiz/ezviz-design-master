@@ -14,7 +14,7 @@ title:
 Use `beforeUpload` for transform file before request such as add a watermark.
 
 ```jsx
-import { Upload, Button } from '@ezviz/evvd';
+import { Upload, Button } from '@ezviz/ezd';
 import { UploadOutlined } from '@ant-design/icons';
 
 const props = {
@@ -36,7 +36,7 @@ const props = {
           ctx.fillStyle = 'red';
           ctx.textBaseline = 'middle';
           ctx.font = '33px Arial';
-          ctx.fillText('Evv Design', 20, 20);
+          ctx.fillText('EZ Design', 20, 20);
           canvas.toBlob(resolve);
         };
       };

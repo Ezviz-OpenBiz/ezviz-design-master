@@ -14,7 +14,7 @@ title:
 Mini size pagination.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 function showTotal(total) {
   return `Total ${total} items`;

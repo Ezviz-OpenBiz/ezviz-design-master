@@ -15,8 +15,8 @@ Table with editable cells. When work with `shouldCellUpdate`, please take care o
 
 ```tsx
 import React, { useContext, useState, useEffect, useRef } from 'react';
-import { Table, Input, Button, Popconfirm, Form } from '@ezviz/evvd';
-import { FormInstance } from 'antd/lib/form';
+import { Table, Input, Button, Popconfirm, Form } from '@ezviz/ezd';
+import { FormInstance } from '@ezviz/ezd/lib/form';
 
 const EditableContext = React.createContext<FormInstance<any> | null>(null);
 

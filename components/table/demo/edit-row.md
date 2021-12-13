@@ -17,7 +17,7 @@ Table with editable rows.
 
 ```tsx
 import React, { useState } from 'react';
-import { Table, Input, InputNumber, Popconfirm, Form, Typography } from '@ezviz/evvd';
+import { Table, Input, InputNumber, Popconfirm, Form, Typography } from '@ezviz/ezd';
 
 interface Item {
   key: string;

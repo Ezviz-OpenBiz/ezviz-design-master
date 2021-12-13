@@ -14,7 +14,7 @@ title:
 `ghost` property will make button's background transparent, it is commonly used in colored background.
 
 ```jsx
-import { Button } from '@ezviz/evvd';
+import { Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <div className="site-button-ghost-wrapper">

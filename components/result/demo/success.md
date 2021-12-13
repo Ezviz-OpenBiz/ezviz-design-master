@@ -14,7 +14,7 @@ title:
 Show successful results.
 
 ```jsx
-import { Result, Button } from '@ezviz/evvd';
+import { Result, Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Result

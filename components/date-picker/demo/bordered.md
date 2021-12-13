@@ -14,7 +14,7 @@ title:
 Bordered-less style component.
 
 ```jsx
-import { DatePicker, Space } from '@ezviz/evvd';
+import { DatePicker, Space } from '@ezviz/ezd';
 
 const { RangePicker } = DatePicker;
 

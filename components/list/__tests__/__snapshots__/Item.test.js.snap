@@ -28,13 +28,13 @@ exports[`List Item Layout horizontal itemLayout List should accept extra node 1`
                 <a
                   href="https://ant.design"
                 >
-                  Evv Design
+                  EZ Design
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Evv Design, a design language for background applications, is refined by Ant UED Team.
+                EZ Design, a design language for background applications, is refined by Ant UED Team.
               </div>
             </div>
           </div>
@@ -63,15 +63,15 @@ exports[`List Item Layout rowKey could be function 1`] = `
     Array [
       Object {
         "id": 1,
-        "title": "Evv Design",
+        "title": "EZ Design",
       },
       Object {
         "id": 2,
-        "title": "Evv Design",
+        "title": "EZ Design",
       },
       Object {
         "id": 3,
-        "title": "Evv Design",
+        "title": "EZ Design",
       },
     ]
   }
@@ -100,21 +100,21 @@ exports[`List Item Layout rowKey could be function 1`] = `
               <li
                 className="ant-list-item"
               >
-                Evv Design
+                EZ Design
               </li>
             </Item>
             <Item>
               <li
                 className="ant-list-item"
               >
-                Evv Design
+                EZ Design
               </li>
             </Item>
             <Item>
               <li
                 className="ant-list-item"
               >
-                Evv Design
+                EZ Design
               </li>
             </Item>
           </ul>
@@ -131,15 +131,15 @@ exports[`List Item Layout rowKey could be string 1`] = `
     Array [
       Object {
         "id": 1,
-        "title": "Evv Design",
+        "title": "EZ Design",
       },
       Object {
         "id": 2,
-        "title": "Evv Design",
+        "title": "EZ Design",
       },
       Object {
         "id": 3,
-        "title": "Evv Design",
+        "title": "EZ Design",
       },
     ]
   }
@@ -168,21 +168,21 @@ exports[`List Item Layout rowKey could be string 1`] = `
               <li
                 className="ant-list-item"
               >
-                Evv Design
+                EZ Design
               </li>
             </Item>
             <Item>
               <li
                 className="ant-list-item"
               >
-                Evv Design
+                EZ Design
               </li>
             </Item>
             <Item>
               <li
                 className="ant-list-item"
               >
-                Evv Design
+                EZ Design
               </li>
             </Item>
           </ul>
@@ -221,13 +221,13 @@ exports[`List Item Layout should render in RTL direction 1`] = `
                 <a
                   href="https://ant.design"
                 >
-                  Evv Design
+                  EZ Design
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Evv Design, a design language for background applications, is refined by Ant UED Team.
+                EZ Design, a design language for background applications, is refined by Ant UED Team.
               </div>
             </div>
           </div>

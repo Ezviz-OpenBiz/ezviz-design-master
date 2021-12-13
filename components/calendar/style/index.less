@@ -1,8 +1,8 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@calendar-prefix-cls: ~'@{ant-prefix}-picker-calendar';
-@calendar-picker-prefix-cls: ~'@{ant-prefix}-picker';
+@calendar-prefix-cls: ~'@{ezd-prefix}-picker-calendar';
+@calendar-picker-prefix-cls: ~'@{ezd-prefix}-picker';
 
 .@{calendar-prefix-cls} {
   .reset-component();
@@ -117,7 +117,7 @@
             background: @calendar-item-active-bg;
 
             .@{calendar-prefix-cls}-date-value {
-              color: @primary-color;
+              color: @ezd-primary-color;
             }
           }
         }
@@ -151,7 +151,7 @@
         }
 
         &-today {
-          border-color: @primary-color;
+          border-color: @ezd-primary-color;
 
           .@{calendar-prefix-cls}-date-value {
             color: @text-color;

@@ -14,7 +14,7 @@ Switch 失效状态。
 Disabled state of `Switch`.
 
 ```jsx
-import { Switch, Button } from '@ezviz/evvd';
+import { Switch, Button } from '@ezviz/ezd';
 
 const App = () => {
   const [disabled, setDisabled] = React.useState(true);

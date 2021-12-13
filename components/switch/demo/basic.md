@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ```jsx
-import { Switch } from '@ezviz/evvd';
+import { Switch } from '@ezviz/ezd';
 
 function onChange(checked) {
   console.log(`switch to ${checked}`);

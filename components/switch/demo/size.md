@@ -14,7 +14,7 @@ title:
 `size="small"` represents a small sized switch.
 
 ```jsx
-import { Switch } from '@ezviz/evvd';
+import { Switch } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

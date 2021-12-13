@@ -15,7 +15,7 @@
     outline: none;
 
     &-focused {
-      border-color: @primary-color;
+      border-color: @ezd-primary-color;
     }
   }
 
@@ -78,7 +78,7 @@
         }
 
         &:hover {
-          color: @primary-color;
+          color: @ezd-primary-color;
         }
       }
     }
@@ -194,7 +194,7 @@
         bottom: 0;
         left: 0;
         z-index: 1;
-        border: @border-width-base @border-style-base @primary-color;
+        border: @border-width-base @border-style-base @ezd-primary-color;
         border-radius: @border-radius-base;
         content: '';
       }
@@ -214,7 +214,7 @@
     &-in-view&-range-start .@{cellClassName},
     &-in-view&-range-end .@{cellClassName} {
       color: @text-color-inverse;
-      background: @primary-color;
+      background: @ezd-primary-color;
     }
 
     &-in-view&-range-start:not(&-range-start-single),
@@ -520,7 +520,7 @@
 
       &-selected td,
       &-selected:hover td {
-        background: @primary-color;
+        background: @ezd-primary-color;
 
         &.@{picker-prefix-cls}-cell-week {
           color: fade(@text-color-inverse, 50%);

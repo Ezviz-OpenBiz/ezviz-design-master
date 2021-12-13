@@ -15,7 +15,7 @@ Custom spacing size.
 
 ```jsx
 import React, { useState } from 'react';
-import { Space, Slider, Button } from '@ezviz/evvd';
+import { Space, Slider, Button } from '@ezviz/ezd';
 
 function SpaceCustomizeSize() {
   const [size, setSize] = useState(8);

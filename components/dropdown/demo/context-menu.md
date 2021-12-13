@@ -14,7 +14,7 @@ title:
 The default trigger mode is `hover`, you can change it to `contextMenu`.
 
 ```jsx
-import { Menu, Dropdown } from '@ezviz/evvd';
+import { Menu, Dropdown } from '@ezviz/ezd';
 
 const menu = (
   <Menu>

@@ -14,7 +14,7 @@ title:
 Simplest Usage with no description.
 
 ```jsx
-import { Empty } from '@ezviz/evvd';
+import { Empty } from '@ezviz/ezd';
 
 ReactDOM.render(<Empty description={false} />, mountNode);
 ```

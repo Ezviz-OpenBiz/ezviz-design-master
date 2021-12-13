@@ -14,7 +14,7 @@ title:
 By setting `type=dashboard`, you can get a dashboard style of progress easily. Modify `gapDegree` to set the degree of gap.
 
 ```jsx
-import { Progress } from '@ezviz/evvd';
+import { Progress } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

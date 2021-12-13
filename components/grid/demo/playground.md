@@ -14,7 +14,7 @@ title:
 A simple playground for column count and gutter.
 
 ```jsx
-import { Row, Col, Slider } from '@ezviz/evvd';
+import { Row, Col, Slider } from '@ezviz/ezd';
 
 const gutters = {};
 const vgutters = {};

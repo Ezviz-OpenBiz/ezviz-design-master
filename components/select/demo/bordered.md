@@ -14,7 +14,7 @@ title:
 Bordered-less style component.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 
 const { Option } = Select;
 

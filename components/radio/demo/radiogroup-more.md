@@ -14,7 +14,7 @@ title:
 Vertical Radio.Group, with more radios.
 
 ```jsx
-import { Radio, Input, Space } from '@ezviz/evvd';
+import { Radio, Input, Space } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

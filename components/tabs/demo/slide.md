@@ -14,7 +14,7 @@ title:
 In order to fit in more tabs, they can slide left and right (or up and down).
 
 ```jsx
-import { Tabs, Radio } from '@ezviz/evvd';
+import { Tabs, Radio } from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 

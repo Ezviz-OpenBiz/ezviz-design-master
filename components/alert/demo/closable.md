@@ -14,7 +14,7 @@ title:
 To show close button.
 
 ```tsx
-import { Alert } from '@ezviz/evvd';
+import { Alert } from '@ezviz/ezd';
 
 const onClose = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
   console.log(e, 'I was closed.');

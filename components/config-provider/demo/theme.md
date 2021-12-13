@@ -56,7 +56,7 @@ import {
   Progress,
   Spin,
   Transfer,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 
 const SplitSpace = props => <Space split={<Divider type="vertical" />} size={4} {...props} />;
 

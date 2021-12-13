@@ -16,7 +16,7 @@ title:
 Normal login form which can contain more elements.
 
 ```tsx
-import { Form, Input, Button, Checkbox } from '@ezviz/evvd';
+import { Form, Input, Button, Checkbox } from '@ezviz/ezd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 
 const NormalLoginForm = () => {

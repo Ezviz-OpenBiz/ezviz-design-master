@@ -14,7 +14,7 @@ title:
 Basic use case. Users can select or input a date in panel.
 
 ```jsx
-import { DatePicker, Space } from '@ezviz/evvd';
+import { DatePicker, Space } from '@ezviz/ezd';
 
 function onChange(date, dateString) {
   console.log(date, dateString);

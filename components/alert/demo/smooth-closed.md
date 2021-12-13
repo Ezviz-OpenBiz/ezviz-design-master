@@ -15,7 +15,7 @@ Smoothly unmount Alert upon close.
 
 ```tsx
 import React, { useState } from 'react';
-import { Alert } from '@ezviz/evvd';
+import { Alert } from '@ezviz/ezd';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(true);

@@ -15,7 +15,7 @@ The simplest usage.
 
 ```tsx
 import React, { useState } from 'react';
-import { Affix, Button } from '@ezviz/evvd';
+import { Affix, Button } from '@ezviz/ezd';
 
 const Demo: React.FC = () => {
   const [top, setTop] = useState(10);

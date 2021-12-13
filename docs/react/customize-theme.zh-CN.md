@@ -3,18 +3,18 @@ order: 7
 title: 定制主题
 ---
 
-Evv Design 设计规范和技术上支持灵活的样式定制，以满足业务和品牌上多样化的视觉需求，包括但不限于全局样式（主色、圆角、边框）和指定组件的视觉定制。
+EZ Design 设计规范和技术上支持灵活的样式定制，以满足业务和品牌上多样化的视觉需求，包括但不限于全局样式（主色、圆角、边框）和指定组件的视觉定制。
 
 ![一些配置好的主题](https://zos.alipayobjects.com/rmsportal/zTFoszBtDODhXfLAazfSpYbSLSEeytoG.png)
 
-## Evv Design 的样式变量
+## EZ Design 的样式变量
 
-@ezviz/evvd 的样式使用了 [Less](http://lesscss.org/) 作为开发语言，并定义了一系列全局/组件的样式变量，你可以根据需求进行相应调整。
+@ezviz/ezd 的样式使用了 [Less](http://lesscss.org/) 作为开发语言，并定义了一系列全局/组件的样式变量，你可以根据需求进行相应调整。
 
-以下是一些最常用的通用变量，所有样式变量可以在 [这里](https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less) 找到。
+以下是一些最常用的通用变量，所有样式变量可以在 [这里](https://github.com/Ezviz-OpenBiz/ezviz-design-master/blob/master/components/style/themes/default.less) 找到。
 
 ```less
-@primary-color: #1890ff; // 全局主色
+@ezd-primary-color: #1890ff; // 全局主色
 @link-color: #1890ff; // 链接色
 @success-color: #52c41a; // 成功色
 @warning-color: #faad14; // 警告色
@@ -34,7 +34,7 @@ Evv Design 设计规范和技术上支持灵活的样式定制，以满足业务
 
 ## 定制方式
 
-原理上是使用 less 提供的 [modifyVars](http://lesscss.org/usage/#using-less-in-the-browser-modify-variables) 的方式进行覆盖变量，可以在本地运行 [例子](https://github.com/ant-design/create-react-app-antd) 查看定制效果。下面将针对不同的场景提供一些常用的定制方式。
+原理上是使用 less 提供的 [modifyVars](http://lesscss.org/usage/#using-less-in-the-browser-modify-variables) 的方式进行覆盖变量。下面将针对不同的场景提供一些常用的定制方式。
 
 ### 在 webpack 中定制主题
 
@@ -54,7 +54,7 @@ module.exports = {
 +     options: {
 +       lessOptions: { // 如果使用less-loader@5，请移除 lessOptions 这一级直接配置选项。
 +         modifyVars: {
-+           'primary-color': '#1DA57A',
++           'ezd-primary-color': '#1DA57A',
 +           'link-color': '#1DA57A',
 +           'border-radius-base': '2px',
 +         },
@@ -70,7 +70,7 @@ module.exports = {
 
 注意：
 
-1. less-loader 的处理范围不要过滤掉 `node_modules` 下的 @ezviz/evvd 包。
+1. less-loader 的处理范围不要过滤掉 `node_modules` 下的 @ezviz/ezd 包。
 2. `lessOptions` 的配置写法在 [less-loader@6.0.0](https://github.com/webpack-contrib/less-loader/releases/tag/v6.0.0) 里支持。
 
 ### 在 Umi 里配置主题
@@ -79,7 +79,7 @@ module.exports = {
 
 ```js
 "theme": {
-  "primary-color": "#1DA57A",
+  "ezd-primary-color": "#1DA57A",
 },
 ```
 
@@ -95,38 +95,29 @@ module.exports = {
 
 ### 配置 less 变量文件
 
-另外一种方式是建立一个单独的 `less` 变量文件，引入这个文件覆盖 `@ezviz/evvd.less` 里的变量。
+另外一种方式是建立一个单独的 `less` 变量文件，引入这个文件覆盖 `@ezviz/ezd.less` 里的变量。
 
 ```css
-@import '~@ezviz/evvd/lib/style/themes/default.less';
-@import '~@ezviz/evvd/dist/@ezviz/evvd.less'; // 引入官方提供的 less 样式入口文件
+@import '~@ezviz/ezd/lib/style/themes/default.less';
+@import '~@ezviz/ezd/dist/@ezviz/ezd.less'; // 引入官方提供的 less 样式入口文件
 @import 'your-theme-file.less'; // 用于覆盖上面定义的变量
 ```
 
 注意，这种方式已经载入了所有组件的样式，不需要也无法和按需加载插件 `babel-plugin-import` 的 `style` 属性一起使用。
-
-### 动态主题色
-
-在运行时调整主题色请[参考此处](/docs/react/customize-theme-variable)。
 
 ## 没有生效？
 
 注意样式必须加载 less 格式，一个常见的问题就是引入了多份样式，less 的样式被 css 的样式覆盖了。
 
 - 如果你在使用 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) 的 `style` 配置来引入样式，需要将配置值从 `'css'` 改为 `true`，这样会引入 less 文件。
-- 如果你是通过 `'@ezviz/evvd/dist/@ezviz/evvd.css'` 引入样式的，改为 `@ezviz/evvd/dist/@ezviz/evvd.less`。
+- 如果你是通过 `'@ezviz/ezd/dist/@ezviz/ezd.css'` 引入样式的，改为 `@ezviz/ezd/dist/@ezviz/ezd.less`。
 
 ## 官方主题 🌈
 
 我们提供了一些官方主题，欢迎在项目中试用，并且给我们提供反馈。
 
-- 🌑 暗黑主题（4.0.0+ 支持）
-- 📦 紧凑主题（4.1.0+ 支持）
-- ☁️ [阿里云控制台主题（Beta）](https://github.com/ant-design/ant-design-aliyun-theme)
-
-### 使用暗黑主题和紧凑主题
-
-![](https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*mYU9R4YFxscAAAAAAAAAAABkARQnAQ)
+- 🌑 暗黑主题
+- 📦 紧凑主题
 
 方式一：使用 Umi 3
 
@@ -135,33 +126,33 @@ module.exports = {
 ```js
 // .umirc.ts or config/config.ts
 export default {
-  '@ezviz/evvd': {
+  '@ezviz/ezd': {
     dark: true, // 开启暗色主题
     compact: true, // 开启紧凑主题
   },
 },
 ```
 
-方式二：是在样式文件全量引入 [@ezviz/evvd.dark.less](https://unpkg.com/browse/antd@4.x/dist/antd.dark.less) 或 [@ezviz/evvd.compact.less](https://unpkg.com/browse/antd@4.x/dist/antd.compact.less)。
+方式二：是在样式文件全量引入 [@ezviz/ezd.dark.less](https://unpkg.com/browse/antd@4.x/dist/antd.dark.less) 或 [@ezviz/ezd.compact.less](https://unpkg.com/browse/antd@4.x/dist/antd.compact.less)。
 
 ```less
-@import '~@ezviz/evvd/dist/@ezviz/evvd.dark.less'; // 引入官方提供的暗色 less 样式入口文件
-@import '~@ezviz/evvd/dist/@ezviz/evvd.compact.less'; // 引入官方提供的紧凑 less 样式入口文件
+@import '~@ezviz/ezd/dist/@ezviz/ezd.dark.less'; // 引入官方提供的暗色 less 样式入口文件
+@import '~@ezviz/ezd/dist/@ezviz/ezd.compact.less'; // 引入官方提供的紧凑 less 样式入口文件
 ```
 
-如果项目不使用 Less，可在 CSS 文件中全量引入 [@ezviz/evvd.dark.css](https://unpkg.com/browse/antd@4.x/dist/antd.dark.css) 或 [@ezviz/evvd.compact.css](https://unpkg.com/browse/antd@4.x/dist/antd.compact.css)。
+如果项目不使用 Less，可在 CSS 文件中全量引入 [@ezviz/ezd.dark.css](https://unpkg.com/browse/antd@4.x/dist/antd.dark.css) 或 [@ezviz/ezd.compact.css](https://unpkg.com/browse/antd@4.x/dist/antd.compact.css)。
 
 ```css
-@import '~@ezviz/evvd/dist/@ezviz/evvd.dark.css';
-@import '~@ezviz/evvd/dist/@ezviz/evvd.compact.css';
+@import '~@ezviz/ezd/dist/@ezviz/ezd.dark.css';
+@import '~@ezviz/ezd/dist/@ezviz/ezd.compact.css';
 ```
 
-> 注意这种方式下你不需要再引入 `@ezviz/evvd/dist/@ezviz/evvd.less` 或 `@ezviz/evvd/dist/@ezviz/evvd.css` 了，可以安全移除掉。也不需要开启 babel-plugin-import 的 `style` 配置。通过此方式不能同时配置两种及以上主题。
+> 注意这种方式下你不需要再引入 `@ezviz/ezd/dist/@ezviz/ezd.less` 或 `@ezviz/ezd/dist/@ezviz/ezd.css` 了，可以安全移除掉。也不需要开启 babel-plugin-import 的 `style` 配置。通过此方式不能同时配置两种及以上主题。
 
 方式三：是用在 `webpack.config.js` 使用 [less-loader](https://github.com/webpack-contrib/less-loader) 按需引入：
 
 ```diff
-const { getThemeVariables } = require('@ezviz/evvd/dist/theme');
+const { getThemeVariables } = require('@ezviz/ezd/dist/theme');
 
 // webpack.config.js
 module.exports = {

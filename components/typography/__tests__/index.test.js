@@ -122,13 +122,13 @@ describe('Typography', () => {
       });
 
       it('string with parentheses', async () => {
-        const parenthesesStr = `Evv Design, a design language (for background applications, is refined by
-          Ant UED Team. Evv Design, a design language for background applications,
-          is refined by Ant UED Team. Evv Design, a design language for background
-          applications, is refined by Ant UED Team. Evv Design, a design language
-          for background applications, is refined by Ant UED Team. Evv Design, a
+        const parenthesesStr = `EZ Design, a design language (for background applications, is refined by
+          Ant UED Team. EZ Design, a design language for background applications,
+          is refined by Ant UED Team. EZ Design, a design language for background
+          applications, is refined by Ant UED Team. EZ Design, a design language
+          for background applications, is refined by Ant UED Team. EZ Design, a
           design language for background applications, is refined by Ant UED Team.
-          Evv Design, a design language for background applications, is refined by
+          EZ Design, a design language for background applications, is refined by
           Ant UED Team.`;
         const onEllipsis = jest.fn();
         const wrapper = mount(
@@ -139,17 +139,17 @@ describe('Typography', () => {
 
         await sleep(20);
         wrapper.update();
-        expect(wrapper.text()).toEqual('Evv Design, a des...');
+        expect(wrapper.text()).toEqual('EZ Design, a des...');
         const ellipsisSpan = wrapper.find('span[title]');
         expect(ellipsisSpan.text()).toEqual('...');
         expect(ellipsisSpan.props().title)
           .toEqual(`ign language (for background applications, is refined by
-          Ant UED Team. Evv Design, a design language for background applications,
-          is refined by Ant UED Team. Evv Design, a design language for background
-          applications, is refined by Ant UED Team. Evv Design, a design language
-          for background applications, is refined by Ant UED Team. Evv Design, a
+          Ant UED Team. EZ Design, a design language for background applications,
+          is refined by Ant UED Team. EZ Design, a design language for background
+          applications, is refined by Ant UED Team. EZ Design, a design language
+          for background applications, is refined by Ant UED Team. EZ Design, a
           design language for background applications, is refined by Ant UED Team.
-          Evv Design, a design language for background applications, is refined by
+          EZ Design, a design language for background applications, is refined by
           Ant UED Team.`);
         onEllipsis.mockReset();
 

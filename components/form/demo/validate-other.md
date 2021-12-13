@@ -27,7 +27,7 @@ import {
   Checkbox,
   Row,
   Col,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 import { UploadOutlined, InboxOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

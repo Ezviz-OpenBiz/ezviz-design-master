@@ -14,7 +14,7 @@ title:
 Custom each Transfer Item, and in this way you can render a complex datasource.
 
 ```jsx
-import { Transfer } from '@ezviz/evvd';
+import { Transfer } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

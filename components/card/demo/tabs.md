@@ -15,7 +15,7 @@ More content can be hosted.
 
 ```jsx
 import React, { useState } from 'react';
-import { Card } from '@ezviz/evvd';
+import { Card } from '@ezviz/ezd';
 
 const tabList = [
   {

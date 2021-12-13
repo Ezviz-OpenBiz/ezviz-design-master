@@ -14,7 +14,7 @@ title:
 Customize message display duration from default `3s` to `10s`.
 
 ```jsx
-import { message, Button } from '@ezviz/evvd';
+import { message, Button } from '@ezviz/ezd';
 
 const success = () => {
   message.success('This is a prompt message for success, and it will disappear in 10 seconds', 10);

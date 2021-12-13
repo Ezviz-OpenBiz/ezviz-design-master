@@ -15,9 +15,9 @@ Use `Form.Provider` to process data between forms. In this case, submit button i
 
 ```tsx
 import React, { useState, useEffect, useRef } from 'react';
-import { Form, Input, InputNumber, Modal, Button, Avatar, Typography } from '@ezviz/evvd';
+import { Form, Input, InputNumber, Modal, Button, Avatar, Typography } from '@ezviz/ezd';
 import { SmileOutlined, UserOutlined } from '@ant-design/icons';
-import { FormInstance } from 'antd/lib/form';
+import { FormInstance } from '@ezviz/ezd/lib/form';
 
 const layout = {
   labelCol: { span: 8 },

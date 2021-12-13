@@ -14,7 +14,7 @@ title:
 Show all configured prop.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

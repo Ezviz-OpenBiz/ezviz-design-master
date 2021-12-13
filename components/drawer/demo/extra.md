@@ -7,17 +7,17 @@ title:
 
 ## zh-CN
 
-在 Evv Design 规范中，操作按钮建议放在抽屉的右上角，可以使用 `extra` 属性来实现。
+在 EZ Design 规范中，操作按钮建议放在抽屉的右上角，可以使用 `extra` 属性来实现。
 
 ## en-US
 
-Extra actions should be placed at corner of drawer in Evv Design, you can using `extra` prop for that.
+Extra actions should be placed at corner of drawer in EZ Design, you can using `extra` prop for that.
 
 ```tsx
 import React, { useState } from 'react';
-import { Drawer, Button, Space, Radio } from '@ezviz/evvd';
-import { DrawerProps } from 'antd/es/drawer';
-import { RadioChangeEvent } from 'antd/es/radio';
+import { Drawer, Button, Space, Radio } from '@ezviz/ezd';
+import { DrawerProps } from '@ezviz/ezd/es/drawer';
+import { RadioChangeEvent } from '@ezviz/ezd/es/radio';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

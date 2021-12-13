@@ -14,7 +14,7 @@ title:
 There are 12 placement options available.
 
 ```jsx
-import { Tooltip, Button } from '@ezviz/evvd';
+import { Tooltip, Button } from '@ezviz/ezd';
 
 const text = <span>prompt text</span>;
 

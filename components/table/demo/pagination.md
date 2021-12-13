@@ -14,7 +14,7 @@ title:
 Table pagination settings.
 
 ```jsx
-import { Table, Tag, Radio, Space } from '@ezviz/evvd';
+import { Table, Tag, Radio, Space } from '@ezviz/ezd';
 
 const topOptions = [
   { label: 'topLeft', value: 'topLeft' },

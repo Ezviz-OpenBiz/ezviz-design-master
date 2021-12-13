@@ -14,7 +14,7 @@ title:
 The menu has multiple levels.
 
 ```jsx
-import { Menu, Dropdown } from '@ezviz/evvd';
+import { Menu, Dropdown } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

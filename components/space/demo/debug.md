@@ -15,7 +15,7 @@ Debug usage
 Debug usage
 
 ```jsx
-import { Space, Button, Popconfirm } from '@ezviz/evvd';
+import { Space, Button, Popconfirm } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Space>

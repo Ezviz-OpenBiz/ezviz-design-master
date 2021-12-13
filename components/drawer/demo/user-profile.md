@@ -14,7 +14,7 @@ title:
 Use Drawer to quickly preview details of an object, such as those in a list.
 
 ```jsx
-import { Drawer, List, Avatar, Divider, Col, Row } from '@ezviz/evvd';
+import { Drawer, List, Avatar, Divider, Col, Row } from '@ezviz/ezd';
 
 const DescriptionItem = ({ title, content }) => (
   <div className="site-description-item-profile-wrapper">

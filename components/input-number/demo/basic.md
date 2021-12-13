@@ -14,7 +14,7 @@ title:
 Numeric-only input box.
 
 ```jsx
-import { InputNumber } from '@ezviz/evvd';
+import { InputNumber } from '@ezviz/ezd';
 
 function onChange(value) {
   console.log('changed', value);

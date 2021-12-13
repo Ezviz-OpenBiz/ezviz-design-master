@@ -14,7 +14,7 @@ title:
 Render extra footer in panel for customized requirements.
 
 ```jsx
-import { DatePicker, Space } from '@ezviz/evvd';
+import { DatePicker, Space } from '@ezviz/ezd';
 
 const { RangePicker } = DatePicker;
 

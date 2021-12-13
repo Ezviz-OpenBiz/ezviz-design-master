@@ -14,7 +14,7 @@ title:
 Group table head with `columns[n].children`.
 
 ```jsx
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 const columns = [
   {

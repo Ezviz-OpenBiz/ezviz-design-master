@@ -15,7 +15,7 @@ debug: true
 Passing custom class to `TimePicker` popup
 
 ```jsx
-import { TimePicker } from '@ezviz/evvd';
+import { TimePicker } from '@ezviz/ezd';
 import moment from 'moment';
 
 const onChange = (time, timeString) => {

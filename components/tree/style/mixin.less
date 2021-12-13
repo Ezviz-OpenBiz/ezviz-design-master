@@ -1,8 +1,8 @@
 @import '../../style/mixins/index';
 
-@tree-prefix-cls: ~'@{ant-prefix}-tree';
-@select-tree-prefix-cls: ~'@{ant-prefix}-select-tree';
-@tree-motion: ~'@{ant-prefix}-motion-collapse';
+@tree-prefix-cls: ~'@{ezd-prefix}-tree';
+@select-tree-prefix-cls: ~'@{ezd-prefix}-select-tree';
+@tree-motion: ~'@{ezd-prefix}-motion-collapse';
 @tree-node-padding: (@padding-xs / 2);
 @tree-node-hightlight-color: inherit;
 
@@ -25,7 +25,7 @@
     // it should displayed over the following node
     z-index: 1;
     height: 2px;
-    background-color: @primary-color;
+    background-color: @ezd-primary-color;
     border-radius: 1px;
     pointer-events: none;
 
@@ -36,7 +36,7 @@
       width: 8px;
       height: 8px;
       background-color: transparent;
-      border: 2px solid @primary-color;
+      border: 2px solid @ezd-primary-color;
       border-radius: 50%;
       content: '';
     }
@@ -78,7 +78,7 @@
           right: 0;
           bottom: @tree-node-padding;
           left: 0;
-          border: 1px solid @primary-color;
+          border: 1px solid @ezd-primary-color;
           opacity: 0;
           animation: ant-tree-node-fx-do-not-use 0.3s;
           animation-play-state: running;
@@ -170,7 +170,7 @@
     }
 
     &-loading-icon {
-      color: @primary-color;
+      color: @ezd-primary-color;
     }
 
     &-leaf-line {
@@ -258,7 +258,7 @@
 
   .@{custom-tree-node-prefix-cls}.drop-container {
     > [draggable] {
-      box-shadow: 0 0 0 2px @primary-color;
+      box-shadow: 0 0 0 2px @ezd-primary-color;
     }
   }
 

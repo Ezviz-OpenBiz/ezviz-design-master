@@ -15,7 +15,7 @@ Anchor target scroll to screen center.
 
 ```tsx
 import React, { useState, useEffect } from 'react';
-import { Anchor } from '@ezviz/evvd';
+import { Anchor } from '@ezviz/ezd';
 
 const { Link } = Anchor;
 

@@ -14,7 +14,7 @@ title:
 Show all props provided by PageHeader.
 
 ```jsx
-import { PageHeader, Menu, Dropdown, Button, Tag, Typography, Row } from '@ezviz/evvd';
+import { PageHeader, Menu, Dropdown, Button, Tag, Typography, Row } from '@ezviz/ezd';
 import { EllipsisOutlined } from '@ant-design/icons';
 
 const { Paragraph } = Typography;
@@ -82,11 +82,11 @@ const IconLink = ({ src, text }) => (
 const content = (
   <>
     <Paragraph>
-      Evv Design interprets the color system into two levels: a system-level color system and a
+      EZ Design interprets the color system into two levels: a system-level color system and a
       product-level color system.
     </Paragraph>
     <Paragraph>
-      Evv Design&#x27;s design team preferred to design with the HSB color model, which makes it
+      EZ Design&#x27;s design team preferred to design with the HSB color model, which makes it
       easier for designers to have a clear psychological expectation of color when adjusting colors,
       as well as facilitate communication in teams.
     </Paragraph>

@@ -14,7 +14,7 @@ title:
 Change `pageSize`.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 function onShowSizeChange(current, pageSize) {
   console.log(current, pageSize);

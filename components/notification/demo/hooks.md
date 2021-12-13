@@ -14,7 +14,7 @@ title:
 Use `notification.useNotification` to get `contextHolder` with context accessible issue.
 
 ```jsx
-import { Button, notification, Divider, Space } from '@ezviz/evvd';
+import { Button, notification, Divider, Space } from '@ezviz/ezd';
 import {
   RadiusUpleftOutlined,
   RadiusUprightOutlined,
@@ -36,7 +36,7 @@ const Demo = () => {
   };
 
   return (
-    <Context.Provider value={{ name: 'Evv Design' }}>
+    <Context.Provider value={{ name: 'EZ Design' }}>
       {contextHolder}
       <Space>
         <Button type="primary" onClick={() => openNotification('topLeft')}>

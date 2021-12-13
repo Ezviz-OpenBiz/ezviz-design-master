@@ -14,7 +14,7 @@ title:
 Usage of basic Tag, and it could be closable by set `closable` property. Closable Tag supports `onClose` events.
 
 ```jsx
-import { Tag } from '@ezviz/evvd';
+import { Tag } from '@ezviz/ezd';
 
 function log(e) {
   console.log(e);

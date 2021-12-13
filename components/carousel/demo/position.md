@@ -14,7 +14,7 @@ title:
 There are 4 position options available.
 
 ```jsx
-import { Carousel, Radio } from '@ezviz/evvd';
+import { Carousel, Radio } from '@ezviz/ezd';
 
 const contentStyle = {
   height: '160px',

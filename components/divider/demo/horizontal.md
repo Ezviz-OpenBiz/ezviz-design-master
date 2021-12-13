@@ -14,7 +14,7 @@ title:
 Divider is `horizontal` by default. You can add text within Divider.
 
 ```jsx
-import { Divider } from '@ezviz/evvd';
+import { Divider } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

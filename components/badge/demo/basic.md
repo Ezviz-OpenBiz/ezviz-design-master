@@ -14,7 +14,7 @@ title:
 Simplest Usage. Badge will be hidden when `count` is `0`, but we can use `showZero` to show it.
 
 ```jsx
-import { Badge, Avatar } from '@ezviz/evvd';
+import { Badge, Avatar } from '@ezviz/ezd';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

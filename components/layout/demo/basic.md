@@ -14,7 +14,7 @@ title:
 Classic page layouts.
 
 ```jsx
-import { Layout } from '@ezviz/evvd';
+import { Layout } from '@ezviz/ezd';
 
 const { Header, Footer, Sider, Content } = Layout;
 

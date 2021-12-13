@@ -14,7 +14,7 @@ title:
 add suffix ellipsis support.
 
 ```jsx
-import { Typography, Slider } from '@ezviz/evvd';
+import { Typography, Slider } from '@ezviz/ezd';
 
 const { Paragraph } = Typography;
 

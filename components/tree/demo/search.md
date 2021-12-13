@@ -14,7 +14,7 @@ title:
 Searchable Tree.
 
 ```jsx
-import { Tree, Input } from '@ezviz/evvd';
+import { Tree, Input } from '@ezviz/ezd';
 
 const { Search } = Input;
 

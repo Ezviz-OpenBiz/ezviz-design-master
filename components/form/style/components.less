@@ -1,22 +1,22 @@
 @import (reference) '../../style/themes/index';
 
-@form-prefix-cls: ~'@{ant-prefix}-form';
+@form-prefix-cls: ~'@{ezd-prefix}-form';
 @form-item-prefix-cls: ~'@{form-prefix-cls}-item';
 
 // ================================================================
 // =                      Children Component                      =
 // ================================================================
 .@{form-item-prefix-cls} {
-  .@{ant-prefix}-mentions,
-  textarea.@{ant-prefix}-input {
+  .@{ezd-prefix}-mentions,
+  textarea.@{ezd-prefix}-input {
     height: auto;
   }
 
   // input[type=file]
-  .@{ant-prefix}-upload {
+  .@{ezd-prefix}-upload {
     background: transparent;
   }
-  .@{ant-prefix}-upload.@{ant-prefix}-upload-drag {
+  .@{ezd-prefix}-upload.@{ezd-prefix}-upload-drag {
     background: @background-color-light;
   }
 
@@ -27,8 +27,8 @@
   }
 
   // Radios and checkboxes on same line
-  .@{ant-prefix}-radio-inline,
-  .@{ant-prefix}-checkbox-inline {
+  .@{ezd-prefix}-radio-inline,
+  .@{ezd-prefix}-checkbox-inline {
     display: inline-block;
     margin-left: 8px;
     font-weight: normal;
@@ -40,17 +40,17 @@
     }
   }
 
-  .@{ant-prefix}-checkbox-vertical,
-  .@{ant-prefix}-radio-vertical {
+  .@{ezd-prefix}-checkbox-vertical,
+  .@{ezd-prefix}-radio-vertical {
     display: block;
   }
 
-  .@{ant-prefix}-checkbox-vertical + .@{ant-prefix}-checkbox-vertical,
-  .@{ant-prefix}-radio-vertical + .@{ant-prefix}-radio-vertical {
+  .@{ezd-prefix}-checkbox-vertical + .@{ezd-prefix}-checkbox-vertical,
+  .@{ezd-prefix}-radio-vertical + .@{ezd-prefix}-radio-vertical {
     margin-left: 0;
   }
 
-  .@{ant-prefix}-input-number {
+  .@{ezd-prefix}-input-number {
     + .@{form-prefix-cls}-text {
       margin-left: 8px;
     }
@@ -60,18 +60,18 @@
     }
   }
 
-  .@{ant-prefix}-select,
-  .@{ant-prefix}-cascader-picker {
+  .@{ezd-prefix}-select,
+  .@{ezd-prefix}-cascader-picker {
     width: 100%;
   }
 
   // Don't impact select inside input group and calendar header select
-  .@{ant-prefix}-picker-calendar-year-select,
-  .@{ant-prefix}-picker-calendar-month-select,
-  .@{ant-prefix}-input-group .@{ant-prefix}-select,
-  .@{ant-prefix}-input-group .@{ant-prefix}-cascader-picker,
-  .@{ant-prefix}-input-number-group .@{ant-prefix}-select,
-  .@{ant-prefix}-input-number-group .@{ant-prefix}-cascader-picker {
+  .@{ezd-prefix}-picker-calendar-year-select,
+  .@{ezd-prefix}-picker-calendar-month-select,
+  .@{ezd-prefix}-input-group .@{ezd-prefix}-select,
+  .@{ezd-prefix}-input-group .@{ezd-prefix}-cascader-picker,
+  .@{ezd-prefix}-input-number-group .@{ezd-prefix}-select,
+  .@{ezd-prefix}-input-number-group .@{ezd-prefix}-cascader-picker {
     width: auto;
   }
 }

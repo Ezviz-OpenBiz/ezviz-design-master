@@ -18,7 +18,7 @@ Layout.Sider supports responsive layout.
 > Note: You can get a responsive layout by setting `breakpoint`, the Sider will collapse to the width of `collapsedWidth` when window width is below the `breakpoint`. And a special trigger will appear if the `collapsedWidth` is set to 0.
 
 ```jsx
-import { Layout, Menu } from '@ezviz/evvd';
+import { Layout, Menu } from '@ezviz/ezd';
 import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -58,7 +58,7 @@ ReactDOM.render(
           content
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Evv Design ©2021 Created by Evv UED</Footer>
+      <Footer style={{ textAlign: 'center' }}>EZ Design ©2021 Created by EZ UED</Footer>
     </Layout>
   </Layout>,
   mountNode,

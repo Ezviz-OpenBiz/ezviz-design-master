@@ -24,7 +24,7 @@ import {
   Transfer,
   Table,
   List,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 import { SmileOutlined } from '@ant-design/icons';
 
 const customizeRenderEmpty = () => (

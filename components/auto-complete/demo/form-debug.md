@@ -7,7 +7,7 @@ debug: true
 ---
 
 ```tsx
-import { Input, AutoComplete, Form, TreeSelect, Button } from '@ezviz/evvd';
+import { Input, AutoComplete, Form, TreeSelect, Button } from '@ezviz/ezd';
 import { SearchOutlined } from '@ant-design/icons';
 
 const formItemLayout = {

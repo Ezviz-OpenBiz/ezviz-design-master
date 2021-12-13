@@ -14,7 +14,7 @@ title:
 Crowded components split.
 
 ```jsx
-import { Space, Typography, Divider } from '@ezviz/evvd';
+import { Space, Typography, Divider } from '@ezviz/ezd';
 
 function SpaceSplit() {
   return (

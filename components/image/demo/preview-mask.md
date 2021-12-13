@@ -16,7 +16,7 @@ Custom preview mask.
 
 ```tsx
 import React from 'react';
-import { Image, Space } from '@ezviz/evvd';
+import { Image, Space } from '@ezviz/ezd';
 import { ZoomInOutlined } from '@ant-design/icons';
 
 function ImageDemo() {

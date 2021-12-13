@@ -33,7 +33,7 @@ import {
   Switch,
   Typography,
   Dropdown,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 import moment from 'moment';
 import difference from 'lodash/difference';
 import { DownOutlined, ClockCircleOutlined } from '@ant-design/icons';

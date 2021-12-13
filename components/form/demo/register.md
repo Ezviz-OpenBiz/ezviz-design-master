@@ -26,7 +26,7 @@ import {
   Checkbox,
   Button,
   AutoComplete,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 
 const { Option } = Select;
 

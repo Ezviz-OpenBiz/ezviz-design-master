@@ -14,7 +14,7 @@ title:
 Customize the anchor highlight.
 
 ```tsx
-import { Anchor } from '@ezviz/evvd';
+import { Anchor } from '@ezviz/ezd';
 
 const { Link } = Anchor;
 

@@ -363,8 +363,8 @@ describe('ConfigProvider', () => {
             <List.Item.Meta
               {...props}
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-              title="Evv Design"
-              description="Evv Design, a design language for background applications, is refined by Ant UED Team"
+              title="EZ Design"
+              description="EZ Design, a design language for background applications, is refined by Ant UED Team"
             />
           </List.Item>
         )}

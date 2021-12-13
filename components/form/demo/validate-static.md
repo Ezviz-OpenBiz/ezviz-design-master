@@ -23,7 +23,7 @@ We provide properties like `validateStatus` `help` `hasFeedback` to customize yo
 
 ```tsx
 import { SmileOutlined } from '@ant-design/icons';
-import { Form, Input, DatePicker, TimePicker, Select, Cascader, InputNumber, Mentions } from '@ezviz/evvd';
+import { Form, Input, DatePicker, TimePicker, Select, Cascader, InputNumber, Mentions } from '@ezviz/ezd';
 
 const { Option } = Select;
 

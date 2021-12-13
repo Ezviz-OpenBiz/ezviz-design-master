@@ -22,7 +22,7 @@ ReactDOM.render(<IconDisplay />, mountNode);
 
 ## API
 
-从 4.0 开始，antd 不再内置 Icon 组件，请使用独立的包 `@ant-design/icons`。
+使用独立的包 `@ant-design/icons`。
 
 ### 通用图标
 

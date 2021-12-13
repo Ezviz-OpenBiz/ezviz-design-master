@@ -14,7 +14,7 @@ title:
 The most basic dropdown menu.
 
 ```jsx
-import { Menu, Dropdown } from '@ezviz/evvd';
+import { Menu, Dropdown } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = (

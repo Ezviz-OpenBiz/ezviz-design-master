@@ -14,7 +14,7 @@ checkbox 不可用。
 Disabled checkbox.
 
 ```jsx
-import { Checkbox } from '@ezviz/evvd';
+import { Checkbox } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

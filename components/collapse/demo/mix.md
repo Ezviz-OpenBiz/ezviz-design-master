@@ -14,7 +14,7 @@ title:
 `Collapse` is nested inside the `Collapse`.
 
 ```jsx
-import { Collapse } from '@ezviz/evvd';
+import { Collapse } from '@ezviz/ezd';
 
 const { Panel } = Collapse;
 

@@ -54,8 +54,8 @@ const RESPONSIVE_MOBILE = 768;
 // for dark.css timestamp to remove cache
 const timestamp = new Date().getTime();
 const themeMap = {
-  dark: `/evvd/dark.css?${timestamp}`,
-  compact: `/evvd/compact.css?${timestamp}`,
+  dark: `/ezd/dark.css?${timestamp}`,
+  compact: `/ezd/compact.css?${timestamp}`,
 };
 const themeConfig = {
   themeMap,
@@ -209,11 +209,11 @@ export default class Layout extends React.Component {
     const { appLocale, direction, isMobile, theme, setTheme, setIframeTheme } = this.state;
     const title =
       appLocale.locale === 'zh-CN'
-        ? 'Evv Design - 一套企业级 UI 设计语言和 React 组件库'
-        : "Evv Design - The world's second most popular React UI framework";
+        ? 'EZ Design - 一套企业级 UI 设计语言和 React 组件库'
+        : "EZ Design - The world's second most popular React UI framework";
     const description =
       appLocale.locale === 'zh-CN'
-        ? '基于 Evv Design 设计体系的 React UI 组件库，用于研发企业级中后台产品。'
+        ? '基于 EZ Design 设计体系的 React UI 组件库，用于研发企业级中后台产品。'
         : 'An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprises';
     return (
       <SiteContext.Provider value={{ isMobile, direction, theme, setTheme, setIframeTheme }}>

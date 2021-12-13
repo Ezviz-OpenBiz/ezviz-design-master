@@ -14,7 +14,7 @@ title:
 A button is on the left, and a related functional menu is on the right. You can set the icon property to modify the icon of right.
 
 ```jsx
-import { Menu, Dropdown, Button, message, Space, Tooltip } from '@ezviz/evvd';
+import { Menu, Dropdown, Button, message, Space, Tooltip } from '@ezviz/ezd';
 import { DownOutlined, UserOutlined } from '@ant-design/icons';
 
 function handleButtonClick(e) {

@@ -14,7 +14,7 @@ title:
 By setting `strokeLinecap="square"`, you can change the linecaps from round to square.
 
 ```jsx
-import { Progress } from '@ezviz/evvd';
+import { Progress } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

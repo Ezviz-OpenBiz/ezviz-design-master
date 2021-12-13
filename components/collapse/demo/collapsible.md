@@ -14,7 +14,7 @@ title:
 Specify the trigger area of collapsible by `collapsible`.
 
 ```jsx
-import { Collapse, Space } from '@ezviz/evvd';
+import { Collapse, Space } from '@ezviz/ezd';
 
 const { Panel } = Collapse;
 

@@ -3,7 +3,7 @@ order: 2
 title: 快速上手
 ---
 
-Evv Design React 致力于提供给程序员**愉悦**的开发体验。
+EZ Design React 致力于提供给程序员**愉悦**的开发体验。
 
 > 在开始之前，推荐先学习 [React](http://reactjs.org) 和 [ES2015](http://babeljs.io/docs/learn-es2015/)，并正确安装和配置了 [Node.js](https://nodejs.org/) v8 或以上。官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识，并且已经完全掌握了 React 全家桶的正确开发方式。如果你刚开始学习前端或者 React，将 UI 框架作为你的第一步可能不是最好的主意。
 
@@ -11,17 +11,17 @@ Evv Design React 致力于提供给程序员**愉悦**的开发体验。
 
 ### 1. 使用组件
 
-直接用下面的代码替换 `index.js` 的内容，用 React 的方式直接使用 @ezviz/evvd 组件。
+直接用下面的代码替换 `index.js` 的内容，用 React 的方式直接使用 @ezviz/ezd 组件。
 
 ```jsx
 import React, { useState } from 'react';
 import { render } from 'react-dom';
-import { ConfigProvider, DatePicker, message } from '@ezviz/evvd';
-// 由于 evvd 组件的默认文案是英文，所以需要修改为中文
-import zhCN from '@ezviz/evvd/lib/locale/zh_CN';
+import { ConfigProvider, DatePicker, message } from '@ezviz/ezd';
+// 由于 ezd 组件的默认文案是英文，所以需要修改为中文
+import zhCN from '@ezviz/ezd/lib/locale/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
-import '@ezviz/evvd/dist/@ezviz/evvd.css';
+import '@ezviz/ezd/dist/@ezviz/ezd.css';
 import './index.css';
 
 moment.locale('zh-cn');
@@ -54,8 +54,8 @@ render(<App />, document.getElementById('root'));
 然后依照演示代码的写法，在之前的 codesandbox 里修改 `index.js`，首先在 `import` 内引入 Alert 组件：
 
 ```diff
-- import { ConfigProvider, DatePicker, message } from '@ezviz/evvd';
-+ import { ConfigProvider, DatePicker, message, Alert } from '@ezviz/evvd';
+- import { ConfigProvider, DatePicker, message } from '@ezviz/ezd';
++ import { ConfigProvider, DatePicker, message, Alert } from '@ezviz/ezd';
 ```
 
 然后在 `render` 内添加相应的 jsx 代码：
@@ -72,7 +72,7 @@ render(<App />, document.getElementById('root'));
 
 <img width="420" src="https://gw.alipayobjects.com/zos/antfincdn/ZosQjL9pqe/e6179c89-21a9-44c9-aea4-3cc04af7ef25.png" alt="codesandbox screenshot" />
 
-好的，现在你已经会使用基本的 @ezviz/evvd 组件了，你可以在这个例子中继续探索其他组件的用法。如果你遇到组件的 bug，也推荐建一个可重现的 codesandbox 来报告 bug。
+好的，现在你已经会使用基本的 @ezviz/ezd 组件了，你可以在这个例子中继续探索其他组件的用法。如果你遇到组件的 bug，也推荐建一个可重现的 codesandbox 来报告 bug。
 
 ### 3. 下一步
 
@@ -80,7 +80,7 @@ render(<App />, document.getElementById('root'));
 
 ## 按需加载
 
-`@ezviz/evvd` 默认支持基于 ES modules 的 tree shaking，对于 js 部分，直接引入 `import { Button } from '@ezviz/evvd'` 就会有按需加载的效果。
+`@ezviz/ezd` 默认支持基于 ES modules 的 tree shaking，对于 js 部分，直接引入 `import { Button } from '@ezviz/ezd'` 就会有按需加载的效果。
 
 如果你在开发环境的控制台看到下面的提示，那么你可能还在使用 `webpack@1.x` 或者 tree shaking 失效，请升级或检查相关配置。
 

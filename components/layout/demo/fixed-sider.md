@@ -15,7 +15,7 @@ title:
 When dealing with long content, a fixed sider can provide a better user experience.
 
 ```jsx
-import { Layout, Menu } from '@ezviz/evvd';
+import { Layout, Menu } from '@ezviz/ezd';
 import {
   AppstoreOutlined,
   BarChartOutlined,
@@ -168,7 +168,7 @@ ReactDOM.render(
           content
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Evv Design ©2021 Created by Evv UED</Footer>
+      <Footer style={{ textAlign: 'center' }}>EZ Design ©2021 Created by EZ UED</Footer>
     </Layout>
   </Layout>,
   mountNode,

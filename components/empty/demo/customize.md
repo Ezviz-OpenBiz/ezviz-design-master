@@ -14,7 +14,7 @@ title:
 Customize image source, image size, description and extra content.
 
 ```jsx
-import { Empty, Button } from '@ezviz/evvd';
+import { Empty, Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Empty

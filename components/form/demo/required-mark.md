@@ -15,7 +15,7 @@ Switch required or optional style with `requiredMark`.
 
 ```tsx
 import React, { useState } from 'react';
-import { Form, Input, Button, Radio } from '@ezviz/evvd';
+import { Form, Input, Button, Radio } from '@ezviz/ezd';
 import { InfoCircleOutlined } from '@ant-design/icons';
 
 type RequiredMark = boolean | 'optional';

@@ -15,7 +15,7 @@ debug: true
 Implement resizable column by integrate with [react-resizable](https://github.com/STRML/react-resizable). When sort needed, you can use [additional mark](https://codesandbox.io/s/zrj8xvyzxx) to prevent resize trigger sort.
 
 ```jsx
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 import { Resizable } from 'react-resizable';
 
 const ResizableTitle = props => {

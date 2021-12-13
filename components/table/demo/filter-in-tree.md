@@ -18,7 +18,7 @@ You can use `filterMode` to change default filter interface, options: `menu`(def
 > `filterSearch` is used for making filter dropdown items searchable.
 
 ```jsx
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 const columns = [
   {

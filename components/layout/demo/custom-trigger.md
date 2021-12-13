@@ -14,7 +14,7 @@ title:
 If you want to use a customized trigger, you can hide the default one by setting `trigger={null}`.
 
 ```jsx
-import { Layout, Menu } from '@ezviz/evvd';
+import { Layout, Menu } from '@ezviz/ezd';
 import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,

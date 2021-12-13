@@ -14,7 +14,7 @@ title:
 The separator can be customized by setting the separator property: `Breadcrumb.Separator`.
 
 ```jsx
-import { Breadcrumb } from '@ezviz/evvd';
+import { Breadcrumb } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Breadcrumb separator="">

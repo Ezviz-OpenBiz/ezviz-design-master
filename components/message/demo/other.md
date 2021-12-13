@@ -14,7 +14,7 @@ title:
 Messages of success, error and warning types.
 
 ```jsx
-import { message, Button, Space } from '@ezviz/evvd';
+import { message, Button, Space } from '@ezviz/ezd';
 
 const success = () => {
   message.success('This is a success message');

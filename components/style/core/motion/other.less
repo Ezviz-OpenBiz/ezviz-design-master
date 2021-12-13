@@ -4,8 +4,8 @@
   }
 }
 
-@click-animating-true: ~"[@{ant-prefix}-click-animating='true']";
-@click-animating-with-extra-node-true: ~"[@{ant-prefix}-click-animating-without-extra-node='true']";
+@click-animating-true: ~"[@{ezd-prefix}-click-animating='true']";
+@click-animating-with-extra-node-true: ~"[@{ezd-prefix}-click-animating-without-extra-node='true']";
 
 @{click-animating-true},
 @{click-animating-with-extra-node-true} {
@@ -13,14 +13,14 @@
 }
 
 html {
-  --antd-wave-shadow-color: @primary-color;
+  --ezd-wave-shadow-color: @ezd-primary-color;
   --scroll-bar: 0;
 }
 
 @click-animating-with-extra-node-true-after: ~'@{click-animating-with-extra-node-true}::after';
 
 @{click-animating-with-extra-node-true-after},
-.@{ant-prefix}-click-animating-node {
+.@{ezd-prefix}-click-animating-node {
   position: absolute;
   top: 0;
   right: 0;
@@ -28,8 +28,8 @@ html {
   left: 0;
   display: block;
   border-radius: inherit;
-  box-shadow: 0 0 0 0 @primary-color;
-  box-shadow: 0 0 0 0 var(--antd-wave-shadow-color);
+  box-shadow: 0 0 0 0 @ezd-primary-color;
+  box-shadow: 0 0 0 0 var(--ezd-wave-shadow-color);
   opacity: 0.2;
   animation: fadeEffect 2s @ease-out-circ, waveEffect 0.4s @ease-out-circ;
   animation-fill-mode: forwards;
@@ -39,8 +39,8 @@ html {
 
 @keyframes waveEffect {
   100% {
-    box-shadow: 0 0 0 @primary-color;
-    box-shadow: 0 0 0 @wave-animation-width var(--antd-wave-shadow-color);
+    box-shadow: 0 0 0 @ezd-primary-color;
+    box-shadow: 0 0 0 @wave-animation-width var(--ezd-wave-shadow-color);
   }
 }
 

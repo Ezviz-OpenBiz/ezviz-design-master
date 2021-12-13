@@ -15,7 +15,7 @@ title:
 Descriptions with border and background color.
 
 ```jsx
-import { Descriptions, Badge, Table } from '@ezviz/evvd';
+import { Descriptions, Badge, Table } from '@ezviz/ezd';
 
 const dataSource = [
   {

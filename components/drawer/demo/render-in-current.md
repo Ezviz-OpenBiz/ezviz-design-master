@@ -14,7 +14,7 @@ title:
 Render in current dom. custom container, check `getContainer`.
 
 ```jsx
-import { Drawer, Button } from '@ezviz/evvd';
+import { Drawer, Button } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = { visible: false };

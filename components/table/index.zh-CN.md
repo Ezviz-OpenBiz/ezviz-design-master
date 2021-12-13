@@ -11,7 +11,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/f-SbcX2Lx/Table.svg
 
 ## 设计师专属
 
-安装 [Kitchen Sketch 插件 💎](https://kitchen.alipay.com/)，两步就可以自动生成 Evv Design 表格组件。
+安装 [Kitchen Sketch 插件 💎](https://kitchen.alipay.com/)，两步就可以自动生成 EZ Design 表格组件。
 
 ## 何时使用
 
@@ -61,7 +61,7 @@ const columns = [
 
 ## API
 
-另外我们封装了 [ProTable](https://procomponents.ant.design/components/table)，在 `antd` Table 之上扩展了更多便捷易用的功能，内置搜索、筛选、刷新等常用表格行为，并为多种类型数据展示提供了内置格式化，欢迎尝试使用。
+欢迎尝试使用。
 
 ### Table
 
@@ -240,8 +240,8 @@ const columns = [
 ## 在 TypeScript 中使用
 
 ```tsx
-import { Table } from '@ezviz/evvd';
-import { ColumnsType } from 'antd/es/table';
+import { Table } from '@ezviz/ezd';
+import { ColumnsType } from '@ezviz/ezd/es/table';
 
 interface User {
   key: number;

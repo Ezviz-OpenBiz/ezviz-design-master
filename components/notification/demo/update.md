@@ -14,7 +14,7 @@ title:
 Update content with unique key.
 
 ```jsx
-import { Button, notification } from '@ezviz/evvd';
+import { Button, notification } from '@ezviz/ezd';
 
 const key = 'updatable';
 

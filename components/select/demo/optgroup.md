@@ -14,7 +14,7 @@ title:
 Using `OptGroup` to group the options.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 
 const { Option, OptGroup } = Select;
 

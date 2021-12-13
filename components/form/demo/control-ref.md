@@ -14,8 +14,8 @@ title:
 We recommend use `Form.useForm` to create data control. If you are using class component, you can get it by `ref`.
 
 ```tsx
-import { Form, Input, Button, Select } from '@ezviz/evvd';
-import { FormInstance } from 'antd/es/form';
+import { Form, Input, Button, Select } from '@ezviz/ezd';
+import { FormInstance } from '@ezviz/ezd/es/form';
 
 const { Option } = Select;
 

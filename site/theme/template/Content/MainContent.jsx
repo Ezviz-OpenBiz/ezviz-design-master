@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Link, browserHistory } from 'bisheng/router';
-import { Row, Col, Menu, Affix, Tooltip, Avatar, Dropdown } from 'antd';
+import { Row, Col, Menu, Affix, Avatar, Dropdown } from 'antd';
 import { injectIntl } from 'react-intl';
 import { LeftOutlined, RightOutlined, ExportOutlined } from '@ant-design/icons';
-import ContributorsList from '@qixian.cs/github-contributors-list';
 import classNames from 'classnames';
 import get from 'lodash/get';
 import MobileMenu from 'rc-drawer';
@@ -83,7 +82,6 @@ class MainContent extends Component {
 
   static getDerivedStateFromProps(props, state) {
     if (!state.openKeys) {
-      console.log("propsxxl:",props);
       return {
         ...state,
         openKeys: getSideBarOpenKeys(props),
@@ -348,7 +346,6 @@ class MainContent extends Component {
         />
       );
     }
-    console.log("demos:",demos);
     if (demos) {
       return (
         <>
@@ -395,7 +392,8 @@ class MainContent extends Component {
         {menuItems}
       </Menu>
     );
-    const componentPage = /^\/?components/.test(location.pathname);
+    // const componentPage = /^\/?components/.test(location.pathname);
+    const componentPage = false;
     return (
       <div className="main-wrapper">
         <Row>

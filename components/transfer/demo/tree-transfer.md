@@ -15,7 +15,7 @@ Customize render list with Tree component.
 
 ```jsx
 import React, { useState } from 'react';
-import { Transfer, Tree } from '@ezviz/evvd';
+import { Transfer, Tree } from '@ezviz/ezd';
 
 // Customize Table Transfer
 const isChecked = (selectedKeys, eventKey) => selectedKeys.indexOf(eventKey) !== -1;

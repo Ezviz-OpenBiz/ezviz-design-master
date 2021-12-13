@@ -15,7 +15,7 @@ Test disabled Input with validate state
 Test disabled Input with validate state
 
 ```tsx
-import { Form, Input } from '@ezviz/evvd';
+import { Form, Input } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Form>

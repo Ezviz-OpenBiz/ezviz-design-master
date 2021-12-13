@@ -24,7 +24,7 @@ You can use an array to set vertical spacing, `[horizontal, vertical]` `[16, { x
 
 
 ```jsx
-import { Row, Col, Divider } from '@ezviz/evvd';
+import { Row, Col, Divider } from '@ezviz/ezd';
 
 const style = { background: '#0092ff', padding: '8px 0' };
 

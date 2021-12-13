@@ -14,7 +14,7 @@ title:
 Basic timeline.
 
 ```jsx
-import { Timeline } from '@ezviz/evvd';
+import { Timeline } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Timeline>

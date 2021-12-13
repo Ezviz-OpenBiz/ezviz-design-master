@@ -14,7 +14,7 @@ title:
 Skeleton contains sub component.
 
 ```jsx
-import { Skeleton, Button } from '@ezviz/evvd';
+import { Skeleton, Button } from '@ezviz/ezd';
 
 class Demo extends React.Component {
   state = {
@@ -33,7 +33,7 @@ class Demo extends React.Component {
       <div className="article">
         <Skeleton loading={this.state.loading}>
           <div>
-            <h4>Evv Design, a design language</h4>
+            <h4>EZ Design, a design language</h4>
             <p>
               We supply a series of design principles, practical patterns and high quality design
               resources (Sketch and Axure), to help people create their product prototypes

@@ -7,7 +7,7 @@ title:
 
 ## zh-CN
 
-此处列出 Evv Design 中需要国际化支持的组件，你可以在演示里切换语言。
+此处列出 EZ Design 中需要国际化支持的组件，你可以在演示里切换语言。
 
 ## en-US
 
@@ -27,9 +27,9 @@ import {
   Select,
   Transfer,
   Radio,
-} from '@ezviz/evvd';
-import enUS from 'antd/lib/locale/en_US';
-import zhCN from 'antd/lib/locale/zh_CN';
+} from '@ezviz/ezd';
+import enUS from '@ezviz/ezd/lib/locale/en_US';
+import zhCN from '@ezviz/ezd/lib/locale/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 

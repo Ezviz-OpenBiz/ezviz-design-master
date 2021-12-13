@@ -14,7 +14,7 @@ title:
 Timing of scrolling to the next card/picture.
 
 ```jsx
-import { Carousel } from '@ezviz/evvd';
+import { Carousel } from '@ezviz/ezd';
 
 const contentStyle = {
   height: '160px',

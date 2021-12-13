@@ -14,7 +14,7 @@ title:
 Breadcrumbs support drop down menu.
 
 ```jsx
-import { Breadcrumb, Menu } from '@ezviz/evvd';
+import { Breadcrumb, Menu } from '@ezviz/ezd';
 
 const menu = (
   <Menu>
@@ -38,7 +38,7 @@ const menu = (
 
 ReactDOM.render(
   <Breadcrumb>
-    <Breadcrumb.Item>Evv Design</Breadcrumb.Item>
+    <Breadcrumb.Item>EZ Design</Breadcrumb.Item>
     <Breadcrumb.Item>
       <a href="">Component</a>
     </Breadcrumb.Item>

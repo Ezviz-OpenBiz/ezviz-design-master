@@ -16,7 +16,7 @@ Custom the labels for select all checkboxs.
 
 ```jsx
 import React, { useState } from 'react';
-import { Transfer } from '@ezviz/evvd';
+import { Transfer } from '@ezviz/ezd';
 
 const mockData = [];
 for (let i = 0; i < 10; i++) {

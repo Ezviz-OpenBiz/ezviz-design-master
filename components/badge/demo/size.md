@@ -14,7 +14,7 @@ title:
 Set size of numeral Badge.
 
 ```jsx
-import { Badge, Avatar } from '@ezviz/evvd';
+import { Badge, Avatar } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

@@ -33,7 +33,7 @@ import {
   Rate,
   Badge,
   Divider,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 
 import {
   SearchOutlined as SearchIcon,

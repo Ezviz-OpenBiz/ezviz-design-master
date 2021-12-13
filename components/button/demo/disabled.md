@@ -14,7 +14,7 @@ title:
 To mark a button as disabled, add the `disabled` property to the `Button`.
 
 ```jsx
-import { Button } from '@ezviz/evvd';
+import { Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

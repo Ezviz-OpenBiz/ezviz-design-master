@@ -15,7 +15,7 @@ debug: true
 Same line
 
 ```tsx
-import { Checkbox, Radio, Space } from '@ezviz/evvd';
+import { Checkbox, Radio, Space } from '@ezviz/ezd';
 
 const sharedStyle: React.CSSProperties = {
   border: '1px solid red',

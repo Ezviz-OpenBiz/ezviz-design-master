@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import '../../input/style/mixin';
 
-@picker-prefix-cls: ~'@{ant-prefix}-picker';
+@picker-prefix-cls: ~'@{ezd-prefix}-picker';
 
 .picker-padding(@input-height, @font-size, @padding-horizontal) {
   // font height probably 22.0001， So use floor better
@@ -180,7 +180,7 @@
       bottom: -@border-width-base;
       height: 2px;
       margin-left: @input-padding-horizontal-base;
-      background: @primary-color;
+      background: @ezd-primary-color;
       opacity: 0;
       transition: all @animation-duration-slow ease-out;
       pointer-events: none;
@@ -235,27 +235,27 @@
       }
     }
 
-    &.@{ant-prefix}-slide-up-enter.@{ant-prefix}-slide-up-enter-active&-placement-topLeft,
-    &.@{ant-prefix}-slide-up-enter.@{ant-prefix}-slide-up-enter-active&-placement-topRight,
-    &.@{ant-prefix}-slide-up-appear.@{ant-prefix}-slide-up-appear-active&-placement-topLeft,
-    &.@{ant-prefix}-slide-up-appear.@{ant-prefix}-slide-up-appear-active&-placement-topRight {
+    &.@{ezd-prefix}-slide-up-enter.@{ezd-prefix}-slide-up-enter-active&-placement-topLeft,
+    &.@{ezd-prefix}-slide-up-enter.@{ezd-prefix}-slide-up-enter-active&-placement-topRight,
+    &.@{ezd-prefix}-slide-up-appear.@{ezd-prefix}-slide-up-appear-active&-placement-topLeft,
+    &.@{ezd-prefix}-slide-up-appear.@{ezd-prefix}-slide-up-appear-active&-placement-topRight {
       animation-name: antSlideDownIn;
     }
 
-    &.@{ant-prefix}-slide-up-enter.@{ant-prefix}-slide-up-enter-active&-placement-bottomLeft,
-    &.@{ant-prefix}-slide-up-enter.@{ant-prefix}-slide-up-enter-active&-placement-bottomRight,
-    &.@{ant-prefix}-slide-up-appear.@{ant-prefix}-slide-up-appear-active&-placement-bottomLeft,
-    &.@{ant-prefix}-slide-up-appear.@{ant-prefix}-slide-up-appear-active&-placement-bottomRight {
+    &.@{ezd-prefix}-slide-up-enter.@{ezd-prefix}-slide-up-enter-active&-placement-bottomLeft,
+    &.@{ezd-prefix}-slide-up-enter.@{ezd-prefix}-slide-up-enter-active&-placement-bottomRight,
+    &.@{ezd-prefix}-slide-up-appear.@{ezd-prefix}-slide-up-appear-active&-placement-bottomLeft,
+    &.@{ezd-prefix}-slide-up-appear.@{ezd-prefix}-slide-up-appear-active&-placement-bottomRight {
       animation-name: antSlideUpIn;
     }
 
-    &.@{ant-prefix}-slide-up-leave.@{ant-prefix}-slide-up-leave-active&-placement-topLeft,
-    &.@{ant-prefix}-slide-up-leave.@{ant-prefix}-slide-up-leave-active&-placement-topRight {
+    &.@{ezd-prefix}-slide-up-leave.@{ezd-prefix}-slide-up-leave-active&-placement-topLeft,
+    &.@{ezd-prefix}-slide-up-leave.@{ezd-prefix}-slide-up-leave-active&-placement-topRight {
       animation-name: antSlideDownOut;
     }
 
-    &.@{ant-prefix}-slide-up-leave.@{ant-prefix}-slide-up-leave-active&-placement-bottomLeft,
-    &.@{ant-prefix}-slide-up-leave.@{ant-prefix}-slide-up-leave-active&-placement-bottomRight {
+    &.@{ezd-prefix}-slide-up-leave.@{ezd-prefix}-slide-up-leave-active&-placement-bottomLeft,
+    &.@{ezd-prefix}-slide-up-leave.@{ezd-prefix}-slide-up-leave-active&-placement-bottomRight {
       animation-name: antSlideUpOut;
     }
   }
@@ -287,8 +287,8 @@
     }
 
     // https://github.com/ant-design/ant-design/issues/23687
-    .@{picker-prefix-cls}-preset > .@{ant-prefix}-tag-blue {
-      color: @primary-color;
+    .@{picker-prefix-cls}-preset > .@{ezd-prefix}-tag-blue {
+      color: @ezd-primary-color;
       background: @primary-1;
       border-color: @primary-3;
       cursor: pointer;

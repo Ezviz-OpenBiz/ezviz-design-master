@@ -14,7 +14,7 @@ title:
 Standard header, suitable for use in scenarios that require a brief description.
 
 ```jsx
-import { PageHeader } from '@ezviz/evvd';
+import { PageHeader } from '@ezviz/ezd';
 
 ReactDOM.render(
   <PageHeader

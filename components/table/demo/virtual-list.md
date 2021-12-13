@@ -18,7 +18,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { VariableSizeGrid as Grid } from 'react-window';
 import ResizeObserver from 'rc-resize-observer';
 import classNames from 'classnames';
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 function VirtualTable(props: Parameters<typeof Table>[0]) {
   const { columns, scroll } = props;

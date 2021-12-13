@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```jsx
-import { Carousel } from '@ezviz/evvd';
+import { Carousel } from '@ezviz/ezd';
 
 function onChange(a, b, c) {
   console.log(a, b, c);

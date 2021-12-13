@@ -14,17 +14,17 @@ title:
 Set the `itemLayout` property to `vertical` to create a vertical list.
 
 ```jsx
-import { List, Avatar, Space } from '@ezviz/evvd';
+import { List, Avatar, Space } from '@ezviz/ezd';
 import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons';
 
 const listData = [];
 for (let i = 0; i < 23; i++) {
   listData.push({
     href: 'https://ant.design',
-    title: `Evv Design part ${i}`,
+    title: `EZ Design part ${i}`,
     avatar: 'https://joeschmoe.io/api/v1/random',
     description:
-      'Evv Design, a design language for background applications, is refined by Ant UED Team.',
+      'EZ Design, a design language for background applications, is refined by Ant UED Team.',
     content:
       'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
   });
@@ -50,7 +50,7 @@ ReactDOM.render(
     dataSource={listData}
     footer={
       <div>
-        <b>Evv Design</b> footer part
+        <b>EZ Design</b> footer part
       </div>
     }
     renderItem={item => (

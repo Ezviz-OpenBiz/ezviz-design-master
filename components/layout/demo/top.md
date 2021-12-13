@@ -20,7 +20,7 @@ Generally, the mainnav is placed at the top of the page, and includes the logo, 
 Top-bottom structure is conform with the top-bottom viewing habit, it's a classical navigation pattern of websites. This pattern demonstrates efficiency in the main workarea, while using some vertical space. And because the horizontal space of the navigation is limited, this pattern is not suitable for cases when the first level navigation contains many elements or links.
 
 ```jsx
-import { Layout, Menu, Breadcrumb } from '@ezviz/evvd';
+import { Layout, Menu, Breadcrumb } from '@ezviz/ezd';
 
 const { Header, Content, Footer } = Layout;
 
@@ -43,7 +43,7 @@ ReactDOM.render(
       </Breadcrumb>
       <div className="site-layout-content">Content</div>
     </Content>
-    <Footer style={{ textAlign: 'center' }}>Evv Design ©2021 Created by Evv UED</Footer>
+    <Footer style={{ textAlign: 'center' }}>EZ Design ©2021 Created by EZ UED</Footer>
   </Layout>,
   mountNode,
 );

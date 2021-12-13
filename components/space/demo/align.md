@@ -14,7 +14,7 @@ title:
 Config item align.
 
 ```jsx
-import { Space, Button } from '@ezviz/evvd';
+import { Space, Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <div className="space-align-container">

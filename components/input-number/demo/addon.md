@@ -14,7 +14,7 @@ title:
 Using pre & post tabs example.
 
 ```jsx
-import { InputNumber, Select, Space, Cascader } from '@ezviz/evvd';
+import { InputNumber, Select, Space, Cascader } from '@ezviz/ezd';
 import { SettingOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

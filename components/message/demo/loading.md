@@ -14,7 +14,7 @@ title:
 Display a global loading indicator, which is dismissed by itself asynchronously.
 
 ```jsx
-import { message, Button } from '@ezviz/evvd';
+import { message, Button } from '@ezviz/ezd';
 
 const success = () => {
   const hide = message.loading('Action in progress..', 0);

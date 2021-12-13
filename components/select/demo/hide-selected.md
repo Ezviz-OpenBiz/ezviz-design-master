@@ -14,7 +14,7 @@ title:
 Hide already selected options in the dropdown.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 
 const OPTIONS = ['Apples', 'Nails', 'Bananas', 'Helicopters'];
 

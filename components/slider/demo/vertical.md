@@ -14,7 +14,7 @@ title:
 The vertical Slider.
 
 ```jsx
-import { Slider } from '@ezviz/evvd';
+import { Slider } from '@ezviz/ezd';
 
 const style = {
   display: 'inline-block',

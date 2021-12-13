@@ -14,7 +14,7 @@ title:
 A group of radio components.
 
 ```jsx
-import { Radio } from '@ezviz/evvd';
+import { Radio } from '@ezviz/ezd';
 
 const App = () => {
   const [value, setValue] = React.useState(1);

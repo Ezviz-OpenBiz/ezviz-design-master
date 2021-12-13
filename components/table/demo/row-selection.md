@@ -19,7 +19,7 @@ Rows can be selectable by making first column as a selectable column. You can us
 
 ```tsx
 import React, { useState } from 'react';
-import { Table, Radio, Divider } from '@ezviz/evvd';
+import { Table, Radio, Divider } from '@ezviz/ezd';
 
 const columns = [
   {

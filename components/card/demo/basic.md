@@ -14,7 +14,7 @@ title:
 A basic card containing a title, content and an extra corner content. Supports two sizes: `default` and `small`.
 
 ```jsx
-import { Card } from '@ezviz/evvd';
+import { Card } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

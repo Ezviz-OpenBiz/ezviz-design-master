@@ -14,17 +14,17 @@ title:
 Use skeleton in list component.
 
 ```jsx
-import { Skeleton, Switch, List, Avatar } from '@ezviz/evvd';
+import { Skeleton, Switch, List, Avatar } from '@ezviz/ezd';
 import { StarOutlined, LikeOutlined, MessageOutlined } from '@ant-design/icons';
 
 const listData = [];
 for (let i = 0; i < 3; i++) {
   listData.push({
     href: 'https://ant.design',
-    title: `Evv Design part ${i}`,
+    title: `EZ Design part ${i}`,
     avatar: 'https://joeschmoe.io/api/v1/random',
     description:
-      'Evv Design, a design language for background applications, is refined by Ant UED Team.',
+      'EZ Design, a design language for background applications, is refined by Ant UED Team.',
     content:
       'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
   });

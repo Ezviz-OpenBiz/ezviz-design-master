@@ -1,9 +1,9 @@
 ---
 order: 0
-title: Evv Design of React
+title: EZ Design of React
 ---
 
-`@ezviz/evvd` 是基于 Evv Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
+`@ezviz/ezd` 是基于 EZ Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
 
 <div class="pic-plus">
   <img width="150" src="https://es.ys7.com/ys/img/logo.256e18ae.png"/>
@@ -54,23 +54,23 @@ title: Evv Design of React
 **我们推荐使用 npm 或 yarn 的方式进行开发**，不仅可在开发环境轻松调试，也可放心地在生产环境打包部署使用，享受整个生态圈和工具链带来的诸多好处。
 
 ```bash
-$ npm install @ezviz/evvd --save
+$ npm install @ezviz/ezd --save
 ```
 
 ```bash
-$ yarn add @ezviz/evvd
+$ yarn add @ezviz/ezd
 ```
 
 如果你的网络环境不佳，推荐使用 [cnpm](https://github.com/cnpm/cnpm)。
 
 ### 浏览器引入
 
-在浏览器中使用 `script` 和 `link` 标签直接引入文件，并使用全局变量 `@ezviz/evvd`。
+在浏览器中使用 `script` 和 `link` 标签直接引入文件，并使用全局变量 `@ezviz/ezd`。
 
 ## 示例
 
 ```jsx
-import { DatePicker } from '@ezviz/evvd';
+import { DatePicker } from '@ezviz/ezd';
 
 ReactDOM.render(<DatePicker />, mountNode);
 ```
@@ -78,13 +78,13 @@ ReactDOM.render(<DatePicker />, mountNode);
 引入样式：
 
 ```jsx
-import '@ezviz/evvd/dist/@ezviz/evvd.css'; // or '@ezviz/evvd/dist/@ezviz/evvd.less'
+import '@ezviz/ezd/dist/@ezviz/ezd.css'; // or '@ezviz/ezd/dist/@ezviz/ezd.less'
 ```
 
 ### 按需加载
 
-`@ezviz/evvd` 的 JS 代码默认支持基于 ES modules 的 tree shaking。
+`@ezviz/ezd` 的 JS 代码默认支持基于 ES modules 的 tree shaking。
 
 ### TypeScript
 
-`@ezviz/evvd` 使用 TypeScript 进行书写并提供了完整的定义文件。（不要引用 `@types/@ezviz/evvd`）。
+`@ezviz/ezd` 使用 TypeScript 进行书写并提供了完整的定义文件。（不要引用 `@types/@ezviz/ezd`）。

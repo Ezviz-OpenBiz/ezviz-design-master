@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```tsx
-import { Anchor } from '@ezviz/evvd';
+import { Anchor } from '@ezviz/ezd';
 
 const { Link } = Anchor;
 

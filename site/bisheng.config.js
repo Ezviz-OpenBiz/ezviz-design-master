@@ -34,14 +34,12 @@ module.exports = {
     docs: './docs',
     changelog: ['CHANGELOG.zh-CN.md', 'CHANGELOG.en-US.md'],
     'components/form/v3': ['components/form/v3.zh-CN.md', 'components/form/v3.en-US.md'],
-    'docs/resources': ['./docs/resources.zh-CN.md', './docs/resources.en-US.md'],
   },
   theme: './site/theme',
   htmlTemplate: './site/theme/static/template.html',
   themeConfig,
-  root: "/evvd/",
+  root: "/ezd/",
   filePathMapper(filePath) {
-    console.log("filePath:",filePath)
     if (filePath === '/index.html') {
       return ['/index.html', '/index-cn.html'];
     }
@@ -64,7 +62,7 @@ module.exports = {
   },
   webpackConfig(config) {
     config.resolve.alias = {
-      '@ezviz/evvd': 'antd',
+      '@ezviz/ezd': 'antd',
       'antd/lib': path.join(process.cwd(), 'components'),
       'antd/es': path.join(process.cwd(), 'components'),
       // Change antd from `index.js` to `site/antd.js` to remove deps of root style

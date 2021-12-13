@@ -14,7 +14,7 @@ title:
 Communicated with other components.
 
 ```jsx
-import { Checkbox, Button } from '@ezviz/evvd';
+import { Checkbox, Button } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

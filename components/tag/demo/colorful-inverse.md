@@ -15,7 +15,7 @@ debug: true
 Internal inverse color tag
 
 ```jsx
-import { Tag, Divider } from '@ezviz/evvd';
+import { Tag, Divider } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

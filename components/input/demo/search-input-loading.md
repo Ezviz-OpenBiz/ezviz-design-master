@@ -14,7 +14,7 @@ title:
 Search loading when onSearch.
 
 ```jsx
-import { Input } from '@ezviz/evvd';
+import { Input } from '@ezviz/ezd';
 
 const { Search } = Input;
 

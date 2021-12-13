@@ -14,7 +14,7 @@ title:
 Use a form in Drawer with a submit button.
 
 ```jsx
-import { Drawer, Form, Button, Col, Row, Input, Select, DatePicker, Space } from '@ezviz/evvd';
+import { Drawer, Form, Button, Col, Row, Input, Select, DatePicker, Space } from '@ezviz/ezd';
 import { PlusOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

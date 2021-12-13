@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```jsx
-import { Steps, Button } from '@ezviz/evvd';
+import { Steps, Button } from '@ezviz/ezd';
 
 const { Step } = Steps;
 

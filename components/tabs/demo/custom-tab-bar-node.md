@@ -14,7 +14,7 @@ title:
 Use `react-dnd` to make tabs draggable.
 
 ```jsx
-import { Tabs } from '@ezviz/evvd';
+import { Tabs } from '@ezviz/ezd';
 import { DndProvider, DragSource, DropTarget } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 

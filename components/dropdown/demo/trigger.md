@@ -14,7 +14,7 @@ title:
 The default trigger mode is `hover`, you can change it to `click`.
 
 ```jsx
-import { Menu, Dropdown } from '@ezviz/evvd';
+import { Menu, Dropdown } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = (

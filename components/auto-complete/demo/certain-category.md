@@ -14,7 +14,7 @@ title:
 Demonstration of [Lookup Patterns: Certain Category](https://ant.design/docs/spec/reaction#Lookup-Patterns). Basic Usage, set options of autocomplete with `options` property.
 
 ```tsx
-import { Input, AutoComplete } from '@ezviz/evvd';
+import { Input, AutoComplete } from '@ezviz/ezd';
 import { UserOutlined } from '@ant-design/icons';
 
 const renderTitle = (title: string) => (
@@ -22,7 +22,7 @@ const renderTitle = (title: string) => (
     {title}
     <a
       style={{ float: 'right' }}
-      href="https://www.google.com/search?q=antd"
+      href="https://www.google.com/search?q=ezd"
       target="_blank"
       rel="noopener noreferrer"
     >

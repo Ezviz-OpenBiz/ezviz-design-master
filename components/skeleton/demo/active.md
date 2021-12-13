@@ -14,7 +14,7 @@ title:
 Display active animation.
 
 ```jsx
-import { Skeleton } from '@ezviz/evvd';
+import { Skeleton } from '@ezviz/ezd';
 
 ReactDOM.render(<Skeleton active />, mountNode);
 ```

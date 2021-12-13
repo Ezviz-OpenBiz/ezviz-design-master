@@ -14,7 +14,7 @@ title:
 There are 12 `placement` options available.
 
 ```jsx
-import { Popover, Button } from '@ezviz/evvd';
+import { Popover, Button } from '@ezviz/ezd';
 
 const text = <span>Title</span>;
 const content = (

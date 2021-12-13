@@ -15,7 +15,7 @@ value 和 onChange 需要配合使用。
 
 ```jsx
 import React, { useState } from 'react';
-import { TimePicker } from '@ezviz/evvd';
+import { TimePicker } from '@ezviz/ezd';
 
 const Demo = () => {
   const [value, setValue] = useState(null);

@@ -1,13 +1,9 @@
 import * as React from 'react';
-import { FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 import { Typography } from 'antd';
-import { Link } from 'bisheng/router';
 import Banner from './Banner';
-import RecommendPage from './RecommendPage';
 import DesignPage from './DesignPage';
-import MorePage from './MorePage';
 import Footer from '../Layout/Footer';
-import { getLocalizedPathname } from '../utils';
 import './index.less';
 
 const { Title } = Typography;
@@ -44,22 +40,6 @@ const BlockContent: React.FC<BlockContentProps> = ({ title, children, extra }) =
 
 const Home = (props: { location: any }) => {
   const { location } = props;
-  const { locale } = useIntl();
-  const isZhCN = locale === 'zh-CN';
-
-  const getLink = () => {
-    const path = getLocalizedPathname('/docs/resources', isZhCN, location.query, {
-      zhCN: '文章',
-      enUS: 'Articles',
-    });
-    const { pathname, query } = path;
-    const pathnames = pathname.split('#');
-    if ('direction' in query) {
-      return `${pathnames[0]}?direction=rtl#${pathnames[1]}`;
-    }
-    return path;
-  };
-
   return (
     <div className="home-container">
       <style dangerouslySetInnerHTML={{ __html: getStyle() }} />

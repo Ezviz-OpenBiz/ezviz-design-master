@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```tsx
-import { Form, Input } from '@ezviz/evvd';
+import { Form, Input } from '@ezviz/ezd';
 
 let acc = 0;
 

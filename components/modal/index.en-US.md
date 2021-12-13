@@ -9,7 +9,7 @@ Modal dialogs.
 
 ## When To Use
 
-When requiring users to interact with the application, but without jumping to a new page and interrupting the user's workflow, you can use `Modal` to create a new floating layer over the current page to get user feedback or display information. Additionally, if you need show a simple confirmation dialog, you can use `antd.Modal.confirm()`, and so on.
+When requiring users to interact with the application, but without jumping to a new page and interrupting the user's workflow, you can use `Modal` to create a new floating layer over the current page to get user feedback or display information. Additionally, if you need show a simple confirmation dialog, you can use `@ezviz/ezd.Modal.confirm()`, and so on.
 
 ## API
 
@@ -143,7 +143,7 @@ return <div>{contextHolder}</div>;
 
 ### Why I can not access context, redux, ConfigProvider `locale/prefixCls` in Modal.xxx?
 
-antd will dynamic create React instance by `ReactDOM.render` when call Modal methods. Whose context is different with origin code located context.
+@ezviz/ezd will dynamic create React instance by `ReactDOM.render` when call Modal methods. Whose context is different with origin code located context.
 
 When you need context info (like ConfigProvider context), you can use `Modal.useModal` to get `modal` instance and `contextHolder` node. And put it in your children:
 

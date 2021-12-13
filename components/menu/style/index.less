@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import './status';
 
-@menu-prefix-cls: ~'@{ant-prefix}-menu';
+@menu-prefix-cls: ~'@{ezd-prefix}-menu';
 @menu-animation-duration-normal: 0.15s;
 
 .accessibility-focus() {
@@ -113,7 +113,7 @@
   }
 
   // https://github.com/ant-design/ant-design/issues/19809
-  &-item > .@{ant-prefix}-badge a {
+  &-item > .@{ezd-prefix}-badge a {
     color: @menu-item-color;
 
     &:hover {
@@ -681,7 +681,7 @@
 }
 
 // Integration with header element so menu items have the same height
-.@{ant-prefix}-layout-header {
+.@{ezd-prefix}-layout-header {
   .@{menu-prefix-cls} {
     line-height: inherit;
   }

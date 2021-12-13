@@ -14,7 +14,7 @@ title:
 Add copywriting in rate components.
 
 ```jsx
-import { Rate } from '@ezviz/evvd';
+import { Rate } from '@ezviz/ezd';
 
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
 

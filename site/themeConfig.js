@@ -6,7 +6,7 @@
  */
 module.exports = {
   categoryOrder: {
-    'Evv Design': 0,
+    'EZ Design': 0,
     全局样式: 1,
     'Global Styles': 1,
     设计模式: 2,

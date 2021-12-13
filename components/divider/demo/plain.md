@@ -14,7 +14,7 @@ title:
 You can use non-heading style of divider text by setting `plain`.
 
 ```jsx
-import { Divider } from '@ezviz/evvd';
+import { Divider } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

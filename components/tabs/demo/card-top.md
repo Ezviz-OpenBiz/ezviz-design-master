@@ -14,7 +14,7 @@ title:
 Should be used at the top of container, needs to override styles.
 
 ```jsx
-import { Tabs } from '@ezviz/evvd';
+import { Tabs } from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 

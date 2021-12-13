@@ -14,7 +14,7 @@ title:
 Click the image to zoom in.
 
 ```jsx
-import { Image } from '@ezviz/evvd';
+import { Image } from '@ezviz/ezd';
 
 function ImageDemo() {
   return (

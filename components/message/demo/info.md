@@ -14,7 +14,7 @@ title:
 Normal message for information.
 
 ```jsx
-import { message, Button } from '@ezviz/evvd';
+import { message, Button } from '@ezviz/ezd';
 
 const info = () => {
   message.info('This is a normal message');

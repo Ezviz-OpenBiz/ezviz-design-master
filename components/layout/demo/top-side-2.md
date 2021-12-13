@@ -14,7 +14,7 @@ title:
 Both the top navigation and the sidebar, commonly used in application site.
 
 ```jsx
-import { Layout, Menu, Breadcrumb } from '@ezviz/evvd';
+import { Layout, Menu, Breadcrumb } from '@ezviz/ezd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

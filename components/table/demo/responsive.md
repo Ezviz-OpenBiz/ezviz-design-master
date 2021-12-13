@@ -14,7 +14,7 @@ title:
 Responsive columns.
 
 ```jsx
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 const columns = [
   {

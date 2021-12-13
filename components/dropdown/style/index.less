@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import './status';
 
-@dropdown-prefix-cls: ~'@{ant-prefix}-dropdown';
+@dropdown-prefix-cls: ~'@{ezd-prefix}-dropdown';
 
 .@{dropdown-prefix-cls} {
   .reset-component();
@@ -27,7 +27,7 @@
   &-wrap {
     position: relative;
 
-    .@{ant-prefix}-btn > .@{iconfont-css-prefix}-down {
+    .@{ezd-prefix}-btn > .@{iconfont-css-prefix}-down {
       font-size: 10px;
     }
 
@@ -294,37 +294,37 @@
 
     // https://github.com/ant-design/ant-design/issues/19264
     &-submenu-selected &-submenu-title {
-      color: @primary-color;
+      color: @ezd-primary-color;
     }
   }
 
-  &.@{ant-prefix}-slide-down-enter.@{ant-prefix}-slide-down-enter-active&-placement-bottomLeft,
-  &.@{ant-prefix}-slide-down-appear.@{ant-prefix}-slide-down-appear-active&-placement-bottomLeft,
-  &.@{ant-prefix}-slide-down-enter.@{ant-prefix}-slide-down-enter-active&-placement-bottomCenter,
-  &.@{ant-prefix}-slide-down-appear.@{ant-prefix}-slide-down-appear-active&-placement-bottomCenter,
-  &.@{ant-prefix}-slide-down-enter.@{ant-prefix}-slide-down-enter-active&-placement-bottomRight,
-  &.@{ant-prefix}-slide-down-appear.@{ant-prefix}-slide-down-appear-active&-placement-bottomRight {
+  &.@{ezd-prefix}-slide-down-enter.@{ezd-prefix}-slide-down-enter-active&-placement-bottomLeft,
+  &.@{ezd-prefix}-slide-down-appear.@{ezd-prefix}-slide-down-appear-active&-placement-bottomLeft,
+  &.@{ezd-prefix}-slide-down-enter.@{ezd-prefix}-slide-down-enter-active&-placement-bottomCenter,
+  &.@{ezd-prefix}-slide-down-appear.@{ezd-prefix}-slide-down-appear-active&-placement-bottomCenter,
+  &.@{ezd-prefix}-slide-down-enter.@{ezd-prefix}-slide-down-enter-active&-placement-bottomRight,
+  &.@{ezd-prefix}-slide-down-appear.@{ezd-prefix}-slide-down-appear-active&-placement-bottomRight {
     animation-name: antSlideUpIn;
   }
 
-  &.@{ant-prefix}-slide-up-enter.@{ant-prefix}-slide-up-enter-active&-placement-topLeft,
-  &.@{ant-prefix}-slide-up-appear.@{ant-prefix}-slide-up-appear-active&-placement-topLeft,
-  &.@{ant-prefix}-slide-up-enter.@{ant-prefix}-slide-up-enter-active&-placement-topCenter,
-  &.@{ant-prefix}-slide-up-appear.@{ant-prefix}-slide-up-appear-active&-placement-topCenter,
-  &.@{ant-prefix}-slide-up-enter.@{ant-prefix}-slide-up-enter-active&-placement-topRight,
-  &.@{ant-prefix}-slide-up-appear.@{ant-prefix}-slide-up-appear-active&-placement-topRight {
+  &.@{ezd-prefix}-slide-up-enter.@{ezd-prefix}-slide-up-enter-active&-placement-topLeft,
+  &.@{ezd-prefix}-slide-up-appear.@{ezd-prefix}-slide-up-appear-active&-placement-topLeft,
+  &.@{ezd-prefix}-slide-up-enter.@{ezd-prefix}-slide-up-enter-active&-placement-topCenter,
+  &.@{ezd-prefix}-slide-up-appear.@{ezd-prefix}-slide-up-appear-active&-placement-topCenter,
+  &.@{ezd-prefix}-slide-up-enter.@{ezd-prefix}-slide-up-enter-active&-placement-topRight,
+  &.@{ezd-prefix}-slide-up-appear.@{ezd-prefix}-slide-up-appear-active&-placement-topRight {
     animation-name: antSlideDownIn;
   }
 
-  &.@{ant-prefix}-slide-down-leave.@{ant-prefix}-slide-down-leave-active&-placement-bottomLeft,
-  &.@{ant-prefix}-slide-down-leave.@{ant-prefix}-slide-down-leave-active&-placement-bottomCenter,
-  &.@{ant-prefix}-slide-down-leave.@{ant-prefix}-slide-down-leave-active&-placement-bottomRight {
+  &.@{ezd-prefix}-slide-down-leave.@{ezd-prefix}-slide-down-leave-active&-placement-bottomLeft,
+  &.@{ezd-prefix}-slide-down-leave.@{ezd-prefix}-slide-down-leave-active&-placement-bottomCenter,
+  &.@{ezd-prefix}-slide-down-leave.@{ezd-prefix}-slide-down-leave-active&-placement-bottomRight {
     animation-name: antSlideUpOut;
   }
 
-  &.@{ant-prefix}-slide-up-leave.@{ant-prefix}-slide-up-leave-active&-placement-topLeft,
-  &.@{ant-prefix}-slide-up-leave.@{ant-prefix}-slide-up-leave-active&-placement-topCenter,
-  &.@{ant-prefix}-slide-up-leave.@{ant-prefix}-slide-up-leave-active&-placement-topRight {
+  &.@{ezd-prefix}-slide-up-leave.@{ezd-prefix}-slide-up-leave-active&-placement-topLeft,
+  &.@{ezd-prefix}-slide-up-leave.@{ezd-prefix}-slide-up-leave-active&-placement-topCenter,
+  &.@{ezd-prefix}-slide-up-leave.@{ezd-prefix}-slide-up-leave-active&-placement-topRight {
     animation-name: antSlideDownOut;
   }
 }
@@ -341,8 +341,8 @@
 .@{dropdown-prefix-cls}-button {
   white-space: nowrap;
 
-  &.@{ant-prefix}-btn-group
-    > .@{ant-prefix}-btn:last-child:not(:first-child):not(.@{ant-prefix}-btn-icon-only) {
+  &.@{ezd-prefix}-btn-group
+    > .@{ezd-prefix}-btn:last-child:not(:first-child):not(.@{ezd-prefix}-btn-icon-only) {
     padding-right: @padding-xs;
     padding-left: @padding-xs;
   }
@@ -373,7 +373,7 @@
     &:hover,
     > a {
       color: @text-color-inverse;
-      background: @primary-color;
+      background: @ezd-primary-color;
     }
   }
 }

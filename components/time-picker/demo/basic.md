@@ -14,7 +14,7 @@ title:
 Click `TimePicker`, and then we could select or input a time in panel.
 
 ```jsx
-import { TimePicker } from '@ezviz/evvd';
+import { TimePicker } from '@ezviz/ezd';
 import moment from 'moment';
 
 function onChange(time, timeString) {

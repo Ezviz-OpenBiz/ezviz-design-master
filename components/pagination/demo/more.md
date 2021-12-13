@@ -14,7 +14,7 @@ title:
 More pages.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 ReactDOM.render(<Pagination defaultCurrent={6} total={500} />, mountNode);
 ```

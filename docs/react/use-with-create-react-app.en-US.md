@@ -3,7 +3,7 @@ order: 4
 title: Use in create-react-app
 ---
 
-[create-react-app](https://github.com/facebookincubator/create-react-app) is one of the best React application development tools. We are going to use `@ezviz/evvd` within it and modify the webpack config for some customized needs.
+[create-react-app](https://github.com/facebookincubator/create-react-app) is one of the best React application development tools. We are going to use `@ezviz/ezd` within it and modify the webpack config for some customized needs.
 
 ---
 
@@ -12,25 +12,25 @@ title: Use in create-react-app
 Before all start, you may need install [yarn](https://github.com/yarnpkg/yarn/).
 
 ```bash
-$ yarn create react-app evvd-demo
+$ yarn create react-app ezd-demo
 
 # or
 
-$ npx create-react-app evvd-demo
+$ npx create-react-app ezd-demo
 ```
 
 The tool will create and initialize environment and dependencies automatically, please try config your proxy setting or use another npm registry if any network errors happen during it.
 
-Then we go inside `evvd-demo` and start it.
+Then we go inside `ezd-demo` and start it.
 
 ```bash
-$ cd evvd-demo
+$ cd ezd-demo
 $ yarn start
 ```
 
 Open the browser at http://localhost:3000/. It renders a header saying "Welcome to React" on the page.
 
-## Import @ezviz/evvd
+## Import @ezviz/ezd
 
 Below is the default directory structure.
 
@@ -50,17 +50,17 @@ Below is the default directory structure.
 └── yarn.lock
 ```
 
-Now we install `@ezviz/evvd` from yarn or npm.
+Now we install `@ezviz/ezd` from yarn or npm.
 
 ```bash
-$ yarn add @ezviz/evvd
+$ yarn add @ezviz/ezd
 ```
 
-Modify `src/App.js`, import Button component from `@ezviz/evvd`.
+Modify `src/App.js`, import Button component from `@ezviz/ezd`.
 
 ```jsx
 import React from 'react';
-import { Button } from '@ezviz/evvd';
+import { Button } from '@ezviz/ezd';
 import './App.css';
 
 const App = () => (
@@ -72,15 +72,15 @@ const App = () => (
 export default App;
 ```
 
-Add `@ezviz/evvd/dist/@ezviz/evvd.css` at the top of `src/App.css`.
+Add `@ezviz/ezd/dist/@ezviz/ezd.css` at the top of `src/App.css`.
 
 ```css
-@import '~@ezviz/evvd/dist/@ezviz/evvd.css';
+@import '~@ezviz/ezd/dist/@ezviz/ezd.css';
 ```
 
-OK, you should now see a blue primary button displayed on the page. Next you can choose any components of `@ezviz/evvd` to develop your application. Visit other workflows of `create-react-app` at its [User Guide](https://create-react-app.dev/docs/getting-started).
+OK, you should now see a blue primary button displayed on the page. Next you can choose any components of `@ezviz/ezd` to develop your application. Visit other workflows of `create-react-app` at its [User Guide](https://create-react-app.dev/docs/getting-started).
 
-We are successfully running @ezviz/evvd components now, go build your own application!
+We are successfully running @ezviz/ezd components now, go build your own application!
 
 
 ## Advanced Guides
@@ -128,8 +128,8 @@ First we should modify `src/App.css` to `src/App.less`, then import less file in
 
 ```diff
 /* src/App.less */
-- @import '~@ezviz/evvd/dist/@ezviz/evvd.css';
-+ @import '~@ezviz/evvd/dist/@ezviz/evvd.less';
+- @import '~@ezviz/ezd/dist/@ezviz/ezd.css';
++ @import '~@ezviz/ezd/dist/@ezviz/ezd.less';
 ```
 
 Then install `craco-less` and modify `craco.config.js` like below.
@@ -148,7 +148,7 @@ module.exports = {
       options: {
         lessLoaderOptions: {
           lessOptions: {
-            modifyVars: { '@primary-color': '#1DA57A' },
+            modifyVars: { '@ezd-primary-color': '#1DA57A' },
             javascriptEnabled: true,
           },
         },
@@ -160,7 +160,7 @@ module.exports = {
 
 By adding `modifyVars` option of [less-loader](https://github.com/webpack/less-loader#less-options) here, we should see a green button rendered on the page after rebooting the server now.
 
-We provide built-in dark theme and compact theme in @ezviz/evvd, you can reference to [Use dark or compact theme](/docs/react/customize-theme#Use-dark-or-compact-theme).
+We provide built-in dark theme and compact theme in @ezviz/ezd, you can reference to [Use dark or compact theme](/docs/react/customize-theme#Use-dark-or-compact-theme).
 
 > You could also try [react-app-rewired](https://github.com/timarney/react-app-rewired) and [customize-cra](https://github.com/arackaf/customize-cra) to customize create-react-app webpack config like craco did.
 

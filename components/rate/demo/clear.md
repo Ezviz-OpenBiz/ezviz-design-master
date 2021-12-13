@@ -14,7 +14,7 @@ title:
 Support set allow to clear star when click again.
 
 ```jsx
-import { Rate } from '@ezviz/evvd';
+import { Rate } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

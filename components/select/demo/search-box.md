@@ -14,7 +14,7 @@ title:
 Search with remote data.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 import jsonp from 'fetch-jsonp';
 import querystring from 'querystring';
 

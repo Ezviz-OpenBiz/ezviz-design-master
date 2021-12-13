@@ -14,7 +14,7 @@ title:
 Generate a group of checkboxes from an array.
 
 ```jsx
-import { Checkbox } from '@ezviz/evvd';
+import { Checkbox } from '@ezviz/ezd';
 
 function onChange(checkedValues) {
   console.log('checked = ', checkedValues);

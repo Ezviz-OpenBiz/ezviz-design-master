@@ -14,7 +14,7 @@ title:
 Select different settings to see the result.
 
 ```jsx
-import { Table, Switch, Radio, Form, Space } from '@ezviz/evvd';
+import { Table, Switch, Radio, Form, Space } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const columns = [

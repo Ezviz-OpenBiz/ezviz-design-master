@@ -14,7 +14,7 @@ title:
 Make range track draggable when set `range.draggableTrack`.
 
 ```jsx
-import { Slider } from '@ezviz/evvd';
+import { Slider } from '@ezviz/ezd';
 
 ReactDOM.render(<Slider range={{ draggableTrack: true }} defaultValue={[20, 50]} />, mountNode);
 ```

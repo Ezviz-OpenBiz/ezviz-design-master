@@ -14,7 +14,7 @@ title:
 A circular progress bar.
 
 ```jsx
-import { Progress } from '@ezviz/evvd';
+import { Progress } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

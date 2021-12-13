@@ -43,8 +43,8 @@ function ignoreMomentLocale(webpackConfig) {
 }
 
 function addLocales(webpackConfig) {
-  let packageName = '@ezviz/evvd-with-locales';
-  if (webpackConfig.entry['@ezviz/evvd.min']) {
+  let packageName = '@ezviz/ezd-with-locales';
+  if (webpackConfig.entry['@ezviz/ezd.min']) {
     packageName += '.min';
   }
   webpackConfig.entry[packageName] = './index-with-locales.js';
@@ -96,7 +96,7 @@ function processWebpackThemeConfig(themeConfig, theme, vars) {
         console.log(chalk.red('🆘 Seems entry has changed! It should be `./index`'));
       }
 
-      config.entry[entryName.replace('@ezviz/evvd', `@ezviz/evvd.${theme}`)] = replacedPath;
+      config.entry[entryName.replace('@ezviz/ezd', `@ezviz/ezd.${theme}`)] = replacedPath;
       delete config.entry[entryName];
     });
 

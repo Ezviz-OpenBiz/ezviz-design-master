@@ -14,7 +14,7 @@ title:
 Click the button to toggle between available and disabled states.
 
 ```jsx
-import { InputNumber, Button } from '@ezviz/evvd';
+import { InputNumber, Button } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

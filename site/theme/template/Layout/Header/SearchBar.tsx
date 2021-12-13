@@ -4,7 +4,7 @@ import { Link } from 'bisheng/router';
 import classNames from 'classnames';
 import { Helmet } from 'react-helmet-async';
 import canUseDom from 'rc-util/lib/Dom/canUseDom';
-import { Input, Tooltip, Typography } from 'antd';
+import { Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import { DocSearchProps, useDocSearchKeyboardEvents, DocSearchModalProps } from '@docsearch/react';
 import '@docsearch/css';
@@ -13,7 +13,6 @@ import { IAlgoliaConfig, transformHitUrl } from './algolia-config';
 
 import './SearchBar.less';
 
-const { Text } = Typography;
 
 export interface SearchBarProps extends SharedProps {
   onTriggerFocus?: (focus: boolean) => void;
@@ -29,12 +28,6 @@ const Hit: DocSearchProps['hitComponent'] = ({ hit, children }) => {
   return <Link to={toUrl}>{children}</Link>;
 };
 
-const CTRL_KEY = 'Ctrl';
-const CMD_KEY = '⌘';
-
-function isAppleDevice() {
-  return /(mac|iphone|ipod|ipad)/i.test(navigator.platform);
-}
 
 /**
  * Recompose for algolia DocSearch Component Inspiring by

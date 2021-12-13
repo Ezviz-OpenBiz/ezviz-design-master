@@ -14,7 +14,7 @@ title:
 You can add an icon beside the slider to make it meaningful.
 
 ```jsx
-import { Slider } from '@ezviz/evvd';
+import { Slider } from '@ezviz/ezd';
 import { FrownOutlined, SmileOutlined } from '@ant-design/icons';
 
 class IconSlider extends React.Component {

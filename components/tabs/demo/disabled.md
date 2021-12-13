@@ -14,7 +14,7 @@ title:
 Disabled a tab.
 
 ```jsx
-import { Tabs } from '@ezviz/evvd';
+import { Tabs } from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 

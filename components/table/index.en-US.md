@@ -232,8 +232,8 @@ Properties for row selection.
 ## Using in TypeScript
 
 ```tsx
-import { Table } from '@ezviz/evvd';
-import { ColumnsType } from 'antd/es/table';
+import { Table } from '@ezviz/ezd';
+import { ColumnsType } from '@ezviz/ezd/es/table';
 
 interface User {
   key: number;

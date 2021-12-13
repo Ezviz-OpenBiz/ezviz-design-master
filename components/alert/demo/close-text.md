@@ -14,7 +14,7 @@ title:
 Replace the default icon with customized text.
 
 ```tsx
-import { Alert } from '@ezviz/evvd';
+import { Alert } from '@ezviz/ezd';
 
 ReactDOM.render(<Alert message="Info Text" type="info" closeText="Close Now" />, mountNode);
 ```

@@ -14,7 +14,7 @@ title:
 Do not change state when page is scrolling.
 
 ```tsx
-import { Anchor } from '@ezviz/evvd';
+import { Anchor } from '@ezviz/ezd';
 
 const { Link } = Anchor;
 

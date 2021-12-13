@@ -14,7 +14,7 @@ title:
 The result of the warning.
 
 ```jsx
-import { Result, Button } from '@ezviz/evvd';
+import { Result, Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Result

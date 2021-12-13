@@ -5,7 +5,7 @@
 @theme: variable;
 
 // The prefix to use on all css classes from ant.
-@ant-prefix: ant;
+@ezd-prefix: ant;
 
 // An override for the html selector for theme prefixes
 @html-selector: html;
@@ -14,99 +14,99 @@ html {
   @base-primary: @blue-6;
 
   // ========= Primary Color =========
-  --@{ant-prefix}-primary-color: @base-primary;
-  --@{ant-prefix}-primary-color-hover: color(~`colorPalette('@{base-primary}', 5) `);
-  --@{ant-prefix}-primary-color-active: color(~`colorPalette('@{base-primary}', 7) `);
-  --@{ant-prefix}-primary-color-outline: fade(@base-primary, @outline-fade);
+  --@{ezd-prefix}-primary-color: @base-primary;
+  --@{ezd-prefix}-primary-color-hover: color(~`colorPalette('@{base-primary}', 5) `);
+  --@{ezd-prefix}-primary-color-active: color(~`colorPalette('@{base-primary}', 7) `);
+  --@{ezd-prefix}-primary-color-outline: fade(@base-primary, @outline-fade);
 
   // Legacy
   @legacy-primary-1: color(~`colorPalette('@{base-primary}', 1) `);
 
-  --@{ant-prefix}-primary-1: @legacy-primary-1;
-  --@{ant-prefix}-primary-2: color(~`colorPalette('@{base-primary}', 2) `);
-  --@{ant-prefix}-primary-3: color(~`colorPalette('@{base-primary}', 3) `);
-  --@{ant-prefix}-primary-4: color(~`colorPalette('@{base-primary}', 4) `);
-  --@{ant-prefix}-primary-5: color(~`colorPalette('@{base-primary}', 5) `);
-  --@{ant-prefix}-primary-6: @base-primary;
-  --@{ant-prefix}-primary-7: color(~`colorPalette('@{base-primary}', 7) `);
+  --@{ezd-prefix}-primary-1: @legacy-primary-1;
+  --@{ezd-prefix}-primary-2: color(~`colorPalette('@{base-primary}', 2) `);
+  --@{ezd-prefix}-primary-3: color(~`colorPalette('@{base-primary}', 3) `);
+  --@{ezd-prefix}-primary-4: color(~`colorPalette('@{base-primary}', 4) `);
+  --@{ezd-prefix}-primary-5: color(~`colorPalette('@{base-primary}', 5) `);
+  --@{ezd-prefix}-primary-6: @base-primary;
+  --@{ezd-prefix}-primary-7: color(~`colorPalette('@{base-primary}', 7) `);
 
   // Deprecated
-  --@{ant-prefix}-primary-color-deprecated-pure: ~'';
-  --@{ant-prefix}-primary-color-deprecated-l-35: lighten(@base-primary, 35%);
-  --@{ant-prefix}-primary-color-deprecated-l-20: lighten(@base-primary, 20%);
-  --@{ant-prefix}-primary-color-deprecated-t-20: tint(@base-primary, 20%);
-  --@{ant-prefix}-primary-color-deprecated-t-50: tint(@base-primary, 50%);
-  --@{ant-prefix}-primary-color-deprecated-f-12: fade(@base-primary, 12%);
-  --@{ant-prefix}-primary-color-active-deprecated-f-30: fade(@legacy-primary-1, 30%);
-  --@{ant-prefix}-primary-color-active-deprecated-d-02: darken(@legacy-primary-1, 2%);
+  --@{ezd-prefix}-primary-color-deprecated-pure: ~'';
+  --@{ezd-prefix}-primary-color-deprecated-l-35: lighten(@base-primary, 35%);
+  --@{ezd-prefix}-primary-color-deprecated-l-20: lighten(@base-primary, 20%);
+  --@{ezd-prefix}-primary-color-deprecated-t-20: tint(@base-primary, 20%);
+  --@{ezd-prefix}-primary-color-deprecated-t-50: tint(@base-primary, 50%);
+  --@{ezd-prefix}-primary-color-deprecated-f-12: fade(@base-primary, 12%);
+  --@{ezd-prefix}-primary-color-active-deprecated-f-30: fade(@legacy-primary-1, 30%);
+  --@{ezd-prefix}-primary-color-active-deprecated-d-02: darken(@legacy-primary-1, 2%);
 
   // ========= Success Color =========
-  --@{ant-prefix}-success-color: @green-6;
-  --@{ant-prefix}-success-color-hover: color(~`colorPalette('@{green-6}', 5) `);
-  --@{ant-prefix}-success-color-active: color(~`colorPalette('@{green-6}', 7) `);
-  --@{ant-prefix}-success-color-outline: fade(@green-6, @outline-fade);
-  --@{ant-prefix}-success-color-deprecated-bg: ~`colorPalette('@{green-6}', 1) `;
-  --@{ant-prefix}-success-color-deprecated-border: ~`colorPalette('@{green-6}', 3) `;
+  --@{ezd-prefix}-success-color: @green-6;
+  --@{ezd-prefix}-success-color-hover: color(~`colorPalette('@{green-6}', 5) `);
+  --@{ezd-prefix}-success-color-active: color(~`colorPalette('@{green-6}', 7) `);
+  --@{ezd-prefix}-success-color-outline: fade(@green-6, @outline-fade);
+  --@{ezd-prefix}-success-color-deprecated-bg: ~`colorPalette('@{green-6}', 1) `;
+  --@{ezd-prefix}-success-color-deprecated-border: ~`colorPalette('@{green-6}', 3) `;
 
   // ========== Error Color ==========
-  --@{ant-prefix}-error-color: @red-5;
-  --@{ant-prefix}-error-color-hover: color(~`colorPalette('@{red-5}', 5) `);
-  --@{ant-prefix}-error-color-active: color(~`colorPalette('@{red-5}', 7) `);
-  --@{ant-prefix}-error-color-outline: fade(@red-5, @outline-fade);
-  --@{ant-prefix}-error-color-deprecated-bg: ~`colorPalette('@{red-5}', 1) `;
-  --@{ant-prefix}-error-color-deprecated-border: ~`colorPalette('@{red-5}', 3) `;
+  --@{ezd-prefix}-error-color: @red-5;
+  --@{ezd-prefix}-error-color-hover: color(~`colorPalette('@{red-5}', 5) `);
+  --@{ezd-prefix}-error-color-active: color(~`colorPalette('@{red-5}', 7) `);
+  --@{ezd-prefix}-error-color-outline: fade(@red-5, @outline-fade);
+  --@{ezd-prefix}-error-color-deprecated-bg: ~`colorPalette('@{red-5}', 1) `;
+  --@{ezd-prefix}-error-color-deprecated-border: ~`colorPalette('@{red-5}', 3) `;
 
   // ========= Warning Color =========
-  --@{ant-prefix}-warning-color: @gold-6;
-  --@{ant-prefix}-warning-color-hover: color(~`colorPalette('@{gold-6}', 5) `);
-  --@{ant-prefix}-warning-color-active: color(~`colorPalette('@{gold-6}', 7) `);
-  --@{ant-prefix}-warning-color-outline: fade(@gold-6, @outline-fade);
-  --@{ant-prefix}-warning-color-deprecated-bg: ~`colorPalette('@{gold-6}', 1) `;
-  --@{ant-prefix}-warning-color-deprecated-border: ~`colorPalette('@{gold-6}', 3) `;
+  --@{ezd-prefix}-warning-color: @gold-6;
+  --@{ezd-prefix}-warning-color-hover: color(~`colorPalette('@{gold-6}', 5) `);
+  --@{ezd-prefix}-warning-color-active: color(~`colorPalette('@{gold-6}', 7) `);
+  --@{ezd-prefix}-warning-color-outline: fade(@gold-6, @outline-fade);
+  --@{ezd-prefix}-warning-color-deprecated-bg: ~`colorPalette('@{gold-6}', 1) `;
+  --@{ezd-prefix}-warning-color-deprecated-border: ~`colorPalette('@{gold-6}', 3) `;
 
   // ========== Info Color ===========
-  --@{ant-prefix}-info-color: @base-primary;
-  --@{ant-prefix}-info-color-deprecated-bg: ~`colorPalette('@{base-primary}', 1) `;
-  --@{ant-prefix}-info-color-deprecated-border: ~`colorPalette('@{base-primary}', 3) `;
+  --@{ezd-prefix}-info-color: @base-primary;
+  --@{ezd-prefix}-info-color-deprecated-bg: ~`colorPalette('@{base-primary}', 1) `;
+  --@{ezd-prefix}-info-color-deprecated-border: ~`colorPalette('@{base-primary}', 3) `;
 }
 
 // -------- Colors -----------
 // >>> Primary
-@primary-color: ~'var(--@{ant-prefix}-primary-color)';
-@primary-color-hover: ~'var(--@{ant-prefix}-primary-color-hover)';
-@primary-color-active: ~'var(--@{ant-prefix}-primary-color-active)';
-@primary-color-outline: ~'var(--@{ant-prefix}-primary-color-outline)';
+@ezd-primary-color: ~'var(--@{ezd-prefix}-primary-color)';
+@primary-color-hover: ~'var(--@{ezd-prefix}-primary-color-hover)';
+@primary-color-active: ~'var(--@{ezd-prefix}-primary-color-active)';
+@primary-color-outline: ~'var(--@{ezd-prefix}-primary-color-outline)';
 
-@processing-color: @primary-color;
+@processing-color: @ezd-primary-color;
 
 // >>> Info
-@info-color: ~'var(--@{ant-prefix}-info-color)';
-@info-color-deprecated-bg: ~'var(--@{ant-prefix}-info-color-deprecated-bg)';
-@info-color-deprecated-border: ~'var(--@{ant-prefix}-info-color-deprecated-border)';
+@info-color: ~'var(--@{ezd-prefix}-info-color)';
+@info-color-deprecated-bg: ~'var(--@{ezd-prefix}-info-color-deprecated-bg)';
+@info-color-deprecated-border: ~'var(--@{ezd-prefix}-info-color-deprecated-border)';
 
 // >>> Success
-@success-color: ~'var(--@{ant-prefix}-success-color)';
-@success-color-hover: ~'var(--@{ant-prefix}-success-color-hover)';
-@success-color-active: ~'var(--@{ant-prefix}-success-color-active)';
-@success-color-outline: ~'var(--@{ant-prefix}-success-color-outline)';
-@success-color-deprecated-bg: ~'var(--@{ant-prefix}-success-color-deprecated-bg)';
-@success-color-deprecated-border: ~'var(--@{ant-prefix}-success-color-deprecated-border)';
+@success-color: ~'var(--@{ezd-prefix}-success-color)';
+@success-color-hover: ~'var(--@{ezd-prefix}-success-color-hover)';
+@success-color-active: ~'var(--@{ezd-prefix}-success-color-active)';
+@success-color-outline: ~'var(--@{ezd-prefix}-success-color-outline)';
+@success-color-deprecated-bg: ~'var(--@{ezd-prefix}-success-color-deprecated-bg)';
+@success-color-deprecated-border: ~'var(--@{ezd-prefix}-success-color-deprecated-border)';
 
 // >>> Warning
-@warning-color: ~'var(--@{ant-prefix}-warning-color)';
-@warning-color-hover: ~'var(--@{ant-prefix}-warning-color-hover)';
-@warning-color-active: ~'var(--@{ant-prefix}-warning-color-active)';
-@warning-color-outline: ~'var(--@{ant-prefix}-warning-color-outline)';
-@warning-color-deprecated-bg: ~'var(--@{ant-prefix}-warning-color-deprecated-bg)';
-@warning-color-deprecated-border: ~'var(--@{ant-prefix}-warning-color-deprecated-border)';
+@warning-color: ~'var(--@{ezd-prefix}-warning-color)';
+@warning-color-hover: ~'var(--@{ezd-prefix}-warning-color-hover)';
+@warning-color-active: ~'var(--@{ezd-prefix}-warning-color-active)';
+@warning-color-outline: ~'var(--@{ezd-prefix}-warning-color-outline)';
+@warning-color-deprecated-bg: ~'var(--@{ezd-prefix}-warning-color-deprecated-bg)';
+@warning-color-deprecated-border: ~'var(--@{ezd-prefix}-warning-color-deprecated-border)';
 
 // >>> Error
-@error-color: ~'var(--@{ant-prefix}-error-color)';
-@error-color-hover: ~'var(--@{ant-prefix}-error-color-hover)';
-@error-color-active: ~'var(--@{ant-prefix}-error-color-active)';
-@error-color-outline: ~'var(--@{ant-prefix}-error-color-outline)';
-@error-color-deprecated-bg: ~'var(--@{ant-prefix}-error-color-deprecated-bg)';
-@error-color-deprecated-border: ~'var(--@{ant-prefix}-error-color-deprecated-border)';
+@error-color: ~'var(--@{ezd-prefix}-error-color)';
+@error-color-hover: ~'var(--@{ezd-prefix}-error-color-hover)';
+@error-color-active: ~'var(--@{ezd-prefix}-error-color-active)';
+@error-color-outline: ~'var(--@{ezd-prefix}-error-color-outline)';
+@error-color-deprecated-bg: ~'var(--@{ezd-prefix}-error-color-deprecated-bg)';
+@error-color-deprecated-border: ~'var(--@{ezd-prefix}-error-color-deprecated-border)';
 
 @highlight-color: @red-5;
 @normal-color: #d9d9d9;
@@ -115,16 +115,16 @@ html {
 
 // Color used by default to control hover and active backgrounds and for
 // alert info backgrounds.
-@primary-1: ~'var(--@{ant-prefix}-primary-1)'; // replace tint(@primary-color, 90%)
-@primary-2: ~'var(--@{ant-prefix}-primary-2)'; // replace tint(@primary-color, 80%)
-@primary-3: ~'var(--@{ant-prefix}-primary-3)'; // unused
-@primary-4: ~'var(--@{ant-prefix}-primary-4)'; // unused
-@primary-5: ~'var(--@{ant-prefix}-primary-5)'; // color used to control the text color in many active and hover states, replace tint(@primary-color, 20%)
-@primary-6: ~'var(--@{ant-prefix}-primary-6)'; // color used to control the text color of active buttons, don't use, use @primary-color
-@primary-7: ~'var(--@{ant-prefix}-primary-7)'; // replace shade(@primary-color, 5%)
-@primary-8: color(~`colorPalette('@{primary-color}', 8) `); // unused
-@primary-9: color(~`colorPalette('@{primary-color}', 9) `); // unused
-@primary-10: color(~`colorPalette('@{primary-color}', 10) `); // unused
+@primary-1: ~'var(--@{ezd-prefix}-primary-1)'; // replace tint(@ezd-primary-color, 90%)
+@primary-2: ~'var(--@{ezd-prefix}-primary-2)'; // replace tint(@ezd-primary-color, 80%)
+@primary-3: ~'var(--@{ezd-prefix}-primary-3)'; // unused
+@primary-4: ~'var(--@{ezd-prefix}-primary-4)'; // unused
+@primary-5: ~'var(--@{ezd-prefix}-primary-5)'; // color used to control the text color in many active and hover states, replace tint(@ezd-primary-color, 20%)
+@primary-6: ~'var(--@{ezd-prefix}-primary-6)'; // color used to control the text color of active buttons, don't use, use @ezd-primary-color
+@primary-7: ~'var(--@{ezd-prefix}-primary-7)'; // replace shade(@ezd-primary-color, 5%)
+@primary-8: color(~`colorPalette('@{ezd-primary-color}', 8) `); // unused
+@primary-9: color(~`colorPalette('@{ezd-primary-color}', 9) `); // unused
+@primary-10: color(~`colorPalette('@{ezd-primary-color}', 10) `); // unused
 
 // Base Scaffolding Variables
 // ---
@@ -148,7 +148,7 @@ html {
 @heading-color: fade(@black, 85%);
 @text-color-dark: fade(@white, 85%);
 @text-color-secondary-dark: fade(@white, 65%);
-@text-selection-bg: @primary-color;
+@text-selection-bg: @ezd-primary-color;
 @font-variant-base: tabular-nums;
 @font-feature-settings-base: 'tnum';
 @font-size-base: 14px;
@@ -196,7 +196,7 @@ html {
 @iconfont-css-prefix: anticon;
 
 // LINK
-@link-color: @primary-color;
+@link-color: @ezd-primary-color;
 @link-hover-color: @primary-color-hover;
 @link-active-color: @primary-color-active;
 @link-decoration: none;
@@ -230,7 +230,7 @@ html {
 // Outline
 @outline-blur-size: 0;
 @outline-width: 2px;
-@outline-color: @primary-color; // No use anymore
+@outline-color: @ezd-primary-color; // No use anymore
 @outline-fade: 20%;
 
 @background-color-light: hsv(0, 0, 98%); // background of header and selected item
@@ -268,7 +268,7 @@ html {
 @btn-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
 
 @btn-primary-color: #fff;
-@btn-primary-bg: @primary-color;
+@btn-primary-bg: @ezd-primary-color;
 
 @btn-default-color: @text-color;
 @btn-default-bg: @component-background;
@@ -316,7 +316,7 @@ html {
 
 // Checkbox
 @checkbox-size: 16px;
-@checkbox-color: @primary-color;
+@checkbox-color: @ezd-primary-color;
 @checkbox-check-color: #fff;
 @checkbox-check-bg: @checkbox-check-color;
 @checkbox-border-width: @border-width-base;
@@ -341,7 +341,7 @@ html {
 @divider-color: rgba(0, 0, 0, 6%);
 
 // Dropdown
-@dropdown-selected-color: @primary-color;
+@dropdown-selected-color: @ezd-primary-color;
 @dropdown-menu-submenu-disabled-bg: @component-background;
 
 // Empty
@@ -352,7 +352,7 @@ html {
 @radio-top: 0.2em;
 @radio-border-width: 1px;
 @radio-dot-size: @radio-size - 8px;
-@radio-dot-color: @primary-color;
+@radio-dot-color: @ezd-primary-color;
 @radio-dot-disabled-color: fade(@black, 20%);
 @radio-solid-checked-color: @component-background;
 
@@ -640,7 +640,7 @@ html {
 @menu-popup-bg: @component-background;
 @menu-item-color: @text-color;
 @menu-inline-submenu-bg: @background-color-light;
-@menu-highlight-color: @primary-color;
+@menu-highlight-color: @ezd-primary-color;
 @menu-highlight-danger-color: @error-color;
 @menu-item-active-bg: @primary-1;
 @menu-item-active-danger-bg: @red-1;
@@ -664,7 +664,7 @@ html {
 @menu-dark-arrow-color: #fff;
 @menu-dark-inline-submenu-bg: #000c17;
 @menu-dark-highlight-color: #fff;
-@menu-dark-item-active-bg: @primary-color;
+@menu-dark-item-active-bg: @ezd-primary-color;
 @menu-dark-item-active-danger-bg: @error-color;
 @menu-dark-selected-item-icon-color: @white;
 @menu-dark-selected-item-text-color: @white;
@@ -686,7 +686,7 @@ html {
 @table-selected-row-color: inherit;
 @table-selected-row-bg: @primary-1;
 @table-body-selected-sort-bg: @table-selected-row-bg;
-@table-selected-row-hover-bg: ~'var(--@{ant-prefix}-primary-color-active-deprecated-d-02)';
+@table-selected-row-hover-bg: ~'var(--@{ezd-prefix}-primary-color-active-deprecated-d-02)';
 @table-expanded-row-bg: #fbfbfb;
 @table-padding-vertical: 16px;
 @table-padding-horizontal: 16px;
@@ -730,10 +730,10 @@ html {
 @picker-bg: @component-background;
 @picker-basic-cell-hover-color: @item-hover-bg;
 @picker-basic-cell-active-with-range-color: @primary-1;
-@picker-basic-cell-hover-with-range-color: ~'var(--@{ant-prefix}-primary-color-deprecated-l-35)';
+@picker-basic-cell-hover-with-range-color: ~'var(--@{ezd-prefix}-primary-color-deprecated-l-35)';
 @picker-basic-cell-disabled-bg: rgba(0, 0, 0, 0.04);
 @picker-border-color: @border-color-split;
-@picker-date-hover-range-border-color: ~'var(--@{ant-prefix}-primary-color-deprecated-l-20)';
+@picker-date-hover-range-border-color: ~'var(--@{ezd-prefix}-primary-color-deprecated-l-20)';
 @picker-date-hover-range-color: @picker-basic-cell-hover-with-range-color;
 @picker-time-panel-column-width: 56px;
 @picker-time-panel-column-height: 224px;
@@ -749,7 +749,7 @@ html {
 @calendar-input-bg: @input-bg;
 @calendar-border-color: @border-color-inverse;
 @calendar-item-active-bg: @item-active-bg;
-@calendar-column-active-bg: ~'var(--@{ant-prefix}-primary-color-active-deprecated-f-30)';
+@calendar-column-active-bg: ~'var(--@{ezd-prefix}-primary-color-active-deprecated-f-30)';
 @calendar-full-bg: @calendar-bg;
 @calendar-full-panel-bg: @calendar-full-bg;
 
@@ -820,7 +820,7 @@ html {
 // ---
 @tabs-card-head-background: @background-color-light;
 @tabs-card-height: 40px;
-@tabs-card-active-color: @primary-color;
+@tabs-card-active-color: @ezd-primary-color;
 @tabs-card-horizontal-padding: (
     (@tabs-card-height - floor(@font-size-base * @line-height-base)) / 2
   ) - @border-width-base @padding-md;
@@ -829,7 +829,7 @@ html {
 @tabs-title-font-size: @font-size-base;
 @tabs-title-font-size-lg: @font-size-lg;
 @tabs-title-font-size-sm: @font-size-base;
-@tabs-ink-bar-color: @primary-color;
+@tabs-ink-bar-color: @ezd-primary-color;
 @tabs-bar-margin: 0 0 @margin-md 0;
 @tabs-horizontal-gutter: 32px;
 @tabs-horizontal-margin: 0 0 0 @tabs-horizontal-gutter;
@@ -840,7 +840,7 @@ html {
 @tabs-vertical-padding: @padding-xs @padding-lg;
 @tabs-vertical-margin: @margin-md 0 0 0;
 @tabs-scrolling-size: 32px;
-@tabs-highlight-color: @primary-color;
+@tabs-highlight-color: @ezd-primary-color;
 @tabs-hover-color: @primary-5;
 @tabs-active-color: @primary-7;
 @tabs-card-gutter: 2px;
@@ -874,7 +874,7 @@ html {
 @switch-min-width: 44px;
 @switch-sm-min-width: 28px;
 @switch-disabled-opacity: 0.4;
-@switch-color: @primary-color;
+@switch-color: @ezd-primary-color;
 @switch-bg: @component-background;
 @switch-shadow-color: fade(#00230b, 20%);
 @switch-padding: 2px;
@@ -931,14 +931,14 @@ html {
 @slider-handle-background-color: @component-background;
 @slider-handle-color: @primary-3;
 @slider-handle-color-hover: @primary-4;
-@slider-handle-color-focus: ~'var(--@{ant-prefix}-primary-color-deprecated-t-20)';
-@slider-handle-color-focus-shadow: ~'var(--@{ant-prefix}-primary-color-deprecated-f-12)';
-@slider-handle-color-tooltip-open: @primary-color;
+@slider-handle-color-focus: ~'var(--@{ezd-prefix}-primary-color-deprecated-t-20)';
+@slider-handle-color-focus-shadow: ~'var(--@{ezd-prefix}-primary-color-deprecated-f-12)';
+@slider-handle-color-tooltip-open: @ezd-primary-color;
 @slider-handle-size: 14px;
 @slider-handle-margin-top: -5px;
 @slider-handle-shadow: 0;
 @slider-dot-border-color: @border-color-split;
-@slider-dot-border-color-active: ~'var(--@{ant-prefix}-primary-color-deprecated-t-50)';
+@slider-dot-border-color-active: ~'var(--@{ezd-prefix}-primary-color-deprecated-t-50)';
 @slider-disabled-color: @disabled-color;
 @slider-disabled-background-color: @component-background;
 
@@ -948,7 +948,7 @@ html {
 @tree-title-height: 24px;
 @tree-child-padding: 18px;
 @tree-directory-selected-color: #fff;
-@tree-directory-selected-bg: @primary-color;
+@tree-directory-selected-bg: @ezd-primary-color;
 @tree-node-hover-bg: @item-hover-bg;
 @tree-node-selected-bg: @primary-2;
 
@@ -978,7 +978,7 @@ html {
 @transfer-disabled-bg: @disabled-bg;
 @transfer-list-height: 200px;
 @transfer-item-hover-bg: @item-hover-bg;
-@transfer-item-selected-hover-bg: ~'var(--@{ant-prefix}-primary-color-active-deprecated-d-02)';
+@transfer-item-selected-hover-bg: ~'var(--@{ezd-prefix}-primary-color-active-deprecated-d-02)';
 @transfer-item-padding-vertical: 6px;
 @transfer-list-search-icon-top: 12px;
 
@@ -1051,7 +1051,7 @@ html {
 @timeline-width: 2px;
 @timeline-color: @border-color-split;
 @timeline-dot-border-width: 2px;
-@timeline-dot-color: @primary-color;
+@timeline-dot-color: @ezd-primary-color;
 @timeline-dot-bg: @component-background;
 @timeline-item-padding-bottom: 20px;
 

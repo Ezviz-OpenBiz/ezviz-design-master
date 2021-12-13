@@ -15,11 +15,11 @@ debug: true
 Config component and icon prefixCls.
 
 ```jsx
-import { ConfigProvider, Select, Button } from '@ezviz/evvd';
+import { ConfigProvider, Select, Button } from '@ezviz/ezd';
 import { SmileOutlined } from '@ant-design/icons';
 import React, { useState } from 'react';
 
-// Evv Design site use `es` module for view
+// EZ Design site use `es` module for view
 // but do not replace related lib `lib` with `es`
 // which do not show correct in site.
 // We may need do convert in site also.

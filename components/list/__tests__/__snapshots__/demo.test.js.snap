@@ -39,13 +39,13 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 <a
                   href="https://ant.design"
                 >
-                  Evv Design Title 1
+                  EZ Design Title 1
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Evv Design, a design language for background applications, is refined by Ant UED Team
+                EZ Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -76,13 +76,13 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 <a
                   href="https://ant.design"
                 >
-                  Evv Design Title 2
+                  EZ Design Title 2
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Evv Design, a design language for background applications, is refined by Ant UED Team
+                EZ Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -113,13 +113,13 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 <a
                   href="https://ant.design"
                 >
-                  Evv Design Title 3
+                  EZ Design Title 3
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Evv Design, a design language for background applications, is refined by Ant UED Team
+                EZ Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -150,13 +150,13 @@ exports[`renders ./components/list/demo/basic.md correctly 1`] = `
                 <a
                   href="https://ant.design"
                 >
-                  Evv Design Title 4
+                  EZ Design Title 4
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Evv Design, a design language for background applications, is refined by Ant UED Team
+                EZ Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -1671,13 +1671,13 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                   <a
                     href="https://ant.design"
                   >
-                    Evv Design part 0
+                    EZ Design part 0
                   </a>
                 </h4>
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Evv Design, a design language for background applications, is refined by Ant UED Team.
+                  EZ Design, a design language for background applications, is refined by Ant UED Team.
                 </div>
               </div>
             </div>
@@ -1837,13 +1837,13 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                   <a
                     href="https://ant.design"
                   >
-                    Evv Design part 1
+                    EZ Design part 1
                   </a>
                 </h4>
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Evv Design, a design language for background applications, is refined by Ant UED Team.
+                  EZ Design, a design language for background applications, is refined by Ant UED Team.
                 </div>
               </div>
             </div>
@@ -2003,13 +2003,13 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
                   <a
                     href="https://ant.design"
                   >
-                    Evv Design part 2
+                    EZ Design part 2
                   </a>
                 </h4>
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Evv Design, a design language for background applications, is refined by Ant UED Team.
+                  EZ Design, a design language for background applications, is refined by Ant UED Team.
                 </div>
               </div>
             </div>
@@ -2148,7 +2148,7 @@ exports[`renders ./components/list/demo/vertical.md correctly 1`] = `
   >
     <div>
       <b>
-        Evv Design
+        EZ Design
       </b>
        footer part
     </div>

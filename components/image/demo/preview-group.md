@@ -14,7 +14,7 @@ title:
 Click the left and right switch buttons to preview multiple images.
 
 ```jsx
-import { Image } from '@ezviz/evvd';
+import { Image } from '@ezviz/ezd';
 
 const App = () => (
   <Image.PreviewGroup>

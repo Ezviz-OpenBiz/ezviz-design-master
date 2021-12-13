@@ -18,7 +18,7 @@ An example of infinite list & virtualized loading using [react-virtualized](http
 `Virtualized` rendering is a technique to mount big sets of data. It reduces the amount of rendered DOM nodes by tracking and hiding whatever isn't currently visible.
 
 ```jsx
-import { List, message, Avatar, Spin } from '@ezviz/evvd';
+import { List, message, Avatar, Spin } from '@ezviz/ezd';
 import reqwest from 'reqwest';
 import WindowScroller from 'react-virtualized/dist/commonjs/WindowScroller';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';

@@ -14,7 +14,7 @@ title:
 A simple mini version step bar in the vertical direction.
 
 ```jsx
-import { Steps } from '@ezviz/evvd';
+import { Steps } from '@ezviz/ezd';
 
 const { Step } = Steps;
 

@@ -14,7 +14,7 @@ title:
 Use `treeLine` to show the line style.
 
 ```tsx
-import { TreeSelect, Switch, Space } from '@ezviz/evvd';
+import { TreeSelect, Switch, Space } from '@ezviz/ezd';
 
 const { TreeNode } = TreeSelect;
 

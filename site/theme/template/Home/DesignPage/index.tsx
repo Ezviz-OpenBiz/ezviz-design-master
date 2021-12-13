@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col, Typography, Card } from 'antd';
+import { Row, Col, Typography } from 'antd';
 import { RightOutlined, LeftOutlined } from '@ant-design/icons';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { Link } from 'bisheng/router';
@@ -12,90 +12,6 @@ import Natural from './Natural';
 import SiteContext from '../../Layout/SiteContext';
 
 const { Title } = Typography;
-
-interface PanelProps {
-  img: string;
-  title: React.ReactNode;
-  description: string;
-  href?: string;
-  link?: string;
-}
-
-const MINI_LIST: PanelProps[] = [
-  {
-    img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*ZhzDQLMyYlYAAAAAAAAAAABkARQnAQ',
-    title: 'AntV',
-    description: 'app.home.product-antv-slogan',
-    href: 'https://antv.vision',
-  },
-  {
-    img:
-      'https://gw.alipayobjects.com/zos/antfincdn/888xda6kBc/Ant%252520Design%252520shouyepeitu.svg',
-    title: 'Ant Design Pro',
-    description: 'app.home.product-pro-slogan',
-    href: 'https://pro.ant.design/',
-  },
-  {
-    img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*mb-WQILTlSEAAAAAAAAAAABkARQnAQ',
-    title: 'Ant Design Mobile',
-    description: 'app.home.product-mobile-slogan',
-    href: 'https://mobile.ant.design/',
-  },
-  {
-    img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*PrLWSpmWZmIAAAAAAAAAAABkARQnAQ',
-    title: <FormattedMessage id="app.home.product-hitu" />,
-    description: 'app.home.product-hitu-slogan',
-    link: '/docs/spec/illustration',
-  },
-  {
-    img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*MaL2SYtHPuMAAAAAAAAAAABkARQnAQ',
-    title: 'Kitchen',
-    description: 'app.home.product-kitchen-slogan',
-    href: 'https://kitchen.alipay.com/',
-  },
-  {
-    img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*T_HeSIJ30IIAAAAAAAAAAABkARQnAQ',
-    title: 'Icons',
-    description: 'app.home.product-icons-slogan',
-    link: '/components/icon/',
-  },
-];
-
-const MiniPanel = ({
-  title,
-  img,
-  description,
-  href,
-  link,
-  isZhCN,
-  query,
-}: PanelProps & { isZhCN: boolean } & { query: object }) => {
-  let content = (
-    <Card
-      hoverable
-      className="design-mini-panel"
-      cover={<img alt={typeof title === 'string' ? title : 'Hitu'} src={img} />}
-    >
-      <Card.Meta title={title} description={<FormattedMessage id={description} />} />
-    </Card>
-  );
-
-  if (href) {
-    content = (
-      <a href={href} target="_blank" rel="noopener noreferrer">
-        {content}
-      </a>
-    );
-  } else if (link) {
-    content = <Link to={getLocalizedPathname(link, isZhCN, query)}>{content}</Link>;
-  }
-
-  return (
-    <Col xs={24} sm={8}>
-      {content}
-    </Col>
-  );
-};
 
 const DesignPage = (props: { location: any }) => {
   const { location } = props;
@@ -249,7 +165,7 @@ const DesignPage = (props: { location: any }) => {
                     <Link
                       to={getLocalizedPathname('/docs/react/introduce', isZhCN, location.query)}
                     >
-                      Evv Design of React
+                      EZ Design of React
                     </Link>
                     <span style={smallStyle}>
                       (<FormattedMessage id="app.implementation.official" />)
@@ -287,18 +203,6 @@ const DesignPage = (props: { location: any }) => {
       </Row>
       {/* ***************************** Group 2 ***************************** */}
       {/* antd其他关联组件库 */}
-      {/* <Row
-        style={{ marginTop: 40 }}
-        gutter={[
-          { xs: 32, sm: 40 },
-          { xs: 32, sm: 40 },
-        ]}
-        className="design-mini-panels"
-      >
-        {MINI_LIST.map(panel => (
-          <MiniPanel key={panel.description} {...panel} isZhCN={isZhCN} query={location.query} />
-        ))}
-      </Row> */}
     </div>
   );
 };

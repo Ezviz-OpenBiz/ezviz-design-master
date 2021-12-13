@@ -14,7 +14,7 @@ title:
 You can show the total number of data by setting `showTotal`.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

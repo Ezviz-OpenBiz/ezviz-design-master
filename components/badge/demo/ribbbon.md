@@ -14,7 +14,7 @@ title:
 Use ribbon badge.
 
 ```jsx
-import { Badge, Card } from '@ezviz/evvd';
+import { Badge, Card } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

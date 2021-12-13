@@ -3,7 +3,7 @@ order: 4
 title: 动效
 ---
 
-> [Evv Motion] 是 Evv Design 中提炼出来的动效语言。他不仅仅是动效语言，同时也是一套 React 框架动效解决方案，可以帮助开发者，更容易在项目中使用动效。我们提供了单项，组合动画，以及整套解决方案。
+> [EZ Motion] 是 EZ Design 中提炼出来的动效语言。他不仅仅是动效语言，同时也是一套 React 框架动效解决方案，可以帮助开发者，更容易在项目中使用动效。我们提供了单项，组合动画，以及整套解决方案。
 
 界面动效能加强用户认知且增加活力。
 
@@ -23,11 +23,11 @@ title: 动效
 
 ## 原则
 
-在企业级应用的产品设计中，使用动效和前台类产品有很大的不同，助力交互行为和信息认知的有效性会显得尤为重要，在 Evv Design 设计价值观的基础之上，我们衍生出动效设计的三原则：
+在企业级应用的产品设计中，使用动效和前台类产品有很大的不同，助力交互行为和信息认知的有效性会显得尤为重要，在 EZ Design 设计价值观的基础之上，我们衍生出动效设计的三原则：
 
 ```__react
 
-import { Col, Row } from 'antd';
+import { Col, Row } from '@ezviz/ezd';
 
 const text = [
   { title: '自然', img: 'https://gw.alipayobjects.com/zos/rmsportal/LyTPSGknLUlxiVdwMWyu.gif', content: '自然运动规律，保证视觉连惯，让用户感知到动作是成立的' },

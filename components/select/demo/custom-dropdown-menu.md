@@ -14,7 +14,7 @@ title:
 Customize the dropdown menu via `dropdownRender`.
 
 ```jsx
-import { Select, Divider, Input } from '@ezviz/evvd';
+import { Select, Divider, Input } from '@ezviz/ezd';
 import { PlusOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

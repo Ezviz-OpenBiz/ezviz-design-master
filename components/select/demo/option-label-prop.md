@@ -14,7 +14,7 @@ title:
 Specify the prop name of Option which will be rendered in select box.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 
 const { Option } = Select;
 

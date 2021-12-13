@@ -14,7 +14,7 @@ title:
 Customized description content.
 
 ```jsx
-import { Spin, Alert } from '@ezviz/evvd';
+import { Spin, Alert } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Spin tip="Loading...">
