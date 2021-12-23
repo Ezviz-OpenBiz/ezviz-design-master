@@ -14,7 +14,7 @@ title:
 Use `stringMode` to support high precision decimals support. `onChange` will return string value instead. You need polyfill of BigInt if browser not support.
 
 ```tsx
-import { InputNumber } from '@ezviz/evvd';
+import { InputNumber } from '@ezviz/ezd';
 
 function onChange(value: string) {
   console.log('changed', value);

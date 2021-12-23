@@ -14,7 +14,7 @@ title:
 A notification box with a icon at the left side.
 
 ```jsx
-import { Button, notification, Space } from '@ezviz/evvd';
+import { Button, notification, Space } from '@ezviz/ezd';
 
 const openNotificationWithIcon = type => {
   notification[type]({

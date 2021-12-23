@@ -2,17 +2,17 @@
 
 exports[`Checkbox rtl render component should be rendered correctly in RTL direction 1`] = `
 <label
-  class="ant-checkbox-wrapper ant-checkbox-rtl"
+  class="ezd-checkbox-wrapper ezd-checkbox-rtl"
 >
   <span
-    class="ant-checkbox"
+    class="ezd-checkbox"
   >
     <input
-      class="ant-checkbox-input"
+      class="ezd-checkbox-input"
       type="checkbox"
     />
     <span
-      class="ant-checkbox-inner"
+      class="ezd-checkbox-inner"
     />
   </span>
 </label>

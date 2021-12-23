@@ -1,5 +1,5 @@
 .zoom-motion(@className, @keyframeName, @duration: @animation-duration-base) {
-  @name: ~'@{ant-prefix}-@{className}';
+  @name: ~'@{ezd-prefix}-@{className}';
   .make-motion(@name, @keyframeName, @duration);
   .@{name}-enter,
   .@{name}-appear {
@@ -17,18 +17,18 @@
 }
 
 // For Modal, Select choosen item
-.zoom-motion(zoom, antZoom);
+.zoom-motion(zoom, ezdZoom);
 // For Popover, Popconfirm, Dropdown
-.zoom-motion(zoom-big, antZoomBig);
+.zoom-motion(zoom-big, ezdZoomBig);
 // For Tooltip
-.zoom-motion(zoom-big-fast, antZoomBig, @animation-duration-fast);
+.zoom-motion(zoom-big-fast, ezdZoomBig, @animation-duration-fast);
 
-.zoom-motion(zoom-up, antZoomUp);
-.zoom-motion(zoom-down, antZoomDown);
-.zoom-motion(zoom-left, antZoomLeft);
-.zoom-motion(zoom-right, antZoomRight);
+.zoom-motion(zoom-up, ezdZoomUp);
+.zoom-motion(zoom-down, ezdZoomDown);
+.zoom-motion(zoom-left, ezdZoomLeft);
+.zoom-motion(zoom-right, ezdZoomRight);
 
-@keyframes antZoomIn {
+@keyframes ezdZoomIn {
   0% {
     transform: scale(0.2);
     opacity: 0;
@@ -40,7 +40,7 @@
   }
 }
 
-@keyframes antZoomOut {
+@keyframes ezdZoomOut {
   0% {
     transform: scale(1);
   }
@@ -51,7 +51,7 @@
   }
 }
 
-@keyframes antZoomBigIn {
+@keyframes ezdZoomBigIn {
   0% {
     transform: scale(0.8);
     opacity: 0;
@@ -63,7 +63,7 @@
   }
 }
 
-@keyframes antZoomBigOut {
+@keyframes ezdZoomBigOut {
   0% {
     transform: scale(1);
   }
@@ -74,7 +74,7 @@
   }
 }
 
-@keyframes antZoomUpIn {
+@keyframes ezdZoomUpIn {
   0% {
     transform: scale(0.8);
     transform-origin: 50% 0%;
@@ -87,7 +87,7 @@
   }
 }
 
-@keyframes antZoomUpOut {
+@keyframes ezdZoomUpOut {
   0% {
     transform: scale(1);
     transform-origin: 50% 0%;
@@ -100,7 +100,7 @@
   }
 }
 
-@keyframes antZoomLeftIn {
+@keyframes ezdZoomLeftIn {
   0% {
     transform: scale(0.8);
     transform-origin: 0% 50%;
@@ -113,7 +113,7 @@
   }
 }
 
-@keyframes antZoomLeftOut {
+@keyframes ezdZoomLeftOut {
   0% {
     transform: scale(1);
     transform-origin: 0% 50%;
@@ -126,7 +126,7 @@
   }
 }
 
-@keyframes antZoomRightIn {
+@keyframes ezdZoomRightIn {
   0% {
     transform: scale(0.8);
     transform-origin: 100% 50%;
@@ -139,7 +139,7 @@
   }
 }
 
-@keyframes antZoomRightOut {
+@keyframes ezdZoomRightOut {
   0% {
     transform: scale(1);
     transform-origin: 100% 50%;
@@ -152,7 +152,7 @@
   }
 }
 
-@keyframes antZoomDownIn {
+@keyframes ezdZoomDownIn {
   0% {
     transform: scale(0.8);
     transform-origin: 50% 100%;
@@ -165,7 +165,7 @@
   }
 }
 
-@keyframes antZoomDownOut {
+@keyframes ezdZoomDownOut {
   0% {
     transform: scale(1);
     transform-origin: 50% 100%;

@@ -1,5 +1,5 @@
 .move-motion(@className, @keyframeName) {
-  @name: ~'@{ant-prefix}-@{className}';
+  @name: ~'@{ezd-prefix}-@{className}';
   .make-motion(@name, @keyframeName);
   .@{name}-enter,
   .@{name}-appear {
@@ -11,12 +11,12 @@
   }
 }
 
-.move-motion(move-up, antMoveUp);
-.move-motion(move-down, antMoveDown);
-.move-motion(move-left, antMoveLeft);
-.move-motion(move-right, antMoveRight);
+.move-motion(move-up, ezdMoveUp);
+.move-motion(move-down, ezdMoveDown);
+.move-motion(move-left, ezdMoveLeft);
+.move-motion(move-right, ezdMoveRight);
 
-@keyframes antMoveDownIn {
+@keyframes ezdMoveDownIn {
   0% {
     transform: translateY(100%);
     transform-origin: 0 0;
@@ -30,7 +30,7 @@
   }
 }
 
-@keyframes antMoveDownOut {
+@keyframes ezdMoveDownOut {
   0% {
     transform: translateY(0%);
     transform-origin: 0 0;
@@ -44,7 +44,7 @@
   }
 }
 
-@keyframes antMoveLeftIn {
+@keyframes ezdMoveLeftIn {
   0% {
     transform: translateX(-100%);
     transform-origin: 0 0;
@@ -58,7 +58,7 @@
   }
 }
 
-@keyframes antMoveLeftOut {
+@keyframes ezdMoveLeftOut {
   0% {
     transform: translateX(0%);
     transform-origin: 0 0;
@@ -72,7 +72,7 @@
   }
 }
 
-@keyframes antMoveRightIn {
+@keyframes ezdMoveRightIn {
   0% {
     transform: translateX(100%);
     transform-origin: 0 0;
@@ -86,7 +86,7 @@
   }
 }
 
-@keyframes antMoveRightOut {
+@keyframes ezdMoveRightOut {
   0% {
     transform: translateX(0%);
     transform-origin: 0 0;
@@ -100,7 +100,7 @@
   }
 }
 
-@keyframes antMoveUpIn {
+@keyframes ezdMoveUpIn {
   0% {
     transform: translateY(-100%);
     transform-origin: 0 0;
@@ -114,7 +114,7 @@
   }
 }
 
-@keyframes antMoveUpOut {
+@keyframes ezdMoveUpOut {
   0% {
     transform: translateY(0%);
     transform-origin: 0 0;

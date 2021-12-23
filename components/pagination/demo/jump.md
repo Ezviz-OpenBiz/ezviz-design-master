@@ -14,7 +14,7 @@ title:
 Jump to a page directly.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 function onChange(pageNumber) {
   console.log('Page: ', pageNumber);

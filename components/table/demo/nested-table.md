@@ -14,7 +14,7 @@ title:
 Showing more detailed info of every row.
 
 ```jsx
-import { Table, Badge, Menu, Dropdown, Space } from '@ezviz/evvd';
+import { Table, Badge, Menu, Dropdown, Space } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = (

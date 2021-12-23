@@ -2,10 +2,10 @@
 
 exports[`Result rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-result ant-result-info ant-result-rtl"
+  class="ezd-result ezd-result-info ezd-result-rtl"
 >
   <div
-    class="ant-result-icon"
+    class="ezd-result-icon"
   >
     <span
       aria-label="exclamation-circle"
@@ -28,7 +28,7 @@ exports[`Result rtl render component should be rendered correctly in RTL directi
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   />
 </div>
 `;

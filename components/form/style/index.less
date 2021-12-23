@@ -10,7 +10,7 @@
 @import './status';
 @import './mixin';
 
-@form-prefix-cls: ~'@{ant-prefix}-form';
+@form-prefix-cls: ~'@{ezd-prefix}-form';
 @form-item-prefix-cls: ~'@{form-prefix-cls}-item';
 @form-font-height: ceil(@font-size-base * @line-height-base);
 
@@ -71,8 +71,7 @@
   }
 
   &-hidden,
-  &-hidden.@{ant-prefix}-row {
-    // https://github.com/ant-design/ant-design/issues/26141
+  &-hidden.@{ezd-prefix}-row {
     display: none;
   }
 
@@ -166,7 +165,7 @@
     flex-direction: column;
     flex-grow: 1;
 
-    &:first-child:not([class^=~"'@{ant-prefix}-col-'"]):not([class*=~"' @{ant-prefix}-col-'"]) {
+    &:first-child:not([class^=~"'@{ezd-prefix}-col-'"]):not([class*=~"' @{ezd-prefix}-col-'"]) {
       width: 100%;
     }
   }
@@ -206,7 +205,7 @@
     min-height: @form-item-margin-bottom;
   }
 
-  .@{ant-prefix}-input-textarea-show-count {
+  .@{ezd-prefix}-input-textarea-show-count {
     &::after {
       margin-bottom: -22px;
     }
@@ -221,7 +220,7 @@
 
 // >>>>>>>>>> Motion <<<<<<<<<<
 // Explain holder
-.@{ant-prefix}-show-help {
+.@{ezd-prefix}-show-help {
   transition: height @animation-duration-slow linear, min-height @animation-duration-slow linear,
     margin-bottom @animation-duration-slow @ease-in-out,
     opacity @animation-duration-slow @ease-in-out;
@@ -236,7 +235,7 @@
 }
 
 // Explain
-.@{ant-prefix}-show-help-item {
+.@{ezd-prefix}-show-help-item {
   overflow: hidden;
   transition: height @animation-duration-slow @ease-in-out,
     opacity @animation-duration-slow @ease-in-out, transform @animation-duration-slow @ease-in-out !important;

@@ -14,7 +14,7 @@ title:
 The icon can be customized to any react node.
 
 ```jsx
-import { Button, notification } from '@ezviz/evvd';
+import { Button, notification } from '@ezviz/ezd';
 import { SmileOutlined } from '@ant-design/icons';
 
 const openNotification = () => {

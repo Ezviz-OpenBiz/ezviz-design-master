@@ -14,7 +14,7 @@ title:
 Callback with affixed state.
 
 ```tsx
-import { Affix, Button } from '@ezviz/evvd';
+import { Affix, Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Affix offsetTop={120} onChange={affixed => console.log(affixed)}>

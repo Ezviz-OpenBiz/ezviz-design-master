@@ -14,7 +14,7 @@ title:
 You can add extra actions to the right or left or even both side of Tabs.
 
 ```jsx
-import { Tabs, Button, Divider, Checkbox } from '@ezviz/evvd';
+import { Tabs, Button, Divider, Checkbox } from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 
@@ -91,7 +91,7 @@ ReactDOM.render(<Demo />, mountNode);
   margin-right: 16px;
 }
 
-.ant-row-rtl .tabs-extra-demo-button {
+.ezd-row-rtl .tabs-extra-demo-button {
   margin-right: 0;
   margin-left: 16px;
 }

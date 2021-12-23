@@ -14,7 +14,7 @@ title:
 Both the top navigation and the sidebar, commonly used in documentation site.
 
 ```jsx
-import { Layout, Menu, Breadcrumb } from '@ezviz/evvd';
+import { Layout, Menu, Breadcrumb } from '@ezviz/ezd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
@@ -67,7 +67,7 @@ ReactDOM.render(
         <Content style={{ padding: '0 24px', minHeight: 280 }}>Content</Content>
       </Layout>
     </Content>
-    <Footer style={{ textAlign: 'center' }}>Evv Design ©2021 Created by Evv UED</Footer>
+    <Footer style={{ textAlign: 'center' }}>EZ Design ©2021 Created by EZ UED</Footer>
   </Layout>,
   mountNode,
 );
@@ -82,7 +82,7 @@ ReactDOM.render(
   background: rgba(255, 255, 255, 0.3);
 }
 
-.ant-row-rtl #components-layout-demo-top-side .logo {
+.ezd-row-rtl #components-layout-demo-top-side .logo {
   float: right;
   margin: 16px 0 16px 24px;
 }

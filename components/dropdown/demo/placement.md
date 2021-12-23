@@ -14,7 +14,7 @@ title:
 Support 6 placements.
 
 ```jsx
-import { Menu, Dropdown, Button, Space } from '@ezviz/evvd';
+import { Menu, Dropdown, Button, Space } from '@ezviz/ezd';
 
 const menu = (
   <Menu>

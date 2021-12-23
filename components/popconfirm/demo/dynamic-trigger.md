@@ -14,7 +14,7 @@ title:
 Make it pop up under some conditions.
 
 ```jsx
-import { Popconfirm, Switch, message } from '@ezviz/evvd';
+import { Popconfirm, Switch, message } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

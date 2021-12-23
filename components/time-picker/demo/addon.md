@@ -14,7 +14,7 @@ title:
 Render addon contents to time picker panel's bottom.
 
 ```jsx
-import { TimePicker, Button } from '@ezviz/evvd';
+import { TimePicker, Button } from '@ezviz/ezd';
 
 class TimePickerAddonDemo extends React.Component {
   state = { open: false };

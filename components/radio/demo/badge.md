@@ -15,7 +15,7 @@ title:
 Test Badge style.
 
 ```jsx
-import { Radio, Badge } from '@ezviz/evvd';
+import { Radio, Badge } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Radio.Group buttonStyle="solid">

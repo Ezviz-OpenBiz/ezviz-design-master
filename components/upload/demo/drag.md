@@ -18,7 +18,7 @@ You can drag files to a specific area, to upload. Alternatively, you can also up
 We can upload serveral files at once in modern browsers by giving the input the `multiple` attribute.
 
 ```jsx
-import { Upload, message } from '@ezviz/evvd';
+import { Upload, message } from '@ezviz/ezd';
 import { InboxOutlined } from '@ant-design/icons';
 
 const { Dragger } = Upload;
@@ -45,11 +45,11 @@ const props = {
 
 ReactDOM.render(
   <Dragger {...props}>
-    <p className="ant-upload-drag-icon">
+    <p className="ezd-upload-drag-icon">
       <InboxOutlined />
     </p>
-    <p className="ant-upload-text">Click or drag file to this area to upload</p>
-    <p className="ant-upload-hint">
+    <p className="ezd-upload-text">Click or drag file to this area to upload</p>
+    <p className="ezd-upload-hint">
       Support for a single or bulk upload. Strictly prohibit from uploading company data or other
       band files
     </p>

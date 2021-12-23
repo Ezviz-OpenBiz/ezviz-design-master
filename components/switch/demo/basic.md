@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ```jsx
-import { Switch } from '@ezviz/evvd';
+import { Switch } from '@ezviz/ezd';
 
 function onChange(checked) {
   console.log(`switch to ${checked}`);
@@ -24,7 +24,7 @@ ReactDOM.render(<Switch defaultChecked onChange={onChange} />, mountNode);
 ```
 
 <style>
-.code-box-demo .ant-switch {
+.code-box-demo .ezd-switch {
   margin-bottom: 8px;
 }
 </style>

@@ -15,7 +15,7 @@ By using `itemRender`, we can integrate upload with react-dnd to implement drag 
 
 ```jsx
 import React, { useState, useCallback, useRef } from 'react';
-import { Upload, Button, Tooltip } from '@ezviz/evvd';
+import { Upload, Button, Tooltip } from '@ezviz/ezd';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import update from 'immutability-helper';
@@ -54,7 +54,7 @@ const DragableUploadListItem = ({ originNode, moveRow, file, fileList }) => {
   return (
     <div
       ref={ref}
-      className={`ant-upload-draggable-list-item ${isOver ? dropClassName : ''}`}
+      className={`ezd-upload-draggable-list-item ${isOver ? dropClassName : ''}`}
       style={{ cursor: 'move' }}
     >
       {file.status === 'error' ? errorNode : originNode}
@@ -139,14 +139,14 @@ ReactDOM.render(<DragSortingUpload />, mountNode);
 ```
 
 ```css
-#components-upload-demo-drag-sorting .ant-upload-draggable-list-item {
+#components-upload-demo-drag-sorting .ezd-upload-draggable-list-item {
   border-top: 2px dashed rgba(0, 0, 0, 0);
   border-bottom: 2px dashed rgba(0, 0, 0, 0);
 }
-#components-upload-demo-drag-sorting .ant-upload-draggable-list-item.drop-over-downward {
+#components-upload-demo-drag-sorting .ezd-upload-draggable-list-item.drop-over-downward {
   border-bottom-color: #1890ff;
 }
-#components-upload-demo-drag-sorting .ant-upload-draggable-list-item.drop-over-upward {
+#components-upload-demo-drag-sorting .ezd-upload-draggable-list-item.drop-over-upward {
   border-top-color: #1890ff;
 }
 ```

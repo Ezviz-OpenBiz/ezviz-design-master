@@ -14,7 +14,7 @@ title:
 Input type of password.
 
 ```jsx
-import { Input, Space } from '@ezviz/evvd';
+import { Input, Space } from '@ezviz/ezd';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 
 ReactDOM.render(

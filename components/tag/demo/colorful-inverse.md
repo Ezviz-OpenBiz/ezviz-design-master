@@ -15,7 +15,7 @@ debug: true
 Internal inverse color tag
 
 ```jsx
-import { Tag, Divider } from '@ezviz/evvd';
+import { Tag, Divider } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>
@@ -39,7 +39,7 @@ ReactDOM.render(
 ```
 
 <style>
-.code-box-demo .ant-tag {
+.code-box-demo .ezd-tag {
   margin-bottom: 8px;
 }
 <style>

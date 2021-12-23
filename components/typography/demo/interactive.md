@@ -15,7 +15,7 @@ Provide additional interactive capacity of editable and copyable.
 
 ```jsx
 import React, { useState } from 'react';
-import { Typography } from '@ezviz/evvd';
+import { Typography } from '@ezviz/ezd';
 import { HighlightOutlined, SmileOutlined, SmileFilled } from '@ant-design/icons';
 
 const { Paragraph } = Typography;
@@ -53,7 +53,7 @@ const Demo = () => {
         {lengthLimitedStr}
       </Paragraph>
       <Paragraph copyable>This is a copyable text.</Paragraph>
-      <Paragraph copyable={{ text: 'Hello, Evv Design!' }}>Replace copy text.</Paragraph>
+      <Paragraph copyable={{ text: 'Hello, EZ Design!' }}>Replace copy text.</Paragraph>
       <Paragraph
         copyable={{
           icon: [<SmileOutlined key="copy-icon" />, <SmileFilled key="copied-icon" />],

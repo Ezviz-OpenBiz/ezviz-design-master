@@ -2,22 +2,22 @@
 
 exports[`PageHeader pageHeader should not render blank dom 1`] = `
 <div
-  class="ant-page-header ant-page-header-ghost"
+  class="ezd-page-header ezd-page-header-ghost"
 />
 `;
 
 exports[`PageHeader pageHeader should render correctly int RTL direction 1`] = `
 <div
-  class="ant-page-header ant-page-header-ghost ant-page-header-rtl"
+  class="ezd-page-header ezd-page-header-ghost ezd-page-header-rtl"
 >
   <div
-    class="ant-page-header-heading"
+    class="ezd-page-header-heading"
   >
     <div
-      class="ant-page-header-heading-left"
+      class="ezd-page-header-heading-left"
     >
       <span
-        class="ant-page-header-heading-title"
+        class="ezd-page-header-heading-title"
         title="Page Title"
       >
         Page Title
@@ -29,16 +29,16 @@ exports[`PageHeader pageHeader should render correctly int RTL direction 1`] = `
 
 exports[`PageHeader pageHeader should support className 1`] = `
 <div
-  class="ant-page-header not-works ant-page-header-ghost"
+  class="ezd-page-header not-works ezd-page-header-ghost"
 >
   <div
-    class="ant-page-header-heading"
+    class="ezd-page-header-heading"
   >
     <div
-      class="ant-page-header-heading-left"
+      class="ezd-page-header-heading-left"
     >
       <span
-        class="ant-page-header-heading-title"
+        class="ezd-page-header-heading-title"
         title="Page Title"
       >
         Page Title
@@ -50,6 +50,6 @@ exports[`PageHeader pageHeader should support className 1`] = `
 
 exports[`PageHeader rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-page-header ant-page-header-ghost ant-page-header-rtl"
+  class="ezd-page-header ezd-page-header-ghost ezd-page-header-rtl"
 />
 `;

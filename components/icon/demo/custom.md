@@ -81,10 +81,10 @@ ReactDOM.render(
 ```
 
 ```css
-.custom-icons-list > .anticon {
+.custom-icons-list > .ezdicon {
   margin-right: 6px;
 }
-.ant-row-rtl .custom-icons-list > .anticon {
+.ezd-row-rtl .custom-icons-list > .ezdicon {
   margin-right: 0;
   margin-left: 6px;
 }

@@ -207,7 +207,7 @@ class Input extends React.Component<InputProps, InputState> {
       devWarning(
         this.input !== document.activeElement,
         'Input',
-        `When Input is focused, dynamic add or remove prefix / suffix will make it lose focus caused by dom structure change. Read more: https://ant.design/components/input/#FAQ`,
+        `When Input is focused, dynamic add or remove prefix / suffix will make it lose focus caused by dom structure change. Read more: https://saastest3.ys7.com/ezd/components/input/#FAQ`,
       );
     }
     return null;
@@ -322,7 +322,6 @@ class Input extends React.Component<InputProps, InputState> {
   };
 
   clearPasswordValueAttribute = () => {
-    // https://github.com/ant-design/ant-design/issues/20541
     this.removePasswordTimeout = setTimeout(() => {
       if (
         this.input &&

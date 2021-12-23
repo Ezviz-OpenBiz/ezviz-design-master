@@ -46,20 +46,20 @@ describe('Directory Tree', () => {
     it('click', () => {
       const wrapper = mount(createTree());
 
-      wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate('click');
+      wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate('click');
       expect(wrapper.render()).toMatchSnapshot();
       jest.runAllTimers();
-      wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate('click');
+      wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate('click');
       expect(wrapper.render()).toMatchSnapshot();
     });
 
     it('double click', () => {
       const wrapper = mount(createTree({ expandAction: 'doubleClick' }));
 
-      wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate('doubleClick');
+      wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate('doubleClick');
       expect(wrapper.render()).toMatchSnapshot();
       jest.runAllTimers();
-      wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate('doubleClick');
+      wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate('doubleClick');
       expect(wrapper.render()).toMatchSnapshot();
     });
 
@@ -90,7 +90,7 @@ describe('Directory Tree', () => {
         it(action, () => {
           const wrapper = mount(<StateDirTree expandAction={action} />);
 
-          wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate(action);
+          wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate(action);
           jest.runAllTimers();
           expect(wrapper.render()).toMatchSnapshot();
         });
@@ -159,12 +159,12 @@ describe('Directory Tree', () => {
       }),
     );
 
-    wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate('click');
+    wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate('click');
     expect(onSelect.mock.calls[0][1].selected).toBeTruthy();
     expect(onSelect.mock.calls[0][1].selectedNodes.length).toBe(1);
 
     // Click twice should keep selected
-    wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate('click');
+    wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate('click');
     expect(onSelect.mock.calls[1][1].selected).toBeTruthy();
     expect(onSelect.mock.calls[0][0]).toEqual(onSelect.mock.calls[1][0]);
     expect(onSelect.mock.calls[1][1].selectedNodes.length).toBe(1);
@@ -173,7 +173,7 @@ describe('Directory Tree', () => {
     // Ref: https://github.com/facebook/react/blob/master/packages/react-dom/src/test-utils/ReactTestUtils.js#L360
     nativeEventProto.ctrlKey = true;
 
-    wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(1).simulate('click');
+    wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(1).simulate('click');
     expect(wrapper.render()).toMatchSnapshot();
     expect(onSelect.mock.calls[2][0].length).toBe(2);
     expect(onSelect.mock.calls[2][1].selected).toBeTruthy();
@@ -182,7 +182,7 @@ describe('Directory Tree', () => {
     delete nativeEventProto.ctrlKey;
     nativeEventProto.shiftKey = true;
 
-    wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(4).simulate('click');
+    wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(4).simulate('click');
     expect(wrapper.render()).toMatchSnapshot();
     expect(onSelect.mock.calls[3][0].length).toBe(5);
     expect(onSelect.mock.calls[3][1].selected).toBeTruthy();
@@ -194,7 +194,7 @@ describe('Directory Tree', () => {
   it('onDoubleClick', () => {
     const onDoubleClick = jest.fn();
     const wrapper = mount(createTree({ onDoubleClick }));
-    wrapper.find(TreeNode).find('.ant-tree-node-content-wrapper').at(0).simulate('doubleclick');
+    wrapper.find(TreeNode).find('.ezd-tree-node-content-wrapper').at(0).simulate('doubleclick');
     expect(onDoubleClick).toBeCalled();
   });
 
@@ -204,7 +204,7 @@ describe('Directory Tree', () => {
     const wrapper = mount(createTree({ onExpand, onSelect }));
     wrapper
       .find(TreeNode)
-      .find('.ant-tree-node-content-wrapper')
+      .find('.ezd-tree-node-content-wrapper')
       .at(0)
       .simulate('click', { ctrlKey: true });
     expect(onExpand).not.toHaveBeenCalled();
@@ -243,7 +243,7 @@ describe('Directory Tree', () => {
         ],
       }),
     );
-    wrapper.find(TreeNode).last().find('.ant-tree-node-content-wrapper').at(0).simulate('click');
+    wrapper.find(TreeNode).last().find('.ezd-tree-node-content-wrapper').at(0).simulate('click');
     expect(onExpand).not.toHaveBeenCalled();
     expect(onSelect).toHaveBeenCalledWith(
       ['0-0-2'],

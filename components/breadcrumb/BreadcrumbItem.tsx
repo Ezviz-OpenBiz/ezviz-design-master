@@ -14,7 +14,7 @@ export interface BreadcrumbItemProps {
   className?: string;
 }
 interface BreadcrumbItemInterface extends React.FC<BreadcrumbItemProps> {
-  __ANT_BREADCRUMB_ITEM: boolean;
+  __EZD_BREADCRUMB_ITEM: boolean;
 }
 const BreadcrumbItem: BreadcrumbItemInterface = ({
   prefixCls: customizePrefixCls,
@@ -71,6 +71,6 @@ const BreadcrumbItem: BreadcrumbItemInterface = ({
   return null;
 };
 
-BreadcrumbItem.__ANT_BREADCRUMB_ITEM = true;
+BreadcrumbItem.__EZD_BREADCRUMB_ITEM = true;
 
 export default BreadcrumbItem;

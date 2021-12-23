@@ -14,7 +14,7 @@ title:
 The following example shows how to create a popover which can be hovered and clicked.
 
 ```jsx
-import { Popover, Button } from '@ezviz/evvd';
+import { Popover, Button } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

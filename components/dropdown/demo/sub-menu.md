@@ -14,7 +14,7 @@ title:
 The menu has multiple levels.
 
 ```jsx
-import { Menu, Dropdown } from '@ezviz/evvd';
+import { Menu, Dropdown } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
@@ -38,7 +38,7 @@ const menu = (
 
 ReactDOM.render(
   <Dropdown overlay={menu}>
-    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+    <a className="ezd-dropdown-link" onClick={e => e.preventDefault()}>
       Cascading menu <DownOutlined />
     </a>
   </Dropdown>,

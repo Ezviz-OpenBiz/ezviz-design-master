@@ -14,7 +14,7 @@ title:
 You can set a custom text by setting the `format` prop.
 
 ```jsx
-import { Progress } from '@ezviz/evvd';
+import { Progress } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>
@@ -26,13 +26,13 @@ ReactDOM.render(
 ```
 
 <style>
-div.ant-progress-circle,
-div.ant-progress-line {
+div.ezd-progress-circle,
+div.ezd-progress-line {
   margin-right: 8px;
   margin-bottom: 8px;
 }
-[class*='-col-rtl'] div.ant-progress-circle,
-[class*='-col-rtl'] div.ant-progress-line {
+[class*='-col-rtl'] div.ezd-progress-circle,
+[class*='-col-rtl'] div.ezd-progress-line {
   margin-right: 0;
   margin-left: 8px;
 }

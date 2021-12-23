@@ -14,7 +14,7 @@ title:
 Manually updating and destroying a modal from `Modal.method`.
 
 ```jsx
-import { Modal, Button } from '@ezviz/evvd';
+import { Modal, Button } from '@ezviz/ezd';
 
 function countDown() {
   let secondsToGo = 5;

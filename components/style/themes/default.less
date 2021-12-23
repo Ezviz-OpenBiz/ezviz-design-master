@@ -4,8 +4,8 @@
 
 @theme: default;
 
-// The prefix to use on all css classes from ant.
-@ant-prefix: ant;
+// The prefix to use on all css classes from ezd.
+@ezd-prefix: ezd;
 
 // An override for the html selector for theme prefixes
 @html-selector: html;
@@ -15,15 +15,15 @@
 
 // -------- Colors -----------
 // >>> Primary
-@primary-color: @blue-6;
-@primary-color-hover: color(~`colorPalette('@{primary-color}', 5) `);
-@primary-color-active: color(~`colorPalette('@{primary-color}', 7) `);
-@primary-color-outline: fade(@primary-color, @outline-fade);
+@ezd-primary-color: @blue-6;
+@primary-color-hover: color(~`colorPalette('@{ezd-primary-color}', 5) `);
+@primary-color-active: color(~`colorPalette('@{ezd-primary-color}', 7) `);
+@primary-color-outline: fade(@ezd-primary-color, @outline-fade);
 
 @processing-color: @blue-6;
 
 // >>> Info
-@info-color: @primary-color;
+@info-color: @ezd-primary-color;
 @info-color-deprecated-bg: color(~`colorPalette('@{info-color}', 1) `);
 @info-color-deprecated-border: color(~`colorPalette('@{info-color}', 3) `);
 
@@ -58,18 +58,18 @@
 
 // Color used by default to control hover and active backgrounds and for
 // alert info backgrounds.
-@primary-1: color(~`colorPalette('@{primary-color}', 1) `); // replace tint(@primary-color, 90%)
-@primary-2: color(~`colorPalette('@{primary-color}', 2) `); // replace tint(@primary-color, 80%)
-@primary-3: color(~`colorPalette('@{primary-color}', 3) `); // unused
-@primary-4: color(~`colorPalette('@{primary-color}', 4) `); // unused
+@primary-1: color(~`colorPalette('@{ezd-primary-color}', 1) `); // replace tint(@ezd-primary-color, 90%)
+@primary-2: color(~`colorPalette('@{ezd-primary-color}', 2) `); // replace tint(@ezd-primary-color, 80%)
+@primary-3: color(~`colorPalette('@{ezd-primary-color}', 3) `); // unused
+@primary-4: color(~`colorPalette('@{ezd-primary-color}', 4) `); // unused
 @primary-5: color(
-  ~`colorPalette('@{primary-color}', 5) `
-); // color used to control the text color in many active and hover states, replace tint(@primary-color, 20%)
-@primary-6: @primary-color; // color used to control the text color of active buttons, don't use, use @primary-color
-@primary-7: color(~`colorPalette('@{primary-color}', 7) `); // replace shade(@primary-color, 5%)
-@primary-8: color(~`colorPalette('@{primary-color}', 8) `); // unused
-@primary-9: color(~`colorPalette('@{primary-color}', 9) `); // unused
-@primary-10: color(~`colorPalette('@{primary-color}', 10) `); // unused
+  ~`colorPalette('@{ezd-primary-color}', 5) `
+); // color used to control the text color in many active and hover states, replace tint(@ezd-primary-color, 20%)
+@primary-6: @ezd-primary-color; // color used to control the text color of active buttons, don't use, use @ezd-primary-color
+@primary-7: color(~`colorPalette('@{ezd-primary-color}', 7) `); // replace shade(@ezd-primary-color, 5%)
+@primary-8: color(~`colorPalette('@{ezd-primary-color}', 8) `); // unused
+@primary-9: color(~`colorPalette('@{ezd-primary-color}', 9) `); // unused
+@primary-10: color(~`colorPalette('@{ezd-primary-color}', 10) `); // unused
 
 // Base Scaffolding Variables
 // ---
@@ -93,7 +93,7 @@
 @heading-color: fade(@black, 85%);
 @text-color-dark: fade(@white, 85%);
 @text-color-secondary-dark: fade(@white, 65%);
-@text-selection-bg: @primary-color;
+@text-selection-bg: @ezd-primary-color;
 @font-variant-base: tabular-nums;
 @font-feature-settings-base: 'tnum';
 @font-size-base: 14px;
@@ -104,7 +104,6 @@
 @heading-3-size: ceil(@font-size-base * 1.71);
 @heading-4-size: ceil(@font-size-base * 1.42);
 @heading-5-size: ceil(@font-size-base * 1.14);
-// https://github.com/ant-design/ant-design/issues/20210
 @line-height-base: 1.5715;
 @border-radius-base: 2px;
 @border-radius-sm: @border-radius-base;
@@ -138,10 +137,10 @@
 @item-hover-bg: #f5f5f5;
 
 // ICONFONT
-@iconfont-css-prefix: anticon;
+@iconfont-css-prefix: ezdicon;
 
 // LINK
-@link-color: @primary-color;
+@link-color: @ezd-primary-color;
 @link-hover-color: color(~`colorPalette('@{link-color}', 5) `);
 @link-active-color: color(~`colorPalette('@{link-color}', 7) `);
 @link-decoration: none;
@@ -175,7 +174,7 @@
 // Outline
 @outline-blur-size: 0;
 @outline-width: 2px;
-@outline-color: @primary-color; // No use anymore
+@outline-color: @ezd-primary-color; // No use anymore
 @outline-fade: 20%;
 
 @background-color-light: hsv(0, 0, 98%); // background of header and selected item
@@ -213,7 +212,7 @@
 @btn-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
 
 @btn-primary-color: #fff;
-@btn-primary-bg: @primary-color;
+@btn-primary-bg: @ezd-primary-color;
 
 @btn-default-color: @text-color;
 @btn-default-bg: @component-background;
@@ -261,7 +260,7 @@
 
 // Checkbox
 @checkbox-size: 16px;
-@checkbox-color: @primary-color;
+@checkbox-color: @ezd-primary-color;
 @checkbox-check-color: #fff;
 @checkbox-check-bg: @checkbox-check-color;
 @checkbox-border-width: @border-width-base;
@@ -286,7 +285,7 @@
 @divider-color: rgba(0, 0, 0, 6%);
 
 // Dropdown
-@dropdown-selected-color: @primary-color;
+@dropdown-selected-color: @ezd-primary-color;
 @dropdown-menu-submenu-disabled-bg: @component-background;
 
 // Empty
@@ -297,7 +296,7 @@
 @radio-top: 0.2em;
 @radio-border-width: 1px;
 @radio-dot-size: @radio-size - 8px;
-@radio-dot-color: @primary-color;
+@radio-dot-color: @ezd-primary-color;
 @radio-dot-disabled-color: fade(@black, 20%);
 @radio-solid-checked-color: @component-background;
 
@@ -585,7 +584,7 @@
 @menu-popup-bg: @component-background;
 @menu-item-color: @text-color;
 @menu-inline-submenu-bg: @background-color-light;
-@menu-highlight-color: @primary-color;
+@menu-highlight-color: @ezd-primary-color;
 @menu-highlight-danger-color: @error-color;
 @menu-item-active-bg: @primary-1;
 @menu-item-active-danger-bg: @red-1;
@@ -609,7 +608,7 @@
 @menu-dark-arrow-color: #fff;
 @menu-dark-inline-submenu-bg: #000c17;
 @menu-dark-highlight-color: #fff;
-@menu-dark-item-active-bg: @primary-color;
+@menu-dark-item-active-bg: @ezd-primary-color;
 @menu-dark-item-active-danger-bg: @error-color;
 @menu-dark-selected-item-icon-color: @white;
 @menu-dark-selected-item-text-color: @white;
@@ -675,10 +674,10 @@
 @picker-bg: @component-background;
 @picker-basic-cell-hover-color: @item-hover-bg;
 @picker-basic-cell-active-with-range-color: @primary-1;
-@picker-basic-cell-hover-with-range-color: lighten(@primary-color, 35%);
+@picker-basic-cell-hover-with-range-color: lighten(@ezd-primary-color, 35%);
 @picker-basic-cell-disabled-bg: rgba(0, 0, 0, 0.04);
 @picker-border-color: @border-color-split;
-@picker-date-hover-range-border-color: lighten(@primary-color, 20%);
+@picker-date-hover-range-border-color: lighten(@ezd-primary-color, 20%);
 @picker-date-hover-range-color: @picker-basic-cell-hover-with-range-color;
 @picker-time-panel-column-width: 56px;
 @picker-time-panel-column-height: 224px;
@@ -765,7 +764,7 @@
 // ---
 @tabs-card-head-background: @background-color-light;
 @tabs-card-height: 40px;
-@tabs-card-active-color: @primary-color;
+@tabs-card-active-color: @ezd-primary-color;
 @tabs-card-horizontal-padding: (
     (@tabs-card-height - floor(@font-size-base * @line-height-base)) / 2
   ) - @border-width-base @padding-md;
@@ -774,7 +773,7 @@
 @tabs-title-font-size: @font-size-base;
 @tabs-title-font-size-lg: @font-size-lg;
 @tabs-title-font-size-sm: @font-size-base;
-@tabs-ink-bar-color: @primary-color;
+@tabs-ink-bar-color: @ezd-primary-color;
 @tabs-bar-margin: 0 0 @margin-md 0;
 @tabs-horizontal-gutter: 32px;
 @tabs-horizontal-margin: 0 0 0 @tabs-horizontal-gutter;
@@ -785,7 +784,7 @@
 @tabs-vertical-padding: @padding-xs @padding-lg;
 @tabs-vertical-margin: @margin-md 0 0 0;
 @tabs-scrolling-size: 32px;
-@tabs-highlight-color: @primary-color;
+@tabs-highlight-color: @ezd-primary-color;
 @tabs-hover-color: @primary-5;
 @tabs-active-color: @primary-7;
 @tabs-card-gutter: 2px;
@@ -819,7 +818,7 @@
 @switch-min-width: 44px;
 @switch-sm-min-width: 28px;
 @switch-disabled-opacity: 0.4;
-@switch-color: @primary-color;
+@switch-color: @ezd-primary-color;
 @switch-bg: @component-background;
 @switch-shadow-color: fade(#00230b, 20%);
 @switch-padding: 2px;
@@ -876,14 +875,14 @@
 @slider-handle-background-color: @component-background;
 @slider-handle-color: @primary-3;
 @slider-handle-color-hover: @primary-4;
-@slider-handle-color-focus: tint(@primary-color, 20%);
-@slider-handle-color-focus-shadow: fade(@primary-color, 12%);
-@slider-handle-color-tooltip-open: @primary-color;
+@slider-handle-color-focus: tint(@ezd-primary-color, 20%);
+@slider-handle-color-focus-shadow: fade(@ezd-primary-color, 12%);
+@slider-handle-color-tooltip-open: @ezd-primary-color;
 @slider-handle-size: 14px;
 @slider-handle-margin-top: -5px;
 @slider-handle-shadow: 0;
 @slider-dot-border-color: @border-color-split;
-@slider-dot-border-color-active: tint(@primary-color, 50%);
+@slider-dot-border-color-active: tint(@ezd-primary-color, 50%);
 @slider-disabled-color: @disabled-color;
 @slider-disabled-background-color: @component-background;
 
@@ -893,7 +892,7 @@
 @tree-title-height: 24px;
 @tree-child-padding: 18px;
 @tree-directory-selected-color: #fff;
-@tree-directory-selected-bg: @primary-color;
+@tree-directory-selected-bg: @ezd-primary-color;
 @tree-node-hover-bg: @item-hover-bg;
 @tree-node-selected-bg: @primary-2;
 
@@ -996,7 +995,7 @@
 @timeline-width: 2px;
 @timeline-color: @border-color-split;
 @timeline-dot-border-width: 2px;
-@timeline-dot-color: @primary-color;
+@timeline-dot-color: @ezd-primary-color;
 @timeline-dot-bg: @component-background;
 @timeline-item-padding-bottom: 20px;
 

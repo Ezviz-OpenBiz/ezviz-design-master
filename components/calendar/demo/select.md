@@ -14,7 +14,7 @@ title:
 A basic calendar component with Year/Month switch.
 
 ```jsx
-import { Calendar, Alert } from '@ezviz/evvd';
+import { Calendar, Alert } from '@ezviz/ezd';
 import moment from 'moment';
 
 class App extends React.Component {

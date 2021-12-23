@@ -14,7 +14,7 @@ title:
 A dynamic progress bar is better.
 
 ```jsx
-import { Progress, Button } from '@ezviz/evvd';
+import { Progress, Button } from '@ezviz/ezd';
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
 
 class App extends React.Component {

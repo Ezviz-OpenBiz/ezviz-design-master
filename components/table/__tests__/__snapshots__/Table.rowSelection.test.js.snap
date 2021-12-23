@@ -2,22 +2,22 @@
 
 exports[`Table.rowSelection fix expand on th left when selection column fixed on the left 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table ant-table-fixed-column ant-table-scroll-horizontal ant-table-has-fix-left"
+        class="ezd-table ezd-table-fixed-column ezd-table-scroll-horizontal ezd-table-has-fix-left"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
             style="overflow-x:auto;overflow-y:hidden"
           >
             <table
@@ -25,57 +25,57 @@ exports[`Table.rowSelection fix expand on th left when selection column fixed on
             >
               <colgroup>
                 <col
-                  class="ant-table-expand-icon-col"
+                  class="ezd-table-expand-icon-col"
                 />
                 <col
-                  class="ant-table-selection-col"
+                  class="ezd-table-selection-col"
                 />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-row-expand-icon-cell ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-row-expand-icon-cell ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   />
                   <th
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <div
-                      class="ant-table-selection"
+                      class="ezd-table-selection"
                     >
                       <label
-                        class="ant-checkbox-wrapper"
+                        class="ezd-checkbox-wrapper"
                       >
                         <span
-                          class="ant-checkbox"
+                          class="ezd-checkbox"
                         >
                           <input
-                            class="ant-checkbox-input"
+                            class="ezd-checkbox-input"
                             type="checkbox"
                           />
                           <span
-                            class="ant-checkbox-inner"
+                            class="ezd-checkbox-inner"
                           />
                         </span>
                       </label>
                     </div>
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
                   aria-hidden="true"
-                  class="ant-table-measure-row"
+                  class="ezd-table-measure-row"
                   style="height:0;font-size:0"
                 >
                   <td
@@ -107,161 +107,161 @@ exports[`Table.rowSelection fix expand on th left when selection column fixed on
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell ant-table-row-expand-icon-cell ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-row-expand-icon-cell ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <button
                       aria-label="Expand row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-collapsed"
+                      class="ezd-table-row-expand-icon ezd-table-row-expand-icon-collapsed"
                       type="button"
                     />
                   </td>
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-row-expand-icon-cell ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-row-expand-icon-cell ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <button
                       aria-label="Expand row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-collapsed"
+                      class="ezd-table-row-expand-icon ezd-table-row-expand-icon-collapsed"
                       type="button"
                     />
                   </td>
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-row-expand-icon-cell ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-row-expand-icon-cell ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <button
                       aria-label="Expand row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-collapsed"
+                      class="ezd-table-row-expand-icon ezd-table-row-expand-icon-collapsed"
                       type="button"
                     />
                   </td>
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell ant-table-row-expand-icon-cell ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-row-expand-icon-cell ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <button
                       aria-label="Expand row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-collapsed"
+                      class="ezd-table-row-expand-icon ezd-table-row-expand-icon-collapsed"
                       type="button"
                     />
                   </td>
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jerry
                   </td>
@@ -272,16 +272,16 @@ exports[`Table.rowSelection fix expand on th left when selection column fixed on
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -308,7 +308,7 @@ exports[`Table.rowSelection fix expand on th left when selection column fixed on
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -320,11 +320,11 @@ exports[`Table.rowSelection fix expand on th left when selection column fixed on
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -358,22 +358,22 @@ exports[`Table.rowSelection fix expand on th left when selection column fixed on
 
 exports[`Table.rowSelection fix selection column on the left 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table ant-table-fixed-column ant-table-scroll-horizontal ant-table-has-fix-left"
+        class="ezd-table ezd-table-fixed-column ezd-table-scroll-horizontal ezd-table-has-fix-left"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
             style="overflow-x:auto;overflow-y:hidden"
           >
             <table
@@ -381,50 +381,50 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
             >
               <colgroup>
                 <col
-                  class="ant-table-selection-col"
+                  class="ezd-table-selection-col"
                 />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <div
-                      class="ant-table-selection"
+                      class="ezd-table-selection"
                     >
                       <label
-                        class="ant-checkbox-wrapper"
+                        class="ezd-checkbox-wrapper"
                       >
                         <span
-                          class="ant-checkbox"
+                          class="ezd-checkbox"
                         >
                           <input
-                            class="ant-checkbox-input"
+                            class="ezd-checkbox-input"
                             type="checkbox"
                           />
                           <span
-                            class="ant-checkbox-inner"
+                            class="ezd-checkbox-inner"
                           />
                         </span>
                       </label>
                     </div>
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
                   aria-hidden="true"
-                  class="ant-table-measure-row"
+                  class="ezd-table-measure-row"
                   style="height:0;font-size:0"
                 >
                   <td
@@ -447,121 +447,121 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jerry
                   </td>
@@ -572,16 +572,16 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -608,7 +608,7 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -620,11 +620,11 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -658,22 +658,22 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
 
 exports[`Table.rowSelection fix selection column on the left when any other column is fixed 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table ant-table-fixed-column ant-table-scroll-horizontal ant-table-has-fix-left"
+        class="ezd-table ezd-table-fixed-column ezd-table-scroll-horizontal ezd-table-has-fix-left"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
             style="overflow-x:auto;overflow-y:hidden"
           >
             <table
@@ -681,39 +681,39 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
             >
               <colgroup>
                 <col
-                  class="ant-table-selection-col"
+                  class="ezd-table-selection-col"
                 />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <div
-                      class="ant-table-selection"
+                      class="ezd-table-selection"
                     >
                       <label
-                        class="ant-checkbox-wrapper"
+                        class="ezd-checkbox-wrapper"
                       >
                         <span
-                          class="ant-checkbox"
+                          class="ezd-checkbox"
                         >
                           <input
-                            class="ant-checkbox-input"
+                            class="ezd-checkbox-input"
                             type="checkbox"
                           />
                           <span
-                            class="ant-checkbox-inner"
+                            class="ezd-checkbox-inner"
                           />
                         </span>
                       </label>
                     </div>
                   </th>
                   <th
-                    class="ant-table-cell ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     Name
@@ -721,11 +721,11 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
                   aria-hidden="true"
-                  class="ant-table-measure-row"
+                  class="ezd-table-measure-row"
                   style="height:0;font-size:0"
                 >
                   <td
@@ -748,124 +748,124 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column ant-table-cell-fix-left"
+                    class="ezd-table-cell ezd-table-selection-column ezd-table-cell-fix-left"
                     style="position:sticky;left:0"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell ant-table-cell-fix-left ant-table-cell-fix-left-last"
+                    class="ezd-table-cell ezd-table-cell-fix-left ezd-table-cell-fix-left-last"
                     style="position:sticky;left:0"
                   >
                     Jerry
@@ -877,16 +877,16 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -913,7 +913,7 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -925,11 +925,11 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -965,62 +965,62 @@ exports[`Table.rowSelection render with default selection correctly 1`] = `<div 
 
 exports[`Table.rowSelection should support getPopupContainer 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <colgroup>
                 <col
-                  class="ant-table-selection-col"
+                  class="ezd-table-selection-col"
                 />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <div
-                      class="ant-table-selection"
+                      class="ezd-table-selection"
                     >
                       <label
-                        class="ant-checkbox-wrapper"
+                        class="ezd-checkbox-wrapper"
                       >
                         <span
-                          class="ant-checkbox"
+                          class="ezd-checkbox"
                         >
                           <input
-                            class="ant-checkbox-input"
+                            class="ezd-checkbox-input"
                             type="checkbox"
                             value=""
                           />
                           <span
-                            class="ant-checkbox-inner"
+                            class="ezd-checkbox-inner"
                           />
                         </span>
                       </label>
                       <div
-                        class="ant-table-selection-extra"
+                        class="ezd-table-selection-extra"
                       >
                         <span
-                          class="ant-dropdown-trigger ant-dropdown-open"
+                          class="ezd-dropdown-trigger ezd-dropdown-open"
                         >
                           <span
                             aria-label="down"
@@ -1047,47 +1047,47 @@ exports[`Table.rowSelection should support getPopupContainer 1`] = `
                         </span>
                         <div>
                           <div
-                            class="ant-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
+                            class="ezd-dropdown ezd-slide-up-appear ezd-slide-up-appear-prepare ezd-slide-up"
                             style="opacity: 0; pointer-events: none;"
                           >
                             <ul
-                              class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light"
+                              class="ezd-dropdown-menu ezd-dropdown-menu-root ezd-dropdown-menu-vertical ezd-dropdown-menu-light"
                               data-menu-list="true"
                               role="menu"
                               tabindex="0"
                             >
                               <li
-                                class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                                class="ezd-dropdown-menu-item ezd-dropdown-menu-item-only-child"
                                 data-menu-id="rc-menu-uuid-test-all"
                                 role="menuitem"
                                 tabindex="-1"
                               >
                                 <span
-                                  class="ant-dropdown-menu-title-content"
+                                  class="ezd-dropdown-menu-title-content"
                                 >
                                   Select all data
                                 </span>
                               </li>
                               <li
-                                class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                                class="ezd-dropdown-menu-item ezd-dropdown-menu-item-only-child"
                                 data-menu-id="rc-menu-uuid-test-invert"
                                 role="menuitem"
                                 tabindex="-1"
                               >
                                 <span
-                                  class="ant-dropdown-menu-title-content"
+                                  class="ezd-dropdown-menu-title-content"
                                 >
                                   Invert current page
                                 </span>
                               </li>
                               <li
-                                class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                                class="ezd-dropdown-menu-item ezd-dropdown-menu-item-only-child"
                                 data-menu-id="rc-menu-uuid-test-none"
                                 role="menuitem"
                                 tabindex="-1"
                               >
                                 <span
-                                  class="ant-dropdown-menu-title-content"
+                                  class="ezd-dropdown-menu-title-content"
                                 >
                                   Clear all data
                                 </span>
@@ -1103,131 +1103,131 @@ exports[`Table.rowSelection should support getPopupContainer 1`] = `
                     </div>
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jerry
                   </td>
@@ -1238,16 +1238,16 @@ exports[`Table.rowSelection should support getPopupContainer 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -1274,7 +1274,7 @@ exports[`Table.rowSelection should support getPopupContainer 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -1286,11 +1286,11 @@ exports[`Table.rowSelection should support getPopupContainer 1`] = `
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -1324,62 +1324,62 @@ exports[`Table.rowSelection should support getPopupContainer 1`] = `
 
 exports[`Table.rowSelection should support getPopupContainer from ConfigProvider 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <colgroup>
                 <col
-                  class="ant-table-selection-col"
+                  class="ezd-table-selection-col"
                 />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <div
-                      class="ant-table-selection"
+                      class="ezd-table-selection"
                     >
                       <label
-                        class="ant-checkbox-wrapper"
+                        class="ezd-checkbox-wrapper"
                       >
                         <span
-                          class="ant-checkbox"
+                          class="ezd-checkbox"
                         >
                           <input
-                            class="ant-checkbox-input"
+                            class="ezd-checkbox-input"
                             type="checkbox"
                             value=""
                           />
                           <span
-                            class="ant-checkbox-inner"
+                            class="ezd-checkbox-inner"
                           />
                         </span>
                       </label>
                       <div
-                        class="ant-table-selection-extra"
+                        class="ezd-table-selection-extra"
                       >
                         <span
-                          class="ant-dropdown-trigger ant-dropdown-open"
+                          class="ezd-dropdown-trigger ezd-dropdown-open"
                         >
                           <span
                             aria-label="down"
@@ -1403,47 +1403,47 @@ exports[`Table.rowSelection should support getPopupContainer from ConfigProvider
                         </span>
                         <div>
                           <div
-                            class="ant-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
+                            class="ezd-dropdown ezd-slide-up-appear ezd-slide-up-appear-prepare ezd-slide-up"
                             style="opacity: 0; pointer-events: none;"
                           >
                             <ul
-                              class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light"
+                              class="ezd-dropdown-menu ezd-dropdown-menu-root ezd-dropdown-menu-vertical ezd-dropdown-menu-light"
                               data-menu-list="true"
                               role="menu"
                               tabindex="0"
                             >
                               <li
-                                class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                                class="ezd-dropdown-menu-item ezd-dropdown-menu-item-only-child"
                                 data-menu-id="rc-menu-uuid-test-all"
                                 role="menuitem"
                                 tabindex="-1"
                               >
                                 <span
-                                  class="ant-dropdown-menu-title-content"
+                                  class="ezd-dropdown-menu-title-content"
                                 >
                                   Select all data
                                 </span>
                               </li>
                               <li
-                                class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                                class="ezd-dropdown-menu-item ezd-dropdown-menu-item-only-child"
                                 data-menu-id="rc-menu-uuid-test-invert"
                                 role="menuitem"
                                 tabindex="-1"
                               >
                                 <span
-                                  class="ant-dropdown-menu-title-content"
+                                  class="ezd-dropdown-menu-title-content"
                                 >
                                   Invert current page
                                 </span>
                               </li>
                               <li
-                                class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                                class="ezd-dropdown-menu-item ezd-dropdown-menu-item-only-child"
                                 data-menu-id="rc-menu-uuid-test-none"
                                 role="menuitem"
                                 tabindex="-1"
                               >
                                 <span
-                                  class="ant-dropdown-menu-title-content"
+                                  class="ezd-dropdown-menu-title-content"
                                 >
                                   Clear all data
                                 </span>
@@ -1462,131 +1462,131 @@ exports[`Table.rowSelection should support getPopupContainer from ConfigProvider
                     </div>
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                           value=""
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jerry
                   </td>
@@ -1597,16 +1597,16 @@ exports[`Table.rowSelection should support getPopupContainer from ConfigProvider
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -1633,7 +1633,7 @@ exports[`Table.rowSelection should support getPopupContainer from ConfigProvider
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -1645,11 +1645,11 @@ exports[`Table.rowSelection should support getPopupContainer from ConfigProvider
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -1683,180 +1683,180 @@ exports[`Table.rowSelection should support getPopupContainer from ConfigProvider
 
 exports[`Table.rowSelection use column as selection column when key is \`selection-column\` 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout:auto"
             >
               <colgroup>
                 <col
-                  class="ant-table-selection-col"
+                  class="ezd-table-selection-col"
                 />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <div
-                      class="ant-table-selection"
+                      class="ezd-table-selection"
                     >
                       <label
-                        class="ant-checkbox-wrapper"
+                        class="ezd-checkbox-wrapper"
                       >
                         <span
-                          class="ant-checkbox"
+                          class="ezd-checkbox"
                         >
                           <input
-                            class="ant-checkbox-input"
+                            class="ezd-checkbox-input"
                             type="checkbox"
                           />
                           <span
-                            class="ant-checkbox-inner"
+                            class="ezd-checkbox-inner"
                           />
                         </span>
                       </label>
                     </div>
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell ant-table-selection-column"
+                    class="ezd-table-cell ezd-table-selection-column"
                   >
                     <label
-                      class="ant-checkbox-wrapper"
+                      class="ezd-checkbox-wrapper"
                     >
                       <span
-                        class="ant-checkbox"
+                        class="ezd-checkbox"
                       >
                         <input
-                          class="ant-checkbox-input"
+                          class="ezd-checkbox-input"
                           type="checkbox"
                         />
                         <span
-                          class="ant-checkbox-inner"
+                          class="ezd-checkbox-inner"
                         />
                       </span>
                     </label>
                   </td>
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jerry
                   </td>
@@ -1867,16 +1867,16 @@ exports[`Table.rowSelection use column as selection column when key is \`selecti
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -1903,7 +1903,7 @@ exports[`Table.rowSelection use column as selection column when key is \`selecti
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -1915,11 +1915,11 @@ exports[`Table.rowSelection use column as selection column when key is \`selecti
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"

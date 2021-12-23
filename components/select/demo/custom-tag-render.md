@@ -14,7 +14,7 @@ title:
 Allows for custom rendering of tags.
 
 ```jsx
-import { Select, Tag } from '@ezviz/evvd';
+import { Select, Tag } from '@ezviz/ezd';
 
 const options = [{ value: 'gold' }, { value: 'lime' }, { value: 'green' }, { value: 'cyan' }];
 

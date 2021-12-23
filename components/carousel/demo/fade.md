@@ -14,7 +14,7 @@ title:
 Slides use fade for transition.
 
 ```jsx
-import { Carousel } from '@ezviz/evvd';
+import { Carousel } from '@ezviz/ezd';
 
 const contentStyle = {
   height: '160px',

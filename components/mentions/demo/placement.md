@@ -14,7 +14,7 @@ title:
 Change the suggestions placement.
 
 ```jsx
-import { Mentions } from '@ezviz/evvd';
+import { Mentions } from '@ezviz/ezd';
 
 const { Option } = Mentions;
 

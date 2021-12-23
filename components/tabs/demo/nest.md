@@ -15,7 +15,7 @@ title:
 Default activate first tab.
 
 ```jsx
-import { Tabs, Select } from '@ezviz/evvd';
+import { Tabs, Select } from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 const { Option } = Select;

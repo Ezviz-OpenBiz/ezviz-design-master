@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'bisheng/router';
 import { useIntl } from 'react-intl';
 import debounce from 'lodash/debounce';
-import { Input, Divider, Row, Col, Card, Typography, Tag, Space } from 'antd';
+import { Input, Divider, Row, Col, Card, Typography, Tag, Space } from '@ezviz/ezd';
 import { SearchOutlined } from '@ant-design/icons';
 import { getChildren } from 'jsonml.js/lib/utils';
 import { getMetaDescription, getLocalizedPathname, getThemeConfig, getMenuItems } from '../utils';
@@ -38,7 +38,7 @@ const ComponentOverview = ({
   utils: { toReactComponent },
 }) => {
   const { locale, formatMessage } = useIntl();
-  const documentTitle = `${title} - Evv Design`;
+  const documentTitle = `${title} - EZ Design`;
   const contentChild = getMetaDescription(getChildren(content));
   const themeConfig = getThemeConfig();
   const menuItems = getMenuItems(

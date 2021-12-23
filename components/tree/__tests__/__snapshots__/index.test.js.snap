@@ -2,7 +2,7 @@
 
 exports[`Tree icon and switcherIcon of Tree with showLine should render correctly 1`] = `
 <div
-  class="ant-tree ant-tree-show-line"
+  class="ezd-tree ezd-tree-show-line"
   role="tree"
 >
   <div>
@@ -15,54 +15,54 @@ exports[`Tree icon and switcherIcon of Tree with showLine should render correctl
   </div>
   <div
     aria-hidden="true"
-    class="ant-tree-treenode"
+    class="ezd-tree-treenode"
     style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden;"
   >
     <div
-      class="ant-tree-indent"
+      class="ezd-tree-indent"
     >
       <div
-        class="ant-tree-indent-unit"
+        class="ezd-tree-indent-unit"
       />
     </div>
   </div>
   <div
-    class="ant-tree-list"
+    class="ezd-tree-list"
     style="position: relative;"
   >
     <div
-      class="ant-tree-list-holder"
+      class="ezd-tree-list-holder"
     >
       <div>
         <div
-          class="ant-tree-list-holder-inner"
+          class="ezd-tree-list-holder-inner"
           style="display: flex; flex-direction: column;"
         >
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             />
             <span
-              class="ant-tree-switcher ant-tree-switcher_close"
+              class="ezd-tree-switcher ezd-tree-switcher_close"
             >
               switcherIcon
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-close"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-close"
               title="---"
             >
               <span
-                class="ant-tree-iconEle ant-tree-icon__customize"
+                class="ezd-tree-iconEle ezd-tree-icon__customize"
               >
                 icon
               </span>
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 ---
               </span>
@@ -70,27 +70,27 @@ exports[`Tree icon and switcherIcon of Tree with showLine should render correctl
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             />
             <span
-              class="ant-tree-switcher ant-tree-switcher_close"
+              class="ezd-tree-switcher ezd-tree-switcher_close"
             >
               switcherIcon
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-close"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-close"
               title="---"
             >
               <span
-                class="ant-tree-iconEle ant-tree-icon__close"
+                class="ezd-tree-iconEle ezd-tree-icon__close"
               />
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 ---
               </span>
@@ -98,19 +98,19 @@ exports[`Tree icon and switcherIcon of Tree with showLine should render correctl
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             />
             <span
-              class="ant-tree-switcher ant-tree-switcher_close"
+              class="ezd-tree-switcher ezd-tree-switcher_close"
             >
               <span
                 aria-label="plus-square"
-                class="anticon anticon-plus-square ant-tree-switcher-line-icon"
+                class="anticon anticon-plus-square ezd-tree-switcher-line-icon"
                 role="img"
               >
                 <svg
@@ -132,14 +132,14 @@ exports[`Tree icon and switcherIcon of Tree with showLine should render correctl
               </span>
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-close"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-close"
               title="---"
             >
               <span
-                class="ant-tree-iconEle ant-tree-icon__close"
+                class="ezd-tree-iconEle ezd-tree-icon__close"
               />
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 ---
               </span>
@@ -154,7 +154,7 @@ exports[`Tree icon and switcherIcon of Tree with showLine should render correctl
 
 exports[`Tree showLine is object type should render correctly 1`] = `
 <div
-  class="ant-tree ant-tree-icon-hide ant-tree-show-line"
+  class="ezd-tree ezd-tree-icon-hide ezd-tree-show-line"
   role="tree"
 >
   <div>
@@ -167,44 +167,44 @@ exports[`Tree showLine is object type should render correctly 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="ant-tree-treenode"
+    class="ezd-tree-treenode"
     style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden;"
   >
     <div
-      class="ant-tree-indent"
+      class="ezd-tree-indent"
     >
       <div
-        class="ant-tree-indent-unit"
+        class="ezd-tree-indent-unit"
       />
     </div>
   </div>
   <div
-    class="ant-tree-list"
+    class="ezd-tree-list"
     style="position: relative;"
   >
     <div
-      class="ant-tree-list-holder"
+      class="ezd-tree-list-holder"
     >
       <div>
         <div
-          class="ant-tree-list-holder-inner"
+          class="ezd-tree-list-holder-inner"
           style="display: flex; flex-direction: column;"
         >
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             />
             <span
-              class="ant-tree-switcher ant-tree-switcher_open"
+              class="ezd-tree-switcher ezd-tree-switcher_open"
             >
               <span
                 aria-label="minus-square"
-                class="anticon anticon-minus-square ant-tree-switcher-line-icon"
+                class="anticon anticon-minus-square ezd-tree-switcher-line-icon"
                 role="img"
               >
                 <svg
@@ -226,11 +226,11 @@ exports[`Tree showLine is object type should render correctly 1`] = `
               </span>
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-open"
               title="parent 1"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 parent 1
               </span>
@@ -238,23 +238,23 @@ exports[`Tree showLine is object type should render correctly 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher_open"
+              class="ezd-tree-switcher ezd-tree-switcher_open"
             >
               <span
                 aria-label="minus-square"
-                class="anticon anticon-minus-square ant-tree-switcher-line-icon"
+                class="anticon anticon-minus-square ezd-tree-switcher-line-icon"
                 role="img"
               >
                 <svg
@@ -276,11 +276,11 @@ exports[`Tree showLine is object type should render correctly 1`] = `
               </span>
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-open"
               title="parent 1-0"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 parent 1-0
               </span>
@@ -288,33 +288,33 @@ exports[`Tree showLine is object type should render correctly 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher-noop"
+              class="ezd-tree-switcher ezd-tree-switcher-noop"
             >
               <span
-                class="ant-tree-switcher-leaf-line"
+                class="ezd-tree-switcher-leaf-line"
               />
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-normal"
               title="leaf"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 leaf
               </span>
@@ -322,33 +322,33 @@ exports[`Tree showLine is object type should render correctly 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher-noop"
+              class="ezd-tree-switcher ezd-tree-switcher-noop"
             >
               <span
-                class="ant-tree-switcher-leaf-line"
+                class="ezd-tree-switcher-leaf-line"
               />
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-normal"
               title="leaf"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 leaf
               </span>
@@ -356,33 +356,33 @@ exports[`Tree showLine is object type should render correctly 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher-noop"
+              class="ezd-tree-switcher ezd-tree-switcher-noop"
             >
               <span
-                class="ant-tree-switcher-leaf-line"
+                class="ezd-tree-switcher-leaf-line"
               />
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-normal"
               title="leaf"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 leaf
               </span>
@@ -390,23 +390,23 @@ exports[`Tree showLine is object type should render correctly 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher_close"
+              class="ezd-tree-switcher ezd-tree-switcher_close"
             >
               <span
                 aria-label="plus-square"
-                class="anticon anticon-plus-square ant-tree-switcher-line-icon"
+                class="anticon anticon-plus-square ezd-tree-switcher-line-icon"
                 role="img"
               >
                 <svg
@@ -428,11 +428,11 @@ exports[`Tree showLine is object type should render correctly 1`] = `
               </span>
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-close"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-close"
               title="parent 1-1"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 parent 1-1
               </span>
@@ -440,23 +440,23 @@ exports[`Tree showLine is object type should render correctly 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-close ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-close ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher_close"
+              class="ezd-tree-switcher ezd-tree-switcher_close"
             >
               <span
                 aria-label="plus-square"
-                class="anticon anticon-plus-square ant-tree-switcher-line-icon"
+                class="anticon anticon-plus-square ezd-tree-switcher-line-icon"
                 role="img"
               >
                 <svg
@@ -478,11 +478,11 @@ exports[`Tree showLine is object type should render correctly 1`] = `
               </span>
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-close"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-close"
               title="parent 1-2"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 parent 1-2
               </span>
@@ -497,7 +497,7 @@ exports[`Tree showLine is object type should render correctly 1`] = `
 
 exports[`Tree switcherIcon in Tree could be string 1`] = `
 <div
-  class="ant-tree ant-tree-icon-hide"
+  class="ezd-tree ezd-tree-icon-hide"
   role="tree"
 >
   <div>
@@ -510,49 +510,49 @@ exports[`Tree switcherIcon in Tree could be string 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="ant-tree-treenode"
+    class="ezd-tree-treenode"
     style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden;"
   >
     <div
-      class="ant-tree-indent"
+      class="ezd-tree-indent"
     >
       <div
-        class="ant-tree-indent-unit"
+        class="ezd-tree-indent-unit"
       />
     </div>
   </div>
   <div
-    class="ant-tree-list"
+    class="ezd-tree-list"
     style="position: relative;"
   >
     <div
-      class="ant-tree-list-holder"
+      class="ezd-tree-list-holder"
     >
       <div>
         <div
-          class="ant-tree-list-holder-inner"
+          class="ezd-tree-list-holder-inner"
           style="display: flex; flex-direction: column;"
         >
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             />
             <span
-              class="ant-tree-switcher ant-tree-switcher_open"
+              class="ezd-tree-switcher ezd-tree-switcher_open"
             >
               switcherIcon
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-open"
               title="---"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 ---
               </span>
@@ -560,26 +560,26 @@ exports[`Tree switcherIcon in Tree could be string 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher-noop"
+              class="ezd-tree-switcher ezd-tree-switcher-noop"
             />
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-normal"
               title="node1"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 node1
               </span>
@@ -587,26 +587,26 @@ exports[`Tree switcherIcon in Tree could be string 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher-noop"
+              class="ezd-tree-switcher ezd-tree-switcher-noop"
             />
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-normal"
               title="node2"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 node2
               </span>
@@ -621,7 +621,7 @@ exports[`Tree switcherIcon in Tree could be string 1`] = `
 
 exports[`Tree switcherIcon should be loading icon when loadData 1`] = `
 <div
-  class="ant-tree ant-tree-icon-hide"
+  class="ezd-tree ezd-tree-icon-hide"
   role="tree"
 >
   <div>
@@ -634,49 +634,49 @@ exports[`Tree switcherIcon should be loading icon when loadData 1`] = `
   </div>
   <div
     aria-hidden="true"
-    class="ant-tree-treenode"
+    class="ezd-tree-treenode"
     style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden;"
   >
     <div
-      class="ant-tree-indent"
+      class="ezd-tree-indent"
     >
       <div
-        class="ant-tree-indent-unit"
+        class="ezd-tree-indent-unit"
       />
     </div>
   </div>
   <div
-    class="ant-tree-list"
+    class="ezd-tree-list"
     style="position: relative;"
   >
     <div
-      class="ant-tree-list-holder"
+      class="ezd-tree-list-holder"
     >
       <div>
         <div
-          class="ant-tree-list-holder-inner"
+          class="ezd-tree-list-holder-inner"
           style="display: flex; flex-direction: column;"
         >
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             />
             <span
-              class="ant-tree-switcher ant-tree-switcher_open"
+              class="ezd-tree-switcher ezd-tree-switcher_open"
             >
               switcherIcon
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-open"
               title="---"
             >
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 ---
               </span>
@@ -684,23 +684,23 @@ exports[`Tree switcherIcon should be loading icon when loadData 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-loading"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open ezd-tree-treenode-loading"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher_open"
+              class="ezd-tree-switcher ezd-tree-switcher_open"
             >
               <span
                 aria-label="loading"
-                class="anticon anticon-loading anticon-spin ant-tree-switcher-loading-icon"
+                class="anticon anticon-loading anticon-spin ezd-tree-switcher-loading-icon"
                 role="img"
               >
                 <svg
@@ -719,14 +719,14 @@ exports[`Tree switcherIcon should be loading icon when loadData 1`] = `
               </span>
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-open"
               title="node1"
             >
               <span
-                class="ant-tree-iconEle ant-tree-icon__open ant-tree-icon_loading"
+                class="ezd-tree-iconEle ezd-tree-icon__open ezd-tree-icon_loading"
               />
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 node1
               </span>
@@ -734,23 +734,23 @@ exports[`Tree switcherIcon should be loading icon when loadData 1`] = `
           </div>
           <div
             aria-grabbed="false"
-            class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-loading ant-tree-treenode-leaf-last"
+            class="ezd-tree-treenode ezd-tree-treenode-switcher-open ezd-tree-treenode-loading ezd-tree-treenode-leaf-last"
             draggable="false"
           >
             <span
               aria-hidden="true"
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <span
-                class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                class="ezd-tree-indent-unit ezd-tree-indent-unit-start ezd-tree-indent-unit-end"
               />
             </span>
             <span
-              class="ant-tree-switcher ant-tree-switcher_open"
+              class="ezd-tree-switcher ezd-tree-switcher_open"
             >
               <span
                 aria-label="loading"
-                class="anticon anticon-loading anticon-spin ant-tree-switcher-loading-icon"
+                class="anticon anticon-loading anticon-spin ezd-tree-switcher-loading-icon"
                 role="img"
               >
                 <svg
@@ -769,14 +769,14 @@ exports[`Tree switcherIcon should be loading icon when loadData 1`] = `
               </span>
             </span>
             <span
-              class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+              class="ezd-tree-node-content-wrapper ezd-tree-node-content-wrapper-open"
               title="node2"
             >
               <span
-                class="ant-tree-iconEle ant-tree-icon__open ant-tree-icon_loading"
+                class="ezd-tree-iconEle ezd-tree-icon__open ezd-tree-icon_loading"
               />
               <span
-                class="ant-tree-title"
+                class="ezd-tree-title"
               >
                 node2
               </span>

@@ -15,7 +15,7 @@ You can set different preview image.
 
 ```jsx
 import React from 'react';
-import { Image } from '@ezviz/evvd';
+import { Image } from '@ezviz/ezd';
 
 function ImageDemo() {
   return (

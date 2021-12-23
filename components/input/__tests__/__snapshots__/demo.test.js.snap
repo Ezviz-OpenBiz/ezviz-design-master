@@ -365,7 +365,7 @@ Array [
   <span
     class="ant-typography"
   >
-    Evv Design
+    EZ Design
     <div
       aria-label="Copy"
       class="ant-typography-copy"
@@ -1396,7 +1396,7 @@ exports[`renders ./components/input/demo/focus.md correctly 1`] = `
       class="ant-input"
       style="width:100%"
       type="text"
-      value="Evv Design love you!"
+      value="EZ Design love you!"
     />
   </div>
 </div>

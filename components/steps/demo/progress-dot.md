@@ -14,7 +14,7 @@ title:
 Steps with progress dot style.
 
 ```jsx
-import { Steps, Divider } from '@ezviz/evvd';
+import { Steps, Divider } from '@ezviz/ezd';
 
 const { Step } = Steps;
 

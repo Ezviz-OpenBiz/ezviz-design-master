@@ -14,7 +14,7 @@ title:
 Controlled mode, for example, to work with `Form`.
 
 ```tsx
-import { Mentions, Form, Button } from '@ezviz/evvd';
+import { Mentions, Form, Button } from '@ezviz/ezd';
 
 const { Option, getMentions } = Mentions;
 

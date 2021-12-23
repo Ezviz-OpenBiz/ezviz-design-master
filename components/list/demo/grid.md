@@ -14,7 +14,7 @@ title:
 Create a grid layout by setting the `grid` property of List.
 
 ```jsx
-import { List, Card } from '@ezviz/evvd';
+import { List, Card } from '@ezviz/ezd';
 
 const data = [
   {

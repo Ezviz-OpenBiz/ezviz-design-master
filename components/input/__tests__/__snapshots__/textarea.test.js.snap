@@ -2,16 +2,16 @@
 
 exports[`TextArea allowClear should change type when click 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   >
     111
   </textarea>
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -34,14 +34,14 @@ exports[`TextArea allowClear should change type when click 1`] = `
 
 exports[`TextArea allowClear should change type when click 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   />
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -64,14 +64,14 @@ exports[`TextArea allowClear should change type when click 2`] = `
 
 exports[`TextArea allowClear should not show icon if defaultValue is undefined, null or empty string 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   />
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -94,14 +94,14 @@ exports[`TextArea allowClear should not show icon if defaultValue is undefined, 
 
 exports[`TextArea allowClear should not show icon if defaultValue is undefined, null or empty string 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   />
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -124,14 +124,14 @@ exports[`TextArea allowClear should not show icon if defaultValue is undefined, 
 
 exports[`TextArea allowClear should not show icon if defaultValue is undefined, null or empty string 3`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   />
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -154,14 +154,14 @@ exports[`TextArea allowClear should not show icon if defaultValue is undefined, 
 
 exports[`TextArea allowClear should not show icon if value is undefined, null or empty string 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   />
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -184,14 +184,14 @@ exports[`TextArea allowClear should not show icon if value is undefined, null or
 
 exports[`TextArea allowClear should not show icon if value is undefined, null or empty string 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   />
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -214,14 +214,14 @@ exports[`TextArea allowClear should not show icon if value is undefined, null or
 
 exports[`TextArea allowClear should not show icon if value is undefined, null or empty string 3`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn"
+  class="ezd-input-affix-wrapper ezd-input-affix-wrapper-textarea-with-clear-btn"
 >
   <textarea
-    class="ant-input"
+    class="ezd-input"
   />
   <span
     aria-label="close-circle"
-    class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+    class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
     role="button"
     tabindex="-1"
   >
@@ -244,20 +244,20 @@ exports[`TextArea allowClear should not show icon if value is undefined, null or
 
 exports[`TextArea maxLength should support maxLength 1`] = `
 <textarea
-  class="ant-input"
+  class="ezd-input"
   maxlength="10"
 />
 `;
 
 exports[`TextArea should support disabled 1`] = `
 <textarea
-  class="ant-input ant-input-disabled"
+  class="ezd-input ezd-input-disabled"
   disabled=""
 />
 `;
 
 exports[`TextArea should support size 1`] = `
 <textarea
-  class="ant-input ant-input-lg"
+  class="ezd-input ezd-input-lg"
 />
 `;

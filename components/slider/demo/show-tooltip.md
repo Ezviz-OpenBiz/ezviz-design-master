@@ -14,7 +14,7 @@ title:
 When `tooltipVisible` is `true`, ToolTip will show always, or ToolTip will not show anyway, even if dragging or hovering.
 
 ```jsx
-import { Slider } from '@ezviz/evvd';
+import { Slider } from '@ezviz/ezd';
 
 ReactDOM.render(<Slider defaultValue={30} tooltipVisible />, mountNode);
 ```

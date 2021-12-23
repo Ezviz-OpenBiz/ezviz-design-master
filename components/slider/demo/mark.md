@@ -14,7 +14,7 @@ title:
 Using `marks` property to mark a graduated slider, use `value` or `defaultValue` to specify the position of thumb. When `included` is false, means that different thumbs are coordinative. when `step` is null, users can only slide the thumbs onto marks.
 
 ```jsx
-import { Slider } from '@ezviz/evvd';
+import { Slider } from '@ezviz/ezd';
 
 const marks = {
   0: '0°C',
@@ -51,7 +51,7 @@ ReactDOM.render(
 #components-slider-demo-mark h4 {
   margin: 0 0 16px;
 }
-#components-slider-demo-mark .ant-slider-with-marks {
+#components-slider-demo-mark .ezd-slider-with-marks {
   margin-bottom: 44px;
 }
 </style>

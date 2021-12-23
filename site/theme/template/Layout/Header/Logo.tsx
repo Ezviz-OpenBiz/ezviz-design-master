@@ -14,12 +14,13 @@ export interface LogoProps {
   isZhCN: boolean;
   location: any;
 }
-
+// const isDev = process.env.NODE_ENV === 'development';
+const rootUrl = '/';
 const Logo = ({ isZhCN, location }: LogoProps) => (
   <h1>
-    <Link to={utils.getLocalizedPathname('/', isZhCN, location.query)} id="logo">
+    <Link to={utils.getLocalizedPathname(rootUrl, isZhCN, location.query)} id="logo">
       <img alt="logo" src="https://es.ys7.com/ys/img/logo.256e18ae.png" />
-      Evv Design
+      EZ Design
     </Link>
   </h1>
 );

@@ -137,7 +137,6 @@ const InternalCheckboxGroup: React.ForwardRefRenderFunction<HTMLDivElement, Chec
     disabled: restProps.disabled,
     name: restProps.name,
 
-    // https://github.com/ant-design/ant-design/issues/16376
     registerValue,
     cancelValue,
   };

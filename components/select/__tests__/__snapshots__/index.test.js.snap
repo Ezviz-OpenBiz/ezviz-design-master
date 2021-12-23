@@ -2,13 +2,13 @@
 
 exports[`Select Deprecated should ignore mode="combobox" 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-arrow"
+  class="ezd-select ezd-select-single ezd-select-show-arrow"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -17,7 +17,7 @@ exports[`Select Deprecated should ignore mode="combobox" 1`] = `
         aria-haspopup="listbox"
         aria-owns="rc_select_TEST_OR_SSR_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         id="rc_select_TEST_OR_SSR"
         readonly=""
         role="combobox"
@@ -28,18 +28,18 @@ exports[`Select Deprecated should ignore mode="combobox" 1`] = `
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select: none;"
     unselectable="on"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      class="anticon anticon-down ezd-select-suffix"
       role="img"
     >
       <svg
@@ -62,14 +62,14 @@ exports[`Select Deprecated should ignore mode="combobox" 1`] = `
 
 exports[`Select Select Custom Icons should support customized icons 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-arrow"
+  class="ezd-select ezd-select-single ezd-select-show-arrow"
   count="10"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -78,7 +78,7 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
         aria-haspopup="listbox"
         aria-owns="rc_select_TEST_OR_SSR_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         id="rc_select_TEST_OR_SSR"
         readonly=""
         role="combobox"
@@ -89,18 +89,18 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select: none;"
     unselectable="on"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      class="anticon anticon-down ezd-select-suffix"
       role="img"
     >
       <svg
@@ -123,13 +123,13 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
 
 exports[`Select rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-select ant-select-rtl ant-select-single ant-select-show-arrow"
+  class="ezd-select ezd-select-rtl ezd-select-single ezd-select-show-arrow"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -138,7 +138,7 @@ exports[`Select rtl render component should be rendered correctly in RTL directi
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         readonly=""
         role="combobox"
         style="opacity:0"
@@ -148,18 +148,18 @@ exports[`Select rtl render component should be rendered correctly in RTL directi
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      class="anticon anticon-down ezd-select-suffix"
       role="img"
     >
       <svg

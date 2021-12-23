@@ -14,7 +14,7 @@ title:
 Customize Trigger Token by `prefix` props. Default to `@`, `Array<string>` also supported.
 
 ```jsx
-import { Mentions } from '@ezviz/evvd';
+import { Mentions } from '@ezviz/ezd';
 
 const { Option } = Mentions;
 

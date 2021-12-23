@@ -14,7 +14,7 @@ title:
 The default trigger mode is `hover`, you can change it to `click`.
 
 ```jsx
-import { Menu, Dropdown } from '@ezviz/evvd';
+import { Menu, Dropdown } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = (
@@ -32,7 +32,7 @@ const menu = (
 
 ReactDOM.render(
   <Dropdown overlay={menu} trigger={['click']}>
-    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+    <a className="ezd-dropdown-link" onClick={e => e.preventDefault()}>
       Click me <DownOutlined />
     </a>
   </Dropdown>,

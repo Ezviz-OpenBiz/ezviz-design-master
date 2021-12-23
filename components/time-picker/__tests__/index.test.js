@@ -33,7 +33,7 @@ describe('TimePicker', () => {
 
     expect(wrapper.find('.my-btn').length).toBeTruthy();
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: TimePicker] `addon` is deprecated. Please use `renderExtraFooter` instead.',
+      'Warning: [ezd: TimePicker] `addon` is deprecated. Please use `renderExtraFooter` instead.',
     );
   });
 

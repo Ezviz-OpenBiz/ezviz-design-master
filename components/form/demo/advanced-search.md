@@ -11,8 +11,6 @@ title:
 
 有部分定制的样式代码，由于输入标签长度不确定，需要根据具体情况自行调整。
 
-> 🛎️ 想要 3 分钟实现？ 试试 ProForm 的[查询表单](https://procomponents.ant.design/components/form#%E6%9F%A5%E8%AF%A2%E7%AD%9B%E9%80%89)！
-
 ## en-US
 
 Three columns layout is often used for advanced searching of data table.
@@ -21,7 +19,7 @@ Because the width of label is not fixed, you may need to adjust it by customizin
 
 ```tsx
 import React, { useState } from 'react';
-import { Form, Row, Col, Input, Button } from '@ezviz/evvd';
+import { Form, Row, Col, Input, Button } from '@ezviz/ezd';
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
 
 const AdvancedSearchForm = () => {
@@ -60,7 +58,7 @@ const AdvancedSearchForm = () => {
     <Form
       form={form}
       name="advanced_search"
-      className="ant-advanced-search-form"
+      className="ezd-advanced-search-form"
       onFinish={onFinish}
     >
       <Row gutter={24}>{getFields()}</Row>
@@ -101,27 +99,27 @@ ReactDOM.render(
 ```
 
 ```css
-[data-theme='compact'] .ant-advanced-search-form,
-.ant-advanced-search-form {
+[data-theme='compact'] .ezd-advanced-search-form,
+.ezd-advanced-search-form {
   padding: 24px;
   background: #fbfbfb;
   border: 1px solid #d9d9d9;
   border-radius: 2px;
 }
 
-[data-theme='compact'] .ant-advanced-search-form .ant-form-item,
-.ant-advanced-search-form .ant-form-item {
+[data-theme='compact'] .ezd-advanced-search-form .ezd-form-item,
+.ezd-advanced-search-form .ezd-form-item {
   display: flex;
 }
 
-[data-theme='compact'] .ant-advanced-search-form .ant-form-item-control-wrapper,
-.ant-advanced-search-form .ant-form-item-control-wrapper {
+[data-theme='compact'] .ezd-advanced-search-form .ezd-form-item-control-wrapper,
+.ezd-advanced-search-form .ezd-form-item-control-wrapper {
   flex: 1;
 }
 ```
 
 <style>
-#components-form-demo-advanced-search .ant-form {
+#components-form-demo-advanced-search .ezd-form {
   max-width: none;
 }
 #components-form-demo-advanced-search .search-result-list {
@@ -133,7 +131,7 @@ ReactDOM.render(
   text-align: center;
   padding-top: 80px;
 }
-[data-theme="dark"] .ant-advanced-search-form  {
+[data-theme="dark"] .ezd-advanced-search-form  {
   background: rgba(255,255,255,0.04);
   border: 1px solid #434343;
   padding: 24px;

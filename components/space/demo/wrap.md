@@ -14,7 +14,7 @@ title:
 Auto wrap line.
 
 ```jsx
-import { Space, Button } from '@ezviz/evvd';
+import { Space, Button } from '@ezviz/ezd';
 
 const Demo = () => (
   <Space size={[8, 16]} wrap>

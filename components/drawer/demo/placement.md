@@ -14,7 +14,7 @@ title:
 The Drawer can appear from any edge of the screen.
 
 ```jsx
-import { Drawer, Button, Radio, Space } from '@ezviz/evvd';
+import { Drawer, Button, Radio, Space } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = { visible: false, placement: 'left' };

@@ -14,7 +14,7 @@ title:
 Mark a pending state of switch.
 
 ```jsx
-import { Switch } from '@ezviz/evvd';
+import { Switch } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

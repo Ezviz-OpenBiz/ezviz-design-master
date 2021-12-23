@@ -14,27 +14,27 @@ title:
 Provides multiple types of text and link.
 
 ```jsx
-import { Typography, Space } from '@ezviz/evvd';
+import { Typography, Space } from '@ezviz/ezd';
 
 const { Text, Link } = Typography;
 
 ReactDOM.render(
   <Space direction="vertical">
-    <Text>Evv Design (default)</Text>
-    <Text type="secondary">Evv Design (secondary)</Text>
-    <Text type="success">Evv Design (success)</Text>
-    <Text type="warning">Evv Design (warning)</Text>
-    <Text type="danger">Evv Design (danger)</Text>
-    <Text disabled>Evv Design (disabled)</Text>
-    <Text mark>Evv Design (mark)</Text>
-    <Text code>Evv Design (code)</Text>
-    <Text keyboard>Evv Design (keyboard)</Text>
-    <Text underline>Evv Design (underline)</Text>
-    <Text delete>Evv Design (delete)</Text>
-    <Text strong>Evv Design (strong)</Text>
-    <Text italic>Evv Design (italic)</Text>
-    <Link href="https://Evv.design" target="_blank">
-      Evv Design (Link)
+    <Text>EZ Design (default)</Text>
+    <Text type="secondary">EZ Design (secondary)</Text>
+    <Text type="success">EZ Design (success)</Text>
+    <Text type="warning">EZ Design (warning)</Text>
+    <Text type="danger">EZ Design (danger)</Text>
+    <Text disabled>EZ Design (disabled)</Text>
+    <Text mark>EZ Design (mark)</Text>
+    <Text code>EZ Design (code)</Text>
+    <Text keyboard>EZ Design (keyboard)</Text>
+    <Text underline>EZ Design (underline)</Text>
+    <Text delete>EZ Design (delete)</Text>
+    <Text strong>EZ Design (strong)</Text>
+    <Text italic>EZ Design (italic)</Text>
+    <Link href="https://saastest3.ys7.com/ezd/" target="_blank">
+      EZ Design (Link)
     </Link>
   </Space>,
   mountNode,

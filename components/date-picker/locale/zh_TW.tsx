@@ -23,7 +23,5 @@ const locale: PickerLocale = {
 
 locale.lang.ok = '確 定';
 
-// All settings at:
-// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
 
 export default locale;

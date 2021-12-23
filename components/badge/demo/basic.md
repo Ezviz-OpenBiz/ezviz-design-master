@@ -14,7 +14,7 @@ title:
 Simplest Usage. Badge will be hidden when `count` is `0`, but we can use `showZero` to show it.
 
 ```jsx
-import { Badge, Avatar } from '@ezviz/evvd';
+import { Badge, Avatar } from '@ezviz/ezd';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 ReactDOM.render(
@@ -34,10 +34,10 @@ ReactDOM.render(
 ```
 
 <style>
-.ant-badge:not(.ant-badge-not-a-wrapper) {
+.ezd-badge:not(.ezd-badge-not-a-wrapper) {
   margin-right: 20px;
 }
-.ant-badge.ant-badge-rtl:not(.ant-badge-not-a-wrapper) {
+.ezd-badge.ezd-badge-rtl:not(.ezd-badge-not-a-wrapper) {
   margin-right: 0;
   margin-left: 20px;
 }

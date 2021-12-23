@@ -14,7 +14,7 @@ title:
 Three sizes and two shapes are available.
 
 ```tsx
-import { Avatar } from '@ezviz/evvd';
+import { Avatar } from '@ezviz/ezd';
 import { UserOutlined } from '@ant-design/icons';
 
 ReactDOM.render(
@@ -37,11 +37,11 @@ ReactDOM.render(
 ```
 
 <style>
-#components-avatar-demo-basic .ant-avatar {
+#components-avatar-demo-basic .ezd-avatar {
   margin-top: 16px;
   margin-right: 16px;
 }
-.ant-row-rtl #components-avatar-demo-basic .ant-avatar {
+.ezd-row-rtl #components-avatar-demo-basic .ezd-avatar {
   margin-right: 0;
   margin-left: 16px;
 }

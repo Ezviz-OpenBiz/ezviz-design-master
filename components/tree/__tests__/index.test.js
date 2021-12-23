@@ -73,7 +73,6 @@ describe('Tree', () => {
     expect(wrapper.render()).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/23261
   it('showLine is object type should render correctly', () => {
     const wrapper = mount(
       <Tree showLine={{ showLeafIcon: false }} defaultExpandedKeys={['0-0-0']}>
@@ -106,7 +105,7 @@ describe('Tree', () => {
 
     it('hide icon', () => {
       const wrapper = mount(<Tree treeData={dragTreeData} draggable={{ icon: false }} />);
-      expect(wrapper.exists('.anticon-holder')).toBeFalsy();
+      expect(wrapper.exists('.ezdicon-holder')).toBeFalsy();
     });
 
     it('customize icon', () => {

@@ -3,51 +3,51 @@
 exports[`renders ./components/slider/demo/basic.md correctly 1`] = `
 Array [
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:30%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="ezd-slider-track ant-slider-track-1"
       style="left:20%;right:auto;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="20"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="ezd-slider-handle ant-slider-handle-1"
       role="slider"
       style="left:20%;right:auto;transform:translateX(-50%)"
       tabindex="0"
@@ -57,27 +57,27 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="ezd-slider-handle ant-slider-handle-2"
       role="slider"
       style="left:50%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
   "Disabled: ",
   <button
     aria-checked="false"
-    class="ant-switch ant-switch-small"
+    class="ezd-switch ant-switch-small"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     />
   </button>,
 ]
@@ -85,24 +85,24 @@ Array [
 
 exports[`renders ./components/slider/demo/dragableTrack.md correctly 1`] = `
 <div
-  class="ant-slider"
+  class="ezd-slider"
 >
   <div
-    class="ant-slider-rail"
+    class="ezd-slider-rail"
   />
   <div
-    class="ant-slider-track ant-slider-track-1"
+    class="ezd-slider-track ant-slider-track-1"
     style="left:20%;right:auto;width:30%"
   />
   <div
-    class="ant-slider-step"
+    class="ezd-slider-step"
   />
   <div
     aria-disabled="false"
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="20"
-    class="ant-slider-handle ant-slider-handle-1"
+    class="ezd-slider-handle ant-slider-handle-1"
     role="slider"
     style="left:20%;right:auto;transform:translateX(-50%)"
     tabindex="0"
@@ -112,13 +112,13 @@ exports[`renders ./components/slider/demo/dragableTrack.md correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="50"
-    class="ant-slider-handle ant-slider-handle-2"
+    class="ezd-slider-handle ant-slider-handle-2"
     role="slider"
     style="left:50%;right:auto;transform:translateX(-50%)"
     tabindex="0"
   />
   <div
-    class="ant-slider-mark"
+    class="ezd-slider-mark"
   />
 </div>
 `;
@@ -126,51 +126,51 @@ exports[`renders ./components/slider/demo/dragableTrack.md correctly 1`] = `
 exports[`renders ./components/slider/demo/event.md correctly 1`] = `
 Array [
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:30%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="ezd-slider-track ant-slider-track-1"
       style="left:20%;right:auto;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="20"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="ezd-slider-handle ant-slider-handle-1"
       role="slider"
       style="left:20%;right:auto;transform:translateX(-50%)"
       tabindex="0"
@@ -180,13 +180,13 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="ezd-slider-handle ant-slider-handle-2"
       role="slider"
       style="left:50%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
 ]
@@ -216,30 +216,30 @@ exports[`renders ./components/slider/demo/icon-slider.md correctly 1`] = `
     </svg>
   </span>
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:0%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="20"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:0%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>
   <span
@@ -267,53 +267,53 @@ exports[`renders ./components/slider/demo/icon-slider.md correctly 1`] = `
 exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
 <div>
   <div
-    class="ant-row"
+    class="ezd-row"
   >
     <div
-      class="ant-col ant-col-12"
+      class="ezd-col ant-col-12"
     >
       <div
-        class="ant-slider"
+        class="ezd-slider"
       >
         <div
-          class="ant-slider-rail"
+          class="ezd-slider-rail"
         />
         <div
-          class="ant-slider-track"
+          class="ezd-slider-track"
           style="left:0%;right:auto;width:0%"
         />
         <div
-          class="ant-slider-step"
+          class="ezd-slider-step"
         />
         <div
           aria-disabled="false"
           aria-valuemax="20"
           aria-valuemin="1"
           aria-valuenow="1"
-          class="ant-slider-handle"
+          class="ezd-slider-handle"
           role="slider"
           style="left:0%;right:auto;transform:translateX(-50%)"
           tabindex="0"
         />
         <div
-          class="ant-slider-mark"
+          class="ezd-slider-mark"
         />
       </div>
     </div>
     <div
-      class="ant-col ant-col-4"
+      class="ezd-col ant-col-4"
     >
       <div
-        class="ant-input-number"
+        class="ezd-input-number"
         style="margin:0 16px"
       >
         <div
-          class="ant-input-number-handler-wrap"
+          class="ezd-input-number-handler-wrap"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-handler ant-input-number-handler-up"
+            class="ezd-input-number-handler ant-input-number-handler-up"
             role="button"
             unselectable="on"
           >
@@ -340,7 +340,7 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
           <span
             aria-disabled="true"
             aria-label="Decrease Value"
-            class="ant-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
+            class="ezd-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
             role="button"
             unselectable="on"
           >
@@ -366,14 +366,14 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-input-number-input-wrap"
+          class="ezd-input-number-input-wrap"
         >
           <input
             aria-valuemax="20"
             aria-valuemin="1"
             aria-valuenow="1"
             autocomplete="off"
-            class="ant-input-number-input"
+            class="ezd-input-number-input"
             role="spinbutton"
             step="1"
             value="1"
@@ -383,53 +383,53 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row"
+    class="ezd-row"
   >
     <div
-      class="ant-col ant-col-12"
+      class="ezd-col ant-col-12"
     >
       <div
-        class="ant-slider"
+        class="ezd-slider"
       >
         <div
-          class="ant-slider-rail"
+          class="ezd-slider-rail"
         />
         <div
-          class="ant-slider-track"
+          class="ezd-slider-track"
           style="left:0%;right:auto;width:0%"
         />
         <div
-          class="ant-slider-step"
+          class="ezd-slider-step"
         />
         <div
           aria-disabled="false"
           aria-valuemax="1"
           aria-valuemin="0"
           aria-valuenow="0"
-          class="ant-slider-handle"
+          class="ezd-slider-handle"
           role="slider"
           style="left:0%;right:auto;transform:translateX(-50%)"
           tabindex="0"
         />
         <div
-          class="ant-slider-mark"
+          class="ezd-slider-mark"
         />
       </div>
     </div>
     <div
-      class="ant-col ant-col-4"
+      class="ezd-col ant-col-4"
     >
       <div
-        class="ant-input-number"
+        class="ezd-input-number"
         style="margin:0 16px"
       >
         <div
-          class="ant-input-number-handler-wrap"
+          class="ezd-input-number-handler-wrap"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-handler ant-input-number-handler-up"
+            class="ezd-input-number-handler ant-input-number-handler-up"
             role="button"
             unselectable="on"
           >
@@ -456,7 +456,7 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
           <span
             aria-disabled="true"
             aria-label="Decrease Value"
-            class="ant-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
+            class="ezd-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
             role="button"
             unselectable="on"
           >
@@ -482,14 +482,14 @@ exports[`renders ./components/slider/demo/input-number.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-input-number-input-wrap"
+          class="ezd-input-number-input-wrap"
         >
           <input
             aria-valuemax="1"
             aria-valuemin="0"
             aria-valuenow="0"
             autocomplete="off"
-            class="ant-input-number-input"
+            class="ezd-input-number-input"
             role="spinbutton"
             step="0.01"
             value="0.00"
@@ -507,32 +507,32 @@ Array [
     included=true
   </h4>,
   <div
-    class="ant-slider ant-slider-with-marks"
+    class="ezd-slider ant-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:37%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     >
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:0%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:26%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:37%"
       />
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:100%"
       />
     </div>
@@ -541,34 +541,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:37%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     >
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:0%"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:26%"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:37%"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:100%;color:#f50"
       >
         <strong>
@@ -578,32 +578,32 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-slider ant-slider-with-marks"
+    class="ezd-slider ant-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="ezd-slider-track ant-slider-track-1"
       style="left:26%;right:auto;width:11%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     >
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:0%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:26%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:37%"
       />
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:100%"
       />
     </div>
@@ -612,7 +612,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="26"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="ezd-slider-handle ant-slider-handle-1"
       role="slider"
       style="left:26%;right:auto;transform:translateX(-50%)"
       tabindex="0"
@@ -622,34 +622,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="ezd-slider-handle ant-slider-handle-2"
       role="slider"
       style="left:37%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     >
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:0%"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:26%"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:37%"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:100%;color:#f50"
       >
         <strong>
@@ -662,28 +662,28 @@ Array [
     included=false
   </h4>,
   <div
-    class="ant-slider ant-slider-with-marks"
+    class="ezd-slider ant-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     >
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:0%"
       />
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:26%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:37%"
       />
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:100%"
       />
     </div>
@@ -692,34 +692,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:37%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     >
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:0%"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:26%"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:37%"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:100%;color:#f50"
       >
         <strong>
@@ -732,32 +732,32 @@ Array [
     marks & step
   </h4>,
   <div
-    class="ant-slider ant-slider-with-marks"
+    class="ezd-slider ant-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:37%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     >
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:0%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:26%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:37%"
       />
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:100%"
       />
     </div>
@@ -766,34 +766,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:37%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     >
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:0%"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:26%"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:37%"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:100%;color:#f50"
       >
         <strong>
@@ -806,32 +806,32 @@ Array [
     step=null
   </h4>,
   <div
-    class="ant-slider ant-slider-with-marks"
+    class="ezd-slider ant-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:37%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     >
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:0%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:26%"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="ezd-slider-dot ant-slider-dot-active"
         style="left:37%"
       />
       <span
-        class="ant-slider-dot"
+        class="ezd-slider-dot"
         style="left:100%"
       />
     </div>
@@ -840,34 +840,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:37%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     >
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:0%"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:26%"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="ezd-slider-mark-text ant-slider-mark-text-active"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:37%"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="ezd-slider-mark-text"
         style="transform:translateX(-50%);-ms-transform:translateX(-50%);left:100%;color:#f50"
       >
         <strong>
@@ -882,51 +882,51 @@ Array [
 exports[`renders ./components/slider/demo/reverse.md correctly 1`] = `
 Array [
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="right:0%;left:auto;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="right:30%;left:auto;transform:translateX(+50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="ezd-slider-track ant-slider-track-1"
       style="right:20%;left:auto;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="20"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="ezd-slider-handle ant-slider-handle-1"
       role="slider"
       style="right:20%;left:auto;transform:translateX(+50%)"
       tabindex="0"
@@ -936,27 +936,27 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="ezd-slider-handle ant-slider-handle-2"
       role="slider"
       style="right:50%;left:auto;transform:translateX(+50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
   "Reversed: ",
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-small ant-switch-checked"
+    class="ezd-switch ant-switch-small ant-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     />
   </button>,
 ]
@@ -964,45 +964,45 @@ Array [
 
 exports[`renders ./components/slider/demo/show-tooltip.md correctly 1`] = `
 <div
-  class="ant-slider"
+  class="ezd-slider"
 >
   <div
-    class="ant-slider-rail"
+    class="ezd-slider-rail"
   />
   <div
-    class="ant-slider-track"
+    class="ezd-slider-track"
     style="left:0%;right:auto;width:30%"
   />
   <div
-    class="ant-slider-step"
+    class="ezd-slider-step"
   />
   <div
     aria-disabled="false"
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="30"
-    class="ant-slider-handle ant-tooltip-open"
+    class="ezd-slider-handle ant-tooltip-open"
     role="slider"
     style="left:30%;right:auto;transform:translateX(-50%)"
     tabindex="0"
   />
   <div>
     <div
-      class="ant-tooltip ant-slider-tooltip"
+      class="ezd-tooltip ant-slider-tooltip"
       style="opacity:0;pointer-events:none"
     >
       <div
-        class="ant-tooltip-content"
+        class="ezd-tooltip-content"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="ezd-tooltip-arrow"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="ezd-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-inner"
+          class="ezd-tooltip-inner"
           role="tooltip"
         >
           30
@@ -1011,7 +1011,7 @@ exports[`renders ./components/slider/demo/show-tooltip.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-slider-mark"
+    class="ezd-slider-mark"
   />
 </div>
 `;
@@ -1019,57 +1019,57 @@ exports[`renders ./components/slider/demo/show-tooltip.md correctly 1`] = `
 exports[`renders ./components/slider/demo/tip-formatter.md correctly 1`] = `
 Array [
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:0%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:0%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
   <div
-    class="ant-slider"
+    class="ezd-slider"
   >
     <div
-      class="ant-slider-rail"
+      class="ezd-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="ezd-slider-track"
       style="left:0%;right:auto;width:0%"
     />
     <div
-      class="ant-slider-step"
+      class="ezd-slider-step"
     />
     <div
       aria-disabled="false"
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-slider-handle"
+      class="ezd-slider-handle"
       role="slider"
       style="left:0%;right:auto;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="ezd-slider-mark"
     />
   </div>,
 ]
@@ -1081,30 +1081,30 @@ Array [
     style="display:inline-block;height:300px;margin-left:70px"
   >
     <div
-      class="ant-slider ant-slider-vertical"
+      class="ezd-slider ant-slider-vertical"
     >
       <div
-        class="ant-slider-rail"
+        class="ezd-slider-rail"
       />
       <div
-        class="ant-slider-track"
+        class="ezd-slider-track"
         style="bottom:0%;top:auto;height:30%"
       />
       <div
-        class="ant-slider-step"
+        class="ezd-slider-step"
       />
       <div
         aria-disabled="false"
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="30"
-        class="ant-slider-handle"
+        class="ezd-slider-handle"
         role="slider"
         style="bottom:30%;top:auto;transform:translateY(+50%)"
         tabindex="0"
       />
       <div
-        class="ant-slider-mark"
+        class="ezd-slider-mark"
       />
     </div>
   </div>,
@@ -1112,24 +1112,24 @@ Array [
     style="display:inline-block;height:300px;margin-left:70px"
   >
     <div
-      class="ant-slider ant-slider-vertical"
+      class="ezd-slider ant-slider-vertical"
     >
       <div
-        class="ant-slider-rail"
+        class="ezd-slider-rail"
       />
       <div
-        class="ant-slider-track ant-slider-track-1"
+        class="ezd-slider-track ant-slider-track-1"
         style="bottom:20%;top:auto;height:30%"
       />
       <div
-        class="ant-slider-step"
+        class="ezd-slider-step"
       />
       <div
         aria-disabled="false"
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="20"
-        class="ant-slider-handle ant-slider-handle-1"
+        class="ezd-slider-handle ant-slider-handle-1"
         role="slider"
         style="bottom:20%;top:auto;transform:translateY(+50%)"
         tabindex="0"
@@ -1139,13 +1139,13 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="50"
-        class="ant-slider-handle ant-slider-handle-2"
+        class="ezd-slider-handle ant-slider-handle-2"
         role="slider"
         style="bottom:50%;top:auto;transform:translateY(+50%)"
         tabindex="0"
       />
       <div
-        class="ant-slider-mark"
+        class="ezd-slider-mark"
       />
     </div>
   </div>,
@@ -1153,32 +1153,32 @@ Array [
     style="display:inline-block;height:300px;margin-left:70px"
   >
     <div
-      class="ant-slider ant-slider-with-marks ant-slider-vertical"
+      class="ezd-slider ant-slider-with-marks ant-slider-vertical"
     >
       <div
-        class="ant-slider-rail"
+        class="ezd-slider-rail"
       />
       <div
-        class="ant-slider-track ant-slider-track-1"
+        class="ezd-slider-track ant-slider-track-1"
         style="bottom:26%;top:auto;height:11%"
       />
       <div
-        class="ant-slider-step"
+        class="ezd-slider-step"
       >
         <span
-          class="ant-slider-dot"
+          class="ezd-slider-dot"
           style="bottom:0%"
         />
         <span
-          class="ant-slider-dot ant-slider-dot-active"
+          class="ezd-slider-dot ant-slider-dot-active"
           style="bottom:26%"
         />
         <span
-          class="ant-slider-dot ant-slider-dot-active"
+          class="ezd-slider-dot ant-slider-dot-active"
           style="bottom:37%"
         />
         <span
-          class="ant-slider-dot"
+          class="ezd-slider-dot"
           style="bottom:100%"
         />
       </div>
@@ -1187,7 +1187,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="26"
-        class="ant-slider-handle ant-slider-handle-1"
+        class="ezd-slider-handle ant-slider-handle-1"
         role="slider"
         style="bottom:26%;top:auto;transform:translateY(+50%)"
         tabindex="0"
@@ -1197,34 +1197,34 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="37"
-        class="ant-slider-handle ant-slider-handle-2"
+        class="ezd-slider-handle ant-slider-handle-2"
         role="slider"
         style="bottom:37%;top:auto;transform:translateY(+50%)"
         tabindex="0"
       />
       <div
-        class="ant-slider-mark"
+        class="ezd-slider-mark"
       >
         <span
-          class="ant-slider-mark-text"
+          class="ezd-slider-mark-text"
           style="margin-bottom:-50%;bottom:0%"
         >
           0°C
         </span>
         <span
-          class="ant-slider-mark-text ant-slider-mark-text-active"
+          class="ezd-slider-mark-text ant-slider-mark-text-active"
           style="margin-bottom:-50%;bottom:26%"
         >
           26°C
         </span>
         <span
-          class="ant-slider-mark-text ant-slider-mark-text-active"
+          class="ezd-slider-mark-text ant-slider-mark-text-active"
           style="margin-bottom:-50%;bottom:37%"
         >
           37°C
         </span>
         <span
-          class="ant-slider-mark-text"
+          class="ezd-slider-mark-text"
           style="margin-bottom:-50%;bottom:100%;color:#f50"
         >
           <strong>

@@ -2,10 +2,10 @@
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-picker ant-picker-rtl"
+  class="ezd-picker ezd-picker-rtl"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -16,7 +16,7 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -44,10 +44,10 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-picker ant-picker-rtl"
+  class="ezd-picker ezd-picker-rtl"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -58,7 +58,7 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -86,10 +86,10 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 3`] = `
 <div
-  class="ant-picker ant-picker-rtl"
+  class="ezd-picker ezd-picker-rtl"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -100,7 +100,7 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -128,10 +128,10 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 4`] = `
 <div
-  class="ant-picker ant-picker-range ant-picker-rtl"
+  class="ezd-picker ezd-picker-range ezd-picker-rtl"
 >
   <div
-    class="ant-picker-input ant-picker-input-active"
+    class="ezd-picker-input ezd-picker-input-active"
   >
     <input
       autocomplete="off"
@@ -142,11 +142,11 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
     />
   </div>
   <div
-    class="ant-picker-range-separator"
+    class="ezd-picker-range-separator"
   >
     <span
       aria-label="to"
-      class="ant-picker-separator"
+      class="ezd-picker-separator"
     >
       <span
         aria-label="swap-right"
@@ -170,7 +170,7 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
     </span>
   </div>
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -181,11 +181,11 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
     />
   </div>
   <div
-    class="ant-picker-active-bar"
+    class="ezd-picker-active-bar"
     style="right:0;width:0;position:absolute"
   />
   <span
-    class="ant-picker-suffix"
+    class="ezd-picker-suffix"
   >
     <span
       aria-label="calendar"

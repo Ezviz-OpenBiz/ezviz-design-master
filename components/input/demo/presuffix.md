@@ -14,7 +14,7 @@ title:
 Add a prefix or suffix icons inside input.
 
 ```jsx
-import { Input, Tooltip } from '@ezviz/evvd';
+import { Input, Tooltip } from '@ezviz/ezd';
 import { InfoCircleOutlined, UserOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

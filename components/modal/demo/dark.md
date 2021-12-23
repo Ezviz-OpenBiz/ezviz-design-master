@@ -33,7 +33,7 @@ import {
   Switch,
   Typography,
   Dropdown,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 import moment from 'moment';
 import difference from 'lodash/difference';
 import { DownOutlined, ClockCircleOutlined } from '@ant-design/icons';
@@ -600,7 +600,7 @@ ReactDOM.render(<App />, mountNode);
   [data-theme="dark"] #table-demo-summary tfoot td {
     background: #272727;
   }
-  [data-theme="dark"] #components-transfer-table.ant-table td {
+  [data-theme="dark"] #components-transfer-table.ezd-table td {
     background: transparent;
   }
 </style>

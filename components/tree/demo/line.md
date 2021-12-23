@@ -15,7 +15,7 @@ Tree with connected line between nodes, turn on by `showLine`, customize the pre
 
 ```tsx
 import React, { useState } from 'react';
-import { Tree, Switch } from '@ezviz/evvd';
+import { Tree, Switch } from '@ezviz/ezd';
 import { CarryOutOutlined, FormOutlined } from '@ant-design/icons';
 
 const treeData = [

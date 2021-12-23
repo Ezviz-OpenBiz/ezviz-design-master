@@ -15,7 +15,7 @@ Use `label` show time alone.
 
 ```jsx
 import { useState } from 'react';
-import { Timeline, Radio } from '@ezviz/evvd';
+import { Timeline, Radio } from '@ezviz/ezd';
 
 function TimelimeLabelDemo() {
   const [mode, setMode] = useState('left');

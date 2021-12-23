@@ -40,7 +40,6 @@ export interface InternalUploadFile<T = any> extends UploadFile<T> {
 }
 
 export interface UploadChangeParam<T extends object = UploadFile> {
-  // https://github.com/ant-design/ant-design/issues/14420
   file: T;
   fileList: UploadFile[];
   event?: { percent: number };

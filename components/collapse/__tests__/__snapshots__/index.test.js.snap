@@ -2,21 +2,21 @@
 
 exports[`Collapse could override default openMotion 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-position-left"
+  class="ezd-collapse ezd-collapse-icon-position-left"
 >
   <div
-    class="ant-collapse-item ant-collapse-item-active"
+    class="ezd-collapse-item ezd-collapse-item-active"
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header"
+      class="ezd-collapse-header"
       role="button"
       tabindex="0"
     >
       <div>
         <span
           aria-label="right"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="anticon anticon-right ezd-collapse-arrow"
           role="img"
         >
           <svg
@@ -38,10 +38,10 @@ exports[`Collapse could override default openMotion 1`] = `
       This is panel header 1
     </div>
     <div
-      class="ant-collapse-content ant-collapse-content-active"
+      class="ezd-collapse-content ezd-collapse-content-active"
     >
       <div
-        class="ant-collapse-content-box"
+        class="ezd-collapse-content-box"
       >
         content
       </div>
@@ -52,21 +52,21 @@ exports[`Collapse could override default openMotion 1`] = `
 
 exports[`Collapse should render extra node of panel 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-position-left"
+  class="ezd-collapse ezd-collapse-icon-position-left"
 >
   <div
-    class="ant-collapse-item"
+    class="ezd-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="ezd-collapse-header"
       role="button"
       tabindex="0"
     >
       <div>
         <span
           aria-label="right"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="anticon anticon-right ezd-collapse-arrow"
           role="img"
         >
           <svg
@@ -86,7 +86,7 @@ exports[`Collapse should render extra node of panel 1`] = `
       </div>
       header
       <div
-        class="ant-collapse-extra"
+        class="ezd-collapse-extra"
       >
         <button
           type="button"
@@ -97,18 +97,18 @@ exports[`Collapse should render extra node of panel 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="ezd-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="ezd-collapse-header"
       role="button"
       tabindex="0"
     >
       <div>
         <span
           aria-label="right"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="anticon anticon-right ezd-collapse-arrow"
           role="img"
         >
           <svg
@@ -128,7 +128,7 @@ exports[`Collapse should render extra node of panel 1`] = `
       </div>
       header
       <div
-        class="ant-collapse-extra"
+        class="ezd-collapse-extra"
       >
         <button
           type="button"
@@ -143,14 +143,14 @@ exports[`Collapse should render extra node of panel 1`] = `
 
 exports[`Collapse should support remove expandIcon 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-position-left"
+  class="ezd-collapse ezd-collapse-icon-position-left"
 >
   <div
-    class="ant-collapse-item"
+    class="ezd-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="ezd-collapse-header"
       role="button"
       tabindex="0"
     >

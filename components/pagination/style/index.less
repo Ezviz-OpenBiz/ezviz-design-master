@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import '../../input/style/mixin';
 
-@pagination-prefix-cls: ~'@{ant-prefix}-pagination';
+@pagination-prefix-cls: ~'@{ezd-prefix}-pagination';
 
 .@{pagination-prefix-cls} {
   .reset-component();
@@ -61,21 +61,21 @@
 
     &:focus-visible,
     &:hover {
-      border-color: @primary-color;
+      border-color: @ezd-primary-color;
       transition: all 0.3s;
 
       a {
-        color: @primary-color;
+        color: @ezd-primary-color;
       }
     }
 
     &-active {
       font-weight: @pagination-font-weight-active;
       background: @pagination-item-bg-active;
-      border-color: @primary-color;
+      border-color: @ezd-primary-color;
 
       a {
-        color: @primary-color;
+        color: @ezd-primary-color;
       }
 
       &:focus-visible,
@@ -97,7 +97,7 @@
       position: relative;
 
       .@{pagination-prefix-cls}-item-link-icon {
-        color: @primary-color;
+        color: @ezd-primary-color;
         font-size: @font-size-sm;
         letter-spacing: -1px;
         opacity: 0;
@@ -196,8 +196,8 @@
 
     &:focus-visible .@{pagination-prefix-cls}-item-link,
     &:hover .@{pagination-prefix-cls}-item-link {
-      color: @primary-color;
-      border-color: @primary-color;
+      color: @ezd-primary-color;
+      border-color: @ezd-primary-color;
     }
   }
 
@@ -231,7 +231,7 @@
       }
     }
 
-    &-size-changer.@{ant-prefix}-select {
+    &-size-changer.@{ezd-prefix}-select {
       display: inline-block;
       width: auto;
     }
@@ -288,7 +288,7 @@
       transition: border-color 0.3s;
 
       &:hover {
-        border-color: @primary-color;
+        border-color: @ezd-primary-color;
       }
 
       &:focus {

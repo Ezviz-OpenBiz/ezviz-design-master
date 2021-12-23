@@ -28,7 +28,7 @@
   }
 
   .toc-affix {
-    .ant-affix {
+    .ezd-affix {
       background: @component-background;
     }
   }
@@ -143,7 +143,7 @@
       }
 
       &:hover .footer-nav-icon-before {
-        color: @primary-color;
+        color: @ezd-primary-color;
       }
     }
 
@@ -153,7 +153,7 @@
       }
 
       &:hover .footer-nav-icon-after {
-        color: @primary-color;
+        color: @ezd-primary-color;
       }
     }
   }
@@ -213,7 +213,7 @@
       );
     }
 
-    .code-box-demo .ant-row > div:not(.gutter-row) {
+    .code-box-demo .ezd-row > div:not(.gutter-row) {
       padding: 16px 0;
       background: #028ac8;
 
@@ -222,8 +222,8 @@
       }
     }
 
-    .ant-row .demo-col,
-    .code-box-demo .ant-row .demo-col {
+    .ezd-row .demo-col,
+    .code-box-demo .ezd-row .demo-col {
       margin-top: 0;
       margin-bottom: 0;
       padding: 30px 0;
@@ -233,18 +233,18 @@
       border: none;
     }
 
-    .ant-row .demo-col-1 {
+    .ezd-row .demo-col-1 {
       background: fade(#0088c6, 70%);
     }
 
-    .ant-row .demo-col-3,
-    .code-box-demo .ant-row .demo-col-3 {
+    .ezd-row .demo-col-3,
+    .code-box-demo .ezd-row .demo-col-3 {
       color: @site-text-color-secondary;
       background: unset;
     }
 
-    .ant-row .demo-col-5,
-    .code-box-demo .ant-row .demo-col-5 {
+    .ezd-row .demo-col-5,
+    .code-box-demo .ezd-row .demo-col-5 {
       color: @site-text-color-secondary;
       background: unset;
     }
@@ -347,7 +347,7 @@
   .token.symbol,
   .token.bullet,
   .token.addition {
-    color: @primary-color;
+    color: @ezd-primary-color;
   }
 
   .token.title,
@@ -388,7 +388,7 @@
   }
 
   // customization DocSearch Modal component in dark mode
-  #antd_algolia_search_modal {
+  #ezd_algolia_search_modal {
     .customDocSearch();
 
     // additional style reset in dark mode

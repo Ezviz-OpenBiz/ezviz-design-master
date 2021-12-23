@@ -14,7 +14,7 @@ title:
 There are 12 `placement` options available. Use `arrowPointAtCenter` if you want the arrow to point at the center of target.
 
 ```jsx
-import { Popconfirm, message, Button } from '@ezviz/evvd';
+import { Popconfirm, message, Button } from '@ezviz/ezd';
 
 const text = 'Are you sure to delete this task?';
 
@@ -113,14 +113,14 @@ ReactDOM.render(
 .code-box-demo .demo {
   overflow: auto;
 }
-.code-box-demo .ant-popover-wrap > a {
+.code-box-demo .ezd-popover-wrap > a {
   margin-right: 8px;
 }
-.code-box-demo .ant-btn {
+.code-box-demo .ezd-btn {
   margin-right: 8px;
   margin-bottom: 8px;
 }
-#components-popconfirm-demo-placement .ant-btn {
+#components-popconfirm-demo-placement .ezd-btn {
   width: 70px;
   text-align: center;
   padding: 0;

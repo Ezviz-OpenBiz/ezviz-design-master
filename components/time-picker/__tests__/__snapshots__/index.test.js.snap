@@ -2,10 +2,10 @@
 
 exports[`TimePicker not render clean icon when allowClear is false 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -16,7 +16,7 @@ exports[`TimePicker not render clean icon when allowClear is false 1`] = `
       value="00:00:00"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -48,10 +48,10 @@ exports[`TimePicker not render clean icon when allowClear is false 1`] = `
 exports[`TimePicker prop locale should works 1`] = `
 Array [
   <div
-    class="ant-picker"
+    class="ezd-picker"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -62,7 +62,7 @@ Array [
         value="00:00:00"
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -88,7 +88,7 @@ Array [
         </span>
       </span>
       <span
-        class="ant-picker-clear"
+        class="ezd-picker-clear"
         role="button"
       >
         <span
@@ -115,1328 +115,1328 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-picker-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
+      class="ezd-picker-dropdown ezd-slide-up-appear ezd-slide-up-appear-prepare ezd-slide-up"
       style="opacity: 0; pointer-events: none;"
     >
       <div
-        class="ant-picker-panel-container"
+        class="ezd-picker-panel-container"
       >
         <div
-          class="ant-picker-panel ant-picker-panel-focused"
+          class="ezd-picker-panel ezd-picker-panel-focused"
           tabindex="-1"
         >
           <div
-            class="ant-picker-time-panel"
+            class="ezd-picker-time-panel"
           >
             <div
-              class="ant-picker-content"
+              class="ezd-picker-content"
             >
               <ul
-                class="ant-picker-time-panel-column"
+                class="ezd-picker-time-panel-column"
                 style="position: relative;"
               >
                 <li
-                  class="ant-picker-time-panel-cell ant-picker-time-panel-cell-selected"
+                  class="ezd-picker-time-panel-cell ezd-picker-time-panel-cell-selected"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     00
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     01
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     02
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     03
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     04
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     05
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     06
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     07
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     08
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     09
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     10
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     11
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     12
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     13
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     14
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     15
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     16
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     17
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     18
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     19
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     20
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     21
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     22
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     23
                   </div>
                 </li>
               </ul>
               <ul
-                class="ant-picker-time-panel-column"
+                class="ezd-picker-time-panel-column"
                 style="position: relative;"
               >
                 <li
-                  class="ant-picker-time-panel-cell ant-picker-time-panel-cell-selected"
+                  class="ezd-picker-time-panel-cell ezd-picker-time-panel-cell-selected"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     00
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     01
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     02
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     03
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     04
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     05
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     06
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     07
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     08
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     09
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     10
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     11
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     12
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     13
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     14
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     15
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     16
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     17
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     18
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     19
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     20
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     21
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     22
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     23
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     24
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     25
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     26
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     27
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     28
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     29
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     30
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     31
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     32
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     33
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     34
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     35
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     36
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     37
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     38
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     39
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     40
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     41
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     42
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     43
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     44
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     45
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     46
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     47
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     48
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     49
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     50
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     51
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     52
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     53
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     54
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     55
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     56
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     57
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     58
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     59
                   </div>
                 </li>
               </ul>
               <ul
-                class="ant-picker-time-panel-column"
+                class="ezd-picker-time-panel-column"
                 style="position: relative;"
               >
                 <li
-                  class="ant-picker-time-panel-cell ant-picker-time-panel-cell-selected"
+                  class="ezd-picker-time-panel-cell ezd-picker-time-panel-cell-selected"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     00
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     01
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     02
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     03
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     04
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     05
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     06
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     07
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     08
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     09
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     10
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     11
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     12
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     13
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     14
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     15
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     16
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     17
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     18
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     19
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     20
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     21
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     22
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     23
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     24
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     25
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     26
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     27
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     28
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     29
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     30
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     31
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     32
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     33
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     34
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     35
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     36
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     37
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     38
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     39
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     40
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     41
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     42
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     43
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     44
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     45
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     46
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     47
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     48
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     49
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     50
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     51
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     52
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     53
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     54
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     55
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     56
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     57
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     58
                   </div>
                 </li>
                 <li
-                  class="ant-picker-time-panel-cell"
+                  class="ezd-picker-time-panel-cell"
                 >
                   <div
-                    class="ant-picker-time-panel-cell-inner"
+                    class="ezd-picker-time-panel-cell-inner"
                   >
                     59
                   </div>
@@ -1445,25 +1445,25 @@ Array [
             </div>
           </div>
           <div
-            class="ant-picker-footer"
+            class="ezd-picker-footer"
           >
             <ul
-              class="ant-picker-ranges"
+              class="ezd-picker-ranges"
             >
               <li
-                class="ant-picker-now"
+                class="ezd-picker-now"
               >
                 <a
-                  class="ant-picker-now-btn"
+                  class="ezd-picker-now-btn"
                 >
                   Now
                 </a>
               </li>
               <li
-                class="ant-picker-ok"
+                class="ezd-picker-ok"
               >
                 <button
-                  class="ant-btn ant-btn-primary ant-btn-sm"
+                  class="ezd-btn ezd-btn-primary ezd-btn-sm"
                   type="button"
                 >
                   <span>
@@ -1482,10 +1482,10 @@ Array [
 
 exports[`TimePicker rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-picker ant-picker-rtl"
+  class="ezd-picker ezd-picker-rtl"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -1496,7 +1496,7 @@ exports[`TimePicker rtl render component should be rendered correctly in RTL dir
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -1527,10 +1527,10 @@ exports[`TimePicker rtl render component should be rendered correctly in RTL dir
 
 exports[`TimePicker should support bordered 1`] = `
 <div
-  class="ant-picker ant-picker-borderless custom-class"
+  class="ezd-picker ezd-picker-borderless custom-class"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -1541,7 +1541,7 @@ exports[`TimePicker should support bordered 1`] = `
       value="00:00:00"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -1567,7 +1567,7 @@ exports[`TimePicker should support bordered 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="ezd-picker-clear"
       role="button"
     >
       <span

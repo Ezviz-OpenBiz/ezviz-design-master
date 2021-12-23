@@ -15,7 +15,7 @@ Debug usage
 Debug usage
 
 ```tsx
-import { Space, Switch } from '@ezviz/evvd';
+import { Space, Switch } from '@ezviz/ezd';
 
 const style: React.CSSProperties = {
   width: 150,

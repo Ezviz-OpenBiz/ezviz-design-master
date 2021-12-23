@@ -18,7 +18,7 @@ Input.Group example.
 Note: You don't need `Col` to control the width in the `compact` mode.
 
 ```jsx
-import { Input, Col, Row, Select, InputNumber, DatePicker, AutoComplete, Cascader } from '@ezviz/evvd';
+import { Input, Col, Row, Select, InputNumber, DatePicker, AutoComplete, Cascader } from '@ezviz/ezd';
 
 const { Option } = Select;
 
@@ -189,12 +189,12 @@ ReactDOM.render(<App />, mountNode);
   border-left-width: 1px;
 }
 
-.site-input-group-wrapper .ant-input-rtl.site-input-right {
+.site-input-group-wrapper .ezd-input-rtl.site-input-right {
   border-right-width: 0;
 }
 
-.site-input-group-wrapper .ant-input-rtl.site-input-right:hover,
-.site-input-group-wrapper .ant-input-rtl.site-input-right:focus {
+.site-input-group-wrapper .ezd-input-rtl.site-input-right:hover,
+.site-input-group-wrapper .ezd-input-rtl.site-input-right:focus {
   border-right-width: 1px;
 }
 ```

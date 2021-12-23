@@ -14,7 +14,7 @@ title:
 Simplest Usage.
 
 ```jsx
-import { Statistic, Row, Col, Button } from '@ezviz/evvd';
+import { Statistic, Row, Col, Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Row gutter={16}>

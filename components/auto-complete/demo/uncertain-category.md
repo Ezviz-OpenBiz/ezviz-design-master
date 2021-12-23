@@ -7,16 +7,16 @@ title:
 
 ## zh-CN
 
-[查询模式: 不确定类目](https://ant.design/docs/spec/reaction#Lookup-Patterns) 示例。
+[查询模式: 不确定类目](https://saastest3.ys7.com/ezd/docs/spec/reaction#Lookup-Patterns) 示例。
 
 ## en-US
 
-Demonstration of [Lookup Patterns: Uncertain Category](https://ant.design/docs/spec/reaction#Lookup-Patterns).
+Demonstration of [Lookup Patterns: Uncertain Category](https://saastest3.ys7.com/ezd/docs/spec/reaction#Lookup-Patterns).
 
 ```tsx
 import React, { useState } from 'react';
-import { Input, AutoComplete } from '@ezviz/evvd';
-import { SelectProps } from 'antd/es/select';
+import { Input, AutoComplete } from '@ezviz/ezd';
+import { SelectProps } from '@ezviz/ezd/es/select';
 
 function getRandomInt(max: number, min: number = 0) {
   return Math.floor(Math.random() * (max - min + 1)) + min; // eslint-disable-line no-mixed-operators

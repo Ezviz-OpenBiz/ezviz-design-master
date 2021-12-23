@@ -23,6 +23,7 @@ node_modules/
 npm-debug.log
 nohup.out
 _site
+_site.tar
 _data
 dist
 report.html

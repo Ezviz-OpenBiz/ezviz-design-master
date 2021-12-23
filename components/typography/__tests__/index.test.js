@@ -82,7 +82,7 @@ describe('Typography', () => {
       mount(<Title level={false} />);
 
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [antd: Typography.Title] Title only accept `1 | 2 | 3 | 4 | 5` as `level` value. And `5` need 4.6.0+ version.',
+        'Warning: [ezd: Typography.Title] Title only accept `1 | 2 | 3 | 4 | 5` as `level` value. And `5` need 4.6.0+ version.',
       );
     });
   });
@@ -122,14 +122,14 @@ describe('Typography', () => {
       });
 
       it('string with parentheses', async () => {
-        const parenthesesStr = `Evv Design, a design language (for background applications, is refined by
-          Ant UED Team. Evv Design, a design language for background applications,
-          is refined by Ant UED Team. Evv Design, a design language for background
-          applications, is refined by Ant UED Team. Evv Design, a design language
-          for background applications, is refined by Ant UED Team. Evv Design, a
-          design language for background applications, is refined by Ant UED Team.
-          Evv Design, a design language for background applications, is refined by
-          Ant UED Team.`;
+        const parenthesesStr = `EZ Design, a design language (for background applications, is refined by
+          EZVIZ Team. EZ Design, a design language for background applications,
+          is refined by EZVIZ Team. EZ Design, a design language for background
+          applications, is refined by EZVIZ Team. EZ Design, a design language
+          for background applications, is refined by EZVIZ Team. EZ Design, a
+          design language for background applications, is refined by EZVIZ Team.
+          EZ Design, a design language for background applications, is refined by
+          EZVIZ Team.`;
         const onEllipsis = jest.fn();
         const wrapper = mount(
           <Base ellipsis={{ onEllipsis }} component="p" editable>
@@ -139,18 +139,18 @@ describe('Typography', () => {
 
         await sleep(20);
         wrapper.update();
-        expect(wrapper.text()).toEqual('Evv Design, a des...');
+        expect(wrapper.text()).toEqual('EZ Design, a des...');
         const ellipsisSpan = wrapper.find('span[title]');
         expect(ellipsisSpan.text()).toEqual('...');
         expect(ellipsisSpan.props().title)
           .toEqual(`ign language (for background applications, is refined by
-          Ant UED Team. Evv Design, a design language for background applications,
-          is refined by Ant UED Team. Evv Design, a design language for background
-          applications, is refined by Ant UED Team. Evv Design, a design language
-          for background applications, is refined by Ant UED Team. Evv Design, a
-          design language for background applications, is refined by Ant UED Team.
-          Evv Design, a design language for background applications, is refined by
-          Ant UED Team.`);
+          EZVIZ Team. EZ Design, a design language for background applications,
+          is refined by EZVIZ Team. EZ Design, a design language for background
+          applications, is refined by EZVIZ Team. EZ Design, a design language
+          for background applications, is refined by EZVIZ Team. EZ Design, a
+          design language for background applications, is refined by EZVIZ Team.
+          EZ Design, a design language for background applications, is refined by
+          EZVIZ Team.`);
         onEllipsis.mockReset();
 
         wrapper.unmount();
@@ -225,7 +225,7 @@ describe('Typography', () => {
         await sleep(20);
         wrapper.update();
 
-        wrapper.find('.ant-typography-expand').simulate('click');
+        wrapper.find('.ezd-typography-expand').simulate('click');
         expect(onExpand).toHaveBeenCalled();
         await sleep(20);
         wrapper.update();
@@ -242,19 +242,19 @@ describe('Typography', () => {
         );
         await sleep(20);
         wrapper.update();
-        expect(wrapper.find('.ant-typography-expand').text()).toEqual('more');
+        expect(wrapper.find('.ezd-typography-expand').text()).toEqual('more');
       });
 
       it('can use css ellipsis', () => {
         const wrapper = mount(<Base ellipsis component="p" />);
-        expect(wrapper.find('.ant-typography-ellipsis-single-line').length).toBeTruthy();
+        expect(wrapper.find('.ezd-typography-ellipsis-single-line').length).toBeTruthy();
       });
 
       it('should calculate padding', () => {
         const wrapper = mount(
           <Base ellipsis component="p" style={{ paddingTop: '12px', paddingBottom: '12px' }} />,
         );
-        expect(wrapper.find('.ant-typography-ellipsis-single-line').length).toBeTruthy();
+        expect(wrapper.find('.ezd-typography-ellipsis-single-line').length).toBeTruthy();
       });
 
       describe('should tooltip support', () => {
@@ -296,32 +296,32 @@ describe('Typography', () => {
           );
 
           if (icon) {
-            expect(wrapper.find('.anticon-smile').length).toBeTruthy();
+            expect(wrapper.find('.ezdicon-smile').length).toBeTruthy();
           } else {
-            expect(wrapper.find('.anticon-copy').length).toBeTruthy();
+            expect(wrapper.find('.ezdicon-copy').length).toBeTruthy();
           }
 
-          wrapper.find('.ant-typography-copy').first().simulate('mouseenter');
+          wrapper.find('.ezd-typography-copy').first().simulate('mouseenter');
           jest.runAllTimers();
           wrapper.update();
 
           if (tooltips === undefined || tooltips === true) {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe('Copy');
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe('Copy');
           } else if (tooltips === false) {
-            expect(wrapper.find('.ant-tooltip-inner').length).toBeFalsy();
+            expect(wrapper.find('.ezd-tooltip-inner').length).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1] === '') {
-            expect(wrapper.find('.ant-tooltip-inner').length).toBeFalsy();
+            expect(wrapper.find('.ezd-tooltip-inner').length).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1]) {
-            expect(wrapper.find('.ant-tooltip-inner').length).toBeFalsy();
+            expect(wrapper.find('.ezd-tooltip-inner').length).toBeFalsy();
           } else if (tooltips[1] === '' && tooltips[0]) {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe(tooltips[0]);
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe(tooltips[0]);
           } else {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe(tooltips[0]);
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe(tooltips[0]);
           }
 
-          wrapper.find('.ant-typography-copy').first().simulate('click');
+          wrapper.find('.ezd-typography-copy').first().simulate('click');
           jest.useRealTimers();
-          wrapper.find('.ant-typography-copy').first().simulate('mouseenter');
+          wrapper.find('.ezd-typography-copy').first().simulate('mouseenter');
           // tooltips 为 ['', 'xxx'] 时，切换时需要延时 mousenEnterDelay 的时长
           if (tooltips && tooltips[0] === '' && tooltips[1]) {
             await sleep(150);
@@ -331,32 +331,32 @@ describe('Typography', () => {
           wrapper.update();
           expect(onCopy).toHaveBeenCalled();
 
-          let copiedIcon = '.anticon-check';
+          let copiedIcon = '.ezdicon-check';
           if (icon && icon.length > 1) {
-            copiedIcon = '.anticon-like';
+            copiedIcon = '.ezdicon-like';
           } else {
-            copiedIcon = '.anticon-check';
+            copiedIcon = '.ezdicon-check';
           }
 
           expect(wrapper.find(copiedIcon).length).toBeTruthy();
-          wrapper.find('.ant-typography-copy').first().simulate('mouseenter');
+          wrapper.find('.ezd-typography-copy').first().simulate('mouseenter');
 
           if (tooltips === undefined || tooltips === true) {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe('Copied');
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe('Copied');
           } else if (tooltips === false) {
-            expect(wrapper.find('.ant-tooltip-inner').length).toBeFalsy();
+            expect(wrapper.find('.ezd-tooltip-inner').length).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1] === '') {
-            expect(wrapper.find('.ant-tooltip-inner').length).toBeFalsy();
+            expect(wrapper.find('.ezd-tooltip-inner').length).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1]) {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe(tooltips[1]);
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe(tooltips[1]);
           } else if (tooltips[1] === '' && tooltips[0]) {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe('');
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe('');
           } else {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe(tooltips[1]);
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe(tooltips[1]);
           }
 
           jest.useFakeTimers();
-          wrapper.find('.ant-typography-copy').first().simulate('click');
+          wrapper.find('.ezd-typography-copy').first().simulate('click');
           jest.runAllTimers();
           wrapper.update();
 
@@ -415,24 +415,24 @@ describe('Typography', () => {
           );
 
           if (icon) {
-            expect(wrapper.find('.anticon-highlight').length).toBeTruthy();
+            expect(wrapper.find('.ezdicon-highlight').length).toBeTruthy();
           } else {
-            expect(wrapper.find('.anticon-edit').length).toBeTruthy();
+            expect(wrapper.find('.ezdicon-edit').length).toBeTruthy();
           }
 
-          wrapper.find('.ant-typography-edit').first().simulate('mouseenter');
+          wrapper.find('.ezd-typography-edit').first().simulate('mouseenter');
           jest.runAllTimers();
           wrapper.update();
 
           if (tooltip === undefined || tooltip === true) {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe('Edit');
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe('Edit');
           } else if (tooltip === false) {
-            expect(wrapper.find('.ant-tooltip-inner').length).toBeFalsy();
+            expect(wrapper.find('.ezd-tooltip-inner').length).toBeFalsy();
           } else {
-            expect(wrapper.find('.ant-tooltip-inner').text()).toBe(tooltip);
+            expect(wrapper.find('.ezd-tooltip-inner').text()).toBe(tooltip);
           }
 
-          wrapper.find('.ant-typography-edit').first().simulate('click');
+          wrapper.find('.ezd-typography-edit').first().simulate('click');
 
           expect(onStart).toHaveBeenCalled();
 
@@ -496,7 +496,7 @@ describe('Typography', () => {
       it('should trigger onEnd when type Enter', () => {
         const onEnd = jest.fn();
         const wrapper = mount(<Paragraph editable={{ onEnd }}>Bamboo</Paragraph>);
-        wrapper.find('.ant-typography-edit').first().simulate('click');
+        wrapper.find('.ezd-typography-edit').first().simulate('click');
         wrapper.find('textarea').simulate('keyDown', { keyCode: KeyCode.ENTER });
         wrapper.find('textarea').simulate('keyUp', { keyCode: KeyCode.ENTER });
         expect(onEnd).toHaveBeenCalledTimes(1);
@@ -505,7 +505,7 @@ describe('Typography', () => {
       it('should trigger onCancel when type ESC', () => {
         const onCancel = jest.fn();
         const wrapper = mount(<Paragraph editable={{ onCancel }}>Bamboo</Paragraph>);
-        wrapper.find('.ant-typography-edit').first().simulate('click');
+        wrapper.find('.ezd-typography-edit').first().simulate('click');
         wrapper.find('textarea').simulate('keyDown', { keyCode: KeyCode.ESC });
         wrapper.find('textarea').simulate('keyUp', { keyCode: KeyCode.ESC });
         expect(onCancel).toHaveBeenCalledTimes(1);
@@ -519,7 +519,7 @@ describe('Typography', () => {
 
         const wrapper = mount(<Paragraph editable>Bamboo</Paragraph>);
 
-        wrapper.find('.ant-typography-edit').first().simulate('click');
+        wrapper.find('.ezd-typography-edit').first().simulate('click');
         expect(triggerTimes).toEqual(1);
 
         wrapper.find('textarea').simulate('change', {
@@ -534,7 +534,7 @@ describe('Typography', () => {
 
     it('should focus at the end of textarea', () => {
       const wrapper = mount(<Paragraph editable>content</Paragraph>);
-      wrapper.find('.ant-typography-edit').first().simulate('click');
+      wrapper.find('.ezd-typography-edit').first().simulate('click');
       const textareaNode = wrapper.find('textarea').getDOMNode();
       expect(textareaNode.selectionStart).toBe(7);
       expect(textareaNode.selectionEnd).toBe(7);
@@ -545,7 +545,7 @@ describe('Typography', () => {
     const refFunc = () => {};
     mount(<Typography setContentRef={refFunc} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Typography] `setContentRef` is deprecated. Please use `ref` instead.',
+      'Warning: [ezd: Typography] `setContentRef` is deprecated. Please use `ref` instead.',
     );
   });
 

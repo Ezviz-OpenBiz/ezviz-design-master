@@ -4,7 +4,7 @@ import { Link } from 'bisheng/router';
 import classNames from 'classnames';
 import { Helmet } from 'react-helmet-async';
 import canUseDom from 'rc-util/lib/Dom/canUseDom';
-import { Input, Tooltip, Typography } from 'antd';
+import { Input } from '@ezviz/ezd';
 import { SearchOutlined } from '@ant-design/icons';
 import { DocSearchProps, useDocSearchKeyboardEvents, DocSearchModalProps } from '@docsearch/react';
 import '@docsearch/css';
@@ -13,7 +13,6 @@ import { IAlgoliaConfig, transformHitUrl } from './algolia-config';
 
 import './SearchBar.less';
 
-const { Text } = Typography;
 
 export interface SearchBarProps extends SharedProps {
   onTriggerFocus?: (focus: boolean) => void;
@@ -29,12 +28,6 @@ const Hit: DocSearchProps['hitComponent'] = ({ hit, children }) => {
   return <Link to={toUrl}>{children}</Link>;
 };
 
-const CTRL_KEY = 'Ctrl';
-const CMD_KEY = '⌘';
-
-function isAppleDevice() {
-  return /(mac|iphone|ipod|ipad)/i.test(navigator.platform);
-}
 
 /**
  * Recompose for algolia DocSearch Component Inspiring by
@@ -54,7 +47,7 @@ const SearchBar = ({
 
   const [isModalOpen, setModalOpen] = React.useState(false);
   const [searchModalQuery, setSearchModalQuery] = React.useState('');
-  const searchPlaceholder = isZhCN ? '在 ant.design 中搜索' : 'Search in ant.design';
+  const searchPlaceholder = isZhCN ? '在 ez.design 中搜索' : 'Search in ez.design';
   const searchInputPlaceholder = isZhCN ? '搜索' : 'Search';
 
   const triggerSearchModalImport = React.useCallback(() => {
@@ -81,7 +74,7 @@ const SearchBar = ({
     if (!canUseDom()) {
       return;
     }
-    const id = 'antd_algolia_search_modal';
+    const id = 'ezd_algolia_search_modal';
     let searchModalContainer$ = document.querySelector(`#${id}`);
     if (!searchModalContainer$) {
       const containerDiv = document.createElement('div');

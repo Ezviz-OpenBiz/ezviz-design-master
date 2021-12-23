@@ -14,7 +14,7 @@ title:
 Add copywriting in rate components.
 
 ```jsx
-import { Rate } from '@ezviz/evvd';
+import { Rate } from '@ezviz/ezd';
 
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
 
@@ -32,7 +32,7 @@ class Rater extends React.Component {
     return (
       <span>
         <Rate tooltips={desc} onChange={this.handleChange} value={value} />
-        {value ? <span className="ant-rate-text">{desc[value - 1]}</span> : ''}
+        {value ? <span className="ezd-rate-text">{desc[value - 1]}</span> : ''}
       </span>
     );
   }

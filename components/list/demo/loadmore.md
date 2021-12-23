@@ -14,7 +14,7 @@ title:
 Load more list with `loadMore` property.
 
 ```jsx
-import { List, Avatar, Button, Skeleton } from '@ezviz/evvd';
+import { List, Avatar, Button, Skeleton } from '@ezviz/ezd';
 import reqwest from 'reqwest';
 
 const count = 3;
@@ -106,8 +106,8 @@ class LoadMoreList extends React.Component {
               <Skeleton avatar title={false} loading={item.loading} active>
                 <List.Item.Meta
                   avatar={<Avatar src={item.picture.large} />}
-                  title={<a href="https://ant.design">{item.name.last}</a>}
-                  description="Evv Design, a design language for background applications, is refined by Ant UED Team"
+                  title={<a href="https://saastest3.ys7.com/ezd/">{item.name.last}</a>}
+                  description="EZ Design, a design language for background applications, is refined by EZVIZ Team"
                 />
                 <div>content</div>
               </Skeleton>

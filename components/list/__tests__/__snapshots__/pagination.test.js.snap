@@ -2,24 +2,24 @@
 
 exports[`List.pagination renders pagination correctly 1`] = `
 <div
-  class="ant-list ant-list-vertical ant-list-split ant-list-something-after-last-item"
+  class="ezd-list ezd-list-vertical ezd-list-split ezd-list-something-after-last-item"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <ul
-        class="ant-list-items"
+        class="ezd-list-items"
       >
         <li
-          class="ant-list-item ant-list-item-no-flex"
+          class="ezd-list-item ezd-list-item-no-flex"
         >
           Jack
         </li>
         <li
-          class="ant-list-item ant-list-item-no-flex"
+          class="ezd-list-item ezd-list-item-no-flex"
         >
           Lucy
         </li>
@@ -27,19 +27,19 @@ exports[`List.pagination renders pagination correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-list-pagination"
+    class="ezd-list-pagination"
   >
     <ul
-      class="ant-pagination my-page"
+      class="ezd-pagination my-page"
       unselectable="unselectable"
     >
       <li
         aria-disabled="true"
-        class="ant-pagination-prev ant-pagination-disabled"
+        class="ezd-pagination-prev ezd-pagination-disabled"
         title="Previous Page"
       >
         <button
-          class="ant-pagination-item-link"
+          class="ezd-pagination-item-link"
           disabled=""
           tabindex="-1"
           type="button"
@@ -66,7 +66,7 @@ exports[`List.pagination renders pagination correctly 1`] = `
         </button>
       </li>
       <li
-        class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+        class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
         tabindex="0"
         title="1"
       >
@@ -77,7 +77,7 @@ exports[`List.pagination renders pagination correctly 1`] = `
         </a>
       </li>
       <li
-        class="ant-pagination-item ant-pagination-item-2"
+        class="ezd-pagination-item ezd-pagination-item-2"
         tabindex="0"
         title="2"
       >
@@ -89,12 +89,12 @@ exports[`List.pagination renders pagination correctly 1`] = `
       </li>
       <li
         aria-disabled="false"
-        class="ant-pagination-next"
+        class="ezd-pagination-next"
         tabindex="0"
         title="Next Page"
       >
         <button
-          class="ant-pagination-item-link"
+          class="ezd-pagination-item-link"
           tabindex="-1"
           type="button"
         >
@@ -126,16 +126,16 @@ exports[`List.pagination renders pagination correctly 1`] = `
 
 exports[`List.pagination should change page size work 1`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="ezd-pagination-prev ezd-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -162,7 +162,7 @@ exports[`List.pagination should change page size work 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -174,11 +174,11 @@ exports[`List.pagination should change page size work 1`] = `
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-next ant-pagination-disabled"
+    class="ezd-pagination-next ezd-pagination-disabled"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -205,25 +205,28 @@ exports[`List.pagination should change page size work 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="ezd-pagination-options"
   >
     <div
-      class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+      aria-label="Page Size"
+      class="ezd-select ezd-pagination-options-size-changer ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
             aria-autocomplete="list"
             aria-controls="rc_select_TEST_OR_SSR_list"
+            aria-expanded="false"
             aria-haspopup="listbox"
+            aria-label="Page Size"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -234,7 +237,7 @@ exports[`List.pagination should change page size work 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="10 / page"
         >
           10 / page
@@ -242,13 +245,13 @@ exports[`List.pagination should change page size work 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select: none;"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -273,16 +276,16 @@ exports[`List.pagination should change page size work 1`] = `
 
 exports[`List.pagination should change page size work 2`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="ezd-pagination-prev ezd-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -309,7 +312,7 @@ exports[`List.pagination should change page size work 2`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -321,11 +324,11 @@ exports[`List.pagination should change page size work 2`] = `
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-next ant-pagination-disabled"
+    class="ezd-pagination-next ezd-pagination-disabled"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -352,16 +355,17 @@ exports[`List.pagination should change page size work 2`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="ezd-pagination-options"
   >
     <div
-      class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-open"
+      aria-label="Page Size"
+      class="ezd-select ezd-pagination-options-size-changer ezd-select-single ezd-select-show-arrow ezd-select-open"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -369,9 +373,10 @@ exports[`List.pagination should change page size work 2`] = `
             aria-controls="rc_select_TEST_OR_SSR_list"
             aria-expanded="true"
             aria-haspopup="listbox"
+            aria-label="Page Size"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -382,7 +387,7 @@ exports[`List.pagination should change page size work 2`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="50 / page"
         >
           50 / page
@@ -390,7 +395,7 @@ exports[`List.pagination should change page size work 2`] = `
       </div>
       <div>
         <div
-          class="ant-select-dropdown ant-slide-up-enter ant-slide-up-enter-prepare ant-slide-up"
+          class="ezd-select-dropdown ezd-slide-up-enter ezd-slide-up-enter-prepare ezd-slide-up"
           style="pointer-events: none; min-width: 0; opacity: 0;"
         >
           <div>
@@ -431,68 +436,68 @@ exports[`List.pagination should change page size work 2`] = `
                   >
                     <div
                       aria-selected="false"
-                      class="ant-select-item ant-select-item-option ant-select-item-option-active"
+                      class="ezd-select-item ezd-select-item-option ezd-select-item-option-active"
                       title="10 / page"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="ezd-select-item-option-content"
                       >
                         10 / page
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="ezd-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
                     </div>
                     <div
                       aria-selected="false"
-                      class="ant-select-item ant-select-item-option"
+                      class="ezd-select-item ezd-select-item-option"
                       title="20 / page"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="ezd-select-item-option-content"
                       >
                         20 / page
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="ezd-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
                     </div>
                     <div
                       aria-selected="true"
-                      class="ant-select-item ant-select-item-option ant-select-item-option-selected"
+                      class="ezd-select-item ezd-select-item-option ezd-select-item-option-selected"
                       title="50 / page"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="ezd-select-item-option-content"
                       >
                         50 / page
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="ezd-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
                     </div>
                     <div
                       aria-selected="false"
-                      class="ant-select-item ant-select-item-option"
+                      class="ezd-select-item ezd-select-item-option"
                       title="100 / page"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="ezd-select-item-option-content"
                       >
                         100 / page
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="ezd-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
@@ -506,13 +511,13 @@ exports[`List.pagination should change page size work 2`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select: none;"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -552,17 +557,17 @@ exports[`List.pagination should change page size work 2`] = `
 
 exports[`List.pagination should default work 1`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
     aria-disabled="false"
-    class="ant-pagination-prev"
+    class="ezd-pagination-prev"
     tabindex="0"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >
@@ -588,7 +593,7 @@ exports[`List.pagination should default work 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1"
+    class="ezd-pagination-item ezd-pagination-item-1"
     tabindex="0"
     title="1"
   >
@@ -599,7 +604,7 @@ exports[`List.pagination should default work 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+    class="ezd-pagination-item ezd-pagination-item-2 ezd-pagination-item-active"
     tabindex="0"
     title="2"
   >
@@ -611,11 +616,11 @@ exports[`List.pagination should default work 1`] = `
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-next ant-pagination-disabled"
+    class="ezd-pagination-next ezd-pagination-disabled"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -642,25 +647,28 @@ exports[`List.pagination should default work 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="ezd-pagination-options"
   >
     <div
-      class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+      aria-label="Page Size"
+      class="ezd-select ezd-pagination-options-size-changer ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
             aria-autocomplete="list"
             aria-controls="rc_select_TEST_OR_SSR_list"
+            aria-expanded="false"
             aria-haspopup="listbox"
+            aria-label="Page Size"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -671,7 +679,7 @@ exports[`List.pagination should default work 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="3 / page"
         >
           3 / page
@@ -679,13 +687,13 @@ exports[`List.pagination should default work 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select: none;"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg

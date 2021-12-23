@@ -12,55 +12,55 @@ cover: https://gw.alipayobjects.com/zos/alicdn/5rWLU27so/Grid.svg
 ## 设计理念
 
 <div class="grid-demo">
-<div class="ant-row demo-row">
-  <div class="ant-col-24 demo-col demo-col-1">
+<div class="ezd-row demo-row">
+  <div class="ezd-col-24 demo-col demo-col-1">
     100%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-6 demo-col demo-col-2">
+<div class="ezd-row demo-row">
+  <div class="ezd-col-6 demo-col demo-col-2">
     25%
   </div>
-  <div class="ant-col-6 demo-col demo-col-3">
+  <div class="ezd-col-6 demo-col demo-col-3">
     25%
   </div>
-  <div class="ant-col-6 demo-col demo-col-2">
+  <div class="ezd-col-6 demo-col demo-col-2">
     25%
   </div>
-  <div class="ant-col-6 demo-col demo-col-3">
+  <div class="ezd-col-6 demo-col demo-col-3">
     25%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-8 demo-col demo-col-4">
+<div class="ezd-row demo-row">
+  <div class="ezd-col-8 demo-col demo-col-4">
     33.33%
   </div>
-  <div class="ant-col-8 demo-col demo-col-5">
+  <div class="ezd-col-8 demo-col demo-col-5">
     33.33%
   </div>
-  <div class="ant-col-8 demo-col demo-col-4">
+  <div class="ezd-col-8 demo-col demo-col-4">
     33.33%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-12 demo-col demo-col-1">
+<div class="ezd-row demo-row">
+  <div class="ezd-col-12 demo-col demo-col-1">
     50%
   </div>
-  <div class="ant-col-12 demo-col demo-col-3">
+  <div class="ezd-col-12 demo-col demo-col-3">
     50%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-16 demo-col demo-col-4">
+<div class="ezd-row demo-row">
+  <div class="ezd-col-16 demo-col demo-col-4">
     66.66%
   </div>
-  <div class="ant-col-8 demo-col demo-col-5">
+  <div class="ezd-col-8 demo-col demo-col-5">
     33.33%
   </div>
 </div>
 </div>
 
-在多数业务情况下，Evv Design 需要在设计区域内解决大量信息收纳的问题，因此在 12 栅格系统的基础上，我们将整个设计建议区域按照 24 等分的原则进行划分。
+在多数业务情况下，EZ Design 需要在设计区域内解决大量信息收纳的问题，因此在 12 栅格系统的基础上，我们将整个设计建议区域按照 24 等分的原则进行划分。
 
 划分之后的信息区块我们称之为『盒子』。建议横向排列的盒子数量最多四个，最少一个。『盒子』在整个屏幕上占比见上图。设计部分基于盒子的单位定制盒子内部的排版规则，以保证视觉层面的舒适感。
 
@@ -79,7 +79,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/5rWLU27so/Grid.svg
 
 ## API
 
-Evv Design 的布局组件若不能满足你的需求，你也可以直接使用社区的优秀布局组件：
+EZ Design 的布局组件若不能满足你的需求，你也可以直接使用社区的优秀布局组件：
 
 - [react-flexbox-grid](http://roylee0704.github.io/react-flexbox-grid/)
 - [react-blocks](https://github.com/whoisandy/react-blocks/)

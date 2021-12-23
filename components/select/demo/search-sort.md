@@ -14,7 +14,7 @@ title:
 Search the options with sorting.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 
 const { Option } = Select;
 

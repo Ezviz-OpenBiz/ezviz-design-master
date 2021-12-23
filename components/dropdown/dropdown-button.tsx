@@ -24,7 +24,7 @@ export interface DropdownButtonProps extends ButtonGroupProps, DropDownProps {
 }
 
 interface DropdownButtonInterface extends React.FC<DropdownButtonProps> {
-  __ANT_BUTTON: boolean;
+  __EZD_BUTTON: boolean;
 }
 
 const DropdownButton: DropdownButtonInterface = props => {
@@ -109,6 +109,6 @@ const DropdownButton: DropdownButtonInterface = props => {
   );
 };
 
-DropdownButton.__ANT_BUTTON = true;
+DropdownButton.__EZD_BUTTON = true;
 
 export default DropdownButton;

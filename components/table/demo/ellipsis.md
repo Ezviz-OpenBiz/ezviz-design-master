@@ -18,7 +18,7 @@ Ellipsis cell content via setting `column.ellipsis`.
 > Cannot ellipsis table header with sorters and filters for now.
 
 ```jsx
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 const columns = [
   {

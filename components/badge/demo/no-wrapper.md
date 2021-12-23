@@ -16,7 +16,7 @@ title:
 Used in standalone when children is empty.
 
 ```jsx
-import { Badge, Space, Switch } from '@ezviz/evvd';
+import { Badge, Space, Switch } from '@ezviz/ezd';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 const Demo = () => {

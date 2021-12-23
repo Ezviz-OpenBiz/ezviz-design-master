@@ -14,7 +14,7 @@ title:
 For instance, add an external link after the selected value.
 
 ```jsx
-import { Cascader } from '@ezviz/evvd';
+import { Cascader } from '@ezviz/ezd';
 
 const options = [
   {

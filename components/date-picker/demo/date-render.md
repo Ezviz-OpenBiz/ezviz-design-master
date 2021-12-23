@@ -14,7 +14,7 @@ title:
 We can customize the rendering of date cells in the calendar by providing a `dateRender` function to `DatePicker`.
 
 ```jsx
-import { DatePicker, Space } from '@ezviz/evvd';
+import { DatePicker, Space } from '@ezviz/ezd';
 
 const { RangePicker } = DatePicker;
 
@@ -28,7 +28,7 @@ ReactDOM.render(
           style.borderRadius = '50%';
         }
         return (
-          <div className="ant-picker-cell-inner" style={style}>
+          <div className="ezd-picker-cell-inner" style={style}>
             {current.date()}
           </div>
         );
@@ -42,7 +42,7 @@ ReactDOM.render(
           style.borderRadius = '50%';
         }
         return (
-          <div className="ant-picker-cell-inner" style={style}>
+          <div className="ezd-picker-cell-inner" style={style}>
             {current.date()}
           </div>
         );

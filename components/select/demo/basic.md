@@ -14,7 +14,7 @@ title:
 Basic Usage.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 
 const { Option } = Select;
 

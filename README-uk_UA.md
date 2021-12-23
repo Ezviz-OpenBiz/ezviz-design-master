@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://saastest3.ys7.com/evvd/">
+  <a href="https://saastest3.ys7.com/ezd/">
     <img width="200" src="https://es.ys7.com/ys/img/logo.256e18ae.png">
   </a>
 </p>
 
-<h1 align="center">Evv Design</h1>
+<h1 align="center">EZ Design</h1>
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 
 </div>
 
-[![](https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*Yl83RJhUE7kAAAAAAAAAAABkARQnAQ)](https://saastest3.ys7.com/evvd/index-cn)
+[![](https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*Yl83RJhUE7kAAAAAAAAAAABkARQnAQ)](https://saastest3.ys7.com/ezd/index-cn)
 
 [English](./README.md) | [Português](./README-pt_BR.md) | [简体中文](./README-zh_CN.md) | Українською
 
@@ -39,17 +39,17 @@
 ## 📦 Встановлення
 
 ```bash
-npm install @ezviz/evvd
+npm install @ezviz/ezd
 ```
 
 ```bash
-yarn add @ezviz/evvd
+yarn add @ezviz/ezd
 ```
 
 ## 🔨 Використання
 
 ```jsx
-import { Button, DatePicker } from '@ezviz/evvd';
+import { Button, DatePicker } from '@ezviz/ezd';
 
 const App = () => (
   <>
@@ -62,16 +62,16 @@ const App = () => (
 Та імпортуй стиль вручну:
 
 ```jsx
-import '@ezviz/evvd/dist/@ezviz/evvd.css'; // or '@ezviz/evvd/dist/@ezviz/evvd.less'
+import '@ezviz/ezd/dist/@ezviz/ezd.css'; // or '@ezviz/ezd/dist/@ezviz/ezd.less'
 ```
 
 ### TypeScript
 
-`evvd` написано на TypeScript із повною типізацією, вибери [Використання у TypeScript](https://saastest3.ys7.com/evvd/docs/react/use-in-typescript-cn) щоб розпочати.
+`ezd` написано на TypeScript із повною типізацією, вибери [Використання у TypeScript](https://saastest3.ys7.com/ezd/docs/react/use-in-typescript-cn) щоб розпочати.
 
 ## 🌍 Інтернаціоналізація
 
-Десятки мов підтримуються в `@ezviz/evvd`, дивись [i18n](https://saastest3.ys7.com/evvd/docs/react/i18n-cn).
+Десятки мов підтримуються в `@ezviz/ezd`, дивись [i18n](https://saastest3.ys7.com/ezd/docs/react/i18n-cn).
 
 
 ## ⌨️ Розробка

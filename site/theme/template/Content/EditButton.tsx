@@ -1,8 +1,8 @@
 import React from 'react';
-import { Tooltip } from 'antd';
+import { Tooltip } from '@ezviz/ezd';
 import { EditOutlined } from '@ant-design/icons';
 
-const branchUrl = 'https://github.com/ant-design/ant-design/edit/master/';
+const branchUrl = 'https://github.com/Ezviz-OpenBiz/ezviz-design-master/edit/master/';
 
 export interface EditButtonProps {
   title: React.ReactNode;

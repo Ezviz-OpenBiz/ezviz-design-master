@@ -14,7 +14,7 @@ title:
 Read only, can't use mouse to interact.
 
 ```jsx
-import { Rate } from '@ezviz/evvd';
+import { Rate } from '@ezviz/ezd';
 
 ReactDOM.render(<Rate disabled defaultValue={2} />, mountNode);
 ```

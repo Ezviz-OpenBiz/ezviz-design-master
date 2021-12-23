@@ -14,7 +14,7 @@ title:
 Set range picker type by `picker` prop.
 
 ```jsx
-import { DatePicker, Space } from '@ezviz/evvd';
+import { DatePicker, Space } from '@ezviz/ezd';
 
 const { RangePicker } = DatePicker;
 

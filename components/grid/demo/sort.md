@@ -16,7 +16,7 @@ title:
 By using `push` and `pull` class you can easily change column order.
 
 ```jsx
-import { Row, Col } from '@ezviz/evvd';
+import { Row, Col } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Row>

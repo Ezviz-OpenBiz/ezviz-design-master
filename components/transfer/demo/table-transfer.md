@@ -14,7 +14,7 @@ title:
 Customize render list with Table component.
 
 ```jsx
-import { Transfer, Switch, Table, Tag } from '@ezviz/evvd';
+import { Transfer, Switch, Table, Tag } from '@ezviz/ezd';
 import difference from 'lodash/difference';
 
 // Customize Table Transfer
@@ -161,7 +161,7 @@ ReactDOM.render(<App />, mountNode);
 ```
 
 ```css
-#components-transfer-demo-table-transfer .ant-table td {
+#components-transfer-demo-table-transfer .ezd-table td {
   background: transparent;
 }
 ```

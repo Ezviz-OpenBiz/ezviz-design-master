@@ -15,7 +15,7 @@ debug: true
 To see if bordered style applied to other tables.
 
 ```jsx
-import { Table, Badge, Menu, Dropdown, Switch, Form, Space } from '@ezviz/evvd';
+import { Table, Badge, Menu, Dropdown, Switch, Form, Space } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = (

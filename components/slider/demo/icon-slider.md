@@ -14,7 +14,7 @@ title:
 You can add an icon beside the slider to make it meaningful.
 
 ```jsx
-import { Slider } from '@ezviz/evvd';
+import { Slider } from '@ezviz/ezd';
 import { FrownOutlined, SmileOutlined } from '@ant-design/icons';
 
 class IconSlider extends React.Component {
@@ -51,7 +51,7 @@ ReactDOM.render(<IconSlider min={0} max={20} />, mountNode);
   padding: 0px 30px;
 }
 
-.icon-wrapper .anticon {
+.icon-wrapper .ezdicon {
   position: absolute;
   top: -2px;
   width: 16px;
@@ -65,17 +65,17 @@ ReactDOM.render(<IconSlider min={0} max={20} />, mountNode);
   color: rgba(0, 0, 0, 0.45);
 }
 
-.icon-wrapper .anticon:first-child {
+.icon-wrapper .ezdicon:first-child {
   left: 0;
 }
 
-.icon-wrapper .anticon:last-child {
+.icon-wrapper .ezdicon:last-child {
   right: 0;
 }
 ```
 
 <style>
-  [data-theme="dark"] .icon-wrapper .anticon {
+  [data-theme="dark"] .icon-wrapper .ezdicon {
     color: rgba(255, 255, 255, 0.25);
   }
   [data-theme="dark"] .icon-wrapper .icon-wrapper-active {

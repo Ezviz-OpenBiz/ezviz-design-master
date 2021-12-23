@@ -1,8 +1,8 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@layout-prefix-cls: ~'@{ant-prefix}-layout';
-@layout-menu-prefix-cls: ~'@{ant-prefix}-menu';
+@layout-prefix-cls: ~'@{ezd-prefix}-layout';
+@layout-menu-prefix-cls: ~'@{ezd-prefix}-menu';
 
 .@{layout-prefix-cls} {
   display: flex;
@@ -66,7 +66,6 @@
       height: 100%;
       margin-top: -0.1px;
       // Hack for fixing margin collaspe bug
-      // https://github.com/ant-design/ant-design/issues/7967
       // solution from https://stackoverflow.com/a/33132624/3040605
       padding-top: 0.1px;
 

@@ -14,7 +14,7 @@ title:
 Clicking on an anchor does not record history.
 
 ```tsx
-import { Anchor } from '@ezviz/evvd';
+import { Anchor } from '@ezviz/ezd';
 
 const { Link } = Anchor;
 

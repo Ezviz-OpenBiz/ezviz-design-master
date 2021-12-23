@@ -14,7 +14,7 @@ title:
 The most basic step bar.
 
 ```jsx
-import { Steps } from '@ezviz/evvd';
+import { Steps } from '@ezviz/ezd';
 
 const { Step } = Steps;
 

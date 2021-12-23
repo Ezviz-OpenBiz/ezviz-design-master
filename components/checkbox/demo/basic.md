@@ -14,7 +14,7 @@ title:
 Basic usage of checkbox.
 
 ```jsx
-import { Checkbox } from '@ezviz/evvd';
+import { Checkbox } from '@ezviz/ezd';
 
 function onChange(e) {
   console.log(`checked = ${e.target.checked}`);

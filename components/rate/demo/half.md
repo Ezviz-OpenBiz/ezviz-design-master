@@ -14,7 +14,7 @@ title:
 Support select half star.
 
 ```jsx
-import { Rate } from '@ezviz/evvd';
+import { Rate } from '@ezviz/ezd';
 
 ReactDOM.render(<Rate allowHalf defaultValue={2.5} />, mountNode);
 ```

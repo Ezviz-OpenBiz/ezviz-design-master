@@ -14,7 +14,7 @@ title:
 You can customize the display for Steps with progress dot style.
 
 ```jsx
-import { Steps, Popover } from '@ezviz/evvd';
+import { Steps, Popover } from '@ezviz/ezd';
 
 const { Step } = Steps;
 

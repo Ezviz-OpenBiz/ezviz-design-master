@@ -15,7 +15,7 @@ title:
 Fixed Header is generally used to fix the top navigation to facilitate page switching.
 
 ```jsx
-import { Layout, Menu, Breadcrumb } from '@ezviz/evvd';
+import { Layout, Menu, Breadcrumb } from '@ezviz/ezd';
 
 const { Header, Content, Footer } = Layout;
 
@@ -39,7 +39,7 @@ ReactDOM.render(
         Content
       </div>
     </Content>
-    <Footer style={{ textAlign: 'center' }}>Evv Design ©2021 Created by Evv UED</Footer>
+    <Footer style={{ textAlign: 'center' }}>EZ Design ©2021 Created by EZ UED</Footer>
   </Layout>,
   mountNode,
 );

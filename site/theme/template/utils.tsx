@@ -19,7 +19,7 @@ interface Orders {
   [key: string]: number;
 }
 
-const isDev = process.env.NODE_ENV === 'development';
+// const isDev = process.env.NODE_ENV === 'development';
 
 export function getMenuItems(
   moduleData: ModuleDataItem[],
@@ -126,15 +126,13 @@ export function getLocalizedPathname(
     enUS: string;
   },
 ) {
-  let pathname = path.startsWith('/') ? path : `/${path}`;
-  pathname = pathname.replace(/\/\//,'/');
+  const pathname = path.startsWith('/') ? path : `/${path}`;
   let fullPath;
-  let rootUrl = isDev ? '/' : '/evvd/';
   if (!zhCN) {
     // to enUS
-    fullPath = /\/?index-cn/.test(pathname) ? `${rootUrl}` : pathname.replace('-cn', '');
-  } else if (pathname === rootUrl) {
-    fullPath = `${rootUrl}index-cn`;
+    fullPath = /\/?index-cn/.test(pathname) ? `/` : pathname.replace('-cn', '');
+  } else if (pathname === '/') {
+    fullPath = `/index-cn`;
   } else if (pathname.endsWith('/')) {
     fullPath = pathname.replace(/\/$/, '-cn/');
   } else {

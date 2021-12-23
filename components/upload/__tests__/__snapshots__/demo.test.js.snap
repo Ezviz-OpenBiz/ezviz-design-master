@@ -2,13 +2,13 @@
 
 exports[`renders ./components/upload/demo/avatar.md correctly 1`] = `
 <span
-  class="ant-upload-picture-card-wrapper avatar-uploader"
+  class="ezd-upload-picture-card-wrapper avatar-uploader"
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-picture-card"
+    class="ezd-upload ant-upload-select ant-upload-select-picture-card"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -57,10 +57,10 @@ exports[`renders ./components/upload/demo/basic.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -70,7 +70,7 @@ exports[`renders ./components/upload/demo/basic.md correctly 1`] = `
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -99,44 +99,44 @@ exports[`renders ./components/upload/demo/basic.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   />
 </span>
 `;
 
 exports[`renders ./components/upload/demo/crop-image.md correctly 1`] = `
 <span
-  class="ant-upload-picture-card-wrapper"
+  class="ezd-upload-picture-card-wrapper"
 >
   <div
-    class="ant-upload-list ant-upload-list-picture-card"
+    class="ezd-upload-list ant-upload-list-picture-card"
   >
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="ezd-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="ezd-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -147,7 +147,7 @@ exports[`renders ./components/upload/demo/crop-image.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -176,7 +176,7 @@ exports[`renders ./components/upload/demo/crop-image.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -205,10 +205,10 @@ exports[`renders ./components/upload/demo/crop-image.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture-card"
+      class="ezd-upload ant-upload-select ant-upload-select-picture-card"
     >
       <span
-        class="ant-upload"
+        class="ezd-upload"
         role="button"
         tabindex="0"
       >
@@ -229,10 +229,10 @@ exports[`renders ./components/upload/demo/customize-progress-bar.md correctly 1`
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -242,7 +242,7 @@ exports[`renders ./components/upload/demo/customize-progress-bar.md correctly 1`
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -271,7 +271,7 @@ exports[`renders ./components/upload/demo/customize-progress-bar.md correctly 1`
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   />
 </span>
 `;
@@ -281,10 +281,10 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -294,7 +294,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -323,22 +323,22 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   >
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-text-icon"
+              class="ezd-upload-text-icon"
             >
               <span
                 aria-label="paper-clip"
@@ -361,7 +361,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://www.baidu.com/xxx.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -370,10 +370,10 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
               xxx.png
             </a>
             <span
-              class="ant-upload-list-item-card-actions"
+              class="ezd-upload-list-item-card-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                 title="Remove file"
                 type="button"
               >
@@ -404,19 +404,19 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-text-icon"
+              class="ezd-upload-text-icon"
             >
               <span
                 aria-label="paper-clip"
@@ -439,7 +439,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://www.baidu.com/yyy.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -448,10 +448,10 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
               yyy.png
             </a>
             <span
-              class="ant-upload-list-item-card-actions"
+              class="ezd-upload-list-item-card-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                 title="Remove file"
                 type="button"
               >
@@ -482,19 +482,19 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-text"
+        class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-text"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-text-icon"
+              class="ezd-upload-text-icon"
             >
               <span
                 aria-label="paper-clip"
@@ -517,7 +517,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://www.baidu.com/zzz.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -526,10 +526,10 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
               zzz.png
             </a>
             <span
-              class="ant-upload-list-item-card-actions"
+              class="ezd-upload-list-item-card-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                 title="Remove file"
                 type="button"
               >
@@ -568,10 +568,10 @@ exports[`renders ./components/upload/demo/directory.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -583,7 +583,7 @@ exports[`renders ./components/upload/demo/directory.md correctly 1`] = `
         webkitdirectory="webkitdirectory"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -612,7 +612,7 @@ exports[`renders ./components/upload/demo/directory.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   />
 </span>
 `;
@@ -620,10 +620,10 @@ exports[`renders ./components/upload/demo/directory.md correctly 1`] = `
 exports[`renders ./components/upload/demo/drag.md correctly 1`] = `
 <span>
   <div
-    class="ant-upload ant-upload-drag"
+    class="ezd-upload ant-upload-drag"
   >
     <span
-      class="ant-upload ant-upload-btn"
+      class="ezd-upload ant-upload-btn"
       role="button"
       tabindex="0"
     >
@@ -634,10 +634,10 @@ exports[`renders ./components/upload/demo/drag.md correctly 1`] = `
         type="file"
       />
       <div
-        class="ant-upload-drag-container"
+        class="ezd-upload-drag-container"
       >
         <p
-          class="ant-upload-drag-icon"
+          class="ezd-upload-drag-icon"
         >
           <span
             aria-label="inbox"
@@ -660,12 +660,12 @@ exports[`renders ./components/upload/demo/drag.md correctly 1`] = `
           </span>
         </p>
         <p
-          class="ant-upload-text"
+          class="ezd-upload-text"
         >
           Click or drag file to this area to upload
         </p>
         <p
-          class="ant-upload-hint"
+          class="ezd-upload-hint"
         >
           Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files
         </p>
@@ -673,7 +673,7 @@ exports[`renders ./components/upload/demo/drag.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   />
 </span>
 `;
@@ -683,10 +683,10 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -696,7 +696,7 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -725,26 +725,26 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   >
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-draggable-list-item "
+        class="ezd-upload-draggable-list-item "
         style="cursor:move"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+          class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <div
-                class="ant-upload-text-icon"
+                class="ezd-upload-text-icon"
               >
                 <span
                   aria-label="paper-clip"
@@ -767,7 +767,7 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 </span>
               </div>
               <a
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -776,10 +776,10 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 image1.png
               </a>
               <span
-                class="ant-upload-list-item-card-actions"
+                class="ezd-upload-list-item-card-actions"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -811,23 +811,23 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-draggable-list-item "
+        class="ezd-upload-draggable-list-item "
         style="cursor:move"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+          class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <div
-                class="ant-upload-text-icon"
+                class="ezd-upload-text-icon"
               >
                 <span
                   aria-label="paper-clip"
@@ -850,7 +850,7 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 </span>
               </div>
               <a
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -859,10 +859,10 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 image2.png
               </a>
               <span
-                class="ant-upload-list-item-card-actions"
+                class="ezd-upload-list-item-card-actions"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -894,23 +894,23 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-draggable-list-item "
+        class="ezd-upload-draggable-list-item "
         style="cursor:move"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+          class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <div
-                class="ant-upload-text-icon"
+                class="ezd-upload-text-icon"
               >
                 <span
                   aria-label="paper-clip"
@@ -933,7 +933,7 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 </span>
               </div>
               <a
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -942,10 +942,10 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 image3.png
               </a>
               <span
-                class="ant-upload-list-item-card-actions"
+                class="ezd-upload-list-item-card-actions"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -977,23 +977,23 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-draggable-list-item "
+        class="ezd-upload-draggable-list-item "
         style="cursor:move"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+          class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <div
-                class="ant-upload-text-icon"
+                class="ezd-upload-text-icon"
               >
                 <span
                   aria-label="paper-clip"
@@ -1016,7 +1016,7 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 </span>
               </div>
               <a
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -1025,10 +1025,10 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 image4.png
               </a>
               <span
-                class="ant-upload-list-item-card-actions"
+                class="ezd-upload-list-item-card-actions"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -1060,23 +1060,23 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-draggable-list-item "
+        class="ezd-upload-draggable-list-item "
         style="cursor:move"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-text"
+          class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-text"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <div
-                class="ant-upload-text-icon"
+                class="ezd-upload-text-icon"
               >
                 <span
                   aria-label="paper-clip"
@@ -1099,16 +1099,16 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
                 </span>
               </div>
               <span
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 title="image.png"
               >
                 image.png
               </span>
               <span
-                class="ant-upload-list-item-card-actions"
+                class="ezd-upload-list-item-card-actions"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -1145,25 +1145,25 @@ exports[`renders ./components/upload/demo/drag-sorting.md correctly 1`] = `
 
 exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
 <span
-  class="ant-upload-picture-card-wrapper"
+  class="ezd-upload-picture-card-wrapper"
 >
   <div
-    class="ant-upload-list ant-upload-list-picture-card"
+    class="ezd-upload-list ant-upload-list-picture-card"
   >
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <a
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
               href="http://cdn07.foxitsoftware.cn/pub/foxit/cpdf/FoxitCompanyProfile.pdf"
               rel="noopener noreferrer"
               target="_blank"
@@ -1206,7 +1206,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
               </span>
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://cdn07.foxitsoftware.cn/pub/foxit/cpdf/FoxitCompanyProfile.pdf"
               rel="noopener noreferrer"
               target="_blank"
@@ -1217,7 +1217,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             href="http://cdn07.foxitsoftware.cn/pub/foxit/cpdf/FoxitCompanyProfile.pdf"
@@ -1246,7 +1246,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -1275,19 +1275,19 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <a
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.doc"
               rel="noopener noreferrer"
               target="_blank"
@@ -1322,7 +1322,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
               </span>
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.doc"
               rel="noopener noreferrer"
               target="_blank"
@@ -1333,7 +1333,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.doc"
@@ -1362,7 +1362,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -1391,19 +1391,19 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
             >
               <span
                 aria-label="picture"
@@ -1443,7 +1443,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
               </span>
             </div>
             <span
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               title="image.png"
             >
               image.png
@@ -1451,7 +1451,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             rel="noopener noreferrer"
@@ -1480,7 +1480,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -1509,19 +1509,19 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
             >
               <span
                 aria-label="file-pdf"
@@ -1561,7 +1561,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
               </span>
             </div>
             <span
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               title="pdf.pdf"
             >
               pdf.pdf
@@ -1569,7 +1569,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             rel="noopener noreferrer"
@@ -1598,7 +1598,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -1627,19 +1627,19 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
             >
               <span
                 aria-label="file-word"
@@ -1671,7 +1671,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
               </span>
             </div>
             <span
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               title="doc.doc"
             >
               doc.doc
@@ -1679,7 +1679,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             rel="noopener noreferrer"
@@ -1708,7 +1708,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -1737,10 +1737,10 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture-card"
+      class="ezd-upload ant-upload-select ant-upload-select-picture-card"
     >
       <span
-        class="ant-upload"
+        class="ezd-upload"
         role="button"
         tabindex="0"
       >
@@ -1790,10 +1790,10 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -1804,7 +1804,7 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -1833,22 +1833,22 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   >
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-text-icon"
+              class="ezd-upload-text-icon"
             >
               <span
                 aria-label="paper-clip"
@@ -1871,7 +1871,7 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://www.baidu.com/xxx.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -1880,10 +1880,10 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
               xxx.png
             </a>
             <span
-              class="ant-upload-list-item-card-actions"
+              class="ezd-upload-list-item-card-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                 title="Remove file"
                 type="button"
               >
@@ -1919,21 +1919,21 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
 
 exports[`renders ./components/upload/demo/max-count.md correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical"
+  class="ezd-space ant-space-vertical"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:24px"
   >
     <span
       class=""
     >
       <div
-        class="ant-upload ant-upload-select ant-upload-select-picture"
+        class="ezd-upload ant-upload-select ant-upload-select-picture"
       >
         <span
-          class="ant-upload"
+          class="ezd-upload"
           role="button"
           tabindex="0"
         >
@@ -1943,7 +1943,7 @@ exports[`renders ./components/upload/demo/max-count.md correctly 1`] = `
             type="file"
           />
           <button
-            class="ant-btn"
+            class="ezd-btn"
             type="button"
           >
             <span
@@ -1972,21 +1972,21 @@ exports[`renders ./components/upload/demo/max-count.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-picture"
+        class="ezd-upload-list ant-upload-list-picture"
       />
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <span
       class=""
     >
       <div
-        class="ant-upload ant-upload-select ant-upload-select-picture"
+        class="ezd-upload ant-upload-select ant-upload-select-picture"
       >
         <span
-          class="ant-upload"
+          class="ezd-upload"
           role="button"
           tabindex="0"
         >
@@ -1997,7 +1997,7 @@ exports[`renders ./components/upload/demo/max-count.md correctly 1`] = `
             type="file"
           />
           <button
-            class="ant-btn"
+            class="ezd-btn"
             type="button"
           >
             <span
@@ -2026,7 +2026,7 @@ exports[`renders ./components/upload/demo/max-count.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-picture"
+        class="ezd-upload-list ant-upload-list-picture"
       />
     </span>
   </div>
@@ -2035,37 +2035,37 @@ exports[`renders ./components/upload/demo/max-count.md correctly 1`] = `
 
 exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
 <span
-  class="ant-upload-picture-card-wrapper"
+  class="ezd-upload-picture-card-wrapper"
 >
   <div
-    class="ant-upload-list ant-upload-list-picture-card"
+    class="ezd-upload-list ant-upload-list-picture-card"
   >
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="ezd-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="ezd-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -2076,7 +2076,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -2105,7 +2105,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -2134,31 +2134,31 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="ezd-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="ezd-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -2169,7 +2169,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -2198,7 +2198,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -2227,31 +2227,31 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="ezd-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="ezd-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -2262,7 +2262,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -2291,7 +2291,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -2320,31 +2320,31 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="ezd-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="ezd-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -2355,7 +2355,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -2384,7 +2384,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -2413,24 +2413,24 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-uploading ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-list-item-thumbnail"
+              class="ezd-upload-list-item-thumbnail"
             >
               Uploading...
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -2443,19 +2443,19 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-picture-card-container"
+      class="ezd-upload-list-picture-card-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
+        class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture-card"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
             >
               <span
                 aria-label="picture"
@@ -2495,7 +2495,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
               </span>
             </div>
             <span
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               title="image.png"
             >
               image.png
@@ -2503,7 +2503,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="ezd-upload-list-item-actions"
         >
           <a
             rel="noopener noreferrer"
@@ -2532,7 +2532,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             </span>
           </a>
           <button
-            class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+            class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
             title="Remove file"
             type="button"
           >
@@ -2561,10 +2561,10 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture-card"
+      class="ezd-upload ant-upload-select ant-upload-select-picture-card"
     >
       <span
-        class="ant-upload"
+        class="ezd-upload"
         role="button"
         tabindex="0"
       >
@@ -2615,10 +2615,10 @@ Array [
     class=""
   >
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture"
+      class="ezd-upload ant-upload-select ant-upload-select-picture"
     >
       <span
-        class="ant-upload"
+        class="ezd-upload"
         role="button"
         tabindex="0"
       >
@@ -2628,7 +2628,7 @@ Array [
           type="file"
         />
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span
@@ -2657,34 +2657,34 @@ Array [
       </span>
     </div>
     <div
-      class="ant-upload-list ant-upload-list-picture"
+      class="ezd-upload-list ant-upload-list-picture"
     >
       <div
-        class="ant-upload-list-picture-container"
+        class="ezd-upload-list-picture-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture"
+          class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <a
-                class="ant-upload-list-item-thumbnail"
+                class="ezd-upload-list-item-thumbnail"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <img
                   alt="xxx.png"
-                  class="ant-upload-list-item-image"
+                  class="ezd-upload-list-item-image"
                   src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 />
               </a>
               <a
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -2693,10 +2693,10 @@ Array [
                 xxx.png
               </a>
               <span
-                class="ant-upload-list-item-card-actions picture"
+                class="ezd-upload-list-item-card-actions picture"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -2727,19 +2727,19 @@ Array [
         </div>
       </div>
       <div
-        class="ant-upload-list-picture-container"
+        class="ezd-upload-list-picture-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture"
+          class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <div
-                class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+                class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
               >
                 <span
                   aria-label="picture"
@@ -2779,16 +2779,16 @@ Array [
                 </span>
               </div>
               <span
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 title="yyy.png"
               >
                 yyy.png
               </span>
               <span
-                class="ant-upload-list-item-card-actions picture"
+                class="ezd-upload-list-item-card-actions picture"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -2826,10 +2826,10 @@ Array [
     class="upload-list-inline"
   >
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture"
+      class="ezd-upload ant-upload-select ant-upload-select-picture"
     >
       <span
-        class="ant-upload"
+        class="ezd-upload"
         role="button"
         tabindex="0"
       >
@@ -2839,7 +2839,7 @@ Array [
           type="file"
         />
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span
@@ -2868,34 +2868,34 @@ Array [
       </span>
     </div>
     <div
-      class="ant-upload-list ant-upload-list-picture"
+      class="ezd-upload-list ant-upload-list-picture"
     >
       <div
-        class="ant-upload-list-picture-container"
+        class="ezd-upload-list-picture-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture"
+          class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-picture"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <a
-                class="ant-upload-list-item-thumbnail"
+                class="ezd-upload-list-item-thumbnail"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <img
                   alt="xxx.png"
-                  class="ant-upload-list-item-image"
+                  class="ezd-upload-list-item-image"
                   src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 />
               </a>
               <a
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -2904,10 +2904,10 @@ Array [
                 xxx.png
               </a>
               <span
-                class="ant-upload-list-item-card-actions picture"
+                class="ezd-upload-list-item-card-actions picture"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -2938,19 +2938,19 @@ Array [
         </div>
       </div>
       <div
-        class="ant-upload-list-picture-container"
+        class="ezd-upload-list-picture-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture"
+          class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-picture"
         >
           <div
-            class="ant-upload-list-item-info"
+            class="ezd-upload-list-item-info"
           >
             <span
-              class="ant-upload-span"
+              class="ezd-upload-span"
             >
               <div
-                class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+                class="ezd-upload-list-item-thumbnail ant-upload-list-item-file"
               >
                 <span
                   aria-label="picture"
@@ -2990,16 +2990,16 @@ Array [
                 </span>
               </div>
               <span
-                class="ant-upload-list-item-name"
+                class="ezd-upload-list-item-name"
                 title="yyy.png"
               >
                 yyy.png
               </span>
               <span
-                class="ant-upload-list-item-card-actions picture"
+                class="ezd-upload-list-item-card-actions picture"
               >
                 <button
-                  class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                  class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                   title="Remove file"
                   type="button"
                 >
@@ -3039,10 +3039,10 @@ exports[`renders ./components/upload/demo/preview-file.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-picture"
+    class="ezd-upload ant-upload-select ant-upload-select-picture"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -3052,7 +3052,7 @@ exports[`renders ./components/upload/demo/preview-file.md correctly 1`] = `
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -3081,7 +3081,7 @@ exports[`renders ./components/upload/demo/preview-file.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="ezd-upload-list ant-upload-list-picture"
   />
 </span>
 `;
@@ -3091,10 +3091,10 @@ exports[`renders ./components/upload/demo/transform-file.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-picture"
+    class="ezd-upload ant-upload-select ant-upload-select-picture"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -3104,7 +3104,7 @@ exports[`renders ./components/upload/demo/transform-file.md correctly 1`] = `
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -3133,7 +3133,7 @@ exports[`renders ./components/upload/demo/transform-file.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="ezd-upload-list ant-upload-list-picture"
   />
 </span>
 `;
@@ -3143,10 +3143,10 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -3156,7 +3156,7 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -3185,22 +3185,22 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   >
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-text-icon"
+              class="ezd-upload-text-icon"
             >
               <span
                 aria-label="paper-clip"
@@ -3223,7 +3223,7 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://www.baidu.com/xxx.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -3232,10 +3232,10 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
               xxx.png
             </a>
             <span
-              class="ant-upload-list-item-card-actions"
+              class="ezd-upload-list-item-card-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-upload-list-item-card-actions-btn"
                 title="Download file"
                 type="button"
               >
@@ -3244,7 +3244,7 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
                 </span>
               </button>
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                 title="Remove file"
                 type="button"
               >
@@ -3275,19 +3275,19 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
+        class="ezd-upload-list-item ant-upload-list-item-done ant-upload-list-item-list-type-text"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-text-icon"
+              class="ezd-upload-text-icon"
             >
               <span
                 aria-label="paper-clip"
@@ -3310,7 +3310,7 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://www.baidu.com/yyy.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -3319,10 +3319,10 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
               yyy.png
             </a>
             <span
-              class="ant-upload-list-item-card-actions"
+              class="ezd-upload-list-item-card-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-upload-list-item-card-actions-btn"
                 title="Download file"
                 type="button"
               >
@@ -3331,7 +3331,7 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
                 </span>
               </button>
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                 title="Remove file"
                 type="button"
               >
@@ -3362,19 +3362,19 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
       </div>
     </div>
     <div
-      class="ant-upload-list-text-container"
+      class="ezd-upload-list-text-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-text"
+        class="ezd-upload-list-item ant-upload-list-item-error ant-upload-list-item-list-type-text"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="ezd-upload-list-item-info"
         >
           <span
-            class="ant-upload-span"
+            class="ezd-upload-span"
           >
             <div
-              class="ant-upload-text-icon"
+              class="ezd-upload-text-icon"
             >
               <span
                 aria-label="paper-clip"
@@ -3397,7 +3397,7 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="ezd-upload-list-item-name"
               href="http://www.baidu.com/zzz.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -3406,10 +3406,10 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md correctly
               zzz.png
             </a>
             <span
-              class="ant-upload-list-item-card-actions"
+              class="ezd-upload-list-item-card-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
+                class="ezd-btn ant-btn-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-card-actions-btn"
                 title="Remove file"
                 type="button"
               >
@@ -3449,10 +3449,10 @@ Array [
     class=""
   >
     <div
-      class="ant-upload ant-upload-select ant-upload-select-text"
+      class="ezd-upload ant-upload-select ant-upload-select-text"
     >
       <span
-        class="ant-upload"
+        class="ezd-upload"
         role="button"
         tabindex="0"
       >
@@ -3462,7 +3462,7 @@ Array [
           type="file"
         />
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span
@@ -3491,11 +3491,11 @@ Array [
       </span>
     </div>
     <div
-      class="ant-upload-list ant-upload-list-text"
+      class="ezd-upload-list ant-upload-list-text"
     />
   </span>,
   <button
-    class="ant-btn ant-btn-primary"
+    class="ezd-btn ant-btn-primary"
     disabled=""
     style="margin-top:16px"
     type="button"
@@ -3512,10 +3512,10 @@ exports[`renders ./components/upload/demo/upload-png-only.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="ezd-upload ant-upload-select ant-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -3525,7 +3525,7 @@ exports[`renders ./components/upload/demo/upload-png-only.md correctly 1`] = `
         type="file"
       />
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span
@@ -3554,20 +3554,20 @@ exports[`renders ./components/upload/demo/upload-png-only.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="ezd-upload-list ant-upload-list-text"
   />
 </span>
 `;
 
 exports[`renders ./components/upload/demo/upload-with-aliyun-oss.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="ezd-form ant-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="ezd-row ant-form-item"
   >
     <div
-      class="ant-col ant-col-4 ant-form-item-label"
+      class="ezd-col ant-col-4 ant-form-item-label"
     >
       <label
         class=""
@@ -3578,22 +3578,22 @@ exports[`renders ./components/upload/demo/upload-with-aliyun-oss.md correctly 1`
       </label>
     </div>
     <div
-      class="ant-col ant-form-item-control"
+      class="ezd-col ant-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           <span
             class=""
           >
             <div
-              class="ant-upload ant-upload-select ant-upload-select-text"
+              class="ezd-upload ant-upload-select ant-upload-select-text"
             >
               <span
-                class="ant-upload"
+                class="ezd-upload"
                 role="button"
                 tabindex="0"
               >
@@ -3603,7 +3603,7 @@ exports[`renders ./components/upload/demo/upload-with-aliyun-oss.md correctly 1`
                   type="file"
                 />
                 <button
-                  class="ant-btn"
+                  class="ezd-btn"
                   type="button"
                 >
                   <span
@@ -3632,7 +3632,7 @@ exports[`renders ./components/upload/demo/upload-with-aliyun-oss.md correctly 1`
               </span>
             </div>
             <div
-              class="ant-upload-list ant-upload-list-text"
+              class="ezd-upload-list ant-upload-list-text"
             />
           </span>
         </div>

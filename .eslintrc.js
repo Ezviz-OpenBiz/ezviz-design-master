@@ -101,6 +101,7 @@ module.exports = {
     'react/default-props-match-prop-types': 0,
     'react-hooks/rules-of-hooks': 2, // Checks rules of Hooks
 
+    'import/no-unresolved': [2, {'ignore': ['@ezviz/ezd']}],
     'import/extensions': 0,
     'import/no-cycle': 0,
     'import/no-extraneous-dependencies': [

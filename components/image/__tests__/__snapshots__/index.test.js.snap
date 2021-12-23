@@ -2,16 +2,16 @@
 
 exports[`Image rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-image"
+  class="ezd-image"
 >
   <img
-    class="ant-image-img"
+    class="ezd-image-img"
   />
   <div
-    class="ant-image-mask"
+    class="ezd-image-mask"
   >
     <div
-      class="ant-image-mask-info"
+      class="ezd-image-mask-info"
     >
       <span
         aria-label="eye"

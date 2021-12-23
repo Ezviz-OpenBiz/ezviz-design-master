@@ -11,10 +11,10 @@ title:
 
 ## en-US
 
-Displaying a series of comments using the `antd` List Component.
+Displaying a series of comments using the `ezd` List Component.
 
 ```jsx
-import { Comment, Tooltip, List } from '@ezviz/evvd';
+import { Comment, Tooltip, List } from '@ezviz/ezd';
 import moment from 'moment';
 
 const data = [

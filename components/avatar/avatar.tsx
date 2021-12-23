@@ -124,7 +124,7 @@ const InternalAvatar: React.ForwardRefRenderFunction<unknown, AvatarProps> = (pr
   devWarning(
     !(typeof icon === 'string' && icon.length > 2),
     'Avatar',
-    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://ant.design/components/icon`,
+    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://saastest3.ys7.com/ezd/components/icon`,
   );
 
   const prefixCls = getPrefixCls('avatar', customizePrefixCls);

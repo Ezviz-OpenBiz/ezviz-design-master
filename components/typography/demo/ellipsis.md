@@ -14,7 +14,7 @@ title:
 Multiple line ellipsis support. You can use `tooltip` to config ellipsis tooltip. Recommend `expandable` when have lots of content.
 
 ```tsx
-import { Typography, Switch } from '@ezviz/evvd';
+import { Typography, Switch } from '@ezviz/ezd';
 
 const { Paragraph, Text } = Typography;
 
@@ -31,28 +31,28 @@ const Demo = () => {
       />
 
       <Paragraph ellipsis={ellipsis}>
-        Evv Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team.
+        EZ Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team.
       </Paragraph>
 
       <Paragraph ellipsis={ellipsis ? { rows: 2, expandable: true, symbol: 'more' } : false}>
-        Evv Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team. Evv
-        Design, a design language for background applications, is refined by Evv UED Team.
+        EZ Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team. EZ
+        Design, a design language for background applications, is refined by EZ UED Team.
       </Paragraph>
 
       <Text
         style={ellipsis ? { width: 100 } : undefined}
         ellipsis={ellipsis ? { tooltip: 'I am ellipsis now!' } : false}
       >
-        Evv Design, a design language for background applications, is refined by Evv UED Team.
+        EZ Design, a design language for background applications, is refined by EZ UED Team.
       </Text>
     </>
   );

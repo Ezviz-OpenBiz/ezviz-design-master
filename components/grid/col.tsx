@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import RowContext from './RowContext';
 import { ConfigContext } from '../config-provider';
 
-// https://github.com/ant-design/ant-design/issues/14324
 type ColSpanType = number | string;
 
 type FlexType = number | 'none' | 'auto' | string;
@@ -121,7 +120,6 @@ const Col = React.forwardRef<HTMLDivElement, ColProps>((props, ref) => {
     mergedStyle.flex = parseFlex(flex);
 
     // Hack for Firefox to avoid size issue
-    // https://github.com/ant-design/ant-design/pull/20023#issuecomment-564389553
     if (wrap === false && !mergedStyle.minWidth) {
       mergedStyle.minWidth = 0;
     }

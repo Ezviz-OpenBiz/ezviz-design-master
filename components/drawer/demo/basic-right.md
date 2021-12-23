@@ -15,7 +15,7 @@ Basic drawer.
 
 ```tsx
 import React, { useState } from 'react';
-import { Drawer, Button } from '@ezviz/evvd';
+import { Drawer, Button } from '@ezviz/ezd';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);
@@ -43,7 +43,7 @@ ReactDOM.render(<App />, mountNode);
 ```
 
 <style>
-[data-theme='compact'] .ant-drawer-body p {
+[data-theme='compact'] .ezd-drawer-body p {
   margin-bottom: 0;
 }
 </style>

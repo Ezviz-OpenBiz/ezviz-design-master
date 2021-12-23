@@ -18,7 +18,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { VariableSizeGrid as Grid } from 'react-window';
 import ResizeObserver from 'rc-resize-observer';
 import classNames from 'classnames';
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 function VirtualTable(props: Parameters<typeof Table>[0]) {
   const { columns, scroll } = props;
@@ -143,8 +143,8 @@ ReactDOM.render(
 ```
 
 <style>
-  .virtual-table .ant-table-container:before,
-  .virtual-table .ant-table-container:after {
+  .virtual-table .ezd-table-container:before,
+  .virtual-table .ezd-table-container:after {
     display: none;
   }
   .virtual-table-cell {

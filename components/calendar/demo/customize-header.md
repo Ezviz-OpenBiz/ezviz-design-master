@@ -14,7 +14,7 @@ title:
 Customize Calendar header content.
 
 ```jsx
-import { Calendar, Select, Radio, Col, Row, Typography } from '@ezviz/evvd';
+import { Calendar, Select, Radio, Col, Row, Typography } from '@ezviz/ezd';
 
 function onPanelChange(value, mode) {
   console.log(value, mode);

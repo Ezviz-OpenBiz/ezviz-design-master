@@ -8,6 +8,7 @@ const themeConfig = require('./themeConfig');
 const { webpack } = getWebpackConfig;
 
 const isDev = process.env.NODE_ENV === 'development';
+const { EZD_THEME } = process.env;
 
 function alertBabelConfig(rules) {
   rules.forEach(rule => {
@@ -33,15 +34,11 @@ module.exports = {
     components: './components',
     docs: './docs',
     changelog: ['CHANGELOG.zh-CN.md', 'CHANGELOG.en-US.md'],
-    'components/form/v3': ['components/form/v3.zh-CN.md', 'components/form/v3.en-US.md'],
-    'docs/resources': ['./docs/resources.zh-CN.md', './docs/resources.en-US.md'],
   },
-  theme: './site/theme',
+  theme: EZD_THEME ? './site/theme/index-css-only.js' : './site/theme',
   htmlTemplate: './site/theme/static/template.html',
   themeConfig,
-  root: "/evvd/",
   filePathMapper(filePath) {
-    console.log("filePath:",filePath)
     if (filePath === '/index.html') {
       return ['/index.html', '/index-cn.html'];
     }
@@ -59,16 +56,16 @@ module.exports = {
   lessConfig: {
     javascriptEnabled: true,
     modifyVars: {
-      'root-entry-name': 'variable',
+      'root-entry-name': EZD_THEME || 'variable',
     },
   },
   webpackConfig(config) {
     config.resolve.alias = {
-      '@ezviz/evvd': 'antd',
-      'antd/lib': path.join(process.cwd(), 'components'),
-      'antd/es': path.join(process.cwd(), 'components'),
-      // Change antd from `index.js` to `site/antd.js` to remove deps of root style
-      antd: path.join(process.cwd(), 'site', 'antd'),
+      '@ezviz/ezd/es': path.join(process.cwd(), 'components'),
+      '@ezviz/ezd/lib': path.join(process.cwd(), 'components'),
+      '@ezviz/ezd': path.join(process.cwd(), 'site', 'ezd'),
+
+      // Change @ezviz/ezd from `index.js` to `site/ezd.js` to remove deps of root style
       site: path.join(process.cwd(), 'site'),
       'react-router': 'react-router/umd/ReactRouter',
     };
@@ -106,12 +103,58 @@ module.exports = {
 
     config.plugins.push(
       new webpack.DefinePlugin({
-        antdReproduceVersion: JSON.stringify(version),
+        ezdReproduceVersion: JSON.stringify(version),
       }),
     );
 
     delete config.module.noParse;
+    
+     // Use dev mod to speed up site preview build
+    // This is used for CI preview build in `preview-build.yml`
+    if (process.env.SITE_ENV === 'development') {
+      config.mode = 'development';
+    }
 
+    if (EZD_THEME) {
+      config.mode = 'development';
+      config.plugins.forEach(plugin => {
+        if (plugin?.options?.filename?.includes?.('.css')) {
+          delete plugin.options.chunkFilename;
+          plugin.options.filename = `${EZD_THEME}.css`;
+        }
+      });
+
+      // Remove preset target
+      config.module.rules.forEach(rule => {
+        if (rule.options?.presets?.[1]?.[0]?.includes('preset-env')) {
+          delete rule.options.presets[1][1];
+          delete rule.options.plugins;
+        }
+      });
+
+      config.optimization.minimize = false;
+      delete config.optimization.minimizer;
+
+      config.externals = [
+        /^rc-.*/,
+        /^react.*/,
+        /^@ant-design\/.*/,
+        /^@babel\/.*/,
+        /^@algolia\/.*/,
+        /^@docsearch\/.*/,
+        /autocomplete.js/,
+        /docsearch.js/,
+        /.*\.md/,
+        /lodash/,
+        /jquery/,
+        /moment/,
+        /core-js/,
+        /jsonml/,
+        /ramda/,
+        /tinycolor/,
+        /bisheng-plugin/,
+      ];
+    }
     return config;
   },
 

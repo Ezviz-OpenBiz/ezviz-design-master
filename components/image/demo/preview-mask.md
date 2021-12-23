@@ -16,7 +16,7 @@ Custom preview mask.
 
 ```tsx
 import React from 'react';
-import { Image, Space } from '@ezviz/evvd';
+import { Image, Space } from '@ezviz/ezd';
 import { ZoomInOutlined } from '@ant-design/icons';
 
 function ImageDemo() {
@@ -45,7 +45,7 @@ ReactDOM.render(<ImageDemo />, mountNode);
   font-size: 20px;
   opacity: 1;
 }
-.customize-mask .anticon {
+.customize-mask .ezdicon {
   font-size: 32px;
 }
 ```

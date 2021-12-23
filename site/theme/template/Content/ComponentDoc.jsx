@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FormattedMessage, injectIntl } from 'react-intl';
 import classNames from 'classnames';
-import { Row, Col, Affix, Tooltip } from 'antd';
+import { Row, Col, Affix, Tooltip } from '@ezviz/ezd';
 import { getChildren } from 'jsonml.js/lib/utils';
 import { CodeFilled, CodeOutlined, BugFilled, BugOutlined } from '@ant-design/icons';
 import Demo from './Demo';
@@ -90,7 +90,6 @@ class ComponentDoc extends React.Component {
       demos,
     } = this.props;
     const { content, meta } = doc;
-    console.log("doc:",doc);
     const demoValues = Object.keys(demos).map(key => demos[key]);
     const { expandAll, visibleAll, showRiddleButton } = this.state;
     const isSingleCol = meta.cols === 1;
@@ -144,7 +143,7 @@ class ComponentDoc extends React.Component {
     });
 
     const { title, subtitle, filename } = meta;
-    const helmetTitle = `${subtitle || ''} ${title[locale] || title} - Ant Design`;
+    const helmetTitle = `${subtitle || ''} ${title[locale] || title} - EZ Design`;
     const contentChild = getMetaDescription(getChildren(content));
 
     return (

@@ -45,7 +45,7 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
   devWarning(
     !(typeof icon === 'string' && icon.length > 2),
     'Modal',
-    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://ant.design/components/icon`,
+    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://saastest3.ys7.com/ezd/components/icon`,
   );
 
   // 支持传入{ icon: null }来隐藏`Modal.confirm`默认的Icon

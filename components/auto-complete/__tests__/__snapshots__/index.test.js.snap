@@ -2,13 +2,13 @@
 
 exports[`AutoComplete legacy dataSource should accept react element option 1`] = `
 <div
-  class="ant-select ant-select-auto-complete ant-select-single ant-select-open ant-select-show-search"
+  class="ezd-select ezd-select-auto-complete ezd-select-single ezd-select-open ezd-select-show-search"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -18,19 +18,19 @@ exports[`AutoComplete legacy dataSource should accept react element option 1`] =
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         role="combobox"
         type="search"
         value=""
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
   <div>
     <div
-      class="ant-select-dropdown"
+      class="ezd-select-dropdown"
       style="opacity:0;pointer-events:none"
     >
       <div>
@@ -63,17 +63,17 @@ exports[`AutoComplete legacy dataSource should accept react element option 1`] =
               >
                 <div
                   aria-selected="false"
-                  class="ant-select-item ant-select-item-option ant-select-item-option-active"
+                  class="ezd-select-item ezd-select-item-option ezd-select-item-option-active"
                   title="ReactNode"
                 >
                   <div
-                    class="ant-select-item-option-content"
+                    class="ezd-select-item-option-content"
                   >
                     ReactNode
                   </div>
                   <span
                     aria-hidden="true"
-                    class="ant-select-item-option-state"
+                    class="ezd-select-item-option-state"
                     style="user-select:none;-webkit-user-select:none"
                     unselectable="on"
                   />
@@ -90,13 +90,13 @@ exports[`AutoComplete legacy dataSource should accept react element option 1`] =
 
 exports[`AutoComplete rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-select ant-select-rtl ant-select-auto-complete ant-select-single ant-select-show-search"
+  class="ezd-select ezd-select-rtl ezd-select-auto-complete ezd-select-single ezd-select-show-search"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -105,14 +105,14 @@ exports[`AutoComplete rtl render component should be rendered correctly in RTL d
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         role="combobox"
         type="search"
         value=""
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
 </div>

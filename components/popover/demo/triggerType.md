@@ -14,7 +14,7 @@ title:
 Mouse to click, focus and move in.
 
 ```jsx
-import { Popover, Button } from '@ezviz/evvd';
+import { Popover, Button } from '@ezviz/ezd';
 
 const content = (
   <div>

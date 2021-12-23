@@ -14,7 +14,7 @@ title:
 Use `message.useMessage` to get `contextHolder` with context accessible issue.
 
 ```jsx
-import { message, Button } from '@ezviz/evvd';
+import { message, Button } from '@ezviz/ezd';
 
 const Context = React.createContext({ name: 'Default' });
 
@@ -29,7 +29,7 @@ function Demo() {
   };
 
   return (
-    <Context.Provider value={{ name: 'Evv Design' }}>
+    <Context.Provider value={{ name: 'EZ Design' }}>
       {contextHolder}
       <Button type="primary" onClick={info}>
         Display normal message

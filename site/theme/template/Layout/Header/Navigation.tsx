@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
 import { Link } from 'bisheng/router';
 import { UnorderedListOutlined } from '@ant-design/icons';
-import { Menu } from 'antd';
+import { Menu } from '@ezviz/ezd';
 import { getEcosystemGroup } from './More';
 import * as utils from '../../utils';
 import { SharedProps } from './interface';
@@ -29,7 +29,6 @@ export default ({
   responsive,
   location,
   directionText,
-  showTechUIButton,
   onLangChange,
   onDirectionChange,
 }: NavigationProps) => {
@@ -39,14 +38,11 @@ export default ({
   let activeMenuItem = module || 'home';
   if (location.pathname === 'changelog' || location.pathname === 'changelog-cn') {
     activeMenuItem = 'docs/react';
-  } else if (location.pathname === 'docs/resources' || location.pathname === 'docs/resources-cn') {
-    activeMenuItem = 'docs/resources';
   }
-
   let additional: React.ReactNode = null;
   const additionalItems = [
     <Menu.Item key="github">
-      <a href="https://github.com/ant-design/ant-design" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/Ezviz-OpenBiz/ezviz-design-master" target="_blank" rel="noopener noreferrer">
         Github
       </a>
     </Menu.Item>,
@@ -92,21 +88,11 @@ export default ({
           <FormattedMessage id="app.header.menu.components" />
         </Link>
       </Menu.Item>
-      {/* <Menu.Item key="docs/resources">
-        <Link to={utils.getLocalizedPathname('/docs/resources', isZhCN, location.query)}>
-          <FormattedMessage id="app.header.menu.resource" />
-        </Link>
-      </Menu.Item> */}
       {/* {showTechUIButton && (
         <Menu.Item key="tech-ui">
           <a href="https://techui.alipay.com" target="__blank" rel="noopener noreferrer">
             TechUI
           </a>
-        </Menu.Item>
-      )} */}
-      {/* {isZhCN && typeof window !== 'undefined' && window.location.host.indexOf('gitee') === -1 && (
-        <Menu.Item key="mirror">
-          <a href="https://ant-design.gitee.io">国内镜像</a>
         </Menu.Item>
       )} */}
       {additional}

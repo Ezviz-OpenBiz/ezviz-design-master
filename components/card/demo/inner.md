@@ -14,7 +14,7 @@ title:
 It can be placed inside the ordinary card to display the information of the multilevel structure.
 
 ```jsx
-import { Card } from '@ezviz/evvd';
+import { Card } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Card title="Card title">

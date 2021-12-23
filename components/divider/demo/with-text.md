@@ -14,7 +14,7 @@ title:
 Divider with inner title, set `orientation="left/right"` to align it.
 
 ```jsx
-import { Divider } from '@ezviz/evvd';
+import { Divider } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

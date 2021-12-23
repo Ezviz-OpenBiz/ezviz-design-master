@@ -12,7 +12,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/fNUKzY1sk/Button.svg
 
 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。
 
-在 Evv Design 中我们提供了五种按钮。
+在 EZ Design 中我们提供了五种按钮。
 
 - 主按钮：用于主行动点，一个操作区域只能有一个主按钮。
 - 默认按钮：用于没有主次之分的一组行动点。
@@ -27,7 +27,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/fNUKzY1sk/Button.svg
 - 禁用：行动点不可用的时候，一般需要文案解释。
 - 加载中：用于异步操作等待反馈的时候，也可以避免多次提交。
 
-[完整设计指南](https://saastest3.ys7.com/evv/docs/spec/buttons-cn)
+[完整设计指南](https://saastest3.ys7.com/ezd/docs/spec/buttons-cn)
 
 ## API
 
@@ -57,20 +57,20 @@ cover: https://gw.alipayobjects.com/zos/alicdn/fNUKzY1sk/Button.svg
 
 ### 如何移除两个汉字之间的空格？
 
-根据 Evv Design 设计规范要求，我们会在按钮内(文本按钮和链接按钮除外)只有两个汉字时自动添加空格，如果你不需要这个特性，可以设置 [ConfigProvider](/components/config-provider/#API) 的 `autoInsertSpaceInButton` 为 `false`。
+根据 EZ Design 设计规范要求，我们会在按钮内(文本按钮和链接按钮除外)只有两个汉字时自动添加空格，如果你不需要这个特性，可以设置 [ConfigProvider](/components/config-provider/#API) 的 `autoInsertSpaceInButton` 为 `false`。
 
 <img src="https://gw.alipayobjects.com/zos/antfincdn/MY%26THAPZrW/38f06cb9-293a-4b42-b183-9f443e79ffea.png" style="box-shadow: none; margin: 0; width: 100px" alt="移除两个汉字之间的空格"  />
 
 <style>
-[id^="components-button-demo-"] .ant-btn {
+[id^="components-button-demo-"] .ezd-btn {
   margin-right: 8px;
   margin-bottom: 12px;
 }
-[id^="components-button-demo-"] .ant-btn-rtl {
+[id^="components-button-demo-"] .ezd-btn-rtl {
   margin-right: 0;
   margin-left: 8px;
 }
-[id^="components-button-demo-"] .ant-btn-group > .ant-btn {
+[id^="components-button-demo-"] .ezd-btn-group > .ezd-btn {
   margin-right: 0;
 }
 [data-theme="dark"] .site-button-ghost-wrapper {

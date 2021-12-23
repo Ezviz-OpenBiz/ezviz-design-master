@@ -14,7 +14,7 @@ title:
 We preset a series of colorful Badge styles for use in different situations. You can also set it to a hex color string for custom color.
 
 ```jsx
-import { Badge, Divider } from '@ezviz/evvd';
+import { Badge, Divider } from '@ezviz/ezd';
 
 const colors = [
   'pink',
@@ -58,7 +58,7 @@ ReactDOM.render(
 ```
 
 ```css
-.ant-tag {
+.ezd-tag {
   margin-bottom: 8px;
 }
 ```

@@ -7,11 +7,11 @@ title:
 
 ## zh-CN
 
-设置表单组件尺寸，仅对 antd 组件有效。
+设置表单组件尺寸，仅对 @ezviz/ezd 组件有效。
 
 ## en-US
 
-Set component size, only works for antd components.
+Set component size, only works for @ezviz/ezd components.
 
 ```tsx
 import React, { useState } from 'react';
@@ -26,7 +26,7 @@ import {
   InputNumber,
   TreeSelect,
   Switch,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 
 type SizeType = Parameters<typeof Form>[0]['size'];
 

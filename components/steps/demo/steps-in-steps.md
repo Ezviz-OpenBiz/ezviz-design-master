@@ -16,7 +16,7 @@ Test style of Steps inside Steps.
 
 ```jsx
 import React, { useState } from 'react';
-import { Steps, Radio, Card } from '@ezviz/evvd';
+import { Steps, Radio, Card } from '@ezviz/ezd';
 
 const { Step } = Steps;
 

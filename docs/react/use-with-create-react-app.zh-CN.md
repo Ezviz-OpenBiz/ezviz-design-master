@@ -3,7 +3,7 @@ order: 4
 title: 在 create-react-app 中使用
 ---
 
-[create-react-app](https://github.com/facebookincubator/create-react-app) 是业界最优秀的 React 应用开发工具之一，本文会尝试在 create-react-app 创建的工程中使用 evvd 组件，并自定义 webpack 的配置以满足各类工程化需求。
+[create-react-app](https://github.com/facebookincubator/create-react-app) 是业界最优秀的 React 应用开发工具之一，本文会尝试在 create-react-app 创建的工程中使用 ezd 组件，并自定义 webpack 的配置以满足各类工程化需求。
 
 ---
 
@@ -12,11 +12,11 @@ title: 在 create-react-app 中使用
 在开始之前，你可能需要安装 [yarn](https://github.com/yarnpkg/yarn/)。
 
 ```bash
-$ yarn create react-app evvd-demo
+$ yarn create react-app ezd-demo
 
 # or
 
-$ npx create-react-app evvd-demo
+$ npx create-react-app ezd-demo
 ```
 
 工具会自动初始化一个脚手架并安装 React 项目的各种必要依赖，如果在过程中出现网络问题，请尝试配置代理或使用其他 npm registry。
@@ -24,13 +24,13 @@ $ npx create-react-app evvd-demo
 然后我们进入项目并启动。
 
 ```bash
-$ cd evvd-demo
+$ cd ezd-demo
 $ yarn start
 ```
 
 此时浏览器会访问 http://localhost:3000/ ，看到 `Welcome to React` 的界面就算成功了。
 
-## 引入 @ezviz/evvd
+## 引入 @ezviz/ezd
 
 这是 create-react-app 生成的默认目录结构。
 
@@ -50,17 +50,17 @@ $ yarn start
 └── yarn.lock
 ```
 
-现在从 yarn 或 npm 安装并引入 @ezviz/evvd。
+现在从 yarn 或 npm 安装并引入 @ezviz/ezd。
 
 ```bash
-$ yarn add @ezviz/evvd
+$ yarn add @ezviz/ezd
 ```
 
-修改 `src/App.js`，引入 @ezviz/evvd 的按钮组件。
+修改 `src/App.js`，引入 @ezviz/ezd 的按钮组件。
 
 ```jsx
 import React from 'react';
-import { Button } from '@ezviz/evvd';
+import { Button } from '@ezviz/ezd';
 import './App.css';
 
 const App = () => (
@@ -72,15 +72,15 @@ const App = () => (
 export default App;
 ```
 
-修改 `src/App.css`，在文件顶部引入 `@ezviz/evvd/dist/@ezviz/evvd.css`。
+修改 `src/App.css`，在文件顶部引入 `@ezviz/ezd/dist/@ezviz/ezd.css`。
 
 ```css
-@import '@ezviz/evvd/saas_ezui/dist/@ezviz/evvd.css';
+@import '@ezviz/ezd/saas_ezui/dist/@ezviz/ezd.css';
 ```
 
-好了，现在你应该能看到页面上已经有了 @ezviz/evvd 的蓝色按钮组件，接下来就可以继续选用其他组件开发应用了。其他开发流程你可以参考 create-react-app 的[官方文档](https://create-react-app.dev/docs/getting-started)。
+好了，现在你应该能看到页面上已经有了 @ezviz/ezd 的蓝色按钮组件，接下来就可以继续选用其他组件开发应用了。其他开发流程你可以参考 create-react-app 的[官方文档](https://create-react-app.dev/docs/getting-started)。
 
-我们现在已经把 @ezviz/evvd 组件成功运行起来了，开始开发你的应用吧！
+我们现在已经把 @ezviz/ezd 组件成功运行起来了，开始开发你的应用吧！
 
 ## 高级配置
 
@@ -129,8 +129,8 @@ module.exports = {
 
 ```diff
 /* src/App.less */
-- @import '~@ezviz/evvd/dist/@ezviz/evvd.css';
-+ @import '~@ezviz/evvd/dist/@ezviz/evvd.less';
+- @import '~@ezviz/ezd/dist/@ezviz/ezd.css';
++ @import '~@ezviz/ezd/dist/@ezviz/ezd.less';
 ```
 
 然后安装 `craco-less` 并修改 `craco.config.js` 文件如下。
@@ -149,7 +149,7 @@ module.exports = {
       options: {
         lessLoaderOptions: {
           lessOptions: {
-            modifyVars: { '@primary-color': '#1DA57A' },
+            modifyVars: { '@ezd-primary-color': '#1DA57A' },
             javascriptEnabled: true,
           },
         },
@@ -161,7 +161,7 @@ module.exports = {
 
 这里利用了 [less-loader](https://github.com/webpack/less-loader#less-options) 的 `modifyVars` 来进行主题配置，变量和其他配置方式可以参考 [配置主题](/docs/react/customize-theme) 文档。修改后重启 `yarn start`，如果看到一个绿色的按钮就说明配置成功了。
 
-@ezviz/evvd 内建了深色主题和紧凑主题，你可以参照 [使用暗色主题和紧凑主题](/docs/react/customize-theme#使用暗色主题和紧凑主题) 进行接入。
+@ezviz/ezd 内建了深色主题和紧凑主题，你可以参照 [使用暗色主题和紧凑主题](/docs/react/customize-theme#使用暗色主题和紧凑主题) 进行接入。
 
 > 同样，你可以使用 [react-app-rewired](https://github.com/timarney/react-app-rewired) 和 [customize-cra](https://github.com/arackaf/customize-cra) 来自定义 create-react-app 的 webpack 配置。
 

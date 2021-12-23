@@ -1,7 +1,7 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@radio-prefix-cls: ~'@{ant-prefix}-radio';
+@radio-prefix-cls: ~'@{ezd-prefix}-radio';
 @radio-group-prefix-cls: ~'@{radio-prefix-cls}-group';
 @radio-inner-prefix-cls: ~'@{radio-prefix-cls}-inner';
 @radio-duration: 0.3s;
@@ -14,11 +14,11 @@
   display: inline-block;
   font-size: 0;
 
-  .@{ant-prefix}-badge-count {
+  .@{ezd-prefix}-badge-count {
     z-index: 1;
   }
 
-  > .@{ant-prefix}-badge:not(:first-child) > .@{radio-prefix-cls}-button-wrapper {
+  > .@{ezd-prefix}-badge:not(:first-child) > .@{radio-prefix-cls}-button-wrapper {
     border-left: none;
   }
 }
@@ -68,7 +68,7 @@
     border: 1px solid @radio-dot-color;
     border-radius: 50%;
     visibility: hidden;
-    animation: antRadioEffect 0.36s ease-in-out;
+    animation: ezdRadioEffect 0.36s ease-in-out;
     animation-fill-mode: both;
     content: '';
   }
@@ -338,7 +338,7 @@ span.@{radio-prefix-cls} + * {
   }
 }
 
-@keyframes antRadioEffect {
+@keyframes ezdRadioEffect {
   0% {
     transform: scale(1);
     opacity: 0.5;

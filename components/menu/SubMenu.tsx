@@ -28,7 +28,7 @@ export interface SubMenuProps {
 function SubMenu(props: SubMenuProps) {
   const { popupClassName, icon, title } = props;
   const context = React.useContext(MenuContext);
-  const { prefixCls, inlineCollapsed, antdMenuTheme } = context;
+  const { prefixCls, inlineCollapsed, ezdMenuTheme } = context;
 
   const parentPath = useFullPath();
 
@@ -43,7 +43,6 @@ function SubMenu(props: SubMenuProps) {
       );
   } else {
     // inline-collapsed.md demo 依赖 span 来隐藏文字,有 icon 属性，则内部包裹一个 span
-    // ref: https://github.com/ant-design/ant-design/pull/23456
     const titleIsSpan = isValidElement(title) && title.type === 'span';
     titleNode = (
       <>
@@ -68,7 +67,7 @@ function SubMenu(props: SubMenuProps) {
       <RcSubMenu
         {...omit(props, ['icon'])}
         title={titleNode}
-        popupClassName={classNames(prefixCls, `${prefixCls}-${antdMenuTheme}`, popupClassName)}
+        popupClassName={classNames(prefixCls, `${prefixCls}-${ezdMenuTheme}`, popupClassName)}
       />
     </MenuContext.Provider>
   );

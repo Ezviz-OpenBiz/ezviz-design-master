@@ -12,7 +12,7 @@ import { TransferLocale } from '../transfer';
 import { PickerLocale as DatePickerLocale } from '../date-picker/generatePicker';
 import LocaleContext from './context';
 
-export const ANT_MARK = 'internalMark';
+export const EZD_MARK = 'internalMark';
 
 export interface Locale {
   locale: string;
@@ -43,7 +43,7 @@ export interface Locale {
 export interface LocaleProviderProps {
   locale: Locale;
   children?: React.ReactNode;
-  _ANT_MARK__?: string;
+  _EZD_MARK__?: string;
 }
 
 export default class LocaleProvider extends React.Component<LocaleProviderProps, any> {
@@ -56,9 +56,9 @@ export default class LocaleProvider extends React.Component<LocaleProviderProps,
     changeConfirmLocale(props.locale && props.locale.Modal);
 
     devWarning(
-      props._ANT_MARK__ === ANT_MARK,
+      props._EZD_MARK__ === EZD_MARK,
       'LocaleProvider',
-      '`LocaleProvider` is deprecated. Please use `locale` with `ConfigProvider` instead: http://u.ant.design/locale',
+      '`LocaleProvider` is deprecated. Please use `locale` with `ConfigProvider`',
     );
   }
 

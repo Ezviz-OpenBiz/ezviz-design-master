@@ -7,7 +7,7 @@ describe('dropIndicatorRender', () => {
       dropPosition: 1,
       dropLevelOffset: 0,
       indent: 24,
-      prefixCls: 'ant',
+      prefixCls: 'ezd',
       direction: 'ltr',
     });
     const wrapper = mount(indicator);
@@ -18,7 +18,7 @@ describe('dropIndicatorRender', () => {
       dropPosition: 0,
       dropLevelOffset: 0,
       indent: 24,
-      prefixCls: 'ant',
+      prefixCls: 'ezd',
       direction: 'ltr',
     });
     const wrapper = mount(indicator);
@@ -30,7 +30,7 @@ describe('dropIndicatorRender', () => {
       dropPosition: -1,
       dropLevelOffset: 0,
       indent: 24,
-      prefixCls: 'ant',
+      prefixCls: 'ezd',
       direction: 'ltr',
     });
     const wrapper = mount(indicator);
@@ -41,7 +41,7 @@ describe('dropIndicatorRender', () => {
       dropPosition: -1,
       dropLevelOffset: 2,
       indent: 24,
-      prefixCls: 'ant',
+      prefixCls: 'ezd',
       direction: 'ltr',
     });
     const wrapper = mount(indicator);
@@ -52,7 +52,7 @@ describe('dropIndicatorRender', () => {
       dropPosition: -1,
       dropLevelOffset: 2,
       indent: 24,
-      prefixCls: 'ant',
+      prefixCls: 'ezd',
       direction: 'rtl',
     });
     const wrapper = mount(indicator);

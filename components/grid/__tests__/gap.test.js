@@ -19,7 +19,7 @@ describe('Grid.Gap', () => {
       </Row>,
     );
 
-    expect(wrapper.find('.ant-row').props().style).toEqual(
+    expect(wrapper.find('.ezd-row').props().style).toEqual(
       expect.objectContaining({
         marginLeft: -8,
         rowGap: 8,

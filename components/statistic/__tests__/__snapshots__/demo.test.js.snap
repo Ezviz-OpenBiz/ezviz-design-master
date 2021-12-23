@@ -2,29 +2,29 @@
 
 exports[`renders ./components/statistic/demo/basic.md correctly 1`] = `
 <div
-  class="ant-row"
+  class="ezd-row"
   style="margin-left:-8px;margin-right:-8px"
 >
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Active Users
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="ezd-statistic-content-value-int"
           >
             112,893
           </span>
@@ -33,30 +33,30 @@ exports[`renders ./components/statistic/demo/basic.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Account Balance (CNY)
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="ezd-statistic-content-value-int"
           >
             112,893
           </span>
           <span
-            class="ant-statistic-content-value-decimal"
+            class="ezd-statistic-content-value-decimal"
           >
             .00
           </span>
@@ -64,7 +64,7 @@ exports[`renders ./components/statistic/demo/basic.md correctly 1`] = `
       </div>
     </div>
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       style="margin-top:16px"
       type="button"
     >
@@ -74,25 +74,25 @@ exports[`renders ./components/statistic/demo/basic.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Active Users
       </div>
       <div
-        class="ant-skeleton"
+        class="ezd-skeleton"
       >
         <div
-          class="ant-skeleton-content"
+          class="ezd-skeleton-content"
         >
           <h3
-            class="ant-skeleton-title"
+            class="ezd-skeleton-title"
           />
         </div>
       </div>
@@ -106,33 +106,33 @@ exports[`renders ./components/statistic/demo/card.md correctly 1`] = `
   class="site-statistic-demo-card"
 >
   <div
-    class="ant-row"
+    class="ezd-row"
     style="margin-left:-8px;margin-right:-8px"
   >
     <div
-      class="ant-col ant-col-12"
+      class="ezd-col ant-col-12"
       style="padding-left:8px;padding-right:8px"
     >
       <div
-        class="ant-card ant-card-bordered"
+        class="ezd-card ant-card-bordered"
       >
         <div
-          class="ant-card-body"
+          class="ezd-card-body"
         >
           <div
-            class="ant-statistic"
+            class="ezd-statistic"
           >
             <div
-              class="ant-statistic-title"
+              class="ezd-statistic-title"
             >
               Active
             </div>
             <div
-              class="ant-statistic-content"
+              class="ezd-statistic-content"
               style="color:#3f8600"
             >
               <span
-                class="ant-statistic-content-prefix"
+                class="ezd-statistic-content-prefix"
               >
                 <span
                   aria-label="arrow-up"
@@ -155,21 +155,21 @@ exports[`renders ./components/statistic/demo/card.md correctly 1`] = `
                 </span>
               </span>
               <span
-                class="ant-statistic-content-value"
+                class="ezd-statistic-content-value"
               >
                 <span
-                  class="ant-statistic-content-value-int"
+                  class="ezd-statistic-content-value-int"
                 >
                   11
                 </span>
                 <span
-                  class="ant-statistic-content-value-decimal"
+                  class="ezd-statistic-content-value-decimal"
                 >
                   .28
                 </span>
               </span>
               <span
-                class="ant-statistic-content-suffix"
+                class="ezd-statistic-content-suffix"
               >
                 %
               </span>
@@ -179,29 +179,29 @@ exports[`renders ./components/statistic/demo/card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-col ant-col-12"
+      class="ezd-col ant-col-12"
       style="padding-left:8px;padding-right:8px"
     >
       <div
-        class="ant-card ant-card-bordered"
+        class="ezd-card ant-card-bordered"
       >
         <div
-          class="ant-card-body"
+          class="ezd-card-body"
         >
           <div
-            class="ant-statistic"
+            class="ezd-statistic"
           >
             <div
-              class="ant-statistic-title"
+              class="ezd-statistic-title"
             >
               Idle
             </div>
             <div
-              class="ant-statistic-content"
+              class="ezd-statistic-content"
               style="color:#cf1322"
             >
               <span
-                class="ant-statistic-content-prefix"
+                class="ezd-statistic-content-prefix"
               >
                 <span
                   aria-label="arrow-down"
@@ -224,21 +224,21 @@ exports[`renders ./components/statistic/demo/card.md correctly 1`] = `
                 </span>
               </span>
               <span
-                class="ant-statistic-content-value"
+                class="ezd-statistic-content-value"
               >
                 <span
-                  class="ant-statistic-content-value-int"
+                  class="ezd-statistic-content-value-int"
                 >
                   9
                 </span>
                 <span
-                  class="ant-statistic-content-value-decimal"
+                  class="ezd-statistic-content-value-decimal"
                 >
                   .30
                 </span>
               </span>
               <span
-                class="ant-statistic-content-suffix"
+                class="ezd-statistic-content-suffix"
               >
                 %
               </span>
@@ -253,26 +253,26 @@ exports[`renders ./components/statistic/demo/card.md correctly 1`] = `
 
 exports[`renders ./components/statistic/demo/countdown.md correctly 1`] = `
 <div
-  class="ant-row"
+  class="ezd-row"
   style="margin-left:-8px;margin-right:-8px"
 >
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Countdown
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           48:00:30
         </span>
@@ -280,22 +280,22 @@ exports[`renders ./components/statistic/demo/countdown.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Million Seconds
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           48:00:30:000
         </span>
@@ -303,22 +303,22 @@ exports[`renders ./components/statistic/demo/countdown.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-col ant-col-24"
+    class="ezd-col ant-col-24"
     style="padding-left:8px;padding-right:8px;margin-top:32px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Day Level
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           2 天 0 时 0 分 30 秒
         </span>
@@ -326,22 +326,22 @@ exports[`renders ./components/statistic/demo/countdown.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Countdown
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           00:00:10
         </span>
@@ -353,26 +353,26 @@ exports[`renders ./components/statistic/demo/countdown.md correctly 1`] = `
 
 exports[`renders ./components/statistic/demo/unit.md correctly 1`] = `
 <div
-  class="ant-row"
+  class="ezd-row"
   style="margin-left:-8px;margin-right:-8px"
 >
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Feedback
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-prefix"
+          class="ezd-statistic-content-prefix"
         >
           <span
             aria-label="like"
@@ -395,10 +395,10 @@ exports[`renders ./components/statistic/demo/unit.md correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="ezd-statistic-content-value-int"
           >
             1,128
           </span>
@@ -407,31 +407,31 @@ exports[`renders ./components/statistic/demo/unit.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-col ant-col-12"
+    class="ezd-col ant-col-12"
     style="padding-left:8px;padding-right:8px"
   >
     <div
-      class="ant-statistic"
+      class="ezd-statistic"
     >
       <div
-        class="ant-statistic-title"
+        class="ezd-statistic-title"
       >
         Unmerged
       </div>
       <div
-        class="ant-statistic-content"
+        class="ezd-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="ezd-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="ezd-statistic-content-value-int"
           >
             93
           </span>
         </span>
         <span
-          class="ant-statistic-content-suffix"
+          class="ezd-statistic-content-suffix"
         >
           / 100
         </span>

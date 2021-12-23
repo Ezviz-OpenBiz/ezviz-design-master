@@ -61,12 +61,12 @@ describe('Collapse', () => {
         </Collapse.Panel>
       </Collapse>,
     );
-    expect(wrapper.find('.ant-collapse-item').hasClass('ant-collapse-item-active')).toBe(false);
-    wrapper.find('.ant-collapse-header').at(0).simulate('click');
+    expect(wrapper.find('.ezd-collapse-item').hasClass('ezd-collapse-item-active')).toBe(false);
+    wrapper.find('.ezd-collapse-header').at(0).simulate('click');
     wrapper.update();
     await sleep(400);
     wrapper.update();
-    expect(wrapper.find('.ant-collapse-item').hasClass('ant-collapse-item-active')).toBe(true);
+    expect(wrapper.find('.ezd-collapse-item').hasClass('ezd-collapse-item-active')).toBe(true);
   });
 
   it('could override default openMotion', () => {
@@ -77,7 +77,7 @@ describe('Collapse', () => {
         </Collapse.Panel>
       </Collapse>,
     );
-    wrapper.find('.ant-collapse-header').at(0).simulate('click');
+    wrapper.find('.ezd-collapse-header').at(0).simulate('click');
     expect(wrapper.render()).toMatchSnapshot();
   });
 
@@ -92,15 +92,15 @@ describe('Collapse', () => {
     );
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Collapse.Panel] `disabled` is deprecated. Please use `collapsible="disabled"` instead.',
+      'Warning: [ezd: Collapse.Panel] `disabled` is deprecated. Please use `collapsible="disabled"` instead.',
     );
 
-    expect(wrapper.find('.ant-collapse-header-text').exists()).toBeFalsy();
+    expect(wrapper.find('.ezd-collapse-header-text').exists()).toBeFalsy();
 
-    expect(wrapper.find('.ant-collapse-item-disabled').length).toBe(1);
+    expect(wrapper.find('.ezd-collapse-item-disabled').length).toBe(1);
 
-    wrapper.find('.ant-collapse-header').simulate('click');
-    expect(wrapper.find('.ant-collapse-item-active').length).toBe(0);
+    wrapper.find('.ezd-collapse-header').simulate('click');
+    expect(wrapper.find('.ezd-collapse-item-active').length).toBe(0);
   });
 
   it('should end motion when set activeKey while hiding', async () => {
@@ -132,7 +132,7 @@ describe('Collapse', () => {
       jest.runAllTimers();
     });
 
-    expect(wrapper.render().find('.ant-motion-collapse').length).toBe(0);
+    expect(wrapper.render().find('.ezd-motion-collapse').length).toBe(0);
 
     window.requestAnimationFrame.mockRestore();
     jest.useRealTimers();

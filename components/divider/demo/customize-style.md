@@ -15,7 +15,7 @@ debug: true
 Use `style` to change default style.
 
 ```jsx
-import { Divider } from '@ezviz/evvd';
+import { Divider } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

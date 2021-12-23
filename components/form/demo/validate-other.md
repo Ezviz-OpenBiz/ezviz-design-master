@@ -27,7 +27,7 @@ import {
   Checkbox,
   Row,
   Col,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 import { UploadOutlined, InboxOutlined } from '@ant-design/icons';
 
 const { Option } = Select;
@@ -62,7 +62,7 @@ const Demo = () => {
       }}
     >
       <Form.Item label="Plain Text">
-        <span className="ant-form-text">China</span>
+        <span className="ezd-form-text">China</span>
       </Form.Item>
       <Form.Item
         name="select"
@@ -92,7 +92,7 @@ const Demo = () => {
         <Form.Item name="input-number" noStyle>
           <InputNumber min={1} max={10} />
         </Form.Item>
-        <span className="ant-form-text"> machines</span>
+        <span className="ezd-form-text"> machines</span>
       </Form.Item>
 
       <Form.Item name="switch" label="Switch" valuePropName="checked">
@@ -188,11 +188,11 @@ const Demo = () => {
       <Form.Item label="Dragger">
         <Form.Item name="dragger" valuePropName="fileList" getValueFromEvent={normFile} noStyle>
           <Upload.Dragger name="files" action="/upload.do">
-            <p className="ant-upload-drag-icon">
+            <p className="ezd-upload-drag-icon">
               <InboxOutlined />
             </p>
-            <p className="ant-upload-text">Click or drag file to this area to upload</p>
-            <p className="ant-upload-hint">Support for a single or bulk upload.</p>
+            <p className="ezd-upload-text">Click or drag file to this area to upload</p>
+            <p className="ezd-upload-hint">Support for a single or bulk upload.</p>
           </Upload.Dragger>
         </Form.Item>
       </Form.Item>

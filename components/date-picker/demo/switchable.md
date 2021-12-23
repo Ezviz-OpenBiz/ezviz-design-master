@@ -15,7 +15,7 @@ Switch in different types of pickers by Select.
 
 ```jsx
 import React, { useState } from 'react';
-import { DatePicker, TimePicker, Select, Space } from '@ezviz/evvd';
+import { DatePicker, TimePicker, Select, Space } from '@ezviz/ezd';
 
 const { Option } = Select;
 

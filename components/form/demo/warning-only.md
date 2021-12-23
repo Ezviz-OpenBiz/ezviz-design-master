@@ -15,7 +15,7 @@ title:
 
 ```tsx
 import React from 'react';
-import { Form, Input, message, Button, Space } from '@ezviz/evvd';
+import { Form, Input, message, Button, Space } from '@ezviz/ezd';
 
 const Demo = () => {
   const [form] = Form.useForm();

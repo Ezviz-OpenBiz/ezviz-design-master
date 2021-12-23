@@ -14,7 +14,7 @@ title:
 A simple loading status.
 
 ```jsx
-import { Spin } from '@ezviz/evvd';
+import { Spin } from '@ezviz/ezd';
 
 ReactDOM.render(<Spin />, mountNode);
 ```

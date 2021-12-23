@@ -54,12 +54,12 @@ describe('Transfer.Search', () => {
       />,
     );
     wrapper
-      .find('.ant-input')
+      .find('.ezd-input')
       .at(0)
       .simulate('change', { target: { value: 'a' } });
     expect(onSearch).toHaveBeenCalledWith('left', 'a');
     onSearch.mockReset();
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
     expect(onSearch).toHaveBeenCalledWith('left', '');
     jest.useRealTimers();
   });
@@ -70,21 +70,20 @@ describe('Transfer.Search', () => {
       <Transfer render={item => item.title} onSearchChange={onSearchChange} showSearch />,
     );
     wrapper
-      .find('.ant-input')
+      .find('.ezd-input')
       .at(0)
       .simulate('change', { target: { value: 'a' } });
     expect(errorSpy.mock.calls.length).toBe(0);
     expect(onSearchChange).not.toHaveBeenCalled();
   });
 
-  // https://github.com/ant-design/ant-design/issues/26208
   it('typing space should trigger filterOption', () => {
     const filterOption = jest.fn();
     const wrapper = mount(
       <Transfer filterOption={filterOption} dataSource={dataSource} showSearch />,
     );
     wrapper
-      .find('.ant-input')
+      .find('.ezd-input')
       .at(0)
       .simulate('change', { target: { value: ' ' } });
     expect(filterOption).toHaveBeenCalledTimes(dataSource.length);

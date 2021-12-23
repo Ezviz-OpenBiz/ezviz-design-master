@@ -15,7 +15,7 @@ title:
 The most basic usage.
 
 ```jsx
-import { TreeSelect } from '@ezviz/evvd';
+import { TreeSelect } from '@ezviz/ezd';
 import { SmileOutlined } from '@ant-design/icons';
 
 const { TreeNode } = TreeSelect;

@@ -2,13 +2,11 @@ import React from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 import classNames from 'classnames';
 import { UnorderedListOutlined } from '@ant-design/icons';
-import { Select, Row, Col, Popover, Button } from 'antd';
+import { Row, Col, Popover, Button } from '@ezviz/ezd';
 import canUseDom from 'rc-util/lib/Dom/canUseDom';
 import * as utils from '../../utils';
-import packageJson from '../../../../../package.json';
 import Logo from './Logo';
 import SearchBar from './SearchBar';
-import More from './More';
 import Navigation from './Navigation';
 import Github from './Github';
 import SiteContext from '../SiteContext';
@@ -20,9 +18,6 @@ import './index.less';
 const RESPONSIVE_XS = 1120;
 const RESPONSIVE_SM = 1200;
 
-const { Option } = Select;
-
-const antdVersion: string = packageJson.version;
 
 export interface HeaderProps {
   intl: {
@@ -191,21 +186,18 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     const {
       location: { pathname, query },
     } = this.props;
-    let newPathname = pathname;
-    if(process.env.NODE_ENV == 'production'){
-      newPathname = 'evvd/' + pathname;
-    }
     const currentProtocol = `${window.location.protocol}//`;
     const currentHref = window.location.href.substr(currentProtocol.length);
 
     if (utils.isLocalStorageNameSupported()) {
-      localStorage.setItem('locale', utils.isZhCN(newPathname) ? 'en-US' : 'zh-CN');
+      localStorage.setItem('locale', utils.isZhCN(pathname) ? 'en-US' : 'zh-CN');
     }
+
     window.location.href =
       currentProtocol +
       currentHref.replace(
         window.location.pathname,
-        utils.getLocalizedPathname(newPathname, !utils.isZhCN(newPathname), query).pathname,
+        utils.getLocalizedPathname(pathname, !utils.isZhCN(pathname), query).pathname,
       );
   };
 
@@ -217,20 +209,9 @@ class Header extends React.Component<HeaderProps, HeaderState> {
           const { direction } = this.context;
           const {
             location,
-            themeConfig,
             intl: { locale },
             router,
           } = this.props;
-          const docVersions: Record<string, string> = {
-            [antdVersion]: antdVersion,
-            ...themeConfig.docVersions,
-          };
-          const versionOptions = Object.keys(docVersions).map(version => (
-            <Option value={docVersions[version]} key={version}>
-              {version}
-            </Option>
-          ));
-
           const pathname = location.pathname.replace(/(^\/|\/$)/g, '');
 
           const isHome = ['', 'index', 'index-cn'].includes(pathname);
@@ -271,18 +252,6 @@ class Header extends React.Component<HeaderProps, HeaderState> {
 
           let menu: (React.ReactElement | null)[] = [
             navigationNode,
-            // 版本选择，暂时去除
-            // <Select
-            //   key="version"
-            //   className="version"
-            //   size="small"
-            //   defaultValue={antdVersion}
-            //   onChange={this.handleVersionChange}
-            //   dropdownStyle={this.getDropdownStyle()}
-            //   getPopupContainer={trigger => trigger.parentNode}
-            // >
-            //   {versionOptions}
-            // </Select>,
             <Button
               size="small"
               onClick={this.onLangChange}

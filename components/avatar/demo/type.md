@@ -14,7 +14,7 @@ title:
 Image, Icon and letter are supported, and the latter two kinds of avatar can have custom colors and background colors.
 
 ```tsx
-import { Avatar, Image } from '@ezviz/evvd';
+import { Avatar, Image } from '@ezviz/ezd';
 import { UserOutlined } from '@ant-design/icons';
 
 ReactDOM.render(
@@ -32,11 +32,11 @@ ReactDOM.render(
 ```
 
 <style>
-#components-avatar-demo-type .ant-avatar {
+#components-avatar-demo-type .ezd-avatar {
   margin-top: 16px;
   margin-right: 16px;
 }
-.ant-row-rtl #components-avatar-demo-type .ant-avatar {
+.ezd-row-rtl #components-avatar-demo-type .ezd-avatar {
   margin-right: 0;
   margin-left: 16px;
 }

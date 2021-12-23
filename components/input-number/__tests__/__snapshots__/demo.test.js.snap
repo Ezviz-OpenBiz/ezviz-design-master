@@ -2,33 +2,33 @@
 
 exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical"
+  class="ezd-space ant-space-vertical"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:8px"
   >
     <div
-      class="ant-input-number-group-wrapper"
+      class="ezd-input-number-group-wrapper"
     >
       <div
-        class="ant-input-number-wrapper ant-input-number-group"
+        class="ezd-input-number-wrapper ant-input-number-group"
       >
         <div
-          class="ant-input-number-group-addon"
+          class="ezd-input-number-group-addon"
         >
           +
         </div>
         <div
-          class="ant-input-number"
+          class="ezd-input-number"
         >
           <div
-            class="ant-input-number-handler-wrap"
+            class="ezd-input-number-handler-wrap"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-handler ant-input-number-handler-up"
+              class="ezd-input-number-handler ant-input-number-handler-up"
               role="button"
               unselectable="on"
             >
@@ -55,7 +55,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             <span
               aria-disabled="false"
               aria-label="Decrease Value"
-              class="ant-input-number-handler ant-input-number-handler-down"
+              class="ezd-input-number-handler ant-input-number-handler-down"
               role="button"
               unselectable="on"
             >
@@ -81,12 +81,12 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-input-number-input-wrap"
+            class="ezd-input-number-input-wrap"
           >
             <input
               aria-valuenow="100"
               autocomplete="off"
-              class="ant-input-number-input"
+              class="ezd-input-number-input"
               role="spinbutton"
               step="1"
               value="100"
@@ -94,7 +94,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-input-number-group-addon"
+          class="ezd-input-number-group-addon"
         >
           $
         </div>
@@ -102,27 +102,27 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:8px"
   >
     <div
-      class="ant-input-number-group-wrapper"
+      class="ezd-input-number-group-wrapper"
     >
       <div
-        class="ant-input-number-wrapper ant-input-number-group"
+        class="ezd-input-number-wrapper ant-input-number-group"
       >
         <div
-          class="ant-input-number-group-addon"
+          class="ezd-input-number-group-addon"
         >
           <div
-            class="ant-select ant-select-single ant-select-show-arrow"
+            class="ezd-select ant-select-single ant-select-show-arrow"
             style="width:60px"
           >
             <div
-              class="ant-select-selector"
+              class="ezd-select-selector"
             >
               <span
-                class="ant-select-selection-search"
+                class="ezd-select-selection-search"
               >
                 <input
                   aria-activedescendant="undefined_list_0"
@@ -131,7 +131,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
                   aria-haspopup="listbox"
                   aria-owns="undefined_list"
                   autocomplete="off"
-                  class="ant-select-selection-search-input"
+                  class="ezd-select-selection-search-input"
                   readonly=""
                   role="combobox"
                   style="opacity:0"
@@ -141,7 +141,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
                 />
               </span>
               <span
-                class="ant-select-selection-item"
+                class="ezd-select-selection-item"
                 title="+"
               >
                 +
@@ -149,7 +149,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             </div>
             <span
               aria-hidden="true"
-              class="ant-select-arrow"
+              class="ezd-select-arrow"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -176,15 +176,15 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-input-number"
+          class="ezd-input-number"
         >
           <div
-            class="ant-input-number-handler-wrap"
+            class="ezd-input-number-handler-wrap"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-handler ant-input-number-handler-up"
+              class="ezd-input-number-handler ant-input-number-handler-up"
               role="button"
               unselectable="on"
             >
@@ -211,7 +211,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             <span
               aria-disabled="false"
               aria-label="Decrease Value"
-              class="ant-input-number-handler ant-input-number-handler-down"
+              class="ezd-input-number-handler ant-input-number-handler-down"
               role="button"
               unselectable="on"
             >
@@ -237,12 +237,12 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-input-number-input-wrap"
+            class="ezd-input-number-input-wrap"
           >
             <input
               aria-valuenow="100"
               autocomplete="off"
-              class="ant-input-number-input"
+              class="ezd-input-number-input"
               role="spinbutton"
               step="1"
               value="100"
@@ -250,17 +250,17 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-input-number-group-addon"
+          class="ezd-input-number-group-addon"
         >
           <div
-            class="ant-select ant-select-single ant-select-show-arrow"
+            class="ezd-select ant-select-single ant-select-show-arrow"
             style="width:60px"
           >
             <div
-              class="ant-select-selector"
+              class="ezd-select-selector"
             >
               <span
-                class="ant-select-selection-search"
+                class="ezd-select-selection-search"
               >
                 <input
                   aria-activedescendant="undefined_list_0"
@@ -269,7 +269,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
                   aria-haspopup="listbox"
                   aria-owns="undefined_list"
                   autocomplete="off"
-                  class="ant-select-selection-search-input"
+                  class="ezd-select-selection-search-input"
                   readonly=""
                   role="combobox"
                   style="opacity:0"
@@ -279,7 +279,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
                 />
               </span>
               <span
-                class="ant-select-selection-item"
+                class="ezd-select-selection-item"
                 title="$"
               >
                 $
@@ -287,7 +287,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             </div>
             <span
               aria-hidden="true"
-              class="ant-select-arrow"
+              class="ezd-select-arrow"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -317,25 +317,25 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:8px"
   >
     <div
-      class="ant-input-number-group-wrapper"
+      class="ezd-input-number-group-wrapper"
     >
       <div
-        class="ant-input-number-wrapper ant-input-number-group"
+        class="ezd-input-number-wrapper ant-input-number-group"
       >
         <div
-          class="ant-input-number"
+          class="ezd-input-number"
         >
           <div
-            class="ant-input-number-handler-wrap"
+            class="ezd-input-number-handler-wrap"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-handler ant-input-number-handler-up"
+              class="ezd-input-number-handler ant-input-number-handler-up"
               role="button"
               unselectable="on"
             >
@@ -362,7 +362,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             <span
               aria-disabled="false"
               aria-label="Decrease Value"
-              class="ant-input-number-handler ant-input-number-handler-down"
+              class="ezd-input-number-handler ant-input-number-handler-down"
               role="button"
               unselectable="on"
             >
@@ -388,12 +388,12 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-input-number-input-wrap"
+            class="ezd-input-number-input-wrap"
           >
             <input
               aria-valuenow="100"
               autocomplete="off"
-              class="ant-input-number-input"
+              class="ezd-input-number-input"
               role="spinbutton"
               step="1"
               value="100"
@@ -401,7 +401,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-input-number-group-addon"
+          class="ezd-input-number-group-addon"
         >
           <span
             aria-label="setting"
@@ -427,26 +427,26 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <div
-      class="ant-input-number-group-wrapper"
+      class="ezd-input-number-group-wrapper"
     >
       <div
-        class="ant-input-number-wrapper ant-input-number-group"
+        class="ezd-input-number-wrapper ant-input-number-group"
       >
         <div
-          class="ant-input-number-group-addon"
+          class="ezd-input-number-group-addon"
         >
           <div
-            class="ant-select ant-cascader ant-select-single ant-select-allow-clear ant-select-show-arrow"
+            class="ezd-select ant-cascader ant-select-single ant-select-allow-clear ant-select-show-arrow"
             style="width:150px"
           >
             <div
-              class="ant-select-selector"
+              class="ezd-select-selector"
             >
               <span
-                class="ant-select-selection-search"
+                class="ezd-select-selection-search"
               >
                 <input
                   aria-activedescendant="undefined_list_0"
@@ -455,7 +455,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
                   aria-haspopup="listbox"
                   aria-owns="undefined_list"
                   autocomplete="off"
-                  class="ant-select-selection-search-input"
+                  class="ezd-select-selection-search-input"
                   readonly=""
                   role="combobox"
                   style="opacity:0"
@@ -465,14 +465,14 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
                 />
               </span>
               <span
-                class="ant-select-selection-placeholder"
+                class="ezd-select-selection-placeholder"
               >
                 cascader
               </span>
             </div>
             <span
               aria-hidden="true"
-              class="ant-select-arrow"
+              class="ezd-select-arrow"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -499,15 +499,15 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-input-number"
+          class="ezd-input-number"
         >
           <div
-            class="ant-input-number-handler-wrap"
+            class="ezd-input-number-handler-wrap"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-handler ant-input-number-handler-up"
+              class="ezd-input-number-handler ant-input-number-handler-up"
               role="button"
               unselectable="on"
             >
@@ -534,7 +534,7 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             <span
               aria-disabled="false"
               aria-label="Decrease Value"
-              class="ant-input-number-handler ant-input-number-handler-down"
+              class="ezd-input-number-handler ant-input-number-handler-down"
               role="button"
               unselectable="on"
             >
@@ -560,12 +560,12 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-input-number-input-wrap"
+            class="ezd-input-number-input-wrap"
           >
             <input
               aria-valuenow="100"
               autocomplete="off"
-              class="ant-input-number-input"
+              class="ezd-input-number-input"
               role="spinbutton"
               step="1"
               value="100"
@@ -580,15 +580,15 @@ exports[`renders ./components/input-number/demo/addon.md correctly 1`] = `
 
 exports[`renders ./components/input-number/demo/basic.md correctly 1`] = `
 <div
-  class="ant-input-number"
+  class="ezd-input-number"
 >
   <div
-    class="ant-input-number-handler-wrap"
+    class="ezd-input-number-handler-wrap"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-handler ant-input-number-handler-up"
+      class="ezd-input-number-handler ant-input-number-handler-up"
       role="button"
       unselectable="on"
     >
@@ -615,7 +615,7 @@ exports[`renders ./components/input-number/demo/basic.md correctly 1`] = `
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-handler ant-input-number-handler-down"
+      class="ezd-input-number-handler ant-input-number-handler-down"
       role="button"
       unselectable="on"
     >
@@ -641,14 +641,14 @@ exports[`renders ./components/input-number/demo/basic.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-input-number-input-wrap"
+    class="ezd-input-number-input-wrap"
   >
     <input
       aria-valuemax="10"
       aria-valuemin="1"
       aria-valuenow="3"
       autocomplete="off"
-      class="ant-input-number-input"
+      class="ezd-input-number-input"
       role="spinbutton"
       step="1"
       value="3"
@@ -659,15 +659,15 @@ exports[`renders ./components/input-number/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/input-number/demo/borderless.md correctly 1`] = `
 <div
-  class="ant-input-number ant-input-number-borderless"
+  class="ezd-input-number ant-input-number-borderless"
 >
   <div
-    class="ant-input-number-handler-wrap"
+    class="ezd-input-number-handler-wrap"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-handler ant-input-number-handler-up"
+      class="ezd-input-number-handler ant-input-number-handler-up"
       role="button"
       unselectable="on"
     >
@@ -694,7 +694,7 @@ exports[`renders ./components/input-number/demo/borderless.md correctly 1`] = `
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-handler ant-input-number-handler-down"
+      class="ezd-input-number-handler ant-input-number-handler-down"
       role="button"
       unselectable="on"
     >
@@ -720,14 +720,14 @@ exports[`renders ./components/input-number/demo/borderless.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-input-number-input-wrap"
+    class="ezd-input-number-input-wrap"
   >
     <input
       aria-valuemax="10"
       aria-valuemin="1"
       aria-valuenow="3"
       autocomplete="off"
-      class="ant-input-number-input"
+      class="ezd-input-number-input"
       role="spinbutton"
       step="1"
       value="3"
@@ -738,16 +738,16 @@ exports[`renders ./components/input-number/demo/borderless.md correctly 1`] = `
 
 exports[`renders ./components/input-number/demo/digit.md correctly 1`] = `
 <div
-  class="ant-input-number"
+  class="ezd-input-number"
   style="width:200px"
 >
   <div
-    class="ant-input-number-handler-wrap"
+    class="ezd-input-number-handler-wrap"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-handler ant-input-number-handler-up"
+      class="ezd-input-number-handler ant-input-number-handler-up"
       role="button"
       unselectable="on"
     >
@@ -774,7 +774,7 @@ exports[`renders ./components/input-number/demo/digit.md correctly 1`] = `
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-handler ant-input-number-handler-down"
+      class="ezd-input-number-handler ant-input-number-handler-down"
       role="button"
       unselectable="on"
     >
@@ -800,14 +800,14 @@ exports[`renders ./components/input-number/demo/digit.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-input-number-input-wrap"
+    class="ezd-input-number-input-wrap"
   >
     <input
       aria-valuemax="10"
       aria-valuemin="0"
       aria-valuenow="1"
       autocomplete="off"
-      class="ant-input-number-input"
+      class="ezd-input-number-input"
       role="spinbutton"
       step="0.00000000000001"
       value="1.00000000000000"
@@ -819,15 +819,15 @@ exports[`renders ./components/input-number/demo/digit.md correctly 1`] = `
 exports[`renders ./components/input-number/demo/disabled.md correctly 1`] = `
 Array [
   <div
-    class="ant-input-number ant-input-number-disabled"
+    class="ezd-input-number ant-input-number-disabled"
   >
     <div
-      class="ant-input-number-handler-wrap"
+      class="ezd-input-number-handler-wrap"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-handler ant-input-number-handler-up"
+        class="ezd-input-number-handler ant-input-number-handler-up"
         role="button"
         unselectable="on"
       >
@@ -854,7 +854,7 @@ Array [
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-handler ant-input-number-handler-down"
+        class="ezd-input-number-handler ant-input-number-handler-down"
         role="button"
         unselectable="on"
       >
@@ -880,14 +880,14 @@ Array [
       </span>
     </div>
     <div
-      class="ant-input-number-input-wrap"
+      class="ezd-input-number-input-wrap"
     >
       <input
         aria-valuemax="10"
         aria-valuemin="1"
         aria-valuenow="3"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="ezd-input-number-input"
         disabled=""
         role="spinbutton"
         step="1"
@@ -899,7 +899,7 @@ Array [
     style="margin-top:20px"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -912,22 +912,22 @@ Array [
 
 exports[`renders ./components/input-number/demo/formatter.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <div
-      class="ant-input-number"
+      class="ezd-input-number"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="ezd-input-number-handler-wrap"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up"
+          class="ezd-input-number-handler ant-input-number-handler-up"
           role="button"
           unselectable="on"
         >
@@ -954,7 +954,7 @@ exports[`renders ./components/input-number/demo/formatter.md correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down"
+          class="ezd-input-number-handler ant-input-number-handler-down"
           role="button"
           unselectable="on"
         >
@@ -980,12 +980,12 @@ exports[`renders ./components/input-number/demo/formatter.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-input-number-input-wrap"
+        class="ezd-input-number-input-wrap"
       >
         <input
           aria-valuenow="1000"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="ezd-input-number-input"
           role="spinbutton"
           step="1"
           value="$ 1,000"
@@ -994,18 +994,18 @@ exports[`renders ./components/input-number/demo/formatter.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <div
-      class="ant-input-number"
+      class="ezd-input-number"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="ezd-input-number-handler-wrap"
       >
         <span
           aria-disabled="true"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up ant-input-number-handler-up-disabled"
+          class="ezd-input-number-handler ant-input-number-handler-up ant-input-number-handler-up-disabled"
           role="button"
           unselectable="on"
         >
@@ -1032,7 +1032,7 @@ exports[`renders ./components/input-number/demo/formatter.md correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down"
+          class="ezd-input-number-handler ant-input-number-handler-down"
           role="button"
           unselectable="on"
         >
@@ -1058,14 +1058,14 @@ exports[`renders ./components/input-number/demo/formatter.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-input-number-input-wrap"
+        class="ezd-input-number-input-wrap"
       >
         <input
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="100"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="ezd-input-number-input"
           role="spinbutton"
           step="1"
           value="100%"
@@ -1078,22 +1078,22 @@ exports[`renders ./components/input-number/demo/formatter.md correctly 1`] = `
 
 exports[`renders ./components/input-number/demo/keyboard.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <div
-      class="ant-input-number"
+      class="ezd-input-number"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="ezd-input-number-handler-wrap"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up"
+          class="ezd-input-number-handler ant-input-number-handler-up"
           role="button"
           unselectable="on"
         >
@@ -1120,7 +1120,7 @@ exports[`renders ./components/input-number/demo/keyboard.md correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down"
+          class="ezd-input-number-handler ant-input-number-handler-down"
           role="button"
           unselectable="on"
         >
@@ -1146,14 +1146,14 @@ exports[`renders ./components/input-number/demo/keyboard.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-input-number-input-wrap"
+        class="ezd-input-number-input-wrap"
       >
         <input
           aria-valuemax="10"
           aria-valuemin="1"
           aria-valuenow="3"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="ezd-input-number-input"
           role="spinbutton"
           step="1"
           value="3"
@@ -1162,21 +1162,21 @@ exports[`renders ./components/input-number/demo/keyboard.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -1189,22 +1189,22 @@ exports[`renders ./components/input-number/demo/keyboard.md correctly 1`] = `
 
 exports[`renders ./components/input-number/demo/out-of-range.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <div
-      class="ant-input-number ant-input-number-out-of-range"
+      class="ezd-input-number ant-input-number-out-of-range"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="ezd-input-number-handler-wrap"
       >
         <span
           aria-disabled="true"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up ant-input-number-handler-up-disabled"
+          class="ezd-input-number-handler ant-input-number-handler-up ant-input-number-handler-up-disabled"
           role="button"
           unselectable="on"
         >
@@ -1231,7 +1231,7 @@ exports[`renders ./components/input-number/demo/out-of-range.md correctly 1`] = 
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down"
+          class="ezd-input-number-handler ant-input-number-handler-down"
           role="button"
           unselectable="on"
         >
@@ -1257,14 +1257,14 @@ exports[`renders ./components/input-number/demo/out-of-range.md correctly 1`] = 
         </span>
       </div>
       <div
-        class="ant-input-number-input-wrap"
+        class="ezd-input-number-input-wrap"
       >
         <input
           aria-valuemax="10"
           aria-valuemin="1"
           aria-valuenow="99"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="ezd-input-number-input"
           role="spinbutton"
           step="1"
           value="99"
@@ -1273,10 +1273,10 @@ exports[`renders ./components/input-number/demo/out-of-range.md correctly 1`] = 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -1289,22 +1289,22 @@ exports[`renders ./components/input-number/demo/out-of-range.md correctly 1`] = 
 
 exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <div
-      class="ant-input-number ant-input-number-lg"
+      class="ezd-input-number ant-input-number-lg"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="ezd-input-number-handler-wrap"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up"
+          class="ezd-input-number-handler ant-input-number-handler-up"
           role="button"
           unselectable="on"
         >
@@ -1331,7 +1331,7 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down"
+          class="ezd-input-number-handler ant-input-number-handler-down"
           role="button"
           unselectable="on"
         >
@@ -1357,14 +1357,14 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-input-number-input-wrap"
+        class="ezd-input-number-input-wrap"
       >
         <input
           aria-valuemax="100000"
           aria-valuemin="1"
           aria-valuenow="3"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="ezd-input-number-input"
           role="spinbutton"
           step="1"
           value="3"
@@ -1373,19 +1373,19 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <div
-      class="ant-input-number"
+      class="ezd-input-number"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="ezd-input-number-handler-wrap"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up"
+          class="ezd-input-number-handler ant-input-number-handler-up"
           role="button"
           unselectable="on"
         >
@@ -1412,7 +1412,7 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down"
+          class="ezd-input-number-handler ant-input-number-handler-down"
           role="button"
           unselectable="on"
         >
@@ -1438,14 +1438,14 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-input-number-input-wrap"
+        class="ezd-input-number-input-wrap"
       >
         <input
           aria-valuemax="100000"
           aria-valuemin="1"
           aria-valuenow="3"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="ezd-input-number-input"
           role="spinbutton"
           step="1"
           value="3"
@@ -1454,18 +1454,18 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-sm"
+      class="ezd-input-number ant-input-number-sm"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="ezd-input-number-handler-wrap"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up"
+          class="ezd-input-number-handler ant-input-number-handler-up"
           role="button"
           unselectable="on"
         >
@@ -1492,7 +1492,7 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down"
+          class="ezd-input-number-handler ant-input-number-handler-down"
           role="button"
           unselectable="on"
         >
@@ -1518,14 +1518,14 @@ exports[`renders ./components/input-number/demo/size.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-input-number-input-wrap"
+        class="ezd-input-number-input-wrap"
       >
         <input
           aria-valuemax="100000"
           aria-valuemin="1"
           aria-valuenow="3"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="ezd-input-number-input"
           role="spinbutton"
           step="1"
           value="3"

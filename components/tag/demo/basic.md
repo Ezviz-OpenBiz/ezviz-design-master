@@ -14,7 +14,7 @@ title:
 Usage of basic Tag, and it could be closable by set `closable` property. Closable Tag supports `onClose` events.
 
 ```jsx
-import { Tag } from '@ezviz/evvd';
+import { Tag } from '@ezviz/ezd';
 
 function log(e) {
   console.log(e);
@@ -29,7 +29,7 @@ ReactDOM.render(
   <>
     <Tag>Tag 1</Tag>
     <Tag>
-      <a href="https://github.com/ant-design/ant-design/issues/1862">Link</a>
+      <a href="https://saastest3.ys7.com/">Link</a>
     </Tag>
     <Tag closable onClose={log}>
       Tag 2

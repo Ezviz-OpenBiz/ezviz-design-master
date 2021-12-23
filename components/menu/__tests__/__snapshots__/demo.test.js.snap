@@ -3,13 +3,13 @@
 exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
 Array [
   <ul
-    class="ant-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-light"
+    class="ezd-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-light"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-menu-overflow-item ant-menu-item ant-menu-item-selected"
+      class="ezd-menu-overflow-item ant-menu-item ant-menu-item-selected"
       role="menuitem"
       style="opacity:1;order:0"
       tabindex="-1"
@@ -34,14 +34,14 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Navigation One
       </span>
     </li>
     <li
       aria-disabled="true"
-      class="ant-menu-overflow-item ant-menu-item ant-menu-item-disabled"
+      class="ezd-menu-overflow-item ant-menu-item ant-menu-item-disabled"
       role="menuitem"
       style="opacity:1;order:1"
     >
@@ -65,20 +65,20 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Navigation Two
       </span>
     </li>
     <li
-      class="ant-menu-overflow-item ant-menu-submenu ant-menu-submenu-horizontal"
+      class="ezd-menu-overflow-item ant-menu-submenu ant-menu-submenu-horizontal"
       role="none"
       style="opacity:1;order:2"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -102,26 +102,26 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Three - Submenu
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+      class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
       role="menuitem"
       style="opacity:1;order:3"
       tabindex="-1"
     >
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         <a
-          href="https://ant.design"
+          href="https://saastest3.ys7.com/ezd/"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -131,14 +131,14 @@ Array [
     </li>
     <li
       aria-hidden="true"
-      class="ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
+      class="ezd-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
       role="none"
       style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -162,7 +162,7 @@ Array [
           </svg>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -177,20 +177,20 @@ Array [
 exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
 Array [
   <ul
-    class="ant-menu ant-menu-root ant-menu-inline ant-menu-light"
+    class="ezd-menu ant-menu-root ant-menu-inline ant-menu-light"
     data-menu-list="true"
     role="menu"
     style="width:256px"
     tabindex="0"
   >
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+      class="ezd-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
       role="none"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -215,50 +215,50 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation One
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu ant-menu-sub ant-menu-inline"
+        class="ezd-menu ant-menu-sub ant-menu-inline"
         data-menu-list="true"
       >
         <li
-          class="ant-menu-item-group"
+          class="ezd-menu-item-group"
         >
           <div
-            class="ant-menu-item-group-title"
+            class="ezd-menu-item-group-title"
             title="Item 1"
           >
             Item 1
           </div>
           <ul
-            class="ant-menu-item-group-list"
+            class="ezd-menu-item-group-list"
           >
             <li
-              class="ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+              class="ezd-menu-item ant-menu-item-selected ant-menu-item-only-child"
               role="menuitem"
               style="padding-left:48px"
               tabindex="-1"
             >
               <span
-                class="ant-menu-title-content"
+                class="ezd-menu-title-content"
               >
                 Option 1
               </span>
             </li>
             <li
-              class="ant-menu-item ant-menu-item-only-child"
+              class="ezd-menu-item ant-menu-item-only-child"
               role="menuitem"
               style="padding-left:48px"
               tabindex="-1"
             >
               <span
-                class="ant-menu-title-content"
+                class="ezd-menu-title-content"
               >
                 Option 2
               </span>
@@ -266,37 +266,37 @@ Array [
           </ul>
         </li>
         <li
-          class="ant-menu-item-group"
+          class="ezd-menu-item-group"
         >
           <div
-            class="ant-menu-item-group-title"
+            class="ezd-menu-item-group-title"
             title="Item 2"
           >
             Item 2
           </div>
           <ul
-            class="ant-menu-item-group-list"
+            class="ezd-menu-item-group-list"
           >
             <li
-              class="ant-menu-item ant-menu-item-only-child"
+              class="ezd-menu-item ant-menu-item-only-child"
               role="menuitem"
               style="padding-left:48px"
               tabindex="-1"
             >
               <span
-                class="ant-menu-title-content"
+                class="ezd-menu-title-content"
               >
                 Option 3
               </span>
             </li>
             <li
-              class="ant-menu-item ant-menu-item-only-child"
+              class="ezd-menu-item ant-menu-item-only-child"
               role="menuitem"
               style="padding-left:48px"
               tabindex="-1"
             >
               <span
-                class="ant-menu-title-content"
+                class="ezd-menu-title-content"
               >
                 Option 4
               </span>
@@ -306,13 +306,13 @@ Array [
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -337,23 +337,23 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Two
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -378,12 +378,12 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Three
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -400,7 +400,7 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
   style="width:256px"
 >
   <button
-    class="ant-btn ant-btn-primary"
+    class="ezd-btn ant-btn-primary"
     style="margin-bottom:16px"
     type="button"
   >
@@ -425,13 +425,13 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
     </span>
   </button>
   <ul
-    class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark"
+    class="ezd-menu ant-menu-root ant-menu-inline ant-menu-dark"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-menu-item ant-menu-item-selected"
+      class="ezd-menu-item ant-menu-item-selected"
       role="menuitem"
       style="padding-left:24px"
       tabindex="-1"
@@ -456,13 +456,13 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Option 1
       </span>
     </li>
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       role="menuitem"
       style="padding-left:24px"
       tabindex="-1"
@@ -487,13 +487,13 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Option 2
       </span>
     </li>
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       role="menuitem"
       style="padding-left:24px"
       tabindex="-1"
@@ -518,19 +518,19 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Option 3
       </span>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+      class="ezd-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
       role="none"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -555,62 +555,62 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation One
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu ant-menu-sub ant-menu-inline"
+        class="ezd-menu ant-menu-sub ant-menu-inline"
         data-menu-list="true"
       >
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 5
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 6
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 7
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 8
           </span>
@@ -618,13 +618,13 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -649,12 +649,12 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Two
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -669,20 +669,20 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
 exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
 Array [
   <ul
-    class="ant-menu ant-menu-root ant-menu-inline ant-menu-light"
+    class="ezd-menu ant-menu-root ant-menu-inline ant-menu-light"
     data-menu-list="true"
     role="menu"
     style="width:256px"
     tabindex="0"
   >
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+      class="ezd-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
       role="none"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -707,62 +707,62 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation One
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu ant-menu-sub ant-menu-inline"
+        class="ezd-menu ant-menu-sub ant-menu-inline"
         data-menu-list="true"
       >
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 1
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 2
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 3
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 4
           </span>
@@ -770,13 +770,13 @@ Array [
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -801,23 +801,23 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Two
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -842,12 +842,12 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Three
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -863,15 +863,15 @@ exports[`renders ./components/menu/demo/style-debug.md correctly 1`] = `
 Array [
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-checked"
+    class="ezd-switch ant-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     >
       Dark
     </span>
@@ -879,20 +879,20 @@ Array [
   <br />,
   <br />,
   <ul
-    class="ant-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
+    class="ezd-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-menu-overflow-item ant-menu-submenu ant-menu-submenu-horizontal"
+      class="ezd-menu-overflow-item ant-menu-submenu ant-menu-submenu-horizontal"
       role="none"
       style="opacity:1;order:0"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -916,24 +916,24 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation One Long Long Long Long
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-overflow-item ant-menu-submenu ant-menu-submenu-horizontal"
+      class="ezd-menu-overflow-item ant-menu-submenu ant-menu-submenu-horizontal"
       role="none"
       style="opacity:1;order:1"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -957,49 +957,49 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Two
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+      class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
       role="menuitem"
       style="opacity:1;order:2"
       tabindex="-1"
     >
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Option 11
       </span>
     </li>
     <li
-      class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+      class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
       role="menuitem"
       style="opacity:1;order:3"
       tabindex="-1"
     >
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Option 12
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
+      class="ezd-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
       role="none"
       style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -1023,7 +1023,7 @@ Array [
           </svg>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -1039,47 +1039,47 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
 Array [
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="ezd-switch"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     />
   </button>,
   " Change Mode",
   <div
-    class="ant-divider ant-divider-vertical"
+    class="ezd-divider ant-divider-vertical"
     role="separator"
   />,
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="ezd-switch"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     />
   </button>,
   " Change Style",
   <br />,
   <br />,
   <ul
-    class="ant-menu ant-menu-root ant-menu-inline ant-menu-light"
+    class="ezd-menu ant-menu-root ant-menu-inline ant-menu-light"
     data-menu-list="true"
     role="menu"
     style="width:256px"
     tabindex="0"
   >
     <li
-      class="ant-menu-item ant-menu-item-selected"
+      class="ezd-menu-item ant-menu-item-selected"
       role="menuitem"
       style="padding-left:24px"
       tabindex="-1"
@@ -1104,13 +1104,13 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Navigation One
       </span>
     </li>
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       role="menuitem"
       style="padding-left:24px"
       tabindex="-1"
@@ -1135,19 +1135,19 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Navigation Two
       </span>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+      class="ezd-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
       role="none"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -1172,74 +1172,74 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Two
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu ant-menu-sub ant-menu-inline"
+        class="ezd-menu ant-menu-sub ant-menu-inline"
         data-menu-list="true"
       >
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 3
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 4
           </span>
         </li>
         <li
-          class="ant-menu-submenu ant-menu-submenu-inline"
+          class="ezd-menu-submenu ant-menu-submenu-inline"
           role="none"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-menu-submenu-title"
+            class="ezd-menu-submenu-title"
             role="menuitem"
             style="padding-left:48px"
             tabindex="-1"
           >
             <span
-              class="ant-menu-title-content"
+              class="ezd-menu-title-content"
             >
               Submenu
             </span>
             <i
-              class="ant-menu-submenu-arrow"
+              class="ezd-menu-submenu-arrow"
             />
           </div>
         </li>
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -1264,17 +1264,17 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Three
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       role="menuitem"
       style="padding-left:24px"
       tabindex="-1"
@@ -1299,14 +1299,14 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         <a
-          href="https://ant.design"
+          href="https://saastest3.ys7.com/ezd/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Evv Design
+          EZ Design
         </a>
       </span>
     </li>
@@ -1322,15 +1322,15 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
 Array [
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-checked"
+    class="ezd-switch ant-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     >
       Dark
     </span>
@@ -1338,20 +1338,20 @@ Array [
   <br />,
   <br />,
   <ul
-    class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark"
+    class="ezd-menu ant-menu-root ant-menu-inline ant-menu-dark"
     data-menu-list="true"
     role="menu"
     style="width:256px"
     tabindex="0"
   >
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+      class="ezd-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
       role="none"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -1376,62 +1376,62 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation One
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu ant-menu-sub ant-menu-inline"
+        class="ezd-menu ant-menu-sub ant-menu-inline"
         data-menu-list="true"
       >
         <li
-          class="ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-selected ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 1
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 2
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 3
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-only-child"
+          class="ezd-menu-item ant-menu-item-only-child"
           role="menuitem"
           style="padding-left:48px"
           tabindex="-1"
         >
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 4
           </span>
@@ -1439,13 +1439,13 @@ Array [
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -1470,23 +1470,23 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Two
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="ezd-menu-submenu ant-menu-submenu-inline"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         style="padding-left:24px"
         tabindex="-1"
@@ -1511,12 +1511,12 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Three
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -1531,20 +1531,20 @@ Array [
 exports[`renders ./components/menu/demo/vertical.md correctly 1`] = `
 Array [
   <ul
-    class="ant-menu ant-menu-root ant-menu-vertical ant-menu-light"
+    class="ezd-menu ant-menu-root ant-menu-vertical ant-menu-light"
     data-menu-list="true"
     role="menu"
     style="width:256px"
     tabindex="0"
   >
     <li
-      class="ant-menu-submenu ant-menu-submenu-vertical"
+      class="ezd-menu-submenu ant-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -1568,23 +1568,23 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation One
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-vertical"
+      class="ezd-menu-submenu ant-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -1608,23 +1608,23 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Two
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-vertical"
+      class="ezd-menu-submenu ant-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
@@ -1648,12 +1648,12 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation Three
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>

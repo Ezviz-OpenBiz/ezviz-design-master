@@ -2,11 +2,11 @@
 
 exports[`Layout renders string width correctly 1`] = `
 <aside
-  class="ant-layout-sider ant-layout-sider-dark"
+  class="ezd-layout-sider ezd-layout-sider-dark"
   style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
 >
   <div
-    class="ant-layout-sider-children"
+    class="ezd-layout-sider-children"
   >
     Sider
   </div>
@@ -15,23 +15,23 @@ exports[`Layout renders string width correctly 1`] = `
 
 exports[`Layout rtl render component should be rendered correctly in RTL direction 1`] = `
 <section
-  class="ant-layout ant-layout-rtl"
+  class="ezd-layout ezd-layout-rtl"
 />
 `;
 
 exports[`Layout rtl render component should be rendered correctly in RTL direction 2`] = `
 <main
-  class="ant-layout-content"
+  class="ezd-layout-content"
 />
 `;
 
 exports[`Layout rtl render component should be rendered correctly in RTL direction 3`] = `
 <aside
-  class="ant-layout-sider ant-layout-sider-dark"
+  class="ezd-layout-sider ezd-layout-sider-dark"
   style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
 >
   <div
-    class="ant-layout-sider-children"
+    class="ezd-layout-sider-children"
   />
 </aside>
 `;
@@ -39,7 +39,7 @@ exports[`Layout rtl render component should be rendered correctly in RTL directi
 exports[`Layout should be controlled by collapsed 1`] = `
 <Sider>
   <aside
-    className="ant-layout-sider ant-layout-sider-dark"
+    className="ezd-layout-sider ezd-layout-sider-dark"
     style={
       Object {
         "flex": "0 0 200px",
@@ -50,7 +50,7 @@ exports[`Layout should be controlled by collapsed 1`] = `
     }
   >
     <div
-      className="ant-layout-sider-children"
+      className="ezd-layout-sider-children"
     >
       Sider
     </div>
@@ -63,7 +63,7 @@ exports[`Layout should be controlled by collapsed 2`] = `
   collapsed={true}
 >
   <aside
-    className="ant-layout-sider ant-layout-sider-dark ant-layout-sider-collapsed"
+    className="ezd-layout-sider ezd-layout-sider-dark ezd-layout-sider-collapsed"
     style={
       Object {
         "flex": "0 0 80px",
@@ -74,7 +74,7 @@ exports[`Layout should be controlled by collapsed 2`] = `
     }
   >
     <div
-      className="ant-layout-sider-children"
+      className="ezd-layout-sider-children"
     >
       Sider
     </div>

@@ -14,7 +14,7 @@ title:
 Bordered-less style component.
 
 ```jsx
-import { TimePicker } from '@ezviz/evvd';
+import { TimePicker } from '@ezviz/ezd';
 
 const { RangePicker } = TimePicker;
 

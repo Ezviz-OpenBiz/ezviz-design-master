@@ -12,10 +12,10 @@ module.exports = {
 }`;
 }
 
-// We need compile additional content for antd user
+// We need compile additional content for ezd user
 function finalizeCompile() {
   if (fs.existsSync(path.join(__dirname, './lib'))) {
-    // Build a entry less file to dist/antd.less
+    // Build a entry less file to dist/ezd.less
     const componentsPath = path.join(process.cwd(), 'components');
     let componentsLessContent = '';
     // Build components in one file: lib/style/components.less
@@ -38,14 +38,14 @@ function finalizeCompile() {
 }
 
 function buildThemeFile(theme, vars) {
-  // Build less entry file: dist/antd.${theme}.less
+  // Build less entry file: dist/ezd.${theme}.less
   if (theme !== 'default') {
     fs.writeFileSync(
-      path.join(process.cwd(), 'dist', `antd.${theme}.less`),
+      path.join(process.cwd(), 'dist', `ezd.${theme}.less`),
       `@import "../lib/style/${theme}.less";\n@import "../lib/style/components.less";`,
     );
     // eslint-disable-next-line no-console
-    console.log(`Built a entry less file to dist/antd.${theme}.less`);
+    console.log(`Built a entry less file to dist/ezd.${theme}.less`);
   } else {
     fs.writeFileSync(
       path.join(process.cwd(), 'dist', `default-theme.js`),
@@ -75,9 +75,9 @@ function buildThemeFile(theme, vars) {
 
 function finalizeDist() {
   if (fs.existsSync(path.join(__dirname, './dist'))) {
-    // Build less entry file: dist/antd.less
+    // Build less entry file: dist/ezd.less
     fs.writeFileSync(
-      path.join(process.cwd(), 'dist', 'antd.less'),
+      path.join(process.cwd(), 'dist', 'ezd.less'),
       '@import "../lib/style/default.less";\n@import "../lib/style/components.less";',
     );
     // eslint-disable-next-line no-console
@@ -86,7 +86,7 @@ function finalizeDist() {
       `const defaultTheme = require('./default-theme.js');\n`,
     );
     // eslint-disable-next-line no-console
-    console.log('Built a entry less file to dist/antd.less');
+    console.log('Built a entry less file to dist/ezd.less');
     buildThemeFile('default', defaultVars);
     buildThemeFile('dark', darkVars);
     buildThemeFile('compact', compactVars);
@@ -96,7 +96,7 @@ function finalizeDist() {
       `
 function getThemeVariables(options = {}) {
   let themeVar = {
-    'hack': \`true;@import "\${require.resolve('antd/lib/style/color/colorPalette.less')}";\`,
+    'hack': \`true;@import "\${require.resolve('@ezviz/ezd/lib/style/color/colorPalette.less')}";\`,
     ...defaultTheme
   };
   if(options.dark) {

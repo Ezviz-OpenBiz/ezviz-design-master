@@ -14,7 +14,7 @@ title:
 Another type of Tabs, which doesn't support vertical mode.
 
 ```jsx
-import { Tabs } from '@ezviz/evvd';
+import { Tabs } from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 

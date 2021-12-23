@@ -14,7 +14,7 @@ title:
 Spin in a container.
 
 ```jsx
-import { Spin } from '@ezviz/evvd';
+import { Spin } from '@ezviz/ezd';
 
 ReactDOM.render(
   <div className="example">

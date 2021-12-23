@@ -1,9 +1,9 @@
 ---
 order: 0
-title: Evv Design of React
+title: EZ Design of React
 ---
 
-Following the Evv Design specification, we developed a React UI library `@ezviz/evvd` that contains a set of high quality components and demos for building rich, interactive user interfaces.
+Following the EZ Design specification, we developed a React UI library `@ezviz/ezd` that contains a set of high quality components and demos for building rich, interactive user interfaces.
 
 <div class="pic-plus">
   <img width="150" src="https://es.ys7.com/ys/img/logo.256e18ae.png" />
@@ -53,23 +53,23 @@ Polyfills are needed for IE browsers. We recommend [@babel/preset-env](https://b
 **We recommend using npm or yarn to install**, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
 
 ```bash
-$ npm install @ezviz/evvd
+$ npm install @ezviz/ezd
 ```
 
 ```bash
-$ yarn add @ezviz/evvd
+$ yarn add @ezviz/ezd
 ```
 
 If you are in a bad network environment, you can try other registries and tools like [cnpm](https://github.com/cnpm/cnpm).
 
 ### Import in Browser
 
-Add `script` and `link` tags in your browser and use the global variable `@ezviz/evvd`.
+Add `script` and `link` tags in your browser and use the global variable `@ezviz/ezd`.
 
 ## Usage
 
 ```jsx
-import { DatePicker } from '@ezviz/evvd';
+import { DatePicker } from '@ezviz/ezd';
 
 ReactDOM.render(<DatePicker />, mountNode);
 ```
@@ -77,13 +77,13 @@ ReactDOM.render(<DatePicker />, mountNode);
 And import stylesheets manually:
 
 ```jsx
-import '@ezviz/evvd/dist/@ezviz/evvd.css'; // or '@ezviz/evvd/dist/@ezviz/evvd.less'
+import '@ezviz/ezd/dist/@ezviz/ezd.css'; // or '@ezviz/ezd/dist/@ezviz/ezd.less'
 ```
 
-### Use modularized evvd
+### Use modularized ezd
 
-`@ezviz/evvd` supports ES modules tree shaking by default for JS part.
+`@ezviz/ezd` supports ES modules tree shaking by default for JS part.
 
 ### TypeScript
 
-`@ezviz/evvd` provides a built-in ts definition, don't install `@types/@ezviz/evvd`.
+`@ezviz/ezd` provides a built-in ts definition, don't install `@types/@ezviz/ezd`.

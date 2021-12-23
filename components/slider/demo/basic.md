@@ -14,7 +14,7 @@ title:
 Basic slider. When `range` is `true`, display as dual thumb mode. When `disable` is `true`, the slider will not be interactable.
 
 ```jsx
-import { Slider, Switch } from '@ezviz/evvd';
+import { Slider, Switch } from '@ezviz/ezd';
 
 class Demo extends React.Component {
   state = {
@@ -41,7 +41,7 @@ ReactDOM.render(<Demo />, mountNode);
 ```
 
 <style>
-.code-box-demo .ant-slider {
+.code-box-demo .ezd-slider {
   margin-bottom: 16px;
 }
 </style>

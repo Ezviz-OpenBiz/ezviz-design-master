@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { AntAnchor } from './Anchor';
+import { EzdAnchor } from './Anchor';
 
-const AnchorContext = React.createContext<AntAnchor>(null as any);
+const AnchorContext = React.createContext<EzdAnchor>(null as any);
 
 export default AnchorContext;

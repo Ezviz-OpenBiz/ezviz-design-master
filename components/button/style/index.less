@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import './mixin';
 
-@btn-prefix-cls: ~'@{ant-prefix}-btn';
+@btn-prefix-cls: ~'@{ezd-prefix}-btn';
 
 // for compatible
 @btn-ghost-color: @text-color;
@@ -12,11 +12,6 @@
 // Button styles
 // -----------------------------
 .@{btn-prefix-cls} {
-  // Fixing https://github.com/ant-design/ant-design/issues/12978
-  // Fixing https://github.com/ant-design/ant-design/issues/20058
-  // Fixing https://github.com/ant-design/ant-design/issues/19972
-  // Fixing https://github.com/ant-design/ant-design/issues/18107
-  // Fixing https://github.com/ant-design/ant-design/issues/13214
   // It is a render problem of chrome, which is only happened in the codesandbox demo
   // 0.001px solution works and I don't why
   line-height: @btn-line-height;
@@ -24,7 +19,6 @@
   .btn-default();
 
   // Fix loading button animation
-  // https://github.com/ant-design/ant-design/issues/24323
   > span {
     display: inline-block;
   }
@@ -109,7 +103,6 @@
     }
   }
 
-  // https://github.com/ant-design/ant-design/issues/32365
   a&-icon-only {
     vertical-align: -1px;
 
@@ -149,7 +142,6 @@
     transition: margin-left 0.3s @ease-in-out;
 
     // Follow icon blur under windows. Change the render.
-    // https://github.com/ant-design/ant-design/issues/13924
     &.@{iconfont-css-prefix}-plus,
     &.@{iconfont-css-prefix}-minus {
       > svg {
@@ -260,7 +252,6 @@
     width: 100%;
   }
 
-  // https://github.com/ant-design/ant-design/issues/12681
   // same method as Select
   &:empty {
     display: inline-block;
@@ -271,8 +262,6 @@
 }
 
 a.@{btn-prefix-cls} {
-  // Fixing https://github.com/ant-design/ant-design/issues/12978
-  // https://github.com/ant-design/ant-design/issues/29978
   // It is a render problem of chrome, which is only happened in the codesandbox demo
   // 0.1px for padding-top solution works and I don't why
   padding-top: 0.01px !important;

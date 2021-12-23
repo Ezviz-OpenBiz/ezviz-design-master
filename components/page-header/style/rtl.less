@@ -1,7 +1,7 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@pageheader-prefix-cls: ~'@{ant-prefix}-page-header';
+@pageheader-prefix-cls: ~'@{ezd-prefix}-page-header';
 
 .@{pageheader-prefix-cls} {
   &-rtl {
@@ -24,7 +24,7 @@
       }
     }
 
-    .@{ant-prefix}-avatar {
+    .@{ezd-prefix}-avatar {
       .@{pageheader-prefix-cls}-rtl & {
         margin-right: 0;
         margin-left: @margin-sm;
@@ -66,8 +66,8 @@
   }
 
   &-footer {
-    .@{ant-prefix}-tabs-bar {
-      .@{ant-prefix}-tabs-nav {
+    .@{ezd-prefix}-tabs-bar {
+      .@{ezd-prefix}-tabs-nav {
         .@{pageheader-prefix-cls}-rtl & {
           float: right;
         }

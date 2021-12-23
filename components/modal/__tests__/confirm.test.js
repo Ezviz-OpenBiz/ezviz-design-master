@@ -73,7 +73,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       content: 'some descriptions',
     });
     jest.runAllTimers();
-    expect(document.querySelector('.ant-modal-confirm-title')).toBe(null);
+    expect(document.querySelector('.ezd-modal-confirm-title')).toBe(null);
     jest.useRealTimers();
   });
 
@@ -85,7 +85,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
     // first Modal
-    $$('.ant-btn')[0].click();
+    $$('.ezd-btn')[0].click();
     expect(onCancel.mock.calls.length).toBe(1);
     expect(onOk.mock.calls.length).toBe(0);
   });
@@ -98,7 +98,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
     // second Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
     expect(onCancel.mock.calls.length).toBe(0);
     expect(onOk.mock.calls.length).toBe(1);
   });
@@ -106,14 +106,14 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('should allow Modal.confirm without onCancel been set', () => {
     open();
     // Third Modal
-    $$('.ant-btn')[0].click();
+    $$('.ezd-btn')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
   it('should allow Modal.confirm without onOk been set', () => {
     open();
     // Fourth Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
@@ -126,12 +126,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onCancel,
     });
     jest.runAllTimers();
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(1);
-    TestUtils.Simulate.keyDown($$('.ant-modal')[0], {
+    expect($$(`.ezd-modal-confirm-confirm`)).toHaveLength(1);
+    TestUtils.Simulate.keyDown($$('.ezd-modal')[0], {
       keyCode: KeyCode.ESC,
     });
     jest.runAllTimers();
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(0);
+    expect($$(`.ezd-modal-confirm-confirm`)).toHaveLength(0);
     expect(onCancel).toHaveBeenCalledTimes(1);
     jest.useRealTimers();
   });
@@ -140,8 +140,8 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     open({
       onOk: () => Promise.resolve(''),
     });
-    $$('.ant-btn-primary')[0].click();
-    expect($$('.ant-modal-confirm')).toHaveLength(1);
+    $$('.ezd-btn-primary')[0].click();
+    expect($$('.ezd-modal-confirm')).toHaveLength(1);
   });
 
   it('should emit error when onOk return Promise.reject', async () => {
@@ -149,7 +149,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     open({
       onOk: () => Promise.reject(error),
     });
-    $$('.ant-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
 
     // wait promise
     await sleep();
@@ -160,26 +160,26 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('shows animation when close', () => {
     open();
     jest.useFakeTimers();
-    expect($$('.ant-modal-confirm')).toHaveLength(1);
-    $$('.ant-btn')[0].click();
+    expect($$('.ezd-modal-confirm')).toHaveLength(1);
+    $$('.ezd-btn')[0].click();
     act(() => {
       jest.runAllTimers();
     });
-    expect($$('.ant-modal-confirm')).toHaveLength(0);
+    expect($$('.ezd-modal-confirm')).toHaveLength(0);
     jest.useRealTimers();
   });
 
   it('ok only', () => {
     open({ okCancel: false });
-    expect($$('.ant-btn')).toHaveLength(1);
-    expect($$('.ant-btn')[0].innerHTML).toContain('OK');
+    expect($$('.ezd-btn')).toHaveLength(1);
+    expect($$('.ezd-btn')[0].innerHTML).toContain('OK');
   });
 
   it('allows extra props on buttons', () => {
     open({ okButtonProps: { disabled: true }, cancelButtonProps: { 'data-test': 'baz' } });
-    expect($$('.ant-btn')).toHaveLength(2);
-    expect($$('.ant-btn')[0].attributes['data-test'].value).toBe('baz');
-    expect($$('.ant-btn')[1].disabled).toBe(true);
+    expect($$('.ezd-btn')).toHaveLength(2);
+    expect($$('.ezd-btn')[0].attributes['data-test'].value).toBe('baz');
+    expect($$('.ezd-btn')[1].disabled).toBe(true);
   });
 
   it('should close modals when click confirm button', () => {
@@ -192,12 +192,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      $$('.ant-btn')[0].click();
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
+      $$('.ezd-btn')[0].click();
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(0);
     });
     jest.useRealTimers();
   });
@@ -213,12 +213,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     act(() => {
       jest.runAllTimers();
     });
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(1);
-    $$('.ant-btn')[0].click();
+    expect($$(`.ezd-modal-confirm-confirm`)).toHaveLength(1);
+    $$('.ezd-btn')[0].click();
     act(() => {
       jest.runAllTimers();
     });
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(0);
+    expect($$(`.ezd-modal-confirm-confirm`)).toHaveLength(0);
     expect(onCancel).toHaveBeenCalledTimes(1);
     jest.useRealTimers();
   });
@@ -236,12 +236,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     act(() => {
       jest.runAllTimers();
     });
-    expect($$(`.ant-modal-close`)).toHaveLength(1);
-    $$('.ant-btn')[0].click();
+    expect($$(`.ezd-modal-close`)).toHaveLength(1);
+    $$('.ezd-btn')[0].click();
     act(() => {
       jest.runAllTimers();
     });
-    expect($$(`.ant-modal-close`)).toHaveLength(0);
+    expect($$(`.ezd-modal-close`)).toHaveLength(0);
     expect(onCancel).toHaveBeenCalledTimes(1);
     jest.useRealTimers();
   });
@@ -257,12 +257,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      $$('.ant-btn')[0].click();
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
+      $$('.ezd-btn')[0].click();
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
     });
     jest.useRealTimers();
   });
@@ -277,9 +277,9 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('title');
-      expect($$('.ant-modal-confirm-content')[0].innerHTML).toBe('content');
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$('.ezd-modal-confirm-title')[0].innerHTML).toBe('title');
+      expect($$('.ezd-modal-confirm-content')[0].innerHTML).toBe('content');
       instance.update({
         title: 'new title',
         content: 'new content',
@@ -287,9 +287,9 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('new title');
-      expect($$('.ant-modal-confirm-content')[0].innerHTML).toBe('new content');
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$('.ezd-modal-confirm-title')[0].innerHTML).toBe('new title');
+      expect($$('.ezd-modal-confirm-content')[0].innerHTML).toBe('new content');
       instance.destroy();
       jest.runAllTimers();
     });
@@ -311,12 +311,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('title');
-      expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0].classList).toContain(
-        'ant-btn-loading',
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$('.ezd-modal-confirm-title')[0].innerHTML).toBe('title');
+      expect($$('.ezd-modal-confirm-btns .ezd-btn-primary')[0].classList).toContain(
+        'ezd-btn-loading',
       );
-      expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0].style.color).toBe('red');
+      expect($$('.ezd-modal-confirm-btns .ezd-btn-primary')[0].style.color).toBe('red');
       instance.update(prevConfig => ({
         ...prevConfig,
         okButtonProps: {
@@ -327,12 +327,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('title');
-      expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0].classList).not.toContain(
-        'ant-btn-loading',
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$('.ezd-modal-confirm-title')[0].innerHTML).toBe('title');
+      expect($$('.ezd-modal-confirm-btns .ezd-btn-primary')[0].classList).not.toContain(
+        'ezd-btn-loading',
       );
-      expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0].style.color).toBe('red');
+      expect($$('.ezd-modal-confirm-btns .ezd-btn-primary')[0].style.color).toBe('red');
       instance.destroy();
       jest.runAllTimers();
     });
@@ -349,12 +349,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
       instance.destroy();
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(0);
     });
     jest.useRealTimers();
   });
@@ -369,14 +369,14 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(1);
     });
     Modal.destroyAll();
     ['info', 'success', 'warning', 'error'].forEach(type => {
       act(() => {
         jest.runAllTimers();
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+      expect($$(`.ezd-modal-confirm-${type}`)).toHaveLength(0);
     });
     jest.useRealTimers();
   });
@@ -391,7 +391,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
   it('should be Modal.confirm without mask', () => {
     open({ mask: false });
-    expect($$('.ant-modal-mask')).toHaveLength(0);
+    expect($$('.ezd-modal-mask')).toHaveLength(0);
   });
 
   it('destroyFns should reduce when instance.destroy', () => {
@@ -443,7 +443,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
     jest.runAllTimers();
     expect(warnSpy).toHaveBeenCalledWith(
-      `Warning: [antd: Modal] \`icon\` is using ReactNode instead of string naming in v4. Please check \`question\` at https://ant.design/components/icon`,
+      `Warning: [ezd: Modal] \`icon\` is using ReactNode instead of string naming. `,
     );
     warnSpy.mockRestore();
     jest.useRealTimers();
@@ -452,12 +452,11 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('ok button should trigger onOk once when click it many times quickly', () => {
     const onOk = jest.fn();
     open({ onOk });
-    $$('.ant-btn-primary')[0].click();
-    $$('.ant-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
     expect(onOk).toHaveBeenCalledTimes(1);
   });
 
-  // https://github.com/ant-design/ant-design/issues/23358
   it('ok button should trigger onOk multiple times when onOk has close argument', () => {
     const onOk = jest.fn();
     open({
@@ -466,9 +465,9 @@ describe('Modal.confirm triggers callbacks correctly', () => {
         (() => {})(close); // do nothing
       },
     });
-    $$('.ant-btn-primary')[0].click();
-    $$('.ant-btn-primary')[0].click();
-    $$('.ant-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
     expect(onOk).toHaveBeenCalledTimes(3);
   });
 
@@ -477,11 +476,11 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     ConfigProvider.config({ prefixCls: 'my', iconPrefixCls: 'bamboo' });
     confirm({ title: 'title', icon: <SmileOutlined /> });
     jest.runAllTimers();
-    expect(document.querySelectorAll('.ant-btn').length).toBe(0);
+    expect(document.querySelectorAll('.ezd-btn').length).toBe(0);
     expect(document.querySelectorAll('.my-btn').length).toBe(2);
     expect(document.querySelectorAll('.bamboo-smile').length).toBe(1);
     expect(document.querySelectorAll('.my-modal-confirm').length).toBe(1);
-    ConfigProvider.config({ prefixCls: 'ant', iconPrefixCls: null });
+    ConfigProvider.config({ prefixCls: 'ezd', iconPrefixCls: null });
     jest.useRealTimers();
   });
 
@@ -494,14 +493,14 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       rootPrefixCls: 'my',
     });
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Modal] Modal.config is deprecated. Please use ConfigProvider.config instead.',
+      'Warning: [ezd: Modal] Modal.config is deprecated. Please use ConfigProvider.config instead.',
     );
 
     confirm({
       title: 'title',
     });
     jest.runAllTimers();
-    expect(document.querySelectorAll('.ant-btn').length).toBe(0);
+    expect(document.querySelectorAll('.ezd-btn').length).toBe(0);
     expect(document.querySelectorAll('.my-btn').length).toBe(2);
     expect(document.querySelectorAll('.my-modal-confirm').length).toBe(1);
     Modal.config({
@@ -511,7 +510,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       title: 'title',
     });
     jest.runAllTimers();
-    expect(document.querySelectorAll('.ant-btn').length).toBe(0);
+    expect(document.querySelectorAll('.ezd-btn').length).toBe(0);
     expect(document.querySelectorAll('.my-btn').length).toBe(2);
     expect(document.querySelectorAll('.my-modal-confirm').length).toBe(1);
     expect(document.querySelectorAll('.your-btn').length).toBe(2);
@@ -528,7 +527,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       afterClose,
     });
     // first Modal
-    $$('.ant-btn')[0].click();
+    $$('.ezd-btn')[0].click();
     expect(afterClose).not.toHaveBeenCalled();
     await sleep(500);
     expect(afterClose).toHaveBeenCalled();
@@ -540,7 +539,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       afterClose,
     });
     // second Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.ezd-btn-primary')[0].click();
     expect(afterClose).not.toHaveBeenCalled();
     await sleep(500);
     expect(afterClose).toHaveBeenCalled();

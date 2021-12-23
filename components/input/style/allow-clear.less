@@ -1,13 +1,12 @@
 @import (reference) '../../style/themes/index';
-@input-prefix-cls: ~'@{ant-prefix}-input';
+@input-prefix-cls: ~'@{ezd-prefix}-input';
 
 // ========================= Input =========================
-.@{iconfont-css-prefix}.@{ant-prefix}-input-clear-icon {
+.@{iconfont-css-prefix}.@{ezd-prefix}-input-clear-icon {
   margin: 0;
   color: @disabled-color;
   font-size: @font-size-sm;
   vertical-align: -1px;
-  // https://github.com/ant-design/ant-design/pull/18151
   // https://codesandbox.io/s/wizardly-sun-u10br
   cursor: pointer;
   transition: color 0.3s;
@@ -30,11 +29,11 @@
 }
 
 // ======================= TextArea ========================
-.@{ant-prefix}-input-affix-wrapper-textarea-with-clear-btn {
+.@{ezd-prefix}-input-affix-wrapper-textarea-with-clear-btn {
   padding: 0 !important;
   border: 0 !important;
 
-  .@{ant-prefix}-input-clear-icon {
+  .@{ezd-prefix}-input-clear-icon {
     position: absolute;
     top: 8px;
     right: 8px;

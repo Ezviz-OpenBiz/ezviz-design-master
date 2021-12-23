@@ -14,7 +14,7 @@ title:
 You can customize icons for different nodes.
 
 ```jsx
-import { Tree } from '@ezviz/evvd';
+import { Tree } from '@ezviz/ezd';
 import {
   DownOutlined,
   FrownOutlined,

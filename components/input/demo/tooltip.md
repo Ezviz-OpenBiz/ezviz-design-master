@@ -14,7 +14,7 @@ title:
 You can use the Input in conjunction with [Tooltip](/components/tooltip) component to create a Numeric Input, which can provide a good experience for extra-long content display.
 
 ```jsx
-import { Input, Tooltip } from '@ezviz/evvd';
+import { Input, Tooltip } from '@ezviz/ezd';
 
 function formatNumber(value) {
   value += '';
@@ -103,7 +103,7 @@ ReactDOM.render(<NumericInputDemo />, mountNode);
 ```css
 /* to prevent the arrow overflow the popup container,
 or the height is not enough when content is empty */
-.numeric-input .ant-tooltip-inner {
+.numeric-input .ezd-tooltip-inner {
   min-width: 32px;
   min-height: 37px;
 }

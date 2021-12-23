@@ -14,7 +14,7 @@ title:
 Mini size pagination.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 function showTotal(total) {
   return `Total ${total} items`;
@@ -39,7 +39,7 @@ ReactDOM.render(
 ```
 
 <style>
-#components-pagination-demo-mini .ant-pagination:not(:last-child) {
+#components-pagination-demo-mini .ezd-pagination:not(:last-child) {
   margin-bottom: 24px;
 }
 </style>

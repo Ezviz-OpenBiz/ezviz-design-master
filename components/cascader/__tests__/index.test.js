@@ -9,7 +9,7 @@ import mountTest from '../../../tests/shared/mountTest';
 import rtlTest from '../../../tests/shared/rtlTest';
 
 function toggleOpen(wrapper) {
-  wrapper.find('.ant-select-selector').simulate('mousedown');
+  wrapper.find('.ezd-select-selector').simulate('mousedown');
 }
 
 function isOpen(wrapper) {
@@ -17,12 +17,12 @@ function isOpen(wrapper) {
 }
 
 function getDropdown(wrapper) {
-  return wrapper.find('.ant-select-dropdown');
+  return wrapper.find('.ezd-select-dropdown');
 }
 
 function clickOption(wrapper, menuIndex, itemIndex, type = 'click') {
-  const menu = wrapper.find('ul.ant-cascader-menu').at(menuIndex);
-  const itemList = menu.find('li.ant-cascader-menu-item');
+  const menu = wrapper.find('ul.ezd-cascader-menu').at(menuIndex);
+  const itemList = menu.find('li.ezd-cascader-menu-item');
 
   itemList.at(itemIndex).simulate(type);
 }
@@ -192,9 +192,9 @@ describe('Cascader', () => {
 
   it('should support to clear selection', () => {
     const wrapper = mount(<Cascader options={options} defaultValue={['zhejiang', 'hangzhou']} />);
-    expect(wrapper.find('.ant-select-selection-item').text()).toEqual('Zhejiang / Hangzhou');
-    wrapper.find('.ant-select-clear').at(0).simulate('mouseDown');
-    expect(wrapper.exists('.ant-select-selection-item')).toBeFalsy();
+    expect(wrapper.find('.ezd-select-selection-item').text()).toEqual('Zhejiang / Hangzhou');
+    wrapper.find('.ezd-select-clear').at(0).simulate('mouseDown');
+    expect(wrapper.exists('.ezd-select-selection-item')).toBeFalsy();
   });
 
   it('should clear search input when clear selection', () => {
@@ -203,28 +203,28 @@ describe('Cascader', () => {
     );
     wrapper.find('input').simulate('change', { target: { value: 'xxx' } });
 
-    wrapper.find('.ant-select-clear').at(0).simulate('mouseDown');
+    wrapper.find('.ezd-select-clear').at(0).simulate('mouseDown');
     expect(wrapper.find('input').props().value).toEqual('');
   });
 
   it('should change filtered item when options are changed', () => {
     const wrapper = mount(<Cascader options={options} showSearch={{ filter }} />);
     wrapper.find('input').simulate('change', { target: { value: 'a' } });
-    expect(wrapper.find('.ant-cascader-menu-item').length).toBe(2);
+    expect(wrapper.find('.ezd-cascader-menu-item').length).toBe(2);
     wrapper.setProps({ options: [options[0]] });
-    expect(wrapper.find('.ant-cascader-menu-item').length).toBe(1);
+    expect(wrapper.find('.ezd-cascader-menu-item').length).toBe(1);
   });
 
   it('should select item immediately when searching and pressing down arrow key', () => {
     const wrapper = mount(<Cascader options={options} showSearch={{ filter }} />);
     wrapper.find('input').simulate('change', { target: { value: 'a' } });
-    expect(wrapper.find('.ant-cascader-menu-item').length).toBe(2);
-    expect(wrapper.find('.ant-cascader-menu-item-active').length).toBe(0);
+    expect(wrapper.find('.ezd-cascader-menu-item').length).toBe(2);
+    expect(wrapper.find('.ezd-cascader-menu-item-active').length).toBe(0);
 
     wrapper.find('input').simulate('keyDown', {
       which: KeyCode.DOWN,
     });
-    expect(wrapper.find('.ant-cascader-menu-item-active').length).toBe(1);
+    expect(wrapper.find('.ezd-cascader-menu-item-active').length).toBe(1);
   });
 
   it('can use fieldNames', () => {
@@ -281,7 +281,7 @@ describe('Cascader', () => {
     clickOption(wrapper, 0, 0);
     clickOption(wrapper, 1, 0);
     clickOption(wrapper, 2, 0);
-    expect(wrapper.find('.ant-select-selection-item').text()).toEqual(
+    expect(wrapper.find('.ezd-select-selection-item').text()).toEqual(
       'Zhejiang / Hangzhou / West Lake',
     );
     expect(onChange).toHaveBeenCalledWith(['zhejiang', 'hangzhou', 'xihu'], expect.anything());
@@ -296,7 +296,7 @@ describe('Cascader', () => {
 
   it('not found content should be disabled', () => {
     const wrapper = mount(<Cascader options={[]} open />);
-    expect(wrapper.find('.ant-cascader-menu-item-disabled').length).toBe(1);
+    expect(wrapper.find('.ezd-cascader-menu-item-disabled').length).toBe(1);
   });
 
   describe('limit filtered item count', () => {
@@ -309,20 +309,20 @@ describe('Cascader', () => {
     it('limit with positive number', () => {
       const wrapper = mount(<Cascader options={options} showSearch={{ filter, limit: 1 }} />);
       wrapper.find('input').simulate('change', { target: { value: 'a' } });
-      expect(wrapper.find('.ant-cascader-menu-item')).toHaveLength(1);
+      expect(wrapper.find('.ezd-cascader-menu-item')).toHaveLength(1);
     });
 
     it('not limit', () => {
       const wrapper = mount(<Cascader options={options} showSearch={{ filter, limit: false }} />);
       wrapper.find('input').simulate('change', { target: { value: 'a' } });
-      expect(wrapper.find('.ant-cascader-menu-item')).toHaveLength(2);
+      expect(wrapper.find('.ezd-cascader-menu-item')).toHaveLength(2);
     });
 
     it('negative limit', () => {
       const wrapper = mount(<Cascader options={options} showSearch={{ filter, limit: -1 }} />);
       wrapper.find('input').simulate('click');
       wrapper.find('input').simulate('change', { target: { value: 'a' } });
-      expect(wrapper.find('.ant-cascader-menu-item')).toHaveLength(2);
+      expect(wrapper.find('.ezd-cascader-menu-item')).toHaveLength(2);
     });
   });
 
@@ -332,12 +332,11 @@ describe('Cascader', () => {
     const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     mount(<Cascader options={[{ label: 'a', value: 'a', children: [{ label: 'b' }] }]} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Cascader] Not found `value` in `options`.',
+      'Warning: [ezd: Cascader] Not found `value` in `options`.',
     );
     errorSpy.mockRestore();
   });
 
-  // https://github.com/ant-design/ant-design/issues/17690
   it('should not breaks when children is null', () => {
     const optionsWithChildrenNull = [
       {
@@ -359,13 +358,13 @@ describe('Cascader', () => {
 
   it('placeholder works correctly', () => {
     const wrapper = mount(<Cascader options={[]} />);
-    expect(wrapper.find('.ant-select-selection-placeholder').text()).toEqual('');
+    expect(wrapper.find('.ezd-select-selection-placeholder').text()).toEqual('');
 
     const customPlaceholder = 'Custom placeholder';
     wrapper.setProps({
       placeholder: customPlaceholder,
     });
-    expect(wrapper.find('.ant-select-selection-placeholder').text()).toEqual(customPlaceholder);
+    expect(wrapper.find('.ezd-select-selection-placeholder').text()).toEqual(customPlaceholder);
   });
 
   it('popup correctly with defaultValue RTL', () => {
@@ -442,14 +441,14 @@ describe('Cascader', () => {
 
   it('defaultValue works correctly when no match options', () => {
     const wrapper = mount(<Cascader options={options} defaultValue={['options1', 'options2']} />);
-    expect(wrapper.find('.ant-select-selection-item').text()).toEqual('options1 / options2');
+    expect(wrapper.find('.ezd-select-selection-item').text()).toEqual('options1 / options2');
   });
 
   it('can be selected when showSearch', () => {
     const onChange = jest.fn();
     const wrapper = mount(<Cascader options={options} onChange={onChange} showSearch />);
     wrapper.find('input').simulate('change', { target: { value: 'Zh' } });
-    expect(wrapper.find('.ant-cascader-menu').length).toBe(1);
+    expect(wrapper.find('.ezd-cascader-menu').length).toBe(1);
     clickOption(wrapper, 0, 0);
     expect(onChange).toHaveBeenCalledWith(['zhejiang', 'hangzhou', 'xihu'], expect.anything());
   });
@@ -483,7 +482,7 @@ describe('Cascader', () => {
     expect(wrapper.find('Trigger').prop('popupPlacement')).toEqual('topRight');
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Cascader] `popupClassName` is deprecated. Please use `dropdownClassName` instead.',
+      'Warning: [ezd: Cascader] `popupClassName` is deprecated. Please use `dropdownClassName` instead.',
     );
 
     errorSpy.mockRestore();

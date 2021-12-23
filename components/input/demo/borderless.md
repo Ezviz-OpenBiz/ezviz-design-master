@@ -14,7 +14,7 @@ title:
 No border.
 
 ```jsx
-import { Input } from '@ezviz/evvd';
+import { Input } from '@ezviz/ezd';
 
 ReactDOM.render(<Input placeholder="Borderless" bordered={false} />, mountNode);
 ```

@@ -100,7 +100,7 @@ describe('Tooltip', () => {
     expect(ref.current.props.visible).toBe(false);
   });
 
-  describe('should hide when mouse leave antd disabled component', () => {
+  describe('should hide when mouse leave ezd disabled component', () => {
     function testComponent(name, Component) {
       it(name, () => {
         const onVisibleChange = jest.fn();
@@ -210,8 +210,8 @@ describe('Tooltip', () => {
       </Tooltip>,
     );
 
-    expect(wrapper.find('.ant-picker')).toHaveLength(1);
-    const picker = wrapper.find('.ant-picker').at(0);
+    expect(wrapper.find('.ezd-picker')).toHaveLength(1);
+    const picker = wrapper.find('.ezd-picker').at(0);
     picker.simulate('mouseenter');
     await sleep(100);
     expect(onVisibleChange).toHaveBeenCalledWith(true);
@@ -248,14 +248,13 @@ describe('Tooltip', () => {
     expect(ref.current.props.visible).toBe(false);
   });
 
-  // https://github.com/ant-design/ant-design/issues/20891
   it('should display zero', () => {
     const wrapper = mount(
       <Tooltip title={0} visible>
         <div />
       </Tooltip>,
     );
-    expect(wrapper.find('.ant-tooltip-inner').getDOMNode().innerHTML).toBe('0');
+    expect(wrapper.find('.ezd-tooltip-inner').getDOMNode().innerHTML).toBe('0');
   });
 
   it('autoAdjustOverflow should be object or undefined', () => {
@@ -337,7 +336,7 @@ describe('Tooltip', () => {
     const button = wrapper.find('span').at(0);
     button.simulate('mouseenter');
     await sleep(600);
-    expect(ref.current.getPopupDomNode().className).toContain('ant-tooltip');
+    expect(ref.current.getPopupDomNode().className).toContain('ezd-tooltip');
   });
 
   it('should pass overlayInnerStyle through to the inner component', () => {
@@ -346,6 +345,6 @@ describe('Tooltip', () => {
         <div />
       </Tooltip>,
     );
-    expect(wrapper.find('.ant-tooltip-inner').getDOMNode().style.color).toBe('red');
+    expect(wrapper.find('.ezd-tooltip-inner').getDOMNode().style.color).toBe('red');
   });
 });

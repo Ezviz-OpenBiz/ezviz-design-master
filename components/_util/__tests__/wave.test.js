@@ -26,7 +26,7 @@ describe('Wave component', () => {
     expect(wrapper.find('button').getDOMNode().className).toBe('');
     wrapper.find('button').getDOMNode().click();
     expect(
-      wrapper.find('button').getDOMNode().hasAttribute('ant-click-animating-without-extra-node'),
+      wrapper.find('button').getDOMNode().hasAttribute('ezd-click-animating-without-extra-node'),
     ).toBe(false);
     wrapper.unmount();
     process.env.NODE_ENV = TEST_NODE_ENV;
@@ -41,7 +41,7 @@ describe('Wave component', () => {
     expect(wrapper.find('button').getDOMNode().className).toBe('');
     wrapper.find('button').getDOMNode().click();
     expect(
-      wrapper.find('button').getDOMNode().getAttribute('ant-click-animating-without-extra-node'),
+      wrapper.find('button').getDOMNode().getAttribute('ezd-click-animating-without-extra-node'),
     ).toBe('false');
     wrapper.unmount();
   });
@@ -73,7 +73,7 @@ describe('Wave component', () => {
     await sleep(200);
     const styles = wrapper.find('button').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--antd-wave-shadow-color: red;');
+    expect(styles[0].innerHTML).toContain('--ezd-wave-shadow-color: red;');
     wrapper.unmount();
   });
 
@@ -87,7 +87,7 @@ describe('Wave component', () => {
     await sleep(0);
     const styles = wrapper.find('div').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--antd-wave-shadow-color: blue;');
+    expect(styles[0].innerHTML).toContain('--ezd-wave-shadow-color: blue;');
     wrapper.unmount();
   });
 
@@ -101,7 +101,7 @@ describe('Wave component', () => {
     await sleep(0);
     const styles = wrapper.find('div').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--antd-wave-shadow-color: green;');
+    expect(styles[0].innerHTML).toContain('--ezd-wave-shadow-color: green;');
     wrapper.unmount();
   });
 
@@ -115,7 +115,7 @@ describe('Wave component', () => {
     await sleep(0);
     const styles = wrapper.find('div').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--antd-wave-shadow-color: yellow;');
+    expect(styles[0].innerHTML).toContain('--ezd-wave-shadow-color: yellow;');
     wrapper.unmount();
   });
 

@@ -3,15 +3,15 @@
 exports[`Switch rtl render component should be rendered correctly in RTL direction 1`] = `
 <button
   aria-checked="false"
-  class="ant-switch ant-switch-rtl"
+  class="ezd-switch ezd-switch-rtl"
   role="switch"
   type="button"
 >
   <div
-    class="ant-switch-handle"
+    class="ezd-switch-handle"
   />
   <span
-    class="ant-switch-inner"
+    class="ezd-switch-inner"
   />
 </button>
 `;

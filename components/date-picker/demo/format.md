@@ -14,7 +14,7 @@ title:
 We can set the date format by `format`.
 
 ```jsx
-import { DatePicker, Space } from '@ezviz/evvd';
+import { DatePicker, Space } from '@ezviz/ezd';
 import moment from 'moment';
 
 const { RangePicker } = DatePicker;

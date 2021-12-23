@@ -14,7 +14,7 @@ title:
 The simplest use.
 
 ```jsx
-import { Breadcrumb } from '@ezviz/evvd';
+import { Breadcrumb } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Breadcrumb>

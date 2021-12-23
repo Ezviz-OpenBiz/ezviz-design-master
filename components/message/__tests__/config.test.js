@@ -23,7 +23,7 @@ describe('message.config', () => {
       top: 100,
     });
     message.info('whatever');
-    expect(document.querySelectorAll('.ant-message')[0].style.top).toBe('100px');
+    expect(document.querySelectorAll('.ezd-message')[0].style.top).toBe('100px');
   });
 
   it('should be able to config rtl', () => {
@@ -31,7 +31,7 @@ describe('message.config', () => {
       rtl: true,
     });
     message.info('whatever');
-    expect(document.querySelectorAll('.ant-message-rtl').length).toBe(1);
+    expect(document.querySelectorAll('.ezd-message-rtl').length).toBe(1);
   });
 
   it('should be able to config getContainer', () => {
@@ -56,8 +56,8 @@ describe('message.config', () => {
     }
 
     message.info('last');
-    expect(document.querySelectorAll('.ant-message-notice').length).toBe(5);
-    expect(document.querySelectorAll('.ant-message-notice')[4].textContent).toBe('last');
+    expect(document.querySelectorAll('.ezd-message-notice').length).toBe(5);
+    expect(document.querySelectorAll('.ezd-message-notice')[4].textContent).toBe('last');
     jest.runAllTimers();
     expect(getInstance().component.state.notices).toHaveLength(0);
   });
@@ -98,20 +98,20 @@ describe('message.config', () => {
   it('should be able to global config rootPrefixCls', () => {
     ConfigProvider.config({ prefixCls: 'prefix-test', iconPrefixCls: 'bamboo' });
     message.info('last');
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.ezd-message-notice')).toHaveLength(0);
     expect(document.querySelectorAll('.prefix-test-message-notice')).toHaveLength(1);
     expect(document.querySelectorAll('.bamboo-info-circle')).toHaveLength(1);
-    ConfigProvider.config({ prefixCls: 'ant', iconPrefixCls: null });
+    ConfigProvider.config({ prefixCls: 'ezd', iconPrefixCls: null });
   });
   it('should be able to config prefixCls', () => {
     message.config({
       prefixCls: 'prefix-test',
     });
     message.info('last');
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.ezd-message-notice')).toHaveLength(0);
     expect(document.querySelectorAll('.prefix-test-notice')).toHaveLength(1);
     message.config({
-      prefixCls: '', // can be set to empty, ant default value is set in ConfigProvider
+      prefixCls: '', // can be set to empty, ezd default value is set in ConfigProvider
     });
   });
 
@@ -120,9 +120,9 @@ describe('message.config', () => {
       transitionName: '',
     });
     message.info('last');
-    expect(document.querySelectorAll('.ant-move-up-enter')).toHaveLength(0);
+    expect(document.querySelectorAll('.ezd-move-up-enter')).toHaveLength(0);
     message.config({
-      transitionName: 'ant-move-up',
+      transitionName: 'ezd-move-up',
     });
   });
 });

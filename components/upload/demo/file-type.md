@@ -15,7 +15,7 @@ title:
 Displays the corresponding by default by type icon
 
 ```jsx
-import { Upload, Modal } from '@ezviz/evvd';
+import { Upload, Modal } from '@ezviz/ezd';
 import {
   LoadingOutlined,
   PaperClipOutlined,

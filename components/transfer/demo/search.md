@@ -14,7 +14,7 @@ title:
 Transfer with a search box.
 
 ```jsx
-import { Transfer } from '@ezviz/evvd';
+import { Transfer } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

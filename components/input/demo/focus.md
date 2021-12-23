@@ -14,7 +14,7 @@ title:
 Focus with additional option.
 
 ```tsx
-import { Input, Space, Button, Switch } from '@ezviz/evvd';
+import { Input, Space, Button, Switch } from '@ezviz/ezd';
 
 const Demo = () => {
   const inputRef = React.useRef<any>(null);
@@ -22,7 +22,7 @@ const Demo = () => {
 
   const sharedProps = {
     style: { width: '100%' },
-    defaultValue: 'Evv Design love you!',
+    defaultValue: 'EZ Design love you!',
     ref: inputRef,
   };
 

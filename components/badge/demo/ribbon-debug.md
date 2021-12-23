@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```jsx
-import { Badge, Card, Space } from '@ezviz/evvd';
+import { Badge, Card, Space } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Space direction="vertical" style={{ width: '100%' }}>

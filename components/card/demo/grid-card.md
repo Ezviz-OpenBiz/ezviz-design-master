@@ -14,7 +14,7 @@ title:
 Grid style card content.
 
 ```jsx
-import { Card } from '@ezviz/evvd';
+import { Card } from '@ezviz/ezd';
 
 const gridStyle = {
   width: '25%',

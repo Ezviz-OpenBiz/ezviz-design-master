@@ -230,7 +230,6 @@ function generateSorterInfo<RecordType>(
   const list = sorterStates.filter(({ sortOrder }) => sortOrder).map(stateToInfo);
 
   // =========== Legacy compatible support ===========
-  // https://github.com/ant-design/ant-design/pull/19226
   if (list.length === 0 && sorterStates.length) {
     return {
       ...stateToInfo(sorterStates[sorterStates.length - 1]),

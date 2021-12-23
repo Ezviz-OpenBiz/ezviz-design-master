@@ -15,7 +15,7 @@ debug: true
 Plenty of tree nodes.
 
 ```jsx
-import { Tree } from '@ezviz/evvd';
+import { Tree } from '@ezviz/ezd';
 
 const treeData = [];
 

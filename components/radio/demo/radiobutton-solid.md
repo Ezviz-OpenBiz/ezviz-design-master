@@ -14,7 +14,7 @@ title:
 Solid radio button style.
 
 ```jsx
-import { Radio } from '@ezviz/evvd';
+import { Radio } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

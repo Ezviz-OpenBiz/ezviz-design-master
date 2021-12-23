@@ -14,7 +14,7 @@ title:
 You could display an arrow.
 
 ```jsx
-import { Menu, Dropdown, Button } from '@ezviz/evvd';
+import { Menu, Dropdown, Button } from '@ezviz/ezd';
 
 const menu = (
   <Menu>
@@ -63,11 +63,11 @@ ReactDOM.render(
 ```
 
 ```css
-#components-dropdown-demo-arrow .ant-btn {
+#components-dropdown-demo-arrow .ezd-btn {
   margin-right: 8px;
   margin-bottom: 8px;
 }
-.ant-row-rtl #components-dropdown-demo-arrow .ant-btn {
+.ezd-row-rtl #components-dropdown-demo-arrow .ezd-btn {
   margin-right: 0;
   margin-bottom: 8px;
   margin-left: 8px;

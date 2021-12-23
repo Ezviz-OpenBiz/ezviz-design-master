@@ -14,7 +14,7 @@ title:
 Use react-sticky.
 
 ```jsx
-import { Tabs } from '@ezviz/evvd';
+import { Tabs } from '@ezviz/ezd';
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const { TabPane } = Tabs;

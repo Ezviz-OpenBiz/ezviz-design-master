@@ -19,7 +19,7 @@ We can store form data into upper component or [Redux](https://github.com/reactj
 
 ```tsx
 import React, { useState } from 'react';
-import { Form, Input } from '@ezviz/evvd';
+import { Form, Input } from '@ezviz/ezd';
 
 interface FieldData {
   name: string | number | (string | number)[];
@@ -54,7 +54,7 @@ const CustomizedForm: React.FC<CustomizedFormProps> = ({ onChange, fields }) => 
 );
 
 const Demo = () => {
-  const [fields, setFields] = useState<FieldData[]>([{ name: ['username'], value: 'Evv Design' }]);
+  const [fields, setFields] = useState<FieldData[]>([{ name: ['username'], value: 'EZ Design' }]);
 
   return (
     <>

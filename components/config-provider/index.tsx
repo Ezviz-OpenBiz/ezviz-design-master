@@ -4,7 +4,7 @@ import { FormProvider as RcFormProvider } from 'rc-field-form';
 import { ValidateMessages } from 'rc-field-form/lib/interface';
 import useMemo from 'rc-util/lib/hooks/useMemo';
 import { RenderEmptyHandler } from './renderEmpty';
-import LocaleProvider, { ANT_MARK, Locale } from '../locale-provider';
+import LocaleProvider, { EZD_MARK, Locale } from '../locale-provider';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import {
   ConfigConsumer,
@@ -86,8 +86,8 @@ interface ProviderChildrenProps extends ConfigProviderProps {
   legacyLocale: Locale;
 }
 
-export const defaultPrefixCls = 'ant';
-export const defaultIconPrefixCls = 'anticon';
+export const defaultPrefixCls = 'ezd';
+export const defaultIconPrefixCls = 'ezdicon';
 let globalPrefixCls: string;
 let globalIconPrefixCls: string;
 
@@ -194,7 +194,6 @@ const ProviderChildren: React.FC<ProviderChildrenProps> = props => {
     }
   });
 
-  // https://github.com/ant-design/ant-design/issues/27617
   const memoedConfig = useMemo(
     () => config,
     config,
@@ -231,7 +230,7 @@ const ProviderChildren: React.FC<ProviderChildrenProps> = props => {
 
   if (locale) {
     childNode = (
-      <LocaleProvider locale={locale} _ANT_MARK__={ANT_MARK}>
+      <LocaleProvider locale={locale} _EZD_MARK__={EZD_MARK}>
         {childNode}
       </LocaleProvider>
     );

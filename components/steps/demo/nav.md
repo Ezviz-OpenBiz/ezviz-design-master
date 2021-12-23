@@ -14,7 +14,7 @@ title:
 Navigation steps.
 
 ```jsx
-import { Steps } from '@ezviz/evvd';
+import { Steps } from '@ezviz/ezd';
 
 const { Step } = Steps;
 

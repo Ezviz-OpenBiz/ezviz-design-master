@@ -14,7 +14,7 @@ title:
 Custom sizes to fit in a variety of containers.
 
 ```jsx
-import { Descriptions, Radio, Button } from '@ezviz/evvd';
+import { Descriptions, Radio, Button } from '@ezviz/ezd';
 
 class Demo extends React.Component {
   state = {

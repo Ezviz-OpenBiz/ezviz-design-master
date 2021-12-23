@@ -3,20 +3,20 @@
 exports[`renders ./components/page-header/demo/actions.md correctly 1`] = `
 Array [
   <div
-    class="ant-page-header site-page-header ant-page-header-ghost"
+    class="ezd-page-header site-page-header ant-page-header-ghost"
   >
     <div
-      class="ant-page-header-heading"
+      class="ezd-page-header-heading"
     >
       <div
-        class="ant-page-header-heading-left"
+        class="ezd-page-header-heading-left"
       >
         <div
-          class="ant-page-header-back"
+          class="ezd-page-header-back"
         >
           <div
             aria-label="Back"
-            class="ant-page-header-back-button"
+            class="ezd-page-header-back-button"
             role="button"
             style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
             tabindex="0"
@@ -43,23 +43,23 @@ Array [
           </div>
         </div>
         <span
-          class="ant-page-header-heading-title"
+          class="ezd-page-header-heading-title"
           title="Title"
         >
           Title
         </span>
         <span
-          class="ant-page-header-heading-sub-title"
+          class="ezd-page-header-heading-sub-title"
           title="This is a subtitle"
         >
           This is a subtitle
         </span>
       </div>
       <span
-        class="ant-page-header-heading-extra"
+        class="ezd-page-header-heading-extra"
       >
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -67,7 +67,7 @@ Array [
           </span>
         </button>
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -75,7 +75,7 @@ Array [
           </span>
         </button>
         <button
-          class="ant-btn ant-btn-primary"
+          class="ezd-btn ant-btn-primary"
           type="button"
         >
           <span>
@@ -85,52 +85,52 @@ Array [
       </span>
     </div>
     <div
-      class="ant-page-header-content"
+      class="ezd-page-header-content"
     >
       <div
-        class="ant-descriptions ant-descriptions-small"
+        class="ezd-descriptions ant-descriptions-small"
       >
         <div
-          class="ant-descriptions-view"
+          class="ezd-descriptions-view"
         >
           <table>
             <tbody>
               <tr
-                class="ant-descriptions-row"
+                class="ezd-descriptions-row"
               >
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Created
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       Lili Qu
                     </span>
                   </div>
                 </td>
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Association
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       <a>
                         421421
@@ -139,19 +139,19 @@ Array [
                   </div>
                 </td>
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Creation Time
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       2017-01-10
                     </span>
@@ -159,41 +159,41 @@ Array [
                 </td>
               </tr>
               <tr
-                class="ant-descriptions-row"
+                class="ezd-descriptions-row"
               >
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Effective Time
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       2017-10-10
                     </span>
                   </div>
                 </td>
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="2"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Remarks
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       Gonghu Road, Xihu District, Hangzhou, Zhejiang, China
                     </span>
@@ -208,20 +208,20 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-page-header ant-page-header-ghost"
+    class="ezd-page-header ant-page-header-ghost"
   >
     <div
-      class="ant-page-header-heading"
+      class="ezd-page-header-heading"
     >
       <div
-        class="ant-page-header-heading-left"
+        class="ezd-page-header-heading-left"
       >
         <div
-          class="ant-page-header-back"
+          class="ezd-page-header-back"
         >
           <div
             aria-label="Back"
-            class="ant-page-header-back-button"
+            class="ezd-page-header-back-button"
             role="button"
             style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
             tabindex="0"
@@ -248,32 +248,32 @@ Array [
           </div>
         </div>
         <span
-          class="ant-page-header-heading-title"
+          class="ezd-page-header-heading-title"
           title="Title"
         >
           Title
         </span>
         <span
-          class="ant-page-header-heading-sub-title"
+          class="ezd-page-header-heading-sub-title"
           title="This is a subtitle"
         >
           This is a subtitle
         </span>
         <span
-          class="ant-page-header-heading-tags"
+          class="ezd-page-header-heading-tags"
         >
           <span
-            class="ant-tag ant-tag-blue"
+            class="ezd-tag ant-tag-blue"
           >
             Running
           </span>
         </span>
       </div>
       <span
-        class="ant-page-header-heading-extra"
+        class="ezd-page-header-heading-extra"
       >
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -281,7 +281,7 @@ Array [
           </span>
         </button>
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -289,7 +289,7 @@ Array [
           </span>
         </button>
         <button
-          class="ant-btn ant-btn-primary"
+          class="ezd-btn ant-btn-primary"
           type="button"
         >
           <span>
@@ -299,56 +299,56 @@ Array [
       </span>
     </div>
     <div
-      class="ant-page-header-content"
+      class="ezd-page-header-content"
     >
       <div
-        class="ant-row"
+        class="ezd-row"
       >
         <div
-          class="ant-statistic"
+          class="ezd-statistic"
         >
           <div
-            class="ant-statistic-title"
+            class="ezd-statistic-title"
           >
             Status
           </div>
           <div
-            class="ant-statistic-content"
+            class="ezd-statistic-content"
           >
             <span
-              class="ant-statistic-content-value"
+              class="ezd-statistic-content-value"
             >
               Pending
             </span>
           </div>
         </div>
         <div
-          class="ant-statistic"
+          class="ezd-statistic"
           style="margin:0 32px"
         >
           <div
-            class="ant-statistic-title"
+            class="ezd-statistic-title"
           >
             Price
           </div>
           <div
-            class="ant-statistic-content"
+            class="ezd-statistic-content"
           >
             <span
-              class="ant-statistic-content-prefix"
+              class="ezd-statistic-content-prefix"
             >
               $
             </span>
             <span
-              class="ant-statistic-content-value"
+              class="ezd-statistic-content-value"
             >
               <span
-                class="ant-statistic-content-value-int"
+                class="ezd-statistic-content-value-int"
               >
                 568
               </span>
               <span
-                class="ant-statistic-content-value-decimal"
+                class="ezd-statistic-content-value-decimal"
               >
                 .08
               </span>
@@ -356,31 +356,31 @@ Array [
           </div>
         </div>
         <div
-          class="ant-statistic"
+          class="ezd-statistic"
         >
           <div
-            class="ant-statistic-title"
+            class="ezd-statistic-title"
           >
             Balance
           </div>
           <div
-            class="ant-statistic-content"
+            class="ezd-statistic-content"
           >
             <span
-              class="ant-statistic-content-prefix"
+              class="ezd-statistic-content-prefix"
             >
               $
             </span>
             <span
-              class="ant-statistic-content-value"
+              class="ezd-statistic-content-value"
             >
               <span
-                class="ant-statistic-content-value-int"
+                class="ezd-statistic-content-value-int"
               >
                 3,345
               </span>
               <span
-                class="ant-statistic-content-value-decimal"
+                class="ezd-statistic-content-value-decimal"
               >
                 .08
               </span>
@@ -395,20 +395,20 @@ Array [
 
 exports[`renders ./components/page-header/demo/basic.md correctly 1`] = `
 <div
-  class="ant-page-header site-page-header ant-page-header-ghost"
+  class="ezd-page-header site-page-header ant-page-header-ghost"
 >
   <div
-    class="ant-page-header-heading"
+    class="ezd-page-header-heading"
   >
     <div
-      class="ant-page-header-heading-left"
+      class="ezd-page-header-heading-left"
     >
       <div
-        class="ant-page-header-back"
+        class="ezd-page-header-back"
       >
         <div
           aria-label="Back"
-          class="ant-page-header-back-button"
+          class="ezd-page-header-back-button"
           role="button"
           style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
           tabindex="0"
@@ -435,13 +435,13 @@ exports[`renders ./components/page-header/demo/basic.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-page-header-heading-title"
+        class="ezd-page-header-heading-title"
         title="Title"
       >
         Title
       </span>
       <span
-        class="ant-page-header-heading-sub-title"
+        class="ezd-page-header-heading-sub-title"
         title="This is a subtitle"
       >
         This is a subtitle
@@ -453,14 +453,14 @@ exports[`renders ./components/page-header/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/page-header/demo/breadcrumb.md correctly 1`] = `
 <div
-  class="ant-page-header site-page-header has-breadcrumb ant-page-header-ghost"
+  class="ezd-page-header site-page-header has-breadcrumb ant-page-header-ghost"
 >
   <div
-    class="ant-breadcrumb"
+    class="ezd-breadcrumb"
   >
     <span>
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         <a
           href="#/index"
@@ -469,14 +469,14 @@ exports[`renders ./components/page-header/demo/breadcrumb.md correctly 1`] = `
         </a>
       </span>
       <span
-        class="ant-breadcrumb-separator"
+        class="ezd-breadcrumb-separator"
       >
         /
       </span>
     </span>
     <span>
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         <a
           href="#/index/first"
@@ -485,40 +485,40 @@ exports[`renders ./components/page-header/demo/breadcrumb.md correctly 1`] = `
         </a>
       </span>
       <span
-        class="ant-breadcrumb-separator"
+        class="ezd-breadcrumb-separator"
       >
         /
       </span>
     </span>
     <span>
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         <span>
           Third-level Menu
         </span>
       </span>
       <span
-        class="ant-breadcrumb-separator"
+        class="ezd-breadcrumb-separator"
       >
         /
       </span>
     </span>
   </div>
   <div
-    class="ant-page-header-heading"
+    class="ezd-page-header-heading"
   >
     <div
-      class="ant-page-header-heading-left"
+      class="ezd-page-header-heading-left"
     >
       <span
-        class="ant-page-header-heading-title"
+        class="ezd-page-header-heading-title"
         title="Title"
       >
         Title
       </span>
       <span
-        class="ant-page-header-heading-sub-title"
+        class="ezd-page-header-heading-sub-title"
         title="This is a subtitle"
       >
         This is a subtitle
@@ -530,14 +530,14 @@ exports[`renders ./components/page-header/demo/breadcrumb.md correctly 1`] = `
 
 exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
 <div
-  class="ant-page-header site-page-header has-breadcrumb ant-page-header-ghost"
+  class="ezd-page-header site-page-header has-breadcrumb ant-page-header-ghost"
 >
   <div
-    class="ant-breadcrumb"
+    class="ezd-breadcrumb"
   >
     <span>
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         <a
           href="#/index"
@@ -546,14 +546,14 @@ exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
         </a>
       </span>
       <span
-        class="ant-breadcrumb-separator"
+        class="ezd-breadcrumb-separator"
       >
         /
       </span>
     </span>
     <span>
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         <a
           href="#/index/first"
@@ -562,66 +562,66 @@ exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
         </a>
       </span>
       <span
-        class="ant-breadcrumb-separator"
+        class="ezd-breadcrumb-separator"
       >
         /
       </span>
     </span>
     <span>
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         <span>
           Third-level Menu
         </span>
       </span>
       <span
-        class="ant-breadcrumb-separator"
+        class="ezd-breadcrumb-separator"
       >
         /
       </span>
     </span>
   </div>
   <div
-    class="ant-page-header-heading"
+    class="ezd-page-header-heading"
   >
     <div
-      class="ant-page-header-heading-left"
+      class="ezd-page-header-heading-left"
     >
       <span
-        class="ant-avatar ant-avatar-circle ant-avatar-image"
+        class="ezd-avatar ant-avatar-circle ant-avatar-image"
       >
         <img
           src="https://avatars1.githubusercontent.com/u/8186664?s=460&v=4"
         />
       </span>
       <span
-        class="ant-page-header-heading-title"
+        class="ezd-page-header-heading-title"
         title="Title"
       >
         Title
       </span>
       <span
-        class="ant-page-header-heading-sub-title"
+        class="ezd-page-header-heading-sub-title"
         title="This is a subtitle"
       >
         This is a subtitle
       </span>
       <span
-        class="ant-page-header-heading-tags"
+        class="ezd-page-header-heading-tags"
       >
         <span
-          class="ant-tag ant-tag-blue"
+          class="ezd-tag ant-tag-blue"
         >
           Running
         </span>
       </span>
     </div>
     <span
-      class="ant-page-header-heading-extra"
+      class="ezd-page-header-heading-extra"
     >
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span>
@@ -629,7 +629,7 @@ exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span>
@@ -637,7 +637,7 @@ exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span>
@@ -645,7 +645,7 @@ exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-dropdown-trigger"
+        class="ezd-btn ant-dropdown-trigger"
         style="border:none;padding:0"
         type="button"
       >
@@ -673,23 +673,23 @@ exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-page-header-content"
+    class="ezd-page-header-content"
   >
     <div
-      class="ant-row"
+      class="ezd-row"
     >
       <div
         style="flex:1"
       >
         <div
-          class="ant-typography"
+          class="ezd-typography"
         >
-          Evv Design interprets the color system into two levels: a system-level color system and a product-level color system.
+          EZ Design interprets the color system into two levels: a system-level color system and a product-level color system.
         </div>
         <div
-          class="ant-typography"
+          class="ezd-typography"
         >
-          Evv Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams.
+          EZ Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams.
         </div>
         <div>
           <a
@@ -743,20 +743,20 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
   class="site-page-header-ghost-wrapper"
 >
   <div
-    class="ant-page-header"
+    class="ezd-page-header"
   >
     <div
-      class="ant-page-header-heading"
+      class="ezd-page-header-heading"
     >
       <div
-        class="ant-page-header-heading-left"
+        class="ezd-page-header-heading-left"
       >
         <div
-          class="ant-page-header-back"
+          class="ezd-page-header-back"
         >
           <div
             aria-label="Back"
-            class="ant-page-header-back-button"
+            class="ezd-page-header-back-button"
             role="button"
             style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
             tabindex="0"
@@ -783,23 +783,23 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-page-header-heading-title"
+          class="ezd-page-header-heading-title"
           title="Title"
         >
           Title
         </span>
         <span
-          class="ant-page-header-heading-sub-title"
+          class="ezd-page-header-heading-sub-title"
           title="This is a subtitle"
         >
           This is a subtitle
         </span>
       </div>
       <span
-        class="ant-page-header-heading-extra"
+        class="ezd-page-header-heading-extra"
       >
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -807,7 +807,7 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -815,7 +815,7 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn ant-btn-primary"
+          class="ezd-btn ant-btn-primary"
           type="button"
         >
           <span>
@@ -825,52 +825,52 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-page-header-content"
+      class="ezd-page-header-content"
     >
       <div
-        class="ant-descriptions ant-descriptions-small"
+        class="ezd-descriptions ant-descriptions-small"
       >
         <div
-          class="ant-descriptions-view"
+          class="ezd-descriptions-view"
         >
           <table>
             <tbody>
               <tr
-                class="ant-descriptions-row"
+                class="ezd-descriptions-row"
               >
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Created
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       Lili Qu
                     </span>
                   </div>
                 </td>
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Association
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       <a>
                         421421
@@ -879,19 +879,19 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
                   </div>
                 </td>
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Creation Time
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       2017-01-10
                     </span>
@@ -899,41 +899,41 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
                 </td>
               </tr>
               <tr
-                class="ant-descriptions-row"
+                class="ezd-descriptions-row"
               >
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="1"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Effective Time
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       2017-10-10
                     </span>
                   </div>
                 </td>
                 <td
-                  class="ant-descriptions-item"
+                  class="ezd-descriptions-item"
                   colspan="2"
                 >
                   <div
-                    class="ant-descriptions-item-container"
+                    class="ezd-descriptions-item-container"
                   >
                     <span
-                      class="ant-descriptions-item-label"
+                      class="ezd-descriptions-item-label"
                     >
                       Remarks
                     </span>
                     <span
-                      class="ant-descriptions-item-content"
+                      class="ezd-descriptions-item-content"
                     >
                       Gonghu Road, Xihu District, Hangzhou, Zhejiang, China
                     </span>
@@ -951,20 +951,20 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
 
 exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
 <div
-  class="ant-page-header site-page-header-responsive has-footer ant-page-header-ghost"
+  class="ezd-page-header site-page-header-responsive has-footer ant-page-header-ghost"
 >
   <div
-    class="ant-page-header-heading"
+    class="ezd-page-header-heading"
   >
     <div
-      class="ant-page-header-heading-left"
+      class="ezd-page-header-heading-left"
     >
       <div
-        class="ant-page-header-back"
+        class="ezd-page-header-back"
       >
         <div
           aria-label="Back"
-          class="ant-page-header-back-button"
+          class="ezd-page-header-back-button"
           role="button"
           style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
           tabindex="0"
@@ -991,23 +991,23 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-page-header-heading-title"
+        class="ezd-page-header-heading-title"
         title="Title"
       >
         Title
       </span>
       <span
-        class="ant-page-header-heading-sub-title"
+        class="ezd-page-header-heading-sub-title"
         title="This is a subtitle"
       >
         This is a subtitle
       </span>
     </div>
     <span
-      class="ant-page-header-heading-extra"
+      class="ezd-page-header-heading-extra"
     >
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span>
@@ -1015,7 +1015,7 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span>
@@ -1023,7 +1023,7 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span>
@@ -1033,7 +1033,7 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-page-header-content"
+    class="ezd-page-header-content"
   >
     <div
       class="content"
@@ -1042,49 +1042,49 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
         class="main"
       >
         <div
-          class="ant-descriptions ant-descriptions-small"
+          class="ezd-descriptions ant-descriptions-small"
         >
           <div
-            class="ant-descriptions-view"
+            class="ezd-descriptions-view"
           >
             <table>
               <tbody>
                 <tr
-                  class="ant-descriptions-row"
+                  class="ezd-descriptions-row"
                 >
                   <td
-                    class="ant-descriptions-item"
+                    class="ezd-descriptions-item"
                     colspan="1"
                   >
                     <div
-                      class="ant-descriptions-item-container"
+                      class="ezd-descriptions-item-container"
                     >
                       <span
-                        class="ant-descriptions-item-label"
+                        class="ezd-descriptions-item-label"
                       >
                         Created
                       </span>
                       <span
-                        class="ant-descriptions-item-content"
+                        class="ezd-descriptions-item-content"
                       >
                         Lili Qu
                       </span>
                     </div>
                   </td>
                   <td
-                    class="ant-descriptions-item"
+                    class="ezd-descriptions-item"
                     colspan="1"
                   >
                     <div
-                      class="ant-descriptions-item-container"
+                      class="ezd-descriptions-item-container"
                     >
                       <span
-                        class="ant-descriptions-item-label"
+                        class="ezd-descriptions-item-label"
                       >
                         Association
                       </span>
                       <span
-                        class="ant-descriptions-item-content"
+                        class="ezd-descriptions-item-content"
                       >
                         <a>
                           421421
@@ -1094,41 +1094,41 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
                   </td>
                 </tr>
                 <tr
-                  class="ant-descriptions-row"
+                  class="ezd-descriptions-row"
                 >
                   <td
-                    class="ant-descriptions-item"
+                    class="ezd-descriptions-item"
                     colspan="1"
                   >
                     <div
-                      class="ant-descriptions-item-container"
+                      class="ezd-descriptions-item-container"
                     >
                       <span
-                        class="ant-descriptions-item-label"
+                        class="ezd-descriptions-item-label"
                       >
                         Creation Time
                       </span>
                       <span
-                        class="ant-descriptions-item-content"
+                        class="ezd-descriptions-item-content"
                       >
                         2017-01-10
                       </span>
                     </div>
                   </td>
                   <td
-                    class="ant-descriptions-item"
+                    class="ezd-descriptions-item"
                     colspan="1"
                   >
                     <div
-                      class="ant-descriptions-item-container"
+                      class="ezd-descriptions-item-container"
                     >
                       <span
-                        class="ant-descriptions-item-label"
+                        class="ezd-descriptions-item-label"
                       >
                         Effective Time
                       </span>
                       <span
-                        class="ant-descriptions-item-content"
+                        class="ezd-descriptions-item-content"
                       >
                         2017-10-10
                       </span>
@@ -1136,22 +1136,22 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
                   </td>
                 </tr>
                 <tr
-                  class="ant-descriptions-row"
+                  class="ezd-descriptions-row"
                 >
                   <td
-                    class="ant-descriptions-item"
+                    class="ezd-descriptions-item"
                     colspan="2"
                   >
                     <div
-                      class="ant-descriptions-item-container"
+                      class="ezd-descriptions-item-container"
                     >
                       <span
-                        class="ant-descriptions-item-label"
+                        class="ezd-descriptions-item-label"
                       >
                         Remarks
                       </span>
                       <span
-                        class="ant-descriptions-item-content"
+                        class="ezd-descriptions-item-content"
                       >
                         Gonghu Road, Xihu District, Hangzhou, Zhejiang, China
                       </span>
@@ -1170,50 +1170,50 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
           style="display:flex;width:max-content;justify-content:flex-end"
         >
           <div
-            class="ant-statistic"
+            class="ezd-statistic"
             style="margin-right:32px"
           >
             <div
-              class="ant-statistic-title"
+              class="ezd-statistic-title"
             >
               Status
             </div>
             <div
-              class="ant-statistic-content"
+              class="ezd-statistic-content"
             >
               <span
-                class="ant-statistic-content-value"
+                class="ezd-statistic-content-value"
               >
                 Pending
               </span>
             </div>
           </div>
           <div
-            class="ant-statistic"
+            class="ezd-statistic"
           >
             <div
-              class="ant-statistic-title"
+              class="ezd-statistic-title"
             >
               Price
             </div>
             <div
-              class="ant-statistic-content"
+              class="ezd-statistic-content"
             >
               <span
-                class="ant-statistic-content-prefix"
+                class="ezd-statistic-content-prefix"
               >
                 $
               </span>
               <span
-                class="ant-statistic-content-value"
+                class="ezd-statistic-content-value"
               >
                 <span
-                  class="ant-statistic-content-value-int"
+                  class="ezd-statistic-content-value-int"
                 >
                   568
                 </span>
                 <span
-                  class="ant-statistic-content-value-decimal"
+                  class="ezd-statistic-content-value-decimal"
                 >
                   .08
                 </span>
@@ -1225,28 +1225,28 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-page-header-footer"
+    class="ezd-page-header-footer"
   >
     <div
-      class="ant-tabs ant-tabs-top"
+      class="ezd-tabs ant-tabs-top"
     >
       <div
-        class="ant-tabs-nav"
+        class="ezd-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="ezd-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="ezd-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="ezd-tabs-tab ant-tabs-tab-active"
             >
               <div
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="ezd-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1254,11 +1254,11 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="ezd-tabs-tab"
             >
               <div
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="ezd-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1266,19 +1266,19 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
             aria-hidden="true"
-            class="ant-tabs-nav-more"
+            class="ezd-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             tabindex="-1"
@@ -1307,20 +1307,20 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="ezd-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="ezd-tabs-content ant-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="ezd-tabs-tabpane ant-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           />
           <div
             aria-hidden="true"
-            class="ant-tabs-tabpane"
+            class="ezd-tabs-tabpane"
             role="tabpanel"
             style="display:none"
             tabindex="-1"

@@ -14,7 +14,7 @@ title:
 Simple table with actions.
 
 ```jsx
-import { Table, Tag, Space } from '@ezviz/evvd';
+import { Table, Tag, Space } from '@ezviz/ezd';
 
 const columns = [
   {

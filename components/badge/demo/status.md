@@ -14,7 +14,7 @@ title:
 Standalone badge with status.
 
 ```jsx
-import { Badge } from '@ezviz/evvd';
+import { Badge } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

@@ -2,73 +2,73 @@
 
 exports[`Table.expand click to expand 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <colgroup />
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-cell-with-append"
+                    class="ezd-table-cell ezd-table-cell-with-append"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="ezd-table-row-indent indent-level-0"
                       style="padding-left: 0px;"
                     />
                     <button
                       aria-label="Collapse row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-expanded"
+                      class="ezd-table-row-expand-icon ezd-table-row-expand-icon-expanded"
                       type="button"
                     />
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-1"
+                  class="ezd-table-row ezd-table-row-level-1"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-cell-with-append"
+                    class="ezd-table-cell ezd-table-cell-with-append"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-1"
+                      class="ezd-table-row-indent indent-level-1"
                       style="padding-left: 15px;"
                     />
                     <button
                       aria-label="Expand row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-spaced"
+                      class="ezd-table-row-expand-icon ezd-table-row-expand-icon-spaced"
                       type="button"
                     />
                   </td>
@@ -79,16 +79,16 @@ exports[`Table.expand click to expand 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -115,7 +115,7 @@ exports[`Table.expand click to expand 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -127,11 +127,11 @@ exports[`Table.expand click to expand 1`] = `
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"

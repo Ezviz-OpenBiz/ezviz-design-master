@@ -14,7 +14,7 @@ title:
 Add unit through `prefix` and `suffix`.
 
 ```jsx
-import { Statistic, Row, Col } from '@ezviz/evvd';
+import { Statistic, Row, Col } from '@ezviz/ezd';
 import { LikeOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

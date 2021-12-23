@@ -15,7 +15,7 @@ Customize Input Component
 
 ```tsx
 import React, { useState } from 'react';
-import { AutoComplete, Input } from '@ezviz/evvd';
+import { AutoComplete, Input } from '@ezviz/ezd';
 
 const { TextArea } = Input;
 

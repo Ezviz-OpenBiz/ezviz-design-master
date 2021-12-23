@@ -146,7 +146,7 @@ return <div>{contextHolder}</div>;
 
 ### 为什么 Modal 方法不能获取 context、redux、的内容和 ConfigProvider `locale/prefixCls` 配置？
 
-直接调用 Modal 方法，antd 会通过 `ReactDOM.render` 动态创建新的 React 实体。其 context 与当前代码所在 context 并不相同，因而无法获取 context 信息。
+直接调用 Modal 方法，@ezviz/ezd 会通过 `ReactDOM.render` 动态创建新的 React 实体。其 context 与当前代码所在 context 并不相同，因而无法获取 context 信息。
 
 当你需要 context 信息（例如 ConfigProvider 配置的内容）时，可以通过 `Modal.useModal` 方法会返回 `modal` 实体以及 `contextHolder` 节点。将其插入到你需要获取 context 位置即可：
 
@@ -154,7 +154,7 @@ return <div>{contextHolder}</div>;
 const [modal, contextHolder] = Modal.useModal();
 
 return (
-  <Context1.Provider value="Ant">
+  <Context1.Provider value="Ezd">
     {/* contextHolder 在 Context1 内，它可以获得 Context1 的 context */}
     {contextHolder}
     <Context2.Provider value="Design">

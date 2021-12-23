@@ -14,7 +14,7 @@ title:
 Use `defaultFileList` for uploaded files when page init.
 
 ```jsx
-import { Upload, Button } from '@ezviz/evvd';
+import { Upload, Button } from '@ezviz/ezd';
 import { UploadOutlined } from '@ant-design/icons';
 
 const props = {

@@ -18,7 +18,7 @@ Call form method with `Form.useForm`.
 > Note that `useForm` is a [React Hooks](https://reactjs.org/docs/hooks-intro.html) that only works in functional component.
 
 ```tsx
-import { Form, Input, Button, Select } from '@ezviz/evvd';
+import { Form, Input, Button, Select } from '@ezviz/ezd';
 
 const { Option } = Select;
 
@@ -108,7 +108,7 @@ ReactDOM.render(<Demo />, mountNode);
 ```
 
 ```css
-#components-form-demo-control-hooks .ant-btn {
+#components-form-demo-control-hooks .ezd-btn {
   margin-right: 8px;
 }
 ```

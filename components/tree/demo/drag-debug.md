@@ -7,7 +7,7 @@ debug: true
 ---
 
 ```jsx
-import { Tree, Switch } from '@ezviz/evvd';
+import { Tree, Switch } from '@ezviz/ezd';
 import { CarryOutOutlined } from '@ant-design/icons';
 
 const x = 3;

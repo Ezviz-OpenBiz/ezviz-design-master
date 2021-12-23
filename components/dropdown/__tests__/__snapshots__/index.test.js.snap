@@ -3,14 +3,14 @@
 exports[`Dropdown overlay is function and has custom transitionName 1`] = `
 Array [
   <button
-    class="ant-dropdown-trigger"
+    class="ezd-dropdown-trigger"
     type="button"
   >
     button
   </button>,
   <div>
     <div
-      class="ant-dropdown"
+      class="ezd-dropdown"
       style="opacity:0;pointer-events:none"
     >
       <div>
@@ -24,14 +24,14 @@ Array [
 exports[`Dropdown overlay is string 1`] = `
 Array [
   <button
-    class="ant-dropdown-trigger"
+    class="ezd-dropdown-trigger"
     type="button"
   >
     button
   </button>,
   <div>
     <div
-      class="ant-dropdown"
+      class="ezd-dropdown"
       style="opacity:0;pointer-events:none"
     >
       <span>
@@ -44,6 +44,6 @@ Array [
 
 exports[`Dropdown rtl render component should be rendered correctly in RTL direction 1`] = `
 <span
-  class="ant-dropdown-trigger ant-dropdown-rtl"
+  class="ezd-dropdown-trigger ezd-dropdown-rtl"
 />
 `;

@@ -14,7 +14,7 @@ title:
 Specify the trigger area of collapsible by `collapsible`.
 
 ```jsx
-import { Collapse, Space } from '@ezviz/evvd';
+import { Collapse, Space } from '@ezviz/ezd';
 
 const { Panel } = Collapse;
 
@@ -45,7 +45,7 @@ ReactDOM.render(
 [data-theme="compact"] p, p {
   margin: 0;
 }
-#components-collapse-demo-collapsible .ant-space {
+#components-collapse-demo-collapsible .ezd-space {
   width: 100%;
 }
 </style>

@@ -14,7 +14,7 @@ title:
 Set a node as an icon or other custom element.
 
 ```jsx
-import { Timeline } from '@ezviz/evvd';
+import { Timeline } from '@ezviz/ezd';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

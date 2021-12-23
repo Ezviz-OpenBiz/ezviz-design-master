@@ -3,10 +3,10 @@
 @import './size';
 @import './bordered';
 
-@table-prefix-cls: ~'@{ant-prefix}-table';
-@tree-prefix-cls: ~'@{ant-prefix}-tree';
-@dropdown-prefix-cls: ~'@{ant-prefix}-dropdown';
-@descriptions-prefix-cls: ~'@{ant-prefix}-descriptions';
+@table-prefix-cls: ~'@{ezd-prefix}-table';
+@tree-prefix-cls: ~'@{ezd-prefix}-tree';
+@dropdown-prefix-cls: ~'@{ezd-prefix}-dropdown';
+@descriptions-prefix-cls: ~'@{ezd-prefix}-descriptions';
 @table-header-icon-color: #bfbfbf;
 @table-header-icon-color-hover: darken(@table-header-icon-color, 10%);
 @table-sticky-zindex: calc(@zindex-table-fixed + 1);
@@ -26,7 +26,6 @@
   background: @table-bg;
   border-radius: @table-border-radius-base;
 
-  // https://github.com/ant-design/ant-design/issues/17611
   table {
     width: 100%;
     text-align: left;
@@ -184,7 +183,7 @@
   }
 
   // ========================== Pagination ==========================
-  &-pagination.@{ant-prefix}-pagination {
+  &-pagination.@{ezd-prefix}-pagination {
     margin: 16px 0;
   }
 
@@ -227,7 +226,6 @@
       }
     }
 
-    // https://github.com/ant-design/ant-design/issues/30969
     &.@{table-prefix-cls}-cell-fix-left:hover,
     &.@{table-prefix-cls}-cell-fix-right:hover {
       background: @table-fixed-header-sort-active-bg;
@@ -287,7 +285,7 @@
       font-size: 11px;
 
       &.active {
-        color: @primary-color;
+        color: @ezd-primary-color;
       }
     }
 
@@ -324,7 +322,7 @@
     }
 
     &.active {
-      color: @primary-color;
+      color: @ezd-primary-color;
     }
   }
 
@@ -339,8 +337,6 @@
 
     // Reset menu
     .@{dropdown-prefix-cls}-menu {
-      // https://github.com/ant-design/ant-design/issues/4916
-      // https://github.com/ant-design/ant-design/issues/19542
       max-height: @table-filter-dropdown-max-height;
       overflow-x: hidden;
       border: 0;
@@ -400,7 +396,7 @@
     // Checkbox
     &,
     &-submenu {
-      .@{ant-prefix}-checkbox-wrapper + span {
+      .@{ezd-prefix}-checkbox-wrapper + span {
         padding-left: 8px;
       }
     }
@@ -431,7 +427,7 @@
     padding-left: @padding-xs;
     text-align: center;
 
-    .@{ant-prefix}-radio-wrapper {
+    .@{ezd-prefix}-radio-wrapper {
       margin-right: 0;
     }
   }
@@ -569,7 +565,6 @@
       }
     }
 
-    // https://github.com/ant-design/ant-design/issues/25573
     .@{descriptions-prefix-cls}-view {
       display: flex;
 

@@ -14,7 +14,7 @@ title:
 Comments can be nested.
 
 ```jsx
-import { Comment, Avatar } from '@ezviz/evvd';
+import { Comment, Avatar } from '@ezviz/ezd';
 
 const ExampleComment = ({ children }) => (
   <Comment

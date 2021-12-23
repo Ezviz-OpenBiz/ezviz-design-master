@@ -15,7 +15,7 @@ Preview a collection from one image.
 
 ```jsx
 import React, { useState } from 'react';
-import { Image } from '@ezviz/evvd';
+import { Image } from '@ezviz/ezd';
 
 const App = () => {
   const [visible, setVisible] = useState(false);

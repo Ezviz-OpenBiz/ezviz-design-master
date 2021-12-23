@@ -14,7 +14,7 @@ title:
 There are 4 types of Alert: `success`, `info`, `warning`, `error`.
 
 ```tsx
-import { Alert } from '@ezviz/evvd';
+import { Alert } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>
@@ -28,7 +28,7 @@ ReactDOM.render(
 ```
 
 <style>
-[data-theme="compact"] .code-box-demo .ant-alert {
+[data-theme="compact"] .code-box-demo .ezd-alert {
   margin-bottom: 8px;
 }
 </style>

@@ -15,7 +15,7 @@ Debug usage
 Debug usage
 
 ```jsx
-import { Button, Tooltip } from '@ezviz/evvd';
+import { Button, Tooltip } from '@ezviz/ezd';
 import { DownloadOutlined } from '@ant-design/icons';
 
 function getGroup(props) {
@@ -48,7 +48,7 @@ ReactDOM.render(
 ```
 
 ```css
-#components-button-demo-legacy-group .ant-btn {
+#components-button-demo-legacy-group .ezd-btn {
   margin: 0;
 }
 ```

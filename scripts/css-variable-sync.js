@@ -44,127 +44,127 @@ html {
   @base-primary: @blue-6;
 
   // ========= Primary Color =========
-  --@{ant-prefix}-primary-color: @base-primary;
-  --@{ant-prefix}-primary-color-hover: color(~\`colorPalette('@{base-primary}', 5) \`);
-  --@{ant-prefix}-primary-color-active: color(~\`colorPalette('@{base-primary}', 7) \`);
-  --@{ant-prefix}-primary-color-outline: fade(@base-primary, @outline-fade);
+  --@{ezd-prefix}-primary-color: @base-primary;
+  --@{ezd-prefix}-primary-color-hover: color(~\`colorPalette('@{base-primary}', 5) \`);
+  --@{ezd-prefix}-primary-color-active: color(~\`colorPalette('@{base-primary}', 7) \`);
+  --@{ezd-prefix}-primary-color-outline: fade(@base-primary, @outline-fade);
 
   // Legacy
   @legacy-primary-1: color(~\`colorPalette('@{base-primary}', 1) \`);
 
-  --@{ant-prefix}-primary-1: @legacy-primary-1;
-  --@{ant-prefix}-primary-2: color(~\`colorPalette('@{base-primary}', 2) \`);
-  --@{ant-prefix}-primary-3: color(~\`colorPalette('@{base-primary}', 3) \`);
-  --@{ant-prefix}-primary-4: color(~\`colorPalette('@{base-primary}', 4) \`);
-  --@{ant-prefix}-primary-5: color(~\`colorPalette('@{base-primary}', 5) \`);
-  --@{ant-prefix}-primary-6: @base-primary;
-  --@{ant-prefix}-primary-7: color(~\`colorPalette('@{base-primary}', 7) \`);
+  --@{ezd-prefix}-primary-1: @legacy-primary-1;
+  --@{ezd-prefix}-primary-2: color(~\`colorPalette('@{base-primary}', 2) \`);
+  --@{ezd-prefix}-primary-3: color(~\`colorPalette('@{base-primary}', 3) \`);
+  --@{ezd-prefix}-primary-4: color(~\`colorPalette('@{base-primary}', 4) \`);
+  --@{ezd-prefix}-primary-5: color(~\`colorPalette('@{base-primary}', 5) \`);
+  --@{ezd-prefix}-primary-6: @base-primary;
+  --@{ezd-prefix}-primary-7: color(~\`colorPalette('@{base-primary}', 7) \`);
 
   // Deprecated
-  --@{ant-prefix}-primary-color-deprecated-pure: ~'';
-  --@{ant-prefix}-primary-color-deprecated-l-35: lighten(@base-primary, 35%);
-  --@{ant-prefix}-primary-color-deprecated-l-20: lighten(@base-primary, 20%);
-  --@{ant-prefix}-primary-color-deprecated-t-20: tint(@base-primary, 20%);
-  --@{ant-prefix}-primary-color-deprecated-t-50: tint(@base-primary, 50%);
-  --@{ant-prefix}-primary-color-deprecated-f-12: fade(@base-primary, 12%);
-  --@{ant-prefix}-primary-color-active-deprecated-f-30: fade(@legacy-primary-1, 30%);
-  --@{ant-prefix}-primary-color-active-deprecated-d-02: darken(@legacy-primary-1, 2%);
+  --@{ezd-prefix}-primary-color-deprecated-pure: ~'';
+  --@{ezd-prefix}-primary-color-deprecated-l-35: lighten(@base-primary, 35%);
+  --@{ezd-prefix}-primary-color-deprecated-l-20: lighten(@base-primary, 20%);
+  --@{ezd-prefix}-primary-color-deprecated-t-20: tint(@base-primary, 20%);
+  --@{ezd-prefix}-primary-color-deprecated-t-50: tint(@base-primary, 50%);
+  --@{ezd-prefix}-primary-color-deprecated-f-12: fade(@base-primary, 12%);
+  --@{ezd-prefix}-primary-color-active-deprecated-f-30: fade(@legacy-primary-1, 30%);
+  --@{ezd-prefix}-primary-color-active-deprecated-d-02: darken(@legacy-primary-1, 2%);
 
   // ========= Success Color =========
-  --@{ant-prefix}-success-color: @green-6;
-  --@{ant-prefix}-success-color-hover: color(~\`colorPalette('@{green-6}', 5) \`);
-  --@{ant-prefix}-success-color-active: color(~\`colorPalette('@{green-6}', 7) \`);
-  --@{ant-prefix}-success-color-outline: fade(@green-6, @outline-fade);
-  --@{ant-prefix}-success-color-deprecated-bg: ~\`colorPalette('@{green-6}', 1) \`;
-  --@{ant-prefix}-success-color-deprecated-border: ~\`colorPalette('@{green-6}', 3) \`;
+  --@{ezd-prefix}-success-color: @green-6;
+  --@{ezd-prefix}-success-color-hover: color(~\`colorPalette('@{green-6}', 5) \`);
+  --@{ezd-prefix}-success-color-active: color(~\`colorPalette('@{green-6}', 7) \`);
+  --@{ezd-prefix}-success-color-outline: fade(@green-6, @outline-fade);
+  --@{ezd-prefix}-success-color-deprecated-bg: ~\`colorPalette('@{green-6}', 1) \`;
+  --@{ezd-prefix}-success-color-deprecated-border: ~\`colorPalette('@{green-6}', 3) \`;
 
   // ========== Error Color ==========
-  --@{ant-prefix}-error-color: @red-5;
-  --@{ant-prefix}-error-color-hover: color(~\`colorPalette('@{red-5}', 5) \`);
-  --@{ant-prefix}-error-color-active: color(~\`colorPalette('@{red-5}', 7) \`);
-  --@{ant-prefix}-error-color-outline: fade(@red-5, @outline-fade);
-  --@{ant-prefix}-error-color-deprecated-bg: ~\`colorPalette('@{red-5}', 1) \`;
-  --@{ant-prefix}-error-color-deprecated-border: ~\`colorPalette('@{red-5}', 3) \`;
+  --@{ezd-prefix}-error-color: @red-5;
+  --@{ezd-prefix}-error-color-hover: color(~\`colorPalette('@{red-5}', 5) \`);
+  --@{ezd-prefix}-error-color-active: color(~\`colorPalette('@{red-5}', 7) \`);
+  --@{ezd-prefix}-error-color-outline: fade(@red-5, @outline-fade);
+  --@{ezd-prefix}-error-color-deprecated-bg: ~\`colorPalette('@{red-5}', 1) \`;
+  --@{ezd-prefix}-error-color-deprecated-border: ~\`colorPalette('@{red-5}', 3) \`;
 
   // ========= Warning Color =========
-  --@{ant-prefix}-warning-color: @gold-6;
-  --@{ant-prefix}-warning-color-hover: color(~\`colorPalette('@{gold-6}', 5) \`);
-  --@{ant-prefix}-warning-color-active: color(~\`colorPalette('@{gold-6}', 7) \`);
-  --@{ant-prefix}-warning-color-outline: fade(@gold-6, @outline-fade);
-  --@{ant-prefix}-warning-color-deprecated-bg: ~\`colorPalette('@{gold-6}', 1) \`;
-  --@{ant-prefix}-warning-color-deprecated-border: ~\`colorPalette('@{gold-6}', 3) \`;
+  --@{ezd-prefix}-warning-color: @gold-6;
+  --@{ezd-prefix}-warning-color-hover: color(~\`colorPalette('@{gold-6}', 5) \`);
+  --@{ezd-prefix}-warning-color-active: color(~\`colorPalette('@{gold-6}', 7) \`);
+  --@{ezd-prefix}-warning-color-outline: fade(@gold-6, @outline-fade);
+  --@{ezd-prefix}-warning-color-deprecated-bg: ~\`colorPalette('@{gold-6}', 1) \`;
+  --@{ezd-prefix}-warning-color-deprecated-border: ~\`colorPalette('@{gold-6}', 3) \`;
 
   // ========== Info Color ===========
-  --@{ant-prefix}-info-color: @base-primary;
-  --@{ant-prefix}-info-color-deprecated-bg: ~\`colorPalette('@{base-primary}', 1) \`;
-  --@{ant-prefix}-info-color-deprecated-border: ~\`colorPalette('@{base-primary}', 3) \`;
+  --@{ezd-prefix}-info-color: @base-primary;
+  --@{ezd-prefix}-info-color-deprecated-bg: ~\`colorPalette('@{base-primary}', 1) \`;
+  --@{ezd-prefix}-info-color-deprecated-border: ~\`colorPalette('@{base-primary}', 3) \`;
 }
 `.trim(),
 );
 
 // >>> Primary
-replaceVariable('primary-color', "~'var(--@{ant-prefix}-primary-color)'");
-replaceVariable('primary-color-hover', "~'var(--@{ant-prefix}-primary-color-hover)'");
-replaceVariable('primary-color-active', "~'var(--@{ant-prefix}-primary-color-active)'");
-replaceVariable('primary-color-outline', "~'var(--@{ant-prefix}-primary-color-outline)'");
+replaceVariable('primary-color', "~'var(--@{ezd-prefix}-primary-color)'");
+replaceVariable('primary-color-hover', "~'var(--@{ezd-prefix}-primary-color-hover)'");
+replaceVariable('primary-color-active', "~'var(--@{ezd-prefix}-primary-color-active)'");
+replaceVariable('primary-color-outline', "~'var(--@{ezd-prefix}-primary-color-outline)'");
 
 replaceVariable('processing-color', '@primary-color');
 
 // >>> Info
-replaceVariable('info-color', "~'var(--@{ant-prefix}-info-color)'");
-replaceVariable('info-color-deprecated-bg', "~'var(--@{ant-prefix}-info-color-deprecated-bg)'");
+replaceVariable('info-color', "~'var(--@{ezd-prefix}-info-color)'");
+replaceVariable('info-color-deprecated-bg', "~'var(--@{ezd-prefix}-info-color-deprecated-bg)'");
 replaceVariable(
   'info-color-deprecated-border',
-  "~'var(--@{ant-prefix}-info-color-deprecated-border)'",
+  "~'var(--@{ezd-prefix}-info-color-deprecated-border)'",
 );
 
 // >>> Success
-replaceVariable('success-color', "~'var(--@{ant-prefix}-success-color)'");
-replaceVariable('success-color-hover', "~'var(--@{ant-prefix}-success-color-hover)'");
-replaceVariable('success-color-active', "~'var(--@{ant-prefix}-success-color-active)'");
-replaceVariable('success-color-outline', "~'var(--@{ant-prefix}-success-color-outline)'");
+replaceVariable('success-color', "~'var(--@{ezd-prefix}-success-color)'");
+replaceVariable('success-color-hover', "~'var(--@{ezd-prefix}-success-color-hover)'");
+replaceVariable('success-color-active', "~'var(--@{ezd-prefix}-success-color-active)'");
+replaceVariable('success-color-outline', "~'var(--@{ezd-prefix}-success-color-outline)'");
 replaceVariable(
   'success-color-deprecated-bg',
-  "~'var(--@{ant-prefix}-success-color-deprecated-bg)'",
+  "~'var(--@{ezd-prefix}-success-color-deprecated-bg)'",
 );
 replaceVariable(
   'success-color-deprecated-border',
-  "~'var(--@{ant-prefix}-success-color-deprecated-border)'",
+  "~'var(--@{ezd-prefix}-success-color-deprecated-border)'",
 );
 
 // >>> Warning
-replaceVariable('warning-color', "~'var(--@{ant-prefix}-warning-color)'");
-replaceVariable('warning-color-hover', "~'var(--@{ant-prefix}-warning-color-hover)'");
-replaceVariable('warning-color-active', "~'var(--@{ant-prefix}-warning-color-active)'");
-replaceVariable('warning-color-outline', "~'var(--@{ant-prefix}-warning-color-outline)'");
+replaceVariable('warning-color', "~'var(--@{ezd-prefix}-warning-color)'");
+replaceVariable('warning-color-hover', "~'var(--@{ezd-prefix}-warning-color-hover)'");
+replaceVariable('warning-color-active', "~'var(--@{ezd-prefix}-warning-color-active)'");
+replaceVariable('warning-color-outline', "~'var(--@{ezd-prefix}-warning-color-outline)'");
 replaceVariable(
   'warning-color-deprecated-bg',
-  "~'var(--@{ant-prefix}-warning-color-deprecated-bg)'",
+  "~'var(--@{ezd-prefix}-warning-color-deprecated-bg)'",
 );
 replaceVariable(
   'warning-color-deprecated-border',
-  "~'var(--@{ant-prefix}-warning-color-deprecated-border)'",
+  "~'var(--@{ezd-prefix}-warning-color-deprecated-border)'",
 );
 
 // >>> Error
-replaceVariable('error-color', "~'var(--@{ant-prefix}-error-color)'");
-replaceVariable('error-color-hover', "~'var(--@{ant-prefix}-error-color-hover)'");
-replaceVariable('error-color-active', "~'var(--@{ant-prefix}-error-color-active)'");
-replaceVariable('error-color-outline', "~'var(--@{ant-prefix}-error-color-outline)'");
-replaceVariable('error-color-deprecated-bg', "~'var(--@{ant-prefix}-error-color-deprecated-bg)'");
+replaceVariable('error-color', "~'var(--@{ezd-prefix}-error-color)'");
+replaceVariable('error-color-hover', "~'var(--@{ezd-prefix}-error-color-hover)'");
+replaceVariable('error-color-active', "~'var(--@{ezd-prefix}-error-color-active)'");
+replaceVariable('error-color-outline', "~'var(--@{ezd-prefix}-error-color-outline)'");
+replaceVariable('error-color-deprecated-bg', "~'var(--@{ezd-prefix}-error-color-deprecated-bg)'");
 replaceVariable(
   'error-color-deprecated-border',
-  "~'var(--@{ant-prefix}-error-color-deprecated-border)'",
+  "~'var(--@{ezd-prefix}-error-color-deprecated-border)'",
 );
 
 // >>> Primary Level Color
-replaceVariable('primary-1', "~'var(--@{ant-prefix}-primary-1)'");
-replaceVariable('primary-2', "~'var(--@{ant-prefix}-primary-2)'");
-replaceVariable('primary-3', "~'var(--@{ant-prefix}-primary-3)'");
-replaceVariable('primary-4', "~'var(--@{ant-prefix}-primary-4)'");
-replaceVariable('primary-5', "~'var(--@{ant-prefix}-primary-5)'");
-replaceVariable('primary-6', "~'var(--@{ant-prefix}-primary-6)'");
-replaceVariable('primary-7', "~'var(--@{ant-prefix}-primary-7)'");
+replaceVariable('primary-1', "~'var(--@{ezd-prefix}-primary-1)'");
+replaceVariable('primary-2', "~'var(--@{ezd-prefix}-primary-2)'");
+replaceVariable('primary-3', "~'var(--@{ezd-prefix}-primary-3)'");
+replaceVariable('primary-4', "~'var(--@{ezd-prefix}-primary-4)'");
+replaceVariable('primary-5', "~'var(--@{ezd-prefix}-primary-5)'");
+replaceVariable('primary-6', "~'var(--@{ezd-prefix}-primary-6)'");
+replaceVariable('primary-7', "~'var(--@{ezd-prefix}-primary-7)'");
 
 // Link
 replaceVariable('link-hover-color', '@primary-color-hover');
@@ -172,39 +172,39 @@ replaceVariable('link-active-color', '@primary-color-active');
 
 replaceVariable(
   'table-selected-row-hover-bg',
-  "~'var(--@{ant-prefix}-primary-color-active-deprecated-d-02)'",
+  "~'var(--@{ezd-prefix}-primary-color-active-deprecated-d-02)'",
 );
 
 replaceVariable(
   'picker-basic-cell-hover-with-range-color',
-  "~'var(--@{ant-prefix}-primary-color-deprecated-l-35)'",
+  "~'var(--@{ezd-prefix}-primary-color-deprecated-l-35)'",
 );
 replaceVariable(
   'picker-date-hover-range-border-color',
-  "~'var(--@{ant-prefix}-primary-color-deprecated-l-20)'",
+  "~'var(--@{ezd-prefix}-primary-color-deprecated-l-20)'",
 );
 
 replaceVariable(
   'calendar-column-active-bg',
-  "~'var(--@{ant-prefix}-primary-color-active-deprecated-f-30)'",
+  "~'var(--@{ezd-prefix}-primary-color-active-deprecated-f-30)'",
 );
 
 replaceVariable(
   'slider-handle-color-focus',
-  "~'var(--@{ant-prefix}-primary-color-deprecated-t-20)'",
+  "~'var(--@{ezd-prefix}-primary-color-deprecated-t-20)'",
 );
 replaceVariable(
   'slider-handle-color-focus-shadow',
-  "~'var(--@{ant-prefix}-primary-color-deprecated-f-12)'",
+  "~'var(--@{ezd-prefix}-primary-color-deprecated-f-12)'",
 );
 replaceVariable(
   'slider-dot-border-color-active',
-  "~'var(--@{ant-prefix}-primary-color-deprecated-t-50)'",
+  "~'var(--@{ezd-prefix}-primary-color-deprecated-t-50)'",
 );
 
 replaceVariable(
   'transfer-item-selected-hover-bg',
-  "~'var(--@{ant-prefix}-primary-color-active-deprecated-d-02)'",
+  "~'var(--@{ezd-prefix}-primary-color-active-deprecated-d-02)'",
 );
 
 replaceVariable('alert-success-border-color', '@success-color-deprecated-border');

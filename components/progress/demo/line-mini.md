@@ -14,7 +14,7 @@ title:
 Appropriate for a narrow area.
 
 ```jsx
-import { Progress } from '@ezviz/evvd';
+import { Progress } from '@ezviz/ezd';
 
 ReactDOM.render(
   <div style={{ width: 170 }}>

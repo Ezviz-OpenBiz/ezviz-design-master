@@ -14,7 +14,6 @@ export interface TimelineItemProps {
 }
 
 // for compatibililty
-// https://github.com/ant-design/ant-design/pull/26832
 export interface TimeLineItemProps extends TimelineItemProps {
   __deprecated_do_not_use_it__?: any; // eslint-disable-line camelcase
 }

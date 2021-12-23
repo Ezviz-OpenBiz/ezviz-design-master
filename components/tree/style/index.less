@@ -4,13 +4,13 @@
 @import './mixin';
 @import './directory';
 
-@tree-prefix-cls: ~'@{ant-prefix}-tree';
+@tree-prefix-cls: ~'@{ezd-prefix}-tree';
 @tree-node-prefix-cls: ~'@{tree-prefix-cls}-treenode';
 
-.antCheckboxFn(@checkbox-prefix-cls: ~'@{ant-prefix}-tree-checkbox');
+.ezdCheckboxFn(@checkbox-prefix-cls: ~'@{ezd-prefix}-tree-checkbox');
 
 .@{tree-prefix-cls} {
-  .antTreeFn(@tree-prefix-cls);
+  .ezdTreeFn(@tree-prefix-cls);
 }
 
 @import './rtl';

@@ -14,7 +14,7 @@ title:
 Customize the dropdown menu via `dropdownRender`.
 
 ```jsx
-import { Cascader, Divider } from '@ezviz/evvd';
+import { Cascader, Divider } from '@ezviz/ezd';
 
 const options = [
   {

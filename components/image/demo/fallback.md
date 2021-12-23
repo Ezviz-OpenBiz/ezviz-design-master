@@ -14,7 +14,7 @@ title:
 Load failed to display image placeholder.
 
 ```jsx
-import { Image } from '@ezviz/evvd';
+import { Image } from '@ezviz/ezd';
 
 function ImageDemo() {
   return (

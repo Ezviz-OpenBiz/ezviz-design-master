@@ -15,7 +15,7 @@ Progressive when large image loading.
 
 ```jsx
 import React from 'react';
-import { Image, Button, Space } from '@ezviz/evvd';
+import { Image, Button, Space } from '@ezviz/ezd';
 
 function ImageDemo() {
   const [random, setRandom] = React.useState();

@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```jsx
-import { Input } from '@ezviz/evvd';
+import { Input } from '@ezviz/ezd';
 
 const { TextArea } = Input;
 

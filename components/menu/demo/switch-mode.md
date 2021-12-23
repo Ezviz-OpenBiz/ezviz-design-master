@@ -14,7 +14,7 @@ title:
 Show the dynamic switching mode (between `inline` and `vertical`).
 
 ```jsx
-import { Menu, Switch, Divider } from '@ezviz/evvd';
+import { Menu, Switch, Divider } from '@ezviz/ezd';
 import {
   MailOutlined,
   CalendarOutlined,
@@ -72,8 +72,8 @@ const Demo = () => {
           <Menu.Item key="10">Option 10</Menu.Item>
         </SubMenu>
         <Menu.Item key="link" icon={<LinkOutlined />}>
-          <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-            Evv Design
+          <a href="https://saastest3.ys7.com/ezd/" target="_blank" rel="noopener noreferrer">
+            EZ Design
           </a>
         </Menu.Item>
       </Menu>

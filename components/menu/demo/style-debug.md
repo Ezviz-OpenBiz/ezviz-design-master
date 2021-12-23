@@ -15,7 +15,7 @@ buggy!
 buggy!
 
 ```jsx
-import { Menu, Switch } from '@ezviz/evvd';
+import { Menu, Switch } from '@ezviz/ezd';
 import { MailOutlined, AppstoreOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

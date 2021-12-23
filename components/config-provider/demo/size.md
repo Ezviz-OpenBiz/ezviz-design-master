@@ -26,7 +26,7 @@ import {
   Table,
   Card,
   Tabs,
-} from '@ezviz/evvd';
+} from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 

@@ -14,7 +14,7 @@ title:
 You can use your own custom icons by setting the property `icon` for `Steps.Step`.
 
 ```jsx
-import { Steps } from '@ezviz/evvd';
+import { Steps } from '@ezviz/ezd';
 import { UserOutlined, SolutionOutlined, LoadingOutlined, SmileOutlined } from '@ant-design/icons';
 
 const { Step } = Steps;

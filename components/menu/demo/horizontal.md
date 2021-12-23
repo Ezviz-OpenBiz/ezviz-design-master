@@ -14,7 +14,7 @@ title:
 Horizontal top navigation menu.
 
 ```jsx
-import { Menu } from '@ezviz/evvd';
+import { Menu } from '@ezviz/ezd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
@@ -50,7 +50,7 @@ class App extends React.Component {
           </Menu.ItemGroup>
         </SubMenu>
         <Menu.Item key="alipay">
-          <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+          <a href="https://saastest3.ys7.com/ezd/" target="_blank" rel="noopener noreferrer">
             Navigation Four - Link
           </a>
         </Menu.Item>

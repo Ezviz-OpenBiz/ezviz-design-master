@@ -15,7 +15,7 @@ Customize render list with Tree component.
 
 ```jsx
 import React, { useState } from 'react';
-import { Transfer, Tree } from '@ezviz/evvd';
+import { Transfer, Tree } from '@ezviz/ezd';
 
 // Customize Table Transfer
 const isChecked = (selectedKeys, eventKey) => selectedKeys.indexOf(eventKey) !== -1;
@@ -96,7 +96,7 @@ ReactDOM.render(<App />, mountNode);
 ```
 
 <style>
-.tree-transfer .ant-transfer-list:first-child {
+.tree-transfer .ezd-transfer-list:first-child {
   flex: none;
   width: 50%;
 }

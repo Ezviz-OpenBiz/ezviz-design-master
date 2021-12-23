@@ -14,7 +14,7 @@ title:
 Upload files manually after `beforeUpload` returns `false`.
 
 ```jsx
-import { Upload, Button, message } from '@ezviz/evvd';
+import { Upload, Button, message } from '@ezviz/ezd';
 import { UploadOutlined } from '@ant-design/icons';
 import reqwest from 'reqwest';
 

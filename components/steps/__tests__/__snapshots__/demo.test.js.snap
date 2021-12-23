@@ -3,38 +3,38 @@
 exports[`renders ./components/steps/demo/clickable.md correctly 1`] = `
 Array [
   <div
-    class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+    class="ezd-steps ant-steps-horizontal ant-steps-label-horizontal"
   >
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             1
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 1
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -42,35 +42,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             2
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 2
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -78,35 +78,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 3
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -115,42 +115,42 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />,
   <div
-    class="ant-steps ant-steps-vertical"
+    class="ezd-steps ant-steps-vertical"
   >
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             1
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 1
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -158,35 +158,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             2
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 2
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -194,35 +194,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 3
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -235,38 +235,38 @@ Array [
 
 exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
+  class="ezd-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ezd-steps-item ant-steps-item-finish"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
-            class="ant-steps-icon-dot"
+            class="ezd-steps-icon-dot"
           />
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Finished
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           You can hover on the dot.
         </div>
@@ -274,35 +274,35 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
-            class="ant-steps-icon-dot"
+            class="ezd-steps-icon-dot"
           />
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           In Progress
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           You can hover on the dot.
         </div>
@@ -310,35 +310,35 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
-            class="ant-steps-icon-dot"
+            class="ezd-steps-icon-dot"
           />
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           You can hover on the dot.
         </div>
@@ -346,35 +346,35 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
-            class="ant-steps-icon-dot"
+            class="ezd-steps-icon-dot"
           />
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           You can hover on the dot.
         </div>
@@ -386,22 +386,22 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`
 
 exports[`renders ./components/steps/demo/error.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="ezd-steps ant-steps-horizontal ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish ant-steps-next-error"
+    class="ezd-steps-item ant-steps-item-finish ant-steps-next-error"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="check"
@@ -425,15 +425,15 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Finished
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description
         </div>
@@ -441,19 +441,19 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-error ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-error ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="close"
@@ -477,15 +477,15 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           In Process
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description
         </div>
@@ -493,33 +493,33 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           3
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description
         </div>
@@ -531,22 +531,22 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="ezd-steps ant-steps-horizontal ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-finish ant-steps-item-custom ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="user"
@@ -570,10 +570,10 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Login
         </div>
@@ -581,19 +581,19 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom"
+    class="ezd-steps-item ant-steps-item-finish ant-steps-item-custom"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="solution"
@@ -617,10 +617,10 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Verification
         </div>
@@ -628,19 +628,19 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-custom"
+    class="ezd-steps-item ant-steps-item-process ant-steps-item-custom"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="loading"
@@ -664,10 +664,10 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Pay
         </div>
@@ -675,19 +675,19 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait ant-steps-item-custom"
+    class="ezd-steps-item ant-steps-item-wait ant-steps-item-custom"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="smile"
@@ -711,10 +711,10 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Done
         </div>
@@ -727,24 +727,24 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
 exports[`renders ./components/steps/demo/nav.md correctly 1`] = `
 Array [
   <div
-    class="ant-steps ant-steps-horizontal site-navigation-steps ant-steps-small ant-steps-label-horizontal ant-steps-navigation"
+    class="ezd-steps ant-steps-horizontal site-navigation-steps ant-steps-small ant-steps-label-horizontal ant-steps-navigation"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-finish ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -768,21 +768,21 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 1
             <div
-              class="ant-steps-item-subtitle"
+              class="ezd-steps-item-subtitle"
               title="00:00:05"
             >
               00:00:05
             </div>
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -790,41 +790,41 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process"
+      class="ezd-steps-item ant-steps-item-process"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             2
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 2
             <div
-              class="ant-steps-item-subtitle"
+              class="ezd-steps-item-subtitle"
               title="00:01:02"
             >
               00:01:02
             </div>
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -832,41 +832,41 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 3
             <div
-              class="ant-steps-item-subtitle"
+              class="ezd-steps-item-subtitle"
               title="waiting for longlong time"
             >
               waiting for longlong time
             </div>
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -875,24 +875,24 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-steps ant-steps-horizontal site-navigation-steps ant-steps-label-horizontal ant-steps-navigation"
+    class="ezd-steps ant-steps-horizontal site-navigation-steps ant-steps-label-horizontal ant-steps-navigation"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-finish ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -916,10 +916,10 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 1
           </div>
@@ -927,30 +927,30 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process"
+      class="ezd-steps-item ant-steps-item-process"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             2
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 2
           </div>
@@ -958,30 +958,30 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 3
           </div>
@@ -989,30 +989,30 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             4
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Step 4
           </div>
@@ -1021,24 +1021,24 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-steps ant-steps-horizontal site-navigation-steps ant-steps-small ant-steps-label-horizontal ant-steps-navigation"
+    class="ezd-steps ant-steps-horizontal site-navigation-steps ant-steps-small ant-steps-label-horizontal ant-steps-navigation"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-finish ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -1062,10 +1062,10 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             finish 1
           </div>
@@ -1073,21 +1073,21 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-finish"
+      class="ezd-steps-item ant-steps-item-finish"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -1111,10 +1111,10 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             finish 2
           </div>
@@ -1122,30 +1122,30 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process"
+      class="ezd-steps-item ant-steps-item-process"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
         role="button"
         tabindex="0"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             current process
           </div>
@@ -1153,28 +1153,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait ant-steps-item-disabled"
+      class="ezd-steps-item ant-steps-item-wait ant-steps-item-disabled"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             4
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             wait
           </div>
@@ -1187,22 +1187,22 @@ Array [
 
 exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-with-progress ant-steps-label-horizontal"
+  class="ezd-steps ant-steps-horizontal ant-steps-with-progress ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ezd-steps-item ant-steps-item-finish"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="check"
@@ -1226,15 +1226,15 @@ exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Finished
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -1242,33 +1242,33 @@ exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <div
-          class="ant-steps-progress-icon"
+          class="ezd-steps-progress-icon"
         >
           <div
-            class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+            class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
           >
             <div
-              class="ant-progress-inner"
+              class="ezd-progress-inner"
               style="width:40px;height:40px;font-size:12px"
             >
               <svg
-                class="ant-progress-circle"
+                class="ezd-progress-circle"
                 viewBox="0 0 100 100"
               >
                 <path
-                  class="ant-progress-circle-trail"
+                  class="ezd-progress-circle-trail"
                   d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1278,7 +1278,7 @@ exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
                   style="stroke-dasharray:301.59289474462014px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                 />
                 <path
-                  class="ant-progress-circle-path"
+                  class="ezd-progress-circle-path"
                   d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1290,7 +1290,7 @@ exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
                   style="stroke-dasharray:180.95573684677208px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                 />
                 <path
-                  class="ant-progress-circle-path"
+                  class="ezd-progress-circle-path"
                   d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1303,33 +1303,33 @@ exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
                 />
               </svg>
               <span
-                class="ant-progress-text"
+                class="ezd-progress-text"
               />
             </div>
           </div>
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             2
           </span>
         </div>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           In Progress
           <div
-            class="ant-steps-item-subtitle"
+            class="ezd-steps-item-subtitle"
             title="Left 00:00:08"
           >
             Left 00:00:08
           </div>
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -1337,33 +1337,33 @@ exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           3
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -1376,7 +1376,7 @@ exports[`renders ./components/steps/demo/progress.md correctly 1`] = `
 exports[`renders ./components/steps/demo/progress-debug.md correctly 1`] = `
 Array [
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1384,7 +1384,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1392,7 +1392,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1400,7 +1400,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1408,7 +1408,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1416,7 +1416,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1424,7 +1424,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1432,22 +1432,22 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-steps ant-steps-horizontal ant-steps-with-progress ant-steps-label-horizontal"
+    class="ezd-steps ant-steps-horizontal ant-steps-with-progress ant-steps-label-horizontal"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish"
+      class="ezd-steps-item ant-steps-item-finish"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -1471,15 +1471,15 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1487,33 +1487,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <div
-            class="ant-steps-progress-icon"
+            class="ezd-steps-progress-icon"
           >
             <div
-              class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+              class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
             >
               <div
-                class="ant-progress-inner"
+                class="ezd-progress-inner"
                 style="width:40px;height:40px;font-size:12px"
               >
                 <svg
-                  class="ant-progress-circle"
+                  class="ezd-progress-circle"
                   viewBox="0 0 100 100"
                 >
                   <path
-                    class="ant-progress-circle-trail"
+                    class="ezd-progress-circle-trail"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1523,7 +1523,7 @@ Array [
                     style="stroke-dasharray:301.59289474462014px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1535,7 +1535,7 @@ Array [
                     style="stroke-dasharray:0px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1548,33 +1548,33 @@ Array [
                   />
                 </svg>
                 <span
-                  class="ant-progress-text"
+                  class="ezd-progress-text"
                 />
               </div>
             </div>
             <span
-              class="ant-steps-icon"
+              class="ezd-steps-icon"
             >
               2
             </span>
           </div>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             In Progress
             <div
-              class="ant-steps-item-subtitle"
+              class="ezd-steps-item-subtitle"
               title="Left 00:00:08"
             >
               Left 00:00:08
             </div>
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1582,33 +1582,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1617,22 +1617,22 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-steps ant-steps-horizontal ant-steps-with-progress ant-steps-small ant-steps-label-horizontal"
+    class="ezd-steps ant-steps-horizontal ant-steps-with-progress ant-steps-small ant-steps-label-horizontal"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish"
+      class="ezd-steps-item ant-steps-item-finish"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -1656,15 +1656,15 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1672,33 +1672,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <div
-            class="ant-steps-progress-icon"
+            class="ezd-steps-progress-icon"
           >
             <div
-              class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+              class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
             >
               <div
-                class="ant-progress-inner"
+                class="ezd-progress-inner"
                 style="width:32px;height:32px;font-size:10.8px"
               >
                 <svg
-                  class="ant-progress-circle"
+                  class="ezd-progress-circle"
                   viewBox="0 0 100 100"
                 >
                   <path
-                    class="ant-progress-circle-trail"
+                    class="ezd-progress-circle-trail"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1708,7 +1708,7 @@ Array [
                     style="stroke-dasharray:301.59289474462014px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1720,7 +1720,7 @@ Array [
                     style="stroke-dasharray:0px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1733,33 +1733,33 @@ Array [
                   />
                 </svg>
                 <span
-                  class="ant-progress-text"
+                  class="ezd-progress-text"
                 />
               </div>
             </div>
             <span
-              class="ant-steps-icon"
+              class="ezd-steps-icon"
             >
               2
             </span>
           </div>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             In Progress
             <div
-              class="ant-steps-item-subtitle"
+              class="ezd-steps-item-subtitle"
               title="Left 00:00:08"
             >
               Left 00:00:08
             </div>
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1767,33 +1767,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1802,22 +1802,22 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-steps ant-steps-vertical ant-steps-with-progress"
+    class="ezd-steps ant-steps-vertical ant-steps-with-progress"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish"
+      class="ezd-steps-item ant-steps-item-finish"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -1841,15 +1841,15 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1857,33 +1857,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <div
-            class="ant-steps-progress-icon"
+            class="ezd-steps-progress-icon"
           >
             <div
-              class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+              class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
             >
               <div
-                class="ant-progress-inner"
+                class="ezd-progress-inner"
                 style="width:40px;height:40px;font-size:12px"
               >
                 <svg
-                  class="ant-progress-circle"
+                  class="ezd-progress-circle"
                   viewBox="0 0 100 100"
                 >
                   <path
-                    class="ant-progress-circle-trail"
+                    class="ezd-progress-circle-trail"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1893,7 +1893,7 @@ Array [
                     style="stroke-dasharray:301.59289474462014px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1905,7 +1905,7 @@ Array [
                     style="stroke-dasharray:0px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -1918,33 +1918,33 @@ Array [
                   />
                 </svg>
                 <span
-                  class="ant-progress-text"
+                  class="ezd-progress-text"
                 />
               </div>
             </div>
             <span
-              class="ant-steps-icon"
+              class="ezd-steps-icon"
             >
               2
             </span>
           </div>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             In Progress
             <div
-              class="ant-steps-item-subtitle"
+              class="ezd-steps-item-subtitle"
               title="Left 00:00:08"
             >
               Left 00:00:08
             </div>
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1952,33 +1952,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -1987,22 +1987,22 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-steps ant-steps-vertical ant-steps-with-progress ant-steps-small"
+    class="ezd-steps ant-steps-vertical ant-steps-with-progress ant-steps-small"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish"
+      class="ezd-steps-item ant-steps-item-finish"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
               aria-label="check"
@@ -2026,15 +2026,15 @@ Array [
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2042,33 +2042,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <div
-            class="ant-steps-progress-icon"
+            class="ezd-steps-progress-icon"
           >
             <div
-              class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+              class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
             >
               <div
-                class="ant-progress-inner"
+                class="ezd-progress-inner"
                 style="width:32px;height:32px;font-size:10.8px"
               >
                 <svg
-                  class="ant-progress-circle"
+                  class="ezd-progress-circle"
                   viewBox="0 0 100 100"
                 >
                   <path
-                    class="ant-progress-circle-trail"
+                    class="ezd-progress-circle-trail"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -2078,7 +2078,7 @@ Array [
                     style="stroke-dasharray:301.59289474462014px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -2090,7 +2090,7 @@ Array [
                     style="stroke-dasharray:0px 301.59289474462014px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
                   />
                   <path
-                    class="ant-progress-circle-path"
+                    class="ezd-progress-circle-path"
                     d="M 50,50 m 0,-48
    a 48,48 0 1 1 0,96
    a 48,48 0 1 1 0,-96"
@@ -2103,33 +2103,33 @@ Array [
                   />
                 </svg>
                 <span
-                  class="ant-progress-text"
+                  class="ezd-progress-text"
                 />
               </div>
             </div>
             <span
-              class="ant-steps-icon"
+              class="ezd-steps-icon"
             >
               2
             </span>
           </div>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             In Progress
             <div
-              class="ant-steps-item-subtitle"
+              class="ezd-steps-item-subtitle"
               title="Left 00:00:08"
             >
               Left 00:00:08
             </div>
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2137,33 +2137,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2177,38 +2177,38 @@ Array [
 exports[`renders ./components/steps/demo/progress-dot.md correctly 1`] = `
 Array [
   <div
-    class="ant-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
+    class="ezd-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish"
+      class="ezd-steps-item ant-steps-item-finish"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2216,35 +2216,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             In Progress
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2252,35 +2252,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2289,42 +2289,42 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />,
   <div
-    class="ant-steps ant-steps-vertical ant-steps-dot"
+    class="ezd-steps ant-steps-vertical ant-steps-dot"
   >
     <div
-      class="ant-steps-item ant-steps-item-finish"
+      class="ezd-steps-item ant-steps-item-finish"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description. This is a description.
           </div>
@@ -2332,35 +2332,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description. This is a description.
           </div>
@@ -2368,35 +2368,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             In Progress
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description. This is a description.
           </div>
@@ -2404,35 +2404,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2440,35 +2440,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             <span
-              class="ant-steps-icon-dot"
+              class="ezd-steps-icon-dot"
             />
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -2481,22 +2481,22 @@ Array [
 
 exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="ezd-steps ant-steps-horizontal ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ezd-steps-item ant-steps-item-finish"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="check"
@@ -2520,15 +2520,15 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Finished
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -2536,39 +2536,39 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           2
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           In Progress
           <div
-            class="ant-steps-item-subtitle"
+            class="ezd-steps-item-subtitle"
             title="Left 00:00:08"
           >
             Left 00:00:08
           </div>
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -2576,33 +2576,33 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           3
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -2614,22 +2614,22 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-small ant-steps-label-horizontal"
+  class="ezd-steps ant-steps-horizontal ant-steps-small ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ezd-steps-item ant-steps-item-finish"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="check"
@@ -2653,10 +2653,10 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Finished
         </div>
@@ -2664,28 +2664,28 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           2
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           In Progress
         </div>
@@ -2693,28 +2693,28 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           3
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
@@ -2727,31 +2727,31 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
 exports[`renders ./components/steps/demo/step-next.md correctly 1`] = `
 Array [
   <div
-    class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+    class="ezd-steps ant-steps-horizontal ant-steps-label-horizontal"
   >
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             1
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             First
           </div>
@@ -2759,28 +2759,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             2
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Second
           </div>
@@ -2788,28 +2788,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Last
           </div>
@@ -2826,7 +2826,7 @@ Array [
     class="steps-action"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -2840,22 +2840,22 @@ Array [
 exports[`renders ./components/steps/demo/steps-in-steps.md correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
     style="margin-bottom:16px"
   >
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="small"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -2863,19 +2863,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="ezd-radio-wrapper ant-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="ezd-radio ant-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="default"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -2884,74 +2884,74 @@ Array [
     </label>
   </div>,
   <div
-    class="ant-steps ant-steps-vertical ant-steps-default"
+    class="ezd-steps ant-steps-vertical ant-steps-default"
   >
     <div
-      class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+      class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             1
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Finished
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             <div
-              class="ant-card ant-card-bordered"
+              class="ezd-card ant-card-bordered"
             >
               <div
-                class="ant-card-body"
+                class="ezd-card-body"
               >
                 <div
-                  class="ant-steps ant-steps-horizontal ant-steps-default ant-steps-label-horizontal"
+                  class="ezd-steps ant-steps-horizontal ant-steps-default ant-steps-label-horizontal"
                 >
                   <div
-                    class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+                    class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
                   >
                     <div
-                      class="ant-steps-item-container"
+                      class="ezd-steps-item-container"
                     >
                       <div
-                        class="ant-steps-item-tail"
+                        class="ezd-steps-item-tail"
                       />
                       <div
-                        class="ant-steps-item-icon"
+                        class="ezd-steps-item-icon"
                       >
                         <span
-                          class="ant-steps-icon"
+                          class="ezd-steps-icon"
                         >
                           1
                         </span>
                       </div>
                       <div
-                        class="ant-steps-item-content"
+                        class="ezd-steps-item-content"
                       >
                         <div
-                          class="ant-steps-item-title"
+                          class="ezd-steps-item-title"
                         >
                           Finished
                         </div>
                         <div
-                          class="ant-steps-item-description"
+                          class="ezd-steps-item-description"
                         >
                           This is a description.
                         </div>
@@ -2959,33 +2959,33 @@ Array [
                     </div>
                   </div>
                   <div
-                    class="ant-steps-item ant-steps-item-wait"
+                    class="ezd-steps-item ant-steps-item-wait"
                   >
                     <div
-                      class="ant-steps-item-container"
+                      class="ezd-steps-item-container"
                     >
                       <div
-                        class="ant-steps-item-tail"
+                        class="ezd-steps-item-tail"
                       />
                       <div
-                        class="ant-steps-item-icon"
+                        class="ezd-steps-item-icon"
                       >
                         <span
-                          class="ant-steps-icon"
+                          class="ezd-steps-icon"
                         >
                           2
                         </span>
                       </div>
                       <div
-                        class="ant-steps-item-content"
+                        class="ezd-steps-item-content"
                       >
                         <div
-                          class="ant-steps-item-title"
+                          class="ezd-steps-item-title"
                         >
                           In Progress
                         </div>
                         <div
-                          class="ant-steps-item-description"
+                          class="ezd-steps-item-description"
                         >
                           This is a description.
                         </div>
@@ -2993,33 +2993,33 @@ Array [
                     </div>
                   </div>
                   <div
-                    class="ant-steps-item ant-steps-item-wait"
+                    class="ezd-steps-item ant-steps-item-wait"
                   >
                     <div
-                      class="ant-steps-item-container"
+                      class="ezd-steps-item-container"
                     >
                       <div
-                        class="ant-steps-item-tail"
+                        class="ezd-steps-item-tail"
                       />
                       <div
-                        class="ant-steps-item-icon"
+                        class="ezd-steps-item-icon"
                       >
                         <span
-                          class="ant-steps-icon"
+                          class="ezd-steps-icon"
                         >
                           3
                         </span>
                       </div>
                       <div
-                        class="ant-steps-item-content"
+                        class="ezd-steps-item-content"
                       >
                         <div
-                          class="ant-steps-item-title"
+                          class="ezd-steps-item-title"
                         >
                           Waiting
                         </div>
                         <div
-                          class="ant-steps-item-description"
+                          class="ezd-steps-item-description"
                         >
                           This is a description.
                         </div>
@@ -3034,33 +3034,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             2
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             In Progress
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -3068,33 +3068,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="ezd-steps-item ant-steps-item-wait"
     >
       <div
-        class="ant-steps-item-container"
+        class="ezd-steps-item-container"
       >
         <div
-          class="ant-steps-item-tail"
+          class="ezd-steps-item-tail"
         />
         <div
-          class="ant-steps-item-icon"
+          class="ezd-steps-item-icon"
         >
           <span
-            class="ant-steps-icon"
+            class="ezd-steps-icon"
           >
             3
           </span>
         </div>
         <div
-          class="ant-steps-item-content"
+          class="ezd-steps-item-content"
         >
           <div
-            class="ant-steps-item-title"
+            class="ezd-steps-item-title"
           >
             Waiting
           </div>
           <div
-            class="ant-steps-item-description"
+            class="ezd-steps-item-description"
           >
             This is a description.
           </div>
@@ -3107,22 +3107,22 @@ Array [
 
 exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-vertical"
+  class="ezd-steps ant-steps-vertical"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ezd-steps-item ant-steps-item-finish"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="check"
@@ -3146,15 +3146,15 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Finished
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -3162,33 +3162,33 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           2
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           In Progress
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -3196,33 +3196,33 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           3
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -3234,22 +3234,22 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-vertical ant-steps-small"
+  class="ezd-steps ant-steps-vertical ant-steps-small"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ezd-steps-item ant-steps-item-finish"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           <span
             aria-label="check"
@@ -3273,15 +3273,15 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Finished
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -3289,33 +3289,33 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+    class="ezd-steps-item ant-steps-item-process ant-steps-item-active"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           2
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           In Progress
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>
@@ -3323,33 +3323,33 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="ezd-steps-item ant-steps-item-wait"
   >
     <div
-      class="ant-steps-item-container"
+      class="ezd-steps-item-container"
     >
       <div
-        class="ant-steps-item-tail"
+        class="ezd-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="ezd-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="ezd-steps-icon"
         >
           3
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="ezd-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="ezd-steps-item-title"
         >
           Waiting
         </div>
         <div
-          class="ant-steps-item-description"
+          class="ezd-steps-item-description"
         >
           This is a description.
         </div>

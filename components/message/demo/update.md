@@ -14,7 +14,7 @@ title:
 Update message content with unique `key`.
 
 ```jsx
-import { Button, message } from '@ezviz/evvd';
+import { Button, message } from '@ezviz/ezd';
 
 const key = 'updatable';
 

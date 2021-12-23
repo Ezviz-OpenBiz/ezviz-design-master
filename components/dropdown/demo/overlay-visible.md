@@ -14,7 +14,7 @@ title:
 The default is to close the menu when you click on menu items, this feature can be turned off.
 
 ```jsx
-import { Menu, Dropdown } from '@ezviz/evvd';
+import { Menu, Dropdown } from '@ezviz/ezd';
 import { DownOutlined } from '@ant-design/icons';
 
 class OverlayVisible extends React.Component {
@@ -46,7 +46,7 @@ class OverlayVisible extends React.Component {
         onVisibleChange={this.handleVisibleChange}
         visible={this.state.visible}
       >
-        <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+        <a className="ezd-dropdown-link" onClick={e => e.preventDefault()}>
           Hover me <DownOutlined />
         </a>
       </Dropdown>

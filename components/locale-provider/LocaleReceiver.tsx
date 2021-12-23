@@ -27,8 +27,8 @@ export default class LocaleReceiver<
   getLocale(): Exclude<Locale[C], undefined> {
     const { componentName, defaultLocale } = this.props;
     const locale = defaultLocale || defaultLocaleData[componentName ?? 'global'];
-    const antLocale = this.context;
-    const localeFromContext = componentName && antLocale ? antLocale[componentName] : {};
+    const ezdLocale = this.context;
+    const localeFromContext = componentName && ezdLocale ? ezdLocale[componentName] : {};
     return {
       ...(locale instanceof Function ? locale() : locale),
       ...(localeFromContext || {}),
@@ -36,10 +36,10 @@ export default class LocaleReceiver<
   }
 
   getLocaleCode() {
-    const antLocale = this.context;
-    const localeCode = antLocale && antLocale.locale;
+    const ezdLocale = this.context;
+    const localeCode = ezdLocale && ezdLocale.locale;
     // Had use LocaleProvide but didn't set locale
-    if (antLocale && antLocale.exist && !localeCode) {
+    if (ezdLocale && ezdLocale.exist && !localeCode) {
       return defaultLocaleData.locale;
     }
     return localeCode;
@@ -54,17 +54,17 @@ export function useLocaleReceiver<T extends LocaleComponentName>(
   componentName: T,
   defaultLocale?: Locale[T] | Function,
 ): [Locale[T]] {
-  const antLocale = React.useContext(LocaleContext);
+  const ezdLocale = React.useContext(LocaleContext);
 
   const componentLocale = React.useMemo(() => {
     const locale = defaultLocale || defaultLocaleData[componentName || 'global'];
-    const localeFromContext = componentName && antLocale ? antLocale[componentName] : {};
+    const localeFromContext = componentName && ezdLocale ? ezdLocale[componentName] : {};
 
     return {
       ...(typeof locale === 'function' ? (locale as Function)() : locale),
       ...(localeFromContext || {}),
     };
-  }, [componentName, defaultLocale, antLocale]);
+  }, [componentName, defaultLocale, ezdLocale]);
 
   return [componentLocale];
 }

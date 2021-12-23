@@ -18,7 +18,7 @@ Click to upload user's avatar, and validate size and format of picture with `bef
 > The return value of function `beforeUpload` can be a Promise to check asynchronously. [demo](https://upload-react-component.vercel.app/demo/before-upload#beforeupload)
 
 ```jsx
-import { Upload, message } from '@ezviz/evvd';
+import { Upload, message } from '@ezviz/ezd';
 import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
 
 function getBase64(img, callback) {
@@ -88,7 +88,7 @@ ReactDOM.render(<Avatar />, mountNode);
 ```
 
 ```css
-.avatar-uploader > .ant-upload {
+.avatar-uploader > .ezd-upload {
   width: 128px;
   height: 128px;
 }

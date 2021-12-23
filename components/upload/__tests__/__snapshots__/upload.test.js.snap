@@ -5,11 +5,11 @@ exports[`Upload rtl render component should be rendered correctly in RTL directi
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text ant-upload-rtl"
+    class="ezd-upload ezd-upload-select ezd-upload-select-text ezd-upload-rtl"
     style="display:none"
   >
     <span
-      class="ant-upload"
+      class="ezd-upload"
       role="button"
       tabindex="0"
     >
@@ -21,7 +21,7 @@ exports[`Upload rtl render component should be rendered correctly in RTL directi
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text ant-upload-list-rtl"
+    class="ezd-upload-list ezd-upload-list-text ezd-upload-list-rtl"
   />
 </span>
 `;

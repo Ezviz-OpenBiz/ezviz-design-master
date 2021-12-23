@@ -15,7 +15,7 @@ title:
 
 ```tsx
 import React, { useState } from 'react';
-import { Form, InputNumber } from '@ezviz/evvd';
+import { Form, InputNumber } from '@ezviz/ezd';
 
 type ValidateStatus = Parameters<typeof Form.Item>[0]['validateStatus'];
 

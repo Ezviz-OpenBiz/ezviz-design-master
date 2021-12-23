@@ -7,7 +7,7 @@ export interface CommentProps {
   actions?: Array<React.ReactNode>;
   /** The element to display as the comment author. */
   author?: React.ReactNode;
-  /** The element to display as the comment avatar - generally an antd Avatar */
+  /** The element to display as the comment avatar - generally an ezd Avatar */
   avatar?: React.ReactNode;
   /** ClassName of comment */
   className?: string;
@@ -15,7 +15,7 @@ export interface CommentProps {
   content: React.ReactNode;
   /** Nested comments should be provided as children of the Comment */
   children?: React.ReactNode;
-  /** Comment prefix defaults to '.ant-comment' */
+  /** Comment prefix defaults to '.ezd-comment' */
   prefixCls?: string;
   /** Additional style for the comment */
   style?: React.CSSProperties;

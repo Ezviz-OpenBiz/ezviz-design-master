@@ -15,7 +15,7 @@ debug: true
 There are two compacted table sizes: `middle` and `small`. The `small` size is used in Modals only.
 
 ```jsx
-import { Table } from '@ezviz/evvd';
+import { Table } from '@ezviz/ezd';
 
 const columns = [
   {

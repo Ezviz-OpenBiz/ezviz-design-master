@@ -14,7 +14,7 @@ title:
 Both the top navigation and the sidebar, commonly used in application site.
 
 ```jsx
-import { Layout, Menu, Breadcrumb } from '@ezviz/evvd';
+import { Layout, Menu, Breadcrumb } from '@ezviz/ezd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
@@ -90,7 +90,7 @@ ReactDOM.render(
   background: rgba(255, 255, 255, 0.3);
 }
 
-.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+.ezd-row-rtl #components-layout-demo-top-side-2 .logo {
   float: right;
   margin: 16px 0 16px 24px;
 }

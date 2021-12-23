@@ -14,7 +14,7 @@ title:
 To change the element sort by `order`.
 
 ```jsx
-import { Row, Col, Divider } from '@ezviz/evvd';
+import { Row, Col, Divider } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>
@@ -54,7 +54,7 @@ ReactDOM.render(
 ```
 
 ```css
-#components-grid-demo-flex-order [class~='ant-row'] {
+#components-grid-demo-flex-order [class~='ezd-row'] {
   background: rgba(128, 128, 128, 0.08);
 }
 ```

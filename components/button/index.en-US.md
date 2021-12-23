@@ -11,7 +11,7 @@ To trigger an operation.
 
 A button means an operation (or a series of operations). Clicking a button will trigger corresponding business logic.
 
-In Evv Design we provide 5 types of button.
+In EZ Design we provide 5 types of button.
 
 - Primary button: indicate the main action, one primary button at most in one section.
 - Default button: indicate a series of actions without priority.
@@ -52,21 +52,21 @@ It accepts all props which native buttons support.
 
 ### How to remove space between 2 chinese characters?
 
-Following the Evv Design specification, we will add one space between if Button (exclude Text button and Link button) contains two Chinese characters only. If you don't need that, you can use [ConfigProvider](/components/config-provider/#API) to set `autoInsertSpaceInButton` as `false`.
+Following the EZ Design specification, we will add one space between if Button (exclude Text button and Link button) contains two Chinese characters only. If you don't need that, you can use [ConfigProvider](/components/config-provider/#API) to set `autoInsertSpaceInButton` as `false`.
 
 <img src="https://gw.alipayobjects.com/zos/antfincdn/MY%26THAPZrW/38f06cb9-293a-4b42-b183-9f443e79ffea.png" style="box-shadow: none; margin: 0; width: 100px" alt="Button with two Chinese characters" />
 
 <style>
-[id^=components-button-demo-] .ant-btn {
+[id^=components-button-demo-] .ezd-btn {
   margin-right: 8px;
   margin-bottom: 12px;
 }
-[id^="components-button-demo-"] .ant-btn-rtl {
+[id^="components-button-demo-"] .ezd-btn-rtl {
   margin-right: 0;
   margin-left: 8px;
 }
-[id^=components-button-demo-] .ant-btn-group > .ant-btn,
-[id^=components-button-demo-] .ant-btn-group > span > .ant-btn {
+[id^=components-button-demo-] .ezd-btn-group > .ezd-btn,
+[id^=components-button-demo-] .ezd-btn-group > span > .ezd-btn {
   margin-right: 0;
 }
 [data-theme="dark"] .site-button-ghost-wrapper {

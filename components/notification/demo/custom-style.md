@@ -14,7 +14,7 @@ title:
 The style and className are available to customize Notification.
 
 ```jsx
-import { Button, notification } from '@ezviz/evvd';
+import { Button, notification } from '@ezviz/ezd';
 
 const openNotification = () => {
   notification.open({

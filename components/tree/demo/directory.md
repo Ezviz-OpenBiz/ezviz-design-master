@@ -14,7 +14,7 @@ title:
 Built-in directory tree. `multiple` support `ctrl(Windows)` / `command(Mac)` selection.
 
 ```tsx
-import { Tree } from '@ezviz/evvd';
+import { Tree } from '@ezviz/ezd';
 
 const { DirectoryTree } = Tree;
 

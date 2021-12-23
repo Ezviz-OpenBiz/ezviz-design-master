@@ -9,7 +9,7 @@ import collapseMotion from '../_util/motion';
 import renderSwitcherIcon from './utils/iconUtil';
 import dropIndicatorRender from './utils/dropIndicator';
 
-export interface AntdTreeNodeAttribute {
+export interface EzdTreeNodeAttribute {
   eventKey: string;
   prefixCls: string;
   className: string;
@@ -29,7 +29,7 @@ export interface AntdTreeNodeAttribute {
   disableCheckbox: boolean;
 }
 
-export interface AntTreeNodeProps {
+export interface EzdTreeNodeProps {
   className?: string;
   checkable?: boolean;
   disabled?: boolean;
@@ -43,46 +43,46 @@ export interface AntTreeNodeProps {
   loading?: boolean;
   selected?: boolean;
   selectable?: boolean;
-  icon?: ((treeNode: AntdTreeNodeAttribute) => React.ReactNode) | React.ReactNode;
+  icon?: ((treeNode: EzdTreeNodeAttribute) => React.ReactNode) | React.ReactNode;
   children?: React.ReactNode;
   [customProp: string]: any;
 }
 
-export interface AntTreeNode extends React.Component<AntTreeNodeProps, {}> {}
+export interface EzdTreeNode extends React.Component<EzdTreeNodeProps, {}> {}
 
-export interface AntTreeNodeBaseEvent {
-  node: AntTreeNode;
+export interface EzdTreeNodeBaseEvent {
+  node: EzdTreeNode;
   nativeEvent: MouseEvent;
 }
 
-export interface AntTreeNodeCheckedEvent extends AntTreeNodeBaseEvent {
+export interface EzdTreeNodeCheckedEvent extends EzdTreeNodeBaseEvent {
   event: 'check';
   checked?: boolean;
-  checkedNodes?: AntTreeNode[];
+  checkedNodes?: EzdTreeNode[];
 }
 
-export interface AntTreeNodeSelectedEvent extends AntTreeNodeBaseEvent {
+export interface EzdTreeNodeSelectedEvent extends EzdTreeNodeBaseEvent {
   event: 'select';
   selected?: boolean;
   selectedNodes?: DataNode[];
 }
 
-export interface AntTreeNodeExpandedEvent extends AntTreeNodeBaseEvent {
+export interface EzdTreeNodeExpandedEvent extends EzdTreeNodeBaseEvent {
   expanded?: boolean;
 }
 
-export interface AntTreeNodeMouseEvent {
-  node: AntTreeNode;
+export interface EzdTreeNodeMouseEvent {
+  node: EzdTreeNode;
   event: React.DragEvent<HTMLElement>;
 }
 
-export interface AntTreeNodeDragEnterEvent extends AntTreeNodeMouseEvent {
+export interface EzdTreeNodeDragEnterEvent extends EzdTreeNodeMouseEvent {
   expandedKeys: Key[];
 }
 
-export interface AntTreeNodeDropEvent {
-  node: AntTreeNode;
-  dragNode: AntTreeNode;
+export interface EzdTreeNodeDropEvent {
+  node: EzdTreeNode;
+  dragNode: EzdTreeNode;
   dragNodesKeys: Key[];
   dropPosition: number;
   dropToGap?: boolean;
@@ -92,7 +92,7 @@ export interface AntTreeNodeDropEvent {
 // [Legacy] Compatible for v3
 export type TreeNodeNormal = DataNode;
 
-type DraggableFn = (node: AntTreeNode) => boolean;
+type DraggableFn = (node: EzdTreeNode) => boolean;
 interface DraggableConfig {
   icon?: React.ReactNode | false;
   nodeDraggable?: DraggableFn;
@@ -130,13 +130,13 @@ export interface TreeProps
   defaultSelectedKeys?: Key[];
   selectable?: boolean;
   /** 点击树节点触发 */
-  filterAntTreeNode?: (node: AntTreeNode) => boolean;
+  filterEzdTreeNode?: (node: EzdTreeNode) => boolean;
   loadedKeys?: Key[];
   /** 设置节点可拖拽（IE>8） */
   draggable?: DraggableFn | boolean | DraggableConfig;
   style?: React.CSSProperties;
   showIcon?: boolean;
-  icon?: ((nodeProps: AntdTreeNodeAttribute) => React.ReactNode) | React.ReactNode;
+  icon?: ((nodeProps: EzdTreeNodeAttribute) => React.ReactNode) | React.ReactNode;
   switcherIcon?: React.ReactElement<any>;
   prefixCls?: string;
   children?: React.ReactNode;
@@ -215,7 +215,7 @@ const Tree = React.forwardRef<RcTree, TreeProps>((props, ref) => {
       direction={direction}
       checkable={checkable ? <span className={`${prefixCls}-checkbox-inner`} /> : checkable}
       selectable={selectable}
-      switcherIcon={(nodeProps: AntTreeNodeProps) =>
+      switcherIcon={(nodeProps: EzdTreeNodeProps) =>
         renderSwitcherIcon(prefixCls, switcherIcon, showLine, nodeProps)
       }
       draggable={draggableConfig as any}

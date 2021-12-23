@@ -15,7 +15,7 @@ debug: true
 Adjust placement automatically when tooltip is invisible.
 
 ```jsx
-import { Tooltip, Button } from '@ezviz/evvd';
+import { Tooltip, Button } from '@ezviz/ezd';
 
 const wrapStyles = {
   overflow: 'hidden',

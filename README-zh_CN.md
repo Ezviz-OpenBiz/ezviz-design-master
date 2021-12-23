@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://saastest3.ys7.com/evvd/">
+  <a href="https://saastest3.ys7.com/ezd/">
     <img width="200" src="https://es.ys7.com/ys/img/logo.256e18ae.png">
   </a>
 </p>
 
-<h1 align="center">Evv Design</h1>
+<h1 align="center">EZ Design</h1>
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 
 </div>
 
-[![](https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*Ey3wTo-5__QAAAAAAAAAAABkARQnAQ)](https://saastest3.ys7.com/evvd/index-cn)
+[![](https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*Ey3wTo-5__QAAAAAAAAAAABkARQnAQ)](https://saastest3.ys7.com/ezd/index-cn)
 
 [English](./README.md) | [Português](./README-pt_BR.md) | 简体中文 | [Українською](./README-uk_UA.md)
 
@@ -39,17 +39,17 @@
 ## 📦 安装
 
 ```bash
-npm install @ezviz/evvd --save
+npm install @ezviz/ezd --save
 ```
 
 ```bash
-yarn add @ezviz/evvd
+yarn add @ezviz/ezd
 ```
 
 ## 🔨 示例
 
 ```jsx
-import { Button, DatePicker } from '@ezviz/evvd';
+import { Button, DatePicker } from '@ezviz/ezd';
 
 const App = () => (
   <>
@@ -62,29 +62,25 @@ const App = () => (
 引入样式：
 
 ```jsx
-import '@ezviz/evvd/dist/@ezviz/evvd.css'; // or '@ezviz/evvd/dist/@ezviz/evvd.less'
+import '@ezviz/ezd/dist/@ezviz/ezd.css'; // or '@ezviz/ezd/dist/@ezviz/ezd.less'
 ```
 
 ### 🌈 定制主题
 
-参考 [定制主题](https://saastest3.ys7.com/evvd/docs/react/customize-theme-cn) 文档。
+参考 [定制主题](https://saastest3.ys7.com/ezd/docs/react/customize-theme-cn) 文档。
 
 ### 🛡 TypeScript
 
-参考 [在 TypeScript 中使用](https://saastest3.ys7.com/evvd/docs/react/use-in-typescript-cn)。
+参考 [在 TypeScript 中使用](https://saastest3.ys7.com/ezd/docs/react/use-in-typescript-cn)。
 
 ## 🌍 国际化
 
-参考 [国际化文档](https://saastest3.ys7.com/evvd/docs/react/i18n-cn)。
+参考 [国际化文档](https://saastest3.ys7.com/ezd/docs/react/i18n-cn)。
 
 
 ## ⌨️ 本地开发
 
-你可以使用 Gitpod 进行在线开发：
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ezviz-saas/ezviz-design-master)
-
-或者克隆到本地开发:
+克隆到本地开发:
 
 ```bash
 $ git clone git@github.com:ezviz-saas/ezviz-design-master.git

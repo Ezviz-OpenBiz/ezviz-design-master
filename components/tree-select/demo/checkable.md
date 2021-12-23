@@ -14,7 +14,7 @@ title:
 Multiple and checkable.
 
 ```jsx
-import { TreeSelect } from '@ezviz/evvd';
+import { TreeSelect } from '@ezviz/ezd';
 
 const { SHOW_PARENT } = TreeSelect;
 

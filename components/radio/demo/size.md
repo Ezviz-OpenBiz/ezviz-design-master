@@ -14,7 +14,7 @@ title:
 There are three sizes available: large, medium, and small. It can coordinate with input box.
 
 ```jsx
-import { Radio } from '@ezviz/evvd';
+import { Radio } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

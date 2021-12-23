@@ -14,7 +14,7 @@ title:
 The basic example.
 
 ```jsx
-import { Popconfirm, message } from '@ezviz/evvd';
+import { Popconfirm, message } from '@ezviz/ezd';
 
 function confirm(e) {
   console.log(e);

@@ -15,7 +15,7 @@ title:
 Under different screen sizes, there should be different performance
 
 ```jsx
-import { PageHeader, Tabs, Button, Statistic, Descriptions } from '@ezviz/evvd';
+import { PageHeader, Tabs, Button, Statistic, Descriptions } from '@ezviz/ezd';
 
 const { TabPane } = Tabs;
 
@@ -91,7 +91,7 @@ ReactDOM.render(
 tr:last-child td {
   padding-bottom: 0;
 }
-.ant-statistic-content {
+.ezd-statistic-content {
   font-size: 20px;
   line-height: 28px;
 }

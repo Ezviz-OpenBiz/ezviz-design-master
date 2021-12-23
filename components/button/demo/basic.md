@@ -11,10 +11,10 @@ title:
 
 ## en-US
 
-There are `primary` button, `default` button, `dashed` button, `text` button and `link` button in evv.
+There are `primary` button, `default` button, `dashed` button, `text` button and `link` button in ezd.
 
 ```jsx
-import { Button } from '@ezviz/evvd';
+import { Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

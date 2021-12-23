@@ -15,7 +15,7 @@ The example of infinite load with [react-infinite-scroll-component](https://gith
 
 ```jsx
 import React, { useState, useEffect } from 'react';
-import { List, message, Avatar, Skeleton, Divider } from '@ezviz/evvd';
+import { List, message, Avatar, Skeleton, Divider } from '@ezviz/ezd';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 const InfiniteListExample = () => {
@@ -66,7 +66,7 @@ const InfiniteListExample = () => {
             <List.Item key={item.id}>
               <List.Item.Meta
                 avatar={<Avatar src={item.picture.large} />}
-                title={<a href="https://ant.design">{item.name.last}</a>}
+                title={<a href="https://saastest3.ys7.com/ezd/">{item.name.last}</a>}
                 description={item.email}
               />
               <div>Content</div>

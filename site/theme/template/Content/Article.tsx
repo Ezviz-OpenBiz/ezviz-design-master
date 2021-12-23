@@ -2,7 +2,7 @@ import React, { Children, cloneElement } from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 import { Helmet } from 'react-helmet-async';
 import { getChildren } from 'jsonml.js/lib/utils';
-import { Timeline, Alert, Affix } from 'antd';
+import { Timeline, Alert, Affix } from '@ezviz/ezd';
 import EditButton from './EditButton';
 import { getMetaDescription } from '../utils';
 
@@ -104,7 +104,7 @@ class Article extends React.Component<ArticleProps> {
     const { meta, description } = content;
     const { title, subtitle, filename } = meta;
     const isNotTranslated = locale === 'en-US' && typeof title === 'object';
-    const helmetTitle = `${(title as LocaleString)[locale] || title} - Evv Design`;
+    const helmetTitle = `${(title as LocaleString)[locale] || title} - EZ Design`;
     const helmetDesc = getMetaDescription(description);
     const contentChild = getMetaDescription(getChildren(content.content));
     const metaDesc = helmetDesc || contentChild;
@@ -122,7 +122,7 @@ class Article extends React.Component<ArticleProps> {
             message={
               <span>
                 This article has not been translated yet. Wanna help us out?&nbsp;
-                <a href="https://github.com/ant-design/ant-design/issues/1471">
+                <a href="https://github.com/Ezviz-OpenBiz/ezviz-design-master">
                   See this issue on GitHub.
                 </a>
               </span>

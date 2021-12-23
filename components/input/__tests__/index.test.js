@@ -37,7 +37,7 @@ describe('Input', () => {
 
   it('should support size', () => {
     const wrapper = mount(<Input size="large" />);
-    expect(wrapper.find('input').hasClass('ant-input-lg')).toBe(true);
+    expect(wrapper.find('input').hasClass('ezd-input-lg')).toBe(true);
     expect(wrapper.render()).toMatchSnapshot();
   });
 
@@ -49,7 +49,7 @@ describe('Input', () => {
         </Form.Item>
       </Form>,
     );
-    expect(wrapper.find('input').hasClass('ant-input-lg')).toBe(true);
+    expect(wrapper.find('input').hasClass('ezd-input-lg')).toBe(true);
     expect(wrapper.render()).toMatchSnapshot();
   });
 
@@ -69,7 +69,7 @@ describe('Input', () => {
         suffix: 'light',
       });
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [antd: Input] When Input is focused, dynamic add or remove prefix / suffix will make it lose focus caused by dom structure change. Read more: https://ant.design/components/input/#FAQ',
+        'Warning: [ezd: Input] When Input is focused, dynamic add or remove prefix / suffix will make it lose focus caused by dom structure change. Read more: https://saastest3.ys7.com/ezd/components/input/#FAQ',
       );
       wrapper.unmount();
     });
@@ -139,7 +139,7 @@ describe('Input allowClear', () => {
     wrapper.find('input').simulate('change', { target: { value: '111' } });
     expect(wrapper.find('input').getDOMNode().value).toEqual('111');
     expect(wrapper.render()).toMatchSnapshot();
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
     expect(wrapper.render()).toMatchSnapshot();
     expect(wrapper.find('input').getDOMNode().value).toEqual('');
   });
@@ -148,7 +148,7 @@ describe('Input allowClear', () => {
     const wrappers = [null, undefined, ''].map(val => mount(<Input allowClear value={val} />));
     wrappers.forEach(wrapper => {
       expect(wrapper.find('input').getDOMNode().value).toEqual('');
-      expect(wrapper.find('.ant-input-clear-icon-hidden').exists()).toBeTruthy();
+      expect(wrapper.find('.ezd-input-clear-icon-hidden').exists()).toBeTruthy();
       expect(wrapper.render()).toMatchSnapshot();
     });
   });
@@ -159,7 +159,7 @@ describe('Input allowClear', () => {
     );
     wrappers.forEach(wrapper => {
       expect(wrapper.find('input').getDOMNode().value).toEqual('');
-      expect(wrapper.find('.ant-input-clear-icon-hidden').exists()).toBeTruthy();
+      expect(wrapper.find('.ezd-input-clear-icon-hidden').exists()).toBeTruthy();
       expect(wrapper.render()).toMatchSnapshot();
     });
   });
@@ -172,7 +172,7 @@ describe('Input allowClear', () => {
       argumentEventObjectValue = e.target.value;
     };
     const wrapper = mount(<Input allowClear defaultValue="111" onChange={onChange} />);
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
     expect(argumentEventObject.type).toBe('click');
     expect(argumentEventObjectValue).toBe('');
     expect(wrapper.find('input').at(0).getDOMNode().value).toBe('');
@@ -186,7 +186,7 @@ describe('Input allowClear', () => {
       argumentEventObjectValue = e.target.value;
     };
     const wrapper = mount(<Input allowClear value="111" onChange={onChange} />);
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
     expect(argumentEventObject.type).toBe('click');
     expect(argumentEventObjectValue).toBe('');
     expect(wrapper.find('input').at(0).getDOMNode().value).toBe('111');
@@ -194,7 +194,7 @@ describe('Input allowClear', () => {
 
   it('should focus input after clear', () => {
     const wrapper = mount(<Input allowClear defaultValue="111" />, { attachTo: document.body });
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
     expect(document.activeElement).toBe(wrapper.find('input').at(0).getDOMNode());
     wrapper.unmount();
   });
@@ -202,34 +202,31 @@ describe('Input allowClear', () => {
   ['disabled', 'readOnly'].forEach(prop => {
     it(`should not support allowClear when it is ${prop}`, () => {
       const wrapper = mount(<Input allowClear defaultValue="111" {...{ [prop]: true }} />);
-      expect(wrapper.find('.ant-input-clear-icon-hidden').exists()).toBeTruthy();
+      expect(wrapper.find('.ezd-input-clear-icon-hidden').exists()).toBeTruthy();
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/27444
   it('should support className', () => {
     const wrapper = mount(<Input allowClear className="my-class-name" />);
     expect(wrapper.getDOMNode().className.includes('my-class-name')).toBe(true);
     expect(wrapper.find('input').getDOMNode().className.includes('my-class-name')).toBe(false);
   });
 
-  // https://github.com/ant-design/ant-design/issues/31200
   it('should not lost focus when clear input', () => {
     const onBlur = jest.fn();
     const wrapper = mount(<Input allowClear defaultValue="value" onBlur={onBlur} />, {
       attachTo: document.body,
     });
     wrapper.find('input').getDOMNode().focus();
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('mouseDown');
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('mouseUp');
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('focus');
-    wrapper.find('.ant-input-clear-icon').at(0).getDOMNode().click();
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('mouseDown');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('mouseUp');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('focus');
+    wrapper.find('.ezd-input-clear-icon').at(0).getDOMNode().click();
     expect(onBlur).not.toBeCalled();
     wrapper.unmount();
   });
 
-  // https://github.com/ant-design/ant-design/issues/31927
   it('should correctly when useState', () => {
     const App = () => {
       const [query, setQuery] = useState('');
@@ -250,7 +247,7 @@ describe('Input allowClear', () => {
     wrapper.find('input').simulate('change', { target: { value: '111' } });
     expect(wrapper.find('input').getDOMNode().value).toEqual('111');
 
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
     expect(wrapper.find('input').getDOMNode().value).toEqual('');
 
     wrapper.unmount();

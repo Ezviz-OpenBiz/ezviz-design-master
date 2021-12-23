@@ -2,19 +2,19 @@
 
 exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
 <div
-  class="ant-picker-calendar ant-picker-calendar-full"
+  class="ezd-picker-calendar ezd-picker-calendar-full"
 >
   <div
-    class="ant-picker-calendar-header"
+    class="ezd-picker-calendar-header"
   >
     <div
-      class="ant-select ant-picker-calendar-year-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ezd-picker-calendar-year-select ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -23,7 +23,7 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
             aria-haspopup="listbox"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -34,7 +34,7 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="2019"
         >
           2019
@@ -42,13 +42,13 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select: none;"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -68,13 +68,13 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
       </span>
     </div>
     <div
-      class="ant-select ant-picker-calendar-month-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ezd-picker-calendar-month-select ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -83,7 +83,7 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
             aria-haspopup="listbox"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -94,7 +94,7 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="Jan"
         >
           Jan
@@ -102,13 +102,13 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select: none;"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -128,22 +128,22 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
       </span>
     </div>
     <div
-      class="ant-radio-group ant-radio-group-outline ant-picker-calendar-mode-switch"
+      class="ezd-radio-group ezd-radio-group-outline ezd-picker-calendar-mode-switch"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="ezd-radio-button-wrapper ezd-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="ezd-radio-button ezd-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="ezd-radio-button-input"
             type="radio"
             value="month"
           />
           <span
-            class="ant-radio-button-inner"
+            class="ezd-radio-button-inner"
           />
         </span>
         <span>
@@ -151,18 +151,18 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="ezd-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="ezd-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="ezd-radio-button-input"
             type="radio"
             value="year"
           />
           <span
-            class="ant-radio-button-inner"
+            class="ezd-radio-button-inner"
           />
         </span>
         <span>
@@ -172,17 +172,17 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
     </div>
   </div>
   <div
-    class="ant-picker-panel"
+    class="ezd-picker-panel"
     tabindex="0"
   >
     <div
-      class="ant-picker-date-panel"
+      class="ezd-picker-date-panel"
     >
       <div
-        class="ant-picker-body"
+        class="ezd-picker-body"
       >
         <table
-          class="ant-picker-content"
+          class="ezd-picker-content"
         >
           <thead>
             <tr>
@@ -212,726 +212,726 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
           <tbody>
             <tr>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-12-30"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     30
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-end"
+                class="ezd-picker-cell ezd-picker-cell-end"
                 title="2018-12-31"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     31
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-start ant-picker-cell-in-view ant-picker-cell-selected"
+                class="ezd-picker-cell ezd-picker-cell-start ezd-picker-cell-in-view ezd-picker-cell-selected"
                 title="2019-01-01"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     01
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-02"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     02
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-03"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     03
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-04"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     04
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-05"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     05
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-06"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     06
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-07"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     07
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-08"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     08
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-09"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     09
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-10"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     10
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-11"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     11
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-12"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     12
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-13"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     13
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-14"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     14
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-15"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     15
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-16"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     16
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-17"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     17
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-18"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     18
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-19"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     19
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-20"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     20
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-21"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     21
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-22"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     22
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-23"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     23
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-24"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     24
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-25"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     25
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-26"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     26
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-27"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     27
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-28"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     28
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-29"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     29
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2019-01-30"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     30
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-end ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-end ezd-picker-cell-in-view"
                 title="2019-01-31"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     31
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-start"
+                class="ezd-picker-cell ezd-picker-cell-start"
                 title="2019-02-01"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     01
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-02"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     02
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-03"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     03
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-04"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     04
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-05"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     05
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-06"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     06
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-07"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     07
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-08"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     08
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2019-02-09"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     09
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
@@ -946,19 +946,19 @@ exports[`Calendar Calendar MonthSelect should display correct label 1`] = `
 
 exports[`Calendar Calendar should support locale 1`] = `
 <div
-  class="ant-picker-calendar ant-picker-calendar-full"
+  class="ezd-picker-calendar ezd-picker-calendar-full"
 >
   <div
-    class="ant-picker-calendar-header"
+    class="ezd-picker-calendar-header"
   >
     <div
-      class="ant-select ant-picker-calendar-year-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ezd-picker-calendar-year-select ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -967,7 +967,7 @@ exports[`Calendar Calendar should support locale 1`] = `
             aria-haspopup="listbox"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -978,7 +978,7 @@ exports[`Calendar Calendar should support locale 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="2018年"
         >
           2018年
@@ -986,13 +986,13 @@ exports[`Calendar Calendar should support locale 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select: none;"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -1012,13 +1012,13 @@ exports[`Calendar Calendar should support locale 1`] = `
       </span>
     </div>
     <div
-      class="ant-select ant-picker-calendar-month-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ezd-picker-calendar-month-select ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -1027,7 +1027,7 @@ exports[`Calendar Calendar should support locale 1`] = `
             aria-haspopup="listbox"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -1038,7 +1038,7 @@ exports[`Calendar Calendar should support locale 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="10月"
         >
           10月
@@ -1046,13 +1046,13 @@ exports[`Calendar Calendar should support locale 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select: none;"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -1072,22 +1072,22 @@ exports[`Calendar Calendar should support locale 1`] = `
       </span>
     </div>
     <div
-      class="ant-radio-group ant-radio-group-outline ant-picker-calendar-mode-switch"
+      class="ezd-radio-group ezd-radio-group-outline ezd-picker-calendar-mode-switch"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="ezd-radio-button-wrapper ezd-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="ezd-radio-button ezd-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="ezd-radio-button-input"
             type="radio"
             value="month"
           />
           <span
-            class="ant-radio-button-inner"
+            class="ezd-radio-button-inner"
           />
         </span>
         <span>
@@ -1095,18 +1095,18 @@ exports[`Calendar Calendar should support locale 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="ezd-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="ezd-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="ezd-radio-button-input"
             type="radio"
             value="year"
           />
           <span
-            class="ant-radio-button-inner"
+            class="ezd-radio-button-inner"
           />
         </span>
         <span>
@@ -1116,17 +1116,17 @@ exports[`Calendar Calendar should support locale 1`] = `
     </div>
   </div>
   <div
-    class="ant-picker-panel"
+    class="ezd-picker-panel"
     tabindex="0"
   >
     <div
-      class="ant-picker-date-panel"
+      class="ezd-picker-date-panel"
     >
       <div
-        class="ant-picker-body"
+        class="ezd-picker-body"
       >
         <table
-          class="ant-picker-content"
+          class="ezd-picker-content"
         >
           <thead>
             <tr>
@@ -1156,726 +1156,726 @@ exports[`Calendar Calendar should support locale 1`] = `
           <tbody>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-start ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-start ezd-picker-cell-in-view"
                 title="2018-10-01"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     01
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-02"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     02
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-03"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     03
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-04"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     04
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-05"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     05
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-06"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     06
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-07"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     07
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-08"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     08
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-09"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     09
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-10"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     10
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-11"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     11
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-12"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     12
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-13"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     13
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-14"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     14
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-15"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     15
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-16"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     16
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-17"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     17
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-18"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     18
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view ant-picker-cell-today ant-picker-cell-selected"
+                class="ezd-picker-cell ezd-picker-cell-in-view ezd-picker-cell-today ezd-picker-cell-selected"
                 title="2018-10-19"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date ant-picker-calendar-date-today"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date ezd-picker-calendar-date-today"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     19
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-20"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     20
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-21"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     21
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-22"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     22
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-23"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     23
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-24"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     24
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-25"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     25
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-26"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     26
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-27"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     27
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-28"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     28
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-29"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     29
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2018-10-30"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     30
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-end ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-end ezd-picker-cell-in-view"
                 title="2018-10-31"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     31
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-start"
+                class="ezd-picker-cell ezd-picker-cell-start"
                 title="2018-11-01"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     01
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-02"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     02
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-03"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     03
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-04"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     04
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-05"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     05
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-06"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     06
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-07"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     07
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-08"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     08
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-09"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     09
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-10"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     10
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2018-11-11"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     11
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
@@ -1890,19 +1890,19 @@ exports[`Calendar Calendar should support locale 1`] = `
 
 exports[`Calendar rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-picker-calendar ant-picker-calendar-full ant-picker-calendar-rtl"
+  class="ezd-picker-calendar ezd-picker-calendar-full ezd-picker-calendar-rtl"
 >
   <div
-    class="ant-picker-calendar-header"
+    class="ezd-picker-calendar-header"
   >
     <div
-      class="ant-select ant-select-rtl ant-picker-calendar-year-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ezd-select-rtl ezd-picker-calendar-year-select ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -1911,7 +1911,7 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -1921,7 +1921,7 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="2000"
         >
           2000
@@ -1929,13 +1929,13 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -1955,13 +1955,13 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
       </span>
     </div>
     <div
-      class="ant-select ant-select-rtl ant-picker-calendar-month-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ezd-select-rtl ezd-picker-calendar-month-select ezd-select-single ezd-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -1970,7 +1970,7 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -1980,7 +1980,7 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="Sep"
         >
           Sep
@@ -1988,13 +1988,13 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down ant-select-suffix"
+          class="anticon anticon-down ezd-select-suffix"
           role="img"
         >
           <svg
@@ -2014,22 +2014,22 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
       </span>
     </div>
     <div
-      class="ant-radio-group ant-radio-group-outline ant-radio-group-rtl ant-picker-calendar-mode-switch"
+      class="ezd-radio-group ezd-radio-group-outline ezd-radio-group-rtl ezd-picker-calendar-mode-switch"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-rtl"
+        class="ezd-radio-button-wrapper ezd-radio-button-wrapper-checked ezd-radio-button-wrapper-rtl"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="ezd-radio-button ezd-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="ezd-radio-button-input"
             type="radio"
             value="month"
           />
           <span
-            class="ant-radio-button-inner"
+            class="ezd-radio-button-inner"
           />
         </span>
         <span>
@@ -2037,18 +2037,18 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-rtl"
+        class="ezd-radio-button-wrapper ezd-radio-button-wrapper-rtl"
       >
         <span
-          class="ant-radio-button"
+          class="ezd-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="ezd-radio-button-input"
             type="radio"
             value="year"
           />
           <span
-            class="ant-radio-button-inner"
+            class="ezd-radio-button-inner"
           />
         </span>
         <span>
@@ -2058,17 +2058,17 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
     </div>
   </div>
   <div
-    class="ant-picker-panel"
+    class="ezd-picker-panel"
     tabindex="0"
   >
     <div
-      class="ant-picker-date-panel"
+      class="ezd-picker-date-panel"
     >
       <div
-        class="ant-picker-body"
+        class="ezd-picker-body"
       >
         <table
-          class="ant-picker-content"
+          class="ezd-picker-content"
         >
           <thead>
             <tr>
@@ -2098,726 +2098,726 @@ exports[`Calendar rtl render component should be rendered correctly in RTL direc
           <tbody>
             <tr>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-08-27"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     27
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-08-28"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     28
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-08-29"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     29
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-08-30"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     30
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-end"
+                class="ezd-picker-cell ezd-picker-cell-end"
                 title="2000-08-31"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     31
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-start ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-start ezd-picker-cell-in-view"
                 title="2000-09-01"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     01
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-02"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     02
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-03"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     03
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-04"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     04
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-05"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     05
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-06"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     06
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-07"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     07
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-08"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     08
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-09"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     09
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-10"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     10
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-11"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     11
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-12"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     12
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-13"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     13
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-14"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     14
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-15"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     15
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-16"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     16
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-17"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     17
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-18"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     18
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-19"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     19
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-20"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     20
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-21"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     21
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-22"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     22
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-23"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     23
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-24"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     24
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-25"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     25
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-26"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     26
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-27"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     27
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view ant-picker-cell-today ant-picker-cell-selected"
+                class="ezd-picker-cell ezd-picker-cell-in-view ezd-picker-cell-today ezd-picker-cell-selected"
                 title="2000-09-28"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date ant-picker-calendar-date-today"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date ezd-picker-calendar-date-today"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     28
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-in-view"
                 title="2000-09-29"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     29
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell ant-picker-cell-end ant-picker-cell-in-view"
+                class="ezd-picker-cell ezd-picker-cell-end ezd-picker-cell-in-view"
                 title="2000-09-30"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     30
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
             </tr>
             <tr>
               <td
-                class="ant-picker-cell ant-picker-cell-start"
+                class="ezd-picker-cell ezd-picker-cell-start"
                 title="2000-10-01"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     01
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-10-02"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     02
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-10-03"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     03
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-10-04"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     04
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-10-05"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     05
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-10-06"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     06
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>
               <td
-                class="ant-picker-cell"
+                class="ezd-picker-cell"
                 title="2000-10-07"
               >
                 <div
-                  class="ant-picker-cell-inner ant-picker-calendar-date"
+                  class="ezd-picker-cell-inner ezd-picker-calendar-date"
                 >
                   <div
-                    class="ant-picker-calendar-date-value"
+                    class="ezd-picker-calendar-date-value"
                   >
                     07
                   </div>
                   <div
-                    class="ant-picker-calendar-date-content"
+                    class="ezd-picker-calendar-date-content"
                   />
                 </div>
               </td>

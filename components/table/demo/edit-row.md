@@ -9,7 +9,6 @@ title:
 
 带行编辑功能的表格。
 
-> 🛎️ 想要 3 分钟实现？试试 [ProTable 的可编辑表格](https://procomponents.ant.design/components/editable-table)！
 
 ## en-US
 
@@ -17,7 +16,7 @@ Table with editable rows.
 
 ```tsx
 import React, { useState } from 'react';
-import { Table, Input, InputNumber, Popconfirm, Form, Typography } from '@ezviz/evvd';
+import { Table, Input, InputNumber, Popconfirm, Form, Typography } from '@ezviz/ezd';
 
 interface Item {
   key: string;
@@ -201,7 +200,7 @@ ReactDOM.render(<EditableTable />, mountNode);
 ```
 
 ```css
-.editable-row .ant-form-item-explain {
+.editable-row .ezd-form-item-explain {
   position: absolute;
   top: 100%;
   font-size: 12px;

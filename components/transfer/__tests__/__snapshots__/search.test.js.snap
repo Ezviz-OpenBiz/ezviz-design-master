@@ -2,10 +2,10 @@
 
 exports[`Transfer.Search should show cross icon when input value exists 1`] = `
 <span
-  class="ant-input-affix-wrapper"
+  class="ezd-input-affix-wrapper"
 >
   <span
-    class="ant-input-prefix"
+    class="ezd-input-prefix"
   >
     <span
       aria-label="search"
@@ -28,17 +28,17 @@ exports[`Transfer.Search should show cross icon when input value exists 1`] = `
     </span>
   </span>
   <input
-    class="ant-input"
+    class="ezd-input"
     placeholder=""
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="ezd-input-suffix"
   >
     <span
       aria-label="close-circle"
-      class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+      class="anticon anticon-close-circle ezd-input-clear-icon-hidden ezd-input-clear-icon"
       role="button"
       tabindex="-1"
     >
@@ -62,10 +62,10 @@ exports[`Transfer.Search should show cross icon when input value exists 1`] = `
 
 exports[`Transfer.Search should show cross icon when input value exists 2`] = `
 <span
-  class="ant-input-affix-wrapper"
+  class="ezd-input-affix-wrapper"
 >
   <span
-    class="ant-input-prefix"
+    class="ezd-input-prefix"
   >
     <span
       aria-label="search"
@@ -88,17 +88,17 @@ exports[`Transfer.Search should show cross icon when input value exists 2`] = `
     </span>
   </span>
   <input
-    class="ant-input"
+    class="ezd-input"
     placeholder=""
     type="text"
     value="a"
   />
   <span
-    class="ant-input-suffix"
+    class="ezd-input-suffix"
   >
     <span
       aria-label="close-circle"
-      class="anticon anticon-close-circle ant-input-clear-icon"
+      class="anticon anticon-close-circle ezd-input-clear-icon"
       role="button"
       tabindex="-1"
     >

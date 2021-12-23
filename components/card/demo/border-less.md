@@ -14,7 +14,7 @@ title:
 A borderless card on a gray background.
 
 ```jsx
-import { Card } from '@ezviz/evvd';
+import { Card } from '@ezviz/ezd';
 
 ReactDOM.render(
   <div className="site-card-border-less-wrapper">

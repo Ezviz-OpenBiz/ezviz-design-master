@@ -11,7 +11,7 @@ import omit from 'rc-util/lib/omit';
 import { DefaultValueType } from 'rc-tree-select/lib/interface';
 import { ConfigContext } from '../config-provider';
 import devWarning from '../_util/devWarning';
-import { AntTreeNodeProps, TreeProps } from '../tree';
+import { EzdTreeNodeProps, TreeProps } from '../tree';
 import getIcons from '../select/utils/iconUtil';
 import renderSwitcherIcon from '../tree/utils/iconUtil';
 import SizeContext, { SizeType } from '../config-provider/SizeContext';
@@ -152,7 +152,7 @@ const InternalTreeSelect = <T extends DefaultValueType>(
       multiple={multiple}
       removeIcon={removeIcon}
       clearIcon={clearIcon}
-      switcherIcon={(nodeProps: AntTreeNodeProps) =>
+      switcherIcon={(nodeProps: EzdTreeNodeProps) =>
         renderSwitcherIcon(treePrefixCls, switcherIcon, treeLine, nodeProps)
       }
       showTreeIcon={treeIcon as any}

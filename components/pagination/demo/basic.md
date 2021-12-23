@@ -14,7 +14,7 @@ title:
 Basic pagination.
 
 ```jsx
-import { Pagination } from '@ezviz/evvd';
+import { Pagination } from '@ezviz/ezd';
 
 ReactDOM.render(<Pagination defaultCurrent={1} total={50} />, mountNode);
 ```

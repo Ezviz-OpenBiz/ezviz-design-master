@@ -14,7 +14,7 @@ title:
 Basic Form data control. Includes layout, initial values, validation and submit.
 
 ```tsx
-import { Form, Input, Button, Checkbox } from '@ezviz/evvd';
+import { Form, Input, Button, Checkbox } from '@ezviz/ezd';
 
 const Demo = () => {
   const onFinish = (values: any) => {

@@ -15,7 +15,7 @@ debug: true
 For multi-line input.
 
 ```jsx
-import { Input, Button } from '@ezviz/evvd';
+import { Input, Button } from '@ezviz/ezd';
 
 const { TextArea } = Input;
 

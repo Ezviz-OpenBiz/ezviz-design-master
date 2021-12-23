@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```jsx
-import { Rate } from '@ezviz/evvd';
+import { Rate } from '@ezviz/ezd';
 
 ReactDOM.render(<Rate />, mountNode);
 ```

@@ -3,85 +3,85 @@
 exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
 <div>
   <div
-    class="ant-picker-dropdown"
+    class="ezd-picker-dropdown"
     style="opacity:0;pointer-events:none"
   >
     <div
-      class="ant-picker-panel-container"
+      class="ezd-picker-panel-container"
     >
       <div
-        class="ant-picker-panel ant-picker-panel-focused"
+        class="ezd-picker-panel ezd-picker-panel-focused"
         tabindex="-1"
       >
         <div
-          class="ant-picker-month-panel"
+          class="ezd-picker-month-panel"
         >
           <div
-            class="ant-picker-header"
+            class="ezd-picker-header"
           >
             <button
-              class="ant-picker-header-super-prev-btn"
+              class="ezd-picker-header-super-prev-btn"
               tabindex="-1"
               type="button"
             >
               <span
-                class="ant-picker-super-prev-icon"
+                class="ezd-picker-super-prev-icon"
               />
             </button>
             <div
-              class="ant-picker-header-view"
+              class="ezd-picker-header-view"
             >
               <button
-                class="ant-picker-year-btn"
+                class="ezd-picker-year-btn"
                 type="button"
               >
                 2000
               </button>
             </div>
             <button
-              class="ant-picker-header-super-next-btn"
+              class="ezd-picker-header-super-next-btn"
               tabindex="-1"
               type="button"
             >
               <span
-                class="ant-picker-super-next-icon"
+                class="ezd-picker-super-next-icon"
               />
             </button>
           </div>
           <div
-            class="ant-picker-body"
+            class="ezd-picker-body"
           >
             <table
-              class="ant-picker-content"
+              class="ezd-picker-content"
             >
               <tbody>
                 <tr>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view ant-picker-cell-selected"
+                    class="ezd-picker-cell ezd-picker-cell-in-view ezd-picker-cell-selected"
                     title="2000-01"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Jan
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-02"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Feb
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-03"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Mar
                     </div>
@@ -89,31 +89,31 @@ exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
                 </tr>
                 <tr>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-04"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Apr
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-05"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       May
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-06"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Jun
                     </div>
@@ -121,31 +121,31 @@ exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
                 </tr>
                 <tr>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-07"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Jul
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-08"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Aug
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-09"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Sep
                     </div>
@@ -153,31 +153,31 @@ exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
                 </tr>
                 <tr>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-10"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Oct
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-11"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Nov
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-12"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       Dec
                     </div>
@@ -196,52 +196,52 @@ exports[`MonthPicker and WeekPicker render MonthPicker 1`] = `
 exports[`MonthPicker and WeekPicker render WeekPicker 1`] = `
 <div>
   <div
-    class="ant-picker-dropdown"
+    class="ezd-picker-dropdown"
     style="opacity:0;pointer-events:none"
   >
     <div
-      class="ant-picker-panel-container"
+      class="ezd-picker-panel-container"
     >
       <div
-        class="ant-picker-panel ant-picker-panel-focused"
+        class="ezd-picker-panel ezd-picker-panel-focused"
         tabindex="-1"
       >
         <div
-          class="ant-picker-week-panel"
+          class="ezd-picker-week-panel"
         >
           <div
-            class="ant-picker-header"
+            class="ezd-picker-header"
           >
             <button
-              class="ant-picker-header-super-prev-btn"
+              class="ezd-picker-header-super-prev-btn"
               tabindex="-1"
               type="button"
             >
               <span
-                class="ant-picker-super-prev-icon"
+                class="ezd-picker-super-prev-icon"
               />
             </button>
             <button
-              class="ant-picker-header-prev-btn"
+              class="ezd-picker-header-prev-btn"
               tabindex="-1"
               type="button"
             >
               <span
-                class="ant-picker-prev-icon"
+                class="ezd-picker-prev-icon"
               />
             </button>
             <div
-              class="ant-picker-header-view"
+              class="ezd-picker-header-view"
             >
               <button
-                class="ant-picker-month-btn"
+                class="ezd-picker-month-btn"
                 tabindex="-1"
                 type="button"
               >
                 Jan
               </button>
               <button
-                class="ant-picker-year-btn"
+                class="ezd-picker-year-btn"
                 tabindex="-1"
                 type="button"
               >
@@ -249,29 +249,29 @@ exports[`MonthPicker and WeekPicker render WeekPicker 1`] = `
               </button>
             </div>
             <button
-              class="ant-picker-header-next-btn"
+              class="ezd-picker-header-next-btn"
               tabindex="-1"
               type="button"
             >
               <span
-                class="ant-picker-next-icon"
+                class="ezd-picker-next-icon"
               />
             </button>
             <button
-              class="ant-picker-header-super-next-btn"
+              class="ezd-picker-header-super-next-btn"
               tabindex="-1"
               type="button"
             >
               <span
-                class="ant-picker-super-next-icon"
+                class="ezd-picker-super-next-icon"
               />
             </button>
           </div>
           <div
-            class="ant-picker-body"
+            class="ezd-picker-body"
           >
             <table
-              class="ant-picker-content"
+              class="ezd-picker-content"
             >
               <thead>
                 <tr>
@@ -303,474 +303,474 @@ exports[`MonthPicker and WeekPicker render WeekPicker 1`] = `
               </thead>
               <tbody>
                 <tr
-                  class="ant-picker-week-panel-row ant-picker-week-panel-row-selected"
+                  class="ezd-picker-week-panel-row ezd-picker-week-panel-row-selected"
                 >
                   <td
-                    class="ant-picker-cell ant-picker-cell-week"
+                    class="ezd-picker-cell ezd-picker-cell-week"
                   >
                     1
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="1999-12-26"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       26
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="1999-12-27"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       27
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="1999-12-28"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       28
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="1999-12-29"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       29
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="1999-12-30"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       30
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-end"
+                    class="ezd-picker-cell ezd-picker-cell-end"
                     title="1999-12-31"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       31
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-start ant-picker-cell-in-view ant-picker-cell-selected"
+                    class="ezd-picker-cell ezd-picker-cell-start ezd-picker-cell-in-view ezd-picker-cell-selected"
                     title="2000-01-01"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       1
                     </div>
                   </td>
                 </tr>
                 <tr
-                  class="ant-picker-week-panel-row"
+                  class="ezd-picker-week-panel-row"
                 >
                   <td
-                    class="ant-picker-cell ant-picker-cell-week"
+                    class="ezd-picker-cell ezd-picker-cell-week"
                   >
                     2
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-02"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       2
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-03"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       3
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-04"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       4
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-05"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       5
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-06"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       6
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-07"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       7
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-08"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       8
                     </div>
                   </td>
                 </tr>
                 <tr
-                  class="ant-picker-week-panel-row"
+                  class="ezd-picker-week-panel-row"
                 >
                   <td
-                    class="ant-picker-cell ant-picker-cell-week"
+                    class="ezd-picker-cell ezd-picker-cell-week"
                   >
                     3
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-09"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       9
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-10"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       10
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-11"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       11
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-12"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       12
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-13"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       13
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-14"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       14
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-15"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       15
                     </div>
                   </td>
                 </tr>
                 <tr
-                  class="ant-picker-week-panel-row"
+                  class="ezd-picker-week-panel-row"
                 >
                   <td
-                    class="ant-picker-cell ant-picker-cell-week"
+                    class="ezd-picker-cell ezd-picker-cell-week"
                   >
                     4
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-16"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       16
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-17"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       17
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-18"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       18
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-19"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       19
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-20"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       20
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-21"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       21
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-22"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       22
                     </div>
                   </td>
                 </tr>
                 <tr
-                  class="ant-picker-week-panel-row"
+                  class="ezd-picker-week-panel-row"
                 >
                   <td
-                    class="ant-picker-cell ant-picker-cell-week"
+                    class="ezd-picker-cell ezd-picker-cell-week"
                   >
                     5
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-23"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       23
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-24"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       24
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-25"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       25
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-26"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       26
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-27"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       27
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-28"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       28
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-29"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       29
                     </div>
                   </td>
                 </tr>
                 <tr
-                  class="ant-picker-week-panel-row"
+                  class="ezd-picker-week-panel-row"
                 >
                   <td
-                    class="ant-picker-cell ant-picker-cell-week"
+                    class="ezd-picker-cell ezd-picker-cell-week"
                   >
                     6
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-in-view"
                     title="2000-01-30"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       30
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-end ant-picker-cell-in-view"
+                    class="ezd-picker-cell ezd-picker-cell-end ezd-picker-cell-in-view"
                     title="2000-01-31"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       31
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell ant-picker-cell-start"
+                    class="ezd-picker-cell ezd-picker-cell-start"
                     title="2000-02-01"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       1
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="2000-02-02"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       2
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="2000-02-03"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       3
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="2000-02-04"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       4
                     </div>
                   </td>
                   <td
-                    class="ant-picker-cell"
+                    class="ezd-picker-cell"
                     title="2000-02-05"
                   >
                     <div
-                      class="ant-picker-cell-inner"
+                      class="ezd-picker-cell-inner"
                     >
                       5
                     </div>
@@ -788,10 +788,10 @@ exports[`MonthPicker and WeekPicker render WeekPicker 1`] = `
 
 exports[`Picker format by locale date 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -802,7 +802,7 @@ exports[`Picker format by locale date 1`] = `
       value="2000-01-01"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -825,7 +825,7 @@ exports[`Picker format by locale date 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="ezd-picker-clear"
       role="button"
     >
       <span
@@ -854,10 +854,10 @@ exports[`Picker format by locale date 1`] = `
 
 exports[`Picker format by locale dateTime 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -868,7 +868,7 @@ exports[`Picker format by locale dateTime 1`] = `
       value="2000-01-01 00:00:00"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -891,7 +891,7 @@ exports[`Picker format by locale dateTime 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="ezd-picker-clear"
       role="button"
     >
       <span
@@ -920,10 +920,10 @@ exports[`Picker format by locale dateTime 1`] = `
 
 exports[`Picker format by locale month 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -934,7 +934,7 @@ exports[`Picker format by locale month 1`] = `
       value="2000-01"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -957,7 +957,7 @@ exports[`Picker format by locale month 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="ezd-picker-clear"
       role="button"
     >
       <span
@@ -986,10 +986,10 @@ exports[`Picker format by locale month 1`] = `
 
 exports[`Picker format by locale week 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -1000,7 +1000,7 @@ exports[`Picker format by locale week 1`] = `
       value="1999-52周"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -1023,7 +1023,7 @@ exports[`Picker format by locale week 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="ezd-picker-clear"
       role="button"
     >
       <span

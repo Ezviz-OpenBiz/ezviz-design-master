@@ -15,7 +15,7 @@ debug: true
 Multiple line ellipsis support.
 
 ```jsx
-import { Typography, Slider, Switch } from '@ezviz/evvd';
+import { Typography, Slider, Switch } from '@ezviz/ezd';
 
 const { Text, Paragraph } = Typography;
 
@@ -47,15 +47,15 @@ class Demo extends React.Component {
         <Slider value={rows} min={1} max={10} onChange={this.onChange} />
         {longText ? (
           <Paragraph ellipsis={{ rows, expandable }} copyable={copyable} editable={editable}>
-            Evv Design, a design language for background applications, is refined by Evv UED Team.
+            EZ Design, a design language for background applications, is refined by EZ UED Team.
             This is a nest sample{' '}
             <Text code strong delete>
               Test
             </Text>{' '}
-            case. Bnt Design, a design language for background applications, is refined by Evv UED
-            Team. Cnt Design, a design language for background applications, is refined by Evv UED
-            Team. Dnt Design, a design language for background applications, is refined by Evv UED
-            Team. Ent Design, a design language for background applications, is refined by Evv UED
+            case. Bnt Design, a design language for background applications, is refined by EZ UED
+            Team. Cnt Design, a design language for background applications, is refined by EZ UED
+            Team. Dnt Design, a design language for background applications, is refined by EZ UED
+            Team. Ent Design, a design language for background applications, is refined by EZ UED
             Team.
           </Paragraph>
         ) : (

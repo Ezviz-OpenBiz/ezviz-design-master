@@ -7,9 +7,9 @@ import themeSwitcher from 'theme-switcher';
 import { setTwoToneColor } from '@ant-design/icons';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import 'moment/locale/zh-cn';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from '@ezviz/ezd';
 import { browserHistory } from 'bisheng/router';
-import zhCN from 'antd/lib/locale/zh_CN';
+import zhCN from '@ezviz/ezd/lib/locale/zh_CN';
 import Header from './Header';
 import SiteContext from './SiteContext';
 import enLocale from '../../en-US';
@@ -23,10 +23,6 @@ if (typeof window !== 'undefined' && navigator.serviceWorker) {
 }
 
 if (typeof window !== 'undefined') {
-  // Redirect to `ant.design` if is not next version anymore
-  if (location.hostname === 'next.ant.design') {
-    location.href = location.href.replace('next.ant.design', 'ant.design');
-  }
 
   // eslint-disable-next-line global-require
   require('../../static/style');
@@ -35,7 +31,7 @@ if (typeof window !== 'undefined') {
   window.react = React;
   window['react-dom'] = ReactDOM;
   // eslint-disable-next-line global-require
-  window.antd = require('antd');
+  window['@ezviz/ezd'] = require('@ezviz/ezd');
   // eslint-disable-next-line global-require
   window['@ant-design/icons'] = require('@ant-design/icons');
 
@@ -54,8 +50,8 @@ const RESPONSIVE_MOBILE = 768;
 // for dark.css timestamp to remove cache
 const timestamp = new Date().getTime();
 const themeMap = {
-  dark: `/evvd/dark.css?${timestamp}`,
-  compact: `/evvd/compact.css?${timestamp}`,
+  dark: `/dark.css?${timestamp}`,
+  compact: `/compact.css?${timestamp}`,
 };
 const themeConfig = {
   themeMap,
@@ -209,11 +205,11 @@ export default class Layout extends React.Component {
     const { appLocale, direction, isMobile, theme, setTheme, setIframeTheme } = this.state;
     const title =
       appLocale.locale === 'zh-CN'
-        ? 'Evv Design - 一套企业级 UI 设计语言和 React 组件库'
-        : "Evv Design - The world's second most popular React UI framework";
+        ? 'EZ Design - 一套企业级 UI 设计语言和 React 组件库'
+        : "EZ Design - The world's second most popular React UI framework";
     const description =
       appLocale.locale === 'zh-CN'
-        ? '基于 Evv Design 设计体系的 React UI 组件库，用于研发企业级中后台产品。'
+        ? '基于 EZ Design 设计体系的 React UI 组件库，用于研发企业级中后台产品。'
         : 'An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprises';
     return (
       <SiteContext.Provider value={{ isMobile, direction, theme, setTheme, setIframeTheme }}>

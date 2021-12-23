@@ -3,7 +3,7 @@
 exports[`Drawer render correctly 1`] = `
 <div>
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -14,31 +14,31 @@ exports[`Drawer render correctly 1`] = `
     class=""
   >
     <div
-      class="ant-drawer ant-drawer-right ant-drawer-open"
+      class="ezd-drawer ezd-drawer-right ezd-drawer-open"
       tabindex="-1"
     >
       <div
-        class="ant-drawer-mask"
+        class="ezd-drawer-mask"
       />
       <div
-        class="ant-drawer-content-wrapper"
+        class="ezd-drawer-content-wrapper"
         style="width: 378px;"
       >
         <div
-          class="ant-drawer-content"
+          class="ezd-drawer-content"
         >
           <div
-            class="ant-drawer-wrapper-body"
+            class="ezd-drawer-wrapper-body"
           >
             <div
-              class="ant-drawer-header ant-drawer-header-close-only"
+              class="ezd-drawer-header ezd-drawer-header-close-only"
             >
               <div
-                class="ant-drawer-header-title"
+                class="ezd-drawer-header-title"
               >
                 <button
                   aria-label="Close"
-                  class="ant-drawer-close"
+                  class="ezd-drawer-close"
                   type="button"
                 >
                   <span
@@ -64,7 +64,7 @@ exports[`Drawer render correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-drawer-body"
+              class="ezd-drawer-body"
             >
               Here is content of Drawer
             </div>

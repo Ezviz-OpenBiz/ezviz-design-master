@@ -7,7 +7,7 @@ title:
 
 
 ```jsx
-import { Button } from '@ezviz/evvd';
+import { Button } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

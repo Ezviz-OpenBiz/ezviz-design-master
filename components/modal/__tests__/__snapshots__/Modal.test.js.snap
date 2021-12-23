@@ -8,18 +8,18 @@ exports[`Modal render correctly 1`] = `
   >
     <div>
       <div
-        class="ant-modal-root"
+        class="ezd-modal-root"
       >
         <div
-          class="ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade"
+          class="ezd-modal-mask ezd-fade-appear ezd-fade-appear-start ezd-fade"
         />
         <div
-          class="ant-modal-wrap"
+          class="ezd-modal-wrap"
           role="dialog"
           tabindex="-1"
         >
           <div
-            class="ant-modal ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+            class="ezd-modal ezd-zoom-appear ezd-zoom-appear-prepare ezd-zoom"
             role="document"
             style="width: 520px;"
           >
@@ -29,19 +29,19 @@ exports[`Modal render correctly 1`] = `
               tabindex="0"
             />
             <div
-              class="ant-modal-content"
+              class="ezd-modal-content"
             >
               <button
                 aria-label="Close"
-                class="ant-modal-close"
+                class="ezd-modal-close"
                 type="button"
               >
                 <span
-                  class="ant-modal-close-x"
+                  class="ezd-modal-close-x"
                 >
                   <span
                     aria-label="close"
-                    class="anticon anticon-close ant-modal-close-icon"
+                    class="anticon anticon-close ezd-modal-close-icon"
                     role="img"
                   >
                     <svg
@@ -61,15 +61,15 @@ exports[`Modal render correctly 1`] = `
                 </span>
               </button>
               <div
-                class="ant-modal-body"
+                class="ezd-modal-body"
               >
                 Here is content of Modal
               </div>
               <div
-                class="ant-modal-footer"
+                class="ezd-modal-footer"
               >
                 <button
-                  class="ant-btn"
+                  class="ezd-btn"
                   type="button"
                 >
                   <span>
@@ -77,7 +77,7 @@ exports[`Modal render correctly 1`] = `
                   </span>
                 </button>
                 <button
-                  class="ant-btn ant-btn-primary"
+                  class="ezd-btn ezd-btn-primary"
                   type="button"
                 >
                   <span>
@@ -107,18 +107,18 @@ exports[`Modal render without footer 1`] = `
   >
     <div>
       <div
-        class="ant-modal-root"
+        class="ezd-modal-root"
       >
         <div
-          class="ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade"
+          class="ezd-modal-mask ezd-fade-appear ezd-fade-appear-start ezd-fade"
         />
         <div
-          class="ant-modal-wrap"
+          class="ezd-modal-wrap"
           role="dialog"
           tabindex="-1"
         >
           <div
-            class="ant-modal ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+            class="ezd-modal ezd-zoom-appear ezd-zoom-appear-prepare ezd-zoom"
             role="document"
             style="width: 520px;"
           >
@@ -128,19 +128,19 @@ exports[`Modal render without footer 1`] = `
               tabindex="0"
             />
             <div
-              class="ant-modal-content"
+              class="ezd-modal-content"
             >
               <button
                 aria-label="Close"
-                class="ant-modal-close"
+                class="ezd-modal-close"
                 type="button"
               >
                 <span
-                  class="ant-modal-close-x"
+                  class="ezd-modal-close-x"
                 >
                   <span
                     aria-label="close"
-                    class="anticon anticon-close ant-modal-close-icon"
+                    class="anticon anticon-close ezd-modal-close-icon"
                     role="img"
                   >
                     <svg
@@ -160,7 +160,7 @@ exports[`Modal render without footer 1`] = `
                 </span>
               </button>
               <div
-                class="ant-modal-body"
+                class="ezd-modal-body"
               >
                 Here is content of Modal
               </div>
@@ -182,18 +182,18 @@ exports[`Modal rtl render component should be rendered correctly in RTL directio
 
 exports[`Modal support closeIcon 1`] = `
 <div
-  class="ant-modal-root"
+  class="ezd-modal-root"
 >
   <div
-    class="ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade"
+    class="ezd-modal-mask ezd-fade-appear ezd-fade-appear-start ezd-fade"
   />
   <div
-    class="ant-modal-wrap"
+    class="ezd-modal-wrap"
     role="dialog"
     tabindex="-1"
   >
     <div
-      class="ant-modal ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+      class="ezd-modal ezd-zoom-appear ezd-zoom-appear-prepare ezd-zoom"
       role="document"
       style="width: 520px;"
     >
@@ -203,15 +203,15 @@ exports[`Modal support closeIcon 1`] = `
         tabindex="0"
       />
       <div
-        class="ant-modal-content"
+        class="ezd-modal-content"
       >
         <button
           aria-label="Close"
-          class="ant-modal-close"
+          class="ezd-modal-close"
           type="button"
         >
           <span
-            class="ant-modal-close-x"
+            class="ezd-modal-close-x"
           >
             <a>
               closeIcon
@@ -219,13 +219,13 @@ exports[`Modal support closeIcon 1`] = `
           </span>
         </button>
         <div
-          class="ant-modal-body"
+          class="ezd-modal-body"
         />
         <div
-          class="ant-modal-footer"
+          class="ezd-modal-footer"
         >
           <button
-            class="ant-btn"
+            class="ezd-btn"
             type="button"
           >
             <span>
@@ -233,7 +233,7 @@ exports[`Modal support closeIcon 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn ant-btn-primary"
+            class="ezd-btn ezd-btn-primary"
             type="button"
           >
             <span>

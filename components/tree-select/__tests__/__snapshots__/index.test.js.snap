@@ -2,13 +2,13 @@
 
 exports[`TreeSelect TreeSelect Custom Icons should \`treeIcon\` work 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-single ant-select-show-arrow ant-select-open"
+  class="ezd-select ezd-tree-select ezd-select-single ezd-select-show-arrow ezd-select-open"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
@@ -18,7 +18,7 @@ exports[`TreeSelect TreeSelect Custom Icons should \`treeIcon\` work 1`] = `
         aria-haspopup="listbox"
         aria-owns="rc_select_TEST_OR_SSR_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         id="rc_select_TEST_OR_SSR"
         readonly=""
         role="combobox"
@@ -29,18 +29,18 @@ exports[`TreeSelect TreeSelect Custom Icons should \`treeIcon\` work 1`] = `
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
   <div>
     <div
-      class="ant-select-dropdown ant-tree-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
+      class="ezd-select-dropdown ezd-tree-select-dropdown ezd-slide-up-appear ezd-slide-up-appear-prepare ezd-slide-up"
       style="opacity: 0; pointer-events: none; min-width: 0; width: 0px;"
     >
       <div>
         <div>
           <div
-            class="ant-select-tree"
+            class="ezd-select-tree"
             role="tree"
           >
             <div>
@@ -53,55 +53,55 @@ exports[`TreeSelect TreeSelect Custom Icons should \`treeIcon\` work 1`] = `
             </div>
             <div
               aria-hidden="true"
-              class="ant-select-tree-treenode"
+              class="ezd-select-tree-treenode"
               style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden;"
             >
               <div
-                class="ant-select-tree-indent"
+                class="ezd-select-tree-indent"
               >
                 <div
-                  class="ant-select-tree-indent-unit"
+                  class="ezd-select-tree-indent-unit"
                 />
               </div>
             </div>
             <div
-              class="ant-select-tree-list"
+              class="ezd-select-tree-list"
               style="position: relative;"
             >
               <div
-                class="ant-select-tree-list-holder"
+                class="ezd-select-tree-list-holder"
                 style="max-height: 256px; overflow-y: auto;"
               >
                 <div>
                   <div
-                    class="ant-select-tree-list-holder-inner"
+                    class="ezd-select-tree-list-holder-inner"
                     style="display: flex; flex-direction: column;"
                   >
                     <div
                       aria-grabbed="false"
-                      class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last"
+                      class="ezd-select-tree-treenode ezd-select-tree-treenode-switcher-close ezd-select-tree-treenode-leaf-last"
                       draggable="false"
                     >
                       <span
                         aria-hidden="true"
-                        class="ant-select-tree-indent"
+                        class="ezd-select-tree-indent"
                       />
                       <span
-                        class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                        class="ezd-select-tree-switcher ezd-select-tree-switcher-noop"
                       />
                       <span
-                        class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                        class="ezd-select-tree-node-content-wrapper ezd-select-tree-node-content-wrapper-normal"
                         title="parent 1"
                       >
                         <span
-                          class="ant-select-tree-iconEle ant-select-tree-icon__customize"
+                          class="ezd-select-tree-iconEle ezd-select-tree-icon__customize"
                         >
                           <span>
                             Bamboo
                           </span>
                         </span>
                         <span
-                          class="ant-select-tree-title"
+                          class="ezd-select-tree-title"
                         >
                           parent 1
                         </span>
@@ -118,13 +118,13 @@ exports[`TreeSelect TreeSelect Custom Icons should \`treeIcon\` work 1`] = `
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select: none;"
     unselectable="on"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      class="anticon anticon-down ezd-select-suffix"
       role="img"
     >
       <svg
@@ -147,30 +147,30 @@ exports[`TreeSelect TreeSelect Custom Icons should \`treeIcon\` work 1`] = `
 
 exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-multiple ant-select-allow-clear ant-select-show-search"
+  class="ezd-select ezd-tree-select ezd-select-multiple ezd-select-allow-clear ezd-select-show-search"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item"
+        class="ezd-select-selection-overflow-item"
         style="opacity: 1;"
       >
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="my leaf"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="ezd-select-selection-item-content"
           >
             my leaf
           </span>
           <span
             aria-hidden="true"
-            class="ant-select-selection-item-remove"
+            class="ezd-select-selection-item-remove"
             style="user-select: none;"
             unselectable="on"
           >
@@ -181,21 +181,21 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
         </span>
       </div>
       <div
-        class="ant-select-selection-overflow-item"
+        class="ezd-select-selection-overflow-item"
         style="opacity: 1;"
       >
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="your leaf"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="ezd-select-selection-item-content"
           >
             your leaf
           </span>
           <span
             aria-hidden="true"
-            class="ant-select-selection-item-remove"
+            class="ezd-select-selection-item-remove"
             style="user-select: none;"
             unselectable="on"
           >
@@ -206,11 +206,11 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
         </span>
       </div>
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ezd-select-selection-overflow-item-suffix"
         style="opacity: 1;"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width: 0px;"
         >
           <input
@@ -220,7 +220,7 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
             aria-haspopup="listbox"
             aria-owns="rc_select_TEST_OR_SSR_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             id="rc_select_TEST_OR_SSR"
             readonly=""
             role="combobox"
@@ -231,7 +231,7 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -241,7 +241,7 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-clear"
+    class="ezd-select-clear"
     style="user-select: none;"
     unselectable="on"
   >
@@ -254,13 +254,13 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
 
 exports[`TreeSelect rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-rtl ant-select-single ant-select-show-arrow"
+  class="ezd-select ezd-tree-select ezd-select-rtl ezd-select-single ezd-select-show-arrow"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -269,7 +269,7 @@ exports[`TreeSelect rtl render component should be rendered correctly in RTL dir
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         readonly=""
         role="combobox"
         style="opacity:0"
@@ -279,18 +279,18 @@ exports[`TreeSelect rtl render component should be rendered correctly in RTL dir
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      class="anticon anticon-down ezd-select-suffix"
       role="img"
     >
       <svg

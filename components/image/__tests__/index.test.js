@@ -27,8 +27,8 @@ describe('Image', () => {
   it('Default preview props', () => {
     const wrapper = mount(<Image src={src} preview={{ visible: true }} />);
 
-    expect(wrapper.find('Preview').prop('transitionName')).toBe('ant-zoom');
-    expect(wrapper.find('Preview').prop('maskTransitionName')).toBe('ant-fade');
+    expect(wrapper.find('Preview').prop('transitionName')).toBe('ezd-zoom');
+    expect(wrapper.find('Preview').prop('maskTransitionName')).toBe('ezd-fade');
   });
   it('Default Group preview props', () => {
     const wrapper = mount(
@@ -37,8 +37,8 @@ describe('Image', () => {
       </Image.PreviewGroup>,
     );
 
-    expect(wrapper.find('Preview').prop('transitionName')).toBe('ant-zoom');
-    expect(wrapper.find('Preview').prop('maskTransitionName')).toBe('ant-fade');
+    expect(wrapper.find('Preview').prop('transitionName')).toBe('ezd-zoom');
+    expect(wrapper.find('Preview').prop('maskTransitionName')).toBe('ezd-fade');
   });
   it('Customize preview props', () => {
     const wrapper = mount(

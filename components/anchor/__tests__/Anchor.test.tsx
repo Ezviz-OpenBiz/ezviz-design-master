@@ -343,7 +343,6 @@ describe('Anchor Render', () => {
     dateNowMock.mockRestore();
   });
 
-  // https://github.com/ant-design/ant-design/issues/31941
   it('Anchor targetOffset prop when contain spaces', async () => {
     const hash = `${getHashUrl()} s p a c e s`;
     let dateNowMock;
@@ -404,7 +403,6 @@ describe('Anchor Render', () => {
     expect(onChange).toHaveBeenCalledWith(hash2);
   });
 
-  // https://github.com/ant-design/ant-design/issues/30584
   it('should trigger onChange when have getCurrentAnchor', async () => {
     const hash1 = getHashUrl();
     const hash2 = getHashUrl();

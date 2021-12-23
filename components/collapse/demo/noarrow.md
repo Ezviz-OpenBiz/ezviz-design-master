@@ -14,7 +14,7 @@ title:
 You can hide the arrow icon by passing `showArrow={false}` to `CollapsePanel` component.
 
 ```jsx
-import { Collapse } from '@ezviz/evvd';
+import { Collapse } from '@ezviz/ezd';
 
 const { Panel } = Collapse;
 

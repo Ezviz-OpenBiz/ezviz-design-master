@@ -15,7 +15,7 @@ To load data asynchronously when click to expand a treeNode.
 
 ```tsx
 import React, { useState } from 'react';
-import { Tree } from '@ezviz/evvd';
+import { Tree } from '@ezviz/ezd';
 
 interface DataNode {
   title: string;

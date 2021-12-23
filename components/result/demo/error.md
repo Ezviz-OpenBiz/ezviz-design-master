@@ -14,7 +14,7 @@ title:
 Complex error feedback.
 
 ```jsx
-import { Result, Button, Typography } from '@ezviz/evvd';
+import { Result, Button, Typography } from '@ezviz/ezd';
 import { CloseCircleOutlined } from '@ant-design/icons';
 
 const { Paragraph, Text } = Typography;

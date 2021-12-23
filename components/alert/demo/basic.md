@@ -14,13 +14,13 @@ title:
 The simplest usage for short messages.
 
 ```tsx
-import { Alert } from '@ezviz/evvd';
+import { Alert } from '@ezviz/ezd';
 
 ReactDOM.render(<Alert message="Success Text" type="success" />, mountNode);
 ```
 
 <style>
-.code-box-demo .ant-alert {
+.code-box-demo .ezd-alert {
   margin-bottom: 16px;
 }
 </style>

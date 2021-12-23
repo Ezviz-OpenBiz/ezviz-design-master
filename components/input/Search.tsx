@@ -76,14 +76,14 @@ const Search = React.forwardRef<Input, SearchProps>((props, ref) => {
 
   let button: React.ReactNode;
   const enterButtonAsElement = (enterButton || {}) as React.ReactElement;
-  const isAntdButton =
-    enterButtonAsElement.type && (enterButtonAsElement.type as typeof Button).__ANT_BUTTON === true;
-  if (isAntdButton || enterButtonAsElement.type === 'button') {
+  const isEzdButton =
+    enterButtonAsElement.type && (enterButtonAsElement.type as typeof Button).__EZD_BUTTON === true;
+  if (isEzdButton || enterButtonAsElement.type === 'button') {
     button = cloneElement(enterButtonAsElement, {
       onMouseDown,
       onClick: onSearch,
       key: 'enterButton',
-      ...(isAntdButton
+      ...(isEzdButton
         ? {
             className: btnClassName,
             size,

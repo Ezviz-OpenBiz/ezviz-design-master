@@ -14,7 +14,7 @@ title:
 Allow only select parent options.
 
 ```jsx
-import { Cascader } from '@ezviz/evvd';
+import { Cascader } from '@ezviz/ezd';
 
 const options = [
   {

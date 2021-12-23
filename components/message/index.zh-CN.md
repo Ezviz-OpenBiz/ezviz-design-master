@@ -91,7 +91,7 @@ message.config({
 | duration | 默认自动关闭延时，单位秒 | number | 3 |  |
 | getContainer | 配置渲染节点的输出位置 | () => HTMLElement | () => document.body |  |
 | maxCount | 最大显示数, 超过限制时，最早的消息会被自动关闭 | number | - |  |
-| prefixCls | 消息节点的 className 前缀 | string | `ant-message` | 4.5.0 |
+| prefixCls | 消息节点的 className 前缀 | string | `ezd-message` | 4.5.0 |
 | rtl | 是否开启 RTL 模式 | boolean | false |  |
 | top | 消息距离顶部的位置 | number | 8 |  |
 
@@ -99,7 +99,7 @@ message.config({
 
 ### 为什么 message 不能获取 context、redux 的内容和 ConfigProvider 的 `locale/prefixCls` 配置？
 
-直接调用 message 方法，antd 会通过 `ReactDOM.render` 动态创建新的 React 实体。其 context 与当前代码所在 context 并不相同，因而无法获取 context 信息。
+直接调用 message 方法，@ezviz/ezd 会通过 `ReactDOM.render` 动态创建新的 React 实体。其 context 与当前代码所在 context 并不相同，因而无法获取 context 信息。
 
 当你需要 context 信息（例如 ConfigProvider 配置的内容）时，可以通过 `message.useMessage` 方法会返回 `api` 实体以及 `contextHolder` 节点。将其插入到你需要获取 context 位置即可：
 
@@ -107,7 +107,7 @@ message.config({
 const [api, contextHolder] = message.useMessage();
 
 return (
-  <Context1.Provider value="Ant">
+  <Context1.Provider value="Ezd">
     {/* contextHolder 在 Context1 内，它可以获得 Context1 的 context */}
     {contextHolder}
     <Context2.Provider value="Design">

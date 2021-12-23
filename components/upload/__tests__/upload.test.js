@@ -195,7 +195,6 @@ describe('Upload', () => {
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/14779
   it('should contain input file control if upload button is hidden', () => {
     const wrapper = mount(
       <Upload action="http://upload.com">
@@ -208,7 +207,6 @@ describe('Upload', () => {
     expect(wrapper.find('input[type="file"]').length).toBe(1);
   });
 
-  // https://github.com/ant-design/ant-design/issues/14298
   it('should not have id if upload children is null, avoid being triggered by label', () => {
     const Demo = ({ children }) => (
       <Form>
@@ -229,7 +227,6 @@ describe('Upload', () => {
     expect(wrapper.find('input#upload').length).toBe(0);
   });
 
-  // https://github.com/ant-design/ant-design/issues/16478
   it('should not have id if Upload is disabled, avoid being triggered by label', () => {
     const Demo = ({ disabled }) => (
       <Form>
@@ -247,7 +244,6 @@ describe('Upload', () => {
     expect(wrapper.find('input#upload').length).toBe(0);
   });
 
-  // https://github.com/ant-design/ant-design/issues/24197
   it('should not have id if upload.Dragger is disabled, avoid being triggered by label', () => {
     const Demo = ({ disabled }) => (
       <Form>
@@ -390,7 +386,7 @@ describe('Upload', () => {
       },
     ];
     const wrapper = mount(<Upload fileList={fileList} />);
-    const linkNode = wrapper.find('a.ant-upload-list-item-name');
+    const linkNode = wrapper.find('a.ezd-upload-list-item-name');
     expect(linkNode.props().download).toBe('image');
     expect(linkNode.props().rel).toBe('noopener');
   });
@@ -410,7 +406,7 @@ describe('Upload', () => {
       },
     ];
     const wrapper = mount(<Upload fileList={fileList} />);
-    const linkNode = wrapper.find('a.ant-upload-list-item-name');
+    const linkNode = wrapper.find('a.ezd-upload-list-item-name');
     expect(linkNode.props().download).toBe('image');
     expect(linkNode.props().rel).toBe('noopener');
   });
@@ -431,7 +427,7 @@ describe('Upload', () => {
 
     const wrapper = mount(<Upload {...props} />);
 
-    wrapper.find('div.ant-upload-list-item .anticon-delete').simulate('click');
+    wrapper.find('div.ezd-upload-list-item .ezdicon-delete').simulate('click');
 
     setTimeout(() => {
       wrapper.update();
@@ -443,7 +439,6 @@ describe('Upload', () => {
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/18902
   it('should not abort uploading until return value of onRemove is resolved as true', done => {
     let wrapper;
 
@@ -475,7 +470,7 @@ describe('Upload', () => {
 
     wrapper = mount(<Upload {...props} />);
 
-    wrapper.find('div.ant-upload-list-item .anticon-delete').simulate('click');
+    wrapper.find('div.ezd-upload-list-item .ezdicon-delete').simulate('click');
   });
 
   it('should not stop download when return use onDownload', done => {
@@ -497,7 +492,7 @@ describe('Upload', () => {
 
     const wrapper = mount(<Upload {...props} onDownload={() => {}} />);
 
-    wrapper.find('div.ant-upload-list-item .anticon-download').simulate('click');
+    wrapper.find('div.ezd-upload-list-item .ezdicon-download').simulate('click');
 
     setTimeout(() => {
       wrapper.update();
@@ -508,7 +503,6 @@ describe('Upload', () => {
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/14439
   it('should allow call abort function through upload instance', () => {
     const ref = React.createRef();
     mount(
@@ -526,7 +520,7 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.find('.ant-upload-drag-uploading').length).toBe(1);
+    expect(wrapper.find('.ezd-upload-drag-uploading').length).toBe(1);
   });
 
   it('return when targetItem is null', () => {
@@ -582,7 +576,7 @@ describe('Upload', () => {
     const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     mount(<Upload value={[]} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Upload] `value` is not a valid prop, do you mean `fileList`?',
+      'Warning: [ezd: Upload] `value` is not a valid prop, do you mean `fileList`?',
     );
     errorSpy.mockRestore();
   });
@@ -598,7 +592,6 @@ describe('Upload', () => {
     expect(wrapper.find('img').length).toBe(0);
   });
 
-  // https://github.com/ant-design/ant-design/issues/25077
   it('should support events', () => {
     const onClick = jest.fn();
     const onMouseEnter = jest.fn();
@@ -608,21 +601,20 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    wrapper.find('.ant-upload').at(1).simulate('click');
+    wrapper.find('.ezd-upload').at(1).simulate('click');
     expect(onClick).toHaveBeenCalled();
-    wrapper.find('.ant-upload').at(1).simulate('mouseEnter');
+    wrapper.find('.ezd-upload').at(1).simulate('mouseEnter');
     expect(onMouseEnter).toHaveBeenCalled();
-    wrapper.find('.ant-upload').at(1).simulate('mouseLeave');
+    wrapper.find('.ezd-upload').at(1).simulate('mouseLeave');
     expect(onMouseLeave).toHaveBeenCalled();
   });
 
-  // https://github.com/ant-design/ant-design/issues/26427
   it('should sync file list with control mode', done => {
     let callTimes = 0;
 
     const customRequest = jest.fn(async options => {
       options.onProgress({ percent: 0 });
-      const url = Promise.resolve('https://ant.design');
+      const url = Promise.resolve('https://saastest3.ys7.com/ezd/');
       options.onProgress({ percent: 100 });
       options.onSuccess({}, { ...options.file, url });
     });
@@ -835,7 +827,7 @@ describe('Upload', () => {
     const frozenFileList = fileList.map(file => Object.freeze(file));
 
     const wrapper = mount(<Upload fileList={frozenFileList} />);
-    const rmBtn = wrapper.find('.ant-upload-list-item-card-actions-btn').last();
+    const rmBtn = wrapper.find('.ezd-upload-list-item-card-actions-btn').last();
     rmBtn.simulate('click');
 
     // Wait for Upload async remove
@@ -844,7 +836,6 @@ describe('Upload', () => {
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/30390
   // IE11 Does not support the File constructor
   it('should not break in IE if beforeUpload returns false', async () => {
     const onChange = jest.fn();

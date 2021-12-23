@@ -18,7 +18,7 @@ title:
 If you want specific control over the positioning and placement of the `Icon`, then that should be done by placing the `Icon` component within the `Tag` rather than using the `icon` property.
 
 ```jsx
-import { Tag } from '@ezviz/evvd';
+import { Tag } from '@ezviz/ezd';
 import {
   TwitterOutlined,
   YoutubeOutlined,

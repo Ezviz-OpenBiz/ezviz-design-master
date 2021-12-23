@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useIntl } from 'react-intl';
-import { Card, Row, Col } from 'antd';
+import { Card, Row, Col } from '@ezviz/ezd';
 import { useSiteData } from './util';
 import './MorePage.less';
 

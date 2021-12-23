@@ -8,12 +8,12 @@ export { CheckboxGroupProps, CheckboxOptionType } from './Group';
 interface CompoundedComponent
   extends React.ForwardRefExoticComponent<CheckboxProps & React.RefAttributes<HTMLInputElement>> {
   Group: typeof Group;
-  __ANT_CHECKBOX: boolean;
+  __EZD_CHECKBOX: boolean;
 }
 
 const Checkbox = InternalCheckbox as CompoundedComponent;
 
 Checkbox.Group = Group;
-Checkbox.__ANT_CHECKBOX = true;
+Checkbox.__EZD_CHECKBOX = true;
 
 export default Checkbox;

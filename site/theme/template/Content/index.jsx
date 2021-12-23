@@ -8,7 +8,6 @@ function isChangelog(pathname) {
 
 export default collect(async nextProps => {
   const { pathname } = nextProps.location;
-  console.log("nextPropsprops:",nextProps);
   const pageDataPath = pathname.replace('-cn', '').split('/');
   const pageData = isChangelog(pathname)
     ? nextProps.data.changelog.CHANGELOG
@@ -25,7 +24,6 @@ export default collect(async nextProps => {
   const demosFetcher = nextProps.utils.get(nextProps.data, [...pageDataPath, 'demo']);
   if (demosFetcher) {
     const [localizedPageData, demos] = await Promise.all([pageDataPromise, demosFetcher()]);
-    console.log("localizedPageData:",localizedPageData);
     return { localizedPageData, demos };
   }
   return { localizedPageData: await pageDataPromise };

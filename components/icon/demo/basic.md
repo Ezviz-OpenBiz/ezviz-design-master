@@ -36,11 +36,11 @@ ReactDOM.render(
 ```
 
 <style>
-.icons-list > .anticon {
+.icons-list > .ezdicon {
   margin-right: 6px;
   font-size: 24px;
 }
-.ant-row-rtl .icons-list > .anticon {
+.ezd-row-rtl .icons-list > .ezdicon {
   margin-right: 0;
   margin-left: 6px;
 }

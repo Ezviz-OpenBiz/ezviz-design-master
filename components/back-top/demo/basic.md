@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ```jsx
-import { BackTop } from '@ezviz/evvd';
+import { BackTop } from '@ezviz/ezd';
 
 ReactDOM.render(
   <>

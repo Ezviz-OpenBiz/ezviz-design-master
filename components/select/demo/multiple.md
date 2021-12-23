@@ -14,7 +14,7 @@ title:
 Multiple selection, selecting from existing items.
 
 ```jsx
-import { Select } from '@ezviz/evvd';
+import { Select } from '@ezviz/ezd';
 
 const { Option } = Select;
 

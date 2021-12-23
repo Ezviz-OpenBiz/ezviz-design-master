@@ -15,7 +15,7 @@ debug: true
 Basic Usage.
 
 ```jsx
-import { Select, Input, Button } from '@ezviz/evvd';
+import { Select, Input, Button } from '@ezviz/ezd';
 
 const { Option } = Select;
 
@@ -59,7 +59,7 @@ ReactDOM.render(
       <Option value="Yiminghe">yiminghe</Option>
       <Option value="long">I am super super long!</Option>
     </Select>
-    <span className="debug-align">AntDesign</span>
+    <span className="debug-align">EZDesign</span>
     <Button>222</Button>
   </div>,
   mountNode,

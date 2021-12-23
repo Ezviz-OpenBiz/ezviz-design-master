@@ -14,7 +14,7 @@ title:
 Child elements vertically aligned.
 
 ```jsx
-import { Row, Col, Divider } from '@ezviz/evvd';
+import { Row, Col, Divider } from '@ezviz/ezd';
 
 const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>;
 
@@ -73,7 +73,7 @@ ReactDOM.render(
 ```
 
 ```css
-#components-grid-demo-flex-align [class~='ant-row'] {
+#components-grid-demo-flex-align [class~='ezd-row'] {
   background: rgba(128, 128, 128, 0.08);
 }
 ```

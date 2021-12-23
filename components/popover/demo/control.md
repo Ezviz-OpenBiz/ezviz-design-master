@@ -14,7 +14,7 @@ title:
 Use `visible` prop to control the display of the card.
 
 ```jsx
-import { Popover, Button } from '@ezviz/evvd';
+import { Popover, Button } from '@ezviz/ezd';
 
 class App extends React.Component {
   state = {

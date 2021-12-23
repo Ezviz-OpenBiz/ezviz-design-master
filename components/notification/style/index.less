@@ -3,7 +3,7 @@
 
 .popover-customize-bg(@notification-prefix-cls, @popover-background);
 
-@notification-prefix-cls: ~'@{ant-prefix}-notification';
+@notification-prefix-cls: ~'@{ezd-prefix}-notification';
 @notification-width: 384px;
 @notification-padding: @notification-padding-vertical @notification-padding-horizontal;
 @notification-margin-bottom: 16px;
@@ -62,7 +62,6 @@
       font-size: @font-size-lg;
       line-height: 24px;
 
-      // https://github.com/ant-design/ant-design/issues/5846#issuecomment-296244140
       &-single-line-auto-margin {
         display: block;
         width: ~'calc(@{notification-width} - @{notification-padding-horizontal} * 2 - 24px - 48px - 100%)';
@@ -97,8 +96,6 @@
     }
 
     // Icon & color style in different selector level
-    // https://github.com/ant-design/ant-design/issues/16503
-    // https://github.com/ant-design/ant-design/issues/15512
     &-icon {
       position: absolute;
       margin-left: 4px;

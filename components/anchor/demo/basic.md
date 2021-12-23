@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```tsx
-import { Anchor } from '@ezviz/evvd';
+import { Anchor } from '@ezviz/ezd';
 
 const { Link } = Anchor;
 
@@ -32,7 +32,7 @@ ReactDOM.render(
 ```
 
 <style>
-.code-box-demo .ant-affix {
+.code-box-demo .ezd-affix {
   z-index: 11;
 }
 </style>

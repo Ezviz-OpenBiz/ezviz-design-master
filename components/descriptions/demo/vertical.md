@@ -14,7 +14,7 @@ title:
 Simplest Usage.
 
 ```jsx
-import { Descriptions } from '@ezviz/evvd';
+import { Descriptions } from '@ezviz/ezd';
 
 ReactDOM.render(
   <Descriptions title="User Info" layout="vertical">

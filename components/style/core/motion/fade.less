@@ -1,5 +1,5 @@
 .fade-motion(@className, @keyframeName) {
-  @name: ~'@{ant-prefix}-@{className}';
+  @name: ~'@{ezd-prefix}-@{className}';
   .make-motion(@name, @keyframeName);
   .@{name}-enter,
   .@{name}-appear {
@@ -11,9 +11,9 @@
   }
 }
 
-.fade-motion(fade, antFade);
+.fade-motion(fade, ezdFade);
 
-@keyframes antFadeIn {
+@keyframes ezdFadeIn {
   0% {
     opacity: 0;
   }
@@ -23,7 +23,7 @@
   }
 }
 
-@keyframes antFadeOut {
+@keyframes ezdFadeOut {
   0% {
     opacity: 1;
   }

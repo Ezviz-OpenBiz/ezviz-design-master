@@ -14,7 +14,7 @@ title:
 This component can be rendered by using `dateCellRender` and `monthCellRender` with the data you need.
 
 ```jsx
-import { Calendar, Badge } from '@ezviz/evvd';
+import { Calendar, Badge } from '@ezviz/ezd';
 
 function getListData(value) {
   let listData;
@@ -88,7 +88,7 @@ ReactDOM.render(
   padding: 0;
   list-style: none;
 }
-.events .ant-badge-status {
+.events .ezd-badge-status {
   width: 100%;
   overflow: hidden;
   font-size: 12px;

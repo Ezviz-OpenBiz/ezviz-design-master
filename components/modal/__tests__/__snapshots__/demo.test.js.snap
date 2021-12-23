@@ -2,7 +2,7 @@
 
 exports[`renders ./components/modal/demo/async.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -13,7 +13,7 @@ exports[`renders ./components/modal/demo/async.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/basic.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -24,7 +24,7 @@ exports[`renders ./components/modal/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/button-props.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -35,15 +35,15 @@ exports[`renders ./components/modal/demo/button-props.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/confirm.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
   style="flex-wrap:wrap;margin-bottom:-8px"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -52,11 +52,11 @@ exports[`renders ./components/modal/demo/confirm.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -65,11 +65,11 @@ exports[`renders ./components/modal/demo/confirm.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <button
-      class="ant-btn ant-btn-dashed"
+      class="ezd-btn ant-btn-dashed"
       type="button"
     >
       <span>
@@ -78,11 +78,11 @@ exports[`renders ./components/modal/demo/confirm.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="padding-bottom:8px"
   >
     <button
-      class="ant-btn ant-btn-dashed"
+      class="ezd-btn ant-btn-dashed"
       type="button"
     >
       <span>
@@ -95,7 +95,7 @@ exports[`renders ./components/modal/demo/confirm.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/confirm-router.md correctly 1`] = `
 <button
-  class="ant-btn"
+  class="ezd-btn"
   type="button"
 >
   <span>
@@ -106,7 +106,7 @@ exports[`renders ./components/modal/demo/confirm-router.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/dark.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -117,7 +117,7 @@ exports[`renders ./components/modal/demo/dark.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/footer.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -128,14 +128,14 @@ exports[`renders ./components/modal/demo/footer.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/hooks.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -144,11 +144,11 @@ exports[`renders ./components/modal/demo/hooks.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -157,11 +157,11 @@ exports[`renders ./components/modal/demo/hooks.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -170,10 +170,10 @@ exports[`renders ./components/modal/demo/hooks.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -186,15 +186,15 @@ exports[`renders ./components/modal/demo/hooks.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/info.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
   style="flex-wrap:wrap;margin-bottom:-8px"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -203,11 +203,11 @@ exports[`renders ./components/modal/demo/info.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -216,11 +216,11 @@ exports[`renders ./components/modal/demo/info.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -229,11 +229,11 @@ exports[`renders ./components/modal/demo/info.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="padding-bottom:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -246,14 +246,14 @@ exports[`renders ./components/modal/demo/info.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/locale.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -262,10 +262,10 @@ exports[`renders ./components/modal/demo/locale.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -278,7 +278,7 @@ exports[`renders ./components/modal/demo/locale.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/manual.md correctly 1`] = `
 <button
-  class="ant-btn"
+  class="ezd-btn"
   type="button"
 >
   <span>
@@ -289,7 +289,7 @@ exports[`renders ./components/modal/demo/manual.md correctly 1`] = `
 
 exports[`renders ./components/modal/demo/modal-render.md correctly 1`] = `
 <button
-  class="ant-btn"
+  class="ezd-btn"
   type="button"
 >
   <span>
@@ -301,7 +301,7 @@ exports[`renders ./components/modal/demo/modal-render.md correctly 1`] = `
 exports[`renders ./components/modal/demo/position.md correctly 1`] = `
 Array [
   <button
-    class="ant-btn ant-btn-primary"
+    class="ezd-btn ant-btn-primary"
     type="button"
   >
     <span>
@@ -311,7 +311,7 @@ Array [
   <br />,
   <br />,
   <button
-    class="ant-btn ant-btn-primary"
+    class="ezd-btn ant-btn-primary"
     type="button"
   >
     <span>
@@ -323,7 +323,7 @@ Array [
 
 exports[`renders ./components/modal/demo/width.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>

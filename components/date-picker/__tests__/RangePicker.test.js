@@ -19,7 +19,6 @@ describe('RangePicker', () => {
     resetMockDate();
   });
 
-  // issue: https://github.com/ant-design/ant-design/issues/5872
   it('should not throw error when value is reset to `[]`', () => {
     const birthday = moment('2000-01-01', 'YYYY-MM-DD');
     const wrapper = mount(<RangePicker value={[birthday, birthday]} open />);
@@ -41,7 +40,6 @@ describe('RangePicker', () => {
     expect(wrapper.render()).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/13302
   describe('in "month" mode, when the left and right panels select the same month', () => {
     it('the cell status is correct', () => {
       class Test extends React.Component {

@@ -25,7 +25,7 @@ describe('Input.Password', () => {
 
   it('should support size', () => {
     const wrapper = mount(<Password size="large" />);
-    expect(wrapper.find('input').hasClass('ant-input-lg')).toBe(true);
+    expect(wrapper.find('input').hasClass('ezd-input-lg')).toBe(true);
     expect(wrapper.render()).toMatchSnapshot();
   });
 
@@ -33,24 +33,24 @@ describe('Input.Password', () => {
     const wrapper = mount(<Input.Password />);
     wrapper.find('input').simulate('change', { target: { value: '111' } });
     expect(wrapper.render()).toMatchSnapshot();
-    wrapper.find('.ant-input-password-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-password-icon').at(0).simulate('click');
     expect(wrapper.render()).toMatchSnapshot();
-    wrapper.find('.ant-input-password-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-password-icon').at(0).simulate('click');
     expect(wrapper.render()).toMatchSnapshot();
   });
 
   it('visibilityToggle should work', () => {
     const wrapper = mount(<Input.Password visibilityToggle={false} />);
-    expect(wrapper.find('.anticon-eye').length).toBe(0);
+    expect(wrapper.find('.ezdicon-eye').length).toBe(0);
     wrapper.setProps({ visibilityToggle: true });
-    expect(wrapper.find('.anticon-eye-invisible').length).toBe(1);
+    expect(wrapper.find('.ezdicon-eye-invisible').length).toBe(1);
   });
 
   it('should not toggle visibility when disabled prop is true', () => {
     const wrapper = mount(<Input.Password disabled />);
-    expect(wrapper.find('.anticon-eye-invisible').length).toBe(1);
-    wrapper.find('.anticon-eye-invisible').simulate('click');
-    expect(wrapper.find('.anticon-eye').length).toBe(0);
+    expect(wrapper.find('.ezdicon-eye-invisible').length).toBe(1);
+    wrapper.find('.ezdicon-eye-invisible').simulate('click');
+    expect(wrapper.find('.ezdicon-eye').length).toBe(0);
   });
 
   it('should keep focus state', () => {
@@ -60,15 +60,14 @@ describe('Input.Password', () => {
     expect(document.activeElement).toBe(wrapper.find('input').at(0).getDOMNode());
     document.activeElement.setSelectionRange(2, 2);
     expect(document.activeElement.selectionStart).toBe(2);
-    wrapper.find('.ant-input-password-icon').at(0).simulate('mousedown');
-    wrapper.find('.ant-input-password-icon').at(0).simulate('mouseup');
-    wrapper.find('.ant-input-password-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-password-icon').at(0).simulate('mousedown');
+    wrapper.find('.ezd-input-password-icon').at(0).simulate('mouseup');
+    wrapper.find('.ezd-input-password-icon').at(0).simulate('click');
     expect(document.activeElement).toBe(wrapper.find('input').at(0).getDOMNode());
     expect(document.activeElement.selectionStart).toBe(2);
     wrapper.unmount();
   });
 
-  // https://github.com/ant-design/ant-design/issues/20541
   it('should not show value attribute in input element', async () => {
     const wrapper = mount(<Input.Password />);
     wrapper
@@ -79,7 +78,6 @@ describe('Input.Password', () => {
     expect(wrapper.find('input').at('0').getDOMNode().getAttribute('value')).toBeFalsy();
   });
 
-  // https://github.com/ant-design/ant-design/issues/24526
   it('should not show value attribute in input element after blur it', async () => {
     const wrapper = mount(<Input.Password />);
     wrapper
@@ -96,7 +94,6 @@ describe('Input.Password', () => {
     expect(wrapper.find('input').at('0').getDOMNode().getAttribute('value')).toBeFalsy();
   });
 
-  // https://github.com/ant-design/ant-design/issues/20541
   it('could be unmount without errors', () => {
     expect(() => {
       const wrapper = mount(<Input.Password />);
@@ -108,7 +105,6 @@ describe('Input.Password', () => {
     }).not.toThrow();
   });
 
-  // https://github.com/ant-design/ant-design/pull/20544#issuecomment-569861679
   it('should not contain value attribute in input element with defaultValue', async () => {
     const wrapper = mount(<Input.Password defaultValue="value" />);
     await sleep();

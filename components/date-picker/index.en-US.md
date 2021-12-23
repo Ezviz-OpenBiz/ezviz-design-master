@@ -24,13 +24,13 @@ There are five kinds of picker:
 
 ### Localization
 
-The default locale is en-US, if you need to use other languages, recommend to use internationalized components provided by us at the entrance. Look at: [ConfigProvider](https://ant.design/components/config-provider/).
+The default locale is en-US, if you need to use other languages, recommend to use internationalized components provided by us at the entrance. Look at: [ConfigProvider](https://saastest3.ys7.com/ezd/components/config-provider/).
 
-If there are special needs (only modifying single component language), Please use the property: local. Example: [default](https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json).
+If there are special needs (only modifying single component language), Please use the property: local. Example: [default](https://github.com/Ezviz-OpenBiz/ezviz-design-master/blob/master/components/date-picker/locale/example.json).
 
 ```jsx
 import 'moment/locale/zh-cn';
-import locale from 'antd/es/date-picker/locale/zh_CN';
+import locale from '@ezviz/ezd/es/date-picker/locale/zh_CN';
 
 <DatePicker locale={locale} />;
 ```
@@ -39,7 +39,7 @@ import locale from 'antd/es/date-picker/locale/zh_CN';
 // The default locale is en-US, if you want to use other locale, just set locale in entry file globally.
 import moment from 'moment';
 import 'moment/locale/zh-cn';
-import locale from 'antd/lib/locale/zh_CN';
+import locale from '@ezviz/ezd/lib/locale/zh_CN';
 
 <ConfigProvider locale={locale}>
   <DatePicker defaultValue={moment('2015-01-01', 'YYYY-MM-DD')} />
@@ -62,7 +62,7 @@ The following APIs are shared by DatePicker, RangePicker.
 | dropdownClassName | To customize the className of the popup calendar | string | - |  |
 | getPopupContainer | To set the container of the floating layer, while the default is to create a `div` element in `body` | function(trigger) | - |  |
 | inputReadOnly | Set the `readonly` attribute of the input tag (avoids virtual keyboard on touch devices) | boolean | false |  |
-| locale | Localization configuration | object | [default](https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json) |  |
+| locale | Localization configuration | object | [default](https://github.com/Ezviz-OpenBiz/ezviz-design-master/blob/master/components/date-picker/locale/example.json) |  |
 | mode | The picker panel mode（ [Cannot select year or month anymore?](/docs/react/faq#When-set-mode-to-DatePicker/RangePicker,-cannot-select-year-or-month-anymore?) ) | `time` \| `date` \| `month` \| `year` \| `decade` | - |  |
 | nextIcon | The custom next icon | ReactNode | - |  |
 | open | The open state of picker | boolean | - |  |
@@ -187,14 +187,14 @@ DatePicker default set `locale` as `en` in v4. You can config DatePicker `locale
 
 ### How to modify start day of week?
 
-Please use correct [language](/docs/react/i18n) ([#5605](https://github.com/ant-design/ant-design/issues/5605)), or update moment `locale` config:
+Please use correct [language](/docs/react/i18n), or update moment `locale` config:
 
 - Example: <https://codesandbox.io/s/moment-day-of-week-6dby5>
 - Alternate example: <https://stackblitz.com/edit/react-9aegkj>
 
 ### Why origin panel don't switch when using `panelRender`?
 
-When you change the layout of nodes by `panelRender`, React will unmount and re-mount it which reset the component state. You should keep the layout stable. Please ref [#27263](https://github.com/ant-design/ant-design/issues/27263) for more info.
+When you change the layout of nodes by `panelRender`, React will unmount and re-mount it which reset the component state. You should keep the layout stable.
 
 ```js
 moment.locale('en', {

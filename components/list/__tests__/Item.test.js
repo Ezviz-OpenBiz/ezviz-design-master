@@ -7,11 +7,11 @@ describe('List Item Layout', () => {
   const data = [
     {
       key: 1,
-      href: 'https://ant.design',
-      title: `Evv Design`,
+      href: 'https://saastest3.ys7.com/ezd/',
+      title: `EZ Design`,
       avatar: 'https://joeschmoe.io/api/v1/random',
       description:
-        'Evv Design, a design language for background applications, is refined by Ant UED Team.',
+        'EZ Design, a design language for background applications, is refined by EZVIZ Team.',
       content:
         'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
       extra: 'extra',
@@ -24,12 +24,12 @@ describe('List Item Layout', () => {
         dataSource={data}
         renderItem={item => (
           <List.Item key={item.title}>
-            I am <span>ant</span> design list item
+            I am <span>ezd</span> design list item
           </List.Item>
         )}
       />,
     );
-    expect(wrapper.find('.ant-list-item').at(0).hasClass('ant-list-item-no-flex')).toBe(true);
+    expect(wrapper.find('.ezd-list-item').at(0).hasClass('ezd-list-item-no-flex')).toBe(true);
   });
 
   it('horizontal itemLayout List should be flex container defaultly', () => {
@@ -46,7 +46,7 @@ describe('List Item Layout', () => {
         )}
       />,
     );
-    expect(wrapper.find('.ant-list-item').at(0).hasClass('ant-list-item-no-flex')).toBe(false);
+    expect(wrapper.find('.ezd-list-item').at(0).hasClass('ezd-list-item-no-flex')).toBe(false);
   });
 
   it('vertical itemLayout List should be flex container when there is extra node', () => {
@@ -64,7 +64,7 @@ describe('List Item Layout', () => {
         )}
       />,
     );
-    expect(wrapper.find('.ant-list-item').at(0).hasClass('ant-list-item-no-flex')).toBe(false);
+    expect(wrapper.find('.ezd-list-item').at(0).hasClass('ezd-list-item-no-flex')).toBe(false);
   });
 
   it('vertical itemLayout List should not be flex container when there is not extra node', () => {
@@ -82,7 +82,7 @@ describe('List Item Layout', () => {
         )}
       />,
     );
-    expect(wrapper.find('.ant-list-item').at(0).hasClass('ant-list-item-no-flex')).toBe(true);
+    expect(wrapper.find('.ezd-list-item').at(0).hasClass('ezd-list-item-no-flex')).toBe(true);
   });
 
   it('horizontal itemLayout List should accept extra node', () => {
@@ -133,15 +133,15 @@ describe('List Item Layout', () => {
     const dataWithId = [
       {
         id: 1,
-        title: `Evv Design`,
+        title: `EZ Design`,
       },
       {
         id: 2,
-        title: `Evv Design`,
+        title: `EZ Design`,
       },
       {
         id: 3,
-        title: `Evv Design`,
+        title: `EZ Design`,
       },
     ];
     const wrapper = mount(
@@ -158,15 +158,15 @@ describe('List Item Layout', () => {
     const dataWithId = [
       {
         id: 1,
-        title: `Evv Design`,
+        title: `EZ Design`,
       },
       {
         id: 2,
-        title: `Evv Design`,
+        title: `EZ Design`,
       },
       {
         id: 3,
-        title: `Evv Design`,
+        title: `EZ Design`,
       },
     ];
     const wrapper = mount(

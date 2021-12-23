@@ -14,7 +14,7 @@ title:
 If uploaded file is a picture, the thumbnail can be shown. `IE8/9` do not support local thumbnail show. Please use `thumbUrl` instead.
 
 ```jsx
-import { Upload, Button } from '@ezviz/evvd';
+import { Upload, Button } from '@ezviz/ezd';
 import { UploadOutlined } from '@ant-design/icons';
 
 const fileList = [
@@ -58,13 +58,13 @@ ReactDOM.render(
 
 ```css
 /* tile uploaded pictures */
-.upload-list-inline .ant-upload-list-item {
+.upload-list-inline .ezd-upload-list-item {
   float: left;
   width: 200px;
   margin-right: 8px;
 }
 
-.upload-list-inline [class*='-upload-list-rtl'] .ant-upload-list-item {
+.upload-list-inline [class*='-upload-list-rtl'] .ezd-upload-list-item {
   float: right;
 }
 ```

@@ -147,16 +147,16 @@
 
 // Color used by default to control hover and active backgrounds and for
 // alert info backgrounds.
-@primary-1: mix(color(~`colorPalette('@{primary-color}', 8) `), @component-background, 15%);
-@primary-2: mix(color(~`colorPalette('@{primary-color}', 7) `), @component-background, 25%);
-@primary-3: mix(@primary-color, @component-background, 30%);
-@primary-4: mix(@primary-color, @component-background, 45%);
-@primary-5: mix(@primary-color, @component-background, 65%);
-@primary-6: @primary-color;
-@primary-7: mix(color(~`colorPalette('@{primary-color}', 5) `), @component-background, 90%);
-@primary-8: mix(color(~`colorPalette('@{primary-color}', 4) `), @component-background, 95%);
-@primary-9: mix(color(~`colorPalette('@{primary-color}', 3) `), @component-background, 97%);
-@primary-10: mix(color(~`colorPalette('@{primary-color}', 2) `), @component-background, 98%);
+@primary-1: mix(color(~`colorPalette('@{ezd-primary-color}', 8) `), @component-background, 15%);
+@primary-2: mix(color(~`colorPalette('@{ezd-primary-color}', 7) `), @component-background, 25%);
+@primary-3: mix(@ezd-primary-color, @component-background, 30%);
+@primary-4: mix(@ezd-primary-color, @component-background, 45%);
+@primary-5: mix(@ezd-primary-color, @component-background, 65%);
+@primary-6: @ezd-primary-color;
+@primary-7: mix(color(~`colorPalette('@{ezd-primary-color}', 5) `), @component-background, 90%);
+@primary-8: mix(color(~`colorPalette('@{ezd-primary-color}', 4) `), @component-background, 95%);
+@primary-9: mix(color(~`colorPalette('@{ezd-primary-color}', 3) `), @component-background, 97%);
+@primary-10: mix(color(~`colorPalette('@{ezd-primary-color}', 2) `), @component-background, 98%);
 
 // Layer background
 @popover-background: #1f1f1f;
@@ -322,11 +322,11 @@
 
 // TimePicker
 // ---
-@picker-basic-cell-hover-with-range-color: darken(@primary-color, 35%);
+@picker-basic-cell-hover-with-range-color: darken(@ezd-primary-color, 35%);
 @picker-basic-cell-disabled-bg: #303030;
 @picker-border-color: @border-color-split;
 @picker-bg: transparent;
-@picker-date-hover-range-border-color: darken(@primary-color, 20%);
+@picker-date-hover-range-border-color: darken(@ezd-primary-color, 20%);
 
 // Dropdown
 // ---
@@ -431,7 +431,7 @@
 // Timeline
 // ---
 @timeline-color: @border-color-split;
-@timeline-dot-color: @primary-color;
+@timeline-dot-color: @ezd-primary-color;
 
 // Mentions
 // ---
