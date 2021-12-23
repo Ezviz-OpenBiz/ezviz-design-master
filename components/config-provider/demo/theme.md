@@ -163,7 +163,7 @@ const FormSizeDemo = () => {
             }}
           />
 
-          <span style={{ color: 'var(--ant-primary-color)' }}>var(`--ant-primary-color`)</span>
+          <span style={{ color: 'var(--ezd-primary-color)' }}>var(`--ezd-primary-color`)</span>
 
           {/* Error Color */}
           <SketchPicker
@@ -176,7 +176,7 @@ const FormSizeDemo = () => {
             }}
           />
 
-          <span style={{ color: 'var(--ant-error-color)' }}>var(`--ant-error-color`)</span>
+          <span style={{ color: 'var(--ezd-error-color)' }}>var(`--ezd-error-color`)</span>
 
           {/* Warning Color */}
           <SketchPicker
@@ -189,7 +189,7 @@ const FormSizeDemo = () => {
             }}
           />
 
-          <span style={{ color: 'var(--ant-warning-color)' }}>var(`--ant-warning-color`)</span>
+          <span style={{ color: 'var(--ezd-warning-color)' }}>var(`--ezd-warning-color`)</span>
 
           {/* Success Color */}
           <SketchPicker
@@ -202,7 +202,7 @@ const FormSizeDemo = () => {
             }}
           />
 
-          <span style={{ color: 'var(--ant-success-color)' }}>var(`--ant-success-color`)</span>
+          <span style={{ color: 'var(--ezd-success-color)' }}>var(`--ezd-success-color`)</span>
 
           {/* Info Color */}
           <SketchPicker
@@ -215,7 +215,7 @@ const FormSizeDemo = () => {
             }}
           />
 
-          <span style={{ color: 'var(--ant-info-color)' }}>var(`--ant-info-color`)</span>
+          <span style={{ color: 'var(--ezd-info-color)' }}>var(`--ezd-info-color`)</span>
         </Space>
       </Col>
 
@@ -272,7 +272,7 @@ const FormSizeDemo = () => {
             <Typography.Text type="success">Text (success)</Typography.Text>
             <Typography.Text type="warning">Text(warning)</Typography.Text>
             <Typography.Text type="danger">Text(danger)</Typography.Text>
-            <Typography.Link href="https://ant.design" target="_blank">
+            <Typography.Link href="https://saastest3.ys7.com/ezd/" target="_blank">
               Link
             </Typography.Link>
             <Typography.Text copyable>Text</Typography.Text>
@@ -286,7 +286,7 @@ const FormSizeDemo = () => {
                 </Menu>
               }
             >
-              <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+              <a className="ezd-dropdown-link" onClick={e => e.preventDefault()}>
                 Hover me <DownOutlined />
               </a>
             </Dropdown>

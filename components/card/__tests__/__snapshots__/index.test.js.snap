@@ -2,128 +2,128 @@
 
 exports[`Card rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-rtl"
+  class="ezd-card ezd-card-bordered ezd-card-rtl"
 >
   <div
-    class="ant-card-body"
+    class="ezd-card-body"
   />
 </div>
 `;
 
 exports[`Card should still have padding when card which set padding to 0 is loading 1`] = `
 <div
-  class="ant-card ant-card-loading ant-card-bordered"
+  class="ezd-card ezd-card-loading ezd-card-bordered"
 >
   <div
-    class="ant-card-body"
+    class="ezd-card-body"
     style="padding: 0px;"
   >
     <div
-      class="ant-card-loading-content"
+      class="ezd-card-loading-content"
       style="padding: 24px;"
     >
       <div
-        class="ant-row"
+        class="ezd-row"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-22"
+          class="ezd-col ezd-col-22"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ezd-row"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-8"
+          class="ezd-col ezd-col-8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
         <div
-          class="ant-col ant-col-15"
+          class="ezd-col ezd-col-15"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ezd-row"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-6"
+          class="ezd-col ezd-col-6"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
         <div
-          class="ant-col ant-col-18"
+          class="ezd-col ezd-col-18"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ezd-row"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-13"
+          class="ezd-col ezd-col-13"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
         <div
-          class="ant-col ant-col-9"
+          class="ezd-col ezd-col-9"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ezd-row"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-4"
+          class="ezd-col ezd-col-4"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
         <div
-          class="ant-col ant-col-3"
+          class="ezd-col ezd-col-3"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
         <div
-          class="ant-col ant-col-16"
+          class="ezd-col ezd-col-16"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
-            class="ant-card-loading-block"
+            class="ezd-card-loading-block"
           />
         </div>
       </div>
@@ -134,25 +134,25 @@ exports[`Card should still have padding when card which set padding to 0 is load
 
 exports[`Card title should be vertically aligned 1`] = `
 <div
-  class="ant-card ant-card-bordered"
+  class="ezd-card ezd-card-bordered"
   style="width: 300px;"
 >
   <div
-    class="ant-card-head"
+    class="ezd-card-head"
   >
     <div
-      class="ant-card-head-wrapper"
+      class="ezd-card-head-wrapper"
     >
       <div
-        class="ant-card-head-title"
+        class="ezd-card-head-title"
       >
         Card title
       </div>
       <div
-        class="ant-card-extra"
+        class="ezd-card-extra"
       >
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -163,7 +163,7 @@ exports[`Card title should be vertically aligned 1`] = `
     </div>
   </div>
   <div
-    class="ant-card-body"
+    class="ezd-card-body"
   >
     <p>
       Card content

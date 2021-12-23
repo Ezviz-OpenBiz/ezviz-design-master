@@ -3,18 +3,18 @@
 exports[`renders ./components/progress/demo/circle.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -24,7 +24,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -36,7 +36,7 @@ Array [
           style="stroke-dasharray:221.48228207808043px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -49,7 +49,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="75%"
       >
         75%
@@ -57,18 +57,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-exception ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-exception ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -78,7 +78,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -90,7 +90,7 @@ Array [
           style="stroke-dasharray:206.7167966062084px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -103,7 +103,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
       >
         <span
           aria-label="close"
@@ -128,18 +128,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -149,7 +149,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -161,7 +161,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -174,7 +174,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
       >
         <span
           aria-label="check"
@@ -204,18 +204,18 @@ Array [
 exports[`renders ./components/progress/demo/circle-dynamic.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -225,7 +225,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -237,7 +237,7 @@ Array [
           style="stroke-dasharray:0px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -250,7 +250,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="0%"
       >
         0%
@@ -258,10 +258,10 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-btn-group"
+    class="ezd-btn-group"
   >
     <button
-      class="ant-btn ant-btn-icon-only"
+      class="ezd-btn ant-btn-icon-only"
       type="button"
     >
       <span
@@ -285,7 +285,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-icon-only"
+      class="ezd-btn ant-btn-icon-only"
       type="button"
     >
       <span
@@ -319,18 +319,18 @@ Array [
 exports[`renders ./components/progress/demo/circle-mini.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:80px;height:80px;font-size:18px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -340,7 +340,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -352,7 +352,7 @@ Array [
           style="stroke-dasharray:88.59291283123217px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -365,7 +365,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="30%"
       >
         30%
@@ -373,18 +373,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-exception ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-exception ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:80px;height:80px;font-size:18px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -394,7 +394,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -406,7 +406,7 @@ Array [
           style="stroke-dasharray:206.7167966062084px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -419,7 +419,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
       >
         <span
           aria-label="close"
@@ -444,18 +444,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:80px;height:80px;font-size:18px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -465,7 +465,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -477,7 +477,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -490,7 +490,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
       >
         <span
           aria-label="check"
@@ -520,18 +520,18 @@ Array [
 exports[`renders ./components/progress/demo/dashboard.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -541,7 +541,7 @@ Array [
           style="stroke-dasharray:220.30970943744057px 295.3097094374406px;stroke-dashoffset:-37.5px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -553,7 +553,7 @@ Array [
           style="stroke-dasharray:165.23228207808043px 295.3097094374406px;stroke-dashoffset:-37.5px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -566,7 +566,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="75%"
       >
         75%
@@ -574,18 +574,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -595,7 +595,7 @@ Array [
           style="stroke-dasharray:265.3097094374406px 295.3097094374406px;stroke-dashoffset:-15px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -607,7 +607,7 @@ Array [
           style="stroke-dasharray:198.98228207808043px 295.3097094374406px;stroke-dashoffset:-15px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -620,7 +620,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="75%"
       >
         75%
@@ -633,32 +633,32 @@ Array [
 exports[`renders ./components/progress/demo/dynamic.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:0%;height:8px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="0%"
     >
       0%
     </span>
   </div>,
   <div
-    class="ant-btn-group"
+    class="ezd-btn-group"
   >
     <button
-      class="ant-btn ant-btn-icon-only"
+      class="ezd-btn ant-btn-icon-only"
       type="button"
     >
       <span
@@ -682,7 +682,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-icon-only"
+      class="ezd-btn ant-btn-icon-only"
       type="button"
     >
       <span
@@ -716,18 +716,18 @@ Array [
 exports[`renders ./components/progress/demo/format.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -737,7 +737,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -749,7 +749,7 @@ Array [
           style="stroke-dasharray:221.48228207808043px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -762,7 +762,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="75 Days"
       >
         75 Days
@@ -770,18 +770,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -791,7 +791,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -803,7 +803,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -816,7 +816,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="Done"
       >
         Done
@@ -829,58 +829,58 @@ Array [
 exports[`renders ./components/progress/demo/gradient-line.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:99.9%;height:8px;border-radius:;background-image:linear-gradient(to right, #108ee9 0%, #87d068 100%)"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="99.9%"
     >
       99.9%
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:99.9%;height:8px;border-radius:;background-image:linear-gradient(to right, #108ee9, #87d068)"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="99.9%"
     >
       99.9%
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner ant-progress-circle-gradient"
+      class="ezd-progress-inner ant-progress-circle-gradient"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <defs>
@@ -902,7 +902,7 @@ Array [
           </linearGradient>
         </defs>
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -912,7 +912,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -924,7 +924,7 @@ Array [
           style="stroke-dasharray:265.77873849369655px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -937,7 +937,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="90%"
       >
         90%
@@ -945,14 +945,14 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner ant-progress-circle-gradient"
+      class="ezd-progress-inner ant-progress-circle-gradient"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <defs>
@@ -974,7 +974,7 @@ Array [
           </linearGradient>
         </defs>
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -984,7 +984,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -996,7 +996,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -1009,7 +1009,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
       >
         <span
           aria-label="check"
@@ -1039,66 +1039,66 @@ Array [
 exports[`renders ./components/progress/demo/line.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:30%;height:8px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="30%"
     >
       30%
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:50%;height:8px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="50%"
     >
       50%
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-line ant-progress-status-exception ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-exception ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:70%;height:8px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
     >
       <span
         aria-label="close-circle"
@@ -1122,22 +1122,22 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:100%;height:8px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
     >
       <span
         aria-label="check-circle"
@@ -1161,16 +1161,16 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-normal ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:50%;height:8px;border-radius:"
         />
       </div>
@@ -1184,66 +1184,66 @@ exports[`renders ./components/progress/demo/line-mini.md correctly 1`] = `
   style="width:170px"
 >
   <div
-    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-small"
+    class="ezd-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-small"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:30%;height:6px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="30%"
     >
       30%
     </span>
   </div>
   <div
-    class="ant-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-small"
+    class="ezd-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-small"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:50%;height:6px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="50%"
     >
       50%
     </span>
   </div>
   <div
-    class="ant-progress ant-progress-line ant-progress-status-exception ant-progress-show-info ant-progress-small"
+    class="ezd-progress ant-progress-line ant-progress-status-exception ant-progress-show-info ant-progress-small"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:70%;height:6px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
     >
       <span
         aria-label="close-circle"
@@ -1267,22 +1267,22 @@ exports[`renders ./components/progress/demo/line-mini.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-small"
+    class="ezd-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-small"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:100%;height:6px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
     >
       <span
         aria-label="check-circle"
@@ -1311,40 +1311,40 @@ exports[`renders ./components/progress/demo/line-mini.md correctly 1`] = `
 exports[`renders ./components/progress/demo/linecap.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:75%;height:8px;border-radius:0"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="75%"
     >
       75%
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -1354,7 +1354,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -1366,7 +1366,7 @@ Array [
           style="stroke-dasharray:221.48228207808043px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -1379,7 +1379,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="75%"
       >
         75%
@@ -1387,18 +1387,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -1408,7 +1408,7 @@ Array [
           style="stroke-dasharray:220.30970943744057px 295.3097094374406px;stroke-dashoffset:-37.5px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -1420,7 +1420,7 @@ Array [
           style="stroke-dasharray:165.23228207808043px 295.3097094374406px;stroke-dashoffset:-37.5px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -1433,7 +1433,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="75%"
       >
         75%
@@ -1446,44 +1446,44 @@ Array [
 exports[`renders ./components/progress/demo/segment.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-outer"
+      class="ezd-progress-outer"
     >
       <div
-        class="ant-progress-inner"
+        class="ezd-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ezd-progress-bg"
           style="width:60%;height:8px;border-radius:"
         />
         <div
-          class="ant-progress-success-bg"
+          class="ezd-progress-success-bg"
           style="width:30%;height:8px;border-radius:"
         />
       </div>
     </div>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="60%"
     >
       60%
     </span>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -1493,7 +1493,7 @@ Array [
           style="stroke-dasharray:295.3097094374406px 295.3097094374406px;stroke-dashoffset:-0px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -1505,7 +1505,7 @@ Array [
           style="stroke-dasharray:88.59291283123217px 295.3097094374406px;stroke-dashoffset:-88.59291283123217px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -1518,7 +1518,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="60%"
       >
         60%
@@ -1526,18 +1526,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="width:120px;height:120px;font-size:24px"
     >
       <svg
-        class="ant-progress-circle"
+        class="ezd-progress-circle"
         viewBox="0 0 100 100"
       >
         <path
-          class="ant-progress-circle-trail"
+          class="ezd-progress-circle-trail"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -1547,7 +1547,7 @@ Array [
           style="stroke-dasharray:220.30970943744057px 295.3097094374406px;stroke-dashoffset:-37.5px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -1559,7 +1559,7 @@ Array [
           style="stroke-dasharray:66.09291283123217px 295.3097094374406px;stroke-dashoffset:-103.59291283123217px;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s"
         />
         <path
-          class="ant-progress-circle-path"
+          class="ezd-progress-circle-path"
           d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -1572,7 +1572,7 @@ Array [
         />
       </svg>
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="60%"
       >
         60%
@@ -1585,25 +1585,25 @@ Array [
 exports[`renders ./components/progress/demo/steps.md correctly 1`] = `
 Array [
   <div
-    class="ant-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-steps-outer"
+      class="ezd-progress-steps-outer"
     >
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="width:14px;height:8px"
       />
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="width:14px;height:8px"
       />
       <div
-        class="ant-progress-steps-item"
+        class="ezd-progress-steps-item"
         style="width:14px;height:8px"
       />
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="50%"
       >
         50%
@@ -1612,33 +1612,33 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    class="ezd-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
   >
     <div
-      class="ant-progress-steps-outer"
+      class="ezd-progress-steps-outer"
     >
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="width:14px;height:8px"
       />
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="width:14px;height:8px"
       />
       <div
-        class="ant-progress-steps-item"
+        class="ezd-progress-steps-item"
         style="width:14px;height:8px"
       />
       <div
-        class="ant-progress-steps-item"
+        class="ezd-progress-steps-item"
         style="width:14px;height:8px"
       />
       <div
-        class="ant-progress-steps-item"
+        class="ezd-progress-steps-item"
         style="width:14px;height:8px"
       />
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
         title="30%"
       >
         30%
@@ -1647,33 +1647,33 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-progress ant-progress-steps ant-progress-status-success ant-progress-show-info ant-progress-small"
+    class="ezd-progress ant-progress-steps ant-progress-status-success ant-progress-show-info ant-progress-small"
   >
     <div
-      class="ant-progress-steps-outer"
+      class="ezd-progress-steps-outer"
     >
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="background-color:#52c41a;width:2px;height:8px"
       />
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="background-color:#52c41a;width:2px;height:8px"
       />
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="background-color:#52c41a;width:2px;height:8px"
       />
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="background-color:#52c41a;width:2px;height:8px"
       />
       <div
-        class="ant-progress-steps-item ant-progress-steps-item-active"
+        class="ezd-progress-steps-item ant-progress-steps-item-active"
         style="background-color:#52c41a;width:2px;height:8px"
       />
       <span
-        class="ant-progress-text"
+        class="ezd-progress-text"
       >
         <span
           aria-label="check-circle"

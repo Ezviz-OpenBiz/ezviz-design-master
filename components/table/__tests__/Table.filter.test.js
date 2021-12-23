@@ -70,10 +70,9 @@ describe('Table.filter', () => {
       }),
     );
 
-    expect(wrapper.find('.ant-table-filter-column')).toHaveLength(0);
+    expect(wrapper.find('.ezd-table-filter-column')).toHaveLength(0);
   });
 
-  // https://github.com/ant-design/ant-design/issues/26988
   it('not show filter icon when filter and filterDropdown is undefined', () => {
     const noFilterColumn = { ...column, filters: undefined, filterDropdown: undefined };
     delete noFilterColumn.onFilter;
@@ -83,7 +82,7 @@ describe('Table.filter', () => {
       }),
     );
 
-    expect(wrapper.find('.ant-table-filter-column')).toHaveLength(0);
+    expect(wrapper.find('.ezd-table-filter-column')).toHaveLength(0);
   });
 
   it('renders filter correctly', () => {
@@ -112,7 +111,7 @@ describe('Table.filter', () => {
         ],
       }),
     );
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
     act(() => {
       jest.runAllTimers();
       wrapper.update();
@@ -199,7 +198,7 @@ describe('Table.filter', () => {
     }
 
     // check if renderer well
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
     expect(wrapper.find('#customFilter')).toMatchSnapshot();
 
     // try to use reset btn
@@ -212,7 +211,7 @@ describe('Table.filter', () => {
     expect(getFilterMenu().props().filterState.filteredKeys).toBeFalsy();
 
     // try to use confirm btn
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
     wrapper.find('#setSelectedKeys').simulate('click');
     expect(getFilterMenu().find('Dropdown').first().props().visible).toBeTruthy();
     wrapper.find('#confirm').simulate('click');
@@ -220,7 +219,7 @@ describe('Table.filter', () => {
     expect(getFilterMenu().find('Dropdown').first().props().visible).toBeFalsy();
 
     // Simulate onSelect, setSelectedKeys & confirm
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
     wrapper.find('#simulateOnSelect').simulate('click');
     expect(getFilterMenu().props().filterState.filteredKeys).toEqual([43]);
   });
@@ -269,7 +268,7 @@ describe('Table.filter', () => {
     wrapper.find('FilterDropdown').find('input[type="checkbox"]').first().simulate('click');
     wrapper
       .find('FilterDropdown')
-      .find('.ant-table-filter-dropdown-btns .ant-btn-primary')
+      .find('.ezd-table-filter-dropdown-btns .ezd-btn-primary')
       .simulate('click');
     expect(wrapper.find('FilterDropdown').props().filterState.filteredKeys).toEqual(['boy']);
     wrapper.setProps({ dataSource: [...data, { key: 999, name: 'Chris' }] });
@@ -289,7 +288,7 @@ describe('Table.filter', () => {
       }),
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
 
     expect(handleChange).toHaveBeenCalledWith(true);
   });
@@ -384,7 +383,7 @@ describe('Table.filter', () => {
         }),
       );
 
-      wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+      wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
 
       expect(wrapper.find('FilterDropdown').find('Checkbox').at(0).props().checked).toEqual(true);
     });
@@ -394,13 +393,13 @@ describe('Table.filter', () => {
         columns: [
           {
             ...column,
-            filters: [{ text: 'ant', value: 'ant' }],
+            filters: [{ text: 'ezd', value: 'ezd' }],
             filteredValue: ['any-value-not-exists-in-filters'],
           },
         ],
       }),
     );
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
 
     expect(wrapper.find('FilterDropdown').find('Checkbox').at(0).props().checked).toEqual(false);
   });
@@ -460,11 +459,11 @@ describe('Table.filter', () => {
   it('fires change event', () => {
     const handleChange = jest.fn();
     const wrapper = mount(createTable({ onChange: handleChange }));
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('FilterDropdown').find('MenuItem').first().simulate('click');
     wrapper
       .find('FilterDropdown')
-      .find('.ant-table-filter-dropdown-btns .ant-btn-primary')
+      .find('.ezd-table-filter-dropdown-btns .ezd-btn-primary')
       .simulate('click');
     expect(handleChange).toHaveBeenCalledWith(
       {},
@@ -480,11 +479,11 @@ describe('Table.filter', () => {
   it('fires pagination change event', () => {
     const onPaginationChange = jest.fn();
     const wrapper = mount(createTable({ pagination: { onChange: onPaginationChange } }));
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('FilterDropdown').find('MenuItem').first().simulate('click');
     wrapper
       .find('FilterDropdown')
-      .find('.ant-table-filter-dropdown-btns .ant-btn-primary')
+      .find('.ezd-table-filter-dropdown-btns .ezd-btn-primary')
       .simulate('click');
 
     expect(onPaginationChange).toHaveBeenCalledWith(1, 10);
@@ -494,8 +493,8 @@ describe('Table.filter', () => {
     const handleChange = jest.fn();
     const wrapper = mount(createTable({ onChange: handleChange }));
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
 
     expect(handleChange).not.toHaveBeenCalled();
   });
@@ -514,8 +513,8 @@ describe('Table.filter', () => {
       }),
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
 
     expect(handleChange).not.toHaveBeenCalled();
   });
@@ -559,7 +558,7 @@ describe('Table.filter', () => {
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
 
     // Open
-    wrapper.find('.ant-table-filter-trigger').simulate('click');
+    wrapper.find('.ezd-table-filter-trigger').simulate('click');
 
     function getFilterMenu() {
       return wrapper.find('FilterDropdown');
@@ -577,16 +576,16 @@ describe('Table.filter', () => {
     }
 
     // Open Level2
-    getFilterMenu().find('div.ant-dropdown-menu-submenu-title').at(0).simulate('mouseEnter');
+    getFilterMenu().find('div.ezd-dropdown-menu-submenu-title').at(0).simulate('mouseEnter');
     refreshTimer();
 
     // Open Level3
-    getFilterMenu().find('div.ant-dropdown-menu-submenu-title').at(1).simulate('mouseEnter');
+    getFilterMenu().find('div.ezd-dropdown-menu-submenu-title').at(1).simulate('mouseEnter');
     refreshTimer();
 
     // Select Level3 value
-    getFilterMenu().find('li.ant-dropdown-menu-item').last().simulate('click');
-    getFilterMenu().find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    getFilterMenu().find('li.ezd-dropdown-menu-item').last().simulate('click');
+    getFilterMenu().find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     refreshTimer();
 
     onChange.mock.calls.forEach(([, currentFilters]) => {
@@ -597,7 +596,7 @@ describe('Table.filter', () => {
     expect(renderedNames(wrapper)).toEqual(['Jack']);
 
     // What's this? Is that a coverage case?
-    getFilterMenu().find('li.ant-dropdown-menu-item').last().simulate('click');
+    getFilterMenu().find('li.ezd-dropdown-menu-item').last().simulate('click');
 
     jest.useRealTimers();
   });
@@ -624,12 +623,12 @@ describe('Table.filter', () => {
           }),
         );
 
-        wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+        wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
 
         jest.useFakeTimers();
         wrapper.find('MenuItem').first().simulate('click');
         // This test can be remove if refactor
-        wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+        wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
         wrapper.update();
 
         expect(wrapper.find('FilterDropdown').find('Checkbox').at(0).props().checked).toEqual(true);
@@ -647,7 +646,6 @@ describe('Table.filter', () => {
           expect(val).toEqual([value]);
         });
         // Another time of Filter show
-        // https://github.com/ant-design/ant-design/issues/15593
         wrapper.find('MenuItem').first().simulate('click');
         expect(wrapper.find('FilterDropdown').find('Checkbox').at(0).props().checked).toEqual(
           false,
@@ -691,20 +689,20 @@ describe('Table.filter', () => {
 
     const wrapper = mount(<App />);
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     expect(wrapper.find('Dropdown').first().props().visible).toBe(true);
     wrapper.find('MenuItem').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     wrapper.update();
     expect(wrapper.find('Dropdown').first().props().visible).toBe(false);
     expect(renderedNames(wrapper)).toEqual(['Jack']);
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-link').simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-link').simulate('click');
     wrapper.update();
     expect(wrapper.find('Dropdown').first().props().visible).toBe(true);
     expect(renderedNames(wrapper)).toEqual(['Jack']);
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
     expect(wrapper.find('Dropdown').first().props().visible).toBe(false);
   });
@@ -762,9 +760,9 @@ describe('Table.filter', () => {
       }),
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-dropdown-menu-item').first().simulate('click');
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-menu-item').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
 
     expect(handleChange).toHaveBeenCalled();
     expect(handleChange.mock.calls[0][3].currentDataSource.length).toBe(1);
@@ -785,14 +783,14 @@ describe('Table.filter', () => {
       }),
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-dropdown-menu-item').first().simulate('click');
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-menu-item').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     expect(wrapper.find('.customize-icon').render()).toMatchSnapshot();
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-dropdown-menu-item').first().simulate('click');
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-menu-item').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     expect(wrapper.find('.customize-icon').render()).toMatchSnapshot();
   });
 
@@ -846,7 +844,6 @@ describe('Table.filter', () => {
     expect(wrapper.find('span.customize-icon').length).toBe(1);
   });
 
-  // https://github.com/ant-design/ant-design/issues/13028
   it('reset dropdown filter correctly', () => {
     class Demo extends React.Component {
       state = {};
@@ -884,16 +881,15 @@ describe('Table.filter', () => {
     }
 
     const wrapper = mount(<Demo />);
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-input').simulate('change', { target: { value: 'test' } });
-    expect(wrapper.find('.ant-input').instance().value).toBe('test');
-    wrapper.find('.ant-btn').simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-input').simulate('change', { target: { value: 'test' } });
+    expect(wrapper.find('.ezd-input').instance().value).toBe('test');
+    wrapper.find('.ezd-btn').simulate('click');
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    expect(wrapper.find('.ant-input').instance().value).toBe('');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    expect(wrapper.find('.ezd-input').instance().value).toBe('');
   });
 
-  // https://github.com/ant-design/ant-design/issues/17833
   it('should not trigger onChange when bluring custom filterDropdown', () => {
     const onChange = jest.fn();
     const filterDropdown = ({ setSelectedKeys }) => (
@@ -912,12 +908,12 @@ describe('Table.filter', () => {
         ],
       }),
     );
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper
       .find('input')
       .first()
       .simulate('change', { target: { value: 'whatevervalue' } });
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     expect(onChange).not.toHaveBeenCalled();
   });
 
@@ -944,7 +940,7 @@ describe('Table.filter', () => {
         ],
       }),
     );
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper
       .find('input')
       .first()
@@ -1027,9 +1023,9 @@ describe('Table.filter', () => {
       }),
     );
     expect(wrapper.find('FilterDropdown').props().filterState.filteredKeys).toEqual(filteredValue);
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-select-selector').simulate('mousedown');
-    wrapper.find('.ant-select-item-option').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
+    wrapper.find('.ezd-select-item-option').first().simulate('click');
     wrapper.find('.confirm-btn').first().simulate('click');
     expect(onChange).toHaveBeenCalled();
     onChange.mock.calls.forEach(([, currentFilters]) => {
@@ -1038,7 +1034,6 @@ describe('Table.filter', () => {
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/17089
   it('not crash when dynamic change filter', () => {
     const onChange = jest.fn();
 
@@ -1075,9 +1070,9 @@ describe('Table.filter', () => {
       />,
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('MenuItem').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(onChange).toHaveBeenCalled();
     onChange.mockReset();
     expect(onChange).not.toHaveBeenCalled();
@@ -1092,7 +1087,7 @@ describe('Table.filter', () => {
     });
 
     wrapper.find('MenuItem').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(onChange).toHaveBeenCalled();
   });
 
@@ -1184,14 +1179,14 @@ describe('Table.filter', () => {
 
     const wrapper = mount(<Test />);
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     expect(filterDropdownMock).toHaveBeenCalledWith(
       expect.objectContaining({
         visible: true,
       }),
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     expect(filterDropdownMock).toHaveBeenCalledWith(
       expect.objectContaining({
         visible: false,
@@ -1209,9 +1204,9 @@ describe('Table.filter', () => {
       }),
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('MenuItem').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
 
     expect(handleChange).toHaveBeenCalledWith(
       {
@@ -1225,7 +1220,7 @@ describe('Table.filter', () => {
         action: 'filter',
       },
     );
-    expect(wrapper.find('.ant-pagination-item')).toHaveLength(0);
+    expect(wrapper.find('.ezd-pagination-item')).toHaveLength(0);
   });
 
   it('should keep pagination current after filter', () => {
@@ -1239,11 +1234,11 @@ describe('Table.filter', () => {
         },
       }),
     );
-    expect(wrapper.find('.ant-pagination-item-active').text()).toBe('3');
+    expect(wrapper.find('.ezd-pagination-item-active').text()).toBe('3');
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('MenuItem').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
 
     expect(handleChange).toHaveBeenCalledWith(
       {
@@ -1259,7 +1254,6 @@ describe('Table.filter', () => {
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/19274
   it('should not crash', () => {
     class TestTable extends React.Component {
       state = {
@@ -1287,7 +1281,6 @@ describe('Table.filter', () => {
     mount(<TestTable />);
   });
 
-  // https://github.com/ant-design/ant-design/issues/20854
   it('Not cache for onChange state', () => {
     const onChange = jest.fn();
 
@@ -1314,7 +1307,7 @@ describe('Table.filter', () => {
     );
 
     // Sort it
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(onChange).toHaveBeenCalledWith(
       expect.anything(),
       {
@@ -1335,9 +1328,9 @@ describe('Table.filter', () => {
 
     // Filter it
     onChange.mockReset();
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
-    wrapper.find('.ant-dropdown-menu-item').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('.ezd-dropdown-menu-item').first().simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(onChange).toHaveBeenCalledWith(
       expect.anything(),
       {
@@ -1372,16 +1365,16 @@ describe('Table.filter', () => {
       }),
     );
 
-    expect(wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').text()).toEqual(
+    expect(wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').text()).toEqual(
       'Bamboo',
     );
-    expect(wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-link').last().text()).toEqual(
+    expect(wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-link').last().text()).toEqual(
       'Reset',
     );
-    expect(wrapper.find('.ant-table-filter-dropdown-checkall').first().text()).toEqual(
+    expect(wrapper.find('.ezd-table-filter-dropdown-checkall').first().text()).toEqual(
       'Select all items',
     );
-    expect(wrapper.find('.ant-input').getDOMNode().getAttribute('placeholder')).toEqual(
+    expect(wrapper.find('.ezd-input').getDOMNode().getAttribute('placeholder')).toEqual(
       'Search in filters',
     );
   });
@@ -1398,7 +1391,7 @@ describe('Table.filter', () => {
       }),
     );
 
-    expect(wrapper.find('.ant-table-filter-trigger').hasClass('active')).toBeTruthy();
+    expect(wrapper.find('.ezd-table-filter-trigger').hasClass('active')).toBeTruthy();
   });
 
   it('filteredValue with empty array should not active the filtered icon', () => {
@@ -1413,7 +1406,7 @@ describe('Table.filter', () => {
       }),
     );
 
-    expect(wrapper.find('.ant-table-filter-trigger').hasClass('active')).toBeFalsy();
+    expect(wrapper.find('.ezd-table-filter-trigger').hasClass('active')).toBeFalsy();
   });
 
   it('with onFilter', () => {
@@ -1458,13 +1451,13 @@ describe('Table.filter', () => {
       onFilter: filterFn,
     };
     const wrapper = mount(createTable({ columns: [filterControlledColumn] }));
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('FilterDropdown').find('MenuItem').first().simulate('click');
     wrapper // close drodown
       .find('FilterDropdown')
-      .find('.ant-table-filter-dropdown-btns .ant-btn-primary')
+      .find('.ezd-table-filter-dropdown-btns .ezd-btn-primary')
       .simulate('click');
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click'); // reopen
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click'); // reopen
     const checkbox = wrapper
       .find('FilterDropdown')
       .find('MenuItem')
@@ -1495,8 +1488,8 @@ describe('Table.filter', () => {
       />
     );
     const wrapper = mount(<Test filters={[]} />);
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(onChange).not.toHaveBeenCalled();
     onChange.mockReset();
     wrapper.unmount();
@@ -1558,7 +1551,7 @@ describe('Table.filter', () => {
       }),
     );
 
-    expect(wrapper.find('.ant-table-filter-column')).toHaveLength(3);
+    expect(wrapper.find('.ezd-table-filter-column')).toHaveLength(3);
   });
 
   it('should pagination.current be 1 after filtering', () => {
@@ -1600,18 +1593,17 @@ describe('Table.filter', () => {
     const wrapper = mount(
       <Table onChange={onChange} rowKey="name" columns={columns} dataSource={dataSource} />,
     );
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('FilterDropdown').find('MenuItem').at(0).simulate('click');
-    wrapper.find('.ant-btn-primary').first().simulate('click');
+    wrapper.find('.ezd-btn-primary').first().simulate('click');
     expect(onChange.mock.calls[0][0].current).toBe(1);
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     wrapper.find('FilterDropdown').find('MenuItem').at(1).simulate('click');
-    wrapper.find('.ant-btn-primary').first().simulate('click');
+    wrapper.find('.ezd-btn-primary').first().simulate('click');
     expect(onChange.mock.calls[1][0].current).toBe(1);
   });
 
-  // https://github.com/ant-design/ant-design/issues/30454
   it('should not trigger onFilterDropdownVisibleChange when call confirm({ closeDropdown: false })', () => {
     const onFilterDropdownVisibleChange = jest.fn();
     const wrapper = mount(
@@ -1642,7 +1634,7 @@ describe('Table.filter', () => {
       }),
     );
 
-    wrapper.find('.ant-dropdown-trigger').first().simulate('click');
+    wrapper.find('.ezd-dropdown-trigger').first().simulate('click');
     expect(onFilterDropdownVisibleChange).toHaveBeenCalledTimes(1);
 
     wrapper.find('#confirm-only').simulate('click');
@@ -1738,11 +1730,11 @@ describe('Table.filter', () => {
 
     const wrapper = mount(<App />);
 
-    expect(wrapper.find('.ant-table-tbody .ant-table-cell').first().text()).toEqual(`${32}`);
-    wrapper.find('.ant-dropdown-trigger.ant-table-filter-trigger').simulate('click');
-    wrapper.find('.ant-dropdown-menu-item').first().simulate('click');
-    wrapper.find('.ant-btn.ant-btn-primary.ant-btn-sm').simulate('click');
-    expect(wrapper.find('.ant-table-tbody .ant-table-cell').first().text()).toEqual(`${66}`);
+    expect(wrapper.find('.ezd-table-tbody .ezd-table-cell').first().text()).toEqual(`${32}`);
+    wrapper.find('.ezd-dropdown-trigger.ezd-table-filter-trigger').simulate('click');
+    wrapper.find('.ezd-dropdown-menu-item').first().simulate('click');
+    wrapper.find('.ezd-btn.ezd-btn-primary.ezd-btn-sm').simulate('click');
+    expect(wrapper.find('.ezd-table-tbody .ezd-table-cell').first().text()).toEqual(`${66}`);
   });
 
   describe('filter tree mode', () => {
@@ -1759,13 +1751,13 @@ describe('Table.filter', () => {
           ],
         }),
       );
-      wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+      wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
       act(() => {
         jest.runAllTimers();
         wrapper.update();
       });
       expect(wrapper.find(Tree).length).toBe(1);
-      expect(wrapper.find('.ant-tree-checkbox').length).toBe(5);
+      expect(wrapper.find('.ezd-tree-checkbox').length).toBe(5);
     });
 
     it('supports search input in filter tree', () => {
@@ -1782,7 +1774,7 @@ describe('Table.filter', () => {
           ],
         }),
       );
-      wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+      wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
       act(() => {
         jest.runAllTimers();
         wrapper.update();
@@ -1808,7 +1800,7 @@ describe('Table.filter', () => {
           ],
         }),
       );
-      wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+      wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
       act(() => {
         jest.runAllTimers();
         wrapper.update();
@@ -1848,19 +1840,19 @@ describe('Table.filter', () => {
           ],
         }),
       );
-      wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+      wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
       act(() => {
         jest.runAllTimers();
         wrapper.update();
       });
       expect(wrapper.find(Menu).length).toBe(1);
       expect(wrapper.find(Input).length).toBe(1);
-      expect(wrapper.find('li.ant-dropdown-menu-item').length).toBe(3);
+      expect(wrapper.find('li.ezd-dropdown-menu-item').length).toBe(3);
       wrapper
         .find(Input)
         .find('input')
         .simulate('change', { target: { value: '123' } });
-      expect(wrapper.find('li.ant-dropdown-menu-item').length).toBe(2);
+      expect(wrapper.find('li.ezd-dropdown-menu-item').length).toBe(2);
     });
 
     it('supports check all items', () => {
@@ -1877,24 +1869,24 @@ describe('Table.filter', () => {
           ],
         }),
       );
-      wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+      wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
       act(() => {
         jest.runAllTimers();
         wrapper.update();
       });
       expect(wrapper.find(Checkbox).length).toBe(1);
       expect(wrapper.find(Checkbox).text()).toBe('Select all items');
-      expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(0);
+      expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(0);
       wrapper
         .find(Checkbox)
         .find('input')
         .simulate('change', { target: { checked: true } });
-      expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(5);
+      expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(5);
       wrapper
         .find(Checkbox)
         .find('input')
         .simulate('change', { target: { checked: false } });
-      expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(0);
+      expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(0);
     });
 
     it('supports check item by selecting it', () => {
@@ -1911,15 +1903,15 @@ describe('Table.filter', () => {
           ],
         }),
       );
-      wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+      wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
       act(() => {
         jest.runAllTimers();
         wrapper.update();
       });
       expect(wrapper.find(Checkbox).length).toBe(1);
       expect(wrapper.find(Checkbox).text()).toBe('Select all items');
-      wrapper.find('.ant-tree-node-content-wrapper').at(0).simulate('click');
-      expect(wrapper.find('.ant-tree-checkbox').at(0).hasClass('ant-tree-checkbox-checked')).toBe(
+      wrapper.find('.ezd-tree-node-content-wrapper').at(0).simulate('click');
+      expect(wrapper.find('.ezd-tree-checkbox').at(0).hasClass('ezd-tree-checkbox-checked')).toBe(
         true,
       );
     });
@@ -1939,29 +1931,29 @@ describe('Table.filter', () => {
         ],
       }),
     );
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
     act(() => {
       jest.runAllTimers();
       wrapper.update();
     });
-    expect(wrapper.find('.ant-tree-checkbox').length).toBe(5);
-    expect(wrapper.find('.ant-table-filter-dropdown-checkall').exists()).toBe(false);
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(0);
-    wrapper.find('.ant-tree-checkbox').at(2).simulate('click');
-    expect(wrapper.find('.ant-tree-checkbox').at(2).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox').length).toBe(5);
+    expect(wrapper.find('.ezd-table-filter-dropdown-checkall').exists()).toBe(false);
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(0);
+    wrapper.find('.ezd-tree-checkbox').at(2).simulate('click');
+    expect(wrapper.find('.ezd-tree-checkbox').at(2).hasClass('ezd-tree-checkbox-checked')).toBe(
       true,
     );
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(1);
-    wrapper.find('.ant-tree-checkbox').at(1).simulate('click');
-    expect(wrapper.find('.ant-tree-checkbox').at(1).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(1);
+    wrapper.find('.ezd-tree-checkbox').at(1).simulate('click');
+    expect(wrapper.find('.ezd-tree-checkbox').at(1).hasClass('ezd-tree-checkbox-checked')).toBe(
       true,
     );
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(1);
-    wrapper.find('.ant-tree-checkbox').at(1).simulate('click');
-    expect(wrapper.find('.ant-tree-checkbox').at(1).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(1);
+    wrapper.find('.ezd-tree-checkbox').at(1).simulate('click');
+    expect(wrapper.find('.ezd-tree-checkbox').at(1).hasClass('ezd-tree-checkbox-checked')).toBe(
       false,
     );
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(0);
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(0);
   });
 
   it('filterMultiple is false - select item', () => {
@@ -1978,28 +1970,28 @@ describe('Table.filter', () => {
         ],
       }),
     );
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
     act(() => {
       jest.runAllTimers();
       wrapper.update();
     });
-    expect(wrapper.find('.ant-tree-checkbox').length).toBe(5);
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(0);
-    wrapper.find('.ant-tree-node-content-wrapper').at(2).simulate('click');
-    expect(wrapper.find('.ant-tree-checkbox').at(2).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox').length).toBe(5);
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(0);
+    wrapper.find('.ezd-tree-node-content-wrapper').at(2).simulate('click');
+    expect(wrapper.find('.ezd-tree-checkbox').at(2).hasClass('ezd-tree-checkbox-checked')).toBe(
       true,
     );
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(1);
-    wrapper.find('.ant-tree-node-content-wrapper').at(1).simulate('click');
-    expect(wrapper.find('.ant-tree-checkbox').at(1).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(1);
+    wrapper.find('.ezd-tree-node-content-wrapper').at(1).simulate('click');
+    expect(wrapper.find('.ezd-tree-checkbox').at(1).hasClass('ezd-tree-checkbox-checked')).toBe(
       true,
     );
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(1);
-    wrapper.find('.ant-tree-node-content-wrapper').at(1).simulate('click');
-    expect(wrapper.find('.ant-tree-checkbox').at(1).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(1);
+    wrapper.find('.ezd-tree-node-content-wrapper').at(1).simulate('click');
+    expect(wrapper.find('.ezd-tree-checkbox').at(1).hasClass('ezd-tree-checkbox-checked')).toBe(
       false,
     );
-    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(0);
+    expect(wrapper.find('.ezd-tree-checkbox-checked').length).toBe(0);
   });
 
   it('should select children when select parent', () => {
@@ -2027,29 +2019,29 @@ describe('Table.filter', () => {
         ],
       }),
     );
-    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    wrapper.find('span.ezd-dropdown-trigger').simulate('click', nativeEvent);
     act(() => {
       jest.runAllTimers();
       wrapper.update();
     });
     // check parentnode
-    wrapper.find('.ant-tree-checkbox').at(2).simulate('click');
-    expect(wrapper.find('.ant-tree-checkbox').at(2).hasClass('ant-tree-checkbox-checked')).toBe(
+    wrapper.find('.ezd-tree-checkbox').at(2).simulate('click');
+    expect(wrapper.find('.ezd-tree-checkbox').at(2).hasClass('ezd-tree-checkbox-checked')).toBe(
       true,
     );
-    expect(wrapper.find('.ant-tree-checkbox').at(3).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox').at(3).hasClass('ezd-tree-checkbox-checked')).toBe(
       true,
     );
-    expect(wrapper.find('.ant-tree-checkbox').at(4).hasClass('ant-tree-checkbox-checked')).toBe(
+    expect(wrapper.find('.ezd-tree-checkbox').at(4).hasClass('ezd-tree-checkbox-checked')).toBe(
       true,
     );
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack']);
-    wrapper.find('.ant-tree-checkbox').at(2).simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-tree-checkbox').at(2).simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
-    wrapper.find('.ant-tree-node-content-wrapper').at(2).simulate('click');
-    wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+    wrapper.find('.ezd-tree-node-content-wrapper').at(2).simulate('click');
+    wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack']);
   });
 });

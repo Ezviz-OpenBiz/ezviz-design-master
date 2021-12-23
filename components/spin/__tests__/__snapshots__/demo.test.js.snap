@@ -2,22 +2,22 @@
 
 exports[`renders ./components/spin/demo/basic.md correctly 1`] = `
 <div
-  class="ant-spin ant-spin-spinning"
+  class="ezd-spin ant-spin-spinning"
 >
   <span
-    class="ant-spin-dot ant-spin-dot-spin"
+    class="ezd-spin-dot ant-spin-dot-spin"
   >
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
   </span>
 </div>
@@ -25,7 +25,7 @@ exports[`renders ./components/spin/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/spin/demo/custom-indicator.md correctly 1`] = `
 <div
-  class="ant-spin ant-spin-spinning"
+  class="ezd-spin ant-spin-spinning"
 >
   <span
     aria-label="loading"
@@ -53,26 +53,26 @@ exports[`renders ./components/spin/demo/custom-indicator.md correctly 1`] = `
 exports[`renders ./components/spin/demo/delayAndDebounce.md correctly 1`] = `
 <div>
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+        class="ezd-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
         data-show="true"
         role="alert"
       >
         <div
-          class="ant-alert-content"
+          class="ezd-alert-content"
         >
           <div
-            class="ant-alert-message"
+            class="ezd-alert-message"
           >
             Alert message title
           </div>
           <div
-            class="ant-alert-description"
+            class="ezd-alert-description"
           >
             Further details about the context of this alert.
           </div>
@@ -86,15 +86,15 @@ exports[`renders ./components/spin/demo/delayAndDebounce.md correctly 1`] = `
     Loading state：
     <button
       aria-checked="false"
-      class="ant-switch"
+      class="ezd-switch"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="ezd-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="ezd-switch-inner"
       />
     </button>
   </div>
@@ -106,22 +106,22 @@ exports[`renders ./components/spin/demo/inside.md correctly 1`] = `
   class="example"
 >
   <div
-    class="ant-spin ant-spin-spinning"
+    class="ezd-spin ant-spin-spinning"
   >
     <span
-      class="ant-spin-dot ant-spin-dot-spin"
+      class="ezd-spin-dot ant-spin-dot-spin"
     >
       <i
-        class="ant-spin-dot-item"
+        class="ezd-spin-dot-item"
       />
       <i
-        class="ant-spin-dot-item"
+        class="ezd-spin-dot-item"
       />
       <i
-        class="ant-spin-dot-item"
+        class="ezd-spin-dot-item"
       />
       <i
-        class="ant-spin-dot-item"
+        class="ezd-spin-dot-item"
       />
     </span>
   </div>
@@ -131,26 +131,26 @@ exports[`renders ./components/spin/demo/inside.md correctly 1`] = `
 exports[`renders ./components/spin/demo/nested.md correctly 1`] = `
 <div>
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+        class="ezd-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
         data-show="true"
         role="alert"
       >
         <div
-          class="ant-alert-content"
+          class="ezd-alert-content"
         >
           <div
-            class="ant-alert-message"
+            class="ezd-alert-message"
           >
             Alert message title
           </div>
           <div
-            class="ant-alert-description"
+            class="ezd-alert-description"
           >
             Further details about the context of this alert.
           </div>
@@ -164,15 +164,15 @@ exports[`renders ./components/spin/demo/nested.md correctly 1`] = `
     Loading state：
     <button
       aria-checked="false"
-      class="ant-switch"
+      class="ezd-switch"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="ezd-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="ezd-switch-inner"
       />
     </button>
   </div>
@@ -181,78 +181,78 @@ exports[`renders ./components/spin/demo/nested.md correctly 1`] = `
 
 exports[`renders ./components/spin/demo/size.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:16px"
   >
     <div
-      class="ant-spin ant-spin-sm ant-spin-spinning"
+      class="ezd-spin ant-spin-sm ant-spin-spinning"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="ezd-spin-dot ant-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
       </span>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:16px"
   >
     <div
-      class="ant-spin ant-spin-spinning"
+      class="ezd-spin ant-spin-spinning"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="ezd-spin-dot ant-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
       </span>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <div
-      class="ant-spin ant-spin-lg ant-spin-spinning"
+      class="ezd-spin ant-spin-lg ant-spin-spinning"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="ezd-spin-dot ant-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
       </span>
     </div>
@@ -262,53 +262,53 @@ exports[`renders ./components/spin/demo/size.md correctly 1`] = `
 
 exports[`renders ./components/spin/demo/tip.md correctly 1`] = `
 <div
-  class="ant-spin-nested-loading"
+  class="ezd-spin-nested-loading"
 >
   <div>
     <div
-      class="ant-spin ant-spin-spinning ant-spin-show-text"
+      class="ezd-spin ant-spin-spinning ant-spin-show-text"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="ezd-spin-dot ant-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="ezd-spin-dot-item"
         />
       </span>
       <div
-        class="ant-spin-text"
+        class="ezd-spin-text"
       >
         Loading...
       </div>
     </div>
   </div>
   <div
-    class="ant-spin-container ant-spin-blur"
+    class="ezd-spin-container ant-spin-blur"
   >
     <div
-      class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+      class="ezd-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
       data-show="true"
       role="alert"
     >
       <div
-        class="ant-alert-content"
+        class="ezd-alert-content"
       >
         <div
-          class="ant-alert-message"
+          class="ezd-alert-message"
         >
           Alert message title
         </div>
         <div
-          class="ant-alert-description"
+          class="ezd-alert-description"
         >
           Further details about the context of this alert.
         </div>

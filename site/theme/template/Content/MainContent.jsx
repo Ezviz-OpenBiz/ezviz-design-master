@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, browserHistory } from 'bisheng/router';
-import { Row, Col, Menu, Affix, Avatar, Dropdown } from 'antd';
+import { Row, Col, Menu, Affix, Avatar, Dropdown } from '@ezviz/ezd';
 import { injectIntl } from 'react-intl';
 import { LeftOutlined, RightOutlined, ExportOutlined } from '@ant-design/icons';
 import classNames from 'classnames';

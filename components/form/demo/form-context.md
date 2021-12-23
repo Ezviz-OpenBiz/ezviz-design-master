@@ -125,7 +125,7 @@ const Demo = () => {
                   ))}
                 </ul>
               ) : (
-                <Typography.Text className="ant-form-text" type="secondary">
+                <Typography.Text className="ezd-form-text" type="secondary">
                   ( <SmileOutlined /> No user yet. )
                 </Typography.Text>
               );
@@ -155,11 +155,11 @@ ReactDOM.render(<Demo />, mountNode);
   margin-bottom: 8px;
 }
 
-#components-form-demo-form-context .user .ant-avatar {
+#components-form-demo-form-context .user .ezd-avatar {
   margin-right: 8px;
 }
 
-.ant-row-rtl #components-form-demo-form-context .user .ant-avatar {
+.ezd-row-rtl #components-form-demo-form-context .user .ezd-avatar {
   margin-right: 0;
   margin-left: 8px;
 }

@@ -3,7 +3,6 @@ import { mount } from 'enzyme';
 import ConfigProvider from '..';
 import Tooltip from '../../tooltip';
 
-// https://github.com/ant-design/ant-design/issues/27617
 describe('ConfigProvider', () => {
   const Child = ({ spy }) => {
     React.useEffect(() => spy());

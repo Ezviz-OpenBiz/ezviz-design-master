@@ -16,18 +16,17 @@ describe('Calendar', () => {
   rtlTest(Calendar, true);
 
   function openSelect(wrapper, className) {
-    wrapper.find(className).find('.ant-select-selector').simulate('mousedown');
+    wrapper.find(className).find('.ezd-select-selector').simulate('mousedown');
   }
 
   function findSelectItem(wrapper) {
-    return wrapper.find('.ant-select-item-option');
+    return wrapper.find('.ezd-select-item-option');
   }
 
   function clickSelectItem(wrapper, index = 0) {
     findSelectItem(wrapper).at(index).simulate('click');
   }
 
-  // https://github.com/ant-design/ant-design/issues/30392
   it('should be able to set undefined or null', () => {
     expect(() => {
       const wrapper = mount(<Calendar />);
@@ -43,7 +42,7 @@ describe('Calendar', () => {
     const onSelect = jest.fn();
     const onChange = jest.fn();
     const wrapper = mount(<Calendar onSelect={onSelect} onChange={onChange} />);
-    wrapper.find('.ant-picker-cell').at(0).simulate('click');
+    wrapper.find('.ezd-picker-cell').at(0).simulate('click');
     expect(onSelect).toHaveBeenCalledWith(expect.anything());
     const value = onSelect.mock.calls[0][0];
     expect(Moment.isMoment(value)).toBe(true);
@@ -68,7 +67,7 @@ describe('Calendar', () => {
       <Calendar onSelect={onSelect} validRange={validRange} defaultValue={Moment('2018-02-02')} />,
     );
     wrapper.find('[title="2018-02-20"]').at(0).simulate('click');
-    const elem = wrapper.find('[title="2018-02-20"]').hasClass('ant-picker-cell-disabled');
+    const elem = wrapper.find('[title="2018-02-20"]').hasClass('ezd-picker-cell-disabled');
     expect(elem).toEqual(true);
     expect(onSelect.mock.calls.length).toBe(0);
   });
@@ -84,11 +83,11 @@ describe('Calendar', () => {
         mode="year"
       />,
     );
-    expect(wrapper.find('[title="2018-01"]').at(0).hasClass('ant-picker-cell-disabled')).toBe(true);
-    expect(wrapper.find('[title="2018-02"]').at(0).hasClass('ant-picker-cell-disabled')).toBe(
+    expect(wrapper.find('[title="2018-01"]').at(0).hasClass('ezd-picker-cell-disabled')).toBe(true);
+    expect(wrapper.find('[title="2018-02"]').at(0).hasClass('ezd-picker-cell-disabled')).toBe(
       false,
     );
-    expect(wrapper.find('[title="2018-06"]').at(0).hasClass('ant-picker-cell-disabled')).toBe(true);
+    expect(wrapper.find('[title="2018-06"]').at(0).hasClass('ezd-picker-cell-disabled')).toBe(true);
     wrapper.find('[title="2018-01"]').at(0).simulate('click');
     wrapper.find('[title="2018-03"]').at(0).simulate('click');
     expect(onSelect.mock.calls.length).toBe(1);
@@ -97,11 +96,11 @@ describe('Calendar', () => {
   it('months other than in valid range should not be shown in header', () => {
     const validRange = [Moment('2017-02-02'), Moment('2018-05-18')];
     const wrapper = mount(<Calendar validRange={validRange} />);
-    openSelect(wrapper, '.ant-picker-calendar-year-select');
+    openSelect(wrapper, '.ezd-picker-calendar-year-select');
     clickSelectItem(wrapper);
-    openSelect(wrapper, '.ant-picker-calendar-month-select');
+    openSelect(wrapper, '.ezd-picker-calendar-month-select');
     // 2 years and 11 months
-    expect(wrapper.find('.ant-select-item-option').length).toBe(13);
+    expect(wrapper.find('.ezd-select-item-option').length).toBe(13);
   });
 
   it('getDateRange should returns a disabledDate function', () => {
@@ -167,7 +166,7 @@ describe('Calendar', () => {
       const date = new Moment('1990-09-03');
       const wrapper = mount(<Calendar onPanelChange={onPanelChange} value={date} />);
 
-      wrapper.find('.ant-picker-cell').at(0).simulate('click');
+      wrapper.find('.ezd-picker-cell').at(0).simulate('click');
 
       expect(onPanelChange).toHaveBeenCalled();
       expect(onPanelChange.mock.calls[0][0].month()).toEqual(date.month() - 1);
@@ -178,7 +177,7 @@ describe('Calendar', () => {
       const date = new Moment('1990-09-03');
       const wrapper = mount(<Calendar onPanelChange={onPanelChange} value={date} />);
 
-      wrapper.find('.ant-picker-cell').at(10).simulate('click');
+      wrapper.find('.ezd-picker-cell').at(10).simulate('click');
 
       expect(onPanelChange).not.toHaveBeenCalled();
     });
@@ -190,12 +189,12 @@ describe('Calendar', () => {
     const wrapper = mount(<Calendar onPanelChange={onPanelChange} value={date} />);
 
     expect(wrapper.find('CalendarHeader').props().mode).toBe('month');
-    expect(wrapper.find('.ant-picker-date-panel').length).toBe(1);
-    expect(wrapper.find('.ant-picker-month-panel').length).toBe(0);
+    expect(wrapper.find('.ezd-picker-date-panel').length).toBe(1);
+    expect(wrapper.find('.ezd-picker-month-panel').length).toBe(0);
 
-    wrapper.find('.ant-radio-button-input[value="year"]').simulate('change');
-    expect(wrapper.find('.ant-picker-date-panel').length).toBe(0);
-    expect(wrapper.find('.ant-picker-month-panel').length).toBe(1);
+    wrapper.find('.ezd-radio-button-input[value="year"]').simulate('change');
+    expect(wrapper.find('.ezd-picker-date-panel').length).toBe(0);
+    expect(wrapper.find('.ezd-picker-month-panel').length).toBe(1);
     expect(onPanelChange).toHaveBeenCalled();
     expect(onPanelChange.mock.calls[0][1]).toEqual('year');
   });
@@ -203,7 +202,7 @@ describe('Calendar', () => {
   const createWrapper = (start, end, value, onValueChange) => {
     const wrapper = mount(
       <Header
-        prefixCls="ant-picker-calendar"
+        prefixCls="ezd-picker-calendar"
         generateConfig={momentGenerateConfig}
         onChange={onValueChange}
         value={value}
@@ -211,7 +210,7 @@ describe('Calendar', () => {
         locale={{ year: '年' }}
       />,
     );
-    openSelect(wrapper, '.ant-picker-calendar-year-select');
+    openSelect(wrapper, '.ezd-picker-calendar-year-select');
     clickSelectItem(wrapper);
   };
 
@@ -240,7 +239,7 @@ describe('Calendar', () => {
     const onValueChange = jest.fn();
     const wrapper = mount(
       <Header
-        prefixCls="ant-picker-calendar"
+        prefixCls="ezd-picker-calendar"
         generateConfig={momentGenerateConfig}
         onChange={onValueChange}
         value={value}
@@ -248,8 +247,8 @@ describe('Calendar', () => {
         locale={{ year: '年' }}
       />,
     );
-    openSelect(wrapper, '.ant-picker-calendar-year-select');
-    wrapper.find('.ant-select-item-option').last().simulate('click');
+    openSelect(wrapper, '.ezd-picker-calendar-year-select');
+    wrapper.find('.ezd-select-item-option').last().simulate('click');
     expect(onValueChange).toHaveBeenCalledWith(value.year('2019').month('2'));
   });
 
@@ -260,7 +259,7 @@ describe('Calendar', () => {
     const onValueChange = jest.fn();
     const wrapper = mount(
       <Header
-        prefixCls="ant-picker-calendar"
+        prefixCls="ezd-picker-calendar"
         generateConfig={momentGenerateConfig}
         onChange={onValueChange}
         value={value}
@@ -269,7 +268,7 @@ describe('Calendar', () => {
         mode="month"
       />,
     );
-    openSelect(wrapper, '.ant-picker-calendar-month-select');
+    openSelect(wrapper, '.ezd-picker-calendar-month-select');
     clickSelectItem(wrapper);
     expect(onValueChange).toHaveBeenCalledWith(value.month(10));
   });
@@ -279,7 +278,7 @@ describe('Calendar', () => {
     const value = new Moment('2018-12-03');
     const wrapper = mount(
       <Header
-        prefixCls="ant-picker-calendar"
+        prefixCls="ezd-picker-calendar"
         generateConfig={momentGenerateConfig}
         onModeChange={onTypeChange}
         locale={{ year: '年', month: '月', locale: 'zh_CN' }}
@@ -322,7 +321,7 @@ describe('Calendar', () => {
     });
     const wrapperWithYear = mount(<Calendar fullscreen={false} headerRender={headerRender} />);
 
-    openSelect(wrapperWithYear, '.ant-select');
+    openSelect(wrapperWithYear, '.ezd-select');
     wrapperWithYear.update();
 
     findSelectItem(wrapperWithYear).last().simulate('click');
@@ -367,7 +366,7 @@ describe('Calendar', () => {
       <Calendar fullscreen={false} headerRender={headerRenderWithMonth} />,
     );
 
-    openSelect(wrapperWithMonth, '.ant-select');
+    openSelect(wrapperWithMonth, '.ezd-select');
     wrapperWithMonth.update();
 
     findSelectItem(wrapperWithMonth).last().simulate('click');
@@ -386,7 +385,7 @@ describe('Calendar', () => {
       <Calendar fullscreen={false} headerRender={headerRenderWithTypeChange} />,
     );
 
-    wrapperWithTypeChange.find('.ant-radio-button-input').last().simulate('change');
+    wrapperWithTypeChange.find('.ezd-radio-button-input').last().simulate('change');
     expect(onTypeChange).toHaveBeenCalled();
   });
 

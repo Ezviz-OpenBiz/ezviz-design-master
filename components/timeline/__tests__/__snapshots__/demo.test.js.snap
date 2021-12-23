@@ -2,46 +2,46 @@
 
 exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
 <ul
-  class="ant-timeline ant-timeline-alternate"
+  class="ezd-timeline ant-timeline-alternate"
 >
   <li
-    class="ant-timeline-item ant-timeline-item-left"
+    class="ezd-timeline-item ant-timeline-item-left"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="ezd-timeline-item ant-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-green"
+      class="ezd-timeline-item-head ant-timeline-item-head-green"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-left"
+    class="ezd-timeline-item ant-timeline-item-left"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
     >
       <span
         aria-label="clock-circle"
@@ -68,49 +68,49 @@ exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="ezd-timeline-item ant-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-red"
+      class="ezd-timeline-item-head ant-timeline-item-head-red"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-left"
+    class="ezd-timeline-item ant-timeline-item-left"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last ant-timeline-item-right"
+    class="ezd-timeline-item ant-timeline-item-last ant-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
     >
       <span
         aria-label="clock-circle"
@@ -137,7 +137,7 @@ exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
@@ -147,64 +147,64 @@ exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/basic.md correctly 1`] = `
 <ul
-  class="ant-timeline"
+  class="ezd-timeline"
 >
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last"
+    class="ezd-timeline-item ant-timeline-item-last"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>
@@ -214,49 +214,49 @@ exports[`renders ./components/timeline/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
 <ul
-  class="ant-timeline"
+  class="ezd-timeline"
 >
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-green"
+      class="ezd-timeline-item-head ant-timeline-item-head-green"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-green"
+      class="ezd-timeline-item-head ant-timeline-item-head-green"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-red"
+      class="ezd-timeline-item-head ant-timeline-item-head-red"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       <p>
         Solve initial network problems 1
@@ -270,16 +270,16 @@ exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       <p>
         Technical testing 1
@@ -293,16 +293,16 @@ exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-gray"
+      class="ezd-timeline-item-head ant-timeline-item-head-gray"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       <p>
         Technical testing 1
@@ -316,16 +316,16 @@ exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last"
+    class="ezd-timeline-item ant-timeline-item-last"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-gray"
+      class="ezd-timeline-item-head ant-timeline-item-head-gray"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       <p>
         Technical testing 1
@@ -343,46 +343,46 @@ exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/custom.md correctly 1`] = `
 <ul
-  class="ant-timeline"
+  class="ezd-timeline"
 >
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="ezd-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-red"
+      class="ezd-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-red"
     >
       <span
         aria-label="clock-circle"
@@ -408,22 +408,22 @@ exports[`renders ./components/timeline/demo/custom.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last"
+    class="ezd-timeline-item ant-timeline-item-last"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>
@@ -434,23 +434,23 @@ exports[`renders ./components/timeline/demo/custom.md correctly 1`] = `
 exports[`renders ./components/timeline/demo/label.md correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
     style="margin-bottom:20px"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="ezd-radio-wrapper ant-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="ezd-radio ant-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="left"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -458,18 +458,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="right"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -477,18 +477,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="alternate"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -497,79 +497,79 @@ Array [
     </label>
   </div>,
   <ul
-    class="ant-timeline ant-timeline-label"
+    class="ezd-timeline ant-timeline-label"
   >
     <li
-      class="ant-timeline-item ant-timeline-item-left"
+      class="ezd-timeline-item ant-timeline-item-left"
     >
       <div
-        class="ant-timeline-item-label"
+        class="ezd-timeline-item-label"
       >
         2015-09-01
       </div>
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Create a services
       </div>
     </li>
     <li
-      class="ant-timeline-item ant-timeline-item-left"
+      class="ezd-timeline-item ant-timeline-item-left"
     >
       <div
-        class="ant-timeline-item-label"
+        class="ezd-timeline-item-label"
       >
         2015-09-01 09:12:11
       </div>
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Solve initial network problems
       </div>
     </li>
     <li
-      class="ant-timeline-item ant-timeline-item-left"
+      class="ezd-timeline-item ant-timeline-item-left"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Technical testing
       </div>
     </li>
     <li
-      class="ant-timeline-item ant-timeline-item-last ant-timeline-item-left"
+      class="ezd-timeline-item ant-timeline-item-last ant-timeline-item-left"
     >
       <div
-        class="ant-timeline-item-label"
+        class="ezd-timeline-item-label"
       >
         2015-09-01 09:12:11
       </div>
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Network problems being solved
       </div>
@@ -581,61 +581,61 @@ Array [
 exports[`renders ./components/timeline/demo/pending.md correctly 1`] = `
 <div>
   <ul
-    class="ant-timeline ant-timeline-pending"
+    class="ezd-timeline ant-timeline-pending"
   >
     <li
-      class="ant-timeline-item"
+      class="ezd-timeline-item"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Create a services site 2015-09-01
       </div>
     </li>
     <li
-      class="ant-timeline-item"
+      class="ezd-timeline-item"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Solve initial network problems 2015-09-01
       </div>
     </li>
     <li
-      class="ant-timeline-item ant-timeline-item-last"
+      class="ezd-timeline-item ant-timeline-item-last"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Technical testing 2015-09-01
       </div>
     </li>
     <li
-      class="ant-timeline-item ant-timeline-item-pending"
+      class="ezd-timeline-item ant-timeline-item-pending"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="ezd-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
+        class="ezd-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
       >
         <span
           aria-label="loading"
@@ -658,14 +658,14 @@ exports[`renders ./components/timeline/demo/pending.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-timeline-item-content"
+        class="ezd-timeline-item-content"
       >
         Recording...
       </div>
     </li>
   </ul>
   <button
-    class="ant-btn ant-btn-primary"
+    class="ezd-btn ant-btn-primary"
     style="margin-top:16px"
     type="button"
   >
@@ -678,46 +678,46 @@ exports[`renders ./components/timeline/demo/pending.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/right.md correctly 1`] = `
 <ul
-  class="ant-timeline ant-timeline-right"
+  class="ezd-timeline ant-timeline-right"
 >
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="ezd-timeline-item ant-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="ezd-timeline-item ant-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="ezd-timeline-item ant-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-red"
+      class="ezd-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-red"
     >
       <span
         aria-label="clock-circle"
@@ -744,22 +744,22 @@ exports[`renders ./components/timeline/demo/right.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last ant-timeline-item-right"
+    class="ezd-timeline-item ant-timeline-item-last ant-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="ezd-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="ezd-timeline-item-head ant-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="ezd-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>

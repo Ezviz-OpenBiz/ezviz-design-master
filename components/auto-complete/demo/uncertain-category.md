@@ -7,11 +7,11 @@ title:
 
 ## zh-CN
 
-[查询模式: 不确定类目](https://ant.design/docs/spec/reaction#Lookup-Patterns) 示例。
+[查询模式: 不确定类目](https://saastest3.ys7.com/ezd/docs/spec/reaction#Lookup-Patterns) 示例。
 
 ## en-US
 
-Demonstration of [Lookup Patterns: Uncertain Category](https://ant.design/docs/spec/reaction#Lookup-Patterns).
+Demonstration of [Lookup Patterns: Uncertain Category](https://saastest3.ys7.com/ezd/docs/spec/reaction#Lookup-Patterns).
 
 ```tsx
 import React, { useState } from 'react';

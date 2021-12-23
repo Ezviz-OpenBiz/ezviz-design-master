@@ -36,7 +36,7 @@ describe('PageHeader', () => {
       },
     ];
     const wrapper = mount(<PageHeader title="Page Title" breadcrumb={{ routes }} />);
-    expect(wrapper.find('.ant-page-header-back')).toHaveLength(0);
+    expect(wrapper.find('.ezd-page-header-back')).toHaveLength(0);
   });
 
   it('pageHeader should have breadcrumb', () => {
@@ -47,8 +47,8 @@ describe('PageHeader', () => {
       },
     ];
     const wrapper = mount(<PageHeader title="Page Title" breadcrumb={{ routes }} />);
-    expect(wrapper.find('.ant-breadcrumb')).toHaveLength(1);
-    expect(wrapper.find('.ant-page-header-back')).toHaveLength(0);
+    expect(wrapper.find('.ezd-breadcrumb')).toHaveLength(1);
+    expect(wrapper.find('.ezd-page-header-back')).toHaveLength(0);
   });
 
   it('pageHeader should have breadcrumb (component)', () => {
@@ -61,8 +61,8 @@ describe('PageHeader', () => {
     const wrapper = mount(
       <PageHeader title="Page Title" breadcrumb={<Breadcrumb routes={routes} />} />,
     );
-    expect(wrapper.find('.ant-breadcrumb')).toHaveLength(1);
-    expect(wrapper.find('.ant-page-header-back')).toHaveLength(0);
+    expect(wrapper.find('.ezd-breadcrumb')).toHaveLength(1);
+    expect(wrapper.find('.ezd-page-header-back')).toHaveLength(0);
   });
 
   it('pageHeader support breadcrumbRender', () => {
@@ -70,7 +70,7 @@ describe('PageHeader', () => {
       <PageHeader title="Page Title" breadcrumbRender={() => <div id="test">test</div>} />,
     );
     expect(wrapper.find('#test')).toHaveLength(1);
-    expect(wrapper.find('.ant-page-header-back')).toHaveLength(0);
+    expect(wrapper.find('.ezd-page-header-back')).toHaveLength(0);
   });
 
   it('pageHeader do not has title', () => {
@@ -81,25 +81,25 @@ describe('PageHeader', () => {
       },
     ];
     const wrapper = mount(<PageHeader breadcrumb={{ routes }}>test</PageHeader>);
-    expect(wrapper.find('.ant-page-header-heading-lef').exists()).toBeFalsy();
-    expect(wrapper.find('.ant-page-header-heading').exists()).toBeFalsy();
+    expect(wrapper.find('.ezd-page-header-heading-lef').exists()).toBeFalsy();
+    expect(wrapper.find('.ezd-page-header-heading').exists()).toBeFalsy();
   });
 
   it('pageHeader should no contain back', () => {
     const wrapper = mount(<PageHeader title="Page Title" backIcon={false} />);
-    expect(wrapper.find('.ant-page-header-back')).toHaveLength(0);
+    expect(wrapper.find('.ezd-page-header-back')).toHaveLength(0);
   });
 
   it('pageHeader should contain back it back', () => {
     const callback = jest.fn(() => true);
     const wrapper = mount(<PageHeader title="Page Title" onBack={callback} />);
-    expect(wrapper.find('.ant-page-header-back')).toHaveLength(1);
+    expect(wrapper.find('.ezd-page-header-back')).toHaveLength(1);
   });
 
   it('pageHeader onBack transfer', () => {
     const callback = jest.fn(() => true);
     const wrapper = mount(<PageHeader title="Page Title" onBack={callback} />);
-    wrapper.find('div.ant-page-header-back-button').simulate('click');
+    wrapper.find('div.ezd-page-header-back-button').simulate('click');
     expect(callback).toHaveBeenCalled();
   });
 
@@ -131,10 +131,10 @@ describe('PageHeader', () => {
       },
     ];
     const wrapper = mount(<PageHeader title="Title" breadcrumb={{ routes }} />);
-    expect(wrapper.find('.ant-breadcrumb')).toHaveLength(1);
+    expect(wrapper.find('.ezd-breadcrumb')).toHaveLength(1);
 
     wrapper.setProps({ onBack: () => {} });
-    expect(wrapper.find('.ant-breadcrumb')).toHaveLength(1);
+    expect(wrapper.find('.ezd-breadcrumb')).toHaveLength(1);
   });
 
   it('pageHeader should render correctly int RTL direction', () => {
@@ -152,6 +152,6 @@ describe('PageHeader', () => {
     wrapper.triggerResize();
     await Promise.resolve();
     wrapper.update();
-    expect(wrapper.find('.ant-page-header').hasClass('ant-page-header-compact')).toBe(true);
+    expect(wrapper.find('.ezd-page-header').hasClass('ezd-page-header-compact')).toBe(true);
   });
 });

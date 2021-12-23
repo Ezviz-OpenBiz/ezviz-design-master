@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Icon, * as AntdIcons from '@ant-design/icons';
-import { Radio, Input, Empty } from 'antd';
-import { RadioChangeEvent } from 'antd/es/radio/interface';
+import { Radio, Input, Empty } from '@ezviz/ezd';
+import { RadioChangeEvent } from '@ezviz/ezd/es/radio/interface';
 import { injectIntl } from 'react-intl';
 import debounce from 'lodash/debounce';
 import Category from './Category';

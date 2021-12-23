@@ -32,7 +32,7 @@ const menu = (
 
 ReactDOM.render(
   <Dropdown overlay={menu} trigger={['click']}>
-    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+    <a className="ezd-dropdown-link" onClick={e => e.preventDefault()}>
       Click me <DownOutlined />
     </a>
   </Dropdown>,

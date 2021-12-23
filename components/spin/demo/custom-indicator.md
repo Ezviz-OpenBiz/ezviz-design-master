@@ -17,7 +17,7 @@ Use custom loading indicator.
 import { Spin } from '@ezviz/ezd';
 import { LoadingOutlined } from '@ant-design/icons';
 
-const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
+const ezdIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 
-ReactDOM.render(<Spin indicator={antIcon} />, mountNode);
+ReactDOM.render(<Spin indicator={ezdIcon} />, mountNode);
 ```

@@ -2,17 +2,17 @@
 
 exports[`renders ./components/checkbox/demo/basic.md correctly 1`] = `
 <label
-  class="ant-checkbox-wrapper"
+  class="ezd-checkbox-wrapper"
 >
   <span
-    class="ant-checkbox"
+    class="ezd-checkbox"
   >
     <input
-      class="ant-checkbox-input"
+      class="ezd-checkbox-input"
       type="checkbox"
     />
     <span
-      class="ant-checkbox-inner"
+      class="ezd-checkbox-inner"
     />
   </span>
   <span>
@@ -24,17 +24,17 @@ exports[`renders ./components/checkbox/demo/basic.md correctly 1`] = `
 exports[`renders ./components/checkbox/demo/check-all.md correctly 1`] = `
 Array [
   <label
-    class="ant-checkbox-wrapper"
+    class="ezd-checkbox-wrapper"
   >
     <span
-      class="ant-checkbox ant-checkbox-indeterminate"
+      class="ezd-checkbox ant-checkbox-indeterminate"
     >
       <input
-        class="ant-checkbox-input"
+        class="ezd-checkbox-input"
         type="checkbox"
       />
       <span
-        class="ant-checkbox-inner"
+        class="ezd-checkbox-inner"
       />
     </span>
     <span>
@@ -42,26 +42,26 @@ Array [
     </span>
   </label>,
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />,
   <div
-    class="ant-checkbox-group"
+    class="ezd-checkbox-group"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Apple"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -69,18 +69,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox"
+        class="ezd-checkbox"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Pear"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -88,19 +88,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Orange"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -117,18 +117,18 @@ Array [
     style="margin-bottom:20px"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -138,7 +138,7 @@ Array [
   </p>,
   <p>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm"
+      class="ezd-btn ant-btn-primary ant-btn-sm"
       type="button"
     >
       <span>
@@ -146,7 +146,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm"
+      class="ezd-btn ant-btn-primary ant-btn-sm"
       style="margin:0 10px"
       type="button"
     >
@@ -161,32 +161,32 @@ Array [
 exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
 <div>
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ezd-space ant-space-horizontal ant-space-align-center"
     style="border:1px solid red;margin-bottom:16px"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="ezd-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
             value="light"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <div>
@@ -194,21 +194,21 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="ezd-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
             value="little"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
         <span>
@@ -218,32 +218,32 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ezd-space ant-space-horizontal ant-space-align-center"
     style="border:1px solid red;margin-bottom:16px"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <label
-        class="ant-radio-wrapper"
+        class="ezd-radio-wrapper"
       >
         <span
-          class="ant-radio"
+          class="ezd-radio"
         >
           <input
-            class="ant-radio-input"
+            class="ezd-radio-input"
             type="radio"
             value="light"
           />
           <span
-            class="ant-radio-inner"
+            class="ezd-radio-inner"
           />
         </span>
       </label>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <div>
@@ -251,21 +251,21 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <label
-        class="ant-radio-wrapper"
+        class="ezd-radio-wrapper"
       >
         <span
-          class="ant-radio"
+          class="ezd-radio"
         >
           <input
-            class="ant-radio-input"
+            class="ezd-radio-input"
             type="radio"
             value="little"
           />
           <span
-            class="ant-radio-inner"
+            class="ezd-radio-inner"
           />
         </span>
         <span>
@@ -278,18 +278,18 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
     style="border:1px solid red;margin-bottom:16px;display:flex;align-items:center"
   >
     <label
-      class="ant-checkbox-wrapper"
+      class="ezd-checkbox-wrapper"
     >
       <span
-        class="ant-checkbox"
+        class="ezd-checkbox"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="light"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
     </label>
@@ -297,18 +297,18 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
       Bamboo
     </div>
     <label
-      class="ant-checkbox-wrapper"
+      class="ezd-checkbox-wrapper"
     >
       <span
-        class="ant-checkbox"
+        class="ezd-checkbox"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="little"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -320,18 +320,18 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
     style="border:1px solid red;margin-bottom:16px;display:flex;align-items:center"
   >
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="light"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
     </label>
@@ -339,18 +339,18 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
       Bamboo
     </div>
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="little"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -364,36 +364,36 @@ exports[`renders ./components/checkbox/demo/debug-line.md correctly 1`] = `
 exports[`renders ./components/checkbox/demo/disabled.md correctly 1`] = `
 Array [
   <label
-    class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+    class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled"
   >
     <span
-      class="ant-checkbox ant-checkbox-disabled"
+      class="ezd-checkbox ant-checkbox-disabled"
     >
       <input
-        class="ant-checkbox-input"
+        class="ezd-checkbox-input"
         disabled=""
         type="checkbox"
       />
       <span
-        class="ant-checkbox-inner"
+        class="ezd-checkbox-inner"
       />
     </span>
   </label>,
   <br />,
   <label
-    class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+    class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled"
   >
     <span
-      class="ant-checkbox ant-checkbox-checked ant-checkbox-disabled"
+      class="ezd-checkbox ant-checkbox-checked ant-checkbox-disabled"
     >
       <input
         checked=""
-        class="ant-checkbox-input"
+        class="ezd-checkbox-input"
         disabled=""
         type="checkbox"
       />
       <span
-        class="ant-checkbox-inner"
+        class="ezd-checkbox-inner"
       />
     </span>
   </label>,
@@ -403,22 +403,22 @@ Array [
 exports[`renders ./components/checkbox/demo/group.md correctly 1`] = `
 Array [
   <div
-    class="ant-checkbox-group"
+    class="ezd-checkbox-group"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Apple"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -426,18 +426,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox"
+        class="ezd-checkbox"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Pear"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -445,18 +445,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox"
+        class="ezd-checkbox"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Orange"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -467,21 +467,21 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-checkbox-group"
+    class="ezd-checkbox-group"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox"
+        class="ezd-checkbox"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Apple"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -489,19 +489,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Pear"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -509,18 +509,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox"
+        class="ezd-checkbox"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="Orange"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -531,23 +531,23 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-checkbox-group"
+    class="ezd-checkbox-group"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-wrapper-disabled ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-wrapper-disabled ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked ant-checkbox-disabled"
+        class="ezd-checkbox ant-checkbox-checked ant-checkbox-disabled"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           disabled=""
           type="checkbox"
           value="Apple"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -555,19 +555,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-disabled"
+        class="ezd-checkbox ant-checkbox-disabled"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           disabled=""
           type="checkbox"
           value="Pear"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -575,19 +575,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-disabled"
+        class="ezd-checkbox ant-checkbox-disabled"
       >
         <input
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           disabled=""
           type="checkbox"
           value="Orange"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -600,28 +600,28 @@ Array [
 
 exports[`renders ./components/checkbox/demo/layout.md correctly 1`] = `
 <div
-  class="ant-checkbox-group"
+  class="ezd-checkbox-group"
   style="width:100%"
 >
   <div
-    class="ant-row"
+    class="ezd-row"
   >
     <div
-      class="ant-col ant-col-8"
+      class="ezd-col ant-col-8"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="ezd-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
             value="A"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
         <span>
@@ -630,21 +630,21 @@ exports[`renders ./components/checkbox/demo/layout.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col ant-col-8"
+      class="ezd-col ant-col-8"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="ezd-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
             value="B"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
         <span>
@@ -653,21 +653,21 @@ exports[`renders ./components/checkbox/demo/layout.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col ant-col-8"
+      class="ezd-col ant-col-8"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="ezd-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
             value="C"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
         <span>
@@ -676,21 +676,21 @@ exports[`renders ./components/checkbox/demo/layout.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col ant-col-8"
+      class="ezd-col ant-col-8"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="ezd-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
             value="D"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
         <span>
@@ -699,21 +699,21 @@ exports[`renders ./components/checkbox/demo/layout.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col ant-col-8"
+      class="ezd-col ant-col-8"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="ezd-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
             value="E"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
         <span>

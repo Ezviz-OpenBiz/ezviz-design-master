@@ -6,7 +6,6 @@ import { Locale } from '../locale-provider';
 
 // please use @ezviz/ezd/lib/locale/kmr_IQ instead
 // keep this file for compatibility
-// https://github.com/ant-design/ant-design/issues/25778
 
 const localeValues: Locale = {
   locale: 'ku-iq',

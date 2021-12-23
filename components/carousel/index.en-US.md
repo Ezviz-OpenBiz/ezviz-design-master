@@ -37,6 +37,3 @@ Find more APIs in react-slick [documentation](https://react-slick.neostack.com/d
 
 ## FAQ
 
-### How to add custom arrows?
-
-See [#12479](https://github.com/ant-design/ant-design/issues/12479).

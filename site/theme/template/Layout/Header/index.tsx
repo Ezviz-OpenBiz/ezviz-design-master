@@ -2,7 +2,7 @@ import React from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 import classNames from 'classnames';
 import { UnorderedListOutlined } from '@ant-design/icons';
-import { Row, Col, Popover, Button } from 'antd';
+import { Row, Col, Popover, Button } from '@ezviz/ezd';
 import canUseDom from 'rc-util/lib/Dom/canUseDom';
 import * as utils from '../../utils';
 import Logo from './Logo';
@@ -183,11 +183,6 @@ class Header extends React.Component<HeaderProps, HeaderState> {
   };
 
   onLangChange = () => {
-    const isDev = process.env.NODE_ENV === 'development';
-    let rootUrl = "/ezd";
-    if(isDev) {
-      rootUrl="";
-    }
     const {
       location: { pathname, query },
     } = this.props;
@@ -197,18 +192,13 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     if (utils.isLocalStorageNameSupported()) {
       localStorage.setItem('locale', utils.isZhCN(pathname) ? 'en-US' : 'zh-CN');
     }
-    if(!isDev && window.location.pathname.substr(rootUrl.length)==="/") {
-      window.location.href =
-      currentProtocol +
-      currentHref + "index-cn"
-    } else {
-      window.location.href =
+
+    window.location.href =
       currentProtocol +
       currentHref.replace(
-        window.location.pathname.substr(rootUrl.length),
+        window.location.pathname,
         utils.getLocalizedPathname(pathname, !utils.isZhCN(pathname), query).pathname,
       );
-    }
   };
 
   render() {
@@ -262,18 +252,6 @@ class Header extends React.Component<HeaderProps, HeaderState> {
 
           let menu: (React.ReactElement | null)[] = [
             navigationNode,
-            // 版本选择，暂时去除
-            // <Select
-            //   key="version"
-            //   className="version"
-            //   size="small"
-            //   defaultValue={antdVersion}
-            //   onChange={this.handleVersionChange}
-            //   dropdownStyle={this.getDropdownStyle()}
-            //   getPopupContainer={trigger => trigger.parentNode}
-            // >
-            //   {versionOptions}
-            // </Select>,
             <Button
               size="small"
               onClick={this.onLangChange}

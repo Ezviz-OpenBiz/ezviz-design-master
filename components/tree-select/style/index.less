@@ -6,7 +6,7 @@
 @tree-select-prefix-cls: ~'@{ezd-prefix}-tree-select';
 @select-tree-prefix-cls: ~'@{ezd-prefix}-select-tree';
 
-.antCheckboxFn(@checkbox-prefix-cls: ~'@{select-tree-prefix-cls}-checkbox');
+.ezdCheckboxFn(@checkbox-prefix-cls: ~'@{select-tree-prefix-cls}-checkbox');
 
 .@{tree-select-prefix-cls} {
   // ======================= Dropdown =======================
@@ -34,7 +34,7 @@
 }
 
 .@{select-tree-prefix-cls} {
-  .antTreeFn(@select-tree-prefix-cls);
+  .ezdTreeFn(@select-tree-prefix-cls);
 
   // change switcher icon rotation in rtl direction
   & &-switcher {

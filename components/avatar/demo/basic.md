@@ -37,11 +37,11 @@ ReactDOM.render(
 ```
 
 <style>
-#components-avatar-demo-basic .ant-avatar {
+#components-avatar-demo-basic .ezd-avatar {
   margin-top: 16px;
   margin-right: 16px;
 }
-.ant-row-rtl #components-avatar-demo-basic .ant-avatar {
+.ezd-row-rtl #components-avatar-demo-basic .ezd-avatar {
   margin-right: 0;
   margin-left: 16px;
 }

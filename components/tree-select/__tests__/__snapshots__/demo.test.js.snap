@@ -2,14 +2,14 @@
 
 exports[`renders ./components/tree-select/demo/async.md correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-single ant-select-show-arrow"
+  class="ezd-select ant-tree-select ant-select-single ant-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -18,7 +18,7 @@ exports[`renders ./components/tree-select/demo/async.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         readonly=""
         role="combobox"
         style="opacity:0"
@@ -28,14 +28,14 @@ exports[`renders ./components/tree-select/demo/async.md correctly 1`] = `
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Please select
     </span>
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -64,14 +64,14 @@ exports[`renders ./components/tree-select/demo/async.md correctly 1`] = `
 
 exports[`renders ./components/tree-select/demo/basic.md correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+  class="ezd-select ant-tree-select ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -80,21 +80,21 @@ exports[`renders ./components/tree-select/demo/basic.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         role="combobox"
         type="search"
         value=""
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Please select
     </span>
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -123,31 +123,31 @@ exports[`renders ./components/tree-select/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-multiple ant-select-show-search"
+  class="ezd-select ant-tree-select ant-select-multiple ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item"
+        class="ezd-select-selection-overflow-item"
         style="opacity:1"
       >
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="Node1"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="ezd-select-selection-item-content"
           >
             Node1
           </span>
           <span
             aria-hidden="true"
-            class="ant-select-selection-item-remove"
+            class="ezd-select-selection-item-remove"
             style="user-select:none;-webkit-user-select:none"
             unselectable="on"
           >
@@ -174,11 +174,11 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -188,7 +188,7 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -198,7 +198,7 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -211,22 +211,22 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
 
 exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-multiple ant-select-allow-clear ant-select-show-search"
+  class="ezd-select ant-tree-select ant-select-multiple ant-select-allow-clear ant-select-show-search"
   multiple=""
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -236,7 +236,7 @@ exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -246,7 +246,7 @@ exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -254,7 +254,7 @@ exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Please select
     </span>
@@ -264,14 +264,14 @@ exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
 
 exports[`renders ./components/tree-select/demo/suffix.md correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+  class="ezd-select ant-tree-select ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -280,21 +280,21 @@ exports[`renders ./components/tree-select/demo/suffix.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         role="combobox"
         type="search"
         value=""
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Please select
     </span>
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -323,14 +323,14 @@ exports[`renders ./components/tree-select/demo/suffix.md correctly 1`] = `
 
 exports[`renders ./components/tree-select/demo/treeData.md correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-single ant-select-show-arrow"
+  class="ezd-select ant-tree-select ant-select-single ant-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -339,7 +339,7 @@ exports[`renders ./components/tree-select/demo/treeData.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         readonly=""
         role="combobox"
         style="opacity:0"
@@ -349,14 +349,14 @@ exports[`renders ./components/tree-select/demo/treeData.md correctly 1`] = `
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Please select
     </span>
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -385,60 +385,60 @@ exports[`renders ./components/tree-select/demo/treeData.md correctly 1`] = `
 
 exports[`renders ./components/tree-select/demo/treeLine.md correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical"
+  class="ezd-space ant-space-vertical"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:8px"
   >
     <button
       aria-checked="true"
-      class="ant-switch ant-switch-checked"
+      class="ezd-switch ant-switch-checked"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="ezd-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="ezd-switch-inner"
       >
         treeLine
       </span>
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:8px"
   >
     <button
       aria-checked="false"
-      class="ant-switch"
+      class="ezd-switch"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="ezd-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="ezd-switch-inner"
       >
         showLeafIcon
       </span>
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <div
-      class="ant-select ant-tree-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ant-tree-select ant-select-single ant-select-show-arrow"
       style="width:300px"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -447,7 +447,7 @@ exports[`renders ./components/tree-select/demo/treeLine.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -457,12 +457,12 @@ exports[`renders ./components/tree-select/demo/treeLine.md correctly 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-placeholder"
+          class="ezd-select-selection-placeholder"
         />
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >

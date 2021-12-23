@@ -50,22 +50,22 @@ describe('Table.pagination', () => {
 
   it('should not show pager if pagination.hideOnSinglePage is true and only 1 page', () => {
     const wrapper = mount(createTable({ pagination: { pageSize: 3, hideOnSinglePage: true } }));
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
     wrapper.setProps({ pagination: { pageSize: 3, hideOnSinglePage: false } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
     wrapper.setProps({ pagination: { pageSize: 4, hideOnSinglePage: true } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(0);
     wrapper.setProps({ pagination: { pageSize: 4, hideOnSinglePage: false } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
     wrapper.setProps({ pagination: { pageSize: 5, hideOnSinglePage: true } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(0);
     wrapper.setProps({ pagination: { pageSize: 5, hideOnSinglePage: false } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
   });
 
   it('should use pageSize when defaultPageSize and pageSize are both specified', () => {
     const wrapper = mount(createTable({ pagination: { pageSize: 3, defaultPageSize: 4 } }));
-    expect(wrapper.find('.ant-pagination-item')).toHaveLength(2);
+    expect(wrapper.find('.ezd-pagination-item')).toHaveLength(2);
   });
 
   it('paginate data', () => {
@@ -89,7 +89,7 @@ describe('Table.pagination', () => {
         pagination: { size: 'small' },
       }),
     );
-    expect(wrapper.find('.ant-pagination.mini')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination.mini')).toHaveLength(1);
   });
 
   it('should scroll to first row when page change', () => {
@@ -103,15 +103,15 @@ describe('Table.pagination', () => {
     wrapper.find('Pager').last().simulate('click');
     expect(scrollTo).toHaveBeenCalledTimes(1);
 
-    wrapper.find('.ant-select-selector').simulate('mousedown');
-    wrapper.find('.ant-select-item').last().simulate('click');
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
+    wrapper.find('.ezd-select-item').last().simulate('click');
     expect(scrollTo).toHaveBeenCalledTimes(2);
   });
 
-  it('should scroll inside .ant-table-body', () => {
+  it('should scroll inside .ezd-table-body', () => {
     scrollTo.mockImplementationOnce((top, { getContainer }) => {
       expect(top).toBe(0);
-      expect(getContainer().className).toBe('ant-table-body');
+      expect(getContainer().className).toBe('ezd-table-body');
     });
     const wrapper = mount(
       createTable({ scroll: { y: 20 }, pagination: { showSizeChanger: true, pageSize: 2 } }),
@@ -154,49 +154,45 @@ describe('Table.pagination', () => {
     expect(handlePaginationChange).toHaveBeenCalledWith(2, 2);
   });
 
-  // https://github.com/ant-design/ant-design/issues/4532
   // https://codepen.io/afc163/pen/dVeNoP?editors=001
   it('should have pager when change pagination from false to undefined', () => {
     const wrapper = mount(createTable({ pagination: false }));
-    expect(wrapper.find('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(0);
     wrapper.setProps({ pagination: undefined });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
-    expect(wrapper.find('.ant-pagination-item-active')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination-item-active')).toHaveLength(1);
   });
 
-  // https://github.com/ant-design/ant-design/issues/4532
   // https://codepen.io/afc163/pen/pWVRJV?editors=001
   it('should display pagination as prop pagination change between true and false', () => {
     const wrapper = mount(createTable());
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
-    expect(wrapper.find('.ant-pagination-item')).toHaveLength(2);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination-item')).toHaveLength(2);
     wrapper.setProps({ pagination: false });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(0);
     wrapper.setProps({ pagination });
     wrapper.update();
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
-    expect(wrapper.find('.ant-pagination-item')).toHaveLength(2);
-    wrapper.find('.ant-pagination-item-2').simulate('click');
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination-item')).toHaveLength(2);
+    wrapper.find('.ezd-pagination-item-2').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
     wrapper.setProps({ pagination: false });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(0);
     wrapper.setProps({ pagination: undefined });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
-    expect(wrapper.find('.ant-pagination-item')).toHaveLength(2);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination-item')).toHaveLength(2);
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
   });
 
-  // https://github.com/ant-design/ant-design/issues/5259
   it('change to correct page when data source changes', () => {
     const wrapper = mount(createTable({ pagination: { pageSize: 1 } }));
-    wrapper.find('.ant-pagination-item-3').simulate('click');
+    wrapper.find('.ezd-pagination-item-3').simulate('click');
     wrapper.setProps({ dataSource: [data[0]] });
-    expect(wrapper.find('.ant-pagination-item-1').hasClass('ant-pagination-item-active')).toBe(
+    expect(wrapper.find('.ezd-pagination-item-1').hasClass('ezd-pagination-item-active')).toBe(
       true,
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/24913
   it('should called onChange when pageSize change', () => {
     const onChange = jest.fn();
     const onShowSizeChange = jest.fn();
@@ -211,24 +207,23 @@ describe('Table.pagination', () => {
         },
       }),
     );
-    wrapper.find('.ant-select-selector').simulate('mousedown');
-    expect(wrapper.find('.ant-select-item-option').length).toBe(4);
-    wrapper.find('.ant-select-item-option').at(1).simulate('click');
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
+    expect(wrapper.find('.ezd-select-item-option').length).toBe(4);
+    wrapper.find('.ezd-select-item-option').at(1).simulate('click');
     expect(onChange).toHaveBeenCalledWith(1, 20);
   });
 
   it('should not change page when pagination current is specified', () => {
     const wrapper = mount(createTable({ pagination: { current: 2, pageSize: 1 } }));
-    expect(wrapper.find('.ant-pagination-item-2').hasClass('ant-pagination-item-active')).toBe(
+    expect(wrapper.find('.ezd-pagination-item-2').hasClass('ezd-pagination-item-active')).toBe(
       true,
     );
-    wrapper.find('.ant-pagination-item-3').simulate('click');
-    expect(wrapper.find('.ant-pagination-item-2').hasClass('ant-pagination-item-active')).toBe(
+    wrapper.find('.ezd-pagination-item-3').simulate('click');
+    expect(wrapper.find('.ezd-pagination-item-2').hasClass('ezd-pagination-item-active')).toBe(
       true,
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/29175
   it('should change page to max page count when pageSize change without pagination.total', () => {
     const onChange = jest.fn();
     const onShowSizeChange = jest.fn();
@@ -243,10 +238,10 @@ describe('Table.pagination', () => {
         dataSource: longData,
       }),
     );
-    wrapper.find('.ant-select-selector').simulate('mousedown');
-    expect(wrapper.find('.ant-select-item-option').length).toBe(4);
-    wrapper.find('.ant-select-item-option').at(1).simulate('click');
-    const newPageSize = parseInt(wrapper.find('.ant-select-item-option').at(1).text(), 10);
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
+    expect(wrapper.find('.ezd-select-item-option').length).toBe(4);
+    wrapper.find('.ezd-select-item-option').at(1).simulate('click');
+    const newPageSize = parseInt(wrapper.find('.ezd-select-item-option').at(1).text(), 10);
     expect(onChange).toHaveBeenCalledWith(longData.length / newPageSize, 20);
   });
 
@@ -266,14 +261,13 @@ describe('Table.pagination', () => {
         dataSource: longData,
       }),
     );
-    wrapper.find('.ant-select-selector').simulate('mousedown');
-    expect(wrapper.find('.ant-select-item-option').length).toBe(4);
-    wrapper.find('.ant-select-item-option').at(1).simulate('click');
-    const newPageSize = parseInt(wrapper.find('.ant-select-item-option').at(1).text(), 10);
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
+    expect(wrapper.find('.ezd-select-item-option').length).toBe(4);
+    wrapper.find('.ezd-select-item-option').at(1).simulate('click');
+    const newPageSize = parseInt(wrapper.find('.ezd-select-item-option').at(1).text(), 10);
     expect(onChange).toHaveBeenCalledWith(total / newPageSize, 20);
   });
 
-  // https://github.com/ant-design/ant-design/issues/29175
   it('should not change page to max page if current is not greater max page when pageSize change', () => {
     const onChange = jest.fn();
     const onShowSizeChange = jest.fn();
@@ -288,9 +282,9 @@ describe('Table.pagination', () => {
         dataSource: longData,
       }),
     );
-    wrapper.find('.ant-select-selector').simulate('mousedown');
-    expect(wrapper.find('.ant-select-item-option').length).toBe(4);
-    wrapper.find('.ant-select-item-option').at(1).simulate('click');
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
+    expect(wrapper.find('.ezd-select-item-option').length).toBe(4);
+    wrapper.find('.ezd-select-item-option').at(1).simulate('click');
     expect(onChange).toHaveBeenCalledWith(4, 20);
   });
 
@@ -306,30 +300,30 @@ describe('Table.pagination', () => {
         dataSource: longData,
       }),
     );
-    expect(wrapper.find('.ant-pagination-item-active').text()).toBe('10');
+    expect(wrapper.find('.ezd-pagination-item-active').text()).toBe('10');
     wrapper.setProps({
       dataSource: longData.filter(item => item.key < 60),
     });
-    expect(wrapper.find('.ant-pagination-item-active').text()).toBe('6');
+    expect(wrapper.find('.ezd-pagination-item-active').text()).toBe('6');
   });
 
   it('specify the position of pagination', () => {
     const wrapper = mount(createTable({ pagination: { position: ['topLeft'] } }));
-    expect(wrapper.find('.ant-spin-container').children()).toHaveLength(2);
-    expect(wrapper.find('.ant-spin-container').childAt(0).find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-spin-container').children()).toHaveLength(2);
+    expect(wrapper.find('.ezd-spin-container').childAt(0).find('.ezd-pagination')).toHaveLength(1);
     wrapper.setProps({ pagination: { position: ['bottomRight'] } });
-    expect(wrapper.find('.ant-spin-container').children()).toHaveLength(2);
-    expect(wrapper.find('.ant-spin-container').childAt(1).find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-spin-container').children()).toHaveLength(2);
+    expect(wrapper.find('.ezd-spin-container').childAt(1).find('.ezd-pagination')).toHaveLength(1);
     wrapper.setProps({ pagination: { position: ['topLeft', 'bottomRight'] } });
-    expect(wrapper.find('.ant-spin-container').children()).toHaveLength(3);
-    expect(wrapper.find('.ant-spin-container').childAt(0).find('.ant-pagination')).toHaveLength(1);
-    expect(wrapper.find('.ant-spin-container').childAt(2).find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-spin-container').children()).toHaveLength(3);
+    expect(wrapper.find('.ezd-spin-container').childAt(0).find('.ezd-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-spin-container').childAt(2).find('.ezd-pagination')).toHaveLength(1);
     wrapper.setProps({ pagination: { position: ['none', 'none'] } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(0);
     wrapper.setProps({ pagination: { position: ['invalid'] } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
     wrapper.setProps({ pagination: { position: ['invalid', 'invalid'] } });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(1);
   });
 
   /**
@@ -355,9 +349,9 @@ describe('Table.pagination', () => {
       }),
     );
 
-    expect(wrapper.find('.ant-table-tbody tr.ant-table-row')).toHaveLength(data.length);
+    expect(wrapper.find('.ezd-table-tbody tr.ezd-table-row')).toHaveLength(data.length);
 
-    wrapper.find('.ant-pagination .ant-pagination-item-2').simulate('click');
+    wrapper.find('.ezd-pagination .ezd-pagination-item-2').simulate('click');
     expect(onChange.mock.calls[0][0].current).toBe(2);
     expect(onChange).toHaveBeenCalledWith(
       { current: 2, pageSize: 10, total: 200 },
@@ -375,7 +369,7 @@ describe('Table.pagination', () => {
     );
     expect(onPaginationChange).toHaveBeenCalledWith(2, 10);
 
-    expect(wrapper.find('.ant-table-tbody tr.ant-table-row')).toHaveLength(data.length);
+    expect(wrapper.find('.ezd-table-tbody tr.ezd-table-row')).toHaveLength(data.length);
   });
 
   it('onShowSizeChange should trigger once', () => {
@@ -392,11 +386,11 @@ describe('Table.pagination', () => {
         onChange,
       }),
     );
-    wrapper.find('.ant-select-selector').simulate('mousedown');
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
     jest.runAllTimers();
     const dropdownWrapper = mount(wrapper.find('Trigger').instance().getComponent());
-    expect(wrapper.find('.ant-select-item-option').length).toBe(4);
-    dropdownWrapper.find('.ant-select-item-option').at(3).simulate('click');
+    expect(wrapper.find('.ezd-select-item-option').length).toBe(4);
+    dropdownWrapper.find('.ezd-select-item-option').at(3).simulate('click');
     expect(onShowSizeChange).toHaveBeenCalledTimes(1);
     expect(onShowSizeChange).toHaveBeenLastCalledWith(1, 100);
     expect(onChange).toHaveBeenCalled();
@@ -405,33 +399,32 @@ describe('Table.pagination', () => {
 
   it('should support current in pagination', () => {
     const wrapper = mount(createTable({ pagination: { current: 2, pageSize: 1 } }));
-    expect(wrapper.find('.ant-pagination-item-active').text()).toBe('2');
+    expect(wrapper.find('.ezd-pagination-item-active').text()).toBe('2');
   });
 
   it('should support defaultCurrent in pagination', () => {
     const wrapper = mount(createTable({ pagination: { defaultCurrent: 2, pageSize: 1 } }));
-    expect(wrapper.find('.ant-pagination-item-active').text()).toBe('2');
+    expect(wrapper.find('.ezd-pagination-item-active').text()).toBe('2');
   });
 
   it('should support defaultPageSize in pagination', () => {
     const wrapper = mount(createTable({ pagination: { defaultPageSize: 1 } }));
-    expect(wrapper.find('.ant-pagination-item')).toHaveLength(4);
+    expect(wrapper.find('.ezd-pagination-item')).toHaveLength(4);
   });
 
-  // https://github.com/ant-design/ant-design/issues/19957
   it('ajax should work with pagination', () => {
     const wrapper = mount(createTable({ pagination: { total: 100 } }));
-    wrapper.find('.ant-pagination-item-2').simulate('click');
+    wrapper.find('.ezd-pagination-item-2').simulate('click');
     wrapper.setProps({ pagination: { current: 2, total: 100 } });
 
     expect(
-      wrapper.find('.ant-pagination-item-2').hasClass('ant-pagination-item-active'),
+      wrapper.find('.ezd-pagination-item-2').hasClass('ezd-pagination-item-active'),
     ).toBeTruthy();
   });
 
   it('pagination should ignore invalidate total', () => {
     const wrapper = mount(createTable({ pagination: { total: null } }));
-    expect(wrapper.find('.ant-pagination-item-1').length).toBeTruthy();
+    expect(wrapper.find('.ezd-pagination-item-1').length).toBeTruthy();
   });
 
   it('renders pagination topLeft and bottomRight', () => {
@@ -450,9 +443,9 @@ describe('Table.pagination', () => {
         onChange,
       }),
     );
-    wrapper.find('.ant-select-selector').simulate('mousedown');
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
     const dropdownWrapper = mount(wrapper.find('Trigger').instance().getComponent());
-    dropdownWrapper.find('.ant-select-item-option').at(2).simulate('click');
+    dropdownWrapper.find('.ezd-select-item-option').at(2).simulate('click');
 
     expect(onChange).toBeCalledTimes(1);
   });
@@ -479,7 +472,7 @@ describe('Table.pagination', () => {
     expect(wrapper.find('tbody tr')).toHaveLength(5);
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Table] `dataSource` length is less than `pagination.total` but large than `pagination.pageSize`. Please make sure your config correct data with async mode.',
+      'Warning: [ezd: Table] `dataSource` length is less than `pagination.total` but large than `pagination.pageSize`. Please make sure your config correct data with async mode.',
     );
   });
 
@@ -501,7 +494,7 @@ describe('Table.pagination', () => {
       dataSource: data.slice(total - 1),
       pagination: { ...paginationProp, total: total - 1 },
     });
-    expect(wrapper.find('.ant-pagination')).toHaveLength(2);
+    expect(wrapper.find('.ezd-pagination')).toHaveLength(2);
   });
 
   it('showTotal should hide when removed', () => {
@@ -529,11 +522,11 @@ describe('Table.pagination', () => {
     };
 
     const wrapper = mount(<Demo />);
-    expect(wrapper.find('.ant-pagination-total-text').text()).toEqual('>200<');
+    expect(wrapper.find('.ezd-pagination-total-text').text()).toEqual('>200<');
 
     // Should hide
-    wrapper.find('.ant-pagination-item-2').simulate('click');
-    expect(wrapper.find('.ant-pagination-total-text')).toHaveLength(0);
+    wrapper.find('.ezd-pagination-item-2').simulate('click');
+    expect(wrapper.find('.ezd-pagination-total-text')).toHaveLength(0);
   });
 
   it('should preserve table pagination className', () => {
@@ -549,8 +542,8 @@ describe('Table.pagination', () => {
         }}
       />,
     );
-    expect(wrapper.find('.ant-pagination').prop('className')).toEqual(
-      'ant-pagination ant-table-pagination ant-table-pagination-right pagination',
+    expect(wrapper.find('.ezd-pagination').prop('className')).toEqual(
+      'ezd-pagination ezd-table-pagination ezd-table-pagination-right pagination',
     );
   });
 });

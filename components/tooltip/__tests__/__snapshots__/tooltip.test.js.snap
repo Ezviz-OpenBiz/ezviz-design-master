@@ -2,13 +2,13 @@
 
 exports[`Tooltip rtl render component should be rendered correctly in RTL direction 1`] = `<span />`;
 
-exports[`Tooltip should hide when mouse leave antd disabled component Button 1`] = `
+exports[`Tooltip should hide when mouse leave ezd disabled component Button 1`] = `
 <span
-  class="ant-tooltip-disabled-compatible-wrapper"
+  class="ezd-tooltip-disabled-compatible-wrapper"
   style="display: inline-block; cursor: not-allowed;"
 >
   <button
-    class="ant-btn"
+    class="ezd-btn"
     disabled=""
     style="pointer-events: none;"
     type="button"
@@ -16,50 +16,50 @@ exports[`Tooltip should hide when mouse leave antd disabled component Button 1`]
 </span>
 `;
 
-exports[`Tooltip should hide when mouse leave antd disabled component Checkbox 1`] = `
+exports[`Tooltip should hide when mouse leave ezd disabled component Checkbox 1`] = `
 <span
-  class="ant-tooltip-disabled-compatible-wrapper"
+  class="ezd-tooltip-disabled-compatible-wrapper"
   style="display: inline-block; cursor: not-allowed;"
 >
   <label
-    class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+    class="ezd-checkbox-wrapper ezd-checkbox-wrapper-disabled"
     style="pointer-events: none;"
   >
     <span
-      class="ant-checkbox ant-checkbox-disabled"
+      class="ezd-checkbox ezd-checkbox-disabled"
     >
       <input
-        class="ant-checkbox-input"
+        class="ezd-checkbox-input"
         disabled=""
         type="checkbox"
         value=""
       />
       <span
-        class="ant-checkbox-inner"
+        class="ezd-checkbox-inner"
       />
     </span>
   </label>
 </span>
 `;
 
-exports[`Tooltip should hide when mouse leave antd disabled component Switch 1`] = `
+exports[`Tooltip should hide when mouse leave ezd disabled component Switch 1`] = `
 <span
-  class="ant-tooltip-disabled-compatible-wrapper"
+  class="ezd-tooltip-disabled-compatible-wrapper"
   style="display: inline-block; cursor: not-allowed;"
 >
   <button
     aria-checked="false"
-    class="ant-switch ant-switch-disabled"
+    class="ezd-switch ezd-switch-disabled"
     disabled=""
     role="switch"
     style="pointer-events: none;"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     />
   </button>
 </span>

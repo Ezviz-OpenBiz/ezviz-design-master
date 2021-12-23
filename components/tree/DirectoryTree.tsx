@@ -10,7 +10,7 @@ import FolderOpenOutlined from '@ant-design/icons/FolderOpenOutlined';
 import FolderOutlined from '@ant-design/icons/FolderOutlined';
 import { ConfigContext } from '../config-provider';
 
-import Tree, { TreeProps, AntdTreeNodeAttribute } from './Tree';
+import Tree, { TreeProps, EzdTreeNodeAttribute } from './Tree';
 import { calcRangeKeys, convertDirectoryKeysToNodes } from './utils/dictUtil';
 
 export type ExpandAction = false | 'click' | 'doubleClick';
@@ -24,7 +24,7 @@ export interface DirectoryTreeState {
   selectedKeys?: Key[];
 }
 
-function getIcon(props: AntdTreeNodeAttribute): React.ReactNode {
+function getIcon(props: EzdTreeNodeAttribute): React.ReactNode {
   const { isLeaf, expanded } = props;
   if (isLeaf) {
     return <FileOutlined />;
@@ -93,7 +93,6 @@ const DirectoryTree: React.ForwardRefRenderFunction<RcTree, DirectoryTreeProps> 
     }
 
     // Call internal rc-tree expand function
-    // https://github.com/ant-design/ant-design/issues/12567
     treeRef.current!.onNodeExpand(event as any, node);
   };
 

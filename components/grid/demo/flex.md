@@ -65,7 +65,7 @@ ReactDOM.render(
 ```
 
 ```css
-#components-grid-demo-flex [class~='ant-row'] {
+#components-grid-demo-flex [class~='ezd-row'] {
   background: rgba(128, 128, 128, 0.08);
 }
 ```

@@ -28,11 +28,10 @@ describe('Breadcrumb', () => {
     );
     expect(errorSpy.mock.calls).toHaveLength(1);
     expect(errorSpy.mock.calls[0][0]).toMatch(
-      "Warning: [antd: Breadcrumb] Only accepts Breadcrumb.Item and Breadcrumb.Separator as it's children",
+      "Warning: [ezd: Breadcrumb] Only accepts Breadcrumb.Item and Breadcrumb.Separator as it's children",
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/5015
   it('should allow Breadcrumb.Item is null or undefined', () => {
     const wrapper = render(
       <Breadcrumb>
@@ -45,7 +44,6 @@ describe('Breadcrumb', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/5542
   it('should not display Breadcrumb Item when its children is falsy', () => {
     const wrapper = render(
       <Breadcrumb>
@@ -57,7 +55,6 @@ describe('Breadcrumb', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/18260
   it('filter React.Fragment', () => {
     const wrapper = render(
       <Breadcrumb separator="">
@@ -139,7 +136,6 @@ describe('Breadcrumb', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/25975
   it('should support Breadcrumb.Item default separator', () => {
     const MockComponent = () => (
       <span>

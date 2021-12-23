@@ -88,7 +88,7 @@ const InternalMentions: React.ForwardRefRenderFunction<unknown, MentionProps> = 
   const getOptions = () => {
     if (loading) {
       return (
-        <Option value="ANTD_SEARCHING" disabled>
+        <Option value="EZD_SEARCHING" disabled>
           <Spin size="small" />
         </Option>
       );

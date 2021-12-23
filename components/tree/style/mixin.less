@@ -6,7 +6,7 @@
 @tree-node-padding: (@padding-xs / 2);
 @tree-node-hightlight-color: inherit;
 
-.antTreeSwitcherIcon(@type: 'tree-default-open-icon') {
+.ezdTreeSwitcherIcon(@type: 'tree-default-open-icon') {
   .@{tree-prefix-cls}-switcher-icon,
   .@{select-tree-prefix-cls}-switcher-icon {
     display: inline-block;
@@ -43,7 +43,7 @@
   }
 }
 
-.antTreeFn(@custom-tree-prefix-cls) {
+.ezdTreeFn(@custom-tree-prefix-cls) {
   @custom-tree-node-prefix-cls: ~'@{custom-tree-prefix-cls}-treenode';
   .reset-component();
   background: @tree-bg;
@@ -80,7 +80,7 @@
           left: 0;
           border: 1px solid @ezd-primary-color;
           opacity: 0;
-          animation: ant-tree-node-fx-do-not-use 0.3s;
+          animation: ezd-tree-node-fx-do-not-use 0.3s;
           animation-play-state: running;
           animation-fill-mode: forwards;
           content: '';
@@ -146,7 +146,7 @@
 
   // >>> Switcher
   &-switcher {
-    .antTreeSwitcherIcon();
+    .ezdTreeSwitcherIcon();
     position: relative;
     flex: none;
     align-self: stretch;
@@ -179,7 +179,7 @@
       display: inline-block;
       width: 100%;
       height: 100%;
-      // https://github.com/ant-design/ant-design/issues/31884
+
       &::before {
         position: absolute;
         top: 0;
@@ -243,7 +243,6 @@
     }
   }
 
-  // https://github.com/ant-design/ant-design/issues/28217
   &-unselectable &-node-content-wrapper:hover {
     background-color: transparent;
   }
@@ -310,7 +309,7 @@
   }
 }
 
-@keyframes ant-tree-node-fx-do-not-use {
+@keyframes ezd-tree-node-fx-do-not-use {
   0% {
     opacity: 0;
   }

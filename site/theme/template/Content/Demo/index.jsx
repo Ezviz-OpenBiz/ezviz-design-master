@@ -5,7 +5,7 @@ import { FormattedMessage, injectIntl } from 'react-intl';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import classNames from 'classnames';
 import LZString from 'lz-string';
-import { Tooltip, Alert } from 'antd';
+import { Tooltip, Alert } from '@ezviz/ezd';
 import { SnippetsOutlined, CheckOutlined, ThunderboltOutlined } from '@ant-design/icons';
 import stackblitzSdk from '@stackblitz/sdk';
 import CodePreview from './CodePreview';
@@ -167,7 +167,7 @@ class Demo extends React.Component {
       'highlight-wrapper-expand': codeExpand,
     });
 
-    const prefillStyle = `@import '~antd/dist/antd.css';\n\n${style || ''}`.replace(
+    const prefillStyle = `@import '~@ezviz/ezd/dist/@ezviz/ezd.css';\n\n${style || ''}`.replace(
       new RegExp(`#${meta.id}\\s*`, 'g'),
       '',
     );
@@ -189,7 +189,7 @@ class Demo extends React.Component {
     const dependencies = sourceCode.split('\n').reduce(
       (acc, line) => {
         const matches = line.match(/import .+? from '(.+)';$/);
-        if (matches && matches[1] && !line.includes('antd')) {
+        if (matches && matches[1] && !line.includes('@ezviz/ezd')) {
           const paths = matches[1].split('/');
 
           if (paths.length) {
@@ -200,16 +200,16 @@ class Demo extends React.Component {
         return acc;
       },
       // eslint-disable-next-line no-undef
-      { antd: antdReproduceVersion },
+      { '@ezviz/ezd': ezdReproduceVersion },
     );
 
     dependencies['@ant-design/icons'] = 'latest';
 
     const codepenPrefillConfig = {
-      title: `${localizedTitle} - antd@${dependencies.antd}`,
+      title: `${localizedTitle} - @ezviz/ezd@${dependencies['@ezviz/ezd']}`,
       html,
       js: sourceCode
-        .replace(/import\s+{(\s+[^}]*\s+)}\s+from\s+'antd';/, 'const { $1 } = antd;')
+        .replace(/import\s+{(\s+[^}]*\s+)}\s+from\s+'@ezviz\/ezd';/, 'const { $1 } = @ezviz/ezd;')
         .replace(/import\s+{(\s+[^}]*\s+)}\s+from\s+'@ant-design\/icons';/, 'const { $1 } = icons;')
         .replace("import moment from 'moment';", '')
         .replace(/import\s+{\s+(.*)\s+}\s+from\s+'react-router';/, 'const { $1 } = ReactRouter;')
@@ -221,13 +221,13 @@ class Demo extends React.Component {
       css: prefillStyle,
       editors: '001',
       // eslint-disable-next-line no-undef
-      css_external: `https://unpkg.com/antd@${antdReproduceVersion}/dist/antd.css`,
+      css_external: `https://unpkg.com/@ezviz/ezd@${ezdReproduceVersion}/dist/@ezviz/ezd.css`,
       js_external: [
         'react@16.x/umd/react.development.js',
         'react-dom@16.x/umd/react-dom.development.js',
         'moment/min/moment-with-locales.js',
         // eslint-disable-next-line no-undef
-        `antd@${antdReproduceVersion}/dist/antd-with-locales.js`,
+        `@ezviz/ezd@${ezdReproduceVersion}/dist/@ezviz/ezd-with-locales.js`,
         `@ant-design/icons/dist/index.umd.js`,
         'react-router-dom/umd/react-router-dom.min.js',
         'react-router@3.x/umd/ReactRouter.min.js',
@@ -238,12 +238,12 @@ class Demo extends React.Component {
     };
 
     const riddlePrefillConfig = {
-      title: `${localizedTitle} - antd@${dependencies.antd}`,
+      title: `${localizedTitle} - @ezviz/ezd@${dependencies['@ezviz/ezd']}`,
       js: sourceCode,
       css: prefillStyle,
       json: JSON.stringify(
         {
-          name: 'antd-demo',
+          name: 'ezd-demo',
           dependencies,
         },
         null,
@@ -265,7 +265,7 @@ class Demo extends React.Component {
     const indexJsContent = `
 ${importReactContent}
 import ReactDOM from 'react-dom';
-import 'antd/dist/antd.css';
+import '@ezviz/ezd/dist/@ezviz/ezd.css';
 import './index.css';
 ${parsedSourceCode.replace('mountNode', "document.getElementById('container')")}
 `.trim();
@@ -276,7 +276,7 @@ ${parsedSourceCode.replace('mountNode', "document.getElementById('container')")}
       .replace('<style>', '');
 
     const codesandboxPackage = {
-      title: `${localizedTitle} - antd@${dependencies.antd}`,
+      title: `${localizedTitle} - @ezviz/ezd@${dependencies['@ezviz/ezd']}`,
       main: 'index.js',
       dependencies: {
         ...dependencies,
@@ -306,7 +306,7 @@ ${parsedSourceCode.replace('mountNode', "document.getElementById('container')")}
       },
     };
     const stackblitzPrefillConfig = {
-      title: `${localizedTitle} - antd@${dependencies.antd}`,
+      title: `${localizedTitle} - @ezviz/ezd@${dependencies['@ezviz/ezd']}`,
       template: 'create-react-app',
       dependencies,
       files: {

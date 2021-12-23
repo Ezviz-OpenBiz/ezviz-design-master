@@ -327,7 +327,7 @@ function FormItem<Values = any>(props: FormItemProps<Values>): React.ReactElemen
         devWarning(
           !(shouldUpdate && dependencies),
           'Form.Item',
-          "`shouldUpdate` and `dependencies` shouldn't be used together. See https://ant.design/components/form/#dependencies.",
+          "`shouldUpdate` and `dependencies` shouldn't be used together. See https://saastest3.ys7.com/ezd/components/form/#dependencies.",
         );
         if (Array.isArray(children) && hasName) {
           devWarning(false, 'Form.Item', '`children` is array of render props cannot have `name`.');

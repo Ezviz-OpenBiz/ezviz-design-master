@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Typography } from 'antd';
+import { Typography } from '@ezviz/ezd';
 import Banner from './Banner';
 import DesignPage from './DesignPage';
 import Footer from '../Layout/Footer';

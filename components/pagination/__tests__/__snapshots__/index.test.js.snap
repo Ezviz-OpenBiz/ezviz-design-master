@@ -2,16 +2,16 @@
 
 exports[`Pagination rtl render component should be rendered correctly in RTL direction 1`] = `
 <ul
-  class="ant-pagination ant-pagination-rtl"
+  class="ezd-pagination ezd-pagination-rtl"
   unselectable="unselectable"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="ezd-pagination-prev ezd-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -38,7 +38,7 @@ exports[`Pagination rtl render component should be rendered correctly in RTL dir
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-disabled"
+    class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-disabled"
     tabindex="0"
     title="1"
   >
@@ -50,11 +50,11 @@ exports[`Pagination rtl render component should be rendered correctly in RTL dir
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-next ant-pagination-disabled"
+    class="ezd-pagination-next ezd-pagination-disabled"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -85,16 +85,16 @@ exports[`Pagination rtl render component should be rendered correctly in RTL dir
 
 exports[`Pagination should be rendered correctly in RTL 1`] = `
 <ul
-  class="ant-pagination ant-pagination-rtl"
+  class="ezd-pagination ezd-pagination-rtl"
   unselectable="unselectable"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="ezd-pagination-prev ezd-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -121,7 +121,7 @@ exports[`Pagination should be rendered correctly in RTL 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -132,7 +132,7 @@ exports[`Pagination should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="ezd-pagination-item ezd-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -143,7 +143,7 @@ exports[`Pagination should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="ezd-pagination-item ezd-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -154,7 +154,7 @@ exports[`Pagination should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="ezd-pagination-item ezd-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -165,7 +165,7 @@ exports[`Pagination should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="ezd-pagination-item ezd-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -177,12 +177,12 @@ exports[`Pagination should be rendered correctly in RTL 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="ezd-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >

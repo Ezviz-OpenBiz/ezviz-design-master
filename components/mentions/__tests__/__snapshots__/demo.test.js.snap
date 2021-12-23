@@ -2,7 +2,7 @@
 
 exports[`renders ./components/mentions/demo/async.md correctly 1`] = `
 <div
-  class="ant-mentions"
+  class="ezd-mentions"
   style="width:100%"
 >
   <textarea
@@ -14,7 +14,7 @@ exports[`renders ./components/mentions/demo/async.md correctly 1`] = `
 
 exports[`renders ./components/mentions/demo/autoSize.md correctly 1`] = `
 <div
-  class="ant-mentions"
+  class="ezd-mentions"
   style="width:100%"
 >
   <textarea
@@ -26,7 +26,7 @@ exports[`renders ./components/mentions/demo/autoSize.md correctly 1`] = `
 
 exports[`renders ./components/mentions/demo/basic.md correctly 1`] = `
 <div
-  class="ant-mentions"
+  class="ezd-mentions"
   style="width:100%"
 >
   <textarea
@@ -40,13 +40,13 @@ exports[`renders ./components/mentions/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="ezd-form ant-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="ezd-row ant-form-item"
   >
     <div
-      class="ant-col ant-col-6 ant-form-item-label"
+      class="ezd-col ant-col-6 ant-form-item-label"
     >
       <label
         class=""
@@ -57,16 +57,16 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col ant-col-16 ant-form-item-control"
+      class="ezd-col ant-col-16 ant-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           <div
-            class="ant-mentions"
+            class="ezd-mentions"
           >
             <textarea
               class="rc-textarea"
@@ -79,13 +79,13 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="ezd-row ant-form-item"
   >
     <div
-      class="ant-col ant-col-6 ant-form-item-label"
+      class="ezd-col ant-col-6 ant-form-item-label"
     >
       <label
-        class="ant-form-item-required"
+        class="ezd-form-item-required"
         for="bio"
         title="Bio"
       >
@@ -93,16 +93,16 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col ant-col-16 ant-form-item-control"
+      class="ezd-col ant-col-16 ant-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           <div
-            class="ant-mentions"
+            class="ezd-mentions"
           >
             <textarea
               class="rc-textarea"
@@ -116,19 +116,19 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="ezd-row ant-form-item"
   >
     <div
-      class="ant-col ant-col-14 ant-col-offset-6 ant-form-item-control"
+      class="ezd-col ant-col-14 ant-col-offset-6 ant-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="ezd-btn ant-btn-primary"
             type="submit"
           >
             <span>
@@ -137,7 +137,7 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
           </button>
              
           <button
-            class="ant-btn"
+            class="ezd-btn"
             type="button"
           >
             <span>
@@ -153,7 +153,7 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
 
 exports[`renders ./components/mentions/demo/placement.md correctly 1`] = `
 <div
-  class="ant-mentions"
+  class="ezd-mentions"
   style="width:100%"
 >
   <textarea
@@ -165,7 +165,7 @@ exports[`renders ./components/mentions/demo/placement.md correctly 1`] = `
 
 exports[`renders ./components/mentions/demo/prefix.md correctly 1`] = `
 <div
-  class="ant-mentions"
+  class="ezd-mentions"
   style="width:100%"
 >
   <textarea
@@ -182,7 +182,7 @@ Array [
     style="margin-bottom:10px"
   >
     <div
-      class="ant-mentions ant-mentions-disabled"
+      class="ezd-mentions ant-mentions-disabled"
       style="width:100%"
     >
       <textarea
@@ -194,7 +194,7 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-mentions"
+    class="ezd-mentions"
     style="width:100%"
   >
     <textarea

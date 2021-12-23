@@ -4,13 +4,13 @@ export { EventDataNode, DataNode } from 'rc-tree/lib/interface';
 
 export {
   TreeProps,
-  AntTreeNode,
-  AntTreeNodeMouseEvent,
-  AntTreeNodeExpandedEvent,
-  AntTreeNodeCheckedEvent,
-  AntTreeNodeSelectedEvent,
-  AntdTreeNodeAttribute,
-  AntTreeNodeProps,
+  EzdTreeNode,
+  EzdTreeNodeMouseEvent,
+  EzdTreeNodeExpandedEvent,
+  EzdTreeNodeCheckedEvent,
+  EzdTreeNodeSelectedEvent,
+  EzdTreeNodeAttribute,
+  EzdTreeNodeProps,
 } from './Tree';
 
 export { ExpandAction as DirectoryTreeExpandAction, DirectoryTreeProps } from './DirectoryTree';

@@ -54,7 +54,7 @@ const renderIcon = (prefixCls: string, { status, icon }: ResultProps) => {
   devWarning(
     !(typeof icon === 'string' && icon.length > 2),
     'Result',
-    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://ant.design/components/icon`,
+    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://saastest3.ys7.com/ezd/components/icon`,
   );
 
   if (ExceptionStatus.includes(`${status}`)) {

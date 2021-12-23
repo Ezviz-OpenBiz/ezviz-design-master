@@ -174,7 +174,6 @@ const Drawer = React.forwardRef<DrawerRef, InternalDrawerProps>(
     };
 
     const getOffsetStyle = () => {
-      // https://github.com/ant-design/ant-design/issues/24287
       if (!visible && !mask) {
         return {};
       }
@@ -209,7 +208,6 @@ const Drawer = React.forwardRef<DrawerRef, InternalDrawerProps>(
       };
 
       // 当无 mask 时，将 width 应用到外层容器上
-      // 解决 https://github.com/ant-design/ant-design/issues/12401 的问题
       const offsetStyle = mask ? {} : getOffsetStyle();
       return {
         zIndex,

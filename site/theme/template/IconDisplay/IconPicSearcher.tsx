@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Upload, Tooltip, Popover, Modal, Progress, message, Spin, Result } from 'antd';
+import { Upload, Tooltip, Popover, Modal, Progress, message, Spin, Result } from '@ezviz/ezd';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import { injectIntl } from 'react-intl';
 import * as AntdIcons from '@ant-design/icons';
@@ -179,13 +179,13 @@ class PicSearcher extends Component<PicSearcherProps, PicSearcherState> {
               fileList={fileList}
               showUploadList={{ showPreviewIcon: false, showRemoveIcon: false }}
             >
-              <p className="ant-upload-drag-icon">
+              <p className="ezd-upload-drag-icon">
                 <AntdIcons.InboxOutlined />
               </p>
-              <p className="ant-upload-text">
+              <p className="ezd-upload-text">
                 {messages['app.docs.components.icon.pic-searcher.upload-text']}
               </p>
-              <p className="ant-upload-hint">
+              <p className="ezd-upload-hint">
                 {messages['app.docs.components.icon.pic-searcher.upload-hint']}
               </p>
             </Dragger>

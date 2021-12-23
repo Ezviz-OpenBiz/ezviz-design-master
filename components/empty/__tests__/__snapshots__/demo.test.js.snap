@@ -2,13 +2,13 @@
 
 exports[`renders ./components/empty/demo/basic.md correctly 1`] = `
 <div
-  class="ant-empty"
+  class="ezd-empty"
 >
   <div
-    class="ant-empty-image"
+    class="ezd-empty-image"
   >
     <svg
-      class="ant-empty-img-default"
+      class="ezd-empty-img-default"
       height="152"
       viewBox="0 0 184 152"
       width="184"
@@ -22,36 +22,36 @@ exports[`renders ./components/empty/demo/basic.md correctly 1`] = `
           transform="translate(24 31.67)"
         >
           <ellipse
-            class="ant-empty-img-default-ellipse"
+            class="ezd-empty-img-default-ellipse"
             cx="67.797"
             cy="106.89"
             rx="67.797"
             ry="12.668"
           />
           <path
-            class="ant-empty-img-default-path-1"
+            class="ezd-empty-img-default-path-1"
             d="M122.034 69.674L98.109 40.229c-1.148-1.386-2.826-2.225-4.593-2.225h-51.44c-1.766 0-3.444.839-4.592 2.225L13.56 69.674v15.383h108.475V69.674z"
           />
           <path
-            class="ant-empty-img-default-path-2"
+            class="ezd-empty-img-default-path-2"
             d="M101.537 86.214L80.63 61.102c-1.001-1.207-2.507-1.867-4.048-1.867H31.724c-1.54 0-3.047.66-4.048 1.867L6.769 86.214v13.792h94.768V86.214z"
             transform="translate(13.56)"
           />
           <path
-            class="ant-empty-img-default-path-3"
+            class="ezd-empty-img-default-path-3"
             d="M33.83 0h67.933a4 4 0 0 1 4 4v93.344a4 4 0 0 1-4 4H33.83a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"
           />
           <path
-            class="ant-empty-img-default-path-4"
+            class="ezd-empty-img-default-path-4"
             d="M42.678 9.953h50.237a2 2 0 0 1 2 2V36.91a2 2 0 0 1-2 2H42.678a2 2 0 0 1-2-2V11.953a2 2 0 0 1 2-2zM42.94 49.767h49.713a2.262 2.262 0 1 1 0 4.524H42.94a2.262 2.262 0 0 1 0-4.524zM42.94 61.53h49.713a2.262 2.262 0 1 1 0 4.525H42.94a2.262 2.262 0 0 1 0-4.525zM121.813 105.032c-.775 3.071-3.497 5.36-6.735 5.36H20.515c-3.238 0-5.96-2.29-6.734-5.36a7.309 7.309 0 0 1-.222-1.79V69.675h26.318c2.907 0 5.25 2.448 5.25 5.42v.04c0 2.971 2.37 5.37 5.277 5.37h34.785c2.907 0 5.277-2.421 5.277-5.393V75.1c0-2.972 2.343-5.426 5.25-5.426h26.318v33.569c0 .617-.077 1.216-.221 1.789z"
           />
         </g>
         <path
-          class="ant-empty-img-default-path-5"
+          class="ezd-empty-img-default-path-5"
           d="M149.121 33.292l-6.83 2.65a1 1 0 0 1-1.317-1.23l1.937-6.207c-2.589-2.944-4.109-6.534-4.109-10.408C138.802 8.102 148.92 0 161.402 0 173.881 0 184 8.102 184 18.097c0 9.995-10.118 18.097-22.599 18.097-4.528 0-8.744-1.066-12.28-2.902z"
         />
         <g
-          class="ant-empty-img-default-g"
+          class="ezd-empty-img-default-g"
           transform="translate(149.65 15.383)"
         >
           <ellipse
@@ -68,7 +68,7 @@ exports[`renders ./components/empty/demo/basic.md correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="ezd-empty-description"
   >
     No Data
   </div>
@@ -79,21 +79,21 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
 <div>
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="ezd-switch"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     >
       default
     </span>
   </button>
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />
   <div
@@ -103,14 +103,14 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Select
     </h4>
     <div
-      class="ant-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ant-select-single ant-select-show-arrow"
       style="width:200px"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -119,7 +119,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -129,12 +129,12 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-placeholder"
+          class="ezd-select-selection-placeholder"
         />
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -163,14 +163,14 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       TreeSelect
     </h4>
     <div
-      class="ant-select ant-tree-select ant-select-single ant-select-show-arrow"
+      class="ezd-select ant-tree-select ant-select-single ant-select-show-arrow"
       style="width:200px"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -179,7 +179,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -189,12 +189,12 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-placeholder"
+          class="ezd-select-selection-placeholder"
         />
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -223,14 +223,14 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Cascader
     </h4>
     <div
-      class="ant-select ant-cascader ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+      class="ezd-select ant-cascader ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
       style="width:200px"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -239,19 +239,19 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             role="combobox"
             type="search"
             value=""
           />
         </span>
         <span
-          class="ant-select-selection-placeholder"
+          class="ezd-select-selection-placeholder"
         />
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -280,26 +280,26 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Transfer
     </h4>
     <div
-      class="ant-transfer"
+      class="ezd-transfer"
     >
       <div
-        class="ant-transfer-list"
+        class="ezd-transfer-list"
       >
         <div
-          class="ant-transfer-list-header"
+          class="ezd-transfer-list-header"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
@@ -323,28 +323,28 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-transfer-list-header-selected"
+            class="ezd-transfer-list-header-selected"
           >
             0 item
           </span>
           <span
-            class="ant-transfer-list-header-title"
+            class="ezd-transfer-list-header-title"
           />
         </div>
         <div
-          class="ant-transfer-list-body"
+          class="ezd-transfer-list-body"
         >
           <div
-            class="ant-transfer-list-body-not-found"
+            class="ezd-transfer-list-body-not-found"
           >
             <div
-              class="ant-empty ant-empty-normal ant-empty-small"
+              class="ezd-empty ant-empty-normal ant-empty-small"
             >
               <div
-                class="ant-empty-image"
+                class="ezd-empty-image"
               >
                 <svg
-                  class="ant-empty-img-simple"
+                  class="ezd-empty-img-simple"
                   height="41"
                   viewBox="0 0 64 41"
                   width="64"
@@ -356,21 +356,21 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                     transform="translate(0 1)"
                   >
                     <ellipse
-                      class="ant-empty-img-simple-ellipse"
+                      class="ezd-empty-img-simple-ellipse"
                       cx="32"
                       cy="33"
                       rx="32"
                       ry="7"
                     />
                     <g
-                      class="ant-empty-img-simple-g"
+                      class="ezd-empty-img-simple-g"
                       fill-rule="nonzero"
                     >
                       <path
                         d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                       />
                       <path
-                        class="ant-empty-img-simple-path"
+                        class="ezd-empty-img-simple-path"
                         d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                       />
                     </g>
@@ -378,7 +378,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 </svg>
               </div>
               <div
-                class="ant-empty-description"
+                class="ezd-empty-description"
               >
                 No Data
               </div>
@@ -387,10 +387,10 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-transfer-operation"
+        class="ezd-transfer-operation"
       >
         <button
-          class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+          class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
           disabled=""
           type="button"
         >
@@ -415,7 +415,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+          class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
           disabled=""
           type="button"
         >
@@ -441,23 +441,23 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-transfer-list"
+        class="ezd-transfer-list"
       >
         <div
-          class="ant-transfer-list-header"
+          class="ezd-transfer-list-header"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
@@ -481,28 +481,28 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-transfer-list-header-selected"
+            class="ezd-transfer-list-header-selected"
           >
             0 item
           </span>
           <span
-            class="ant-transfer-list-header-title"
+            class="ezd-transfer-list-header-title"
           />
         </div>
         <div
-          class="ant-transfer-list-body"
+          class="ezd-transfer-list-body"
         >
           <div
-            class="ant-transfer-list-body-not-found"
+            class="ezd-transfer-list-body-not-found"
           >
             <div
-              class="ant-empty ant-empty-normal ant-empty-small"
+              class="ezd-empty ant-empty-normal ant-empty-small"
             >
               <div
-                class="ant-empty-image"
+                class="ezd-empty-image"
               >
                 <svg
-                  class="ant-empty-img-simple"
+                  class="ezd-empty-img-simple"
                   height="41"
                   viewBox="0 0 64 41"
                   width="64"
@@ -514,21 +514,21 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                     transform="translate(0 1)"
                   >
                     <ellipse
-                      class="ant-empty-img-simple-ellipse"
+                      class="ezd-empty-img-simple-ellipse"
                       cx="32"
                       cy="33"
                       rx="32"
                       ry="7"
                     />
                     <g
-                      class="ant-empty-img-simple-g"
+                      class="ezd-empty-img-simple-g"
                       fill-rule="nonzero"
                     >
                       <path
                         d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                       />
                       <path
-                        class="ant-empty-img-simple-path"
+                        class="ezd-empty-img-simple-path"
                         d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                       />
                     </g>
@@ -536,7 +536,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 </svg>
               </div>
               <div
-                class="ant-empty-description"
+                class="ezd-empty-description"
               >
                 No Data
               </div>
@@ -549,62 +549,62 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Table
     </h4>
     <div
-      class="ant-table-wrapper"
+      class="ezd-table-wrapper"
       style="margin-top:8px"
     >
       <div
-        class="ant-spin-nested-loading"
+        class="ezd-spin-nested-loading"
       >
         <div
-          class="ant-spin-container"
+          class="ezd-spin-container"
         >
           <div
-            class="ant-table ant-table-empty"
+            class="ezd-table ant-table-empty"
           >
             <div
-              class="ant-table-container"
+              class="ezd-table-container"
             >
               <div
-                class="ant-table-content"
+                class="ezd-table-content"
               >
                 <table
                   style="table-layout:auto"
                 >
                   <colgroup />
                   <thead
-                    class="ant-table-thead"
+                    class="ezd-table-thead"
                   >
                     <tr>
                       <th
-                        class="ant-table-cell"
+                        class="ezd-table-cell"
                       >
                         Name
                       </th>
                       <th
-                        class="ant-table-cell"
+                        class="ezd-table-cell"
                       >
                         Age
                       </th>
                     </tr>
                   </thead>
                   <tbody
-                    class="ant-table-tbody"
+                    class="ezd-table-tbody"
                   >
                     <tr
-                      class="ant-table-placeholder"
+                      class="ezd-table-placeholder"
                     >
                       <td
-                        class="ant-table-cell"
+                        class="ezd-table-cell"
                         colspan="2"
                       >
                         <div
-                          class="ant-empty ant-empty-normal"
+                          class="ezd-empty ant-empty-normal"
                         >
                           <div
-                            class="ant-empty-image"
+                            class="ezd-empty-image"
                           >
                             <svg
-                              class="ant-empty-img-simple"
+                              class="ezd-empty-img-simple"
                               height="41"
                               viewBox="0 0 64 41"
                               width="64"
@@ -616,21 +616,21 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                                 transform="translate(0 1)"
                               >
                                 <ellipse
-                                  class="ant-empty-img-simple-ellipse"
+                                  class="ezd-empty-img-simple-ellipse"
                                   cx="32"
                                   cy="33"
                                   rx="32"
                                   ry="7"
                                 />
                                 <g
-                                  class="ant-empty-img-simple-g"
+                                  class="ezd-empty-img-simple-g"
                                   fill-rule="nonzero"
                                 >
                                   <path
                                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                                   />
                                   <path
-                                    class="ant-empty-img-simple-path"
+                                    class="ezd-empty-img-simple-path"
                                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                                   />
                                 </g>
@@ -638,7 +638,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                             </svg>
                           </div>
                           <div
-                            class="ant-empty-description"
+                            class="ezd-empty-description"
                           >
                             No Data
                           </div>
@@ -657,25 +657,25 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       List
     </h4>
     <div
-      class="ant-list ant-list-split"
+      class="ezd-list ant-list-split"
     >
       <div
-        class="ant-spin-nested-loading"
+        class="ezd-spin-nested-loading"
       >
         <div
-          class="ant-spin-container"
+          class="ezd-spin-container"
         >
           <div
-            class="ant-list-empty-text"
+            class="ezd-list-empty-text"
           >
             <div
-              class="ant-empty ant-empty-normal"
+              class="ezd-empty ant-empty-normal"
             >
               <div
-                class="ant-empty-image"
+                class="ezd-empty-image"
               >
                 <svg
-                  class="ant-empty-img-simple"
+                  class="ezd-empty-img-simple"
                   height="41"
                   viewBox="0 0 64 41"
                   width="64"
@@ -687,21 +687,21 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                     transform="translate(0 1)"
                   >
                     <ellipse
-                      class="ant-empty-img-simple-ellipse"
+                      class="ezd-empty-img-simple-ellipse"
                       cx="32"
                       cy="33"
                       rx="32"
                       ry="7"
                     />
                     <g
-                      class="ant-empty-img-simple-g"
+                      class="ezd-empty-img-simple-g"
                       fill-rule="nonzero"
                     >
                       <path
                         d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                       />
                       <path
-                        class="ant-empty-img-simple-path"
+                        class="ezd-empty-img-simple-path"
                         d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                       />
                     </g>
@@ -709,7 +709,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 </svg>
               </div>
               <div
-                class="ant-empty-description"
+                class="ezd-empty-description"
               >
                 No Data
               </div>
@@ -724,10 +724,10 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
 
 exports[`renders ./components/empty/demo/customize.md correctly 1`] = `
 <div
-  class="ant-empty"
+  class="ezd-empty"
 >
   <div
-    class="ant-empty-image"
+    class="ezd-empty-image"
     style="height:60px"
   >
     <img
@@ -736,7 +736,7 @@ exports[`renders ./components/empty/demo/customize.md correctly 1`] = `
     />
   </div>
   <div
-    class="ant-empty-description"
+    class="ezd-empty-description"
   >
     <span>
       Customize 
@@ -748,10 +748,10 @@ exports[`renders ./components/empty/demo/customize.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-empty-footer"
+    class="ezd-empty-footer"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -764,13 +764,13 @@ exports[`renders ./components/empty/demo/customize.md correctly 1`] = `
 
 exports[`renders ./components/empty/demo/description.md correctly 1`] = `
 <div
-  class="ant-empty"
+  class="ezd-empty"
 >
   <div
-    class="ant-empty-image"
+    class="ezd-empty-image"
   >
     <svg
-      class="ant-empty-img-default"
+      class="ezd-empty-img-default"
       height="152"
       viewBox="0 0 184 152"
       width="184"
@@ -784,36 +784,36 @@ exports[`renders ./components/empty/demo/description.md correctly 1`] = `
           transform="translate(24 31.67)"
         >
           <ellipse
-            class="ant-empty-img-default-ellipse"
+            class="ezd-empty-img-default-ellipse"
             cx="67.797"
             cy="106.89"
             rx="67.797"
             ry="12.668"
           />
           <path
-            class="ant-empty-img-default-path-1"
+            class="ezd-empty-img-default-path-1"
             d="M122.034 69.674L98.109 40.229c-1.148-1.386-2.826-2.225-4.593-2.225h-51.44c-1.766 0-3.444.839-4.592 2.225L13.56 69.674v15.383h108.475V69.674z"
           />
           <path
-            class="ant-empty-img-default-path-2"
+            class="ezd-empty-img-default-path-2"
             d="M101.537 86.214L80.63 61.102c-1.001-1.207-2.507-1.867-4.048-1.867H31.724c-1.54 0-3.047.66-4.048 1.867L6.769 86.214v13.792h94.768V86.214z"
             transform="translate(13.56)"
           />
           <path
-            class="ant-empty-img-default-path-3"
+            class="ezd-empty-img-default-path-3"
             d="M33.83 0h67.933a4 4 0 0 1 4 4v93.344a4 4 0 0 1-4 4H33.83a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"
           />
           <path
-            class="ant-empty-img-default-path-4"
+            class="ezd-empty-img-default-path-4"
             d="M42.678 9.953h50.237a2 2 0 0 1 2 2V36.91a2 2 0 0 1-2 2H42.678a2 2 0 0 1-2-2V11.953a2 2 0 0 1 2-2zM42.94 49.767h49.713a2.262 2.262 0 1 1 0 4.524H42.94a2.262 2.262 0 0 1 0-4.524zM42.94 61.53h49.713a2.262 2.262 0 1 1 0 4.525H42.94a2.262 2.262 0 0 1 0-4.525zM121.813 105.032c-.775 3.071-3.497 5.36-6.735 5.36H20.515c-3.238 0-5.96-2.29-6.734-5.36a7.309 7.309 0 0 1-.222-1.79V69.675h26.318c2.907 0 5.25 2.448 5.25 5.42v.04c0 2.971 2.37 5.37 5.277 5.37h34.785c2.907 0 5.277-2.421 5.277-5.393V75.1c0-2.972 2.343-5.426 5.25-5.426h26.318v33.569c0 .617-.077 1.216-.221 1.789z"
           />
         </g>
         <path
-          class="ant-empty-img-default-path-5"
+          class="ezd-empty-img-default-path-5"
           d="M149.121 33.292l-6.83 2.65a1 1 0 0 1-1.317-1.23l1.937-6.207c-2.589-2.944-4.109-6.534-4.109-10.408C138.802 8.102 148.92 0 161.402 0 173.881 0 184 8.102 184 18.097c0 9.995-10.118 18.097-22.599 18.097-4.528 0-8.744-1.066-12.28-2.902z"
         />
         <g
-          class="ant-empty-img-default-g"
+          class="ezd-empty-img-default-g"
           transform="translate(149.65 15.383)"
         >
           <ellipse
@@ -834,13 +834,13 @@ exports[`renders ./components/empty/demo/description.md correctly 1`] = `
 
 exports[`renders ./components/empty/demo/simple.md correctly 1`] = `
 <div
-  class="ant-empty ant-empty-normal"
+  class="ezd-empty ant-empty-normal"
 >
   <div
-    class="ant-empty-image"
+    class="ezd-empty-image"
   >
     <svg
-      class="ant-empty-img-simple"
+      class="ezd-empty-img-simple"
       height="41"
       viewBox="0 0 64 41"
       width="64"
@@ -852,21 +852,21 @@ exports[`renders ./components/empty/demo/simple.md correctly 1`] = `
         transform="translate(0 1)"
       >
         <ellipse
-          class="ant-empty-img-simple-ellipse"
+          class="ezd-empty-img-simple-ellipse"
           cx="32"
           cy="33"
           rx="32"
           ry="7"
         />
         <g
-          class="ant-empty-img-simple-g"
+          class="ezd-empty-img-simple-g"
           fill-rule="nonzero"
         >
           <path
             d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
           />
           <path
-            class="ant-empty-img-simple-path"
+            class="ezd-empty-img-simple-path"
             d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
           />
         </g>
@@ -874,7 +874,7 @@ exports[`renders ./components/empty/demo/simple.md correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="ezd-empty-description"
   >
     No Data
   </div>

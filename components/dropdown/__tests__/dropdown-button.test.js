@@ -51,7 +51,7 @@ describe('DropdownButton', () => {
         <Menu.Item key="1">foo</Menu.Item>
       </Menu>
     );
-    const wrapper = mount(<Dropdown.Button overlay={menu} href="https://ant.design" />);
+    const wrapper = mount(<Dropdown.Button overlay={menu} href="https://saastest3.ys7.com/ezd/" />);
     expect(wrapper.render()).toMatchSnapshot();
   });
 
@@ -62,7 +62,7 @@ describe('DropdownButton', () => {
       </Menu>
     );
     const wrapper = mount(<Dropdown.Button overlay={menu} />);
-    expect(wrapper.type().__ANT_BUTTON).toBe(true);
+    expect(wrapper.type().__EZD_BUTTON).toBe(true);
   });
 
   it('should pass mouseEnterDelay and mouseLeaveDelay to Dropdown', () => {
@@ -92,7 +92,7 @@ describe('DropdownButton', () => {
         visible
       />,
     );
-    expect(wrapper.find('.ant-dropdown').getDOMNode().className).toContain('className');
-    expect(wrapper.find('.ant-dropdown').getDOMNode().style.color).toContain('red');
+    expect(wrapper.find('.ezd-dropdown').getDOMNode().className).toContain('className');
+    expect(wrapper.find('.ezd-dropdown').getDOMNode().style.color).toContain('red');
   });
 });

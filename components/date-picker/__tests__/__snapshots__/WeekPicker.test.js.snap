@@ -2,11 +2,11 @@
 
 exports[`WeekPicker should support style prop 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
   style="width: 400px;"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -17,7 +17,7 @@ exports[`WeekPicker should support style prop 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"

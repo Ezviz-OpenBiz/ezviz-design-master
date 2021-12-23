@@ -2,10 +2,10 @@
 
 exports[`RangePicker customize separator 1`] = `
 <div
-  class="ant-picker ant-picker-range"
+  class="ezd-picker ezd-picker-range"
 >
   <div
-    class="ant-picker-input ant-picker-input-active"
+    class="ezd-picker-input ezd-picker-input-active"
   >
     <input
       autocomplete="off"
@@ -16,12 +16,12 @@ exports[`RangePicker customize separator 1`] = `
     />
   </div>
   <div
-    class="ant-picker-range-separator"
+    class="ezd-picker-range-separator"
   >
     test
   </div>
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -32,11 +32,11 @@ exports[`RangePicker customize separator 1`] = `
     />
   </div>
   <div
-    class="ant-picker-active-bar"
+    class="ezd-picker-active-bar"
     style="left: 0px; width: 0px; position: absolute;"
   />
   <span
-    class="ant-picker-suffix"
+    class="ezd-picker-suffix"
   >
     <span
       aria-label="calendar"
@@ -64,10 +64,10 @@ exports[`RangePicker customize separator 1`] = `
 exports[`RangePicker ranges RangePicker support presetted ranges with Tags 1`] = `
 Array [
   <div
-    class="ant-picker ant-picker-range"
+    class="ezd-picker ezd-picker-range"
   >
     <div
-      class="ant-picker-input ant-picker-input-active"
+      class="ezd-picker-input ezd-picker-input-active"
     >
       <input
         autocomplete="off"
@@ -78,11 +78,11 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-range-separator"
+      class="ezd-picker-range-separator"
     >
       <span
         aria-label="to"
-        class="ant-picker-separator"
+        class="ezd-picker-separator"
       >
         <span
           aria-label="swap-right"
@@ -106,7 +106,7 @@ Array [
       </span>
     </div>
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -117,11 +117,11 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-active-bar"
+      class="ezd-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="calendar"
@@ -146,64 +146,64 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-picker-dropdown ant-picker-dropdown-range"
+      class="ezd-picker-dropdown ezd-picker-dropdown-range"
       style="opacity:0;pointer-events:none"
     >
       <div
-        class="ant-picker-range-wrapper ant-picker-date-range-wrapper"
+        class="ezd-picker-range-wrapper ezd-picker-date-range-wrapper"
         style="min-width:0"
       >
         <div
-          class="ant-picker-range-arrow"
+          class="ezd-picker-range-arrow"
           style="left:0"
         />
         <div
-          class="ant-picker-panel-container"
+          class="ezd-picker-panel-container"
           style="margin-left:0"
         >
           <div
-            class="ant-picker-panels"
+            class="ezd-picker-panels"
           >
             <div
-              class="ant-picker-panel ant-picker-panel-focused"
+              class="ezd-picker-panel ezd-picker-panel-focused"
               tabindex="-1"
             >
               <div
-                class="ant-picker-date-panel"
+                class="ezd-picker-date-panel"
               >
                 <div
-                  class="ant-picker-header"
+                  class="ezd-picker-header"
                 >
                   <button
-                    class="ant-picker-header-super-prev-btn"
+                    class="ezd-picker-header-super-prev-btn"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-super-prev-icon"
+                      class="ezd-picker-super-prev-icon"
                     />
                   </button>
                   <button
-                    class="ant-picker-header-prev-btn"
+                    class="ezd-picker-header-prev-btn"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-prev-icon"
+                      class="ezd-picker-prev-icon"
                     />
                   </button>
                   <div
-                    class="ant-picker-header-view"
+                    class="ezd-picker-header-view"
                   >
                     <button
-                      class="ant-picker-month-btn"
+                      class="ezd-picker-month-btn"
                       tabindex="-1"
                       type="button"
                     >
                       Sep
                     </button>
                     <button
-                      class="ant-picker-year-btn"
+                      class="ezd-picker-year-btn"
                       tabindex="-1"
                       type="button"
                     >
@@ -211,31 +211,31 @@ Array [
                     </button>
                   </div>
                   <button
-                    class="ant-picker-header-next-btn"
+                    class="ezd-picker-header-next-btn"
                     style="visibility:hidden"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-next-icon"
+                      class="ezd-picker-next-icon"
                     />
                   </button>
                   <button
-                    class="ant-picker-header-super-next-btn"
+                    class="ezd-picker-header-super-next-btn"
                     style="visibility:hidden"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-super-next-icon"
+                      class="ezd-picker-super-next-icon"
                     />
                   </button>
                 </div>
                 <div
-                  class="ant-picker-body"
+                  class="ezd-picker-body"
                 >
                   <table
-                    class="ant-picker-content"
+                    class="ezd-picker-content"
                   >
                     <thead>
                       <tr>
@@ -265,71 +265,71 @@ Array [
                     <tbody>
                       <tr>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-08-27"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             27
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-08-28"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             28
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-08-29"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             29
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-08-30"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             30
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-end"
+                          class="ezd-picker-cell ezd-picker-cell-end"
                           title="2017-08-31"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             31
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-start ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-start ezd-picker-cell-in-view"
                           title="2017-09-01"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             1
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-02"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             2
                           </div>
@@ -337,71 +337,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-03"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             3
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-04"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             4
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-05"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             5
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-06"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             6
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-07"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             7
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-08"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             8
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-09"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             9
                           </div>
@@ -409,71 +409,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-10"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             10
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-11"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             11
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-12"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             12
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-13"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             13
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-14"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             14
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-15"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             15
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-16"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             16
                           </div>
@@ -481,71 +481,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-17"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             17
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view ant-picker-cell-today"
+                          class="ezd-picker-cell ezd-picker-cell-in-view ezd-picker-cell-today"
                           title="2017-09-18"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             18
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-19"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             19
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-20"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             20
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-21"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             21
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-22"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             22
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-23"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             23
                           </div>
@@ -553,71 +553,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-24"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             24
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-25"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             25
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-26"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             26
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-27"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             27
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-28"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             28
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-09-29"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             29
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-end ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-end ezd-picker-cell-in-view"
                           title="2017-09-30"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             30
                           </div>
@@ -625,71 +625,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-start"
+                          class="ezd-picker-cell ezd-picker-cell-start"
                           title="2017-10-01"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             1
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-10-02"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             2
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-10-03"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             3
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-10-04"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             4
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-10-05"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             5
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-10-06"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             6
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-10-07"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             7
                           </div>
@@ -701,47 +701,47 @@ Array [
               </div>
             </div>
             <div
-              class="ant-picker-panel ant-picker-panel-focused"
+              class="ezd-picker-panel ezd-picker-panel-focused"
               tabindex="-1"
             >
               <div
-                class="ant-picker-date-panel"
+                class="ezd-picker-date-panel"
               >
                 <div
-                  class="ant-picker-header"
+                  class="ezd-picker-header"
                 >
                   <button
-                    class="ant-picker-header-super-prev-btn"
+                    class="ezd-picker-header-super-prev-btn"
                     style="visibility:hidden"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-super-prev-icon"
+                      class="ezd-picker-super-prev-icon"
                     />
                   </button>
                   <button
-                    class="ant-picker-header-prev-btn"
+                    class="ezd-picker-header-prev-btn"
                     style="visibility:hidden"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-prev-icon"
+                      class="ezd-picker-prev-icon"
                     />
                   </button>
                   <div
-                    class="ant-picker-header-view"
+                    class="ezd-picker-header-view"
                   >
                     <button
-                      class="ant-picker-month-btn"
+                      class="ezd-picker-month-btn"
                       tabindex="-1"
                       type="button"
                     >
                       Oct
                     </button>
                     <button
-                      class="ant-picker-year-btn"
+                      class="ezd-picker-year-btn"
                       tabindex="-1"
                       type="button"
                     >
@@ -749,29 +749,29 @@ Array [
                     </button>
                   </div>
                   <button
-                    class="ant-picker-header-next-btn"
+                    class="ezd-picker-header-next-btn"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-next-icon"
+                      class="ezd-picker-next-icon"
                     />
                   </button>
                   <button
-                    class="ant-picker-header-super-next-btn"
+                    class="ezd-picker-header-super-next-btn"
                     tabindex="-1"
                     type="button"
                   >
                     <span
-                      class="ant-picker-super-next-icon"
+                      class="ezd-picker-super-next-icon"
                     />
                   </button>
                 </div>
                 <div
-                  class="ant-picker-body"
+                  class="ezd-picker-body"
                 >
                   <table
-                    class="ant-picker-content"
+                    class="ezd-picker-content"
                   >
                     <thead>
                       <tr>
@@ -801,71 +801,71 @@ Array [
                     <tbody>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-start ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-start ezd-picker-cell-in-view"
                           title="2017-10-01"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             1
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-02"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             2
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-03"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             3
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-04"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             4
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-05"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             5
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-06"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             6
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-07"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             7
                           </div>
@@ -873,71 +873,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-08"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             8
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-09"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             9
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-10"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             10
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-11"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             11
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-12"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             12
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-13"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             13
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-14"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             14
                           </div>
@@ -945,71 +945,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-15"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             15
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-16"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             16
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-17"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             17
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-18"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             18
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-19"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             19
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-20"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             20
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-21"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             21
                           </div>
@@ -1017,71 +1017,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-22"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             22
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-23"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             23
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-24"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             24
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-25"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             25
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-26"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             26
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-27"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             27
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-28"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             28
                           </div>
@@ -1089,71 +1089,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-29"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             29
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-in-view"
                           title="2017-10-30"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             30
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-end ant-picker-cell-in-view"
+                          class="ezd-picker-cell ezd-picker-cell-end ezd-picker-cell-in-view"
                           title="2017-10-31"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             31
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell ant-picker-cell-start"
+                          class="ezd-picker-cell ezd-picker-cell-start"
                           title="2017-11-01"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             1
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-02"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             2
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-03"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             3
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-04"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             4
                           </div>
@@ -1161,71 +1161,71 @@ Array [
                       </tr>
                       <tr>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-05"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             5
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-06"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             6
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-07"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             7
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-08"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             8
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-09"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             9
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-10"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             10
                           </div>
                         </td>
                         <td
-                          class="ant-picker-cell"
+                          class="ezd-picker-cell"
                           title="2017-11-11"
                         >
                           <div
-                            class="ant-picker-cell-inner"
+                            class="ezd-picker-cell-inner"
                           >
                             11
                           </div>
@@ -1238,25 +1238,25 @@ Array [
             </div>
           </div>
           <div
-            class="ant-picker-footer"
+            class="ezd-picker-footer"
           >
             <ul
-              class="ant-picker-ranges"
+              class="ezd-picker-ranges"
             >
               <li
-                class="ant-picker-preset"
+                class="ezd-picker-preset"
               >
                 <span
-                  class="ant-tag ant-tag-blue"
+                  class="ezd-tag ezd-tag-blue"
                 >
                   Today
                 </span>
               </li>
               <li
-                class="ant-picker-preset"
+                class="ezd-picker-preset"
               >
                 <span
-                  class="ant-tag ant-tag-blue"
+                  class="ezd-tag ezd-tag-blue"
                 >
                   This Month
                 </span>

@@ -2,8 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "antd": ["components/index.tsx"],
-      "antd/es/*": ["components/*"]
+      "@ezviz/ezd": ["components/index.tsx"],
+      "@ezviz/ezd/es/*": ["components/*"]
     },
     "strictNullChecks": true,
     "module": "esnext",

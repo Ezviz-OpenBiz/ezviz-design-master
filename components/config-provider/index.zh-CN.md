@@ -47,23 +47,23 @@ export default () => (
 | form | 设置 Form 组件的通用属性 | { validateMessages?: [ValidateMessages](/components/form/#validateMessages), requiredMark?: boolean \| `optional` } | - | requiredMark: 4.8.0 |
 | getPopupContainer | 弹出框（Select, Tooltip, Menu 等等）渲染父节点，默认渲染到 body 上。 | function(triggerNode) | () => document.body |  |
 | getTargetContainer | 配置 Affix、Anchor 滚动监听容器。 | () => HTMLElement | () => window | 4.2.0 |
-| iconPrefixCls | 设置图标统一样式前缀。注意：需要配合 `less` 变量 [@iconfont-css-prefix](https://github.com/ant-design/ant-design/blob/d943b85a523bdf181dabc12c928226f3b4b893de/components/style/themes/default.less#L106) 使用 | string | `anticon` | 4.11.0 |
+| iconPrefixCls | 设置图标统一样式前缀。注意：需要配合 `less` 变量 [@iconfont-css-prefix](https://github.com/Ezviz-OpenBiz/ezviz-design-master/blob/d943b85a523bdf181dabc12c928226f3b4b893de/components/style/themes/default.less#L106) 使用 | string | `ezdicon` | 4.11.0 |
 | input | 设置 Input 组件的通用属性 | { autoComplete?: string } | - | 4.2.0 |
 | locale | 语言包配置，语言包可到 @ezviz/ezd/lib/locale 目录下寻找 | object | - |  |
 | pageHeader | 统一设置 PageHeader 的 ghost，参考 [PageHeader](/components/page-header) | { ghost: boolean } | true |  |
-| prefixCls | 设置统一样式前缀。注意：需要配合 `less` 变量 [@ezd-prefix](https://github.com/ant-design/ant-design/blob/2c6c789e3a9356f96c47aea0083f5a15538315cf/components/style/themes/default.less#L7) 使用 | string | `ant` |  |
+| prefixCls | 设置统一样式前缀。注意：需要配合 `less` 变量 [@ezd-prefix](https://github.com/Ezviz-OpenBiz/ezviz-design-master/blob/2c6c789e3a9356f96c47aea0083f5a15538315cf/components/style/themes/default.less#L7) 使用 | string | `ezd` |  |
 | renderEmpty | 自定义组件空状态。参考 [空状态](/components/empty/) | function(componentName: string): ReactNode | - |  |
 | space | 设置 Space 的 `size`，参考 [Space](/components/space) | { size: `small` \| `middle` \| `large` \| `number` } | - | 4.1.0 |
 | virtual | 设置 `false` 时关闭虚拟滚动 | boolean | - | 4.3.0 |
 
-### ConfigProvider.config() `4.13.0+`
+### ConfigProvider.config()
 
 设置 `Modal`、`Message`、`Notification` rootPrefixCls。
 
 ```jsx
 ConfigProvider.config({
-  prefixCls: 'ant', // 4.13.0+
-  iconPrefixCls: 'anticon', // 4.17.0+
+  prefixCls: 'ezd',
+  iconPrefixCls: 'ezdicon',
 });
 ```
 
@@ -84,7 +84,6 @@ moment.locale('zh-cn');
 
 #### 配置 `getPopupContainer` 导致 Modal 报错？
 
-相关 issue：<https://github.com/ant-design/ant-design/issues/19974>
 
 当如下全局设置 `getPopupContainer` 为触发节点的 parentNode 时，由于 Modal 的用法不存在 `triggerNode`，这样会导致 `triggerNode is undefined` 的报错，需要增加一个判断条件
 

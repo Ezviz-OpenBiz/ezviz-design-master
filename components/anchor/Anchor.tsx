@@ -72,7 +72,7 @@ export interface AnchorDefaultProps extends AnchorProps {
   getContainer: () => AnchorContainer;
 }
 
-export interface AntAnchor {
+export interface EzdAnchor {
   registerLink: (link: string) => void;
   unregisterLink: (link: string) => void;
   activeLink: string | null;
@@ -227,7 +227,6 @@ export default class Anchor extends React.Component<AnchorProps, AnchorState, Co
     if (activeLink === link) {
       return;
     }
-    // https://github.com/ant-design/ant-design/issues/30584
     this.setState({
       activeLink: typeof getCurrentAnchor === 'function' ? getCurrentAnchor() : link,
     });

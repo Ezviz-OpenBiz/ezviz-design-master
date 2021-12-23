@@ -563,13 +563,13 @@ ReactDOM.render(<App />, mountNode);
 ```
 
 ```css
-.button-demo .ant-btn,
-.button-demo .ant-btn-group {
+.button-demo .ezd-btn,
+.button-demo .ezd-btn-group {
   margin-right: 8px;
   margin-bottom: 12px;
 }
-.button-demo .ant-btn-group > .ant-btn,
-.button-demo .ant-btn-group > span > .ant-btn {
+.button-demo .ezd-btn-group > .ezd-btn,
+.button-demo .ezd-btn-group > span > .ezd-btn {
   margin-right: 0;
   margin-left: 0;
 }
@@ -583,10 +583,10 @@ ReactDOM.render(<App />, mountNode);
   border-radius: 4px;
 }
 
-.ant-badge:not(.ant-badge-not-a-wrapper) {
+.ezd-badge:not(.ezd-badge-not-a-wrapper) {
   margin-right: 20px;
 }
-.ant-badge-rtl:not(.ant-badge-not-a-wrapper) {
+.ezd-badge-rtl:not(.ezd-badge-not-a-wrapper) {
   margin-right: 0;
   margin-left: 20px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { message } from 'antd';
+import { message } from '@ezviz/ezd';
 import RcFooter from 'rc-footer';
 import { presetPalettes } from '@ant-design/colors';
 import { FormattedMessage, injectIntl, WrappedComponentProps } from 'react-intl';
@@ -13,12 +13,6 @@ const getColumns = () => {
   const col1 = {
     title: <FormattedMessage id="app.footer.resources" />,
     items: [
-      {
-        title: 'Scaffolds',
-        description: <FormattedMessage id="app.footer.scaffolds" />,
-        url: 'https://scaffold.ant.design',
-        openExternal: true,
-      },
       {
         title: 'Umi',
         description: <FormattedMessage id="app.footer.umi" />,
@@ -68,7 +62,7 @@ const getColumns = () => {
     icon: (
       <img
         src="https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg"
-        alt="Ant XTech"
+        alt="Ezd"
       />
     ),
     title: <FormattedMessage id="app.footer.more-product" />,

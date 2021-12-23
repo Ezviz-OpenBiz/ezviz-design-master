@@ -2,25 +2,25 @@
 
 exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top"
+  class="ezd-tabs ant-tabs-top"
 >
   <div
-    class="ant-tabs-nav"
+    class="ezd-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="ezd-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="ezd-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="ezd-tabs-tab ant-tabs-tab-active"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -28,11 +28,11 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -40,11 +40,11 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -52,19 +52,19 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-hidden="true"
-        class="ant-tabs-nav-more"
+        class="ezd-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         tabindex="-1"
@@ -93,14 +93,14 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="ezd-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="ezd-tabs-content ant-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="ezd-tabs-tabpane ant-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -108,14 +108,14 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
@@ -127,25 +127,25 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-card"
+  class="ezd-tabs ant-tabs-top ant-tabs-card"
 >
   <div
-    class="ant-tabs-nav"
+    class="ezd-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="ezd-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="ezd-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="ezd-tabs-tab ant-tabs-tab-active"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -153,11 +153,11 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -165,11 +165,11 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -177,19 +177,19 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-hidden="true"
-        class="ant-tabs-nav-more"
+        class="ezd-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         tabindex="-1"
@@ -218,14 +218,14 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="ezd-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="ezd-tabs-content ant-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="ezd-tabs-tabpane ant-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -233,14 +233,14 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
@@ -255,25 +255,25 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
   class="card-container"
 >
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-card"
+    class="ezd-tabs ant-tabs-top ant-tabs-card"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -281,11 +281,11 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -293,11 +293,11 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -305,19 +305,19 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -346,14 +346,14 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -369,14 +369,14 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -389,25 +389,25 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/centered.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-centered"
+  class="ezd-tabs ant-tabs-top ant-tabs-centered"
 >
   <div
-    class="ant-tabs-nav"
+    class="ezd-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="ezd-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="ezd-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="ezd-tabs-tab ant-tabs-tab-active"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -415,11 +415,11 @@ exports[`renders ./components/tabs/demo/centered.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -427,11 +427,11 @@ exports[`renders ./components/tabs/demo/centered.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -439,19 +439,19 @@ exports[`renders ./components/tabs/demo/centered.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-hidden="true"
-        class="ant-tabs-nav-more"
+        class="ezd-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         tabindex="-1"
@@ -480,14 +480,14 @@ exports[`renders ./components/tabs/demo/centered.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="ezd-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="ezd-tabs-content ant-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="ezd-tabs-tabpane ant-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -495,14 +495,14 @@ exports[`renders ./components/tabs/demo/centered.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
@@ -518,7 +518,7 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
     style="margin-bottom:16px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -527,25 +527,25 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-card ant-tabs-editable-card"
+    class="ezd-tabs ant-tabs-top ant-tabs-editable ant-tabs-card ant-tabs-editable-card"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -553,7 +553,7 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="ezd-tabs-tab-remove"
               tabindex="0"
               type="button"
             >
@@ -579,11 +579,11 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
             </button>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove"
+            class="ezd-tabs-tab ant-tabs-tab-with-remove"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -591,7 +591,7 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="ezd-tabs-tab-remove"
               tabindex="0"
               type="button"
             >
@@ -617,19 +617,19 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
             </button>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -658,14 +658,14 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -673,7 +673,7 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -687,27 +687,27 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
 <div>
   <div
-    class="ant-tabs ant-tabs-top"
+    class="ezd-tabs ant-tabs-top"
   >
     <div>
       <div />
       <div
-        class="ant-tabs-nav site-custom-tab-bar"
+        class="ezd-tabs-nav site-custom-tab-bar"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="ezd-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="ezd-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="ezd-tabs-tab ant-tabs-tab-active"
             >
               <div
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="ezd-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -715,11 +715,11 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="ezd-tabs-tab"
             >
               <div
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="ezd-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -727,11 +727,11 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="ezd-tabs-tab"
             >
               <div
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="ezd-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -739,19 +739,19 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
             aria-hidden="true"
-            class="ant-tabs-nav-more"
+            class="ezd-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             tabindex="-1"
@@ -781,14 +781,14 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           style="height:200px"
           tabindex="0"
@@ -797,14 +797,14 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -817,25 +817,25 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/custom-tab-bar-node.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top"
+  class="ezd-tabs ant-tabs-top"
 >
   <div
-    class="ant-tabs-nav"
+    class="ezd-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="ezd-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="ezd-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="ezd-tabs-tab ant-tabs-tab-active"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -843,11 +843,11 @@ exports[`renders ./components/tabs/demo/custom-tab-bar-node.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -855,11 +855,11 @@ exports[`renders ./components/tabs/demo/custom-tab-bar-node.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -867,19 +867,19 @@ exports[`renders ./components/tabs/demo/custom-tab-bar-node.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-hidden="true"
-        class="ant-tabs-nav-more"
+        class="ezd-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         tabindex="-1"
@@ -908,14 +908,14 @@ exports[`renders ./components/tabs/demo/custom-tab-bar-node.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="ezd-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="ezd-tabs-content ant-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="ezd-tabs-tabpane ant-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -923,14 +923,14 @@ exports[`renders ./components/tabs/demo/custom-tab-bar-node.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
@@ -942,25 +942,25 @@ exports[`renders ./components/tabs/demo/custom-tab-bar-node.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top"
+  class="ezd-tabs ant-tabs-top"
 >
   <div
-    class="ant-tabs-nav"
+    class="ezd-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="ezd-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="ezd-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="ezd-tabs-tab ant-tabs-tab-active"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -968,23 +968,23 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-disabled"
+          class="ezd-tabs-tab ant-tabs-tab-disabled"
         >
           <div
             aria-disabled="true"
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
           >
             Tab 2
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -992,19 +992,19 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-hidden="true"
-        class="ant-tabs-nav-more"
+        class="ezd-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         tabindex="-1"
@@ -1033,14 +1033,14 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="ezd-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="ezd-tabs-content ant-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="ezd-tabs-tabpane ant-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -1048,14 +1048,14 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
@@ -1067,25 +1067,25 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-card ant-tabs-editable-card"
+  class="ezd-tabs ant-tabs-top ant-tabs-editable ant-tabs-card ant-tabs-editable-card"
 >
   <div
-    class="ant-tabs-nav"
+    class="ezd-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="ezd-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="ezd-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+          class="ezd-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -1093,7 +1093,7 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
           </div>
           <button
             aria-label="remove"
-            class="ant-tabs-tab-remove"
+            class="ezd-tabs-tab-remove"
             tabindex="0"
             type="button"
           >
@@ -1119,11 +1119,11 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
           </button>
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-with-remove"
+          class="ezd-tabs-tab ant-tabs-tab-with-remove"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -1131,7 +1131,7 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
           </div>
           <button
             aria-label="remove"
-            class="ant-tabs-tab-remove"
+            class="ezd-tabs-tab-remove"
             tabindex="0"
             type="button"
           >
@@ -1157,11 +1157,11 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
           </button>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -1170,7 +1170,7 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
         </div>
         <button
           aria-label="Add tab"
-          class="ant-tabs-nav-add"
+          class="ezd-tabs-nav-add"
           type="button"
         >
           <span
@@ -1198,19 +1198,19 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
           </span>
         </button>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-hidden="true"
-        class="ant-tabs-nav-more"
+        class="ezd-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         tabindex="-1"
@@ -1238,7 +1238,7 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
       </button>
       <button
         aria-label="Add tab"
-        class="ant-tabs-nav-add"
+        class="ezd-tabs-nav-add"
         type="button"
       >
         <span
@@ -1268,14 +1268,14 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="ezd-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="ezd-tabs-content ant-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="ezd-tabs-tabpane ant-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -1283,14 +1283,14 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
@@ -1303,25 +1303,25 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
 Array [
   <div
-    class="ant-tabs ant-tabs-top"
+    class="ezd-tabs ant-tabs-top"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -1329,11 +1329,11 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -1341,11 +1341,11 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -1353,19 +1353,19 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -1393,10 +1393,10 @@ Array [
         </button>
       </div>
       <div
-        class="ant-tabs-extra-content"
+        class="ezd-tabs-extra-content"
       >
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -1406,14 +1406,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -1421,14 +1421,14 @@ Array [
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -1443,26 +1443,26 @@ Array [
     You can also specify its direction or both side
   </div>,
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />,
   <div
-    class="ant-checkbox-group"
+    class="ezd-checkbox-group"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="left"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -1470,19 +1470,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
+      class="ezd-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
     >
       <span
-        class="ant-checkbox ant-checkbox-checked"
+        class="ezd-checkbox ant-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="ezd-checkbox-input"
           type="checkbox"
           value="right"
         />
         <span
-          class="ant-checkbox-inner"
+          class="ezd-checkbox-inner"
         />
       </span>
       <span>
@@ -1493,17 +1493,17 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-tabs ant-tabs-top"
+    class="ezd-tabs ant-tabs-top"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-extra-content"
+        class="ezd-tabs-extra-content"
       >
         <button
-          class="ant-btn tabs-extra-demo-button"
+          class="ezd-btn tabs-extra-demo-button"
           type="button"
         >
           <span>
@@ -1512,18 +1512,18 @@ Array [
         </button>
       </div>
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -1531,11 +1531,11 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -1543,11 +1543,11 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -1555,19 +1555,19 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -1595,10 +1595,10 @@ Array [
         </button>
       </div>
       <div
-        class="ant-tabs-extra-content"
+        class="ezd-tabs-extra-content"
       >
         <button
-          class="ant-btn"
+          class="ezd-btn"
           type="button"
         >
           <span>
@@ -1608,14 +1608,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -1623,14 +1623,14 @@ Array [
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -1643,25 +1643,25 @@ Array [
 
 exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top"
+  class="ezd-tabs ant-tabs-top"
 >
   <div
-    class="ant-tabs-nav"
+    class="ezd-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="ezd-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="ezd-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab"
+          class="ezd-tabs-tab"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -1690,11 +1690,11 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="ezd-tabs-tab ant-tabs-tab-active"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="ezd-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -1723,19 +1723,19 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
         aria-hidden="true"
-        class="ant-tabs-nav-more"
+        class="ezd-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         tabindex="-1"
@@ -1764,21 +1764,21 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="ezd-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="ezd-tabs-content ant-tabs-content-top"
     >
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane"
+        class="ezd-tabs-tabpane"
         role="tabpanel"
         style="display:none"
         tabindex="-1"
       />
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="ezd-tabs-tabpane ant-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -1792,14 +1792,14 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
 <div>
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -1808,7 +1808,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -1818,12 +1818,12 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
         />
       </span>
       <span
-        class="ant-select-selection-placeholder"
+        class="ezd-select-selection-placeholder"
       />
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -1849,14 +1849,14 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -1865,7 +1865,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -1875,12 +1875,12 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
         />
       </span>
       <span
-        class="ant-select-selection-placeholder"
+        class="ezd-select-selection-placeholder"
       />
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -1906,14 +1906,14 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -1922,7 +1922,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -1932,12 +1932,12 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
         />
       </span>
       <span
-        class="ant-select-selection-placeholder"
+        class="ezd-select-selection-placeholder"
       />
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -1963,14 +1963,14 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -1979,7 +1979,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -1989,12 +1989,12 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
         />
       </span>
       <span
-        class="ant-select-selection-placeholder"
+        class="ezd-select-selection-placeholder"
       />
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -2020,25 +2020,25 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-tabs ant-tabs-top"
+    class="ezd-tabs ant-tabs-top"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2046,11 +2046,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2058,19 +2058,19 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -2099,38 +2099,38 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
           <div
-            class="ant-tabs ant-tabs-top"
+            class="ezd-tabs ant-tabs-top"
             style="height:300px"
           >
             <div
-              class="ant-tabs-nav"
+              class="ezd-tabs-nav"
               role="tablist"
             >
               <div
-                class="ant-tabs-nav-wrap"
+                class="ezd-tabs-nav-wrap"
               >
                 <div
-                  class="ant-tabs-nav-list"
+                  class="ezd-tabs-nav-list"
                   style="transform:translate(0px, 0px)"
                 >
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2138,11 +2138,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab ant-tabs-tab-active"
+                    class="ezd-tabs-tab ant-tabs-tab-active"
                   >
                     <div
                       aria-selected="true"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2150,11 +2150,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2162,11 +2162,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2174,11 +2174,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2186,11 +2186,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2198,11 +2198,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2210,11 +2210,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2222,11 +2222,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2234,11 +2234,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2246,11 +2246,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2258,11 +2258,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2270,11 +2270,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2282,11 +2282,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2294,11 +2294,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2306,11 +2306,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2318,11 +2318,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2330,11 +2330,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2342,11 +2342,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2354,11 +2354,11 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="ezd-tabs-tab"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="ezd-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -2366,19 +2366,19 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                    class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
                   />
                 </div>
               </div>
               <div
-                class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+                class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
               >
                 <button
                   aria-controls="null-more-popup"
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-hidden="true"
-                  class="ant-tabs-nav-more"
+                  class="ezd-tabs-nav-more"
                   id="null-more"
                   style="visibility:hidden;order:1"
                   tabindex="-1"
@@ -2407,21 +2407,21 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-content-holder"
+              class="ezd-tabs-content-holder"
             >
               <div
-                class="ant-tabs-content ant-tabs-content-top"
+                class="ezd-tabs-content ant-tabs-content-top"
               >
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="false"
-                  class="ant-tabs-tabpane ant-tabs-tabpane-active"
+                  class="ezd-tabs-tabpane ant-tabs-tabpane-active"
                   role="tabpanel"
                   tabindex="0"
                 >
@@ -2429,126 +2429,126 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                 </div>
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
                 />
                 <div
                   aria-hidden="true"
-                  class="ant-tabs-tabpane"
+                  class="ezd-tabs-tabpane"
                   role="tabpanel"
                   style="display:none"
                   tabindex="-1"
@@ -2559,7 +2559,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -2573,34 +2573,34 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ezd-space ant-space-horizontal ant-space-align-center"
     style="margin-bottom:24px"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       Tab position:
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <div
-        class="ant-radio-group ant-radio-group-outline"
+        class="ezd-radio-group ant-radio-group-outline"
       >
         <label
-          class="ant-radio-button-wrapper"
+          class="ezd-radio-button-wrapper"
         >
           <span
-            class="ant-radio-button"
+            class="ezd-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="ezd-radio-button-input"
               type="radio"
               value="top"
             />
             <span
-              class="ant-radio-button-inner"
+              class="ezd-radio-button-inner"
             />
           </span>
           <span>
@@ -2608,18 +2608,18 @@ Array [
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper"
+          class="ezd-radio-button-wrapper"
         >
           <span
-            class="ant-radio-button"
+            class="ezd-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="ezd-radio-button-input"
               type="radio"
               value="bottom"
             />
             <span
-              class="ant-radio-button-inner"
+              class="ezd-radio-button-inner"
             />
           </span>
           <span>
@@ -2627,19 +2627,19 @@ Array [
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+          class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
         >
           <span
-            class="ant-radio-button ant-radio-button-checked"
+            class="ezd-radio-button ant-radio-button-checked"
           >
             <input
               checked=""
-              class="ant-radio-button-input"
+              class="ezd-radio-button-input"
               type="radio"
               value="left"
             />
             <span
-              class="ant-radio-button-inner"
+              class="ezd-radio-button-inner"
             />
           </span>
           <span>
@@ -2647,18 +2647,18 @@ Array [
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper"
+          class="ezd-radio-button-wrapper"
         >
           <span
-            class="ant-radio-button"
+            class="ezd-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="ezd-radio-button-input"
               type="radio"
               value="right"
             />
             <span
-              class="ant-radio-button-inner"
+              class="ezd-radio-button-inner"
             />
           </span>
           <span>
@@ -2669,25 +2669,25 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-tabs ant-tabs-left"
+    class="ezd-tabs ant-tabs-left"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2695,11 +2695,11 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2707,11 +2707,11 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2719,19 +2719,19 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -2760,14 +2760,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-left"
+        class="ezd-tabs-content ant-tabs-content-left"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -2775,14 +2775,14 @@ Array [
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -2796,23 +2796,23 @@ Array [
 exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
     style="margin-bottom:16px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="small"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -2820,18 +2820,18 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="default"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -2839,18 +2839,18 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="large"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -2859,26 +2859,26 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
     </label>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-small"
+    class="ezd-tabs ant-tabs-top ant-tabs-small"
     style="margin-bottom:32px"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2886,11 +2886,11 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2898,11 +2898,11 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2910,19 +2910,19 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -2951,14 +2951,14 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -2966,14 +2966,14 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -2982,25 +2982,25 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-small ant-tabs-card"
+    class="ezd-tabs ant-tabs-top ant-tabs-small ant-tabs-card"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3008,11 +3008,11 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3020,11 +3020,11 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3032,19 +3032,19 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -3073,14 +3073,14 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -3088,14 +3088,14 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
@@ -3109,23 +3109,23 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
     style="margin-bottom:8px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="top"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -3133,18 +3133,18 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="left"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -3153,27 +3153,27 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
     </label>
   </div>
   <div
-    class="ant-tabs ant-tabs-top"
+    class="ezd-tabs ant-tabs-top"
     style="height:220px"
   >
     <div
-      class="ant-tabs-nav"
+      class="ezd-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="ezd-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="ezd-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3181,12 +3181,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="ezd-tabs-tab ant-tabs-tab-active"
           >
             <div
               aria-disabled="false"
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3194,12 +3194,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3207,12 +3207,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3220,12 +3220,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3233,12 +3233,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3246,12 +3246,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3259,12 +3259,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3272,12 +3272,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3285,12 +3285,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3298,12 +3298,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3311,12 +3311,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3324,12 +3324,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3337,12 +3337,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3350,12 +3350,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3363,12 +3363,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3376,12 +3376,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3389,12 +3389,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3402,12 +3402,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3415,12 +3415,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3428,12 +3428,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3441,12 +3441,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3454,12 +3454,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3467,12 +3467,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3480,12 +3480,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3493,12 +3493,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3506,12 +3506,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3519,12 +3519,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3532,24 +3532,24 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-disabled"
+            class="ezd-tabs-tab ant-tabs-tab-disabled"
           >
             <div
               aria-disabled="true"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
             >
               Tab-28
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="ezd-tabs-tab"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="ezd-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3557,19 +3557,19 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="ezd-tabs-ink-bar ant-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="ezd-tabs-nav-operations ant-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-hidden="true"
-          class="ant-tabs-nav-more"
+          class="ezd-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           tabindex="-1"
@@ -3598,21 +3598,21 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="ezd-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="ezd-tabs-content ant-tabs-content-top"
       >
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="ezd-tabs-tabpane ant-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -3620,196 +3620,196 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
         </div>
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"
         />
         <div
           aria-hidden="true"
-          class="ant-tabs-tabpane"
+          class="ezd-tabs-tabpane"
           role="tabpanel"
           style="display:none"
           tabindex="-1"

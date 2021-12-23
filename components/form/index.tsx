@@ -30,7 +30,7 @@ Form.create = () => {
   devWarning(
     false,
     'Form',
-    'Please remove or use `@ant-design/compatible` instead.',
+    'Please remove',
   );
 };
 

@@ -2,21 +2,21 @@
 
 exports[`InputNumber rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-input-number ant-input-number-rtl"
+  class="ezd-input-number ezd-input-number-rtl"
 >
   <div
-    class="ant-input-number-handler-wrap"
+    class="ezd-input-number-handler-wrap"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-handler ant-input-number-handler-up"
+      class="ezd-input-number-handler ezd-input-number-handler-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="up"
-        class="anticon anticon-up ant-input-number-handler-up-inner"
+        class="anticon anticon-up ezd-input-number-handler-up-inner"
         role="img"
       >
         <svg
@@ -37,13 +37,13 @@ exports[`InputNumber rtl render component should be rendered correctly in RTL di
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-handler ant-input-number-handler-down"
+      class="ezd-input-number-handler ezd-input-number-handler-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down ant-input-number-handler-down-inner"
+        class="anticon anticon-down ezd-input-number-handler-down-inner"
         role="img"
       >
         <svg
@@ -63,11 +63,11 @@ exports[`InputNumber rtl render component should be rendered correctly in RTL di
     </span>
   </div>
   <div
-    class="ant-input-number-input-wrap"
+    class="ezd-input-number-input-wrap"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="ezd-input-number-input"
       role="spinbutton"
       step="1"
       value=""

@@ -37,17 +37,17 @@ describe('Tabs', () => {
     });
 
     it('add card', () => {
-      wrapper.find('.ant-tabs-nav-add').first().simulate('click');
+      wrapper.find('.ezd-tabs-nav-add').first().simulate('click');
       expect(handleEdit.mock.calls[0][1]).toBe('add');
     });
 
     it('remove card', () => {
-      wrapper.find('.anticon-close').simulate('click');
+      wrapper.find('.ezdicon-close').simulate('click');
       expect(handleEdit).toHaveBeenCalledWith('1', 'remove');
     });
 
     it('validateElement', () => {
-      expect(wrapper.find('.ant-tabs-tab').length).toBe(1);
+      expect(wrapper.find('.ezd-tabs-tab').length).toBe(1);
     });
   });
 
@@ -81,7 +81,7 @@ describe('Tabs', () => {
     const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     mount(<Tabs onNextClick={() => {}} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Tabs] `onPrevClick` and `onNextClick` has been removed. Please use `onTabScroll` instead.',
+      'Warning: [ezd: Tabs] `onPrevClick` and `onNextClick` has been removed. Please use `onTabScroll` instead.',
     );
     errorSpy.mockRestore();
   });

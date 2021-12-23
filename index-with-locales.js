@@ -1,12 +1,12 @@
-const antd = require('./components');
+const ezd = require('./components');
 
 const req = require.context('./components', true, /^\.\/locale\/.+_.+\.tsx$/);
 
-antd.locales = {};
+ezd.locales = {};
 
 req.keys().forEach(mod => {
   const matches = mod.match(/\/([^/]+).tsx$/);
-  antd.locales[matches[1]] = req(mod).default;
+  ezd.locales[matches[1]] = req(mod).default;
 });
 
-module.exports = antd;
+module.exports = ezd;

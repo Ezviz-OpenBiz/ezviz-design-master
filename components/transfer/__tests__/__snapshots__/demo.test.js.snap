@@ -2,27 +2,27 @@
 
 exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="ezd-transfer"
 >
   <div
-    class="ant-transfer-list ant-transfer-list-with-footer"
+    class="ezd-transfer-list ant-transfer-list-with-footer"
     style="width:250px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -46,25 +46,25 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0 item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="ezd-transfer-list-body ant-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="ezd-transfer-list-body-search-wrapper"
       >
         <span
-          class="ant-input-affix-wrapper ant-transfer-list-search"
+          class="ezd-input-affix-wrapper ant-transfer-list-search"
         >
           <span
-            class="ant-input-prefix"
+            class="ezd-input-prefix"
           >
             <span
               aria-label="search"
@@ -87,13 +87,13 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             </span>
           </span>
           <input
-            class="ant-input"
+            class="ezd-input"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-input-suffix"
+            class="ezd-input-suffix"
           >
             <span
               aria-label="close-circle"
@@ -119,16 +119,16 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-transfer-list-body-not-found"
+        class="ezd-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-normal ant-empty-small"
+          class="ezd-empty ant-empty-normal ant-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="ezd-empty-image"
           >
             <svg
-              class="ant-empty-img-simple"
+              class="ezd-empty-img-simple"
               height="41"
               viewBox="0 0 64 41"
               width="64"
@@ -140,21 +140,21 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
                 transform="translate(0 1)"
               >
                 <ellipse
-                  class="ant-empty-img-simple-ellipse"
+                  class="ezd-empty-img-simple-ellipse"
                   cx="32"
                   cy="33"
                   rx="32"
                   ry="7"
                 />
                 <g
-                  class="ant-empty-img-simple-g"
+                  class="ezd-empty-img-simple-g"
                   fill-rule="nonzero"
                 >
                   <path
                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                   />
                   <path
-                    class="ant-empty-img-simple-path"
+                    class="ezd-empty-img-simple-path"
                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                   />
                 </g>
@@ -162,7 +162,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="ezd-empty-description"
           >
             No Data
           </div>
@@ -170,10 +170,10 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-transfer-list-footer"
+      class="ezd-transfer-list-footer"
     >
       <button
-        class="ant-btn ant-btn-sm"
+        class="ezd-btn ant-btn-sm"
         style="float:left;margin:5px"
         type="button"
       >
@@ -184,10 +184,10 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="ezd-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm"
+      class="ezd-btn ant-btn-primary ant-btn-sm"
       disabled=""
       type="button"
     >
@@ -215,7 +215,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm"
+      class="ezd-btn ant-btn-primary ant-btn-sm"
       disabled=""
       type="button"
     >
@@ -244,24 +244,24 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list ant-transfer-list-with-footer"
+    class="ezd-transfer-list ant-transfer-list-with-footer"
     style="width:250px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -285,25 +285,25 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0 item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="ezd-transfer-list-body ant-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="ezd-transfer-list-body-search-wrapper"
       >
         <span
-          class="ant-input-affix-wrapper ant-transfer-list-search"
+          class="ezd-input-affix-wrapper ant-transfer-list-search"
         >
           <span
-            class="ant-input-prefix"
+            class="ezd-input-prefix"
           >
             <span
               aria-label="search"
@@ -326,13 +326,13 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             </span>
           </span>
           <input
-            class="ant-input"
+            class="ezd-input"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-input-suffix"
+            class="ezd-input-suffix"
           >
             <span
               aria-label="close-circle"
@@ -358,16 +358,16 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-transfer-list-body-not-found"
+        class="ezd-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-normal ant-empty-small"
+          class="ezd-empty ant-empty-normal ant-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="ezd-empty-image"
           >
             <svg
-              class="ant-empty-img-simple"
+              class="ezd-empty-img-simple"
               height="41"
               viewBox="0 0 64 41"
               width="64"
@@ -379,21 +379,21 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
                 transform="translate(0 1)"
               >
                 <ellipse
-                  class="ant-empty-img-simple-ellipse"
+                  class="ezd-empty-img-simple-ellipse"
                   cx="32"
                   cy="33"
                   rx="32"
                   ry="7"
                 />
                 <g
-                  class="ant-empty-img-simple-g"
+                  class="ezd-empty-img-simple-g"
                   fill-rule="nonzero"
                 >
                   <path
                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                   />
                   <path
-                    class="ant-empty-img-simple-path"
+                    class="ezd-empty-img-simple-path"
                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                   />
                 </g>
@@ -401,7 +401,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="ezd-empty-description"
           >
             No Data
           </div>
@@ -409,10 +409,10 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-transfer-list-footer"
+      class="ezd-transfer-list-footer"
     >
       <button
-        class="ant-btn ant-btn-sm"
+        class="ezd-btn ant-btn-sm"
         style="float:right;margin:5px"
         type="button"
       >
@@ -427,26 +427,26 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
 
 exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="ezd-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -470,293 +470,293 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         11 items
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       >
         Source
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="ezd-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content1"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content1
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content2"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content2
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content3"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content3
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content4"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content4
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content5"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content5
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content6"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content6
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content7"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content7
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content8"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content8
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content9"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content9
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content10"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content10
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content11"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content11
           </span>
@@ -765,10 +765,10 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="ezd-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -793,7 +793,7 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -819,23 +819,23 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -859,243 +859,243 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         9 items
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       >
         Target
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="ezd-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content12"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content12
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content13"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content13
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content14"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content14
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content15"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content15
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content16"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content16
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content17"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content17
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content18"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content18
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content19"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content19
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content20"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content20
           </span>
@@ -1108,27 +1108,27 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="ezd-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
     style="width:300px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -1152,28 +1152,28 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0 item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-not-found"
+        class="ezd-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-normal ant-empty-small"
+          class="ezd-empty ant-empty-normal ant-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="ezd-empty-image"
           >
             <svg
-              class="ant-empty-img-simple"
+              class="ezd-empty-img-simple"
               height="41"
               viewBox="0 0 64 41"
               width="64"
@@ -1185,21 +1185,21 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
                 transform="translate(0 1)"
               >
                 <ellipse
-                  class="ant-empty-img-simple-ellipse"
+                  class="ezd-empty-img-simple-ellipse"
                   cx="32"
                   cy="33"
                   rx="32"
                   ry="7"
                 />
                 <g
-                  class="ant-empty-img-simple-g"
+                  class="ezd-empty-img-simple-g"
                   fill-rule="nonzero"
                 >
                   <path
                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                   />
                   <path
-                    class="ant-empty-img-simple-path"
+                    class="ezd-empty-img-simple-path"
                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                   />
                 </g>
@@ -1207,7 +1207,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="ezd-empty-description"
           >
             No Data
           </div>
@@ -1216,10 +1216,10 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="ezd-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -1244,7 +1244,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -1270,24 +1270,24 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
     style="width:300px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -1311,28 +1311,28 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0 item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-not-found"
+        class="ezd-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-normal ant-empty-small"
+          class="ezd-empty ant-empty-normal ant-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="ezd-empty-image"
           >
             <svg
-              class="ant-empty-img-simple"
+              class="ezd-empty-img-simple"
               height="41"
               viewBox="0 0 64 41"
               width="64"
@@ -1344,21 +1344,21 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
                 transform="translate(0 1)"
               >
                 <ellipse
-                  class="ant-empty-img-simple-ellipse"
+                  class="ezd-empty-img-simple-ellipse"
                   cx="32"
                   cy="33"
                   rx="32"
                   ry="7"
                 />
                 <g
-                  class="ant-empty-img-simple-g"
+                  class="ezd-empty-img-simple-g"
                   fill-rule="nonzero"
                 >
                   <path
                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                   />
                   <path
-                    class="ant-empty-img-simple-path"
+                    class="ezd-empty-img-simple-path"
                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                   />
                 </g>
@@ -1366,7 +1366,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="ezd-empty-description"
           >
             No Data
           </div>
@@ -1379,26 +1379,26 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
 
 exports[`renders ./components/transfer/demo/custom-select-all-labels.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="ezd-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -1422,191 +1422,191 @@ exports[`renders ./components/transfer/demo/custom-select-all-labels.md correctl
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         Select All
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="ezd-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content1"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content1
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content2"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content2
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content4"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content4
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content5"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content5
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content7"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content7
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content8"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content8
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content10"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content10
           </span>
@@ -1615,10 +1615,10 @@ exports[`renders ./components/transfer/demo/custom-select-all-labels.md correctl
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="ezd-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -1643,7 +1643,7 @@ exports[`renders ./components/transfer/demo/custom-select-all-labels.md correctl
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -1669,23 +1669,23 @@ exports[`renders ./components/transfer/demo/custom-select-all-labels.md correctl
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -1709,91 +1709,91 @@ exports[`renders ./components/transfer/demo/custom-select-all-labels.md correctl
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0/3
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="ezd-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content3"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content3
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content6"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content6
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="ezd-transfer-list-content-item"
           title="content9"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+            class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
           >
             <span
-              class="ant-checkbox"
+              class="ezd-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="ezd-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="ezd-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="ezd-transfer-list-content-item-text"
           >
             content9
           </span>
@@ -1807,13 +1807,13 @@ exports[`renders ./components/transfer/demo/custom-select-all-labels.md correctl
 exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
 Array [
   <div
-    class="ant-transfer"
+    class="ezd-transfer"
   >
     <div
-      class="ant-transfer-list ant-transfer-list-with-pagination"
+      class="ezd-transfer-list ant-transfer-list-with-pagination"
     >
       <div
-        class="ant-transfer-list-header"
+        class="ezd-transfer-list-header"
       >
         <span
           aria-label="down"
@@ -1835,28 +1835,28 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-transfer-list-header-selected"
+          class="ezd-transfer-list-header-selected"
         >
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="ezd-transfer-list-header-title"
         />
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="ezd-transfer-list-body"
       >
         <div
-          class="ant-transfer-list-body-not-found"
+          class="ezd-transfer-list-body-not-found"
         >
           <div
-            class="ant-empty ant-empty-normal ant-empty-small"
+            class="ezd-empty ant-empty-normal ant-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="ezd-empty-image"
             >
               <svg
-                class="ant-empty-img-simple"
+                class="ezd-empty-img-simple"
                 height="41"
                 viewBox="0 0 64 41"
                 width="64"
@@ -1868,21 +1868,21 @@ Array [
                   transform="translate(0 1)"
                 >
                   <ellipse
-                    class="ant-empty-img-simple-ellipse"
+                    class="ezd-empty-img-simple-ellipse"
                     cx="32"
                     cy="33"
                     rx="32"
                     ry="7"
                   />
                   <g
-                    class="ant-empty-img-simple-g"
+                    class="ezd-empty-img-simple-g"
                     fill-rule="nonzero"
                   >
                     <path
                       d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                     />
                     <path
-                      class="ant-empty-img-simple-path"
+                      class="ezd-empty-img-simple-path"
                       d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                     />
                   </g>
@@ -1890,7 +1890,7 @@ Array [
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="ezd-empty-description"
             >
               No Data
             </div>
@@ -1899,10 +1899,10 @@ Array [
       </div>
     </div>
     <div
-      class="ant-transfer-operation"
+      class="ezd-transfer-operation"
     >
       <button
-        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+        class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
         disabled=""
         type="button"
       >
@@ -1927,7 +1927,7 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+        class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
         disabled=""
         type="button"
       >
@@ -1953,10 +1953,10 @@ Array [
       </button>
     </div>
     <div
-      class="ant-transfer-list ant-transfer-list-with-pagination"
+      class="ezd-transfer-list ant-transfer-list-with-pagination"
     >
       <div
-        class="ant-transfer-list-header"
+        class="ezd-transfer-list-header"
       >
         <span
           aria-label="down"
@@ -1978,28 +1978,28 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-transfer-list-header-selected"
+          class="ezd-transfer-list-header-selected"
         >
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="ezd-transfer-list-header-title"
         />
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="ezd-transfer-list-body"
       >
         <div
-          class="ant-transfer-list-body-not-found"
+          class="ezd-transfer-list-body-not-found"
         >
           <div
-            class="ant-empty ant-empty-normal ant-empty-small"
+            class="ezd-empty ant-empty-normal ant-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="ezd-empty-image"
             >
               <svg
-                class="ant-empty-img-simple"
+                class="ezd-empty-img-simple"
                 height="41"
                 viewBox="0 0 64 41"
                 width="64"
@@ -2011,21 +2011,21 @@ Array [
                   transform="translate(0 1)"
                 >
                   <ellipse
-                    class="ant-empty-img-simple-ellipse"
+                    class="ezd-empty-img-simple-ellipse"
                     cx="32"
                     cy="33"
                     rx="32"
                     ry="7"
                   />
                   <g
-                    class="ant-empty-img-simple-g"
+                    class="ezd-empty-img-simple-g"
                     fill-rule="nonzero"
                   >
                     <path
                       d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                     />
                     <path
-                      class="ant-empty-img-simple-path"
+                      class="ezd-empty-img-simple-path"
                       d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                     />
                   </g>
@@ -2033,7 +2033,7 @@ Array [
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="ezd-empty-description"
             >
               No Data
             </div>
@@ -2045,15 +2045,15 @@ Array [
   <br />,
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="ezd-switch"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     >
       one way
     </span>
@@ -2064,27 +2064,27 @@ Array [
 exports[`renders ./components/transfer/demo/oneWay.md correctly 1`] = `
 Array [
   <div
-    class="ant-transfer"
+    class="ezd-transfer"
     style="margin-bottom:16px"
   >
     <div
-      class="ant-transfer-list"
+      class="ezd-transfer-list"
     >
       <div
-        class="ant-transfer-list-header"
+        class="ezd-transfer-list-header"
       >
         <label
-          class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+          class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
         >
           <span
-            class="ant-checkbox"
+            class="ezd-checkbox"
           >
             <input
-              class="ant-checkbox-input"
+              class="ezd-checkbox-input"
               type="checkbox"
             />
             <span
-              class="ant-checkbox-inner"
+              class="ezd-checkbox-inner"
             />
           </span>
         </label>
@@ -2108,375 +2108,375 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-transfer-list-header-selected"
+          class="ezd-transfer-list-header-selected"
         >
           14 items
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="ezd-transfer-list-header-title"
         >
           Source
         </span>
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="ezd-transfer-list-body"
       >
         <ul
-          class="ant-transfer-list-content"
+          class="ezd-transfer-list-content"
         >
           <li
-            class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+            class="ezd-transfer-list-content-item ant-transfer-list-content-item-disabled"
             title="content1"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox ant-checkbox-disabled"
+                class="ezd-checkbox ant-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content1
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content2"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox"
+                class="ezd-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content2
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+            class="ezd-transfer-list-content-item ant-transfer-list-content-item-disabled"
             title="content4"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox ant-checkbox-disabled"
+                class="ezd-checkbox ant-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content4
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content5"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox"
+                class="ezd-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content5
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+            class="ezd-transfer-list-content-item ant-transfer-list-content-item-disabled"
             title="content7"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox ant-checkbox-disabled"
+                class="ezd-checkbox ant-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content7
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content8"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox"
+                class="ezd-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content8
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+            class="ezd-transfer-list-content-item ant-transfer-list-content-item-disabled"
             title="content10"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox ant-checkbox-disabled"
+                class="ezd-checkbox ant-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content10
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content11"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox"
+                class="ezd-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content11
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+            class="ezd-transfer-list-content-item ant-transfer-list-content-item-disabled"
             title="content13"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox ant-checkbox-disabled"
+                class="ezd-checkbox ant-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content13
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content14"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox"
+                class="ezd-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content14
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+            class="ezd-transfer-list-content-item ant-transfer-list-content-item-disabled"
             title="content16"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox ant-checkbox-disabled"
+                class="ezd-checkbox ant-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content16
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content17"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox"
+                class="ezd-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content17
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+            class="ezd-transfer-list-content-item ant-transfer-list-content-item-disabled"
             title="content19"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox ant-checkbox-disabled"
+                class="ezd-checkbox ant-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content19
             </span>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content20"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+              class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
             >
               <span
-                class="ant-checkbox"
+                class="ezd-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="ezd-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="ezd-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content20
             </span>
@@ -2485,10 +2485,10 @@ Array [
       </div>
     </div>
     <div
-      class="ant-transfer-operation"
+      class="ezd-transfer-operation"
     >
       <button
-        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+        class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
         disabled=""
         type="button"
       >
@@ -2514,10 +2514,10 @@ Array [
       </button>
     </div>
     <div
-      class="ant-transfer-list"
+      class="ezd-transfer-list"
     >
       <div
-        class="ant-transfer-list-header"
+        class="ezd-transfer-list-header"
       >
         <span
           aria-label="down"
@@ -2539,34 +2539,34 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-transfer-list-header-selected"
+          class="ezd-transfer-list-header-selected"
         >
           6 items
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="ezd-transfer-list-header-title"
         >
           Target
         </span>
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="ezd-transfer-list-body"
       >
         <ul
-          class="ant-transfer-list-content ant-transfer-list-content-show-remove"
+          class="ezd-transfer-list-content ant-transfer-list-content-show-remove"
         >
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content3"
           >
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content3
             </span>
             <div
               aria-label="Remove"
-              class="ant-transfer-list-content-item-remove"
+              class="ezd-transfer-list-content-item-remove"
               role="button"
               style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
               tabindex="0"
@@ -2593,17 +2593,17 @@ Array [
             </div>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content6"
           >
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content6
             </span>
             <div
               aria-label="Remove"
-              class="ant-transfer-list-content-item-remove"
+              class="ezd-transfer-list-content-item-remove"
               role="button"
               style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
               tabindex="0"
@@ -2630,17 +2630,17 @@ Array [
             </div>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content9"
           >
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content9
             </span>
             <div
               aria-label="Remove"
-              class="ant-transfer-list-content-item-remove"
+              class="ezd-transfer-list-content-item-remove"
               role="button"
               style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
               tabindex="0"
@@ -2667,17 +2667,17 @@ Array [
             </div>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content12"
           >
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content12
             </span>
             <div
               aria-label="Remove"
-              class="ant-transfer-list-content-item-remove"
+              class="ezd-transfer-list-content-item-remove"
               role="button"
               style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
               tabindex="0"
@@ -2704,17 +2704,17 @@ Array [
             </div>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content15"
           >
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content15
             </span>
             <div
               aria-label="Remove"
-              class="ant-transfer-list-content-item-remove"
+              class="ezd-transfer-list-content-item-remove"
               role="button"
               style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
               tabindex="0"
@@ -2741,17 +2741,17 @@ Array [
             </div>
           </li>
           <li
-            class="ant-transfer-list-content-item"
+            class="ezd-transfer-list-content-item"
             title="content18"
           >
             <span
-              class="ant-transfer-list-content-item-text"
+              class="ezd-transfer-list-content-item-text"
             >
               content18
             </span>
             <div
               aria-label="Remove"
-              class="ant-transfer-list-content-item-remove"
+              class="ezd-transfer-list-content-item-remove"
               role="button"
               style="border:0;background:transparent;padding:0;line-height:inherit;display:inline-block"
               tabindex="0"
@@ -2783,15 +2783,15 @@ Array [
   </div>,
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="ezd-switch"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     >
       disabled
     </span>
@@ -2801,26 +2801,26 @@ Array [
 
 exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="ezd-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -2844,25 +2844,25 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0 item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="ezd-transfer-list-body ant-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="ezd-transfer-list-body-search-wrapper"
       >
         <span
-          class="ant-input-affix-wrapper ant-transfer-list-search"
+          class="ezd-input-affix-wrapper ant-transfer-list-search"
         >
           <span
-            class="ant-input-prefix"
+            class="ezd-input-prefix"
           >
             <span
               aria-label="search"
@@ -2885,13 +2885,13 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             </span>
           </span>
           <input
-            class="ant-input"
+            class="ezd-input"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-input-suffix"
+            class="ezd-input-suffix"
           >
             <span
               aria-label="close-circle"
@@ -2917,16 +2917,16 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-transfer-list-body-not-found"
+        class="ezd-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-normal ant-empty-small"
+          class="ezd-empty ant-empty-normal ant-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="ezd-empty-image"
           >
             <svg
-              class="ant-empty-img-simple"
+              class="ezd-empty-img-simple"
               height="41"
               viewBox="0 0 64 41"
               width="64"
@@ -2938,21 +2938,21 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
                 transform="translate(0 1)"
               >
                 <ellipse
-                  class="ant-empty-img-simple-ellipse"
+                  class="ezd-empty-img-simple-ellipse"
                   cx="32"
                   cy="33"
                   rx="32"
                   ry="7"
                 />
                 <g
-                  class="ant-empty-img-simple-g"
+                  class="ezd-empty-img-simple-g"
                   fill-rule="nonzero"
                 >
                   <path
                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                   />
                   <path
-                    class="ant-empty-img-simple-path"
+                    class="ezd-empty-img-simple-path"
                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                   />
                 </g>
@@ -2960,7 +2960,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="ezd-empty-description"
           >
             No Data
           </div>
@@ -2969,10 +2969,10 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="ezd-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -2997,7 +2997,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -3023,23 +3023,23 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+        class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
       >
         <span
-          class="ant-checkbox"
+          class="ezd-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="ezd-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="ezd-checkbox-inner"
           />
         </span>
       </label>
@@ -3063,25 +3063,25 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0 item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="ezd-transfer-list-body ant-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="ezd-transfer-list-body-search-wrapper"
       >
         <span
-          class="ant-input-affix-wrapper ant-transfer-list-search"
+          class="ezd-input-affix-wrapper ant-transfer-list-search"
         >
           <span
-            class="ant-input-prefix"
+            class="ezd-input-prefix"
           >
             <span
               aria-label="search"
@@ -3104,13 +3104,13 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             </span>
           </span>
           <input
-            class="ant-input"
+            class="ezd-input"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-input-suffix"
+            class="ezd-input-suffix"
           >
             <span
               aria-label="close-circle"
@@ -3136,16 +3136,16 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-transfer-list-body-not-found"
+        class="ezd-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-normal ant-empty-small"
+          class="ezd-empty ant-empty-normal ant-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="ezd-empty-image"
           >
             <svg
-              class="ant-empty-img-simple"
+              class="ezd-empty-img-simple"
               height="41"
               viewBox="0 0 64 41"
               width="64"
@@ -3157,21 +3157,21 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
                 transform="translate(0 1)"
               >
                 <ellipse
-                  class="ant-empty-img-simple-ellipse"
+                  class="ezd-empty-img-simple-ellipse"
                   cx="32"
                   cy="33"
                   rx="32"
                   ry="7"
                 />
                 <g
-                  class="ant-empty-img-simple-g"
+                  class="ezd-empty-img-simple-g"
                   fill-rule="nonzero"
                 >
                   <path
                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                   />
                   <path
-                    class="ant-empty-img-simple-path"
+                    class="ezd-empty-img-simple-path"
                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                   />
                 </g>
@@ -3179,7 +3179,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="ezd-empty-description"
           >
             No Data
           </div>
@@ -3193,26 +3193,26 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
 exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
 Array [
   <div
-    class="ant-transfer ant-transfer-customize-list"
+    class="ezd-transfer ant-transfer-customize-list"
   >
     <div
-      class="ant-transfer-list"
+      class="ezd-transfer-list"
     >
       <div
-        class="ant-transfer-list-header"
+        class="ezd-transfer-list-header"
       >
         <label
-          class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+          class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
         >
           <span
-            class="ant-checkbox"
+            class="ezd-checkbox"
           >
             <input
-              class="ant-checkbox-input"
+              class="ezd-checkbox-input"
               type="checkbox"
             />
             <span
-              class="ant-checkbox-inner"
+              class="ezd-checkbox-inner"
             />
           </span>
         </label>
@@ -3236,522 +3236,522 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-transfer-list-header-selected"
+          class="ezd-transfer-list-header-selected"
         >
           14 items
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="ezd-transfer-list-header-title"
         />
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="ezd-transfer-list-body"
       >
         <div
-          class="ant-transfer-list-body-customize-wrapper"
+          class="ezd-transfer-list-body-customize-wrapper"
         >
           <div
-            class="ant-table-wrapper"
+            class="ezd-table-wrapper"
           >
             <div
-              class="ant-spin-nested-loading"
+              class="ezd-spin-nested-loading"
             >
               <div
-                class="ant-spin-container"
+                class="ezd-spin-container"
               >
                 <div
-                  class="ant-table ant-table-small"
+                  class="ezd-table ant-table-small"
                 >
                   <div
-                    class="ant-table-container"
+                    class="ezd-table-container"
                   >
                     <div
-                      class="ant-table-content"
+                      class="ezd-table-content"
                     >
                       <table
                         style="table-layout:auto"
                       >
                         <colgroup>
                           <col
-                            class="ant-table-selection-col"
+                            class="ezd-table-selection-col"
                           />
                         </colgroup>
                         <thead
-                          class="ant-table-thead"
+                          class="ezd-table-thead"
                         >
                           <tr>
                             <th
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <div
-                                class="ant-table-selection"
+                                class="ezd-table-selection"
                               >
                                 <label
-                                  class="ant-checkbox-wrapper"
+                                  class="ezd-checkbox-wrapper"
                                 >
                                   <span
-                                    class="ant-checkbox"
+                                    class="ezd-checkbox"
                                   >
                                     <input
-                                      class="ant-checkbox-input"
+                                      class="ezd-checkbox-input"
                                       type="checkbox"
                                     />
                                     <span
-                                      class="ant-checkbox-inner"
+                                      class="ezd-checkbox-inner"
                                     />
                                   </span>
                                 </label>
                               </div>
                             </th>
                             <th
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               Name
                             </th>
                             <th
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               Tag
                             </th>
                             <th
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               Description
                             </th>
                           </tr>
                         </thead>
                         <tbody
-                          class="ant-table-tbody"
+                          class="ezd-table-tbody"
                         >
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="0"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+                                class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled"
                               >
                                 <span
-                                  class="ant-checkbox ant-checkbox-disabled"
+                                  class="ezd-checkbox ant-checkbox-disabled"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     disabled=""
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content1
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 cat
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content1
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="1"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content2
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 dog
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content2
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="3"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content4
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 cat
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content4
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="4"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+                                class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled"
                               >
                                 <span
-                                  class="ant-checkbox ant-checkbox-disabled"
+                                  class="ezd-checkbox ant-checkbox-disabled"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     disabled=""
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content5
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 dog
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content5
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="6"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content7
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 cat
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content7
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="7"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content8
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 dog
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content8
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="9"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content10
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 cat
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content10
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="10"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content11
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 dog
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content11
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="12"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+                                class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled"
                               >
                                 <span
-                                  class="ant-checkbox ant-checkbox-disabled"
+                                  class="ezd-checkbox ant-checkbox-disabled"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     disabled=""
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content13
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 cat
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content13
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="13"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content14
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               <span
-                                class="ant-tag"
+                                class="ezd-tag"
                               >
                                 dog
                               </span>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               description of content14
                             </td>
@@ -3762,16 +3762,16 @@ Array [
                   </div>
                 </div>
                 <ul
-                  class="ant-pagination mini ant-table-pagination ant-table-pagination-right"
+                  class="ezd-pagination mini ant-table-pagination ant-table-pagination-right"
                   unselectable="unselectable"
                 >
                   <li
                     aria-disabled="true"
-                    class="ant-pagination-prev ant-pagination-disabled"
+                    class="ezd-pagination-prev ant-pagination-disabled"
                     title="Previous Page"
                   >
                     <button
-                      class="ant-pagination-item-link"
+                      class="ezd-pagination-item-link"
                       disabled=""
                       tabindex="-1"
                       type="button"
@@ -3798,7 +3798,7 @@ Array [
                     </button>
                   </li>
                   <li
-                    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                    class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
                     tabindex="0"
                     title="1"
                   >
@@ -3809,7 +3809,7 @@ Array [
                     </a>
                   </li>
                   <li
-                    class="ant-pagination-item ant-pagination-item-2"
+                    class="ezd-pagination-item ant-pagination-item-2"
                     tabindex="0"
                     title="2"
                   >
@@ -3821,12 +3821,12 @@ Array [
                   </li>
                   <li
                     aria-disabled="false"
-                    class="ant-pagination-next"
+                    class="ezd-pagination-next"
                     tabindex="0"
                     title="Next Page"
                   >
                     <button
-                      class="ant-pagination-item-link"
+                      class="ezd-pagination-item-link"
                       tabindex="-1"
                       type="button"
                     >
@@ -3859,10 +3859,10 @@ Array [
       </div>
     </div>
     <div
-      class="ant-transfer-operation"
+      class="ezd-transfer-operation"
     >
       <button
-        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+        class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
         disabled=""
         type="button"
       >
@@ -3887,7 +3887,7 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+        class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
         disabled=""
         type="button"
       >
@@ -3913,23 +3913,23 @@ Array [
       </button>
     </div>
     <div
-      class="ant-transfer-list"
+      class="ezd-transfer-list"
     >
       <div
-        class="ant-transfer-list-header"
+        class="ezd-transfer-list-header"
       >
         <label
-          class="ant-checkbox-wrapper ant-transfer-list-checkbox"
+          class="ezd-checkbox-wrapper ant-transfer-list-checkbox"
         >
           <span
-            class="ant-checkbox"
+            class="ezd-checkbox"
           >
             <input
-              class="ant-checkbox-input"
+              class="ezd-checkbox-input"
               type="checkbox"
             />
             <span
-              class="ant-checkbox-inner"
+              class="ezd-checkbox-inner"
             />
           </span>
         </label>
@@ -3953,254 +3953,254 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-transfer-list-header-selected"
+          class="ezd-transfer-list-header-selected"
         >
           6 items
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="ezd-transfer-list-header-title"
         />
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="ezd-transfer-list-body"
       >
         <div
-          class="ant-transfer-list-body-customize-wrapper"
+          class="ezd-transfer-list-body-customize-wrapper"
         >
           <div
-            class="ant-table-wrapper"
+            class="ezd-table-wrapper"
           >
             <div
-              class="ant-spin-nested-loading"
+              class="ezd-spin-nested-loading"
             >
               <div
-                class="ant-spin-container"
+                class="ezd-spin-container"
               >
                 <div
-                  class="ant-table ant-table-small"
+                  class="ezd-table ant-table-small"
                 >
                   <div
-                    class="ant-table-container"
+                    class="ezd-table-container"
                   >
                     <div
-                      class="ant-table-content"
+                      class="ezd-table-content"
                     >
                       <table
                         style="table-layout:auto"
                       >
                         <colgroup>
                           <col
-                            class="ant-table-selection-col"
+                            class="ezd-table-selection-col"
                           />
                         </colgroup>
                         <thead
-                          class="ant-table-thead"
+                          class="ezd-table-thead"
                         >
                           <tr>
                             <th
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <div
-                                class="ant-table-selection"
+                                class="ezd-table-selection"
                               >
                                 <label
-                                  class="ant-checkbox-wrapper"
+                                  class="ezd-checkbox-wrapper"
                                 >
                                   <span
-                                    class="ant-checkbox"
+                                    class="ezd-checkbox"
                                   >
                                     <input
-                                      class="ant-checkbox-input"
+                                      class="ezd-checkbox-input"
                                       type="checkbox"
                                     />
                                     <span
-                                      class="ant-checkbox-inner"
+                                      class="ezd-checkbox-inner"
                                     />
                                   </span>
                                 </label>
                               </div>
                             </th>
                             <th
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               Name
                             </th>
                           </tr>
                         </thead>
                         <tbody
-                          class="ant-table-tbody"
+                          class="ezd-table-tbody"
                         >
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="2"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content3
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="5"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content6
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="8"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+                                class="ezd-checkbox-wrapper ant-checkbox-wrapper-disabled"
                               >
                                 <span
-                                  class="ant-checkbox ant-checkbox-disabled"
+                                  class="ezd-checkbox ant-checkbox-disabled"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     disabled=""
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content9
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="11"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content12
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="14"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content15
                             </td>
                           </tr>
                           <tr
-                            class="ant-table-row ant-table-row-level-0"
+                            class="ezd-table-row ant-table-row-level-0"
                             data-row-key="17"
                           >
                             <td
-                              class="ant-table-cell ant-table-selection-column"
+                              class="ezd-table-cell ant-table-selection-column"
                             >
                               <label
-                                class="ant-checkbox-wrapper"
+                                class="ezd-checkbox-wrapper"
                               >
                                 <span
-                                  class="ant-checkbox"
+                                  class="ezd-checkbox"
                                 >
                                   <input
-                                    class="ant-checkbox-input"
+                                    class="ezd-checkbox-input"
                                     type="checkbox"
                                   />
                                   <span
-                                    class="ant-checkbox-inner"
+                                    class="ezd-checkbox-inner"
                                   />
                                 </span>
                               </label>
                             </td>
                             <td
-                              class="ant-table-cell"
+                              class="ezd-table-cell"
                             >
                               content18
                             </td>
@@ -4211,16 +4211,16 @@ Array [
                   </div>
                 </div>
                 <ul
-                  class="ant-pagination mini ant-table-pagination ant-table-pagination-right"
+                  class="ezd-pagination mini ant-table-pagination ant-table-pagination-right"
                   unselectable="unselectable"
                 >
                   <li
                     aria-disabled="true"
-                    class="ant-pagination-prev ant-pagination-disabled"
+                    class="ezd-pagination-prev ant-pagination-disabled"
                     title="Previous Page"
                   >
                     <button
-                      class="ant-pagination-item-link"
+                      class="ezd-pagination-item-link"
                       disabled=""
                       tabindex="-1"
                       type="button"
@@ -4247,7 +4247,7 @@ Array [
                     </button>
                   </li>
                   <li
-                    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                    class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
                     tabindex="0"
                     title="1"
                   >
@@ -4259,11 +4259,11 @@ Array [
                   </li>
                   <li
                     aria-disabled="true"
-                    class="ant-pagination-next ant-pagination-disabled"
+                    class="ezd-pagination-next ant-pagination-disabled"
                     title="Next Page"
                   >
                     <button
-                      class="ant-pagination-item-link"
+                      class="ezd-pagination-item-link"
                       disabled=""
                       tabindex="-1"
                       type="button"
@@ -4299,32 +4299,32 @@ Array [
   </div>,
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="ezd-switch"
     role="switch"
     style="margin-top:16px"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     >
       disabled
     </span>
   </button>,
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="ezd-switch"
     role="switch"
     style="margin-top:16px"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="ezd-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="ezd-switch-inner"
     >
       showSearch
     </span>
@@ -4334,31 +4334,31 @@ Array [
 
 exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
 <div
-  class="ant-transfer ant-transfer-customize-list tree-transfer"
+  class="ezd-transfer ant-transfer-customize-list tree-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         5 items
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-customize-wrapper"
+        class="ezd-transfer-list-body-customize-wrapper"
       >
         <div
-          class="ant-tree ant-tree-icon-hide ant-tree-block-node"
+          class="ezd-tree ant-tree-icon-hide ant-tree-block-node"
           role="tree"
         >
           <div>
@@ -4371,54 +4371,54 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
           </div>
           <div
             aria-hidden="true"
-            class="ant-tree-treenode"
+            class="ezd-tree-treenode"
             style="position:absolute;pointer-events:none;visibility:hidden;height:0;overflow:hidden"
           >
             <div
-              class="ant-tree-indent"
+              class="ezd-tree-indent"
             >
               <div
-                class="ant-tree-indent-unit"
+                class="ezd-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-tree-list"
+            class="ezd-tree-list"
             style="position:relative"
           >
             <div
-              class="ant-tree-list-holder"
+              class="ezd-tree-list-holder"
             >
               <div>
                 <div
-                  class="ant-tree-list-holder-inner"
+                  class="ezd-tree-list-holder-inner"
                   style="display:flex;flex-direction:column"
                 >
                   <div
                     aria-grabbed="false"
-                    class="ant-tree-treenode ant-tree-treenode-switcher-open"
+                    class="ezd-tree-treenode ant-tree-treenode-switcher-open"
                     draggable="false"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-tree-indent"
+                      class="ezd-tree-indent"
                     />
                     <span
-                      class="ant-tree-switcher ant-tree-switcher-noop"
+                      class="ezd-tree-switcher ant-tree-switcher-noop"
                     />
                     <span
-                      class="ant-tree-checkbox"
+                      class="ezd-tree-checkbox"
                     >
                       <span
-                        class="ant-tree-checkbox-inner"
+                        class="ezd-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                      class="ezd-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
                       title="0-0"
                     >
                       <span
-                        class="ant-tree-title"
+                        class="ezd-tree-title"
                       >
                         0-0
                       </span>
@@ -4426,15 +4426,15 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
                   </div>
                   <div
                     aria-grabbed="false"
-                    class="ant-tree-treenode ant-tree-treenode-switcher-open"
+                    class="ezd-tree-treenode ant-tree-treenode-switcher-open"
                     draggable="false"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-tree-indent"
+                      class="ezd-tree-indent"
                     />
                     <span
-                      class="ant-tree-switcher ant-tree-switcher_open"
+                      class="ezd-tree-switcher ant-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
@@ -4457,18 +4457,18 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
                       </span>
                     </span>
                     <span
-                      class="ant-tree-checkbox"
+                      class="ezd-tree-checkbox"
                     >
                       <span
-                        class="ant-tree-checkbox-inner"
+                        class="ezd-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+                      class="ezd-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
                       title="0-1"
                     >
                       <span
-                        class="ant-tree-title"
+                        class="ezd-tree-title"
                       >
                         0-1
                       </span>
@@ -4476,33 +4476,33 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
                   </div>
                   <div
                     aria-grabbed="false"
-                    class="ant-tree-treenode ant-tree-treenode-switcher-open"
+                    class="ezd-tree-treenode ant-tree-treenode-switcher-open"
                     draggable="false"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-tree-indent"
+                      class="ezd-tree-indent"
                     >
                       <span
-                        class="ant-tree-indent-unit"
+                        class="ezd-tree-indent-unit"
                       />
                     </span>
                     <span
-                      class="ant-tree-switcher ant-tree-switcher-noop"
+                      class="ezd-tree-switcher ant-tree-switcher-noop"
                     />
                     <span
-                      class="ant-tree-checkbox"
+                      class="ezd-tree-checkbox"
                     >
                       <span
-                        class="ant-tree-checkbox-inner"
+                        class="ezd-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                      class="ezd-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
                       title="0-1-0"
                     >
                       <span
-                        class="ant-tree-title"
+                        class="ezd-tree-title"
                       >
                         0-1-0
                       </span>
@@ -4510,33 +4510,33 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
                   </div>
                   <div
                     aria-grabbed="false"
-                    class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+                    class="ezd-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
                     draggable="false"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-tree-indent"
+                      class="ezd-tree-indent"
                     >
                       <span
-                        class="ant-tree-indent-unit"
+                        class="ezd-tree-indent-unit"
                       />
                     </span>
                     <span
-                      class="ant-tree-switcher ant-tree-switcher-noop"
+                      class="ezd-tree-switcher ant-tree-switcher-noop"
                     />
                     <span
-                      class="ant-tree-checkbox"
+                      class="ezd-tree-checkbox"
                     >
                       <span
-                        class="ant-tree-checkbox-inner"
+                        class="ezd-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                      class="ezd-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
                       title="0-1-1"
                     >
                       <span
-                        class="ant-tree-title"
+                        class="ezd-tree-title"
                       >
                         0-1-1
                       </span>
@@ -4544,29 +4544,29 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
                   </div>
                   <div
                     aria-grabbed="false"
-                    class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+                    class="ezd-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
                     draggable="false"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-tree-indent"
+                      class="ezd-tree-indent"
                     />
                     <span
-                      class="ant-tree-switcher ant-tree-switcher-noop"
+                      class="ezd-tree-switcher ant-tree-switcher-noop"
                     />
                     <span
-                      class="ant-tree-checkbox"
+                      class="ezd-tree-checkbox"
                     >
                       <span
-                        class="ant-tree-checkbox-inner"
+                        class="ezd-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                      class="ezd-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
                       title="0-3"
                     >
                       <span
-                        class="ant-tree-title"
+                        class="ezd-tree-title"
                       >
                         0-3
                       </span>
@@ -4581,10 +4581,10 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="ezd-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -4609,7 +4609,7 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="ezd-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -4635,34 +4635,34 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="ezd-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="ezd-transfer-list-header"
     >
       <span
-        class="ant-transfer-list-header-selected"
+        class="ezd-transfer-list-header-selected"
       >
         0 item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="ezd-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="ezd-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-not-found"
+        class="ezd-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-normal ant-empty-small"
+          class="ezd-empty ant-empty-normal ant-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="ezd-empty-image"
           >
             <svg
-              class="ant-empty-img-simple"
+              class="ezd-empty-img-simple"
               height="41"
               viewBox="0 0 64 41"
               width="64"
@@ -4674,21 +4674,21 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
                 transform="translate(0 1)"
               >
                 <ellipse
-                  class="ant-empty-img-simple-ellipse"
+                  class="ezd-empty-img-simple-ellipse"
                   cx="32"
                   cy="33"
                   rx="32"
                   ry="7"
                 />
                 <g
-                  class="ant-empty-img-simple-g"
+                  class="ezd-empty-img-simple-g"
                   fill-rule="nonzero"
                 >
                   <path
                     d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
                   />
                   <path
-                    class="ant-empty-img-simple-path"
+                    class="ezd-empty-img-simple-path"
                     d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
                   />
                 </g>
@@ -4696,7 +4696,7 @@ exports[`renders ./components/transfer/demo/tree-transfer.md correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="ezd-empty-description"
           >
             No Data
           </div>

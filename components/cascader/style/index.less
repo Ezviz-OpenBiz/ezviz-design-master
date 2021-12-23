@@ -5,7 +5,7 @@
 
 @cascader-prefix-cls: ~'@{ezd-prefix}-cascader';
 
-.antCheckboxFn(@checkbox-prefix-cls: ~'@{cascader-prefix-cls}-checkbox');
+.ezdCheckboxFn(@checkbox-prefix-cls: ~'@{cascader-prefix-cls}-checkbox');
 
 .@{cascader-prefix-cls} {
   width: 184px;
@@ -38,7 +38,7 @@
     vertical-align: top;
     list-style: none;
     border-right: @border-width-base @border-style-base @cascader-menu-border-color-split;
-    -ms-overflow-style: -ms-autohiding-scrollbar; // https://github.com/ant-design/ant-design/issues/11857
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 
     &-item {
       display: flex;

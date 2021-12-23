@@ -12,7 +12,7 @@ const skipOpacityTransition: MotionEndEventHandler = (_, event: MotionEvent) =>
   event?.deadline === true || (event as TransitionEvent).propertyName === 'height';
 
 const collapseMotion: CSSMotionProps = {
-  motionName: 'ant-motion-collapse',
+  motionName: 'ezd-motion-collapse',
   onAppearStart: getCollapsedHeight,
   onEnterStart: getCollapsedHeight,
   onAppearActive: getRealHeight,

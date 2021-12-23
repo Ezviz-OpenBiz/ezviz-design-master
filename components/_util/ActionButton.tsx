@@ -51,7 +51,6 @@ const ActionButton: React.FC<ActionButtonProps> = props => {
         // Emit error when catch promise reject
         // eslint-disable-next-line no-console
         console.error(e);
-        // See: https://github.com/ant-design/ant-design/issues/6183
         setLoading(false);
         clickedRef.current = false;
       },
@@ -78,7 +77,6 @@ const ActionButton: React.FC<ActionButtonProps> = props => {
       }
     } else if (actionFn.length) {
       returnValueOfOnOk = actionFn(close);
-      // https://github.com/ant-design/ant-design/issues/23358
       clickedRef.current = false;
     } else {
       returnValueOfOnOk = actionFn();

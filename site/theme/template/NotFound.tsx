@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'bisheng/router';
-import { Result, Button } from 'antd';
+import { Result, Button } from '@ezviz/ezd';
 import { HomeOutlined } from '@ant-design/icons';
 import * as utils from './utils';
 
@@ -39,7 +39,7 @@ export default function NotFound(props: NotFoundProps) {
           extra={
             <Link to={utils.getLocalizedPathname('/', isZhCN)}>
               <Button type="primary" icon={<HomeOutlined />}>
-                {isZhCN ? '返回 Ant Design 首页' : 'Back to home page'}
+                {isZhCN ? '返回 EZ Design 首页' : 'Back to home page'}
               </Button>
             </Link>
           }

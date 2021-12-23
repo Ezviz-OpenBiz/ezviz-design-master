@@ -15,14 +15,14 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapperStart.find('.ant-ribbon-placement-start').length).toEqual(1);
+      expect(wrapperStart.find('.ezd-ribbon-placement-start').length).toEqual(1);
 
       const wrapperEnd = mount(
         <Badge.Ribbon placement="end">
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapperEnd.find('.ant-ribbon-placement-end').length).toEqual(1);
+      expect(wrapperEnd.find('.ezd-ribbon-placement-end').length).toEqual(1);
     });
   });
 
@@ -33,7 +33,7 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapper.find('.ant-ribbon-color-green').length).toEqual(1);
+      expect(wrapper.find('.ezd-ribbon-color-green').length).toEqual(1);
     });
     it('works with custom color', () => {
       const wrapperLeft = mount(
@@ -41,15 +41,15 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapperLeft.find('.ant-ribbon').prop('style')?.background).toEqual('#888');
-      expect(wrapperLeft.find('.ant-ribbon-corner').prop('style')?.color).toEqual('#888');
+      expect(wrapperLeft.find('.ezd-ribbon').prop('style')?.background).toEqual('#888');
+      expect(wrapperLeft.find('.ezd-ribbon-corner').prop('style')?.color).toEqual('#888');
       const wrapperRight = mount(
         <Badge.Ribbon color="#888" placement="end">
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapperRight.find('.ant-ribbon').prop('style')?.background).toEqual('#888');
-      expect(wrapperRight.find('.ant-ribbon-corner').prop('style')?.color).toEqual('#888');
+      expect(wrapperRight.find('.ezd-ribbon').prop('style')?.background).toEqual('#888');
+      expect(wrapperRight.find('.ezd-ribbon-corner').prop('style')?.color).toEqual('#888');
     });
   });
 
@@ -60,7 +60,7 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapper.find('.ant-ribbon').text()).toEqual('cool');
+      expect(wrapper.find('.ezd-ribbon').text()).toEqual('cool');
     });
     it('works with element', () => {
       const wrapper = mount(

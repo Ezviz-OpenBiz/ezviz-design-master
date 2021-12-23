@@ -153,7 +153,7 @@ const [modal, contextHolder] = Modal.useModal();
 // then call modal.confirm instead of Modal.confirm
 
 return (
-  <Context1.Provider value="Ant">
+  <Context1.Provider value="Ezd">
     {/* contextHolder is in Context1, which means modal will get context of Context1 */}
     {contextHolder}
     <Context2.Provider value="Design">

@@ -65,8 +65,8 @@ describe('Form', () => {
       );
 
       await change(wrapper, 0, '', true);
-      expect(wrapper.find('.ant-form-item-with-help').length).toBeTruthy();
-      expect(wrapper.find('.ant-form-item-has-error').length).toBeTruthy();
+      expect(wrapper.find('.ezd-form-item-with-help').length).toBeTruthy();
+      expect(wrapper.find('.ezd-form-item-has-error').length).toBeTruthy();
 
       expect(onChange).toHaveBeenCalled();
 
@@ -120,11 +120,11 @@ describe('Form', () => {
 
       const wrapper = mount(<Demo />);
       await change(wrapper, 0, '1', true);
-      expect(wrapper.find('.ant-form-item-explain').text()).toEqual('aaa');
+      expect(wrapper.find('.ezd-form-item-explain').text()).toEqual('aaa');
       await change(wrapper, 0, '2', true);
-      expect(wrapper.find('.ant-form-item-explain').text()).toEqual('ccc');
+      expect(wrapper.find('.ezd-form-item-explain').text()).toEqual('ccc');
       await change(wrapper, 0, '1', true);
-      expect(wrapper.find('.ant-form-item-explain').text()).toEqual('aaa');
+      expect(wrapper.find('.ezd-form-item-explain').text()).toEqual('aaa');
 
       jest.useRealTimers();
     });
@@ -137,7 +137,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Form.Item] `children` of render props only work with `shouldUpdate` or `dependencies`.',
+      'Warning: [ezd: Form.Item] `children` of render props only work with `shouldUpdate` or `dependencies`.',
     );
   });
   it("`shouldUpdate` shouldn't work with `dependencies`", () => {
@@ -149,7 +149,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      "Warning: [antd: Form.Item] `shouldUpdate` and `dependencies` shouldn't be used together. See https://ant.design/components/form/#dependencies.",
+      "Warning: [ezd: Form.Item] `shouldUpdate` and `dependencies` shouldn't be used together. ",
     );
   });
 
@@ -162,7 +162,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      "Warning: [antd: Form.Item] Do not use `name` with `children` of render props since it's not a field.",
+      "Warning: [ezd: Form.Item] Do not use `name` with `children` of render props since it's not a field.",
     );
   });
 
@@ -176,7 +176,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Form.Item] `children` is array of render props cannot have `name`.',
+      'Warning: [ezd: Form.Item] `children` is array of render props cannot have `name`.',
     );
   });
 
@@ -282,7 +282,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Form.Item] `name` is only used for validate React element. If you are using Form.Item as layout display, please remove `name` instead.',
+      'Warning: [ezd: Form.Item] `name` is only used for validate React element. If you are using Form.Item as layout display, please remove `name` instead.',
     );
   });
 
@@ -303,11 +303,11 @@ describe('Form', () => {
       </Form>,
     );
 
-    expect(wrapper.find('.ant-form-item-required')).toHaveLength(0);
+    expect(wrapper.find('.ezd-form-item-required')).toHaveLength(0);
 
     wrapper.find('input[type="checkbox"]').simulate('change', { target: { checked: true } });
     wrapper.update();
-    expect(wrapper.find('.ant-form-item-required')).toHaveLength(1);
+    expect(wrapper.find('.ezd-form-item-required')).toHaveLength(1);
   });
 
   it('should show related className when customize help', () => {
@@ -319,17 +319,16 @@ describe('Form', () => {
       </Form>,
     );
 
-    expect(wrapper.find('.ant-form-item-with-help').length).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item-with-help').length).toBeTruthy();
   });
 
   it('warning when use v3 function', () => {
     Form.create();
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Form] antd v4 removed `Form.create`. Please remove or use `@ant-design/compatible` instead.',
+      'Warning: [ezd: Form] ezd removed `Form.create`. ',
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/20706
   it('Error change should work', async () => {
     jest.useFakeTimers();
 
@@ -357,19 +356,18 @@ describe('Form', () => {
     /* eslint-disable no-await-in-loop */
     for (let i = 0; i < 3; i += 1) {
       await change(wrapper, 0, '', true);
-      expect(wrapper.find('.ant-form-item-explain').first().text()).toEqual("'name' is required");
+      expect(wrapper.find('.ezd-form-item-explain').first().text()).toEqual("'name' is required");
 
       await change(wrapper, 0, 'p', true);
       await sleep(100);
       wrapper.update();
-      expect(wrapper.find('.ant-form-item-explain').first().text()).toEqual('not a p');
+      expect(wrapper.find('.ezd-form-item-explain').first().text()).toEqual('not a p');
     }
     /* eslint-enable */
 
     jest.useRealTimers();
   });
 
-  // https://github.com/ant-design/ant-design/issues/20813
   it('should update help directly when provided', () => {
     function App() {
       const [message, updateMessage] = React.useState('');
@@ -385,8 +383,8 @@ describe('Form', () => {
 
     const wrapper = mount(<App />);
     wrapper.find('button').simulate('click');
-    expect(wrapper.find('.ant-form-item').first().hasClass('ant-form-item-with-help')).toBeTruthy();
-    expect(wrapper.find('.ant-form-item-explain').text()).toEqual('bamboo');
+    expect(wrapper.find('.ezd-form-item').first().hasClass('ezd-form-item-with-help')).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item-explain').text()).toEqual('bamboo');
   });
 
   it('warning when use `dependencies` but `name` is empty & children is not a render props', () => {
@@ -396,11 +394,10 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Form.Item] Must set `name` or use render props when `dependencies` is set.',
+      'Warning: [ezd: Form.Item] Must set `name` or use render props when `dependencies` is set.',
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/20948
   it('not repeat render when Form.Item is not a real Field', async () => {
     const shouldNotRender = jest.fn();
     const StaticInput = () => {
@@ -444,7 +441,7 @@ describe('Form', () => {
         <input />
       </Form.Item>,
     );
-    expect(wrapper.find('.ant-form-item-explain').length).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item-explain').length).toBeTruthy();
   });
 
   it('Form.Item with `help` should display error style when validate failed', async () => {
@@ -459,8 +456,8 @@ describe('Form', () => {
     );
 
     await change(wrapper, 0, '', true);
-    expect(wrapper.find('.ant-form-item').first().hasClass('ant-form-item-has-error')).toBeTruthy();
-    expect(wrapper.find('.ant-form-item-explain').text()).toEqual('help');
+    expect(wrapper.find('.ezd-form-item').first().hasClass('ezd-form-item-has-error')).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item-explain').text()).toEqual('help');
 
     jest.useRealTimers();
   });
@@ -476,20 +473,19 @@ describe('Form', () => {
       </Form>,
     );
     await change(wrapper, 0, '1', true);
-    expect(wrapper.find('.ant-form-item-explain').length).toBeFalsy();
+    expect(wrapper.find('.ezd-form-item-explain').length).toBeFalsy();
 
     await change(wrapper, 0, '', true);
-    expect(wrapper.find('.ant-form-item-explain').length).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item-explain').length).toBeTruthy();
 
     await change(wrapper, 0, '123', true);
     await sleep(800);
     wrapper.update();
-    expect(wrapper.find('.ant-form-item-explain').length).toBeFalsy();
+    expect(wrapper.find('.ezd-form-item-explain').length).toBeFalsy();
 
     jest.useRealTimers();
   });
 
-  // https://github.com/ant-design/ant-design/issues/21167
   it('`require` without `name`', () => {
     const wrapper = mount(
       <Form.Item label="test" required>
@@ -497,7 +493,7 @@ describe('Form', () => {
       </Form.Item>,
     );
 
-    expect(wrapper.find('.ant-form-item-required')).toHaveLength(1);
+    expect(wrapper.find('.ezd-form-item-required')).toHaveLength(1);
   });
 
   it('0 is a validate Field', () => {
@@ -519,11 +515,10 @@ describe('Form', () => {
 
     expect(wrapper.find('Field')).toHaveLength(0);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Form.Item] `null` is passed as `name` property',
+      'Warning: [ezd: Form.Item] `null` is passed as `name` property',
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/21415
   it('Component.props.onChange is null', () => {
     // eslint-disable-next-line react/prefer-stateless-function
     class CustomComponent extends Component {
@@ -591,7 +586,7 @@ describe('Form', () => {
     await sleep(100);
     wrapper.update();
     await sleep(100);
-    expect(wrapper.find('.ant-form-item-explain').first().text()).toEqual('Bamboo is good!');
+    expect(wrapper.find('.ezd-form-item-explain').first().text()).toEqual('Bamboo is good!');
   });
 
   it('`name` support template when label is not provided', async () => {
@@ -608,7 +603,7 @@ describe('Form', () => {
     await sleep(100);
     wrapper.update();
     await sleep(100);
-    expect(wrapper.find('.ant-form-item-explain').first().text()).toEqual('Bamboo is good!');
+    expect(wrapper.find('.ezd-form-item-explain').first().text()).toEqual('Bamboo is good!');
   });
 
   it('`messageVariables` support validate', async () => {
@@ -625,11 +620,10 @@ describe('Form', () => {
     await sleep(100);
     wrapper.update();
     await sleep(100);
-    expect(wrapper.find('.ant-form-item-explain').first().text()).toEqual('Bamboo is good!');
+    expect(wrapper.find('.ezd-form-item-explain').first().text()).toEqual('Bamboo is good!');
   });
 
   it('validation message should has alert role', async () => {
-    // https://github.com/ant-design/ant-design/issues/25711
     const wrapper = mount(
       // eslint-disable-next-line no-template-curly-in-string
       <Form validateMessages={{ required: 'name is good!' }}>
@@ -643,7 +637,7 @@ describe('Form', () => {
     await sleep(100);
     wrapper.update();
     await sleep(100);
-    expect(wrapper.find('.ant-form-item-explain div').getDOMNode().getAttribute('role')).toBe(
+    expect(wrapper.find('.ezd-form-item-explain div').getDOMNode().getAttribute('role')).toBe(
       'alert',
     );
   });
@@ -715,7 +709,7 @@ describe('Form', () => {
     );
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Form.Item] `defaultValue` will not work on controlled Field. You should use `initialValues` of Form instead.',
+      'Warning: [ezd: Form.Item] `defaultValue` will not work on controlled Field. You should use `initialValues` of Form instead.',
     );
   });
 
@@ -744,12 +738,12 @@ describe('Form', () => {
 
     const wrapper = mount(<Demo />);
     await Promise.resolve();
-    expect(wrapper.find('.ant-form-item').last().hasClass('ant-form-item-with-help')).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item').last().hasClass('ezd-form-item-with-help')).toBeTruthy();
 
     wrapper.setState({ showA: false });
     await Promise.resolve();
     wrapper.update();
-    expect(wrapper.find('.ant-form-item').last().hasClass('ant-form-item-with-help')).toBeFalsy();
+    expect(wrapper.find('.ezd-form-item').last().hasClass('ezd-form-item-with-help')).toBeFalsy();
   });
 
   it('no warning of initialValue & getValueProps & preserve', () => {
@@ -820,7 +814,7 @@ describe('Form', () => {
       </Form>,
     );
 
-    expect(wrapper.find('form').hasClass('ant-form-hide-required-mark')).toBeTruthy();
+    expect(wrapper.find('form').hasClass('ezd-form-hide-required-mark')).toBeTruthy();
   });
 
   it('_internalItemRender api test', () => {
@@ -888,8 +882,8 @@ describe('Form', () => {
     );
 
     await change(wrapper, 0, '', true);
-    expect(wrapper.find('.ant-form-item-with-help').length).toBeTruthy();
-    expect(wrapper.find('.ant-form-item-has-warning').length).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item-with-help').length).toBeTruthy();
+    expect(wrapper.find('.ezd-form-item-has-warning').length).toBeTruthy();
 
     jest.useRealTimers();
   });

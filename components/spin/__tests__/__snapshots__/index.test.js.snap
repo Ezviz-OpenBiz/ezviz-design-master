@@ -8,29 +8,29 @@ exports[`Spin if indicator set null should not be render default indicator 1`] =
   wrapperClassName=""
 >
   <div
-    className="ant-spin ant-spin-spinning"
+    className="ezd-spin ezd-spin-spinning"
   />
 </Spin>
 `;
 
 exports[`Spin rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-spin ant-spin-spinning ant-spin-rtl"
+  class="ezd-spin ezd-spin-spinning ezd-spin-rtl"
 >
   <span
-    class="ant-spin-dot ant-spin-dot-spin"
+    class="ezd-spin-dot ezd-spin-dot-spin"
   >
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
     <i
-      class="ant-spin-dot-item"
+      class="ezd-spin-dot-item"
     />
   </span>
 </div>
@@ -38,10 +38,10 @@ exports[`Spin rtl render component should be rendered correctly in RTL direction
 
 exports[`Spin should render custom indicator when it's set 1`] = `
 <div
-  class="ant-spin ant-spin-spinning"
+  class="ezd-spin ezd-spin-spinning"
 >
   <div
-    class="custom-indicator ant-spin-dot"
+    class="custom-indicator ezd-spin-dot"
   />
 </div>
 `;
@@ -53,10 +53,10 @@ exports[`Spin should support static method Spin.setDefaultIndicator 1`] = `
   wrapperClassName=""
 >
   <div
-    className="ant-spin ant-spin-spinning"
+    className="ezd-spin ezd-spin-spinning"
   >
     <em
-      className="custom-spinner ant-spin-dot"
+      className="custom-spinner ezd-spin-dot"
     />
   </div>
 </Spin>

@@ -2,77 +2,77 @@
 
 exports[`Table.pagination Accepts pagination as true 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <colgroup />
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jerry
                   </td>
@@ -83,16 +83,16 @@ exports[`Table.pagination Accepts pagination as true 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -119,7 +119,7 @@ exports[`Table.pagination Accepts pagination as true 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -131,11 +131,11 @@ exports[`Table.pagination Accepts pagination as true 1`] = `
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -169,57 +169,57 @@ exports[`Table.pagination Accepts pagination as true 1`] = `
 
 exports[`Table.pagination renders pagination correctly 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <colgroup />
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
@@ -230,16 +230,16 @@ exports[`Table.pagination renders pagination correctly 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right my-page"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right my-page"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -266,7 +266,7 @@ exports[`Table.pagination renders pagination correctly 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -277,7 +277,7 @@ exports[`Table.pagination renders pagination correctly 1`] = `
           </a>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-2"
+          class="ezd-pagination-item ezd-pagination-item-2"
           tabindex="0"
           title="2"
         >
@@ -289,12 +289,12 @@ exports[`Table.pagination renders pagination correctly 1`] = `
         </li>
         <li
           aria-disabled="false"
-          class="ant-pagination-next"
+          class="ezd-pagination-next"
           tabindex="0"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             tabindex="-1"
             type="button"
           >
@@ -327,77 +327,77 @@ exports[`Table.pagination renders pagination correctly 1`] = `
 
 exports[`Table.pagination renders pagination topLeft and bottomRight 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <colgroup />
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Name
                   </th>
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="ezd-table-cell"
                   >
                     Jerry
                   </td>
@@ -408,16 +408,16 @@ exports[`Table.pagination renders pagination topLeft and bottomRight 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -444,7 +444,7 @@ exports[`Table.pagination renders pagination topLeft and bottomRight 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -456,11 +456,11 @@ exports[`Table.pagination renders pagination topLeft and bottomRight 1`] = `
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"

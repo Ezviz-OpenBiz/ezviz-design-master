@@ -83,20 +83,19 @@ describe('Button', () => {
         <Text>按钮</Text>
       </Button>,
     );
-    expect(wrapper.find('.ant-btn').hasClass('ant-btn-two-chinese-chars')).toBe(true);
+    expect(wrapper.find('.ezd-btn').hasClass('ezd-btn-two-chinese-chars')).toBe(true);
     wrapper.setProps({
       children: <Text>大按钮</Text>,
     });
     wrapper.update();
-    expect(wrapper.find('.ant-btn').hasClass('ant-btn-two-chinese-chars')).toBe(false);
+    expect(wrapper.find('.ezd-btn').hasClass('ezd-btn-two-chinese-chars')).toBe(false);
     wrapper.setProps({
       children: <Text>按钮</Text>,
     });
     wrapper.update();
-    expect(wrapper.find('.ant-btn').hasClass('ant-btn-two-chinese-chars')).toBe(true);
+    expect(wrapper.find('.ezd-btn').hasClass('ezd-btn-two-chinese-chars')).toBe(true);
   });
 
-  // https://github.com/ant-design/ant-design/issues/18118
   it('should not insert space to link or text button', () => {
     const wrapper1 = mount(<Button type="link">按钮</Button>);
     expect(wrapper1.text()).toBe('按钮');
@@ -116,7 +115,7 @@ describe('Button', () => {
 
   it('have static property for type detecting', () => {
     const wrapper = mount(<Button>Button Text</Button>);
-    expect((wrapper.type() as any).__ANT_BUTTON).toBe(true);
+    expect((wrapper.type() as any).__EZD_BUTTON).toBe(true);
   });
 
   it('should change loading state instantly by default', () => {
@@ -140,7 +139,7 @@ describe('Button', () => {
     }
     const wrapper = mount(<DefaultButton />);
     wrapper.simulate('click');
-    expect(wrapper.find('.ant-btn-loading').length).toBe(1);
+    expect(wrapper.find('.ezd-btn-loading').length).toBe(1);
   });
 
   it('should change loading state with delay', () => {
@@ -164,7 +163,7 @@ describe('Button', () => {
     }
     const wrapper = mount(<DefaultButton />);
     wrapper.simulate('click');
-    expect(wrapper.hasClass('ant-btn-loading')).toBe(false);
+    expect(wrapper.hasClass('ezd-btn-loading')).toBe(false);
   });
 
   it('reset when loading back of delay', () => {
@@ -180,7 +179,7 @@ describe('Button', () => {
       wrapper.update();
     });
 
-    expect(wrapper.find('.ant-btn-loading')).toHaveLength(0);
+    expect(wrapper.find('.ezd-btn-loading')).toHaveLength(0);
 
     jest.useRealTimers();
   });
@@ -198,7 +197,7 @@ describe('Button', () => {
 
   it('should support link button', () => {
     const wrapper = mount(
-      <Button target="_blank" href="https://ant.design">
+      <Button target="_blank" href="https://saastest3.ys7.com/ezd/">
         link button
       </Button>,
     );
@@ -220,7 +219,6 @@ describe('Button', () => {
     expect(wrapper.render()).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/15342
   it('should merge text if children using variable', () => {
     const wrapper = mount(
       <Button>
@@ -235,20 +233,20 @@ describe('Button', () => {
     const wrapper = mount(<Button>Button</Button>);
     wrapper.setProps({ loading: true });
     wrapper.update();
-    expect(wrapper.find('.ant-btn-loading').length).toBe(1);
+    expect(wrapper.find('.ezd-btn-loading').length).toBe(1);
     wrapper.setProps({ loading: false });
     wrapper.update();
-    expect(wrapper.find('.ant-btn-loading').length).toBe(0);
+    expect(wrapper.find('.ezd-btn-loading').length).toBe(0);
     wrapper.setProps({ loading: { delay: 50 } });
     wrapper.update();
-    expect(wrapper.find('.ant-btn-loading').length).toBe(0);
+    expect(wrapper.find('.ezd-btn-loading').length).toBe(0);
     await sleep(50);
     wrapper.update();
-    expect(wrapper.find('.ant-btn-loading').length).toBe(1);
+    expect(wrapper.find('.ezd-btn-loading').length).toBe(1);
     wrapper.setProps({ loading: false });
     await sleep(50);
     wrapper.update();
-    expect(wrapper.find('.ant-btn-loading').length).toBe(0);
+    expect(wrapper.find('.ezd-btn-loading').length).toBe(0);
     expect(() => {
       wrapper.unmount();
     }).not.toThrow();
@@ -261,7 +259,7 @@ describe('Button', () => {
     expect(warnSpy).not.toHaveBeenCalled();
     mount(<Button type="primary" icon="search" />);
     expect(warnSpy).toHaveBeenCalledWith(
-      `Warning: [antd: Button] \`icon\` is using ReactNode instead of string naming in v4. Please check \`search\` at https://ant.design/components/icon`,
+      `Warning: [ezd: Button] \`icon\` is using ReactNode instead of string naming. `,
     );
     warnSpy.mockRestore();
   });
@@ -271,7 +269,7 @@ describe('Button', () => {
     const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     mount(<Button type="link" ghost />);
     expect(warnSpy).toHaveBeenCalledWith(
-      "Warning: [antd: Button] `link` or `text` button can't be a `ghost` button.",
+      "Warning: [ezd: Button] `link` or `text` button can't be a `ghost` button.",
     );
     warnSpy.mockRestore();
   });
@@ -281,7 +279,7 @@ describe('Button', () => {
     const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     mount(<Button type="text" ghost />);
     expect(warnSpy).toHaveBeenCalledWith(
-      "Warning: [antd: Button] `link` or `text` button can't be a `ghost` button.",
+      "Warning: [ezd: Button] `link` or `text` button can't be a `ghost` button.",
     );
     warnSpy.mockRestore();
   });
@@ -304,7 +302,7 @@ describe('Button', () => {
   it('should not redirect when button is disabled', () => {
     const onClick = jest.fn();
     const wrapper = mount(
-      <Button href="https://ant.design" onClick={onClick} disabled>
+      <Button href="https://saastest3.ys7.com/ezd/" onClick={onClick} disabled>
         click me
       </Button>,
     );
@@ -312,7 +310,6 @@ describe('Button', () => {
     expect(onClick).not.toHaveBeenCalled();
   });
 
-  // https://github.com/ant-design/ant-design/issues/30953
   it('should handle fragment as children', () => {
     const wrapper = mount(
       <Button>

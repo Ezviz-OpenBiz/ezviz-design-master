@@ -117,11 +117,11 @@ ReactDOM.render(<App />, mountNode);
 ```
 
 ```css
-#components-grid-demo-playground [class~='ant-col'] {
+#components-grid-demo-playground [class~='ezd-col'] {
   background: transparent;
   border: 0;
 }
-#components-grid-demo-playground [class~='ant-col'] > div {
+#components-grid-demo-playground [class~='ezd-col'] > div {
   height: 120px;
   font-size: 14px;
   line-height: 120px;
@@ -137,13 +137,13 @@ ReactDOM.render(<App />, mountNode);
 #components-grid-demo-playground pre.demo-code {
   direction: ltr;
 }
-#components-grid-demo-playground .ant-col {
+#components-grid-demo-playground .ezd-col {
   padding: 0;
 }
 ```
 
 <style>
-[data-theme="dark"] #components-grid-demo-playground [class~='ant-col'] > div {
+[data-theme="dark"] #components-grid-demo-playground [class~='ezd-col'] > div {
   background: #028ac8;
 }
 </style>

@@ -3,20 +3,20 @@
 exports[`Menu Menu.Item with icon children auto wrap span 1`] = `
 Array [
   <ul
-    class="ant-menu ant-menu-root ant-menu-vertical ant-menu-light"
+    class="ezd-menu ezd-menu-root ezd-menu-vertical ezd-menu-light"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       data-menu-id="rc-menu-uuid-test-1"
       role="menuitem"
       tabindex="-1"
     >
       <span
         aria-label="mail"
-        class="anticon anticon-mail ant-menu-item-icon"
+        class="anticon anticon-mail ezd-menu-item-icon"
         role="img"
       >
         <svg
@@ -34,20 +34,20 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Navigation One
       </span>
     </li>
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       data-menu-id="rc-menu-uuid-test-2"
       role="menuitem"
       tabindex="-1"
     >
       <span
         aria-label="mail"
-        class="anticon anticon-mail ant-menu-item-icon"
+        class="anticon anticon-mail ezd-menu-item-icon"
         role="img"
       >
         <svg
@@ -65,7 +65,7 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         <span>
           Navigation One
@@ -73,21 +73,21 @@ Array [
       </span>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-vertical"
+      class="ezd-menu-submenu ezd-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-controls="rc-menu-uuid-test-3-popup"
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         data-menu-id="rc-menu-uuid-test-3"
         role="menuitem"
         tabindex="-1"
       >
         <span
           aria-label="mail"
-          class="anticon anticon-mail ant-menu-item-icon"
+          class="anticon anticon-mail ezd-menu-item-icon"
           role="img"
         >
           <svg
@@ -105,31 +105,31 @@ Array [
           </svg>
         </span>
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           Navigation One
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-vertical"
+      class="ezd-menu-submenu ezd-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-controls="rc-menu-uuid-test-4-popup"
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         data-menu-id="rc-menu-uuid-test-4"
         role="menuitem"
         tabindex="-1"
       >
         <span
           aria-label="mail"
-          class="anticon anticon-mail ant-menu-item-icon"
+          class="anticon anticon-mail ezd-menu-item-icon"
           role="img"
         >
           <svg
@@ -150,7 +150,7 @@ Array [
           Navigation One
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -165,47 +165,47 @@ Array [
 exports[`Menu rtl render component should be rendered correctly in RTL direction 1`] = `
 Array [
   <ul
-    class="ant-menu ant-menu-root ant-menu-vertical ant-menu-light ant-menu-rtl"
+    class="ezd-menu ezd-menu-root ezd-menu-vertical ezd-menu-light ezd-menu-rtl"
     data-menu-list="true"
     dir="rtl"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       role="menuitem"
       tabindex="-1"
     >
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       />
     </li>
     <li
-      class="ant-menu-item-group"
+      class="ezd-menu-item-group"
     >
       <div
-        class="ant-menu-item-group-title"
+        class="ezd-menu-item-group-title"
       />
       <ul
-        class="ant-menu-item-group-list"
+        class="ezd-menu-item-group-list"
       />
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-vertical"
+      class="ezd-menu-submenu ezd-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="ezd-menu-submenu-title"
         role="menuitem"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         />
         <i
-          class="ant-menu-submenu-arrow"
+          class="ezd-menu-submenu-arrow"
         />
       </div>
     </li>
@@ -220,13 +220,13 @@ Array [
 exports[`Menu should controlled collapse work 1`] = `
 Array [
   <ul
-    class="ant-menu ant-menu-root ant-menu-inline ant-menu-light"
+    class="ezd-menu ezd-menu-root ezd-menu-inline ezd-menu-light"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       data-menu-id="rc-menu-uuid-test-1"
       role="menuitem"
       style="padding-left: 24px;"
@@ -234,7 +234,7 @@ Array [
     >
       <span
         aria-label="pie-chart"
-        class="anticon anticon-pie-chart ant-menu-item-icon"
+        class="anticon anticon-pie-chart ezd-menu-item-icon"
         role="img"
       >
         <svg
@@ -252,7 +252,7 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Option 1
       </span>
@@ -268,13 +268,13 @@ Array [
 exports[`Menu should controlled collapse work 2`] = `
 Array [
   <ul
-    class="ant-menu ant-menu-root ant-menu-vertical ant-menu-light ant-menu-inline-collapsed"
+    class="ezd-menu ezd-menu-root ezd-menu-vertical ezd-menu-light ezd-menu-inline-collapsed"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-menu-item"
+      class="ezd-menu-item"
       data-menu-id="rc-menu-uuid-test-1"
       role="menuitem"
       style="padding-left: 24px;"
@@ -282,7 +282,7 @@ Array [
     >
       <span
         aria-label="pie-chart"
-        class="anticon anticon-pie-chart ant-menu-item-icon"
+        class="anticon anticon-pie-chart ezd-menu-item-icon"
         role="img"
       >
         <svg
@@ -300,7 +300,7 @@ Array [
         </svg>
       </span>
       <span
-        class="ant-menu-title-content"
+        class="ezd-menu-title-content"
       >
         Option 1
       </span>

@@ -75,23 +75,22 @@ describe('Table', () => {
       delay: 500,
     };
     const wrapper = mount(<Table loading={loading} />);
-    expect(wrapper.find('.ant-spin')).toHaveLength(0);
-    expect(wrapper.find('.ant-table-placeholder').hostNodes().text()).not.toEqual('');
+    expect(wrapper.find('.ezd-spin')).toHaveLength(0);
+    expect(wrapper.find('.ezd-table-placeholder').hostNodes().text()).not.toEqual('');
 
     loading.spinning = true;
     wrapper.setProps({ loading });
-    expect(wrapper.find('.ant-spin')).toHaveLength(0);
+    expect(wrapper.find('.ezd-spin')).toHaveLength(0);
     await sleep(500);
     wrapper.update();
-    expect(wrapper.find('.ant-spin')).toHaveLength(1);
+    expect(wrapper.find('.ezd-spin')).toHaveLength(1);
   });
 
-  // https://github.com/ant-design/ant-design/issues/22733
   it('support loading tip', async () => {
     const wrapper = mount(<Table loading={{ tip: 'loading...' }} />);
     await sleep(500);
     wrapper.update();
-    expect(wrapper.find('.ant-spin')).toHaveLength(1);
+    expect(wrapper.find('.ezd-spin')).toHaveLength(1);
   });
 
   it('renders custom components correctly when it changes', () => {
@@ -130,7 +129,7 @@ describe('Table', () => {
     );
 
     expect(errorSpy).not.toHaveBeenCalledWith(
-      '`columnsPageRange` and `columnsPageSize` are removed, please use fixed columns instead, see: https://u.ant.design/fixed-columns.',
+      '`columnsPageRange` and `columnsPageSize` are removed, please use fixed columns instead.',
     );
 
     expect(columnsPageRange).not.toHaveBeenCalled();
@@ -205,7 +204,7 @@ describe('Table', () => {
     ];
     const wrapper = mount(<Table columns={columns} dataSource={data} />);
     wrapper.find('td').forEach(td => {
-      expect(td.hasClass('ant-table-cell-ellipsis')).toBeTruthy();
+      expect(td.hasClass('ezd-table-cell-ellipsis')).toBeTruthy();
     });
   });
 
@@ -226,11 +225,11 @@ describe('Table', () => {
     ];
     const wrapper = mount(<Table columns={columns} dataSource={data} />);
 
-    wrapper.find('.ant-table-thead th').forEach(td => {
+    wrapper.find('.ezd-table-thead th').forEach(td => {
       expect(td.getDOMNode().attributes.getNamedItem('title')).toBeTruthy();
     });
 
-    wrapper.find('.ant-table-tbody td').forEach(td => {
+    wrapper.find('.ezd-table-tbody td').forEach(td => {
       expect(td.getDOMNode().attributes.getNamedItem('title')).toBeFalsy();
     });
   });
@@ -246,7 +245,7 @@ describe('Table', () => {
     ];
     mount(<Table columns={columns} rowKey={(record, index) => record + index} />);
     expect(warnSpy).toBeCalledWith(
-      'Warning: [antd: Table] `index` parameter of `rowKey` function is deprecated. There is no guarantee that it will work as expected.',
+      'Warning: [ezd: Table] `index` parameter of `rowKey` function is deprecated. There is no guarantee that it will work as expected.',
     );
   });
   it('not warn about rowKey', () => {

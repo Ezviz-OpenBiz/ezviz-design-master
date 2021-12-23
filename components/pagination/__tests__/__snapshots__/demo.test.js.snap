@@ -2,21 +2,21 @@
 
 exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
-    class="ant-pagination-total-text"
+    class="ezd-pagination-total-text"
   >
     Total 85 items
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="ezd-pagination-prev ant-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -43,7 +43,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -54,7 +54,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="ezd-pagination-item ant-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -65,7 +65,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="ezd-pagination-item ant-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -76,7 +76,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="ezd-pagination-item ant-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -87,7 +87,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    class="ezd-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
     tabindex="0"
     title="5"
   >
@@ -98,15 +98,15 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    class="ezd-pagination-jump-next ant-pagination-jump-next-custom-icon"
     tabindex="0"
     title="Next 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="ezd-pagination-item-container"
       >
         <span
           aria-label="double-right"
@@ -128,7 +128,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="ezd-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -136,7 +136,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-9"
+    class="ezd-pagination-item ant-pagination-item-9"
     tabindex="0"
     title="9"
   >
@@ -148,12 +148,12 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="ezd-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >
@@ -179,16 +179,16 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="ezd-pagination-options"
   >
     <div
-      class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+      class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -197,7 +197,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -207,7 +207,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="10 / page"
         >
           10 / page
@@ -215,7 +215,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -241,7 +241,7 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-pagination-options-quick-jumper"
+      class="ezd-pagination-options-quick-jumper"
     >
       Go to
       <input
@@ -255,16 +255,16 @@ exports[`renders ./components/pagination/demo/all.md correctly 1`] = `
 
 exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="ezd-pagination-prev ant-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
@@ -291,7 +291,7 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -302,7 +302,7 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="ezd-pagination-item ant-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -313,7 +313,7 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="ezd-pagination-item ant-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -324,7 +324,7 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="ezd-pagination-item ant-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -335,7 +335,7 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="ezd-pagination-item ant-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -347,12 +347,12 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="ezd-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >
@@ -383,17 +383,17 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
 exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination"
+    class="ezd-pagination"
     unselectable="unselectable"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="ezd-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -419,7 +419,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="ezd-pagination-item ant-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -430,7 +430,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -441,7 +441,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-3 ant-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -452,7 +452,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -463,7 +463,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="ezd-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -474,15 +474,15 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="ezd-pagination-jump-next ant-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="ezd-pagination-item-container"
         >
           <span
             aria-label="double-right"
@@ -504,7 +504,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="ezd-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -512,7 +512,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="ezd-pagination-item ant-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -524,12 +524,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -555,16 +555,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+        class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -573,7 +573,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -583,7 +583,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="10 / page"
           >
             10 / page
@@ -591,7 +591,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -620,17 +620,17 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-disabled"
+    class="ezd-pagination ant-pagination-disabled"
     unselectable="unselectable"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="ezd-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -656,7 +656,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="ezd-pagination-item ant-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -667,7 +667,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -678,7 +678,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-3 ant-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -689,7 +689,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -700,7 +700,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="ezd-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -711,15 +711,15 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="ezd-pagination-jump-next ant-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="ezd-pagination-item-container"
         >
           <span
             aria-label="double-right"
@@ -741,7 +741,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="ezd-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -749,7 +749,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="ezd-pagination-item ant-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -761,12 +761,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -792,16 +792,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-disabled"
+        class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-disabled"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -811,7 +811,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               disabled=""
               readonly=""
               role="combobox"
@@ -822,7 +822,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="10 / page"
           >
             10 / page
@@ -830,7 +830,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -862,17 +862,17 @@ Array [
 
 exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
     aria-disabled="false"
-    class="ant-pagination-prev"
+    class="ezd-pagination-prev"
     tabindex="0"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >
@@ -898,7 +898,7 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1"
+    class="ezd-pagination-item ant-pagination-item-1"
     tabindex="0"
     title="1"
   >
@@ -909,7 +909,7 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="ezd-pagination-item ant-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -920,7 +920,7 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+    class="ezd-pagination-item ant-pagination-item-3 ant-pagination-item-active"
     tabindex="0"
     title="3"
   >
@@ -931,7 +931,7 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="ezd-pagination-item ant-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -942,7 +942,7 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="ezd-pagination-item ant-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -954,12 +954,12 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="ezd-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >
@@ -989,12 +989,12 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
 
 exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="ezd-pagination-prev ant-pagination-disabled"
     title="Previous Page"
   >
     <a
@@ -1004,7 +1004,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -1015,7 +1015,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="ezd-pagination-item ant-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -1026,7 +1026,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="ezd-pagination-item ant-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -1037,7 +1037,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="ezd-pagination-item ant-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -1048,7 +1048,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    class="ezd-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
     tabindex="0"
     title="5"
   >
@@ -1059,15 +1059,15 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    class="ezd-pagination-jump-next ant-pagination-jump-next-custom-icon"
     tabindex="0"
     title="Next 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="ezd-pagination-item-container"
       >
         <span
           aria-label="double-right"
@@ -1089,7 +1089,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="ezd-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -1097,7 +1097,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-50"
+    class="ezd-pagination-item ant-pagination-item-50"
     tabindex="0"
     title="50"
   >
@@ -1109,7 +1109,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="ezd-pagination-next"
     tabindex="0"
     title="Next Page"
   >
@@ -1118,16 +1118,16 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-options"
+    class="ezd-pagination-options"
   >
     <div
-      class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+      class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -1136,7 +1136,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -1146,7 +1146,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="10 / page"
         >
           10 / page
@@ -1154,7 +1154,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -1186,17 +1186,17 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
 exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination"
+    class="ezd-pagination"
     unselectable="unselectable"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="ezd-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -1222,7 +1222,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="ezd-pagination-item ant-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -1233,7 +1233,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-2 ant-pagination-item-active"
       tabindex="0"
       title="2"
     >
@@ -1244,7 +1244,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -1255,7 +1255,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1266,7 +1266,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="ezd-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -1277,15 +1277,15 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="ezd-pagination-jump-next ant-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="ezd-pagination-item-container"
         >
           <span
             aria-label="double-right"
@@ -1307,7 +1307,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="ezd-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -1315,7 +1315,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="ezd-pagination-item ant-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -1327,12 +1327,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -1358,16 +1358,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+        class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -1376,7 +1376,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -1386,7 +1386,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="10 / page"
           >
             10 / page
@@ -1394,7 +1394,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -1420,7 +1420,7 @@ Array [
         </span>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="ezd-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -1432,17 +1432,17 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-disabled"
+    class="ezd-pagination ant-pagination-disabled"
     unselectable="unselectable"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="ezd-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -1468,7 +1468,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="ezd-pagination-item ant-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -1479,7 +1479,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-2 ant-pagination-item-active"
       tabindex="0"
       title="2"
     >
@@ -1490,7 +1490,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -1501,7 +1501,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1512,7 +1512,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="ezd-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -1523,15 +1523,15 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="ezd-pagination-jump-next ant-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="ezd-pagination-item-container"
         >
           <span
             aria-label="double-right"
@@ -1553,7 +1553,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="ezd-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -1561,7 +1561,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="ezd-pagination-item ant-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -1573,12 +1573,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -1604,16 +1604,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-disabled"
+        class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-disabled"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -1623,7 +1623,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               disabled=""
               readonly=""
               role="combobox"
@@ -1634,7 +1634,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="10 / page"
           >
             10 / page
@@ -1642,7 +1642,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -1668,7 +1668,7 @@ Array [
         </span>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="ezd-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -1685,16 +1685,16 @@ Array [
 exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination mini"
+    class="ezd-pagination mini"
     unselectable="unselectable"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="ezd-pagination-prev ant-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
@@ -1721,7 +1721,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -1732,7 +1732,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -1743,7 +1743,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -1754,7 +1754,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1765,7 +1765,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="ezd-pagination-item ant-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -1777,12 +1777,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -1809,16 +1809,16 @@ Array [
     </li>
   </ul>,
   <ul
-    class="ant-pagination mini"
+    class="ezd-pagination mini"
     unselectable="unselectable"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="ezd-pagination-prev ant-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
@@ -1845,7 +1845,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -1856,7 +1856,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -1867,7 +1867,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -1878,7 +1878,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1889,7 +1889,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="ezd-pagination-item ant-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -1901,12 +1901,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -1932,16 +1932,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-select-sm ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+        class="ezd-select ant-select-sm ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -1950,7 +1950,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -1960,7 +1960,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="10 / page"
           >
             10 / page
@@ -1968,7 +1968,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -1994,7 +1994,7 @@ Array [
         </span>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="ezd-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -2005,21 +2005,21 @@ Array [
     </li>
   </ul>,
   <ul
-    class="ant-pagination mini"
+    class="ezd-pagination mini"
     unselectable="unselectable"
   >
     <li
-      class="ant-pagination-total-text"
+      class="ezd-pagination-total-text"
     >
       Total 50 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="ezd-pagination-prev ant-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
@@ -2046,7 +2046,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -2057,7 +2057,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -2068,7 +2068,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2079,7 +2079,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2090,7 +2090,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="ezd-pagination-item ant-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -2102,12 +2102,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -2134,21 +2134,21 @@ Array [
     </li>
   </ul>,
   <ul
-    class="ant-pagination mini ant-pagination-disabled"
+    class="ezd-pagination mini ant-pagination-disabled"
     unselectable="unselectable"
   >
     <li
-      class="ant-pagination-total-text"
+      class="ezd-pagination-total-text"
     >
       Total 50 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="ezd-pagination-prev ant-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
@@ -2175,7 +2175,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -2186,7 +2186,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -2197,7 +2197,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2208,7 +2208,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2219,7 +2219,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="ezd-pagination-item ant-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -2231,12 +2231,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -2262,16 +2262,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-select-sm ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-disabled"
+        class="ezd-select ant-select-sm ant-pagination-options-size-changer ant-select-single ant-select-show-arrow ant-select-disabled"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -2281,7 +2281,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               disabled=""
               readonly=""
               role="combobox"
@@ -2292,7 +2292,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="10 / page"
           >
             10 / page
@@ -2300,7 +2300,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -2326,7 +2326,7 @@ Array [
         </span>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="ezd-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -2342,17 +2342,17 @@ Array [
 
 exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
 <ul
-  class="ant-pagination"
+  class="ezd-pagination"
   unselectable="unselectable"
 >
   <li
     aria-disabled="false"
-    class="ant-pagination-prev"
+    class="ezd-pagination-prev"
     tabindex="0"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >
@@ -2378,7 +2378,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1"
+    class="ezd-pagination-item ant-pagination-item-1"
     tabindex="0"
     title="1"
   >
@@ -2389,15 +2389,15 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-prev ant-pagination-jump-prev-custom-icon"
+    class="ezd-pagination-jump-prev ant-pagination-jump-prev-custom-icon"
     tabindex="0"
     title="Previous 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="ezd-pagination-item-container"
       >
         <span
           aria-label="double-left"
@@ -2419,7 +2419,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="ezd-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -2427,7 +2427,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4 ant-pagination-item-after-jump-prev"
+    class="ezd-pagination-item ant-pagination-item-4 ant-pagination-item-after-jump-prev"
     tabindex="0"
     title="4"
   >
@@ -2438,7 +2438,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="ezd-pagination-item ant-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -2449,7 +2449,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-6 ant-pagination-item-active"
+    class="ezd-pagination-item ant-pagination-item-6 ant-pagination-item-active"
     tabindex="0"
     title="6"
   >
@@ -2460,7 +2460,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-7"
+    class="ezd-pagination-item ant-pagination-item-7"
     tabindex="0"
     title="7"
   >
@@ -2471,7 +2471,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-8 ant-pagination-item-before-jump-next"
+    class="ezd-pagination-item ant-pagination-item-8 ant-pagination-item-before-jump-next"
     tabindex="0"
     title="8"
   >
@@ -2482,15 +2482,15 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    class="ezd-pagination-jump-next ant-pagination-jump-next-custom-icon"
     tabindex="0"
     title="Next 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="ezd-pagination-item-container"
       >
         <span
           aria-label="double-right"
@@ -2512,7 +2512,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="ezd-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -2520,7 +2520,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-50"
+    class="ezd-pagination-item ant-pagination-item-50"
     tabindex="0"
     title="50"
   >
@@ -2532,12 +2532,12 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="ezd-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="ezd-pagination-item-link"
       tabindex="-1"
       type="button"
     >
@@ -2563,16 +2563,16 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="ezd-pagination-options"
   >
     <div
-      class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+      class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <span
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
         >
           <input
             aria-activedescendant="undefined_list_0"
@@ -2581,7 +2581,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -2591,7 +2591,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
           />
         </span>
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="10 / page"
         >
           10 / page
@@ -2599,7 +2599,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
       </div>
       <span
         aria-hidden="true"
-        class="ant-select-arrow"
+        class="ezd-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -2631,16 +2631,16 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
 exports[`renders ./components/pagination/demo/simple.md correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination ant-pagination-simple"
+    class="ezd-pagination ant-pagination-simple"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="ezd-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -2666,7 +2666,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-simple-pager"
+      class="ezd-pagination-simple-pager"
       title="2/5"
     >
       <input
@@ -2675,7 +2675,7 @@ Array [
         value="2"
       />
       <span
-        class="ant-pagination-slash"
+        class="ezd-pagination-slash"
       >
         /
       </span>
@@ -2683,12 +2683,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -2716,16 +2716,16 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-simple ant-pagination-disabled"
+    class="ezd-pagination ant-pagination-simple ant-pagination-disabled"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="ezd-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -2751,7 +2751,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-simple-pager"
+      class="ezd-pagination-simple-pager"
       title="2/5"
     >
       <input
@@ -2761,7 +2761,7 @@ Array [
         value="2"
       />
       <span
-        class="ant-pagination-slash"
+        class="ezd-pagination-slash"
       >
         /
       </span>
@@ -2769,12 +2769,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -2806,21 +2806,21 @@ Array [
 exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination"
+    class="ezd-pagination"
     unselectable="unselectable"
   >
     <li
-      class="ant-pagination-total-text"
+      class="ezd-pagination-total-text"
     >
       Total 85 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="ezd-pagination-prev ant-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
@@ -2847,7 +2847,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -2858,7 +2858,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -2869,7 +2869,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2880,7 +2880,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2891,7 +2891,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="ezd-pagination-item ant-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -2903,12 +2903,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -2934,16 +2934,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+        class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -2952,7 +2952,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -2962,7 +2962,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="20 / page"
           >
             20 / page
@@ -2970,7 +2970,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -2999,21 +2999,21 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination"
+    class="ezd-pagination"
     unselectable="unselectable"
   >
     <li
-      class="ant-pagination-total-text"
+      class="ezd-pagination-total-text"
     >
       1-20 of 85 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="ezd-pagination-prev ant-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
@@ -3040,7 +3040,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="ezd-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -3051,7 +3051,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="ezd-pagination-item ant-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -3062,7 +3062,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="ezd-pagination-item ant-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -3073,7 +3073,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="ezd-pagination-item ant-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -3084,7 +3084,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="ezd-pagination-item ant-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -3096,12 +3096,12 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="ezd-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="ezd-pagination-item-link"
         tabindex="-1"
         type="button"
       >
@@ -3127,16 +3127,16 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="ezd-pagination-options"
     >
       <div
-        class="ant-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+        class="ezd-select ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
       >
         <div
-          class="ant-select-selector"
+          class="ezd-select-selector"
         >
           <span
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
           >
             <input
               aria-activedescendant="undefined_list_0"
@@ -3145,7 +3145,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -3155,7 +3155,7 @@ Array [
             />
           </span>
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="20 / page"
           >
             20 / page
@@ -3163,7 +3163,7 @@ Array [
         </div>
         <span
           aria-hidden="true"
-          class="ant-select-arrow"
+          class="ezd-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >

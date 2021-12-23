@@ -2,16 +2,16 @@
 
 exports[`Comment rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-comment ant-comment-rtl"
+  class="ezd-comment ezd-comment-rtl"
 >
   <div
-    class="ant-comment-inner"
+    class="ezd-comment-inner"
   >
     <div
-      class="ant-comment-content"
+      class="ezd-comment-content"
     >
       <div
-        class="ant-comment-content-detail"
+        class="ezd-comment-content-detail"
       />
     </div>
   </div>
@@ -20,32 +20,32 @@ exports[`Comment rtl render component should be rendered correctly in RTL direct
 
 exports[`Comment should support empty actions 1`] = `
 <div
-  class="ant-comment"
+  class="ezd-comment"
 >
   <div
-    class="ant-comment-inner"
+    class="ezd-comment-inner"
   >
     <div
-      class="ant-comment-content"
+      class="ezd-comment-content"
     >
       <div
-        class="ant-comment-content-author"
+        class="ezd-comment-content-author"
       >
         <span
-          class="ant-comment-content-author-name"
+          class="ezd-comment-content-author-name"
         >
           <a>
             Han Solo
           </a>
         </span>
         <span
-          class="ant-comment-content-author-time"
+          class="ezd-comment-content-author-time"
         >
           YYYY-MM-DD HH:mm:ss
         </span>
       </div>
       <div
-        class="ant-comment-content-detail"
+        class="ezd-comment-content-detail"
       >
         <p>
           We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.

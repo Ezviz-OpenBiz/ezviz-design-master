@@ -7,11 +7,11 @@ title:
 
 ## zh-CN
 
-[查询模式: 确定类目](https://ant.design/docs/spec/reaction#Lookup-Patterns) 示例。
+[查询模式: 确定类目](https://saastest3.ys7.com/ezd/docs/spec/reaction#Lookup-Patterns) 示例。
 
 ## en-US
 
-Demonstration of [Lookup Patterns: Certain Category](https://ant.design/docs/spec/reaction#Lookup-Patterns). Basic Usage, set options of autocomplete with `options` property.
+Demonstration of [Lookup Patterns: Certain Category](https://saastest3.ys7.com/ezd/docs/spec/reaction#Lookup-Patterns). Basic Usage, set options of autocomplete with `options` property.
 
 ```tsx
 import { Input, AutoComplete } from '@ezviz/ezd';
@@ -51,15 +51,15 @@ const renderItem = (title: string, count: number) => ({
 const options = [
   {
     label: renderTitle('Libraries'),
-    options: [renderItem('AntDesign', 10000), renderItem('AntDesign UI', 10600)],
+    options: [renderItem('EZDesign', 10000), renderItem('EZDesign UI', 10600)],
   },
   {
     label: renderTitle('Solutions'),
-    options: [renderItem('AntDesign UI FAQ', 60100), renderItem('AntDesign FAQ', 30010)],
+    options: [renderItem('EZDesign UI FAQ', 60100), renderItem('EZDesign FAQ', 30010)],
   },
   {
     label: renderTitle('Articles'),
-    options: [renderItem('AntDesign design language', 100000)],
+    options: [renderItem('EZDesign design language', 100000)],
   },
 ];
 
@@ -78,25 +78,25 @@ ReactDOM.render(<Complete />, mountNode);
 ```
 
 ```css
-.certain-category-search-dropdown .ant-select-dropdown-menu-item-group-title {
+.certain-category-search-dropdown .ezd-select-dropdown-menu-item-group-title {
   color: #666;
   font-weight: bold;
 }
 
-.certain-category-search-dropdown .ant-select-dropdown-menu-item-group {
+.certain-category-search-dropdown .ezd-select-dropdown-menu-item-group {
   border-bottom: 1px solid #f6f6f6;
 }
 
-.certain-category-search-dropdown .ant-select-dropdown-menu-item {
+.certain-category-search-dropdown .ezd-select-dropdown-menu-item {
   padding-left: 16px;
 }
 
-.certain-category-search-dropdown .ant-select-dropdown-menu-item.show-all {
+.certain-category-search-dropdown .ezd-select-dropdown-menu-item.show-all {
   text-align: center;
   cursor: default;
 }
 
-.certain-category-search-dropdown .ant-select-dropdown-menu {
+.certain-category-search-dropdown .ezd-select-dropdown-menu {
   max-height: 300px;
 }
 ```

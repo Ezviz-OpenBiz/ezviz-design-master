@@ -3,118 +3,118 @@
 exports[`renders ./components/layout/demo/basic.md correctly 1`] = `
 Array [
   <section
-    class="ant-layout"
+    class="ezd-layout"
   >
     <header
-      class="ant-layout-header"
+      class="ezd-layout-header"
     >
       Header
     </header>
     <main
-      class="ant-layout-content"
+      class="ezd-layout-content"
     >
       Content
     </main>
     <footer
-      class="ant-layout-footer"
+      class="ezd-layout-footer"
     >
       Footer
     </footer>
   </section>,
   <section
-    class="ant-layout"
+    class="ezd-layout"
   >
     <header
-      class="ant-layout-header"
+      class="ezd-layout-header"
     >
       Header
     </header>
     <section
-      class="ant-layout"
+      class="ezd-layout"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark"
+        class="ezd-layout-sider ant-layout-sider-dark"
         style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
       >
         <div
-          class="ant-layout-sider-children"
+          class="ezd-layout-sider-children"
         >
           Sider
         </div>
       </aside>
       <main
-        class="ant-layout-content"
+        class="ezd-layout-content"
       >
         Content
       </main>
     </section>
     <footer
-      class="ant-layout-footer"
+      class="ezd-layout-footer"
     >
       Footer
     </footer>
   </section>,
   <section
-    class="ant-layout"
+    class="ezd-layout"
   >
     <header
-      class="ant-layout-header"
+      class="ezd-layout-header"
     >
       Header
     </header>
     <section
-      class="ant-layout"
+      class="ezd-layout"
     >
       <main
-        class="ant-layout-content"
+        class="ezd-layout-content"
       >
         Content
       </main>
       <aside
-        class="ant-layout-sider ant-layout-sider-dark"
+        class="ezd-layout-sider ant-layout-sider-dark"
         style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
       >
         <div
-          class="ant-layout-sider-children"
+          class="ezd-layout-sider-children"
         >
           Sider
         </div>
       </aside>
     </section>
     <footer
-      class="ant-layout-footer"
+      class="ezd-layout-footer"
     >
       Footer
     </footer>
   </section>,
   <section
-    class="ant-layout"
+    class="ezd-layout"
   >
     <aside
-      class="ant-layout-sider ant-layout-sider-dark"
+      class="ezd-layout-sider ant-layout-sider-dark"
       style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
     >
       <div
-        class="ant-layout-sider-children"
+        class="ezd-layout-sider-children"
       >
         Sider
       </div>
     </aside>
     <section
-      class="ant-layout"
+      class="ezd-layout"
     >
       <header
-        class="ant-layout-header"
+        class="ezd-layout-header"
       >
         Header
       </header>
       <main
-        class="ant-layout-content"
+        class="ezd-layout-content"
       >
         Content
       </main>
       <footer
-        class="ant-layout-footer"
+        class="ezd-layout-footer"
       >
         Footer
       </footer>
@@ -125,26 +125,26 @@ Array [
 
 exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
 <section
-  class="ant-layout"
+  class="ezd-layout"
 >
   <aside
-    class="ant-layout-sider ant-layout-sider-dark"
+    class="ezd-layout-sider ant-layout-sider-dark"
     style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="ezd-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark"
+        class="ezd-menu ant-menu-root ant-menu-inline ant-menu-dark"
         data-menu-list="true"
         role="menu"
         tabindex="0"
       >
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="ezd-menu-item ant-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -169,13 +169,13 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 1
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -200,13 +200,13 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 2
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -231,7 +231,7 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 3
           </span>
@@ -244,10 +244,10 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
     </div>
   </aside>
   <section
-    class="ant-layout site-layout"
+    class="ezd-layout site-layout"
   >
     <header
-      class="ant-layout-header site-layout-background"
+      class="ezd-layout-header site-layout-background"
       style="padding:0"
     >
       <span
@@ -272,7 +272,7 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
       </span>
     </header>
     <main
-      class="ant-layout-content site-layout-background"
+      class="ezd-layout-content site-layout-background"
       style="margin:24px 16px;padding:24px;min-height:280px"
     >
       Content
@@ -283,67 +283,67 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
 <section
-  class="ant-layout"
+  class="ezd-layout"
 >
   <header
-    class="ant-layout-header"
+    class="ezd-layout-header"
     style="position:fixed;z-index:1;width:100%"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
+      class="ezd-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
       data-menu-list="true"
       role="menu"
       tabindex="0"
     >
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:0"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 1
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:1"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 2
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:2"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 3
         </span>
       </li>
       <li
         aria-hidden="true"
-        class="ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
+        class="ezd-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
         role="none"
         style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="ezd-menu-submenu-title"
           role="menuitem"
           tabindex="-1"
         >
@@ -367,7 +367,7 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
             </svg>
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="ezd-menu-submenu-arrow"
           />
         </div>
       </li>
@@ -378,45 +378,45 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
     />
   </header>
   <main
-    class="ant-layout-content site-layout"
+    class="ezd-layout-content site-layout"
     style="padding:0 50px;margin-top:64px"
   >
     <div
-      class="ant-breadcrumb"
+      class="ezd-breadcrumb"
       style="margin:16px 0"
     >
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           Home
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           List
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           App
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
@@ -430,7 +430,7 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
     </div>
   </main>
   <footer
-    class="ant-layout-footer"
+    class="ezd-layout-footer"
     style="text-align:center"
   >
     EZ Design ©2018 Created by Ant UED
@@ -440,26 +440,26 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
 <section
-  class="ant-layout"
+  class="ezd-layout"
 >
   <aside
-    class="ant-layout-sider ant-layout-sider-dark"
+    class="ezd-layout-sider ant-layout-sider-dark"
     style="overflow:auto;height:100vh;position:fixed;left:0;flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="ezd-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark"
+        class="ezd-menu ant-menu-root ant-menu-inline ant-menu-dark"
         data-menu-list="true"
         role="menu"
         tabindex="0"
       >
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -484,13 +484,13 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 1
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -515,13 +515,13 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 2
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -546,13 +546,13 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 3
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="ezd-menu-item ant-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -577,13 +577,13 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 4
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -608,13 +608,13 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 5
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -639,13 +639,13 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 6
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -670,13 +670,13 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 7
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -701,7 +701,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 8
           </span>
@@ -714,15 +714,15 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
     </div>
   </aside>
   <section
-    class="ant-layout site-layout"
+    class="ezd-layout site-layout"
     style="margin-left:200px"
   >
     <header
-      class="ant-layout-header site-layout-background"
+      class="ezd-layout-header site-layout-background"
       style="padding:0"
     />
     <main
-      class="ant-layout-content"
+      class="ezd-layout-content"
       style="margin:24px 16px 0;overflow:initial"
     >
       <div
@@ -827,7 +827,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
       </div>
     </main>
     <footer
-      class="ant-layout-footer"
+      class="ezd-layout-footer"
       style="text-align:center"
     >
       EZ Design ©2018 Created by Ant UED
@@ -838,26 +838,26 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
 <section
-  class="ant-layout"
+  class="ezd-layout"
 >
   <aside
-    class="ant-layout-sider ant-layout-sider-dark"
+    class="ezd-layout-sider ant-layout-sider-dark"
     style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="ezd-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark"
+        class="ezd-menu ant-menu-root ant-menu-inline ant-menu-dark"
         data-menu-list="true"
         role="menu"
         tabindex="0"
       >
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -882,13 +882,13 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 1
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -913,13 +913,13 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 2
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -944,13 +944,13 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 3
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="ezd-menu-item ant-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -975,7 +975,7 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             nav 4
           </span>
@@ -988,14 +988,14 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
     </div>
   </aside>
   <section
-    class="ant-layout"
+    class="ezd-layout"
   >
     <header
-      class="ant-layout-header site-layout-sub-header-background"
+      class="ezd-layout-header site-layout-sub-header-background"
       style="padding:0"
     />
     <main
-      class="ant-layout-content"
+      class="ezd-layout-content"
       style="margin:24px 16px 0"
     >
       <div
@@ -1006,7 +1006,7 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
       </div>
     </main>
     <footer
-      class="ant-layout-footer"
+      class="ezd-layout-footer"
       style="text-align:center"
     >
       EZ Design ©2018 Created by Ant UED
@@ -1017,27 +1017,27 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/side.md correctly 1`] = `
 <section
-  class="ant-layout"
+  class="ezd-layout"
   style="min-height:100vh"
 >
   <aside
-    class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+    class="ezd-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
     style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="ezd-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark"
+        class="ezd-menu ant-menu-root ant-menu-inline ant-menu-dark"
         data-menu-list="true"
         role="menu"
         tabindex="0"
       >
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="ezd-menu-item ant-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -1062,13 +1062,13 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 1
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -1093,19 +1093,19 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Option 2
           </span>
         </li>
         <li
-          class="ant-menu-submenu ant-menu-submenu-inline"
+          class="ezd-menu-submenu ant-menu-submenu-inline"
           role="none"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-menu-submenu-title"
+            class="ezd-menu-submenu-title"
             role="menuitem"
             style="padding-left:24px"
             tabindex="-1"
@@ -1130,23 +1130,23 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
               </svg>
             </span>
             <span
-              class="ant-menu-title-content"
+              class="ezd-menu-title-content"
             >
               User
             </span>
             <i
-              class="ant-menu-submenu-arrow"
+              class="ezd-menu-submenu-arrow"
             />
           </div>
         </li>
         <li
-          class="ant-menu-submenu ant-menu-submenu-inline"
+          class="ezd-menu-submenu ant-menu-submenu-inline"
           role="none"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-menu-submenu-title"
+            class="ezd-menu-submenu-title"
             role="menuitem"
             style="padding-left:24px"
             tabindex="-1"
@@ -1171,17 +1171,17 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
               </svg>
             </span>
             <span
-              class="ant-menu-title-content"
+              class="ezd-menu-title-content"
             >
               Team
             </span>
             <i
-              class="ant-menu-submenu-arrow"
+              class="ezd-menu-submenu-arrow"
             />
           </div>
         </li>
         <li
-          class="ant-menu-item"
+          class="ezd-menu-item"
           role="menuitem"
           style="padding-left:24px"
           tabindex="-1"
@@ -1206,7 +1206,7 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-menu-title-content"
+            class="ezd-menu-title-content"
           >
             Files
           </span>
@@ -1218,7 +1218,7 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
       />
     </div>
     <div
-      class="ant-layout-sider-trigger"
+      class="ezd-layout-sider-trigger"
       style="width:200px"
     >
       <span
@@ -1243,40 +1243,40 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
     </div>
   </aside>
   <section
-    class="ant-layout site-layout"
+    class="ezd-layout site-layout"
   >
     <header
-      class="ant-layout-header site-layout-background"
+      class="ezd-layout-header site-layout-background"
       style="padding:0"
     />
     <main
-      class="ant-layout-content"
+      class="ezd-layout-content"
       style="margin:0 16px"
     >
       <div
-        class="ant-breadcrumb"
+        class="ezd-breadcrumb"
         style="margin:16px 0"
       >
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="ezd-breadcrumb-link"
           >
             User
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="ezd-breadcrumb-separator"
           >
             /
           </span>
         </span>
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="ezd-breadcrumb-link"
           >
             Bill
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="ezd-breadcrumb-separator"
           >
             /
           </span>
@@ -1290,7 +1290,7 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
       </div>
     </main>
     <footer
-      class="ant-layout-footer"
+      class="ezd-layout-footer"
       style="text-align:center"
     >
       EZ Design ©2018 Created by Ant UED
@@ -1301,210 +1301,210 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/top.md correctly 1`] = `
 <section
-  class="ant-layout layout"
+  class="ezd-layout layout"
 >
   <header
-    class="ant-layout-header"
+    class="ezd-layout-header"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
+      class="ezd-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
       data-menu-list="true"
       role="menu"
       tabindex="0"
     >
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:0"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 1
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:1"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 2
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:2"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 3
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:3"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 4
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:4"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 5
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:5"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 6
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:6"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 7
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:7"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 8
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:8"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 9
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:9"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 10
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:10"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 11
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:11"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 12
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:12"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 13
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:13"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 14
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:14"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 15
         </span>
       </li>
       <li
         aria-hidden="true"
-        class="ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
+        class="ezd-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
         role="none"
         style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="ezd-menu-submenu-title"
           role="menuitem"
           tabindex="-1"
         >
@@ -1528,7 +1528,7 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
             </svg>
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="ezd-menu-submenu-arrow"
           />
         </div>
       </li>
@@ -1539,45 +1539,45 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
     />
   </header>
   <main
-    class="ant-layout-content"
+    class="ezd-layout-content"
     style="padding:0 50px"
   >
     <div
-      class="ant-breadcrumb"
+      class="ezd-breadcrumb"
       style="margin:16px 0"
     >
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           Home
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           List
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           App
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
@@ -1590,7 +1590,7 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
     </div>
   </main>
   <footer
-    class="ant-layout-footer"
+    class="ezd-layout-footer"
     style="text-align:center"
   >
     EZ Design ©2018 Created by Ant UED
@@ -1600,66 +1600,66 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
 <section
-  class="ant-layout"
+  class="ezd-layout"
 >
   <header
-    class="ant-layout-header header"
+    class="ezd-layout-header header"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
+      class="ezd-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
       data-menu-list="true"
       role="menu"
       tabindex="0"
     >
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:0"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 1
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:1"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 2
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:2"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 3
         </span>
       </li>
       <li
         aria-hidden="true"
-        class="ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
+        class="ezd-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
         role="none"
         style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="ezd-menu-submenu-title"
           role="menuitem"
           tabindex="-1"
         >
@@ -1683,7 +1683,7 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
             </svg>
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="ezd-menu-submenu-arrow"
           />
         </div>
       </li>
@@ -1694,76 +1694,76 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
     />
   </header>
   <main
-    class="ant-layout-content"
+    class="ezd-layout-content"
     style="padding:0 50px"
   >
     <div
-      class="ant-breadcrumb"
+      class="ezd-breadcrumb"
       style="margin:16px 0"
     >
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           Home
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           List
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="ezd-breadcrumb-link"
         >
           App
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="ezd-breadcrumb-separator"
         >
           /
         </span>
       </span>
     </div>
     <section
-      class="ant-layout site-layout-background"
+      class="ezd-layout site-layout-background"
       style="padding:24px 0"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark site-layout-background"
+        class="ezd-layout-sider ant-layout-sider-dark site-layout-background"
         style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
       >
         <div
-          class="ant-layout-sider-children"
+          class="ezd-layout-sider-children"
         >
           <ul
-            class="ant-menu ant-menu-root ant-menu-inline ant-menu-light"
+            class="ezd-menu ant-menu-root ant-menu-inline ant-menu-light"
             data-menu-list="true"
             role="menu"
             style="height:100%"
             tabindex="0"
           >
             <li
-              class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+              class="ezd-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
               role="none"
             >
               <div
                 aria-expanded="true"
                 aria-haspopup="true"
-                class="ant-menu-submenu-title"
+                class="ezd-menu-submenu-title"
                 role="menuitem"
                 style="padding-left:24px"
                 tabindex="-1"
@@ -1788,62 +1788,62 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
                   </svg>
                 </span>
                 <span
-                  class="ant-menu-title-content"
+                  class="ezd-menu-title-content"
                 >
                   subnav 1
                 </span>
                 <i
-                  class="ant-menu-submenu-arrow"
+                  class="ezd-menu-submenu-arrow"
                 />
               </div>
               <ul
-                class="ant-menu ant-menu-sub ant-menu-inline"
+                class="ezd-menu ant-menu-sub ant-menu-inline"
                 data-menu-list="true"
               >
                 <li
-                  class="ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+                  class="ezd-menu-item ant-menu-item-selected ant-menu-item-only-child"
                   role="menuitem"
                   style="padding-left:48px"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-menu-title-content"
+                    class="ezd-menu-title-content"
                   >
                     option1
                   </span>
                 </li>
                 <li
-                  class="ant-menu-item ant-menu-item-only-child"
+                  class="ezd-menu-item ant-menu-item-only-child"
                   role="menuitem"
                   style="padding-left:48px"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-menu-title-content"
+                    class="ezd-menu-title-content"
                   >
                     option2
                   </span>
                 </li>
                 <li
-                  class="ant-menu-item ant-menu-item-only-child"
+                  class="ezd-menu-item ant-menu-item-only-child"
                   role="menuitem"
                   style="padding-left:48px"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-menu-title-content"
+                    class="ezd-menu-title-content"
                   >
                     option3
                   </span>
                 </li>
                 <li
-                  class="ant-menu-item ant-menu-item-only-child"
+                  class="ezd-menu-item ant-menu-item-only-child"
                   role="menuitem"
                   style="padding-left:48px"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-menu-title-content"
+                    class="ezd-menu-title-content"
                   >
                     option4
                   </span>
@@ -1851,13 +1851,13 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
               </ul>
             </li>
             <li
-              class="ant-menu-submenu ant-menu-submenu-inline"
+              class="ezd-menu-submenu ant-menu-submenu-inline"
               role="none"
             >
               <div
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="ant-menu-submenu-title"
+                class="ezd-menu-submenu-title"
                 role="menuitem"
                 style="padding-left:24px"
                 tabindex="-1"
@@ -1882,23 +1882,23 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
                   </svg>
                 </span>
                 <span
-                  class="ant-menu-title-content"
+                  class="ezd-menu-title-content"
                 >
                   subnav 2
                 </span>
                 <i
-                  class="ant-menu-submenu-arrow"
+                  class="ezd-menu-submenu-arrow"
                 />
               </div>
             </li>
             <li
-              class="ant-menu-submenu ant-menu-submenu-inline"
+              class="ezd-menu-submenu ant-menu-submenu-inline"
               role="none"
             >
               <div
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="ant-menu-submenu-title"
+                class="ezd-menu-submenu-title"
                 role="menuitem"
                 style="padding-left:24px"
                 tabindex="-1"
@@ -1923,12 +1923,12 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
                   </svg>
                 </span>
                 <span
-                  class="ant-menu-title-content"
+                  class="ezd-menu-title-content"
                 >
                   subnav 3
                 </span>
                 <i
-                  class="ant-menu-submenu-arrow"
+                  class="ezd-menu-submenu-arrow"
                 />
               </div>
             </li>
@@ -1940,7 +1940,7 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
         </div>
       </aside>
       <main
-        class="ant-layout-content"
+        class="ezd-layout-content"
         style="padding:0 24px;min-height:280px"
       >
         Content
@@ -1948,7 +1948,7 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
     </section>
   </main>
   <footer
-    class="ant-layout-footer"
+    class="ezd-layout-footer"
     style="text-align:center"
   >
     EZ Design ©2018 Created by Ant UED
@@ -1958,66 +1958,66 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
 <section
-  class="ant-layout"
+  class="ezd-layout"
 >
   <header
-    class="ant-layout-header header"
+    class="ezd-layout-header header"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
+      class="ezd-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-dark"
       data-menu-list="true"
       role="menu"
       tabindex="0"
     >
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:0"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 1
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:1"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 2
         </span>
       </li>
       <li
-        class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child"
+        class="ezd-menu-overflow-item ant-menu-item ant-menu-item-only-child"
         role="menuitem"
         style="opacity:1;order:2"
         tabindex="-1"
       >
         <span
-          class="ant-menu-title-content"
+          class="ezd-menu-title-content"
         >
           nav 3
         </span>
       </li>
       <li
         aria-hidden="true"
-        class="ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
+        class="ezd-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
         role="none"
         style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="ezd-menu-submenu-title"
           role="menuitem"
           tabindex="-1"
         >
@@ -2041,7 +2041,7 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
             </svg>
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="ezd-menu-submenu-arrow"
           />
         </div>
       </li>
@@ -2052,30 +2052,30 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
     />
   </header>
   <section
-    class="ant-layout"
+    class="ezd-layout"
   >
     <aside
-      class="ant-layout-sider ant-layout-sider-dark site-layout-background"
+      class="ezd-layout-sider ant-layout-sider-dark site-layout-background"
       style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
     >
       <div
-        class="ant-layout-sider-children"
+        class="ezd-layout-sider-children"
       >
         <ul
-          class="ant-menu ant-menu-root ant-menu-inline ant-menu-light"
+          class="ezd-menu ant-menu-root ant-menu-inline ant-menu-light"
           data-menu-list="true"
           role="menu"
           style="height:100%;border-right:0"
           tabindex="0"
         >
           <li
-            class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+            class="ezd-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
             role="none"
           >
             <div
               aria-expanded="true"
               aria-haspopup="true"
-              class="ant-menu-submenu-title"
+              class="ezd-menu-submenu-title"
               role="menuitem"
               style="padding-left:24px"
               tabindex="-1"
@@ -2100,62 +2100,62 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
                 </svg>
               </span>
               <span
-                class="ant-menu-title-content"
+                class="ezd-menu-title-content"
               >
                 subnav 1
               </span>
               <i
-                class="ant-menu-submenu-arrow"
+                class="ezd-menu-submenu-arrow"
               />
             </div>
             <ul
-              class="ant-menu ant-menu-sub ant-menu-inline"
+              class="ezd-menu ant-menu-sub ant-menu-inline"
               data-menu-list="true"
             >
               <li
-                class="ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+                class="ezd-menu-item ant-menu-item-selected ant-menu-item-only-child"
                 role="menuitem"
                 style="padding-left:48px"
                 tabindex="-1"
               >
                 <span
-                  class="ant-menu-title-content"
+                  class="ezd-menu-title-content"
                 >
                   option1
                 </span>
               </li>
               <li
-                class="ant-menu-item ant-menu-item-only-child"
+                class="ezd-menu-item ant-menu-item-only-child"
                 role="menuitem"
                 style="padding-left:48px"
                 tabindex="-1"
               >
                 <span
-                  class="ant-menu-title-content"
+                  class="ezd-menu-title-content"
                 >
                   option2
                 </span>
               </li>
               <li
-                class="ant-menu-item ant-menu-item-only-child"
+                class="ezd-menu-item ant-menu-item-only-child"
                 role="menuitem"
                 style="padding-left:48px"
                 tabindex="-1"
               >
                 <span
-                  class="ant-menu-title-content"
+                  class="ezd-menu-title-content"
                 >
                   option3
                 </span>
               </li>
               <li
-                class="ant-menu-item ant-menu-item-only-child"
+                class="ezd-menu-item ant-menu-item-only-child"
                 role="menuitem"
                 style="padding-left:48px"
                 tabindex="-1"
               >
                 <span
-                  class="ant-menu-title-content"
+                  class="ezd-menu-title-content"
                 >
                   option4
                 </span>
@@ -2163,13 +2163,13 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
             </ul>
           </li>
           <li
-            class="ant-menu-submenu ant-menu-submenu-inline"
+            class="ezd-menu-submenu ant-menu-submenu-inline"
             role="none"
           >
             <div
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-menu-submenu-title"
+              class="ezd-menu-submenu-title"
               role="menuitem"
               style="padding-left:24px"
               tabindex="-1"
@@ -2194,23 +2194,23 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
                 </svg>
               </span>
               <span
-                class="ant-menu-title-content"
+                class="ezd-menu-title-content"
               >
                 subnav 2
               </span>
               <i
-                class="ant-menu-submenu-arrow"
+                class="ezd-menu-submenu-arrow"
               />
             </div>
           </li>
           <li
-            class="ant-menu-submenu ant-menu-submenu-inline"
+            class="ezd-menu-submenu ant-menu-submenu-inline"
             role="none"
           >
             <div
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-menu-submenu-title"
+              class="ezd-menu-submenu-title"
               role="menuitem"
               style="padding-left:24px"
               tabindex="-1"
@@ -2235,12 +2235,12 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
                 </svg>
               </span>
               <span
-                class="ant-menu-title-content"
+                class="ezd-menu-title-content"
               >
                 subnav 3
               </span>
               <i
-                class="ant-menu-submenu-arrow"
+                class="ezd-menu-submenu-arrow"
               />
             </div>
           </li>
@@ -2252,52 +2252,52 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
       </div>
     </aside>
     <section
-      class="ant-layout"
+      class="ezd-layout"
       style="padding:0 24px 24px"
     >
       <div
-        class="ant-breadcrumb"
+        class="ezd-breadcrumb"
         style="margin:16px 0"
       >
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="ezd-breadcrumb-link"
           >
             Home
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="ezd-breadcrumb-separator"
           >
             /
           </span>
         </span>
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="ezd-breadcrumb-link"
           >
             List
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="ezd-breadcrumb-separator"
           >
             /
           </span>
         </span>
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="ezd-breadcrumb-link"
           >
             App
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="ezd-breadcrumb-separator"
           >
             /
           </span>
         </span>
       </div>
       <main
-        class="ant-layout-content site-layout-background"
+        class="ezd-layout-content site-layout-background"
         style="padding:24px;margin:0;min-height:280px"
       >
         Content

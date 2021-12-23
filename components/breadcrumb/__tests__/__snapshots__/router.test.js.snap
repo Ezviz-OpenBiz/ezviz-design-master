@@ -75,7 +75,7 @@ exports[`react router react router 3 1`] = `
   }
 >
   <div
-    className="ant-breadcrumb"
+    className="ezd-breadcrumb"
   >
     <BreadcrumbItem
       key="Home"
@@ -83,7 +83,7 @@ exports[`react router react router 3 1`] = `
     >
       <span>
         <span
-          className="ant-breadcrumb-link"
+          className="ezd-breadcrumb-link"
         >
           <a
             href="#/"
@@ -92,7 +92,7 @@ exports[`react router react router 3 1`] = `
           </a>
         </span>
         <span
-          className="ant-breadcrumb-separator"
+          className="ezd-breadcrumb-separator"
         >
           /
         </span>
@@ -104,7 +104,7 @@ exports[`react router react router 3 1`] = `
     >
       <span>
         <span
-          className="ant-breadcrumb-link"
+          className="ezd-breadcrumb-link"
         >
           <a
             href="#/apps"
@@ -113,7 +113,7 @@ exports[`react router react router 3 1`] = `
           </a>
         </span>
         <span
-          className="ant-breadcrumb-separator"
+          className="ezd-breadcrumb-separator"
         >
           /
         </span>
@@ -125,7 +125,7 @@ exports[`react router react router 3 1`] = `
     >
       <span>
         <span
-          className="ant-breadcrumb-link"
+          className="ezd-breadcrumb-link"
         >
           <a
             href="#/apps/1"
@@ -134,7 +134,7 @@ exports[`react router react router 3 1`] = `
           </a>
         </span>
         <span
-          className="ant-breadcrumb-separator"
+          className="ezd-breadcrumb-separator"
         >
           /
         </span>
@@ -146,14 +146,14 @@ exports[`react router react router 3 1`] = `
     >
       <span>
         <span
-          className="ant-breadcrumb-link"
+          className="ezd-breadcrumb-link"
         >
           <span>
             Detail
           </span>
         </span>
         <span
-          className="ant-breadcrumb-separator"
+          className="ezd-breadcrumb-separator"
         >
           /
         </span>

@@ -38,8 +38,6 @@ describe('Pagination', () => {
     expect(wrapper.find('ul').at(0).hasClass('mini')).toBe(true);
   });
 
-  // https://github.com/ant-design/ant-design/issues/24913
-  // https://github.com/ant-design/ant-design/issues/24501
   it('should onChange called when pageSize change', () => {
     const onChange = jest.fn();
     const onShowSizeChange = jest.fn();
@@ -51,9 +49,9 @@ describe('Pagination', () => {
         onShowSizeChange={onShowSizeChange}
       />,
     );
-    wrapper.find('.ant-select-selector').simulate('mousedown');
-    expect(wrapper.find('.ant-select-item-option').length).toBe(4);
-    wrapper.find('.ant-select-item-option').at(1).simulate('click');
+    wrapper.find('.ezd-select-selector').simulate('mousedown');
+    expect(wrapper.find('.ezd-select-item-option').length).toBe(4);
+    wrapper.find('.ezd-select-item-option').at(1).simulate('click');
     expect(onChange).toHaveBeenCalledWith(1, 20);
   });
 

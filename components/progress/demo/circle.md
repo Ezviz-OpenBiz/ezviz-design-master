@@ -27,8 +27,8 @@ ReactDOM.render(
 ```
 
 <style>
-.ant-progress-circle-wrap,
-.ant-progress-line-wrap {
+.ezd-progress-circle-wrap,
+.ezd-progress-line-wrap {
   margin-right: 8px;
   margin-bottom: 5px;
 }

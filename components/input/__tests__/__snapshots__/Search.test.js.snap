@@ -2,21 +2,21 @@
 
 exports[`Input.Search rtl render component should be rendered correctly in RTL direction 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-group-wrapper-rtl ant-input-search ant-input-search-rtl"
+  class="ezd-input-group-wrapper ezd-input-group-wrapper-rtl ezd-input-search ezd-input-search-rtl"
 >
   <span
-    class="ant-input-wrapper ant-input-group ant-input-group-rtl"
+    class="ezd-input-wrapper ezd-input-group ezd-input-group-rtl"
   >
     <input
-      class="ant-input ant-input-rtl"
+      class="ezd-input ezd-input-rtl"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-icon-only ant-btn-rtl ant-input-search-button"
+        class="ezd-btn ezd-btn-icon-only ezd-btn-rtl ezd-input-search-button"
         type="button"
       >
         <span
@@ -46,21 +46,21 @@ exports[`Input.Search rtl render component should be rendered correctly in RTL d
 
 exports[`Input.Search should support ReactNode suffix without error 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search"
+  class="ezd-input-group-wrapper ezd-input-search"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <span
-      class="ant-input-affix-wrapper"
+      class="ezd-input-affix-wrapper"
     >
       <input
-        class="ant-input"
+        class="ezd-input"
         type="text"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="ezd-input-suffix"
       >
         <div>
           ok
@@ -68,10 +68,10 @@ exports[`Input.Search should support ReactNode suffix without error 1`] = `
       </span>
     </span>
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-icon-only ant-input-search-button"
+        class="ezd-btn ezd-btn-icon-only ezd-input-search-button"
         type="button"
       >
         <span
@@ -101,21 +101,21 @@ exports[`Input.Search should support ReactNode suffix without error 1`] = `
 
 exports[`Input.Search should support addonAfter 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search"
+  class="ezd-input-group-wrapper ezd-input-search"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <input
-      class="ant-input"
+      class="ezd-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-icon-only ant-input-search-button"
+        class="ezd-btn ezd-btn-icon-only ezd-input-search-button"
         type="button"
       >
         <span
@@ -148,21 +148,21 @@ exports[`Input.Search should support addonAfter 1`] = `
 
 exports[`Input.Search should support addonAfter 2`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search ant-input-search-with-button"
+  class="ezd-input-group-wrapper ezd-input-search ezd-input-search-with-button"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <input
-      class="ant-input"
+      class="ezd-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-primary ant-input-search-button"
+        class="ezd-btn ezd-btn-primary ezd-input-search-button"
         type="button"
       >
         <span
@@ -195,34 +195,34 @@ exports[`Input.Search should support addonAfter 2`] = `
 
 exports[`Input.Search should support addonAfter and suffix for loading 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search"
+  class="ezd-input-group-wrapper ezd-input-search"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <span
-      class="ant-input-affix-wrapper"
+      class="ezd-input-affix-wrapper"
     >
       <input
-        class="ant-input"
+        class="ezd-input"
         type="text"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="ezd-input-suffix"
       >
         suffix
       </span>
     </span>
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-icon-only ant-btn-loading ant-input-search-button"
+        class="ezd-btn ezd-btn-icon-only ezd-btn-loading ezd-input-search-button"
         type="button"
       >
         <span
-          class="ant-btn-loading-icon"
+          class="ezd-btn-loading-icon"
         >
           <span
             aria-label="loading"
@@ -253,34 +253,34 @@ exports[`Input.Search should support addonAfter and suffix for loading 1`] = `
 
 exports[`Input.Search should support addonAfter and suffix for loading 2`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search ant-input-search-with-button"
+  class="ezd-input-group-wrapper ezd-input-search ezd-input-search-with-button"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <span
-      class="ant-input-affix-wrapper"
+      class="ezd-input-affix-wrapper"
     >
       <input
-        class="ant-input"
+        class="ezd-input"
         type="text"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="ezd-input-suffix"
       >
         suffix
       </span>
     </span>
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-primary ant-btn-loading ant-input-search-button"
+        class="ezd-btn ezd-btn-primary ezd-btn-loading ezd-input-search-button"
         type="button"
       >
         <span
-          class="ant-btn-loading-icon"
+          class="ezd-btn-loading-icon"
         >
           <span
             aria-label="loading"
@@ -311,21 +311,21 @@ exports[`Input.Search should support addonAfter and suffix for loading 2`] = `
 
 exports[`Input.Search should support custom Button 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search ant-input-search-with-button"
+  class="ezd-input-group-wrapper ezd-input-search ezd-input-search-with-button"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <input
-      class="ant-input"
+      class="ezd-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-input-search-button"
+        class="ezd-btn ezd-input-search-button"
         type="button"
       >
         <span>
@@ -339,18 +339,18 @@ exports[`Input.Search should support custom Button 1`] = `
 
 exports[`Input.Search should support custom button 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search ant-input-search-with-button"
+  class="ezd-input-group-wrapper ezd-input-search ezd-input-search-with-button"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <input
-      class="ant-input"
+      class="ezd-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
         type="button"
@@ -364,21 +364,21 @@ exports[`Input.Search should support custom button 1`] = `
 
 exports[`Input.Search should support invalid addonAfter 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search ant-input-search-with-button"
+  class="ezd-input-group-wrapper ezd-input-search ezd-input-search-with-button"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <input
-      class="ant-input"
+      class="ezd-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-primary ant-input-search-button"
+        class="ezd-btn ezd-btn-primary ezd-input-search-button"
         type="button"
       >
         <span
@@ -408,28 +408,28 @@ exports[`Input.Search should support invalid addonAfter 1`] = `
 
 exports[`Input.Search should support invalid suffix 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search"
+  class="ezd-input-group-wrapper ezd-input-search"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <span
-      class="ant-input-affix-wrapper"
+      class="ezd-input-affix-wrapper"
     >
       <input
-        class="ant-input"
+        class="ezd-input"
         type="text"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="ezd-input-suffix"
       />
     </span>
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-icon-only ant-input-search-button"
+        class="ezd-btn ezd-btn-icon-only ezd-input-search-button"
         type="button"
       >
         <span
@@ -459,25 +459,25 @@ exports[`Input.Search should support invalid suffix 1`] = `
 
 exports[`Input.Search should support loading 1`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search"
+  class="ezd-input-group-wrapper ezd-input-search"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <input
-      class="ant-input"
+      class="ezd-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-icon-only ant-btn-loading ant-input-search-button"
+        class="ezd-btn ezd-btn-icon-only ezd-btn-loading ezd-input-search-button"
         type="button"
       >
         <span
-          class="ant-btn-loading-icon"
+          class="ezd-btn-loading-icon"
         >
           <span
             aria-label="loading"
@@ -507,25 +507,25 @@ exports[`Input.Search should support loading 1`] = `
 
 exports[`Input.Search should support loading 2`] = `
 <span
-  class="ant-input-group-wrapper ant-input-search ant-input-search-with-button"
+  class="ezd-input-group-wrapper ezd-input-search ezd-input-search-with-button"
 >
   <span
-    class="ant-input-wrapper ant-input-group"
+    class="ezd-input-wrapper ezd-input-group"
   >
     <input
-      class="ant-input"
+      class="ezd-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-group-addon"
+      class="ezd-input-group-addon"
     >
       <button
-        class="ant-btn ant-btn-primary ant-btn-loading ant-input-search-button"
+        class="ezd-btn ezd-btn-primary ezd-btn-loading ezd-input-search-button"
         type="button"
       >
         <span
-          class="ant-btn-loading-icon"
+          class="ezd-btn-loading-icon"
         >
           <span
             aria-label="loading"

@@ -238,13 +238,13 @@ describe('Locale Provider', () => {
         </LocaleProvider>,
       );
       const currentConfirmNode =
-        document.querySelectorAll('.ant-modal-confirm')[
-          document.querySelectorAll('.ant-modal-confirm').length - 1
+        document.querySelectorAll('.ezd-modal-confirm')[
+          document.querySelectorAll('.ezd-modal-confirm').length - 1
         ];
       let cancelButtonText = currentConfirmNode.querySelectorAll(
-        '.ant-btn:not(.ant-btn-primary) span',
+        '.ezd-btn:not(.ezd-btn-primary) span',
       )[0].innerHTML;
-      let okButtonText = currentConfirmNode.querySelectorAll('.ant-btn-primary span')[0].innerHTML;
+      let okButtonText = currentConfirmNode.querySelectorAll('.ezd-btn-primary span')[0].innerHTML;
       if (locale.locale.indexOf('zh-') === 0) {
         cancelButtonText = cancelButtonText.replace(' ', '');
         okButtonText = okButtonText.replace(' ', '');

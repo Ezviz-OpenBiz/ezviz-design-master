@@ -2,7 +2,7 @@
 
 exports[`renders ./components/message/demo/custom-style.md correctly 1`] = `
 <button
-  class="ant-btn"
+  class="ezd-btn"
   type="button"
 >
   <span>
@@ -13,7 +13,7 @@ exports[`renders ./components/message/demo/custom-style.md correctly 1`] = `
 
 exports[`renders ./components/message/demo/duration.md correctly 1`] = `
 <button
-  class="ant-btn"
+  class="ezd-btn"
   type="button"
 >
   <span>
@@ -24,7 +24,7 @@ exports[`renders ./components/message/demo/duration.md correctly 1`] = `
 
 exports[`renders ./components/message/demo/hooks.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -35,7 +35,7 @@ exports[`renders ./components/message/demo/hooks.md correctly 1`] = `
 
 exports[`renders ./components/message/demo/info.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -46,7 +46,7 @@ exports[`renders ./components/message/demo/info.md correctly 1`] = `
 
 exports[`renders ./components/message/demo/loading.md correctly 1`] = `
 <button
-  class="ant-btn"
+  class="ezd-btn"
   type="button"
 >
   <span>
@@ -57,14 +57,14 @@ exports[`renders ./components/message/demo/loading.md correctly 1`] = `
 
 exports[`renders ./components/message/demo/other.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -73,11 +73,11 @@ exports[`renders ./components/message/demo/other.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -86,10 +86,10 @@ exports[`renders ./components/message/demo/other.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -102,7 +102,7 @@ exports[`renders ./components/message/demo/other.md correctly 1`] = `
 
 exports[`renders ./components/message/demo/thenable.md correctly 1`] = `
 <button
-  class="ant-btn"
+  class="ezd-btn"
   type="button"
 >
   <span>
@@ -113,7 +113,7 @@ exports[`renders ./components/message/demo/thenable.md correctly 1`] = `
 
 exports[`renders ./components/message/demo/update.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>

@@ -75,11 +75,11 @@ describe('Table.sorter', () => {
     const wrapper = mount(createTable());
 
     // ascend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Jerry', 'Lucy', 'Tom']);
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
   });
 
@@ -155,21 +155,21 @@ describe('Table.sorter', () => {
     const wrapper = mount(createTable({ onChange: handleChange }));
 
     // ascent
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     const sorter1 = handleChange.mock.calls[0][2];
     expect(sorter1.column.dataIndex).toBe('name');
     expect(sorter1.order).toBe('ascend');
     expect(sorter1.field).toBe('name');
     expect(sorter1.columnKey).toBe('name');
 
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     const sorter2 = handleChange.mock.calls[1][2];
     expect(sorter2.column.dataIndex).toBe('name');
     expect(sorter2.order).toBe('descend');
     expect(sorter2.field).toBe('name');
     expect(sorter2.columnKey).toBe('name');
 
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     const sorter3 = handleChange.mock.calls[2][2];
     expect(sorter3.column).toBe(undefined);
     expect(sorter3.order).toBe(undefined);
@@ -182,27 +182,27 @@ describe('Table.sorter', () => {
     jest.useFakeTimers();
     const wrapper = mount(createTable({}));
     // default show sorter tooltip
-    wrapper.find('.ant-table-column-sorters').simulate('mouseenter');
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseenter');
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open').length).toBeTruthy();
-    wrapper.find('.ant-table-column-sorters').simulate('mouseout');
+    expect(wrapper.find('.ezd-tooltip-open').length).toBeTruthy();
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseout');
 
     // set table props showSorterTooltip is false
     wrapper.setProps({ showSorterTooltip: false });
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open')).toHaveLength(0);
+    expect(wrapper.find('.ezd-tooltip-open')).toHaveLength(0);
     // set table props showSorterTooltip is false, column showSorterTooltip is true
     wrapper.setProps({
       showSorterTooltip: false,
       columns: [{ ...column, showSorterTooltip: true }],
     });
-    wrapper.find('.ant-table-column-sorters').simulate('mouseenter');
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseenter');
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open').length).toBeTruthy();
-    wrapper.find('.ant-table-column-sorters').simulate('mouseout');
+    expect(wrapper.find('.ezd-tooltip-open').length).toBeTruthy();
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseout');
     // set table props showSorterTooltip is true, column showSorterTooltip is false
     wrapper.setProps({
       showSorterTooltip: true,
@@ -210,7 +210,7 @@ describe('Table.sorter', () => {
     });
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open')).toHaveLength(0);
+    expect(wrapper.find('.ezd-tooltip-open')).toHaveLength(0);
   });
 
   it('should show correct tooltip when showSorterTooltip is an object', () => {
@@ -219,32 +219,32 @@ describe('Table.sorter', () => {
     const wrapper = mount(
       createTable({ showSorterTooltip: { placement: 'bottom', title: 'static title' } }),
     );
-    wrapper.find('.ant-table-column-sorters').simulate('mouseenter');
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseenter');
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open').length).toBeTruthy();
-    wrapper.find('.ant-table-column-sorters').simulate('mouseout');
+    expect(wrapper.find('.ezd-tooltip-open').length).toBeTruthy();
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseout');
 
     wrapper.setProps({ showSorterTooltip: false });
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open')).toHaveLength(0);
+    expect(wrapper.find('.ezd-tooltip-open')).toHaveLength(0);
     wrapper.setProps({
       showSorterTooltip: false,
       columns: [{ ...column, showSorterTooltip: true }],
     });
-    wrapper.find('.ant-table-column-sorters').simulate('mouseenter');
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseenter');
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open').length).toBeTruthy();
-    wrapper.find('.ant-table-column-sorters').simulate('mouseout');
+    expect(wrapper.find('.ezd-tooltip-open').length).toBeTruthy();
+    wrapper.find('.ezd-table-column-sorters').simulate('mouseout');
     wrapper.setProps({
       showSorterTooltip: true,
       columns: [{ ...column, showSorterTooltip: false }],
     });
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tooltip-open')).toHaveLength(0);
+    expect(wrapper.find('.ezd-tooltip-open')).toHaveLength(0);
   });
 
   it('works with grouping columns in controlled mode', () => {
@@ -279,7 +279,6 @@ describe('Table.sorter', () => {
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
   });
 
-  // https://github.com/ant-design/ant-design/issues/11246#issuecomment-405009167
   it('Allow column title as render props with sortOrder argument', () => {
     const title = ({ sortOrder }) => <div className="custom-title">{sortOrder}</div>;
     const columns = [
@@ -297,13 +296,12 @@ describe('Table.sorter', () => {
     ];
     const wrapper = mount(<Table columns={columns} dataSource={testData} />);
     expect(wrapper.find('.custom-title').text()).toEqual('');
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(wrapper.find('.custom-title').text()).toEqual('ascend');
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(wrapper.find('.custom-title').text()).toEqual('descend');
   });
 
-  // https://github.com/ant-design/ant-design/pull/12264#discussion_r218053034
   it('should sort from beginning state when toggle from different columns', () => {
     const columns = [
       {
@@ -325,10 +323,10 @@ describe('Table.sorter', () => {
     ];
     const wrapper = mount(<Table columns={columns} dataSource={testData} />);
 
-    const getNameColumn = () => wrapper.find('.ant-table-column-has-sorters').at(0);
-    const getAgeColumn = () => wrapper.find('.ant-table-column-has-sorters').at(1);
-    const getNameIcon = name => getNameColumn().find(`.ant-table-column-sorter-${name}`).first();
-    const getAgeIcon = name => getAgeColumn().find(`.ant-table-column-sorter-${name}`).first();
+    const getNameColumn = () => wrapper.find('.ezd-table-column-has-sorters').at(0);
+    const getAgeColumn = () => wrapper.find('.ezd-table-column-has-sorters').at(1);
+    const getNameIcon = name => getNameColumn().find(`.ezd-table-column-sorter-${name}`).first();
+    const getAgeIcon = name => getAgeColumn().find(`.ezd-table-column-sorter-${name}`).first();
 
     // sort name
     getNameColumn().simulate('click');
@@ -341,7 +339,6 @@ describe('Table.sorter', () => {
     expect(getAgeIcon('up').hasClass('active')).toBeTruthy();
   });
 
-  // https://github.com/ant-design/ant-design/issues/12571
   it('should toggle sort state when columns are put in render', () => {
     const testData = [
       { key: 0, name: 'Jack', age: 11 },
@@ -380,8 +377,8 @@ describe('Table.sorter', () => {
 
     const wrapper = mount(<TableTest />);
 
-    const getNameColumn = () => wrapper.find('.ant-table-column-has-sorters').at(0);
-    const getIcon = name => getNameColumn().find(`.ant-table-column-sorter-${name}`).first();
+    const getNameColumn = () => wrapper.find('.ezd-table-column-has-sorters').at(0);
+    const getIcon = name => getNameColumn().find(`.ezd-table-column-sorter-${name}`).first();
 
     expect(getIcon('up').hasClass('active')).toBeFalsy();
     expect(getIcon('down').hasClass('active')).toBeFalsy();
@@ -402,8 +399,6 @@ describe('Table.sorter', () => {
     expect(getIcon('down').hasClass('active')).toBeFalsy();
   });
 
-  // https://github.com/ant-design/ant-design/issues/12737
-  // https://github.com/ant-design/ant-design/issues/19398
   it('should toggle sort state when columns with non primitive properties are put in render', () => {
     const testData = [
       { key: 0, name: 'Jack', age: 11 },
@@ -444,8 +439,8 @@ describe('Table.sorter', () => {
 
     const wrapper = mount(<TableTest />);
 
-    const getNameColumn = () => wrapper.find('.ant-table-column-has-sorters').at(0);
-    const getIcon = name => getNameColumn().find(`.ant-table-column-sorter-${name}`).first();
+    const getNameColumn = () => wrapper.find('.ezd-table-column-has-sorters').at(0);
+    const getIcon = name => getNameColumn().find(`.ezd-table-column-sorter-${name}`).first();
 
     expect(getIcon('up').hasClass('active')).toBeFalsy();
     expect(getIcon('down').hasClass('active')).toBeFalsy();
@@ -466,7 +461,6 @@ describe('Table.sorter', () => {
     expect(getIcon('down').hasClass('active')).toBeFalsy();
   });
 
-  // https://github.com/ant-design/ant-design/issues/12870
   it('should toggle sort state when columns with key are put in render', () => {
     const testData = [
       { key: 0, name: 'Jack', age: 11 },
@@ -508,39 +502,39 @@ describe('Table.sorter', () => {
     }
 
     const wrapper = mount(<TableTest />);
-    const getNameColumn = () => wrapper.find('.ant-table-column-has-sorters').at(0);
+    const getNameColumn = () => wrapper.find('.ezd-table-column-has-sorters').at(0);
     expect(
-      getNameColumn().find('.ant-table-column-sorter-up').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-up').at(0).hasClass('active'),
     ).toBeFalsy();
     expect(
-      getNameColumn().find('.ant-table-column-sorter-down').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-down').at(0).hasClass('active'),
     ).toBeFalsy();
 
     // sort name
     getNameColumn().simulate('click');
     expect(
-      getNameColumn().find('.ant-table-column-sorter-up').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-up').at(0).hasClass('active'),
     ).toBeTruthy();
     expect(
-      getNameColumn().find('.ant-table-column-sorter-down').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-down').at(0).hasClass('active'),
     ).toBeFalsy();
 
     // sort name
     getNameColumn().simulate('click');
     expect(
-      getNameColumn().find('.ant-table-column-sorter-up').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-up').at(0).hasClass('active'),
     ).toBeFalsy();
     expect(
-      getNameColumn().find('.ant-table-column-sorter-down').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-down').at(0).hasClass('active'),
     ).toBeTruthy();
 
     // sort name
     getNameColumn().simulate('click');
     expect(
-      getNameColumn().find('.ant-table-column-sorter-up').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-up').at(0).hasClass('active'),
     ).toBeFalsy();
     expect(
-      getNameColumn().find('.ant-table-column-sorter-down').at(0).hasClass('active'),
+      getNameColumn().find('.ezd-table-column-sorter-down').at(0).hasClass('active'),
     ).toBeFalsy();
   });
 
@@ -552,15 +546,15 @@ describe('Table.sorter', () => {
     );
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
 
     // ascend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Jerry', 'Lucy', 'Tom']);
 
     // cancel sort
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
   });
 
@@ -572,11 +566,11 @@ describe('Table.sorter', () => {
     );
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
 
     // cancel sort
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
   });
 
@@ -591,11 +585,11 @@ describe('Table.sorter', () => {
     );
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
 
     // cancel sort
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
   });
 
@@ -614,7 +608,7 @@ describe('Table.sorter', () => {
       }),
     );
 
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.ezd-table-column-sorters').simulate('click');
     expect(onChange.mock.calls[0][0].current).toBe(2);
     expect(onPageChange).not.toHaveBeenCalled();
   });
@@ -673,7 +667,6 @@ describe('Table.sorter', () => {
     expect(renderedNames(wrapper)).toEqual(['Brown', 'Green', 'Mike', 'Alex', 'Petter', 'Zoe']);
   });
 
-  // https://github.com/ant-design/ant-design/issues/19443
   it('should not being inifinite loop when using Table.Column with sortOrder', () => {
     class Demo extends React.Component {
       componentDidMount() {
@@ -702,7 +695,6 @@ describe('Table.sorter', () => {
     expect(wrapper.render()).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/20096
   it('invalidate sorter should not display sorter button', () => {
     const wrapper = mount(
       <Table
@@ -729,10 +721,9 @@ describe('Table.sorter', () => {
       />,
     );
 
-    expect(wrapper.find('.ant-table-column-sorter-inner')).toHaveLength(0);
+    expect(wrapper.find('.ezd-table-column-sorter-inner')).toHaveLength(0);
   });
 
-  // https://github.com/ant-design/ant-design/issues/21193
   it('table with sugar column', () => {
     const wrapper = mount(
       <Table>
@@ -757,7 +748,7 @@ describe('Table.sorter', () => {
 
     wrapper.find('th').first().simulate('click');
 
-    expect(wrapper.find('th.ant-table-column-sort')).toHaveLength(1);
+    expect(wrapper.find('th.ezd-table-column-sort')).toHaveLength(1);
   });
 
   it('surger should support sorterOrder', () => {
@@ -767,8 +758,8 @@ describe('Table.sorter', () => {
       </Table>,
     );
 
-    expect(wrapper.find('.ant-table-column-sorter-up').last().hasClass('active')).toBeTruthy();
-    expect(wrapper.find('.ant-table-column-sorter-down').last().hasClass('active')).toBeFalsy();
+    expect(wrapper.find('.ezd-table-column-sorter-up').last().hasClass('active')).toBeTruthy();
+    expect(wrapper.find('.ezd-table-column-sorter-down').last().hasClass('active')).toBeFalsy();
   });
 
   it('controlled multiple group', () => {
@@ -807,17 +798,17 @@ describe('Table.sorter', () => {
     wrapper.update();
     expect(
       wrapper
-        .find('.ant-table-column-sorter-full')
+        .find('.ezd-table-column-sorter-full')
         .first()
-        .find('.ant-table-column-sorter-up')
+        .find('.ezd-table-column-sorter-up')
         .first()
         .hasClass('active'),
     ).toBeTruthy();
     expect(
       wrapper
-        .find('.ant-table-column-sorter-full')
+        .find('.ezd-table-column-sorter-full')
         .last()
-        .find('.ant-table-column-sorter-down')
+        .find('.ezd-table-column-sorter-down')
         .first()
         .hasClass('active'),
     ).toBeTruthy();
@@ -851,7 +842,7 @@ describe('Table.sorter', () => {
     const wrapper = mount(<Table columns={groupColumns} data={groupData} onChange={onChange} />);
 
     function clickToMatchExpect(index, sorter) {
-      wrapper.find('.ant-table-column-sorters').at(index).simulate('click');
+      wrapper.find('.ezd-table-column-sorters').at(index).simulate('click');
 
       expect(onChange).toHaveBeenCalledWith(
         expect.anything(),

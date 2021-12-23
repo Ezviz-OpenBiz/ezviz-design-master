@@ -171,7 +171,6 @@ describe('Table.rowSelection', () => {
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/4020
   it('handles defaultChecked', () => {
     resetWarned();
     const rowSelection = {
@@ -183,7 +182,7 @@ describe('Table.rowSelection', () => {
     mount(createTable({ rowSelection }));
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Table] Do not set `checked` or `defaultChecked` in `getCheckboxProps`. Please use `selectedRowKeys` instead.',
+      'Warning: [ezd: Table] Do not set `checked` or `defaultChecked` in `getCheckboxProps`. Please use `selectedRowKeys` instead.',
     );
   });
 
@@ -325,7 +324,7 @@ describe('Table.rowSelection', () => {
     wrapper.find('Trigger').setState({ popupVisible: true });
 
     const dropdownWrapper = mount(wrapper.find('Trigger').first().instance().getComponent());
-    dropdownWrapper.find('.ant-dropdown-menu-item').first().simulate('click');
+    dropdownWrapper.find('.ezd-dropdown-menu-item').first().simulate('click');
     expect(handleChange.mock.calls[0][0]).toEqual([0, 1, 2, 3]);
   });
 
@@ -359,7 +358,7 @@ describe('Table.rowSelection', () => {
     checkboxes.at(1).simulate('change', { target: { checked: true } });
 
     // Open
-    wrapper.find('span.ant-dropdown-trigger').simulate('mouseEnter');
+    wrapper.find('span.ezd-dropdown-trigger').simulate('mouseEnter');
 
     // enzyme has bug for state sync.
     // Let fresh multiple times to force sync back.
@@ -370,7 +369,7 @@ describe('Table.rowSelection', () => {
       });
     }
 
-    wrapper.find('li.ant-dropdown-menu-item').at(1).simulate('click');
+    wrapper.find('li.ezd-dropdown-menu-item').at(1).simulate('click');
 
     expect(handleSelectInvert).toHaveBeenCalledWith([1, 2, 3]);
 
@@ -401,7 +400,7 @@ describe('Table.rowSelection', () => {
     wrapper.find('Trigger').setState({ popupVisible: true });
 
     const dropdownWrapper = mount(wrapper.find('Trigger').first().instance().getComponent());
-    dropdownWrapper.find('.ant-dropdown-menu-item').last().simulate('click');
+    dropdownWrapper.find('.ezd-dropdown-menu-item').last().simulate('click');
 
     expect(handleSelectNone).toHaveBeenCalled();
     expect(order).toEqual(['onChange', 'onSelectNone', 'onChange']);
@@ -432,12 +431,12 @@ describe('Table.rowSelection', () => {
     wrapper.find('Trigger').setState({ popupVisible: true });
 
     const dropdownWrapper = mount(wrapper.find('Trigger').first().instance().getComponent());
-    expect(dropdownWrapper.find('li.ant-dropdown-menu-item').length).toBe(4);
+    expect(dropdownWrapper.find('li.ezd-dropdown-menu-item').length).toBe(4);
 
-    dropdownWrapper.find('li.ant-dropdown-menu-item').at(2).simulate('click');
+    dropdownWrapper.find('li.ezd-dropdown-menu-item').at(2).simulate('click');
     expect(handleSelectOdd).toHaveBeenCalledWith([0, 1, 2, 3]);
 
-    dropdownWrapper.find('li.ant-dropdown-menu-item').at(3).simulate('click');
+    dropdownWrapper.find('li.ezd-dropdown-menu-item').at(3).simulate('click');
     expect(handleSelectEven).toHaveBeenCalledWith([0, 1, 2, 3]);
   });
 
@@ -465,7 +464,7 @@ describe('Table.rowSelection', () => {
       );
 
       wrapper.find('Trigger').setState({ popupVisible: true });
-      wrapper.find('li.ant-dropdown-menu-item').first().simulate('click');
+      wrapper.find('li.ezd-dropdown-menu-item').first().simulate('click');
 
       expect(onChange).toHaveBeenCalledWith([0, 2], expect.anything());
     });
@@ -485,7 +484,7 @@ describe('Table.rowSelection', () => {
       );
 
       wrapper.find('Trigger').setState({ popupVisible: true });
-      wrapper.find('li.ant-dropdown-menu-item').first().simulate('click');
+      wrapper.find('li.ezd-dropdown-menu-item').first().simulate('click');
 
       expect(onChange).toHaveBeenCalledWith([0], expect.anything());
     });
@@ -505,7 +504,7 @@ describe('Table.rowSelection', () => {
       );
 
       wrapper.find('Trigger').setState({ popupVisible: true });
-      wrapper.find('li.ant-dropdown-menu-item').first().simulate('click');
+      wrapper.find('li.ezd-dropdown-menu-item').first().simulate('click');
 
       expect(onChange).toHaveBeenCalledWith([1], expect.anything());
     });
@@ -516,7 +515,7 @@ describe('Table.rowSelection', () => {
       hideSelectAll: true,
     };
     const wrapper = mount(createTable({ rowSelection }));
-    expect(wrapper.find('.ant-selection').exists()).toBeFalsy();
+    expect(wrapper.find('.ezd-selection').exists()).toBeFalsy();
   });
 
   it('handle custom selection onSelect correctly when hide default selection options', () => {
@@ -542,16 +541,15 @@ describe('Table.rowSelection', () => {
     wrapper.find('Trigger').setState({ popupVisible: true });
 
     const dropdownWrapper = mount(wrapper.find('Trigger').first().instance().getComponent());
-    expect(dropdownWrapper.find('li.ant-dropdown-menu-item').length).toBe(2);
+    expect(dropdownWrapper.find('li.ezd-dropdown-menu-item').length).toBe(2);
 
-    dropdownWrapper.find('li.ant-dropdown-menu-item').at(0).simulate('click');
+    dropdownWrapper.find('li.ezd-dropdown-menu-item').at(0).simulate('click');
     expect(handleSelectOdd).toHaveBeenCalledWith([0, 1, 2, 3]);
 
-    dropdownWrapper.find('li.ant-dropdown-menu-item').at(1).simulate('click');
+    dropdownWrapper.find('li.ezd-dropdown-menu-item').at(1).simulate('click');
     expect(handleSelectEven).toHaveBeenCalledWith([0, 1, 2, 3]);
   });
 
-  // https://github.com/ant-design/ant-design/issues/4245
   it('handles disabled checkbox correctly when dataSource changes', () => {
     const rowSelection = {
       getCheckboxProps: record => ({ disabled: record.disabled }),
@@ -567,7 +565,6 @@ describe('Table.rowSelection', () => {
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/4245
   it('should allow dynamic getCheckboxProps', () => {
     class App extends React.Component {
       state = {
@@ -597,7 +594,6 @@ describe('Table.rowSelection', () => {
     expect(checkboxs.at(2).props().disabled).toBe(true);
   });
 
-  // https://github.com/ant-design/ant-design/issues/4779
   it('should not switch pagination when select record', () => {
     const newData = [];
     for (let i = 0; i < 20; i += 1) {
@@ -639,7 +635,7 @@ describe('Table.rowSelection', () => {
       .find('input')
       .at(1)
       .simulate('change', { target: { checked: true } });
-    expect(wrapper.find('tbody tr').at(0).hasClass('ant-table-row-selected')).toBe(true);
+    expect(wrapper.find('tbody tr').at(0).hasClass('ezd-table-row-selected')).toBe(true);
   });
 
   it('fix selection column on the left', () => {
@@ -704,7 +700,6 @@ describe('Table.rowSelection', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/10629
   it('should keep all checked state when remove item from dataSource', () => {
     const wrapper = mount(
       <Table
@@ -733,7 +728,6 @@ describe('Table.rowSelection', () => {
     });
   });
 
-  // https://github.com/ant-design/ant-design/issues/11042
   it('add columnTitle for rowSelection', () => {
     const wrapper = mount(
       <Table
@@ -754,7 +748,6 @@ describe('Table.rowSelection', () => {
     expect(wrapper.find('thead tr th').at(0).text()).toBe('单选');
   });
 
-  // https://github.com/ant-design/ant-design/issues/11384
   it('should keep item even if in filter', () => {
     const filterColumns = [
       {
@@ -786,14 +779,14 @@ describe('Table.rowSelection', () => {
 
     function clickFilter(indexList) {
       indexList.forEach(index => {
-        wrapper.find('.ant-dropdown-menu-item .ant-checkbox-wrapper').at(index).simulate('click');
+        wrapper.find('.ezd-dropdown-menu-item .ezd-checkbox-wrapper').at(index).simulate('click');
       });
-      wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-primary').simulate('click');
+      wrapper.find('.ezd-table-filter-dropdown-btns .ezd-btn-primary').simulate('click');
     }
 
     function clickItem() {
       wrapper
-        .find('tbody .ant-table-selection-column .ant-checkbox-input')
+        .find('tbody .ezd-table-selection-column .ezd-checkbox-input')
         .at(0)
         .simulate('change', {
           target: { checked: true },
@@ -854,7 +847,6 @@ describe('Table.rowSelection', () => {
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/16614
   it('should get selectedRows correctly when set childrenColumnName', () => {
     const onChange = jest.fn();
     const newDatas = [
@@ -906,11 +898,11 @@ describe('Table.rowSelection', () => {
     const checkboxes = wrapper.find('input');
     checkboxes.at(1).simulate('change', { target: { checked: true } });
 
-    expect(wrapper.find('tr.ant-table-row-selected').length).toBe(1);
+    expect(wrapper.find('tr.ezd-table-row-selected').length).toBe(1);
 
     wrapper.setProps({ rowSelection: null });
     wrapper.update();
-    expect(wrapper.find('tr.ant-table-row-selected').length).toBe(0);
+    expect(wrapper.find('tr.ezd-table-row-selected').length).toBe(0);
   });
 
   it('select by checkbox to trigger stopPropagation', () => {
@@ -931,8 +923,8 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(wrapper.find('thead .ant-checkbox-input').props().disabled).toBeTruthy();
-    expect(wrapper.find('thead .ant-checkbox-input').props().checked).toBeFalsy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().disabled).toBeTruthy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().checked).toBeFalsy();
   });
 
   it('should make select all checked when each item is checked and disabled', () => {
@@ -947,8 +939,8 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(wrapper.find('thead .ant-checkbox-input').props().disabled).toBeTruthy();
-    expect(wrapper.find('thead .ant-checkbox-input').props().checked).toBeTruthy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().disabled).toBeTruthy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().checked).toBeTruthy();
   });
 
   it('should make select all indeterminated when each item is disabled and some item is checked', () => {
@@ -963,10 +955,10 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(wrapper.find('thead .ant-checkbox-input').props().disabled).toBeTruthy();
-    expect(wrapper.find('thead .ant-checkbox-input').props().checked).toBeFalsy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().disabled).toBeTruthy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().checked).toBeFalsy();
     expect(
-      wrapper.find('thead .ant-checkbox-indeterminate.ant-checkbox-disabled').exists(),
+      wrapper.find('thead .ezd-checkbox-indeterminate.ezd-checkbox-disabled').exists(),
     ).toBeTruthy();
   });
 
@@ -982,8 +974,8 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(wrapper.find('thead .ant-checkbox-input').props().disabled).toBeFalsy();
-    expect(wrapper.find('thead .ant-checkbox-input').props().checked).toBeTruthy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().disabled).toBeFalsy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().checked).toBeTruthy();
   });
 
   it('should not make select all checked when some item is checked and disabled', () => {
@@ -998,9 +990,9 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(wrapper.find('thead .ant-checkbox-input').props().disabled).toBeFalsy();
-    expect(wrapper.find('thead .ant-checkbox-input').props().checked).toBeFalsy();
-    expect(wrapper.find('thead .ant-checkbox-indeterminate').exists()).toBeTruthy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().disabled).toBeFalsy();
+    expect(wrapper.find('thead .ezd-checkbox-input').props().checked).toBeFalsy();
+    expect(wrapper.find('thead .ezd-checkbox-indeterminate').exists()).toBeTruthy();
   });
 
   it('should onRowClick not called when checkbox clicked', () => {
@@ -1031,7 +1023,7 @@ describe('Table.rowSelection', () => {
       }),
     );
     jest.useFakeTimers();
-    wrapper.find('.ant-dropdown-trigger').simulate('mouseenter');
+    wrapper.find('.ezd-dropdown-trigger').simulate('mouseenter');
     jest.runAllTimers();
     expect(wrapper.render()).toMatchSnapshot();
     expect(getPopupContainer).toHaveBeenCalled();
@@ -1049,7 +1041,7 @@ describe('Table.rowSelection', () => {
       </ConfigProvider>,
     );
     jest.useFakeTimers();
-    wrapper.find('.ant-dropdown-trigger').simulate('mouseenter');
+    wrapper.find('.ezd-dropdown-trigger').simulate('mouseenter');
     jest.runAllTimers();
     expect(wrapper.render()).toMatchSnapshot();
   });
@@ -1358,7 +1350,7 @@ describe('Table.rowSelection', () => {
         }),
       );
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [antd: Table] set `indeterminate` using `rowSelection.getCheckboxProps` is not allowed with tree structured dataSource.',
+        'Warning: [ezd: Table] set `indeterminate` using `rowSelection.getCheckboxProps` is not allowed with tree structured dataSource.',
       );
     });
   });
@@ -1453,7 +1445,7 @@ describe('Table.rowSelection', () => {
       expect(onChange).toHaveBeenCalledWith(['Jack'], [{ name: 'Jack' }]);
     });
 
-    it('selectedRows ant selectedKeys should keep sync in initial state', () => {
+    it('selectedRows ezd selectedKeys should keep sync in initial state', () => {
       const dataSource = [{ name: 'Jack' }, { name: 'Tom' }, { name: 'Lucy' }, { name: 'John' }];
       const onChange = jest.fn();
       const rowSelection = {

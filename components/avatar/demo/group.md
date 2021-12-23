@@ -22,7 +22,7 @@ const Demo = () => (
     <Avatar.Group>
       <Avatar src="https://joeschmoe.io/api/v1/random" />
       <Avatar style={{ backgroundColor: '#f56a00' }}>K</Avatar>
-      <Tooltip title="Ant User" placement="top">
+      <Tooltip title="Ezd User" placement="top">
         <Avatar style={{ backgroundColor: '#87d068' }} icon={<UserOutlined />} />
       </Tooltip>
       <Avatar style={{ backgroundColor: '#1890ff' }} icon={<AntDesignOutlined />} />
@@ -31,7 +31,7 @@ const Demo = () => (
     <Avatar.Group maxCount={2} maxStyle={{ color: '#f56a00', backgroundColor: '#fde3cf' }}>
       <Avatar src="https://joeschmoe.io/api/v1/random" />
       <Avatar style={{ backgroundColor: '#f56a00' }}>K</Avatar>
-      <Tooltip title="Ant User" placement="top">
+      <Tooltip title="Ezd User" placement="top">
         <Avatar style={{ backgroundColor: '#87d068' }} icon={<UserOutlined />} />
       </Tooltip>
       <Avatar style={{ backgroundColor: '#1890ff' }} icon={<AntDesignOutlined />} />
@@ -44,7 +44,7 @@ const Demo = () => (
     >
       <Avatar src="https://joeschmoe.io/api/v1/random" />
       <Avatar style={{ backgroundColor: '#f56a00' }}>K</Avatar>
-      <Tooltip title="Ant User" placement="top">
+      <Tooltip title="Ezd User" placement="top">
         <Avatar style={{ backgroundColor: '#87d068' }} icon={<UserOutlined />} />
       </Tooltip>
       <Avatar style={{ backgroundColor: '#1890ff' }} icon={<AntDesignOutlined />} />

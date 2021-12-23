@@ -30,7 +30,7 @@ describe('Descriptions', () => {
       </Descriptions>,
     );
     expect(wrapper.find('tr')).toHaveLength(5);
-    expect(wrapper.find('.ant-descriptions-item-label')).toHaveLength(4);
+    expect(wrapper.find('.ezd-descriptions-item-label')).toHaveLength(4);
     wrapper.unmount();
   });
 
@@ -89,7 +89,7 @@ describe('Descriptions', () => {
       </Descriptions>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [antd: Descriptions] Sum of column `span` in a line not match `column` of Descriptions.',
+      'Warning: [ezd: Descriptions] Sum of column `span` in a line not match `column` of Descriptions.',
     );
   });
 
@@ -161,7 +161,6 @@ describe('Descriptions', () => {
     expect(wrapper.find('Cell').key()).toBe('item-bamboo');
   });
 
-  // https://github.com/ant-design/ant-design/issues/19887
   it('should work with React Fragment', () => {
     if (!React.Fragment) {
       return;
@@ -179,7 +178,6 @@ describe('Descriptions', () => {
     expect(wrapper.render()).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/20255
   it('columns 5 with customize', () => {
     const wrapper = mount(
       <Descriptions layout="vertical" column={4}>
@@ -224,8 +222,8 @@ describe('Descriptions', () => {
       </Descriptions>,
     );
 
-    expect(wrapper.find('th').hasClass('ant-descriptions-item-label')).toBeTruthy();
-    expect(wrapper.find('td').hasClass('ant-descriptions-item-content')).toBeTruthy();
+    expect(wrapper.find('th').hasClass('ezd-descriptions-item-label')).toBeTruthy();
+    expect(wrapper.find('td').hasClass('ezd-descriptions-item-content')).toBeTruthy();
   });
 
   it('Descriptions support extra', () => {
@@ -234,8 +232,8 @@ describe('Descriptions', () => {
         <Descriptions.Item label="UserName">Zhou Maomao</Descriptions.Item>
       </Descriptions>,
     );
-    expect(wrapper.find('.ant-descriptions-extra').exists()).toBe(true);
+    expect(wrapper.find('.ezd-descriptions-extra').exists()).toBe(true);
     wrapper.setProps({ extra: undefined });
-    expect(wrapper.find('.ant-descriptions-extra').exists()).toBe(false);
+    expect(wrapper.find('.ezd-descriptions-extra').exists()).toBe(false);
   });
 });

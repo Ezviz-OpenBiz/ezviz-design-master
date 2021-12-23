@@ -68,7 +68,7 @@
       .@{drawer-prefix-cls}-content-wrapper {
         box-shadow: @shadow-1-left;
       }
-      // https://github.com/ant-design/ant-design/issues/18607, Avoid edge alignment bug.
+      
       &.no-mask {
         right: 1px;
         transform: translateX(1px);
@@ -125,7 +125,7 @@
     height: 100%;
     opacity: 1;
     transition: none;
-    animation: antdDrawerFadeIn @animation-duration-slow @drawer-animation-ease;
+    animation: ezdDrawerFadeIn @animation-duration-slow @drawer-animation-ease;
     pointer-events: auto;
   }
 
@@ -242,7 +242,7 @@
   }
 }
 
-@keyframes antdDrawerFadeIn {
+@keyframes ezdDrawerFadeIn {
   0% {
     opacity: 0;
   }

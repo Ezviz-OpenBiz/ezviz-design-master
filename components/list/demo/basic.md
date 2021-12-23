@@ -39,8 +39,8 @@ ReactDOM.render(
       <List.Item>
         <List.Item.Meta
           avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-          title={<a href="https://ant.design">{item.title}</a>}
-          description="EZ Design, a design language for background applications, is refined by Ant UED Team"
+          title={<a href="https://saastest3.ys7.com/ezd/">{item.title}</a>}
+          description="EZ Design, a design language for background applications, is refined by EZVIZ Team"
         />
       </List.Item>
     )}

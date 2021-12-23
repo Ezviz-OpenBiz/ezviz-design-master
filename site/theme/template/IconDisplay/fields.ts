@@ -184,7 +184,7 @@ const logo = [
   'Google',
   'CodepenCircle',
   'Alipay',
-  'AntDesign',
+  'EZDesign',
   'AntCloud',
   'Aliyun',
   'Zhihu',

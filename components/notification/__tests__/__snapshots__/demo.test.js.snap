@@ -2,7 +2,7 @@
 
 exports[`renders ./components/notification/demo/basic.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -13,7 +13,7 @@ exports[`renders ./components/notification/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/custom-icon.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -24,7 +24,7 @@ exports[`renders ./components/notification/demo/custom-icon.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/custom-style.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -35,7 +35,7 @@ exports[`renders ./components/notification/demo/custom-style.md correctly 1`] = 
 
 exports[`renders ./components/notification/demo/duration.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -47,14 +47,14 @@ exports[`renders ./components/notification/demo/duration.md correctly 1`] = `
 exports[`renders ./components/notification/demo/hooks.md correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ezd-space ant-space-horizontal ant-space-align-center"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -82,10 +82,10 @@ Array [
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -114,18 +114,18 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />,
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ezd-space ant-space-horizontal ant-space-align-center"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -153,10 +153,10 @@ Array [
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -190,14 +190,14 @@ Array [
 exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
 <div>
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ezd-space ant-space-horizontal ant-space-align-center"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -225,10 +225,10 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -257,18 +257,18 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ezd-space ant-space-horizontal ant-space-align-center"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-right:8px"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -296,10 +296,10 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span
@@ -332,7 +332,7 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/update.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -343,7 +343,7 @@ exports[`renders ./components/notification/demo/update.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/with-btn.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="ezd-btn ant-btn-primary"
   type="button"
 >
   <span>
@@ -354,14 +354,14 @@ exports[`renders ./components/notification/demo/with-btn.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -370,11 +370,11 @@ exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -383,11 +383,11 @@ exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -396,10 +396,10 @@ exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>

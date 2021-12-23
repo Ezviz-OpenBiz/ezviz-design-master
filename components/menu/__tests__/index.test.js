@@ -21,14 +21,14 @@ const noop = () => {};
 
 const expectSubMenuBehavior = (menu, enter = noop, leave = noop) => {
   if (!menu.prop('openKeys') && !menu.prop('defaultOpenKeys')) {
-    expect(menu.find('ul.ant-menu-sub').length).toBe(0);
+    expect(menu.find('ul.ezd-menu-sub').length).toBe(0);
   }
   menu.update();
-  expect(menu.find('ul.ant-menu-sub').length).toBe(0);
+  expect(menu.find('ul.ezd-menu-sub').length).toBe(0);
   const AnimationClassNames = {
-    horizontal: 'ant-slide-up-leave',
-    inline: 'ant-motion-collapse-leave',
-    vertical: 'ant-zoom-big-leave',
+    horizontal: 'ezd-slide-up-leave',
+    inline: 'ezd-motion-collapse-leave',
+    vertical: 'ezd-zoom-big-leave',
   };
   const mode = menu.prop('mode') || 'horizontal';
 
@@ -40,13 +40,13 @@ const expectSubMenuBehavior = (menu, enter = noop, leave = noop) => {
 
   function getSubMenu() {
     if (mode === 'inline') {
-      return menu.find('ul.ant-menu-sub.ant-menu-inline').hostNodes().at(0);
+      return menu.find('ul.ezd-menu-sub.ezd-menu-inline').hostNodes().at(0);
     }
-    return menu.find('div.ant-menu-submenu-popup').hostNodes().at(0);
+    return menu.find('div.ezd-menu-submenu-popup').hostNodes().at(0);
   }
 
   expect(
-    getSubMenu().hasClass('ant-menu-hidden') || getSubMenu().hasClass(AnimationClassNames[mode]),
+    getSubMenu().hasClass('ezd-menu-hidden') || getSubMenu().hasClass(AnimationClassNames[mode]),
   ).toBeFalsy();
 
   act(() => {
@@ -57,7 +57,7 @@ const expectSubMenuBehavior = (menu, enter = noop, leave = noop) => {
 
   if (getSubMenu().length) {
     expect(
-      getSubMenu().hasClass('ant-menu-hidden') || getSubMenu().hasClass(AnimationClassNames[mode]),
+      getSubMenu().hasClass('ezd-menu-hidden') || getSubMenu().hasClass(AnimationClassNames[mode]),
     ).toBeTruthy();
   }
 };
@@ -135,7 +135,7 @@ describe('Menu', () => {
         <Menu.Item key="2">menu2</Menu.Item>
       </Menu>,
     );
-    expect(wrapper.find('li.ant-menu-submenu-selected').length).toBe(1);
+    expect(wrapper.find('li.ezd-menu-submenu-selected').length).toBe(1);
   });
 
   it('forceSubMenuRender', () => {
@@ -165,7 +165,7 @@ describe('Menu', () => {
         <Menu.Item key="2">menu2</Menu.Item>
       </Menu>,
     );
-    expect(wrapper.exists('.ant-menu-sub')).toBeFalsy();
+    expect(wrapper.exists('.ezd-menu-sub')).toBeFalsy();
   });
 
   it('should accept defaultOpenKeys in mode inline', () => {
@@ -178,7 +178,7 @@ describe('Menu', () => {
         <Menu.Item key="2">menu2</Menu.Item>
       </Menu>,
     );
-    expect(wrapper.find('.ant-menu-sub').at(0).hasClass('ant-menu-hidden')).not.toBe(true);
+    expect(wrapper.find('.ezd-menu-sub').at(0).hasClass('ezd-menu-hidden')).not.toBe(true);
   });
 
   it('should accept defaultOpenKeys in mode vertical', () => {
@@ -284,8 +284,6 @@ describe('Menu', () => {
     );
   });
 
-  // https://github.com/ant-design/ant-design/pulls/4677
-  // https://github.com/ant-design/ant-design/issues/4692
   // TypeError: Cannot read property 'indexOf' of undefined
   it('pr #4677 and issue #4692', () => {
     const wrapper = mount(
@@ -310,11 +308,11 @@ describe('Menu', () => {
         <Menu.Item key="2">menu2</Menu.Item>
       </Menu>,
     );
-    expect(wrapper.find('ul.ant-menu-sub').at(0).hasClass('ant-menu-hidden')).toBe(false);
+    expect(wrapper.find('ul.ezd-menu-sub').at(0).hasClass('ezd-menu-hidden')).toBe(false);
     wrapper.setProps({ mode: 'vertical' });
-    expect(wrapper.find('ul.ant-menu-sub').at(0).hasClass('ant-menu-hidden')).toBe(false);
+    expect(wrapper.find('ul.ezd-menu-sub').at(0).hasClass('ezd-menu-hidden')).toBe(false);
     wrapper.setProps({ mode: 'inline' });
-    expect(wrapper.find('ul.ant-menu-sub').at(0).hasClass('ant-menu-hidden')).toBe(false);
+    expect(wrapper.find('ul.ezd-menu-sub').at(0).hasClass('ezd-menu-hidden')).toBe(false);
   });
 
   it('should always follow openKeys when inlineCollapsed is switched', () => {
@@ -339,7 +337,7 @@ describe('Menu', () => {
       wrapper.update();
     });
 
-    expect(wrapper.find('ul.ant-menu-root').hasClass('ant-menu-vertical')).toBeTruthy();
+    expect(wrapper.find('ul.ezd-menu-root').hasClass('ezd-menu-vertical')).toBeTruthy();
     expect(wrapper.find('PopupTrigger').prop('visible')).toBeFalsy();
 
     // !inlineCollapsed
@@ -349,7 +347,7 @@ describe('Menu', () => {
       wrapper.update();
     });
 
-    expect(wrapper.find('ul.ant-menu-sub').last().hasClass('ant-menu-inline')).toBeTruthy();
+    expect(wrapper.find('ul.ezd-menu-sub').last().hasClass('ezd-menu-inline')).toBeTruthy();
     expect(wrapper.find('InlineSubMenuList').prop('open')).toBeTruthy();
   });
 
@@ -365,7 +363,7 @@ describe('Menu', () => {
         </SubMenu>
       </Menu>,
     );
-    expect(wrapper.find('.ant-menu-sub').length).toBe(0);
+    expect(wrapper.find('.ezd-menu-sub').length).toBe(0);
     wrapper.setProps({ inlineCollapsed: true });
     jest.runAllTimers();
     wrapper.update();
@@ -376,15 +374,15 @@ describe('Menu', () => {
       wrapper.update();
     });
 
-    wrapper.find('.ant-menu-submenu-title').at(0).simulate('mouseEnter');
+    wrapper.find('.ezd-menu-submenu-title').at(0).simulate('mouseEnter');
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-menu-submenu').at(0).hasClass('ant-menu-submenu-vertical')).toBe(
+    expect(wrapper.find('.ezd-menu-submenu').at(0).hasClass('ezd-menu-submenu-vertical')).toBe(
       true,
     );
-    expect(wrapper.find('.ant-menu-submenu').at(0).hasClass('ant-menu-submenu-open')).toBe(true);
-    expect(wrapper.find('ul.ant-menu-sub').at(0).hasClass('ant-menu-vertical')).toBe(true);
-    expect(wrapper.find('ul.ant-menu-sub').at(0).hasClass('ant-menu-hidden')).toBe(false);
+    expect(wrapper.find('.ezd-menu-submenu').at(0).hasClass('ezd-menu-submenu-open')).toBe(true);
+    expect(wrapper.find('ul.ezd-menu-sub').at(0).hasClass('ezd-menu-vertical')).toBe(true);
+    expect(wrapper.find('ul.ezd-menu-sub').at(0).hasClass('ezd-menu-hidden')).toBe(false);
   });
 
   it('inlineCollapsed Menu.Item Tooltip can be removed', () => {
@@ -423,7 +421,7 @@ describe('Menu', () => {
 
   describe('open submenu when click submenu title', () => {
     const toggleMenu = (wrapper, index, event) => {
-      wrapper.find('.ant-menu-submenu-title').at(index).simulate(event);
+      wrapper.find('.ezd-menu-submenu-title').at(index).simulate(event);
       jest.runAllTimers();
       wrapper.update();
     };
@@ -464,7 +462,7 @@ describe('Menu', () => {
         </Menu>,
       );
 
-      wrapper.find('div.ant-menu-submenu-title').simulate('click');
+      wrapper.find('div.ezd-menu-submenu-title').simulate('click');
 
       act(() => {
         jest.runAllTimers();
@@ -561,13 +559,13 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    wrapper.find('.ant-menu-item').hostNodes().simulate('mouseenter');
+    wrapper.find('.ezd-menu-item').hostNodes().simulate('mouseenter');
     act(() => {
       jest.runAllTimers();
     });
     wrapper.update();
 
-    const text = wrapper.find('.ant-tooltip-inner').text();
+    const text = wrapper.find('.ezd-tooltip-inner').text();
     expect(text).toBe('bamboo lucky');
 
     jest.useRealTimers();
@@ -600,19 +598,19 @@ describe('Menu', () => {
       }
     }
     const wrapper = mount(<Demo />);
-    expect(wrapper.find(Menu).at(0).getDOMNode().classList.contains('ant-menu-inline')).toBe(true);
-    wrapper.find('.ant-menu-submenu-title').simulate('click');
-    wrapper.find('.ant-layout-sider-trigger').simulate('click');
+    expect(wrapper.find(Menu).at(0).getDOMNode().classList.contains('ezd-menu-inline')).toBe(true);
+    wrapper.find('.ezd-menu-submenu-title').simulate('click');
+    wrapper.find('.ezd-layout-sider-trigger').simulate('click');
     act(() => {
       jest.runAllTimers();
     });
     wrapper.update();
-    expect(wrapper.find(Menu).getDOMNode().classList.contains('ant-menu-inline-collapsed')).toBe(
+    expect(wrapper.find(Menu).getDOMNode().classList.contains('ezd-menu-inline-collapsed')).toBe(
       true,
     );
     wrapper.find(Menu).simulate('mouseenter');
-    expect(wrapper.find(Menu).getDOMNode().classList.contains('ant-menu-inline')).toBe(false);
-    expect(wrapper.find(Menu).getDOMNode().classList.contains('ant-menu-vertical')).toBe(true);
+    expect(wrapper.find(Menu).getDOMNode().classList.contains('ezd-menu-inline')).toBe(false);
+    expect(wrapper.find(Menu).getDOMNode().classList.contains('ezd-menu-vertical')).toBe(true);
   });
 
   it('onMouseEnter should work', () => {
@@ -623,7 +621,7 @@ describe('Menu', () => {
         <Menu.Item key="test2">Navigation Two</Menu.Item>
       </Menu>,
     );
-    wrapper.find('ul.ant-menu-root').simulate('mouseenter');
+    wrapper.find('ul.ezd-menu-root').simulate('mouseenter');
     expect(onMouseEnter).toHaveBeenCalled();
   });
 
@@ -637,7 +635,7 @@ describe('Menu', () => {
           Navigation Two
         </Menu.Item>
         <Menu.Item key="alipay">
-          <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+          <a href="https://saastest3.ys7.com/ezd/" target="_blank" rel="noopener noreferrer">
             Navigation Four - Link
           </a>
         </Menu.Item>
@@ -645,14 +643,14 @@ describe('Menu', () => {
       { attachTo: div },
     );
 
-    wrapper.find('li.ant-menu-item').first().simulate('mouseenter');
+    wrapper.find('li.ezd-menu-item').first().simulate('mouseenter');
 
     act(() => {
       jest.runAllTimers();
       wrapper.update();
     });
 
-    expect(wrapper.find('.ant-tooltip-inner').length).toBe(0);
+    expect(wrapper.find('.ezd-tooltip-inner').length).toBe(0);
   });
 
   it('MenuItem should render icon and icon should be the first child when icon exists', () => {
@@ -663,7 +661,7 @@ describe('Menu', () => {
         </Menu.Item>
       </Menu>,
     );
-    expect(wrapper.find('.ant-menu-item .anticon').hasClass('anticon-mail')).toBe(true);
+    expect(wrapper.find('.ezd-menu-item .ezdicon').hasClass('ezdicon-mail')).toBe(true);
   });
 
   it('should controlled collapse work', () => {
@@ -692,11 +690,11 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    wrapper.find('.ant-menu-item').hostNodes().simulate('mouseenter');
+    wrapper.find('.ezd-menu-item').hostNodes().simulate('mouseenter');
     jest.runAllTimers();
     wrapper.update();
 
-    expect(wrapper.find('.ant-tooltip-inner').length).toBeFalsy();
+    expect(wrapper.find('.ezd-tooltip-inner').length).toBeFalsy();
 
     jest.useRealTimers();
   });
@@ -718,14 +716,12 @@ describe('Menu', () => {
 
     expect(errorSpy.mock.calls.length).toBe(1);
     expect(errorSpy.mock.calls[0][0]).not.toContain(
-      '`onOpen` and `onClose` are removed, please use `onOpenChange` instead, see: https://u.ant.design/menu-on-open-change.',
+      '`onOpen` and `onClose` are removed, please use `onOpenChange` instead.',
     );
     expect(onOpen).not.toHaveBeenCalled();
     expect(onClose).not.toHaveBeenCalled();
   });
 
-  // https://github.com/ant-design/ant-design/issues/18825
-  // https://github.com/ant-design/ant-design/issues/8587
   it('should keep selectedKeys in state when collapsed to 0px', () => {
     jest.useFakeTimers();
     const wrapper = mount(
@@ -743,9 +739,9 @@ describe('Menu', () => {
         </Menu.SubMenu>
       </Menu>,
     );
-    expect(wrapper.find('li.ant-menu-item-selected').getDOMNode().textContent).toBe('Option 1');
-    wrapper.find('li.ant-menu-item').at(1).simulate('click');
-    expect(wrapper.find('li.ant-menu-item-selected').getDOMNode().textContent).toBe('Option 2');
+    expect(wrapper.find('li.ezd-menu-item-selected').getDOMNode().textContent).toBe('Option 1');
+    wrapper.find('li.ezd-menu-item').at(1).simulate('click');
+    expect(wrapper.find('li.ezd-menu-item-selected').getDOMNode().textContent).toBe('Option 2');
     wrapper.setProps({ inlineCollapsed: true });
 
     act(() => {
@@ -761,7 +757,7 @@ describe('Menu', () => {
     ).toBe(-1);
 
     wrapper.setProps({ inlineCollapsed: false });
-    expect(wrapper.find('li.ant-menu-item-selected').getDOMNode().textContent).toBe('Option 2');
+    expect(wrapper.find('li.ezd-menu-item-selected').getDOMNode().textContent).toBe('Option 2');
     jest.useRealTimers();
   });
 
@@ -781,7 +777,6 @@ describe('Menu', () => {
     expect(wrapper.render()).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/23755
   it('should trigger onOpenChange when collapse inline menu', () => {
     const onOpenChange = jest.fn();
     function App() {
@@ -818,8 +813,8 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    expect(wrapper.find('.ant-menu-inline-collapsed-noicon').first().text()).toEqual('L');
-    expect(wrapper.find('.ant-menu-inline-collapsed-noicon').last().text()).toEqual('B');
+    expect(wrapper.find('.ezd-menu-inline-collapsed-noicon').first().text()).toEqual('L');
+    expect(wrapper.find('.ezd-menu-inline-collapsed-noicon').last().text()).toEqual('B');
   });
 
   it('divider should show', () => {
@@ -839,7 +834,7 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    expect(wrapper.find('li.ant-menu-item-divider').length).toBe(2);
-    expect(wrapper.find('li.ant-menu-item-divider-dashed').length).toBe(1);
+    expect(wrapper.find('li.ezd-menu-item-divider').length).toBe(2);
+    expect(wrapper.find('li.ezd-menu-item-divider-dashed').length).toBe(1);
   });
 });

@@ -2,18 +2,18 @@
 
 exports[`Progress render dashboard 295 gapDegree 1`] = `
 <div
-  class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-circle ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-inner"
+    class="ezd-progress-inner"
     style="width: 120px; height: 120px; font-size: 24px;"
   >
     <svg
-      class="ant-progress-circle"
+      class="ezd-progress-circle"
       viewBox="0 0 100 100"
     >
       <path
-        class="ant-progress-circle-trail"
+        class="ezd-progress-circle-trail"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -23,7 +23,7 @@ exports[`Progress render dashboard 295 gapDegree 1`] = `
         style="stroke-dasharray: 0.3097094374405742px 295.3097094374406px; stroke-dashoffset: -147.5px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -35,7 +35,7 @@ exports[`Progress render dashboard 295 gapDegree 1`] = `
         style="stroke-dasharray: 0px 295.3097094374406px; stroke-dashoffset: -147.5px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s; transition-duration: .3s, .3s, .3s, .06s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -48,7 +48,7 @@ exports[`Progress render dashboard 295 gapDegree 1`] = `
       />
     </svg>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="0%"
     >
       0%
@@ -59,18 +59,18 @@ exports[`Progress render dashboard 295 gapDegree 1`] = `
 
 exports[`Progress render dashboard 296 gapDegree 1`] = `
 <div
-  class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-circle ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-inner"
+    class="ezd-progress-inner"
     style="width: 120px; height: 120px; font-size: 24px;"
   >
     <svg
-      class="ant-progress-circle"
+      class="ezd-progress-circle"
       viewBox="0 0 100 100"
     >
       <path
-        class="ant-progress-circle-trail"
+        class="ezd-progress-circle-trail"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -80,7 +80,7 @@ exports[`Progress render dashboard 296 gapDegree 1`] = `
         style="stroke-dasharray: -0.6902905625594258px 295.3097094374406px; stroke-dashoffset: -148px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -92,7 +92,7 @@ exports[`Progress render dashboard 296 gapDegree 1`] = `
         style="stroke-dasharray: 0px 295.3097094374406px; stroke-dashoffset: -148px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s; transition-duration: .3s, .3s, .3s, .06s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -105,7 +105,7 @@ exports[`Progress render dashboard 296 gapDegree 1`] = `
       />
     </svg>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="0%"
     >
       0%
@@ -116,18 +116,18 @@ exports[`Progress render dashboard 296 gapDegree 1`] = `
 
 exports[`Progress render dashboard zero gapDegree 1`] = `
 <div
-  class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-circle ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-inner"
+    class="ezd-progress-inner"
     style="width: 120px; height: 120px; font-size: 24px;"
   >
     <svg
-      class="ant-progress-circle"
+      class="ezd-progress-circle"
       viewBox="0 0 100 100"
     >
       <path
-        class="ant-progress-circle-trail"
+        class="ezd-progress-circle-trail"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -137,7 +137,7 @@ exports[`Progress render dashboard zero gapDegree 1`] = `
         style="stroke-dasharray: 295.3097094374406px 295.3097094374406px; stroke-dashoffset: -0px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -149,7 +149,7 @@ exports[`Progress render dashboard zero gapDegree 1`] = `
         style="stroke-dasharray: 0px 295.3097094374406px; stroke-dashoffset: -0px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s; transition-duration: .3s, .3s, .3s, .06s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -162,7 +162,7 @@ exports[`Progress render dashboard zero gapDegree 1`] = `
       />
     </svg>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="0%"
     >
       0%
@@ -173,26 +173,26 @@ exports[`Progress render dashboard zero gapDegree 1`] = `
 
 exports[`Progress render format 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 50%; height: 8px;"
       />
       <div
-        class="ant-progress-success-bg"
+        class="ezd-progress-success-bg"
         style="width: 10%; height: 8px;"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
     title="50 10"
   >
     50 10
@@ -202,22 +202,22 @@ exports[`Progress render format 1`] = `
 
 exports[`Progress render negative progress 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 0%; height: 8px;"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
     title="0%"
   >
     0%
@@ -227,26 +227,26 @@ exports[`Progress render negative progress 1`] = `
 
 exports[`Progress render negative successPercent 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 50%; height: 8px;"
       />
       <div
-        class="ant-progress-success-bg"
+        class="ezd-progress-success-bg"
         style="width: 0%; height: 8px;"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
     title="50%"
   >
     50%
@@ -256,22 +256,22 @@ exports[`Progress render negative successPercent 1`] = `
 
 exports[`Progress render normal progress 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 0%; height: 8px;"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
     title="0%"
   >
     0%
@@ -281,22 +281,22 @@ exports[`Progress render normal progress 1`] = `
 
 exports[`Progress render out-of-range progress 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-success ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 100%; height: 8px;"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
   >
     <span
       aria-label="check-circle"
@@ -323,22 +323,22 @@ exports[`Progress render out-of-range progress 1`] = `
 
 exports[`Progress render out-of-range progress with info 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-success ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 100%; height: 8px;"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
   >
     <span
       aria-label="check-circle"
@@ -365,18 +365,18 @@ exports[`Progress render out-of-range progress with info 1`] = `
 
 exports[`Progress render strokeColor 1`] = `
 <div
-  class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-circle ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-inner"
+    class="ezd-progress-inner"
     style="width: 120px; height: 120px; font-size: 24px;"
   >
     <svg
-      class="ant-progress-circle"
+      class="ezd-progress-circle"
       viewBox="0 0 100 100"
     >
       <path
-        class="ant-progress-circle-trail"
+        class="ezd-progress-circle-trail"
         d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -386,7 +386,7 @@ exports[`Progress render strokeColor 1`] = `
         style="stroke-dasharray: 295.3097094374406px 295.3097094374406px; stroke-dashoffset: -0px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -398,7 +398,7 @@ exports[`Progress render strokeColor 1`] = `
         style="stroke: red; stroke-dasharray: 147.6548547187203px 295.3097094374406px; stroke-dashoffset: -0px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s; transition-duration: .3s, .3s, .3s, .06s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -411,7 +411,7 @@ exports[`Progress render strokeColor 1`] = `
       />
     </svg>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="50%"
     >
       50%
@@ -436,11 +436,11 @@ exports[`Progress render strokeColor 2`] = `
   type="line"
 >
   <div
-    className="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    className="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
   >
     <Line
       percent={50}
-      prefixCls="ant-progress"
+      prefixCls="ezd-progress"
       showInfo={true}
       size="default"
       strokeColor={
@@ -454,13 +454,13 @@ exports[`Progress render strokeColor 2`] = `
       type="line"
     >
       <div
-        className="ant-progress-outer"
+        className="ezd-progress-outer"
       >
         <div
-          className="ant-progress-inner"
+          className="ezd-progress-inner"
         >
           <div
-            className="ant-progress-bg"
+            className="ezd-progress-bg"
             style={
               Object {
                 "backgroundImage": "linear-gradient(to right, #108ee9, #87d068)",
@@ -473,7 +473,7 @@ exports[`Progress render strokeColor 2`] = `
         </div>
       </div>
       <span
-        className="ant-progress-text"
+        className="ezd-progress-text"
         title="50%"
       >
         50%
@@ -499,11 +499,11 @@ exports[`Progress render strokeColor 3`] = `
   type="line"
 >
   <div
-    className="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+    className="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
   >
     <Line
       percent={50}
-      prefixCls="ant-progress"
+      prefixCls="ezd-progress"
       showInfo={true}
       size="default"
       strokeColor={
@@ -517,13 +517,13 @@ exports[`Progress render strokeColor 3`] = `
       type="line"
     >
       <div
-        className="ant-progress-outer"
+        className="ezd-progress-outer"
       >
         <div
-          className="ant-progress-inner"
+          className="ezd-progress-inner"
         >
           <div
-            className="ant-progress-bg"
+            className="ezd-progress-bg"
             style={
               Object {
                 "backgroundImage": "linear-gradient(to right, #108ee9 0%, #87d068 100%)",
@@ -536,7 +536,7 @@ exports[`Progress render strokeColor 3`] = `
         </div>
       </div>
       <span
-        className="ant-progress-text"
+        className="ezd-progress-text"
         title="50%"
       >
         50%
@@ -548,26 +548,26 @@ exports[`Progress render strokeColor 3`] = `
 
 exports[`Progress render successColor progress 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 60%; height: 8px;"
       />
       <div
-        class="ant-progress-success-bg"
+        class="ezd-progress-success-bg"
         style="width: 30%; height: 8px; background-color: rgb(255, 255, 255);"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
     title="60%"
   >
     60%
@@ -577,18 +577,18 @@ exports[`Progress render successColor progress 1`] = `
 
 exports[`Progress render successColor progress type="circle" 1`] = `
 <div
-  class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-circle ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-inner"
+    class="ezd-progress-inner"
     style="width: 120px; height: 120px; font-size: 24px;"
   >
     <svg
-      class="ant-progress-circle"
+      class="ezd-progress-circle"
       viewBox="0 0 100 100"
     >
       <path
-        class="ant-progress-circle-trail"
+        class="ezd-progress-circle-trail"
         d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -598,7 +598,7 @@ exports[`Progress render successColor progress type="circle" 1`] = `
         style="stroke-dasharray: 295.3097094374406px 295.3097094374406px; stroke-dashoffset: -0px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -610,7 +610,7 @@ exports[`Progress render successColor progress type="circle" 1`] = `
         style="stroke-dasharray: 88.59291283123217px 295.3097094374406px; stroke-dashoffset: -88.59291283123217px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s; transition-duration: .3s, .3s, .3s, .06s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,-47
    a 47,47 0 1 1 0,94
    a 47,47 0 1 1 0,-94"
@@ -623,7 +623,7 @@ exports[`Progress render successColor progress type="circle" 1`] = `
       />
     </svg>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="60%"
     >
       60%
@@ -634,18 +634,18 @@ exports[`Progress render successColor progress type="circle" 1`] = `
 
 exports[`Progress render successColor progress type="dashboard" 1`] = `
 <div
-  class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-circle ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-inner"
+    class="ezd-progress-inner"
     style="width: 120px; height: 120px; font-size: 24px;"
   >
     <svg
-      class="ant-progress-circle"
+      class="ezd-progress-circle"
       viewBox="0 0 100 100"
     >
       <path
-        class="ant-progress-circle-trail"
+        class="ezd-progress-circle-trail"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -655,7 +655,7 @@ exports[`Progress render successColor progress type="dashboard" 1`] = `
         style="stroke-dasharray: 220.30970943744057px 295.3097094374406px; stroke-dashoffset: -37.5px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -667,7 +667,7 @@ exports[`Progress render successColor progress type="dashboard" 1`] = `
         style="stroke-dasharray: 66.09291283123217px 295.3097094374406px; stroke-dashoffset: -103.59291283123217px; transition: stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s; transition-duration: .3s, .3s, .3s, .06s;"
       />
       <path
-        class="ant-progress-circle-path"
+        class="ezd-progress-circle-path"
         d="M 50,50 m 0,47
    a 47,47 0 1 1 0,-94
    a 47,47 0 1 1 0,94"
@@ -680,7 +680,7 @@ exports[`Progress render successColor progress type="dashboard" 1`] = `
       />
     </svg>
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="60%"
     >
       60%
@@ -691,23 +691,23 @@ exports[`Progress render successColor progress type="dashboard" 1`] = `
 
 exports[`Progress render trailColor progress 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
       style="background-color: rgb(255, 255, 255);"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width: 0%; height: 8px;"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
     title="0%"
   >
     0%
@@ -717,22 +717,22 @@ exports[`Progress render trailColor progress 1`] = `
 
 exports[`Progress rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default ant-progress-rtl"
+  class="ezd-progress ezd-progress-line ezd-progress-status-normal ezd-progress-show-info ezd-progress-default ezd-progress-rtl"
 >
   <div
-    class="ant-progress-outer"
+    class="ezd-progress-outer"
   >
     <div
-      class="ant-progress-inner"
+      class="ezd-progress-inner"
     >
       <div
-        class="ant-progress-bg"
+        class="ezd-progress-bg"
         style="width:0%;height:8px;border-radius:"
       />
     </div>
   </div>
   <span
-    class="ant-progress-text"
+    class="ezd-progress-text"
     title="0%"
   >
     0%
@@ -742,25 +742,25 @@ exports[`Progress rtl render component should be rendered correctly in RTL direc
 
 exports[`Progress should support steps 1`] = `
 <div
-  class="ant-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  class="ezd-progress ezd-progress-steps ezd-progress-status-normal ezd-progress-show-info ezd-progress-default"
 >
   <div
-    class="ant-progress-steps-outer"
+    class="ezd-progress-steps-outer"
   >
     <div
-      class="ant-progress-steps-item"
+      class="ezd-progress-steps-item"
       style="width:14px;height:8px"
     />
     <div
-      class="ant-progress-steps-item"
+      class="ezd-progress-steps-item"
       style="width:14px;height:8px"
     />
     <div
-      class="ant-progress-steps-item"
+      class="ezd-progress-steps-item"
       style="width:14px;height:8px"
     />
     <span
-      class="ant-progress-text"
+      class="ezd-progress-text"
       title="0%"
     >
       0%

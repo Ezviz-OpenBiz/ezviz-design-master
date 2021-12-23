@@ -49,7 +49,7 @@ const columns = [
     render: () => (
       <Space size="middle">
         <a>Delete</a>
-        <a className="ant-dropdown-link">
+        <a className="ezd-dropdown-link">
           More actions <DownOutlined />
         </a>
       </Space>
@@ -257,7 +257,7 @@ ReactDOM.render(<Demo />, mountNode);
 ```
 
 <style>
-.components-table-demo-control-bar .ant-form-item {
+.components-table-demo-control-bar .ezd-form-item {
   margin-right: 16px;
   margin-bottom: 8px;
 }

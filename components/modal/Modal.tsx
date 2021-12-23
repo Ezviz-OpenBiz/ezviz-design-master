@@ -13,7 +13,6 @@ import { getTransitionName } from '../_util/motion';
 
 let mousePosition: { x: number; y: number } | null;
 
-// ref: https://github.com/ant-design/ant-design/issues/15795
 const getClickPosition = (e: MouseEvent) => {
   mousePosition = {
     x: e.pageX,

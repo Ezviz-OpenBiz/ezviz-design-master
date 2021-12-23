@@ -2,30 +2,30 @@
 
 exports[`Breadcrumb filter React.Fragment 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
 >
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       Location
     </span>
   </span>
   <span
-    class="ant-breadcrumb-separator"
+    class="ezd-breadcrumb-separator"
   >
     :
   </span>
   <span>
     <a
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
       href=""
     >
       Application Center
     </a>
   </span>
   <span
-    class="ant-breadcrumb-separator"
+    class="ezd-breadcrumb-separator"
   >
     /
   </span>
@@ -34,28 +34,28 @@ exports[`Breadcrumb filter React.Fragment 1`] = `
 
 exports[`Breadcrumb rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-breadcrumb ant-breadcrumb-rtl"
+  class="ezd-breadcrumb ezd-breadcrumb-rtl"
 />
 `;
 
 exports[`Breadcrumb should accept undefined routes 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
 />
 `;
 
 exports[`Breadcrumb should allow Breadcrumb.Item is null or undefined 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
 >
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       Home
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
@@ -65,28 +65,28 @@ exports[`Breadcrumb should allow Breadcrumb.Item is null or undefined 1`] = `
 
 exports[`Breadcrumb should not display Breadcrumb Item when its children is falsy 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
 >
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       xxx
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
   </span>
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       yyy
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
@@ -96,11 +96,11 @@ exports[`Breadcrumb should not display Breadcrumb Item when its children is fals
 
 exports[`Breadcrumb should render a menu 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
 >
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       <a
         href="#/index"
@@ -109,17 +109,17 @@ exports[`Breadcrumb should render a menu 1`] = `
       </a>
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
   </span>
   <span>
     <span
-      class="ant-dropdown-trigger ant-breadcrumb-overlay-link"
+      class="ezd-dropdown-trigger ezd-breadcrumb-overlay-link"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         <a
           href="#/index/first"
@@ -148,14 +148,14 @@ exports[`Breadcrumb should render a menu 1`] = `
       </span>
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
   </span>
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       <a
         href="#/index/first/second"
@@ -164,19 +164,19 @@ exports[`Breadcrumb should render a menu 1`] = `
       </a>
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
   </span>
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       <span />
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
@@ -186,16 +186,16 @@ exports[`Breadcrumb should render a menu 1`] = `
 
 exports[`Breadcrumb should support Breadcrumb.Item default separator 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
 >
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       Location
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
@@ -203,12 +203,12 @@ exports[`Breadcrumb should support Breadcrumb.Item default separator 1`] = `
   <span>
     <span>
       <span
-        class="ant-breadcrumb-link"
+        class="ezd-breadcrumb-link"
       >
         Mock Node
       </span>
       <span
-        class="ant-breadcrumb-separator"
+        class="ezd-breadcrumb-separator"
       >
         /
       </span>
@@ -216,12 +216,12 @@ exports[`Breadcrumb should support Breadcrumb.Item default separator 1`] = `
   </span>
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       Application Center
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
@@ -231,40 +231,40 @@ exports[`Breadcrumb should support Breadcrumb.Item default separator 1`] = `
 
 exports[`Breadcrumb should support React.Fragment and falsy children 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
 >
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       yyy
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
   </span>
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       yyy
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
   </span>
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       yyy
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
@@ -275,30 +275,30 @@ exports[`Breadcrumb should support React.Fragment and falsy children 1`] = `
 
 exports[`Breadcrumb should support custom attribute 1`] = `
 <div
-  class="ant-breadcrumb"
+  class="ezd-breadcrumb"
   data-custom="custom"
 >
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
       data-custom="custom-item"
     >
       xxx
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>
   </span>
   <span>
     <span
-      class="ant-breadcrumb-link"
+      class="ezd-breadcrumb-link"
     >
       yyy
     </span>
     <span
-      class="ant-breadcrumb-separator"
+      class="ezd-breadcrumb-separator"
     >
       /
     </span>

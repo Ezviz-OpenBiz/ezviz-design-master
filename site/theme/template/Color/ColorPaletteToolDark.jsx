@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Row, Col } from 'antd';
+import { Row, Col } from '@ezviz/ezd';
 import ColorPicker from './ColorPicker';
 import ColorPatterns from './ColorPatterns';
 

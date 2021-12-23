@@ -91,7 +91,6 @@ describe('Upload List', () => {
     open.mockRestore();
   });
 
-  // https://github.com/ant-design/ant-design/issues/4653
   it('should use file.thumbUrl for <img /> in priority', () => {
     const wrapper = mount(
       <Upload defaultFileList={fileList} listType="picture">
@@ -99,15 +98,14 @@ describe('Upload List', () => {
       </Upload>,
     );
     fileList.forEach((file, i) => {
-      const linkNode = wrapper.find('.ant-upload-list-item-thumbnail').at(i);
-      const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img').at(i);
+      const linkNode = wrapper.find('.ezd-upload-list-item-thumbnail').at(i);
+      const imgNode = wrapper.find('.ezd-upload-list-item-thumbnail img').at(i);
       expect(linkNode.prop('href')).toBe(file.url);
       expect(imgNode.prop('src')).toBe(file.thumbUrl);
     });
     wrapper.unmount();
   });
 
-  // https://github.com/ant-design/ant-design/issues/7269
   it('should remove correct item when uid is 0', async () => {
     const list = [
       {
@@ -130,14 +128,14 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.find('.ant-upload-list-item').length).toBe(2);
-    wrapper.find('.ant-upload-list-item').at(0).find('.anticon-delete').simulate('click');
+    expect(wrapper.find('.ezd-upload-list-item').length).toBe(2);
+    wrapper.find('.ezd-upload-list-item').at(0).find('.ezdicon-delete').simulate('click');
 
     await act(async () => {
       await sleep(1000);
       wrapper.update();
 
-      const domNode = wrapper.find('.ant-upload-list-text-container').at(0).hostNodes().instance();
+      const domNode = wrapper.find('.ezd-upload-list-text-container').at(0).hostNodes().instance();
       const transitionEndEvent = new Event('transitionend');
       domNode.dispatchEvent(transitionEndEvent);
       wrapper.update();
@@ -145,7 +143,7 @@ describe('Upload List', () => {
 
     // console.log(wrapper.html());
 
-    expect(wrapper.find('.ant-upload-list-text-container').hostNodes().length).toBe(1);
+    expect(wrapper.find('.ezd-upload-list-text-container').hostNodes().length).toBe(1);
 
     wrapper.unmount();
   });
@@ -223,7 +221,7 @@ describe('Upload List', () => {
 
     // Error message
     jest.useFakeTimers();
-    wrapper.find('.ant-upload-list-item').simulate('mouseEnter');
+    wrapper.find('.ezd-upload-list-item').simulate('mouseEnter');
 
     act(() => {
       jest.runAllTimers();
@@ -275,9 +273,9 @@ describe('Upload List', () => {
     );
 
     // Has error item className
-    wrapper.find('.ant-upload-list-item-error').simulate('mouseenter');
+    wrapper.find('.ezd-upload-list-item-error').simulate('mouseenter');
 
-    expect(wrapper.find('div.ant-upload-list-item i.anticon-download').length).toBe(0);
+    expect(wrapper.find('div.ezd-upload-list-item i.ezdicon-download').length).toBe(0);
 
     wrapper.unmount();
   });
@@ -291,7 +289,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.find('div.ant-upload-list-item i.anticon-download').length).toBe(0);
+    expect(wrapper.find('div.ezd-upload-list-item i.ezdicon-download').length).toBe(0);
 
     wrapper.unmount();
   });
@@ -303,7 +301,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.find('div.ant-upload-list-item i.anticon-download').length).toBe(0);
+    expect(wrapper.find('div.ezd-upload-list-item i.ezdicon-download').length).toBe(0);
 
     wrapper.unmount();
   });
@@ -315,9 +313,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    wrapper.find('.anticon-eye').at(0).simulate('click');
+    wrapper.find('.ezdicon-eye').at(0).simulate('click');
     expect(handlePreview).toHaveBeenCalledWith(fileList[0]);
-    wrapper.find('.anticon-eye').at(1).simulate('click');
+    wrapper.find('.ezdicon-eye').at(1).simulate('click');
     expect(handlePreview).toHaveBeenCalledWith(fileList[1]);
 
     wrapper.unmount();
@@ -336,9 +334,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    wrapper.find('.anticon-delete').at(0).simulate('click');
+    wrapper.find('.ezdicon-delete').at(0).simulate('click');
     expect(handleRemove).toHaveBeenCalledWith(fileList[0]);
-    wrapper.find('.anticon-delete').at(1).simulate('click');
+    wrapper.find('.ezdicon-delete').at(1).simulate('click');
     expect(handleRemove).toHaveBeenCalledWith(fileList[1]);
     await sleep();
     expect(handleChange.mock.calls.length).toBe(2);
@@ -367,7 +365,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    wrapper.find('.anticon-download').at(0).simulate('click');
+    wrapper.find('.ezdicon-download').at(0).simulate('click');
 
     wrapper.unmount();
   });
@@ -391,7 +389,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    wrapper.find('.anticon-download').at(0).simulate('click');
+    wrapper.find('.ezdicon-download').at(0).simulate('click');
 
     wrapper.unmount();
   });
@@ -666,7 +664,6 @@ describe('Upload List', () => {
     wrapper2.unmount();
   });
 
-  // https://github.com/ant-design/ant-design/issues/7762
   it('work with form validation', async () => {
     let formRef;
 
@@ -778,7 +775,7 @@ describe('Upload List', () => {
     const wrapper = mount(
       <UploadList listType="picture-card" items={items} locale={{ previewFile: '' }} />,
     );
-    expect(wrapper.find('.ant-upload-list-item-thumbnail').length).toBe(1);
+    expect(wrapper.find('.ezd-upload-list-item-thumbnail').length).toBe(1);
     wrapper.unmount();
   });
 
@@ -797,7 +794,7 @@ describe('Upload List', () => {
         showDownloadIcon
       />,
     );
-    wrapper.find('div.ant-upload-list-item .anticon-download').simulate('click');
+    wrapper.find('div.ezd-upload-list-item .ezdicon-download').simulate('click');
   });
 
   it('when picture-card is loading, icon should render correctly', () => {
@@ -805,8 +802,8 @@ describe('Upload List', () => {
     const wrapper = mount(
       <UploadList listType="picture-card" items={items} locale={{ uploading: 'uploading' }} />,
     );
-    expect(wrapper.find('.ant-upload-list-item-thumbnail').length).toBe(1);
-    expect(wrapper.find('.ant-upload-list-item-thumbnail').text()).toBe('uploading');
+    expect(wrapper.find('.ezd-upload-list-item-thumbnail').length).toBe(1);
+    expect(wrapper.find('.ezd-upload-list-item-thumbnail').text()).toBe('uploading');
 
     wrapper.unmount();
   });
@@ -822,12 +819,12 @@ describe('Upload List', () => {
         onPreview={onPreview}
       />,
     );
-    wrapper.find('.ant-upload-list-item-thumbnail').simulate('click');
+    wrapper.find('.ezd-upload-list-item-thumbnail').simulate('click');
     expect(onPreview).toHaveBeenCalled();
-    wrapper.find('.ant-upload-list-item-name').simulate('click');
+    wrapper.find('.ezd-upload-list-item-name').simulate('click');
     expect(onPreview).toHaveBeenCalled();
     wrapper.setProps({ items: [{ thumbUrl: 'thumbUrl', uid: 'upload-list-item' }] });
-    wrapper.find('.ant-upload-list-item-name').simulate('click');
+    wrapper.find('.ezd-upload-list-item-name').simulate('click');
     expect(onPreview).toHaveBeenCalled();
 
     wrapper.unmount();
@@ -890,7 +887,7 @@ describe('Upload List', () => {
         await sleep(100);
         wrapper.update();
 
-        expect(wrapper.find('.ant-upload-list-item-thumbnail img').prop('src')).toBe(mockThumbnail);
+        expect(wrapper.find('.ezd-upload-list-item-thumbnail img').prop('src')).toBe(mockThumbnail);
 
         wrapper.unmount();
       });
@@ -899,7 +896,6 @@ describe('Upload List', () => {
     test('Blob', () => new Blob());
   });
 
-  // https://github.com/ant-design/ant-design/issues/22958
   describe('customize isImageUrl support', () => {
     const list = [
       ...fileList,
@@ -918,7 +914,7 @@ describe('Upload List', () => {
           <button type="button">button</button>
         </Upload>,
       );
-      const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.find('.ezd-upload-list-item-thumbnail img');
       expect(imgNode.length).toBe(2);
 
       wrapper.unmount();
@@ -930,7 +926,7 @@ describe('Upload List', () => {
           <button type="button">button</button>
         </Upload>,
       );
-      const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.find('.ezd-upload-list-item-thumbnail img');
       expect(isImageUrl).toHaveBeenCalled();
       expect(imgNode.length).toBe(3);
 
@@ -943,7 +939,7 @@ describe('Upload List', () => {
           <button type="button">button</button>
         </Upload>,
       );
-      const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.find('.ezd-upload-list-item-thumbnail img');
       expect(isImageUrl).toHaveBeenCalled();
       expect(imgNode.length).toBe(0);
 
@@ -993,7 +989,7 @@ describe('Upload List', () => {
           <button type="button">upload</button>
         </Upload>,
       );
-      const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.find('.ezd-upload-list-item-thumbnail img');
       expect(imgNode.length).toBeFalsy();
 
       // Simulate change is a timeout change
@@ -1013,7 +1009,7 @@ describe('Upload List', () => {
         jest.runAllTimers();
         wrapper.update();
       });
-      const afterImgNode = wrapper.find('.ant-upload-list-item-thumbnail img');
+      const afterImgNode = wrapper.find('.ezd-upload-list-item-thumbnail img');
       expect(afterImgNode.length).toBeTruthy();
 
       wrapper.unmount();
@@ -1027,7 +1023,7 @@ describe('Upload List', () => {
         wrapper.setProps({ fileList: files });
 
         await sleep();
-        const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img');
+        const imgNode = wrapper.find('.ezd-upload-list-item-thumbnail img');
         expect(imgNode.length).toBe(0);
 
         done();
@@ -1043,7 +1039,7 @@ describe('Upload List', () => {
           <button type="button">upload</button>
         </Upload>,
       );
-      const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.find('.ezd-upload-list-item-thumbnail img');
       expect(imgNode.length).toBe(0);
       wrapper.find('input').simulate('change', { target: { files: [nonImageFile] } });
     });
@@ -1099,14 +1095,13 @@ describe('Upload List', () => {
         </button>
       </Upload>,
     );
-    expect(wrapper.exists('.ant-upload-list button.trigger')).toBe(true);
+    expect(wrapper.exists('.ezd-upload-list button.trigger')).toBe(true);
     wrapper.setProps({ showUploadList: false });
-    expect(wrapper.exists('.ant-upload-list button.trigger')).toBe(false);
+    expect(wrapper.exists('.ezd-upload-list button.trigger')).toBe(false);
 
     wrapper.unmount();
   });
 
-  // https://github.com/ant-design/ant-design/issues/26536
   it('multiple file upload should keep the internal fileList async', async () => {
     jest.useFakeTimers();
 

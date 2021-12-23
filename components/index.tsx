@@ -1,5 +1,4 @@
 /* @remove-on-es-build-begin */
-// this file is not used if use https://github.com/ant-design/babel-plugin-import
 const ENV = process.env.NODE_ENV;
 if (
   ENV !== 'production' &&
@@ -187,7 +186,7 @@ export { default as Transfer } from './transfer';
 
 export type {
   TreeProps,
-  AntTreeNodeProps as TreeNodeProps,
+  EzdTreeNodeProps as TreeNodeProps,
   DataNode as TreeDataNode,
 } from './tree';
 export { default as Tree } from './tree';

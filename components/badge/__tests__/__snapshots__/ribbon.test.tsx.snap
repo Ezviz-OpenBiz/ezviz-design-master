@@ -2,16 +2,16 @@
 
 exports[`Ribbon rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-ribbon-wrapper"
+  class="ezd-ribbon-wrapper"
 >
   <div
-    class="ant-ribbon ant-ribbon-placement-end ant-ribbon-rtl"
+    class="ezd-ribbon ezd-ribbon-placement-end ezd-ribbon-rtl"
   >
     <span
-      class="ant-ribbon-text"
+      class="ezd-ribbon-text"
     />
     <div
-      class="ant-ribbon-corner"
+      class="ezd-ribbon-corner"
     />
   </div>
 </div>

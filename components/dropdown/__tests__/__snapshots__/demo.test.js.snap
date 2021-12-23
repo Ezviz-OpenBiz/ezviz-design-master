@@ -3,7 +3,7 @@
 exports[`renders ./components/dropdown/demo/arrow.md correctly 1`] = `
 Array [
   <button
-    class="ant-btn ant-dropdown-trigger"
+    class="ezd-btn ant-dropdown-trigger"
     type="button"
   >
     <span>
@@ -11,7 +11,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn ant-dropdown-trigger"
+    class="ezd-btn ant-dropdown-trigger"
     type="button"
   >
     <span>
@@ -19,7 +19,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn ant-dropdown-trigger"
+    class="ezd-btn ant-dropdown-trigger"
     type="button"
   >
     <span>
@@ -28,7 +28,7 @@ Array [
   </button>,
   <br />,
   <button
-    class="ant-btn ant-dropdown-trigger"
+    class="ezd-btn ant-dropdown-trigger"
     type="button"
   >
     <span>
@@ -36,7 +36,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn ant-dropdown-trigger"
+    class="ezd-btn ant-dropdown-trigger"
     type="button"
   >
     <span>
@@ -44,7 +44,7 @@ Array [
     </span>
   </button>,
   <button
-    class="ant-btn ant-dropdown-trigger"
+    class="ezd-btn ant-dropdown-trigger"
     type="button"
   >
     <span>
@@ -56,7 +56,7 @@ Array [
 
 exports[`renders ./components/dropdown/demo/basic.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ezd-dropdown-trigger ezd-dropdown-link"
 >
   Hover me 
   <span
@@ -83,7 +83,7 @@ exports[`renders ./components/dropdown/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/context-menu.md correctly 1`] = `
 <div
-  class="ant-dropdown-trigger site-dropdown-context-menu"
+  class="ezd-dropdown-trigger site-dropdown-context-menu"
   style="text-align:center;height:200px;line-height:200px"
 >
   Right Click on here
@@ -92,18 +92,18 @@ exports[`renders ./components/dropdown/demo/context-menu.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center"
+  class="ezd-space ant-space-horizontal ant-space-align-center"
   style="flex-wrap:wrap;margin-bottom:-8px"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <div
-      class="ant-btn-group ant-dropdown-button"
+      class="ezd-btn-group ant-dropdown-button"
     >
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span>
@@ -111,7 +111,7 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-icon-only ant-dropdown-trigger"
+        class="ezd-btn ant-btn-icon-only ant-dropdown-trigger"
         type="button"
       >
         <span
@@ -137,14 +137,14 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <div
-      class="ant-btn-group ant-dropdown-button"
+      class="ezd-btn-group ant-dropdown-button"
     >
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span>
@@ -152,7 +152,7 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-icon-only ant-dropdown-trigger"
+        class="ezd-btn ant-btn-icon-only ant-dropdown-trigger"
         type="button"
       >
         <span
@@ -178,14 +178,14 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <div
-      class="ant-btn-group ant-dropdown-button"
+      class="ezd-btn-group ant-dropdown-button"
     >
       <button
-        class="ant-btn"
+        class="ezd-btn"
         disabled=""
         type="button"
       >
@@ -194,7 +194,7 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-icon-only ant-dropdown-trigger"
+        class="ezd-btn ant-btn-icon-only ant-dropdown-trigger"
         disabled=""
         type="button"
       >
@@ -221,14 +221,14 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-right:8px;padding-bottom:8px"
   >
     <div
-      class="ant-btn-group ant-dropdown-button"
+      class="ezd-btn-group ant-dropdown-button"
     >
       <button
-        class="ant-btn"
+        class="ezd-btn"
         type="button"
       >
         <span>
@@ -236,11 +236,11 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-icon-only ant-btn-loading ant-dropdown-trigger"
+        class="ezd-btn ant-btn-icon-only ant-btn-loading ant-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-loading-icon"
+          class="ezd-btn-loading-icon"
         >
           <span
             aria-label="loading"
@@ -266,11 +266,11 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="padding-bottom:8px"
   >
     <button
-      class="ant-btn ant-dropdown-trigger"
+      class="ezd-btn ant-dropdown-trigger"
       type="button"
     >
       <span>
@@ -302,7 +302,7 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/event.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ezd-dropdown-trigger ezd-dropdown-link"
 >
   Hover me, Click menu item 
   <span
@@ -329,7 +329,7 @@ exports[`renders ./components/dropdown/demo/event.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/item.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ezd-dropdown-trigger ezd-dropdown-link"
 >
   Hover me 
   <span
@@ -356,7 +356,7 @@ exports[`renders ./components/dropdown/demo/item.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/menu-full.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ezd-dropdown-trigger ezd-dropdown-link"
 >
   Hover to check menu style 
   <span
@@ -383,7 +383,7 @@ exports[`renders ./components/dropdown/demo/menu-full.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/overlay-visible.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ezd-dropdown-trigger ezd-dropdown-link"
 >
   Hover me 
   <span
@@ -410,22 +410,22 @@ exports[`renders ./components/dropdown/demo/overlay-visible.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical"
+  class="ezd-space ant-space-vertical"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:8px"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center"
+      class="ezd-space ant-space-horizontal ant-space-align-center"
       style="flex-wrap:wrap;margin-bottom:-8px"
     >
       <div
-        class="ant-space-item"
+        class="ezd-space-item"
         style="margin-right:8px;padding-bottom:8px"
       >
         <button
-          class="ant-btn ant-dropdown-trigger"
+          class="ezd-btn ant-dropdown-trigger"
           type="button"
         >
           <span>
@@ -434,11 +434,11 @@ exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="ezd-space-item"
         style="margin-right:8px;padding-bottom:8px"
       >
         <button
-          class="ant-btn ant-dropdown-trigger"
+          class="ezd-btn ant-dropdown-trigger"
           type="button"
         >
           <span>
@@ -447,11 +447,11 @@ exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="ezd-space-item"
         style="padding-bottom:8px"
       >
         <button
-          class="ant-btn ant-dropdown-trigger"
+          class="ezd-btn ant-dropdown-trigger"
           type="button"
         >
           <span>
@@ -462,18 +462,18 @@ exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center"
+      class="ezd-space ant-space-horizontal ant-space-align-center"
       style="flex-wrap:wrap;margin-bottom:-8px"
     >
       <div
-        class="ant-space-item"
+        class="ezd-space-item"
         style="margin-right:8px;padding-bottom:8px"
       >
         <button
-          class="ant-btn ant-dropdown-trigger"
+          class="ezd-btn ant-dropdown-trigger"
           type="button"
         >
           <span>
@@ -482,11 +482,11 @@ exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="ezd-space-item"
         style="margin-right:8px;padding-bottom:8px"
       >
         <button
-          class="ant-btn ant-dropdown-trigger"
+          class="ezd-btn ant-dropdown-trigger"
           type="button"
         >
           <span>
@@ -495,11 +495,11 @@ exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="ezd-space-item"
         style="padding-bottom:8px"
       >
         <button
-          class="ant-btn ant-dropdown-trigger"
+          class="ezd-btn ant-dropdown-trigger"
           type="button"
         >
           <span>
@@ -514,7 +514,7 @@ exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/sub-menu.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ezd-dropdown-trigger ezd-dropdown-link"
 >
   Cascading menu 
   <span
@@ -541,7 +541,7 @@ exports[`renders ./components/dropdown/demo/sub-menu.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/trigger.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ezd-dropdown-trigger ezd-dropdown-link"
 >
   Click me 
   <span

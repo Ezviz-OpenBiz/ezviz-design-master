@@ -6,7 +6,7 @@ export type MenuTheme = 'light' | 'dark';
 export interface MenuContextProps {
   prefixCls: string;
   inlineCollapsed: boolean;
-  antdMenuTheme?: MenuTheme;
+  ezdMenuTheme?: MenuTheme;
   direction?: DirectionType;
   firstLevel: boolean;
 }

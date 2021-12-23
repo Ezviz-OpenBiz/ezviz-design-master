@@ -32,11 +32,11 @@ ReactDOM.render(
 ```
 
 <style>
-#components-avatar-demo-type .ant-avatar {
+#components-avatar-demo-type .ezd-avatar {
   margin-top: 16px;
   margin-right: 16px;
 }
-.ant-row-rtl #components-avatar-demo-type .ant-avatar {
+.ezd-row-rtl #components-avatar-demo-type .ezd-avatar {
   margin-right: 0;
   margin-left: 16px;
 }

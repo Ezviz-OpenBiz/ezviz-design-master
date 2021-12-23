@@ -2,22 +2,22 @@
 
 exports[`Form Form item hidden noStyle should not work when hidden 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="ezd-form ezd-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item ant-form-item-hidden"
+    class="ezd-row ezd-form-item ezd-form-item-hidden"
   >
     <div
-      class="ant-col ant-form-item-control"
+      class="ezd-col ezd-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           <input
-            class="ant-input"
+            class="ezd-input"
             id="light"
             type="text"
             value=""
@@ -31,22 +31,22 @@ exports[`Form Form item hidden noStyle should not work when hidden 1`] = `
 
 exports[`Form Form item hidden should work 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="ezd-form ezd-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item ant-form-item-hidden"
+    class="ezd-row ezd-form-item ezd-form-item-hidden"
   >
     <div
-      class="ant-col ant-form-item-control"
+      class="ezd-col ezd-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           <input
-            class="ant-input"
+            class="ezd-input"
             id="light"
             type="text"
             value=""
@@ -60,22 +60,22 @@ exports[`Form Form item hidden should work 1`] = `
 
 exports[`Form Form.Item should support data-*、aria-* and custom attribute 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="ezd-form ezd-form-horizontal"
 >
   <div
     aria-hidden="true"
     cccc="bbbb"
-    class="ant-row ant-form-item"
+    class="ezd-row ezd-form-item"
     data-text="123"
   >
     <div
-      class="ant-col ant-form-item-control"
+      class="ezd-col ezd-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           text
         </div>
@@ -87,22 +87,22 @@ exports[`Form Form.Item should support data-*、aria-* and custom attribute 1`] 
 
 exports[`Form rtl render component should be rendered correctly in RTL direction 1`] = `
 <form
-  class="ant-form ant-form-horizontal ant-form-rtl"
+  class="ezd-form ezd-form-horizontal ezd-form-rtl"
 />
 `;
 
 exports[`Form rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-row ant-row-rtl ant-form-item"
+  class="ezd-row ezd-row-rtl ezd-form-item"
 >
   <div
-    class="ant-col ant-form-item-control ant-col-rtl"
+    class="ezd-col ezd-form-item-control ezd-col-rtl"
   >
     <div
-      class="ant-form-item-control-input"
+      class="ezd-form-item-control-input"
     >
       <div
-        class="ant-form-item-control-input-content"
+        class="ezd-form-item-control-input-content"
       />
     </div>
   </div>

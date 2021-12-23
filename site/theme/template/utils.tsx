@@ -126,18 +126,13 @@ export function getLocalizedPathname(
     enUS: string;
   },
 ) {
-  let pathname = path.startsWith('/') ? path : `/${path}`;
-  pathname = pathname.replace(/\/\//,'/');
+  const pathname = path.startsWith('/') ? path : `/${path}`;
   let fullPath;
-  const rootUrl = '/';
-  console.log("pathname111111111", pathname);
-  console.log("rootUrl111111111", rootUrl);
-  console.log("zhCN111111111", zhCN);
   if (!zhCN) {
     // to enUS
-    fullPath = /\/?index-cn/.test(pathname) ? `${rootUrl}` : pathname.replace('-cn', '');
-  } else if (pathname === rootUrl) {
-    fullPath = `${rootUrl}index-cn`;
+    fullPath = /\/?index-cn/.test(pathname) ? `/` : pathname.replace('-cn', '');
+  } else if (pathname === '/') {
+    fullPath = `/index-cn`;
   } else if (pathname.endsWith('/')) {
     fullPath = pathname.replace(/\/$/, '-cn/');
   } else {
@@ -148,7 +143,6 @@ export function getLocalizedPathname(
     const localHash = hash[zhCN ? 'zhCN' : 'enUS'];
     fullPath += `#${localHash}`;
   }
-  console.log("fullPath111111111", fullPath);
   return { pathname: `${fullPath}`, query };
 }
 

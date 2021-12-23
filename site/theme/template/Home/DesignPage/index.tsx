@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col, Typography } from 'antd';
+import { Row, Col, Typography } from '@ezviz/ezd';
 import { RightOutlined, LeftOutlined } from '@ant-design/icons';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { Link } from 'bisheng/router';
@@ -171,22 +171,6 @@ const DesignPage = (props: { location: any }) => {
                       (<FormattedMessage id="app.implementation.official" />)
                     </span>
                   </li>
-                  {/* <li>
-                    <a href="https://ng.ant.design/" target="_blank" rel="noopener noreferrer">
-                      Ant Design of Angular
-                    </a>
-                    <span style={smallStyle}>
-                      (<FormattedMessage id="app.implementation.community" />)
-                    </span>
-                  </li>
-                  <li>
-                    <a href="https://antdv.com/" target="_blank" rel="noopener noreferrer">
-                      Ant Design of Vue
-                    </a>
-                    <span style={smallStyle}>
-                      (<FormattedMessage id="app.implementation.community" />)
-                    </span>
-                  </li> */}
                 </ul>
               </Col>
               <Col xs={24} sm={12} style={{ alignSelf: 'flex-end', textAlign: 'right' }}>
@@ -202,7 +186,7 @@ const DesignPage = (props: { location: any }) => {
         </Col>
       </Row>
       {/* ***************************** Group 2 ***************************** */}
-      {/* antd其他关联组件库 */}
+      {/* @ezviz/ezd其他关联组件库 */}
     </div>
   );
 };

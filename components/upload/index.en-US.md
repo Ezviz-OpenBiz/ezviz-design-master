@@ -27,10 +27,10 @@ Uploading is the process of publishing information (web pages, text, pictures, v
 | defaultFileList | Default list of files that have been uploaded | object\[] | - |  |
 | directory | Support upload whole directory ([caniuse](https://caniuse.com/#feat=input-file-directory)) | boolean | false |  |
 | disabled | Disable upload button | boolean | false |  |
-| fileList | List of files that have been uploaded (controlled). Here is a common issue [#2423](https://github.com/ant-design/ant-design/issues/2423) when using it | [UploadFile](#UploadFile)\[] | - |  |
+| fileList | List of files that have been uploaded (controlled). | [UploadFile](#UploadFile)\[] | - |  |
 | headers | Set request headers, valid above IE10 | object | - |  |
 | iconRender | Custom show icon | (file: UploadFile, listType?: UploadListType) => ReactNode | - |  |
-| isImageUrl | Customize if render &lt;img /> in thumbnail | (file: UploadFile) => boolean | [(inside implementation)](https://github.com/ant-design/ant-design/blob/4ad5830eecfb87471cd8ac588c5d992862b70770/components/upload/utils.tsx#L47-L68) |  |
+| isImageUrl | Customize if render &lt;img /> in thumbnail | (file: UploadFile) => boolean | [(inside implementation)](hhttps://github.com/Ezviz-OpenBiz/ezviz-design-master/blob/4ad5830eecfb87471cd8ac588c5d992862b70770/components/upload/utils.tsx#L47-L68) |  |
 | itemRender | Custom item of uploadList | (originNode: ReactElement, file: UploadFile, fileList: object\[], actions: { download: function, preview: function, remove: function }) => React.ReactNode | - | 4.16.0 |
 | listType | Built-in stylesheets, support for three types: `text`, `picture` or `picture-card` | string | `text` |  |
 | maxCount | Limit the number of uploaded files. Will replace current one when `maxCount` is `1` | number | - | 4.10.0 |

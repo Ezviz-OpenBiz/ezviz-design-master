@@ -2,28 +2,28 @@
 
 exports[`Typography rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-typography ant-typography-rtl"
+  class="ezd-typography ezd-typography-rtl"
   direction="rtl"
 />
 `;
 
 exports[`Typography rtl render component should be rendered correctly in RTL direction 2`] = `
 <article
-  class="ant-typography ant-typography-rtl"
+  class="ezd-typography ezd-typography-rtl"
   direction="rtl"
 />
 `;
 
 exports[`Typography rtl render component should be rendered correctly in RTL direction 3`] = `
 <h1
-  class="ant-typography ant-typography-rtl"
+  class="ezd-typography ezd-typography-rtl"
   direction="rtl"
 />
 `;
 
 exports[`Typography rtl render component should be rendered correctly in RTL direction 4`] = `
 <a
-  class="ant-typography ant-typography-rtl"
+  class="ezd-typography ezd-typography-rtl"
   direction="rtl"
 />
 `;

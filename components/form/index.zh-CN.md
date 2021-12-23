@@ -321,7 +321,7 @@ type Rule = RuleConfig | ((form: FormInstance) => RuleConfig);
 
 
 <style>
-.code-box-demo .ant-form:not(.ant-form-inline):not(.ant-form-vertical) {
+.code-box-demo .ezd-form:not(.ezd-form-inline):not(.ezd-form-vertical) {
   max-width: 600px;
 }
 .markdown.api-container table td:nth-of-type(4) {
@@ -429,15 +429,9 @@ React 中异步更新会导致受控组件交互行为异常。当用户交互�
 
 ### 自定义表单控件 `scrollToFirstError` 和 `scrollToField` 失效？
 
-类似问题：[#28370](https://github.com/ant-design/ant-design/issues/28370) [#27994](https://github.com/ant-design/ant-design/issues/27994)
 
 滚动依赖于表单控件元素上绑定的 `id` 字段，如果自定义控件没有将 `id` 赋到正确的元素上，这个功能将失效。
 
 ### `setFieldsValue` 不会触发 `onFieldsChange` 和 `onValuesChange`？
 
 是的，change 事件仅当用户交互才会触发。该设计是为了防止在 change 事件中调用 `setFieldsValue` 导致的循环问题。
-
-### 有更多参考文档吗？
-
-- 你可以阅读[《antd v4 Form 使用心得》](https://zhuanlan.zhihu.com/p/375753910)获得一些使用帮助以及建议。
-- 想在 DatePicker、Switch 也使用 before、after？可以参考[《如何优雅的对 Form.Item 的 children 增加 before、after》](https://zhuanlan.zhihu.com/p/422752055)。

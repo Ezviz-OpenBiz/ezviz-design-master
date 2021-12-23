@@ -325,7 +325,7 @@ type Rule = RuleConfig | ((form: FormInstance) => RuleConfig);
 If you are a user of v3, you can ref [migrate doc](/components/form/v3)。
 
 <style>
-.code-box-demo .ant-form:not(.ant-form-inline):not(.ant-form-vertical) {
+.code-box-demo .ezd-form:not(.ezd-form-inline):not(.ezd-form-vertical) {
   max-width: 600px;
 }
 .markdown.api-container table td:nth-of-type(4) {
@@ -433,7 +433,6 @@ React can not get correct interaction of controlled component with async value u
 
 ### `scrollToFirstError` and `scrollToField` not working on custom form control?
 
-See similar issues: [#28370](https://github.com/ant-design/ant-design/issues/28370) [#27994](https://github.com/ant-design/ant-design/issues/27994)
 
 `scrollToFirstError` and `scrollToField` deps on `id` attribute passed to form control, please mark sure that it hasn't been ignored in your custom form control. 
 

@@ -2,22 +2,22 @@
 
 exports[`TimeLine rtl render component should be rendered correctly in RTL direction 1`] = `
 <ul
-  class="ant-timeline ant-timeline-rtl"
+  class="ezd-timeline ezd-timeline-rtl"
 />
 `;
 
 exports[`TimeLine rtl render component should be rendered correctly in RTL direction 2`] = `
 <li
-  class="ant-timeline-item"
+  class="ezd-timeline-item"
 >
   <div
-    class="ant-timeline-item-tail"
+    class="ezd-timeline-item-tail"
   />
   <div
-    class="ant-timeline-item-head ant-timeline-item-head-blue"
+    class="ezd-timeline-item-head ezd-timeline-item-head-blue"
   />
   <div
-    class="ant-timeline-item-content"
+    class="ezd-timeline-item-content"
   />
 </li>
 `;

@@ -88,7 +88,7 @@ notification.config({
 const [api, contextHolder] = notification.useNotification();
 
 return (
-  <Context1.Provider value="Ant">
+  <Context1.Provider value="Ezd">
     {/* contextHolder 在 Context1 内，它可以获得 Context1 的 context */}
     {contextHolder}
     <Context2.Provider value="Design">

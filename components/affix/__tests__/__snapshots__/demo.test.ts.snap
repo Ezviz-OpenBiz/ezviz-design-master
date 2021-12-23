@@ -7,7 +7,7 @@ Array [
       class=""
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span>
@@ -22,7 +22,7 @@ Array [
       class=""
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="ezd-btn ant-btn-primary"
         type="button"
       >
         <span>
@@ -49,7 +49,7 @@ exports[`renders ./components/affix/demo/debug.md correctly 1`] = `
         style="background:red"
       >
         <button
-          class="ant-btn ant-btn-primary"
+          class="ezd-btn ant-btn-primary"
           type="button"
         >
           <span>
@@ -71,7 +71,7 @@ exports[`renders ./components/affix/demo/on-change.md correctly 1`] = `
     class=""
   >
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -94,7 +94,7 @@ exports[`renders ./components/affix/demo/target.md correctly 1`] = `
         class=""
       >
         <button
-          class="ant-btn ant-btn-primary"
+          class="ezd-btn ant-btn-primary"
           type="button"
         >
           <span>

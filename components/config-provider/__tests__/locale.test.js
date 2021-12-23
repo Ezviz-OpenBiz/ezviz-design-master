@@ -24,7 +24,6 @@ describe('ConfigProvider.Locale', () => {
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/18731
   it('should not reset locale for Modal', () => {
     class App extends React.Component {
       state = {
@@ -65,10 +64,9 @@ describe('ConfigProvider.Locale', () => {
 
     const wrapper = mount(<App />);
     wrapper.find('button').simulate('click');
-    expect($$('.ant-btn-primary')[0].textContent).toBe('OK');
+    expect($$('.ezd-btn-primary')[0].textContent).toBe('OK');
   });
 
-  // https://github.com/ant-design/ant-design/issues/31592
   it('should not reset the component state when switching locale', () => {
     class App extends React.Component {
       state = {
@@ -87,29 +85,29 @@ describe('ConfigProvider.Locale', () => {
 
     const wrapper = mount(<App />);
 
-    const datepickerInitProps = wrapper.find('.ant-picker-input input').props();
+    const datepickerInitProps = wrapper.find('.ezd-picker-input input').props();
     expect(datepickerInitProps.value).toBe('');
     expect(datepickerInitProps.placeholder).toBe('请选择日期');
-    expect(wrapper.find('.ant-pagination-item-1').props().className).toContain(
-      'ant-pagination-item-active',
+    expect(wrapper.find('.ezd-pagination-item-1').props().className).toContain(
+      'ezd-pagination-item-active',
     );
 
     openPicker(wrapper);
     selectCell(wrapper, 10);
     closePicker(wrapper);
 
-    expect(wrapper.find('.ant-picker-input input').props().value).not.toBe('');
+    expect(wrapper.find('.ezd-picker-input input').props().value).not.toBe('');
 
     wrapper.setState({ locale: {} });
-    wrapper.find('.ant-pagination-item-3').simulate('click');
+    wrapper.find('.ezd-pagination-item-3').simulate('click');
 
-    const datepickerProps = wrapper.find('.ant-picker-input input').props();
+    const datepickerProps = wrapper.find('.ezd-picker-input input').props();
     expect(datepickerProps.placeholder).not.toBe('请选择日期');
     expect(datepickerProps.value).not.toBe('');
     expect(datepickerProps.value).toContain('-10');
 
-    expect(wrapper.find('.ant-pagination-item-3').props().className).toContain(
-      'ant-pagination-item-active',
+    expect(wrapper.find('.ezd-pagination-item-3').props().className).toContain(
+      'ezd-pagination-item-active',
     );
   });
 

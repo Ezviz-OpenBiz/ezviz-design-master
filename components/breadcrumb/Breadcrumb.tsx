@@ -121,8 +121,8 @@ const Breadcrumb: BreadcrumbInterface = ({
 
       devWarning(
         element.type &&
-          (element.type.__ANT_BREADCRUMB_ITEM === true ||
-            element.type.__ANT_BREADCRUMB_SEPARATOR === true),
+          (element.type.__EZD_BREADCRUMB_ITEM === true ||
+            element.type.__EZD_BREADCRUMB_SEPARATOR === true),
         'Breadcrumb',
         "Only accepts Breadcrumb.Item and Breadcrumb.Separator as it's children",
       );

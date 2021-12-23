@@ -2,10 +2,10 @@
 
 exports[`renders ./components/result/demo/403.md correctly 1`] = `
 <div
-  class="ant-result ant-result-403"
+  class="ezd-result ant-result-403"
 >
   <div
-    class="ant-result-icon ant-result-image"
+    class="ezd-result-icon ant-result-image"
   >
     <svg
       height="294"
@@ -289,20 +289,20 @@ exports[`renders ./components/result/demo/403.md correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     403
   </div>
   <div
-    class="ant-result-subtitle"
+    class="ezd-result-subtitle"
   >
     Sorry, you are not authorized to access this page.
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -315,10 +315,10 @@ exports[`renders ./components/result/demo/403.md correctly 1`] = `
 
 exports[`renders ./components/result/demo/404.md correctly 1`] = `
 <div
-  class="ant-result ant-result-404"
+  class="ezd-result ant-result-404"
 >
   <div
-    class="ant-result-icon ant-result-image"
+    class="ezd-result-icon ant-result-image"
   >
     <svg
       height="294"
@@ -620,20 +620,20 @@ exports[`renders ./components/result/demo/404.md correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     404
   </div>
   <div
-    class="ant-result-subtitle"
+    class="ezd-result-subtitle"
   >
     Sorry, the page you visited does not exist.
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -646,10 +646,10 @@ exports[`renders ./components/result/demo/404.md correctly 1`] = `
 
 exports[`renders ./components/result/demo/500.md correctly 1`] = `
 <div
-  class="ant-result ant-result-500"
+  class="ezd-result ant-result-500"
 >
   <div
-    class="ant-result-icon ant-result-image"
+    class="ezd-result-icon ant-result-image"
   >
     <svg
       height="294"
@@ -998,20 +998,20 @@ exports[`renders ./components/result/demo/500.md correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     500
   </div>
   <div
-    class="ant-result-subtitle"
+    class="ezd-result-subtitle"
   >
     Sorry, something went wrong.
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -1024,10 +1024,10 @@ exports[`renders ./components/result/demo/500.md correctly 1`] = `
 
 exports[`renders ./components/result/demo/customIcon.md correctly 1`] = `
 <div
-  class="ant-result ant-result-info"
+  class="ezd-result ant-result-info"
 >
   <div
-    class="ant-result-icon"
+    class="ezd-result-icon"
   >
     <span
       aria-label="smile"
@@ -1050,15 +1050,15 @@ exports[`renders ./components/result/demo/customIcon.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     Great, we have done all the operations!
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -1071,10 +1071,10 @@ exports[`renders ./components/result/demo/customIcon.md correctly 1`] = `
 
 exports[`renders ./components/result/demo/error.md correctly 1`] = `
 <div
-  class="ant-result ant-result-error"
+  class="ezd-result ant-result-error"
 >
   <div
-    class="ant-result-icon"
+    class="ezd-result-icon"
   >
     <span
       aria-label="close-circle"
@@ -1097,20 +1097,20 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     Submission Failed
   </div>
   <div
-    class="ant-result-subtitle"
+    class="ezd-result-subtitle"
   >
     Please check and modify the following information before resubmitting.
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -1118,7 +1118,7 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -1127,16 +1127,16 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-result-content"
+    class="ezd-result-content"
   >
     <div
       class="desc"
     >
       <div
-        class="ant-typography"
+        class="ezd-typography"
       >
         <span
-          class="ant-typography"
+          class="ezd-typography"
           style="font-size:16px"
         >
           <strong>
@@ -1145,7 +1145,7 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-typography"
+        class="ezd-typography"
       >
         <span
           aria-label="close-circle"
@@ -1175,7 +1175,7 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
         </a>
       </div>
       <div
-        class="ant-typography"
+        class="ezd-typography"
       >
         <span
           aria-label="close-circle"
@@ -1211,10 +1211,10 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
 
 exports[`renders ./components/result/demo/info.md correctly 1`] = `
 <div
-  class="ant-result ant-result-info"
+  class="ezd-result ant-result-info"
 >
   <div
-    class="ant-result-icon"
+    class="ezd-result-icon"
   >
     <span
       aria-label="exclamation-circle"
@@ -1237,15 +1237,15 @@ exports[`renders ./components/result/demo/info.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     Your operation has been executed
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -1258,10 +1258,10 @@ exports[`renders ./components/result/demo/info.md correctly 1`] = `
 
 exports[`renders ./components/result/demo/success.md correctly 1`] = `
 <div
-  class="ant-result ant-result-success"
+  class="ezd-result ant-result-success"
 >
   <div
-    class="ant-result-icon"
+    class="ezd-result-icon"
   >
     <span
       aria-label="check-circle"
@@ -1284,20 +1284,20 @@ exports[`renders ./components/result/demo/success.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     Successfully Purchased Cloud Server ECS!
   </div>
   <div
-    class="ant-result-subtitle"
+    class="ezd-result-subtitle"
   >
     Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait.
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>
@@ -1305,7 +1305,7 @@ exports[`renders ./components/result/demo/success.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="ezd-btn"
       type="button"
     >
       <span>
@@ -1318,10 +1318,10 @@ exports[`renders ./components/result/demo/success.md correctly 1`] = `
 
 exports[`renders ./components/result/demo/warning.md correctly 1`] = `
 <div
-  class="ant-result ant-result-warning"
+  class="ezd-result ant-result-warning"
 >
   <div
-    class="ant-result-icon"
+    class="ezd-result-icon"
   >
     <span
       aria-label="warning"
@@ -1344,15 +1344,15 @@ exports[`renders ./components/result/demo/warning.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="ezd-result-title"
   >
     There are some problems with your operation.
   </div>
   <div
-    class="ant-result-extra"
+    class="ezd-result-extra"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="ezd-btn ant-btn-primary"
       type="button"
     >
       <span>

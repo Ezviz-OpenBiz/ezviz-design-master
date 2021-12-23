@@ -43,7 +43,7 @@ ReactDOM.render(<App />, mountNode);
 ```
 
 <style>
-[data-theme='compact'] .ant-drawer-body p {
+[data-theme='compact'] .ezd-drawer-body p {
   margin-bottom: 0;
 }
 </style>

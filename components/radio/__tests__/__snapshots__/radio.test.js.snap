@@ -2,17 +2,17 @@
 
 exports[`Radio rtl render component should be rendered correctly in RTL direction 1`] = `
 <label
-  class="ant-radio-wrapper ant-radio-wrapper-rtl"
+  class="ezd-radio-wrapper ezd-radio-wrapper-rtl"
 >
   <span
-    class="ant-radio"
+    class="ezd-radio"
   >
     <input
-      class="ant-radio-input"
+      class="ezd-radio-input"
       type="radio"
     />
     <span
-      class="ant-radio-inner"
+      class="ezd-radio-inner"
     />
   </span>
 </label>
@@ -20,23 +20,23 @@ exports[`Radio rtl render component should be rendered correctly in RTL directio
 
 exports[`Radio rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline ant-radio-group-rtl"
+  class="ezd-radio-group ezd-radio-group-outline ezd-radio-group-rtl"
 />
 `;
 
 exports[`Radio rtl render component should be rendered correctly in RTL direction 3`] = `
 <label
-  class="ant-radio-button-wrapper ant-radio-button-wrapper-rtl"
+  class="ezd-radio-button-wrapper ezd-radio-button-wrapper-rtl"
 >
   <span
-    class="ant-radio-button"
+    class="ezd-radio-button"
   >
     <input
-      class="ant-radio-button-input"
+      class="ezd-radio-button-input"
       type="radio"
     />
     <span
-      class="ant-radio-button-inner"
+      class="ezd-radio-button-inner"
     />
   </span>
 </label>
@@ -44,17 +44,17 @@ exports[`Radio rtl render component should be rendered correctly in RTL directio
 
 exports[`Radio should render correctly 1`] = `
 <label
-  class="ant-radio-wrapper customized"
+  class="ezd-radio-wrapper customized"
 >
   <span
-    class="ant-radio"
+    class="ezd-radio"
   >
     <input
-      class="ant-radio-input"
+      class="ezd-radio-input"
       type="radio"
     />
     <span
-      class="ant-radio-inner"
+      class="ezd-radio-inner"
     />
   </span>
   <span>

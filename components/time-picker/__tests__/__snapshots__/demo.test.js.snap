@@ -3,10 +3,10 @@
 exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
 Array [
   <div
-    class="ant-picker"
+    class="ezd-picker"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -17,7 +17,7 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -45,11 +45,11 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker"
+    class="ezd-picker"
     style="width:140px"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -60,7 +60,7 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -88,10 +88,10 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker"
+    class="ezd-picker"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -102,7 +102,7 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -134,10 +134,10 @@ Array [
 
 exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -148,7 +148,7 @@ exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -179,10 +179,10 @@ exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -193,7 +193,7 @@ exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -225,10 +225,10 @@ exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
 exports[`renders ./components/time-picker/demo/bordered.md correctly 1`] = `
 Array [
   <div
-    class="ant-picker ant-picker-borderless"
+    class="ezd-picker ant-picker-borderless"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -239,7 +239,7 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -267,10 +267,10 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker ant-picker-range ant-picker-borderless"
+    class="ezd-picker ant-picker-range ant-picker-borderless"
   >
     <div
-      class="ant-picker-input ant-picker-input-active"
+      class="ezd-picker-input ant-picker-input-active"
     >
       <input
         autocomplete="off"
@@ -281,11 +281,11 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-range-separator"
+      class="ezd-picker-range-separator"
     >
       <span
         aria-label="to"
-        class="ant-picker-separator"
+        class="ezd-picker-separator"
       >
         <span
           aria-label="swap-right"
@@ -309,7 +309,7 @@ Array [
       </span>
     </div>
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -320,11 +320,11 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-active-bar"
+      class="ezd-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -355,10 +355,10 @@ Array [
 
 exports[`renders ./components/time-picker/demo/colored-popup.md correctly 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -369,7 +369,7 @@ exports[`renders ./components/time-picker/demo/colored-popup.md correctly 1`] = 
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -400,10 +400,10 @@ exports[`renders ./components/time-picker/demo/colored-popup.md correctly 1`] = 
 
 exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
 <div
-  class="ant-picker ant-picker-disabled"
+  class="ezd-picker ant-picker-disabled"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -415,7 +415,7 @@ exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -446,10 +446,10 @@ exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -460,7 +460,7 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -486,7 +486,7 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="ezd-picker-clear"
       role="button"
     >
       <span
@@ -515,10 +515,10 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -529,7 +529,7 @@ exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`]
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"
@@ -560,10 +560,10 @@ exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`]
 
 exports[`renders ./components/time-picker/demo/range-picker.md correctly 1`] = `
 <div
-  class="ant-picker ant-picker-range"
+  class="ezd-picker ant-picker-range"
 >
   <div
-    class="ant-picker-input ant-picker-input-active"
+    class="ezd-picker-input ant-picker-input-active"
   >
     <input
       autocomplete="off"
@@ -574,11 +574,11 @@ exports[`renders ./components/time-picker/demo/range-picker.md correctly 1`] = `
     />
   </div>
   <div
-    class="ant-picker-range-separator"
+    class="ezd-picker-range-separator"
   >
     <span
       aria-label="to"
-      class="ant-picker-separator"
+      class="ezd-picker-separator"
     >
       <span
         aria-label="swap-right"
@@ -602,7 +602,7 @@ exports[`renders ./components/time-picker/demo/range-picker.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -613,11 +613,11 @@ exports[`renders ./components/time-picker/demo/range-picker.md correctly 1`] = `
     />
   </div>
   <div
-    class="ant-picker-active-bar"
+    class="ezd-picker-active-bar"
     style="left:0;width:0;position:absolute"
   />
   <span
-    class="ant-picker-suffix"
+    class="ezd-picker-suffix"
   >
     <span
       aria-label="clock-circle"
@@ -648,10 +648,10 @@ exports[`renders ./components/time-picker/demo/range-picker.md correctly 1`] = `
 exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
 Array [
   <div
-    class="ant-picker ant-picker-large"
+    class="ezd-picker ant-picker-large"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -662,7 +662,7 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -688,7 +688,7 @@ Array [
         </span>
       </span>
       <span
-        class="ant-picker-clear"
+        class="ezd-picker-clear"
         role="button"
       >
         <span
@@ -714,10 +714,10 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker"
+    class="ezd-picker"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -728,7 +728,7 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -754,7 +754,7 @@ Array [
         </span>
       </span>
       <span
-        class="ant-picker-clear"
+        class="ezd-picker-clear"
         role="button"
       >
         <span
@@ -780,10 +780,10 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker ant-picker-small"
+    class="ezd-picker ant-picker-small"
   >
     <div
-      class="ant-picker-input"
+      class="ezd-picker-input"
     >
       <input
         autocomplete="off"
@@ -794,7 +794,7 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="ezd-picker-suffix"
       >
         <span
           aria-label="clock-circle"
@@ -820,7 +820,7 @@ Array [
         </span>
       </span>
       <span
-        class="ant-picker-clear"
+        class="ezd-picker-clear"
         role="button"
       >
         <span
@@ -850,10 +850,10 @@ Array [
 
 exports[`renders ./components/time-picker/demo/suffix.md correctly 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -864,7 +864,7 @@ exports[`renders ./components/time-picker/demo/suffix.md correctly 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="smile"
@@ -892,10 +892,10 @@ exports[`renders ./components/time-picker/demo/suffix.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/value.md correctly 1`] = `
 <div
-  class="ant-picker"
+  class="ezd-picker"
 >
   <div
-    class="ant-picker-input"
+    class="ezd-picker-input"
   >
     <input
       autocomplete="off"
@@ -906,7 +906,7 @@ exports[`renders ./components/time-picker/demo/value.md correctly 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="ezd-picker-suffix"
     >
       <span
         aria-label="clock-circle"

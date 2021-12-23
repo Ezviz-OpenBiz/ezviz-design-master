@@ -7,9 +7,9 @@ import themeSwitcher from 'theme-switcher';
 import { setTwoToneColor } from '@ant-design/icons';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import 'moment/locale/zh-cn';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from '@ezviz/ezd';
 import { browserHistory } from 'bisheng/router';
-import zhCN from 'antd/lib/locale/zh_CN';
+import zhCN from '@ezviz/ezd/lib/locale/zh_CN';
 import Header from './Header';
 import SiteContext from './SiteContext';
 import enLocale from '../../en-US';
@@ -23,10 +23,6 @@ if (typeof window !== 'undefined' && navigator.serviceWorker) {
 }
 
 if (typeof window !== 'undefined') {
-  // Redirect to `ant.design` if is not next version anymore
-  if (location.hostname === 'next.ant.design') {
-    location.href = location.href.replace('next.ant.design', 'ant.design');
-  }
 
   // eslint-disable-next-line global-require
   require('../../static/style');
@@ -35,7 +31,7 @@ if (typeof window !== 'undefined') {
   window.react = React;
   window['react-dom'] = ReactDOM;
   // eslint-disable-next-line global-require
-  window.antd = require('antd');
+  window['@ezviz/ezd'] = require('@ezviz/ezd');
   // eslint-disable-next-line global-require
   window['@ant-design/icons'] = require('@ant-design/icons');
 
@@ -54,8 +50,8 @@ const RESPONSIVE_MOBILE = 768;
 // for dark.css timestamp to remove cache
 const timestamp = new Date().getTime();
 const themeMap = {
-  dark: `/ezd/dark.css?${timestamp}`,
-  compact: `/ezd/compact.css?${timestamp}`,
+  dark: `/dark.css?${timestamp}`,
+  compact: `/compact.css?${timestamp}`,
 };
 const themeConfig = {
   themeMap,

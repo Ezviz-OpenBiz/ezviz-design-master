@@ -117,7 +117,6 @@ describe('Test utils function', () => {
     }, 3);
 
     // Do nothing, but insert in the frame
-    // https://github.com/ant-design/ant-design/issues/16290
     delayRaf(() => {}, 3);
 
     // Variable bamboo should be false in frame 2 but true in frame 4

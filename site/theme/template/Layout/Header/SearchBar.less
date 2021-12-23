@@ -36,7 +36,7 @@
     }
   }
 
-  .ant-row-rtl & {
+  .ezd-row-rtl & {
     margin: 0 0 0 auto !important;
     padding-right: 16px;
     padding-left: 0;
@@ -58,7 +58,7 @@
     pointer-events: none;
   }
 
-  .ant-input-affix-wrapper {
+  .ezd-input-affix-wrapper {
     background: transparent;
     border: 0;
     box-shadow: none;
@@ -73,7 +73,7 @@
     border: 0;
     box-shadow: none;
 
-    .ant-row-rtl & {
+    .ezd-row-rtl & {
       padding-right: 20px;
       padding-left: 11px;
     }
@@ -98,7 +98,7 @@
       right: 0;
       left: auto;
 
-      .ant-row-rtl & {
+      .ezd-row-rtl & {
         right: auto;
         left: 0;
       }
@@ -110,7 +110,7 @@
       padding-left: 11px;
       cursor: pointer;
 
-      .ant-row-rtl & {
+      .ezd-row-rtl & {
         padding-right: 11px;
         padding-left: 20px;
       }
@@ -131,28 +131,28 @@
 }
 
 .component-select {
-  &.ant-select-dropdown {
+  &.ezd-select-dropdown {
     font-size: 14px;
     border: 0;
     border-radius: 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   }
 
-  .ant-select-dropdown-menu {
+  .ezd-select-dropdown-menu {
     max-height: 200px;
   }
 
-  .ant-select-dropdown-menu-item {
+  .ezd-select-dropdown-menu-item {
     border-radius: 0 !important;
   }
 
-  .ant-component-decs {
+  .ezd-component-decs {
     position: absolute;
     right: 16px;
     color: #aaa;
     font-size: 12px;
 
-    .ant-row-rtl & {
+    .ezd-row-rtl & {
       right: auto;
       left: 16px;
     }
@@ -169,7 +169,7 @@
   font-family: @font-family;
 }
 
-#antd_algolia_search_modal {
+#ezd_algolia_search_modal {
   // avoid the veritcal scrollbar(looks like a white block)
   .DocSearch-Hit-title {
     overflow-y: hidden;
@@ -186,6 +186,6 @@
 }
 
 // customization DocSearch Modal component in light mode
-body[data-theme='default'] #antd_algolia_search_modal {
+body[data-theme='default'] #ezd_algolia_search_modal {
   .customDocSearch();
 }

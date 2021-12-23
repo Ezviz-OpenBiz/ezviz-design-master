@@ -2,30 +2,30 @@
 
 exports[`Descriptions Descriptions support colon 1`] = `
 <div
-  class="ant-descriptions"
+  class="ezd-descriptions"
 >
   <div
-    class="ant-descriptions-view"
+    class="ezd-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label ant-descriptions-item-no-colon"
+                class="ezd-descriptions-item-label ezd-descriptions-item-no-colon"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -40,26 +40,26 @@ exports[`Descriptions Descriptions support colon 1`] = `
 
 exports[`Descriptions Descriptions support style 1`] = `
 <div
-  class="ant-descriptions"
+  class="ezd-descriptions"
   style="background-color: rgb(232, 232, 232);"
 >
   <div
-    class="ant-descriptions-view"
+    class="ezd-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -74,30 +74,30 @@ exports[`Descriptions Descriptions support style 1`] = `
 
 exports[`Descriptions Descriptions.Item support className 1`] = `
 <div
-  class="ant-descriptions"
+  class="ezd-descriptions"
 >
   <div
-    class="ant-descriptions-view"
+    class="ezd-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item my-class"
+            class="ezd-descriptions-item my-class"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -112,68 +112,68 @@ exports[`Descriptions Descriptions.Item support className 1`] = `
 
 exports[`Descriptions column is number 1`] = `
 <div
-  class="ant-descriptions"
+  class="ezd-descriptions"
 >
   <div
-    class="ant-descriptions-view"
+    class="ezd-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Cloud Database
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Billing
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Prepaid
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 time
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 18:00:00
               </span>
@@ -181,22 +181,22 @@ exports[`Descriptions column is number 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="3"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Amount
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 $80.00
               </span>
@@ -211,30 +211,30 @@ exports[`Descriptions column is number 1`] = `
 
 exports[`Descriptions should work with React Fragment 1`] = `
 <div
-  class="ant-descriptions"
+  class="ezd-descriptions"
 >
   <div
-    class="ant-descriptions-view"
+    class="ezd-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 bamboo
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 bamboo
               </span>
@@ -242,22 +242,22 @@ exports[`Descriptions should work with React Fragment 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 bamboo
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 bamboo
               </span>
@@ -265,22 +265,22 @@ exports[`Descriptions should work with React Fragment 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 bamboo
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 bamboo
               </span>
@@ -295,25 +295,25 @@ exports[`Descriptions should work with React Fragment 1`] = `
 
 exports[`Descriptions vertical layout 1`] = `
 <div
-  class="ant-descriptions"
+  class="ezd-descriptions"
 >
   <div
-    class="ant-descriptions-view"
+    class="ezd-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Product
               </span>
@@ -321,17 +321,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -339,17 +339,17 @@ exports[`Descriptions vertical layout 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Billing
               </span>
@@ -357,17 +357,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Prepaid
               </span>
@@ -375,17 +375,17 @@ exports[`Descriptions vertical layout 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 time
               </span>
@@ -393,17 +393,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 18:00:00
               </span>
@@ -411,17 +411,17 @@ exports[`Descriptions vertical layout 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Amount
               </span>
@@ -429,17 +429,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 $80.00
               </span>
@@ -454,30 +454,30 @@ exports[`Descriptions vertical layout 1`] = `
 
 exports[`Descriptions when item is rendered conditionally 1`] = `
 <div
-  class="ant-descriptions"
+  class="ezd-descriptions"
 >
   <div
-    class="ant-descriptions-view"
+    class="ezd-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -485,22 +485,22 @@ exports[`Descriptions when item is rendered conditionally 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Billing
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 Prepaid
               </span>
@@ -508,22 +508,22 @@ exports[`Descriptions when item is rendered conditionally 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 time
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 18:00:00
               </span>
@@ -531,22 +531,22 @@ exports[`Descriptions when item is rendered conditionally 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="ezd-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="ezd-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="ezd-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="ezd-descriptions-item-label"
               >
                 Amount
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="ezd-descriptions-item-content"
               >
                 $80.00
               </span>

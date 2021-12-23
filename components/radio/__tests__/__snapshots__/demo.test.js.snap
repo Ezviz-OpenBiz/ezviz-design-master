@@ -2,24 +2,24 @@
 
 exports[`renders ./components/radio/demo/badge.md correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-solid"
+  class="ezd-radio-group ant-radio-group-solid"
 >
   <span
-    class="ant-badge"
+    class="ezd-badge"
   >
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="1"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -27,16 +27,16 @@ exports[`renders ./components/radio/demo/badge.md correctly 1`] = `
       </span>
     </label>
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="ezd-scroll-number ant-badge-count"
       data-show="true"
       title="1"
     >
       <span
-        class="ant-scroll-number-only"
+        class="ezd-scroll-number-only"
         style="transition:none"
       >
         <span
-          class="ant-scroll-number-only-unit current"
+          class="ezd-scroll-number-only-unit current"
         >
           1
         </span>
@@ -44,21 +44,21 @@ exports[`renders ./components/radio/demo/badge.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge"
+    class="ezd-badge"
   >
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="2"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -66,16 +66,16 @@ exports[`renders ./components/radio/demo/badge.md correctly 1`] = `
       </span>
     </label>
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="ezd-scroll-number ant-badge-count"
       data-show="true"
       title="2"
     >
       <span
-        class="ant-scroll-number-only"
+        class="ezd-scroll-number-only"
         style="transition:none"
       >
         <span
-          class="ant-scroll-number-only-unit current"
+          class="ezd-scroll-number-only-unit current"
         >
           2
         </span>
@@ -87,17 +87,17 @@ exports[`renders ./components/radio/demo/badge.md correctly 1`] = `
 
 exports[`renders ./components/radio/demo/basic.md correctly 1`] = `
 <label
-  class="ant-radio-wrapper"
+  class="ezd-radio-wrapper"
 >
   <span
-    class="ant-radio"
+    class="ezd-radio"
   >
     <input
-      class="ant-radio-input"
+      class="ezd-radio-input"
       type="radio"
     />
     <span
-      class="ant-radio-inner"
+      class="ezd-radio-inner"
     />
   </span>
   <span>
@@ -109,18 +109,18 @@ exports[`renders ./components/radio/demo/basic.md correctly 1`] = `
 exports[`renders ./components/radio/demo/disabled.md correctly 1`] = `
 Array [
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-disabled"
+    class="ezd-radio-wrapper ant-radio-wrapper-disabled"
   >
     <span
-      class="ant-radio ant-radio-disabled"
+      class="ezd-radio ant-radio-disabled"
     >
       <input
-        class="ant-radio-input"
+        class="ezd-radio-input"
         disabled=""
         type="radio"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -128,19 +128,19 @@ Array [
     </span>
   </label>,
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-disabled"
+    class="ezd-radio-wrapper ant-radio-wrapper-disabled"
   >
     <span
-      class="ant-radio ant-radio-checked ant-radio-disabled"
+      class="ezd-radio ant-radio-checked ant-radio-disabled"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="ezd-radio-input"
         disabled=""
         type="radio"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -149,7 +149,7 @@ Array [
   </label>,
   <br />,
   <button
-    class="ant-btn ant-btn-primary"
+    class="ezd-btn ant-btn-primary"
     style="margin-top:16px"
     type="button"
   >
@@ -163,22 +163,22 @@ Array [
 exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -186,18 +186,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -205,18 +205,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -224,18 +224,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -244,23 +244,23 @@ Array [
     </label>
   </div>,
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
     style="margin-top:16px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -268,19 +268,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-disabled"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="ezd-radio-button ant-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           disabled=""
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -288,18 +288,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -307,18 +307,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -327,24 +327,24 @@ Array [
     </label>
   </div>,
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
     style="margin-top:16px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-disabled"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-disabled"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked ant-radio-button-disabled"
+        class="ezd-radio-button ant-radio-button-checked ant-radio-button-disabled"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           disabled=""
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -352,19 +352,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-disabled"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="ezd-radio-button ant-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           disabled=""
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -372,19 +372,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-disabled"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="ezd-radio-button ant-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           disabled=""
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -392,19 +392,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-disabled"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="ezd-radio-button ant-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           disabled=""
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -418,22 +418,22 @@ Array [
 exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-solid"
+    class="ezd-radio-group ant-radio-group-solid"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -441,18 +441,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -460,18 +460,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -479,18 +479,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -499,22 +499,22 @@ Array [
     </label>
   </div>,
   <div
-    class="ant-radio-group ant-radio-group-solid"
+    class="ezd-radio-group ant-radio-group-solid"
     style="margin-top:16px"
   >
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -522,19 +522,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-disabled"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="ezd-radio-button ant-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           disabled=""
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -542,19 +542,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -562,18 +562,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -586,22 +586,22 @@ Array [
 
 exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline"
+  class="ezd-radio-group ant-radio-group-outline"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked"
+    class="ezd-radio-wrapper ant-radio-wrapper-checked"
   >
     <span
-      class="ant-radio ant-radio-checked"
+      class="ezd-radio ant-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="ezd-radio-input"
         type="radio"
         value="1"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -609,18 +609,18 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="ezd-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="ezd-radio"
     >
       <input
-        class="ant-radio-input"
+        class="ezd-radio-input"
         type="radio"
         value="2"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -628,18 +628,18 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="ezd-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="ezd-radio"
     >
       <input
-        class="ant-radio-input"
+        class="ezd-radio-input"
         type="radio"
         value="3"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -647,18 +647,18 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="ezd-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="ezd-radio"
     >
       <input
-        class="ant-radio-input"
+        class="ezd-radio-input"
         type="radio"
         value="4"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -670,29 +670,29 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
 
 exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline"
+  class="ezd-radio-group ant-radio-group-outline"
 >
   <div
-    class="ant-space ant-space-vertical"
+    class="ezd-space ant-space-vertical"
   >
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-bottom:8px"
     >
       <label
-        class="ant-radio-wrapper ant-radio-wrapper-checked"
+        class="ezd-radio-wrapper ant-radio-wrapper-checked"
       >
         <span
-          class="ant-radio ant-radio-checked"
+          class="ezd-radio ant-radio-checked"
         >
           <input
             checked=""
-            class="ant-radio-input"
+            class="ezd-radio-input"
             type="radio"
             value="1"
           />
           <span
-            class="ant-radio-inner"
+            class="ezd-radio-inner"
           />
         </span>
         <span>
@@ -701,22 +701,22 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-bottom:8px"
     >
       <label
-        class="ant-radio-wrapper"
+        class="ezd-radio-wrapper"
       >
         <span
-          class="ant-radio"
+          class="ezd-radio"
         >
           <input
-            class="ant-radio-input"
+            class="ezd-radio-input"
             type="radio"
             value="2"
           />
           <span
-            class="ant-radio-inner"
+            class="ezd-radio-inner"
           />
         </span>
         <span>
@@ -725,22 +725,22 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
       style="margin-bottom:8px"
     >
       <label
-        class="ant-radio-wrapper"
+        class="ezd-radio-wrapper"
       >
         <span
-          class="ant-radio"
+          class="ezd-radio"
         >
           <input
-            class="ant-radio-input"
+            class="ezd-radio-input"
             type="radio"
             value="3"
           />
           <span
-            class="ant-radio-inner"
+            class="ezd-radio-inner"
           />
         </span>
         <span>
@@ -749,21 +749,21 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-space-item"
+      class="ezd-space-item"
     >
       <label
-        class="ant-radio-wrapper"
+        class="ezd-radio-wrapper"
       >
         <span
-          class="ant-radio"
+          class="ezd-radio"
         >
           <input
-            class="ant-radio-input"
+            class="ezd-radio-input"
             type="radio"
             value="4"
           />
           <span
-            class="ant-radio-inner"
+            class="ezd-radio-inner"
           />
         </span>
         <span>
@@ -778,22 +778,22 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
 exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="ezd-radio-wrapper ant-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="ezd-radio ant-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="Apple"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -801,18 +801,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="Pear"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -820,18 +820,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="Orange"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -841,22 +841,22 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="ezd-radio-wrapper ant-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="ezd-radio ant-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="Apple"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -864,18 +864,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="ezd-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="ezd-radio"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           type="radio"
           value="Pear"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -883,19 +883,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-disabled"
+      class="ezd-radio-wrapper ant-radio-wrapper-disabled"
     >
       <span
-        class="ant-radio ant-radio-disabled"
+        class="ezd-radio ant-radio-disabled"
       >
         <input
-          class="ant-radio-input"
+          class="ezd-radio-input"
           disabled=""
           type="radio"
           value="Orange"
         />
         <span
-          class="ant-radio-inner"
+          class="ezd-radio-inner"
         />
       </span>
       <span>
@@ -906,22 +906,22 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="Apple"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -929,18 +929,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="Pear"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -948,18 +948,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="Orange"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -970,22 +970,22 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-radio-group ant-radio-group-solid"
+    class="ezd-radio-group ant-radio-group-solid"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="Apple"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -993,18 +993,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="Pear"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1012,19 +1012,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-disabled"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="ezd-radio-button ant-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           disabled=""
           type="radio"
           value="Orange"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1037,23 +1037,23 @@ Array [
 
 exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline"
+  class="ezd-radio-group ant-radio-group-outline"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked"
+    class="ezd-radio-wrapper ant-radio-wrapper-checked"
   >
     <span
-      class="ant-radio ant-radio-checked"
+      class="ezd-radio ant-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="ezd-radio-input"
         name="radiogroup"
         type="radio"
         value="1"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -1061,19 +1061,19 @@ exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] =
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="ezd-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="ezd-radio"
     >
       <input
-        class="ant-radio-input"
+        class="ezd-radio-input"
         name="radiogroup"
         type="radio"
         value="2"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -1081,19 +1081,19 @@ exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] =
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="ezd-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="ezd-radio"
     >
       <input
-        class="ant-radio-input"
+        class="ezd-radio-input"
         name="radiogroup"
         type="radio"
         value="3"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -1101,19 +1101,19 @@ exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] =
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="ezd-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="ezd-radio"
     >
       <input
-        class="ant-radio-input"
+        class="ezd-radio-input"
         name="radiogroup"
         type="radio"
         value="4"
       />
       <span
-        class="ant-radio-inner"
+        class="ezd-radio-inner"
       />
     </span>
     <span>
@@ -1126,22 +1126,22 @@ exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] =
 exports[`renders ./components/radio/demo/size.md correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline ant-radio-group-large"
+    class="ezd-radio-group ant-radio-group-outline ant-radio-group-large"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1149,18 +1149,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1168,18 +1168,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1187,18 +1187,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1207,23 +1207,23 @@ Array [
     </label>
   </div>,
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
     style="margin-top:16px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1231,18 +1231,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1250,18 +1250,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1269,18 +1269,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1289,23 +1289,23 @@ Array [
     </label>
   </div>,
   <div
-    class="ant-radio-group ant-radio-group-outline ant-radio-group-small"
+    class="ezd-radio-group ant-radio-group-outline ant-radio-group-small"
     style="margin-top:16px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="a"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1313,18 +1313,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="b"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1332,18 +1332,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="c"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1351,18 +1351,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="d"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>

@@ -64,7 +64,7 @@ ReactDOM.render(
 ```
 
 ```css
-.ant-card {
+.ezd-card {
   margin-bottom: 16px;
 }
 ```

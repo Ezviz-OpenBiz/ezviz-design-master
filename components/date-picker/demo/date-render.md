@@ -28,7 +28,7 @@ ReactDOM.render(
           style.borderRadius = '50%';
         }
         return (
-          <div className="ant-picker-cell-inner" style={style}>
+          <div className="ezd-picker-cell-inner" style={style}>
             {current.date()}
           </div>
         );
@@ -42,7 +42,7 @@ ReactDOM.render(
           style.borderRadius = '50%';
         }
         return (
-          <div className="ant-picker-cell-inner" style={style}>
+          <div className="ezd-picker-cell-inner" style={style}>
             {current.date()}
           </div>
         );

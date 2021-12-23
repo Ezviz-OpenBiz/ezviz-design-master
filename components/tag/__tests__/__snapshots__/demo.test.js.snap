@@ -10,7 +10,7 @@ Array [
         style="display:inline-block"
       >
         <span
-          class="ant-tag"
+          class="ezd-tag"
         >
           Tag 1
           <span
@@ -39,7 +39,7 @@ Array [
         style="display:inline-block"
       >
         <span
-          class="ant-tag"
+          class="ezd-tag"
         >
           Tag 2
           <span
@@ -68,7 +68,7 @@ Array [
         style="display:inline-block"
       >
         <span
-          class="ant-tag"
+          class="ezd-tag"
         >
           Tag 3
           <span
@@ -96,7 +96,7 @@ Array [
     </div>
   </div>,
   <span
-    class="ant-tag site-tag-plus"
+    class="ezd-tag site-tag-plus"
   >
     <span
       aria-label="plus"
@@ -129,12 +129,12 @@ Array [
 exports[`renders ./components/tag/demo/basic.md correctly 1`] = `
 Array [
   <span
-    class="ant-tag"
+    class="ezd-tag"
   >
     Tag 1
   </span>,
   <span
-    class="ant-tag"
+    class="ezd-tag"
   >
     <a
       href="https://github.com/ant-design/ant-design/issues/1862"
@@ -143,7 +143,7 @@ Array [
     </a>
   </span>,
   <span
-    class="ant-tag"
+    class="ezd-tag"
   >
     Tag 2
     <span
@@ -168,7 +168,7 @@ Array [
     </span>
   </span>,
   <span
-    class="ant-tag"
+    class="ezd-tag"
   >
     Prevent Default
     <span
@@ -203,22 +203,22 @@ Array [
     Categories:
   </span>,
   <span
-    class="ant-tag ant-tag-checkable"
+    class="ezd-tag ant-tag-checkable"
   >
     Movies
   </span>,
   <span
-    class="ant-tag ant-tag-checkable ant-tag-checkable-checked"
+    class="ezd-tag ant-tag-checkable ant-tag-checkable-checked"
   >
     Books
   </span>,
   <span
-    class="ant-tag ant-tag-checkable"
+    class="ezd-tag ant-tag-checkable"
   >
     Music
   </span>,
   <span
-    class="ant-tag ant-tag-checkable"
+    class="ezd-tag ant-tag-checkable"
   >
     Sports
   </span>,
@@ -228,103 +228,103 @@ Array [
 exports[`renders ./components/tag/demo/colorful.md correctly 1`] = `
 Array [
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+    class="ezd-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
     role="separator"
   >
     <span
-      class="ant-divider-inner-text"
+      class="ezd-divider-inner-text"
     >
       Presets
     </span>
   </div>,
   <div>
     <span
-      class="ant-tag ant-tag-magenta"
+      class="ezd-tag ant-tag-magenta"
     >
       magenta
     </span>
     <span
-      class="ant-tag ant-tag-red"
+      class="ezd-tag ant-tag-red"
     >
       red
     </span>
     <span
-      class="ant-tag ant-tag-volcano"
+      class="ezd-tag ant-tag-volcano"
     >
       volcano
     </span>
     <span
-      class="ant-tag ant-tag-orange"
+      class="ezd-tag ant-tag-orange"
     >
       orange
     </span>
     <span
-      class="ant-tag ant-tag-gold"
+      class="ezd-tag ant-tag-gold"
     >
       gold
     </span>
     <span
-      class="ant-tag ant-tag-lime"
+      class="ezd-tag ant-tag-lime"
     >
       lime
     </span>
     <span
-      class="ant-tag ant-tag-green"
+      class="ezd-tag ant-tag-green"
     >
       green
     </span>
     <span
-      class="ant-tag ant-tag-cyan"
+      class="ezd-tag ant-tag-cyan"
     >
       cyan
     </span>
     <span
-      class="ant-tag ant-tag-blue"
+      class="ezd-tag ant-tag-blue"
     >
       blue
     </span>
     <span
-      class="ant-tag ant-tag-geekblue"
+      class="ezd-tag ant-tag-geekblue"
     >
       geekblue
     </span>
     <span
-      class="ant-tag ant-tag-purple"
+      class="ezd-tag ant-tag-purple"
     >
       purple
     </span>
   </div>,
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+    class="ezd-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
     role="separator"
   >
     <span
-      class="ant-divider-inner-text"
+      class="ezd-divider-inner-text"
     >
       Custom
     </span>
   </div>,
   <div>
     <span
-      class="ant-tag ant-tag-has-color"
+      class="ezd-tag ant-tag-has-color"
       style="background-color:#f50"
     >
       #f50
     </span>
     <span
-      class="ant-tag ant-tag-has-color"
+      class="ezd-tag ant-tag-has-color"
       style="background-color:#2db7f5"
     >
       #2db7f5
     </span>
     <span
-      class="ant-tag ant-tag-has-color"
+      class="ezd-tag ant-tag-has-color"
       style="background-color:#87d068"
     >
       #87d068
     </span>
     <span
-      class="ant-tag ant-tag-has-color"
+      class="ezd-tag ant-tag-has-color"
       style="background-color:#108ee9"
     >
       #108ee9
@@ -336,68 +336,68 @@ Array [
 exports[`renders ./components/tag/demo/colorful-inverse.md correctly 1`] = `
 Array [
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+    class="ezd-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
     role="separator"
   >
     <span
-      class="ant-divider-inner-text"
+      class="ezd-divider-inner-text"
     >
       Presets Inverse
     </span>
   </div>,
   <div>
     <span
-      class="ant-tag ant-tag-magenta-inverse"
+      class="ezd-tag ant-tag-magenta-inverse"
     >
       magenta
     </span>
     <span
-      class="ant-tag ant-tag-red-inverse"
+      class="ezd-tag ant-tag-red-inverse"
     >
       red
     </span>
     <span
-      class="ant-tag ant-tag-volcano-inverse"
+      class="ezd-tag ant-tag-volcano-inverse"
     >
       volcano
     </span>
     <span
-      class="ant-tag ant-tag-orange-inverse"
+      class="ezd-tag ant-tag-orange-inverse"
     >
       orange
     </span>
     <span
-      class="ant-tag ant-tag-gold-inverse"
+      class="ezd-tag ant-tag-gold-inverse"
     >
       gold
     </span>
     <span
-      class="ant-tag ant-tag-lime-inverse"
+      class="ezd-tag ant-tag-lime-inverse"
     >
       lime
     </span>
     <span
-      class="ant-tag ant-tag-green-inverse"
+      class="ezd-tag ant-tag-green-inverse"
     >
       green
     </span>
     <span
-      class="ant-tag ant-tag-cyan-inverse"
+      class="ezd-tag ant-tag-cyan-inverse"
     >
       cyan
     </span>
     <span
-      class="ant-tag ant-tag-blue-inverse"
+      class="ezd-tag ant-tag-blue-inverse"
     >
       blue
     </span>
     <span
-      class="ant-tag ant-tag-geekblue-inverse"
+      class="ezd-tag ant-tag-geekblue-inverse"
     >
       geekblue
     </span>
     <span
-      class="ant-tag ant-tag-purple-inverse"
+      class="ezd-tag ant-tag-purple-inverse"
     >
       purple
     </span>
@@ -408,14 +408,14 @@ Array [
 exports[`renders ./components/tag/demo/control.md correctly 1`] = `
 Array [
   <span
-    class="ant-tag edit-tag"
+    class="ezd-tag edit-tag"
   >
     <span>
       Unremovable
     </span>
   </span>,
   <span
-    class="ant-tag edit-tag"
+    class="ezd-tag edit-tag"
   >
     <span>
       Tag 2
@@ -442,7 +442,7 @@ Array [
     </span>
   </span>,
   <span
-    class="ant-tag edit-tag"
+    class="ezd-tag edit-tag"
   >
     <span>
       Tag 3
@@ -469,7 +469,7 @@ Array [
     </span>
   </span>,
   <span
-    class="ant-tag site-tag-plus"
+    class="ezd-tag site-tag-plus"
   >
     <span
       aria-label="plus"
@@ -502,7 +502,7 @@ Array [
 exports[`renders ./components/tag/demo/controlled.md correctly 1`] = `
 Array [
   <span
-    class="ant-tag"
+    class="ezd-tag"
   >
     Movies
     <span
@@ -528,7 +528,7 @@ Array [
   </span>,
   <br />,
   <button
-    class="ant-btn ant-btn-sm"
+    class="ezd-btn ant-btn-sm"
     type="button"
   >
     <span>
@@ -541,21 +541,21 @@ Array [
 exports[`renders ./components/tag/demo/customize.md correctly 1`] = `
 Array [
   <span
-    class="ant-tag"
+    class="ezd-tag"
   >
     Tag1
     <span
-      class="ant-tag-close-icon"
+      class="ezd-tag-close-icon"
     >
       关 闭
     </span>
   </span>,
   <span
-    class="ant-tag"
+    class="ezd-tag"
   >
     Tag2
     <span
-      class="ant-tag-close-icon"
+      class="ezd-tag-close-icon"
     >
       <span
         aria-label="close-circle"
@@ -587,7 +587,7 @@ Array [
 exports[`renders ./components/tag/demo/icon.md correctly 1`] = `
 Array [
   <span
-    class="ant-tag ant-tag-has-color"
+    class="ezd-tag ant-tag-has-color"
     style="background-color:#55acee"
   >
     <span
@@ -614,7 +614,7 @@ Array [
     </span>
   </span>,
   <span
-    class="ant-tag ant-tag-has-color"
+    class="ezd-tag ant-tag-has-color"
     style="background-color:#cd201f"
   >
     <span
@@ -641,7 +641,7 @@ Array [
     </span>
   </span>,
   <span
-    class="ant-tag ant-tag-has-color"
+    class="ezd-tag ant-tag-has-color"
     style="background-color:#3b5999"
   >
     <span
@@ -668,7 +668,7 @@ Array [
     </span>
   </span>,
   <span
-    class="ant-tag ant-tag-has-color"
+    class="ezd-tag ant-tag-has-color"
     style="background-color:#55acee"
   >
     <span
@@ -700,55 +700,55 @@ Array [
 exports[`renders ./components/tag/demo/status.md correctly 1`] = `
 Array [
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+    class="ezd-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
     role="separator"
   >
     <span
-      class="ant-divider-inner-text"
+      class="ezd-divider-inner-text"
     >
       Without icon
     </span>
   </div>,
   <div>
     <span
-      class="ant-tag ant-tag-success"
+      class="ezd-tag ant-tag-success"
     >
       success
     </span>
     <span
-      class="ant-tag ant-tag-processing"
+      class="ezd-tag ant-tag-processing"
     >
       processing
     </span>
     <span
-      class="ant-tag ant-tag-error"
+      class="ezd-tag ant-tag-error"
     >
       error
     </span>
     <span
-      class="ant-tag ant-tag-warning"
+      class="ezd-tag ant-tag-warning"
     >
       warning
     </span>
     <span
-      class="ant-tag ant-tag-default"
+      class="ezd-tag ant-tag-default"
     >
       default
     </span>
   </div>,
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+    class="ezd-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
     role="separator"
   >
     <span
-      class="ant-divider-inner-text"
+      class="ezd-divider-inner-text"
     >
       With icon
     </span>
   </div>,
   <div>
     <span
-      class="ant-tag ant-tag-success"
+      class="ezd-tag ant-tag-success"
     >
       <span
         aria-label="check-circle"
@@ -777,7 +777,7 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-processing"
+      class="ezd-tag ant-tag-processing"
     >
       <span
         aria-label="sync"
@@ -803,7 +803,7 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-error"
+      class="ezd-tag ant-tag-error"
     >
       <span
         aria-label="close-circle"
@@ -832,7 +832,7 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-warning"
+      class="ezd-tag ant-tag-warning"
     >
       <span
         aria-label="exclamation-circle"
@@ -861,7 +861,7 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-default"
+      class="ezd-tag ant-tag-default"
     >
       <span
         aria-label="clock-circle"
@@ -890,7 +890,7 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-default"
+      class="ezd-tag ant-tag-default"
     >
       <span
         aria-label="minus-circle"

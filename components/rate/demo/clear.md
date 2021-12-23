@@ -19,10 +19,10 @@ import { Rate } from '@ezviz/ezd';
 ReactDOM.render(
   <>
     <Rate defaultValue={3} />
-    <span className="ant-rate-text">allowClear: true</span>
+    <span className="ezd-rate-text">allowClear: true</span>
     <br />
     <Rate allowClear={false} defaultValue={3} />
-    <span className="ant-rate-text">allowClear: false</span>
+    <span className="ezd-rate-text">allowClear: false</span>
   </>,
   mountNode,
 );

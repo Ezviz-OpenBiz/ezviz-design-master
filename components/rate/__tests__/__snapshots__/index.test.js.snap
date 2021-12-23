@@ -2,12 +2,12 @@
 
 exports[`Rate rtl render component should be rendered correctly in RTL direction 1`] = `
 <ul
-  class="ant-rate ant-rate-rtl"
+  class="ezd-rate ezd-rate-rtl"
   role="radiogroup"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ezd-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -17,7 +17,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -40,7 +40,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -65,7 +65,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ezd-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -75,7 +75,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -98,7 +98,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -123,7 +123,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ezd-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -133,7 +133,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -156,7 +156,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -181,7 +181,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ezd-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -191,7 +191,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -214,7 +214,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -239,7 +239,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ezd-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -249,7 +249,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -272,7 +272,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"

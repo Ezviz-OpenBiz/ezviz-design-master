@@ -31,7 +31,7 @@ const menu = (
 
 ReactDOM.render(
   <Dropdown overlay={menu}>
-    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+    <a className="ezd-dropdown-link" onClick={e => e.preventDefault()}>
       Hover me, Click menu item <DownOutlined />
     </a>
   </Dropdown>,

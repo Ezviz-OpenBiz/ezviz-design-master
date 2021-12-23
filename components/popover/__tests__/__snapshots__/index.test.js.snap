@@ -1,40 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Popover handles empty title/content props safely 1`] = `"<div class=\\"ant-popover-content\\"><div class=\\"ant-popover-arrow\\"><span class=\\"ant-popover-arrow-content\\"></span></div><div class=\\"ant-popover-inner\\" role=\\"tooltip\\"><div class=\\"ant-popover-inner-content\\"></div></div></div>"`;
+exports[`Popover handles empty title/content props safely 1`] = `"<div class=\\"ezd-popover-content\\"><div class=\\"ezd-popover-arrow\\"><span class=\\"ezd-popover-arrow-content\\"></span></div><div class=\\"ezd-popover-inner\\" role=\\"tooltip\\"><div class=\\"ezd-popover-inner-content\\"></div></div></div>"`;
 
 exports[`Popover should be rendered correctly in RTL direction 1`] = `
 Array [
   <span
-    class="ant-popover-open"
+    class="ezd-popover-open"
   >
     show me your Rtl demo
   </span>,
   <div>
     <div
-      class="ant-popover ant-popover-rtl"
+      class="ezd-popover ezd-popover-rtl"
       style="opacity:0;pointer-events:none"
     >
       <div
-        class="ant-popover-content"
+        class="ezd-popover-content"
       >
         <div
-          class="ant-popover-arrow"
+          class="ezd-popover-arrow"
         >
           <span
-            class="ant-popover-arrow-content"
+            class="ezd-popover-arrow-content"
           />
         </div>
         <div
-          class="ant-popover-inner"
+          class="ezd-popover-inner"
           role="tooltip"
         >
           <div
-            class="ant-popover-title"
+            class="ezd-popover-title"
           >
             RTL
           </div>
           <div
-            class="ant-popover-inner-content"
+            class="ezd-popover-inner-content"
           />
         </div>
       </div>
@@ -43,4 +43,4 @@ Array [
 ]
 `;
 
-exports[`Popover shows content for render functions 1`] = `"<div class=\\"ant-popover-content\\"><div class=\\"ant-popover-arrow\\"><span class=\\"ant-popover-arrow-content\\"></span></div><div class=\\"ant-popover-inner\\" role=\\"tooltip\\"><div class=\\"ant-popover-title\\">some-title</div><div class=\\"ant-popover-inner-content\\">some-content</div></div></div>"`;
+exports[`Popover shows content for render functions 1`] = `"<div class=\\"ezd-popover-content\\"><div class=\\"ezd-popover-arrow\\"><span class=\\"ezd-popover-arrow-content\\"></span></div><div class=\\"ezd-popover-inner\\" role=\\"tooltip\\"><div class=\\"ezd-popover-title\\">some-title</div><div class=\\"ezd-popover-inner-content\\">some-content</div></div></div>"`;

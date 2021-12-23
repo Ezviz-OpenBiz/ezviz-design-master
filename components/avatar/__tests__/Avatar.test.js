@@ -20,7 +20,7 @@ describe('Avatar Render', () => {
     originOffsetWidth = Object.getOwnPropertyDescriptor(HTMLElement.prototype, 'offsetWidth').get;
     Object.defineProperty(HTMLElement.prototype, 'offsetWidth', {
       get() {
-        if (this.className === 'ant-avatar-string') {
+        if (this.className === 'ezd-avatar-string') {
           return 100;
         }
         return 80;
@@ -37,7 +37,7 @@ describe('Avatar Render', () => {
 
   it('Render long string correctly', () => {
     const wrapper = mount(<Avatar>TestString</Avatar>);
-    const children = wrapper.find('.ant-avatar-string');
+    const children = wrapper.find('.ezd-avatar-string');
     expect(children.length).toBe(1);
   });
 
@@ -47,7 +47,7 @@ describe('Avatar Render', () => {
 
     const wrapper = mount(<Avatar src="http://error.url">Fallback</Avatar>, { attachTo: div });
     wrapper.find('img').simulate('error');
-    const children = wrapper.find('.ant-avatar-string');
+    const children = wrapper.find('.ezd-avatar-string');
     expect(children.length).toBe(1);
     expect(children.text()).toBe('Fallback');
 
@@ -105,16 +105,16 @@ describe('Avatar Render', () => {
     wrapper.find('img').simulate('error');
 
     expect(wrapper).toMatchSnapshot();
-    expect(wrapper.find('.ant-avatar-string').length).toBe(1);
+    expect(wrapper.find('.ezd-avatar-string').length).toBe(1);
     // children should show, when image load error without onError return false
-    expect(wrapper.find('.ant-avatar-string').prop('style')).not.toHaveProperty('opacity', 0);
+    expect(wrapper.find('.ezd-avatar-string').prop('style')).not.toHaveProperty('opacity', 0);
 
     // simulate successful src url
     wrapper.setProps({ src: LOAD_SUCCESS_SRC });
     wrapper.update();
 
     expect(wrapper).toMatchSnapshot();
-    expect(wrapper.find('.ant-avatar-image').length).toBe(1);
+    expect(wrapper.find('.ezd-avatar-image').length).toBe(1);
 
     // cleanup
     wrapper.detach();
@@ -123,23 +123,23 @@ describe('Avatar Render', () => {
 
   it('should calculate scale of avatar children correctly', () => {
     const wrapper = mount(<Avatar>Avatar</Avatar>);
-    expect(wrapper.find('.ant-avatar-string')).toMatchSnapshot();
+    expect(wrapper.find('.ezd-avatar-string')).toMatchSnapshot();
 
     Object.defineProperty(HTMLElement.prototype, 'offsetWidth', {
       get() {
-        if (this.className === 'ant-avatar-string') {
+        if (this.className === 'ezd-avatar-string') {
           return 100;
         }
         return 40;
       },
     });
     wrapper.setProps({ children: 'xx' });
-    expect(wrapper.find('.ant-avatar-string')).toMatchSnapshot();
+    expect(wrapper.find('.ezd-avatar-string')).toMatchSnapshot();
   });
 
   it('should calculate scale of avatar children correctly with gap', () => {
     const wrapper = mount(<Avatar gap={2}>Avatar</Avatar>);
-    expect(wrapper.find('.ant-avatar-string')).toMatchSnapshot();
+    expect(wrapper.find('.ezd-avatar-string')).toMatchSnapshot();
   });
 
   it('should warning when pass a string as icon props', () => {
@@ -148,7 +148,7 @@ describe('Avatar Render', () => {
     expect(warnSpy).not.toHaveBeenCalled();
     mount(<Avatar size={64} icon="user" />);
     expect(warnSpy).toHaveBeenCalledWith(
-      `Warning: [antd: Avatar] \`icon\` is using ReactNode instead of string naming in v4. Please check \`user\` at https://ant.design/components/icon`,
+      `Warning: [ezd: Avatar] \`icon\` is using ReactNode instead of string naming`,
     );
     warnSpy.mockRestore();
   });

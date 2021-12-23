@@ -2,16 +2,16 @@
 
 exports[`Statistic rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-statistic ant-statistic-rtl"
+  class="ezd-statistic ezd-statistic-rtl"
 >
   <div
-    class="ant-statistic-content"
+    class="ezd-statistic-content"
   >
     <span
-      class="ant-statistic-content-value"
+      class="ezd-statistic-content-value"
     >
       <span
-        class="ant-statistic-content-value-int"
+        class="ezd-statistic-content-value-int"
       >
         0
       </span>
@@ -22,26 +22,26 @@ exports[`Statistic rtl render component should be rendered correctly in RTL dire
 
 exports[`Statistic support negetive number 1`] = `
 <div
-  class="ant-statistic"
+  class="ezd-statistic"
 >
   <div
-    class="ant-statistic-title"
+    class="ezd-statistic-title"
   >
     Account Balance (CNY)
   </div>
   <div
-    class="ant-statistic-content"
+    class="ezd-statistic-content"
   >
     <span
-      class="ant-statistic-content-value"
+      class="ezd-statistic-content-value"
     >
       <span
-        class="ant-statistic-content-value-int"
+        class="ezd-statistic-content-value-int"
       >
         -112,893
       </span>
       <span
-        class="ant-statistic-content-value-decimal"
+        class="ezd-statistic-content-value-decimal"
       >
         .12
       </span>

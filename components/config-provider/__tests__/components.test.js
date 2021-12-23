@@ -364,7 +364,7 @@ describe('ConfigProvider', () => {
               {...props}
               avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
               title="EZ Design"
-              description="EZ Design, a design language for background applications, is refined by Ant UED Team"
+              description="EZ Design, a design language for background applications, is refined by EZVIZ Team"
             />
           </List.Item>
         )}

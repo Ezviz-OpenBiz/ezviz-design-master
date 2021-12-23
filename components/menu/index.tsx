@@ -86,7 +86,7 @@ class InternalMenu extends React.Component<InternalMenuProps> {
         value={{
           prefixCls,
           inlineCollapsed: inlineCollapsed || false,
-          antdMenuTheme: theme,
+          ezdMenuTheme: theme,
           direction,
           firstLevel: true,
         }}

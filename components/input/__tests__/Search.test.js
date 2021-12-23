@@ -34,7 +34,7 @@ describe('Input.Search', () => {
 
   it('should disable enter button when disabled prop is true', () => {
     const wrapper = mount(<Search placeholder="input search text" enterButton disabled />);
-    expect(wrapper.find('.ant-btn-primary[disabled]')).toHaveLength(1);
+    expect(wrapper.find('.ezd-btn-primary[disabled]')).toHaveLength(1);
   });
 
   it('should disable search icon when disabled prop is true', () => {
@@ -93,7 +93,7 @@ describe('Input.Search', () => {
     const wrapper = mount(
       <Search
         defaultValue="search text"
-        enterButton={<Button>antd button</Button>}
+        enterButton={<Button>ezd button</Button>}
         onSearch={onSearch}
       />,
     );
@@ -113,7 +113,7 @@ describe('Input.Search', () => {
     const wrapper = mount(
       <Search
         defaultValue="search text"
-        enterButton={<button type="button">antd button</button>}
+        enterButton={<button type="button">ezd button</button>}
         onSearch={onSearch}
       />,
     );
@@ -142,7 +142,6 @@ describe('Input.Search', () => {
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/14785
   it('should support addonAfter', () => {
     const addonAfter = <span>Addon After</span>;
     const wrapper = mount(<Search addonAfter={addonAfter} />);
@@ -151,14 +150,13 @@ describe('Input.Search', () => {
     expect(wrapperWithEnterButton.render()).toMatchSnapshot();
   });
 
-  // https://github.com/ant-design/ant-design/issues/18729
   it('should trigger onSearch when click clear icon', () => {
     const onSearch = jest.fn();
     const onChange = jest.fn();
     const wrapper = mount(
       <Search allowClear defaultValue="value" onSearch={onSearch} onChange={onChange} />,
     );
-    wrapper.find('.ant-input-clear-icon').at(0).simulate('click');
+    wrapper.find('.ezd-input-clear-icon').at(0).simulate('click');
     expect(onSearch).toHaveBeenLastCalledWith('', expect.anything());
     expect(onChange).toHaveBeenCalled();
   });
@@ -214,10 +212,9 @@ describe('Input.Search', () => {
     }).not.toThrow();
   });
 
-  // https://github.com/ant-design/ant-design/issues/27258
   it('Search with allowClear should have one className only', () => {
     const wrapper = mount(<Search allowClear className="className" />);
-    expect(wrapper.find('.ant-input-group-wrapper').hasClass('className')).toBe(true);
-    expect(wrapper.find('.ant-input-affix-wrapper').hasClass('className')).toBe(false);
+    expect(wrapper.find('.ezd-input-group-wrapper').hasClass('className')).toBe(true);
+    expect(wrapper.find('.ezd-input-affix-wrapper').hasClass('className')).toBe(false);
   });
 });

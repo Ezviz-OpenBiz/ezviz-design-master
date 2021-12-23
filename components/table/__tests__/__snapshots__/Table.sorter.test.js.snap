@@ -2,29 +2,29 @@
 
 exports[`Table.sorter renders sorter icon correctly 1`] = `
 <thead
-  class="ant-table-thead"
+  class="ezd-table-thead"
 >
   <tr>
     <th
-      class="ant-table-cell ant-table-column-has-sorters"
+      class="ezd-table-cell ezd-table-column-has-sorters"
     >
       <div
-        class="ant-table-column-sorters"
+        class="ezd-table-column-sorters"
       >
         <span
-          class="ant-table-column-title"
+          class="ezd-table-column-title"
         >
           Name
         </span>
         <span
-          class="ant-table-column-sorter ant-table-column-sorter-full"
+          class="ezd-table-column-sorter ezd-table-column-sorter-full"
         >
           <span
-            class="ant-table-column-sorter-inner"
+            class="ezd-table-column-sorter-inner"
           >
             <span
               aria-label="caret-up"
-              class="anticon anticon-caret-up ant-table-column-sorter-up"
+              class="anticon anticon-caret-up ezd-table-column-sorter-up"
               role="img"
             >
               <svg
@@ -43,7 +43,7 @@ exports[`Table.sorter renders sorter icon correctly 1`] = `
             </span>
             <span
               aria-label="caret-down"
-              class="anticon anticon-caret-down ant-table-column-sorter-down"
+              class="anticon anticon-caret-down ezd-table-column-sorter-down"
               role="img"
             >
               <svg
@@ -70,51 +70,51 @@ exports[`Table.sorter renders sorter icon correctly 1`] = `
 
 exports[`Table.sorter should support defaultOrder in Column 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="ezd-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="ezd-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="ezd-spin-container"
     >
       <div
-        class="ant-table"
+        class="ezd-table"
       >
         <div
-          class="ant-table-container"
+          class="ezd-table-container"
         >
           <div
-            class="ant-table-content"
+            class="ezd-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <colgroup />
               <thead
-                class="ant-table-thead"
+                class="ezd-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-column-sort ant-table-column-has-sorters"
+                    class="ezd-table-cell ezd-table-column-sort ezd-table-column-has-sorters"
                   >
                     <div
-                      class="ant-table-column-sorters"
+                      class="ezd-table-column-sorters"
                     >
                       <span
-                        class="ant-table-column-title"
+                        class="ezd-table-column-title"
                       >
                         Age
                       </span>
                       <span
-                        class="ant-table-column-sorter ant-table-column-sorter-full"
+                        class="ezd-table-column-sorter ezd-table-column-sorter-full"
                       >
                         <span
-                          class="ant-table-column-sorter-inner"
+                          class="ezd-table-column-sorter-inner"
                         >
                           <span
                             aria-label="caret-up"
-                            class="anticon anticon-caret-up ant-table-column-sorter-up active"
+                            class="anticon anticon-caret-up ezd-table-column-sorter-up active"
                             role="img"
                           >
                             <svg
@@ -133,7 +133,7 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
                           </span>
                           <span
                             aria-label="caret-down"
-                            class="anticon anticon-caret-down ant-table-column-sorter-down"
+                            class="anticon anticon-caret-down ezd-table-column-sorter-down"
                             role="img"
                           >
                             <svg
@@ -157,14 +157,14 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="ezd-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="ezd-table-row ezd-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-column-sort"
+                    class="ezd-table-cell ezd-table-column-sort"
                   >
                     1
                   </td>
@@ -175,16 +175,16 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-right"
+        class="ezd-pagination ezd-table-pagination ezd-table-pagination-right"
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="ezd-pagination-prev ezd-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
@@ -211,7 +211,7 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="ezd-pagination-item ezd-pagination-item-1 ezd-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -223,11 +223,11 @@ exports[`Table.sorter should support defaultOrder in Column 1`] = `
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="ezd-pagination-next ezd-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="ezd-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"

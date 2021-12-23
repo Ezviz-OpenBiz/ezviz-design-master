@@ -108,7 +108,6 @@ export interface BaseButtonProps {
 
 // Typescript will make optional not optional if use Pick with union.
 // Should change to `AnchorButtonProps | NativeButtonProps` and `any` to `HTMLAnchorElement | HTMLButtonElement` if it fixed.
-// ref: https://github.com/ant-design/ant-design/issues/15930
 export type AnchorButtonProps = {
   href: string;
   target?: string;
@@ -127,7 +126,7 @@ export type ButtonProps = Partial<AnchorButtonProps & NativeButtonProps>;
 interface CompoundedComponent
   extends React.ForwardRefExoticComponent<ButtonProps & React.RefAttributes<HTMLElement>> {
   Group: typeof Group;
-  __ANT_BUTTON: boolean;
+  __EZD_BUTTON: boolean;
 }
 
 type Loading = number | boolean;
@@ -199,7 +198,6 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement, MouseEvent>) => {
     const { onClick, disabled } = props;
-    // https://github.com/ant-design/ant-design/issues/30207
     if (innerLoading || disabled) {
       e.preventDefault();
       return;
@@ -210,7 +208,7 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
   devWarning(
     !(typeof icon === 'string' && icon.length > 2),
     'Button',
-    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://ant.design/components/icon`,
+    `\`icon\` is using ReactNode instead of string naming in v4. Please check \`${icon}\` at https://saastest3.ys7.com/ezd/components/icon`,
   );
 
   devWarning(
@@ -302,6 +300,6 @@ const Button = React.forwardRef<unknown, ButtonProps>(InternalButton) as Compoun
 Button.displayName = 'Button';
 
 Button.Group = Group;
-Button.__ANT_BUTTON = true;
+Button.__EZD_BUTTON = true;
 
 export default Button;

@@ -21,13 +21,13 @@ describe('Tag', () => {
   it('should be closable', () => {
     const onClose = jest.fn();
     const wrapper = mount(<Tag closable onClose={onClose} />);
-    expect(wrapper.find('.anticon-close').length).toBe(1);
-    expect(wrapper.find('.ant-tag:not(.ant-tag-hidden)').length).toBe(1);
-    wrapper.find('.anticon-close').simulate('click');
+    expect(wrapper.find('.ezdicon-close').length).toBe(1);
+    expect(wrapper.find('.ezd-tag:not(.ezd-tag-hidden)').length).toBe(1);
+    wrapper.find('.ezdicon-close').simulate('click');
     expect(onClose).toHaveBeenCalled();
     jest.runAllTimers();
     wrapper.update();
-    expect(wrapper.find('.ant-tag:not(.ant-tag-hidden)').length).toBe(0);
+    expect(wrapper.find('.ezd-tag:not(.ezd-tag-hidden)').length).toBe(0);
   });
 
   it('should not be closed when prevent default', () => {
@@ -35,17 +35,17 @@ describe('Tag', () => {
       e.preventDefault();
     };
     const wrapper = mount(<Tag closable onClose={onClose} />);
-    expect(wrapper.find('.anticon-close').length).toBe(1);
-    expect(wrapper.find('.ant-tag:not(.ant-tag-hidden)').length).toBe(1);
-    wrapper.find('.anticon-close').simulate('click');
+    expect(wrapper.find('.ezdicon-close').length).toBe(1);
+    expect(wrapper.find('.ezd-tag:not(.ezd-tag-hidden)').length).toBe(1);
+    wrapper.find('.ezdicon-close').simulate('click');
     jest.runAllTimers();
-    expect(wrapper.find('.ant-tag:not(.ant-tag-hidden)').length).toBe(1);
+    expect(wrapper.find('.ezd-tag:not(.ezd-tag-hidden)').length).toBe(1);
   });
 
   it('should trigger onClick', () => {
     const onClick = jest.fn();
     const wrapper = mount(<Tag onClick={onClick} />);
-    wrapper.find('.ant-tag').simulate('click');
+    wrapper.find('.ezd-tag').simulate('click');
     expect(onClick).toHaveBeenCalledWith(
       expect.objectContaining({
         type: 'click',
@@ -57,7 +57,7 @@ describe('Tag', () => {
   it('should trigger onClick on CheckableTag', () => {
     const onClick = jest.fn();
     const wrapper = mount(<Tag.CheckableTag onClick={onClick} />);
-    wrapper.find('.ant-tag').simulate('click');
+    wrapper.find('.ezd-tag').simulate('click');
     expect(onClick).toHaveBeenCalledWith(
       expect.objectContaining({
         type: 'click',
@@ -66,12 +66,11 @@ describe('Tag', () => {
     );
   });
 
-  // https://github.com/ant-design/ant-design/issues/20344
   it('should not trigger onClick when click close icon', () => {
     const onClose = jest.fn();
     const onClick = jest.fn();
     const wrapper = mount(<Tag closable onClose={onClose} onClick={onClick} />);
-    wrapper.find('.anticon-close').simulate('click');
+    wrapper.find('.ezdicon-close').simulate('click');
     expect(onClose).toHaveBeenCalled();
     expect(onClick).not.toHaveBeenCalled();
   });
@@ -104,7 +103,7 @@ describe('Tag', () => {
     it('support onChange', () => {
       const onChange = jest.fn();
       const wrapper = mount(<Tag.CheckableTag onChange={onChange} />);
-      wrapper.find('.ant-tag').simulate('click');
+      wrapper.find('.ezd-tag').simulate('click');
       expect(onChange).toHaveBeenCalledWith(true);
     });
   });

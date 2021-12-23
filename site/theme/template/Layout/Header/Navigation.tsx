@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
 import { Link } from 'bisheng/router';
 import { UnorderedListOutlined } from '@ant-design/icons';
-import { Menu } from 'antd';
+import { Menu } from '@ezviz/ezd';
 import { getEcosystemGroup } from './More';
 import * as utils from '../../utils';
 import { SharedProps } from './interface';
@@ -93,11 +93,6 @@ export default ({
           <a href="https://techui.alipay.com" target="__blank" rel="noopener noreferrer">
             TechUI
           </a>
-        </Menu.Item>
-      )} */}
-      {/* {isZhCN && typeof window !== 'undefined' && window.location.host.indexOf('gitee') === -1 && (
-        <Menu.Item key="mirror">
-          <a href="https://ant-design.gitee.io">国内镜像</a>
         </Menu.Item>
       )} */}
       {additional}

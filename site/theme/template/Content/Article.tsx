@@ -2,7 +2,7 @@ import React, { Children, cloneElement } from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 import { Helmet } from 'react-helmet-async';
 import { getChildren } from 'jsonml.js/lib/utils';
-import { Timeline, Alert, Affix } from 'antd';
+import { Timeline, Alert, Affix } from '@ezviz/ezd';
 import EditButton from './EditButton';
 import { getMetaDescription } from '../utils';
 
@@ -122,7 +122,7 @@ class Article extends React.Component<ArticleProps> {
             message={
               <span>
                 This article has not been translated yet. Wanna help us out?&nbsp;
-                <a href="https://github.com/ant-design/ant-design/issues/1471">
+                <a href="https://github.com/Ezviz-OpenBiz/ezviz-design-master">
                   See this issue on GitHub.
                 </a>
               </span>

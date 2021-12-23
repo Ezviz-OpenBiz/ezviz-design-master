@@ -64,7 +64,7 @@ class App extends React.Component {
                 avatar={
                   <Avatar src="https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png" />
                 }
-                title={<a href="https://ant.design/index-cn">{item.name}</a>}
+                title={<a href="https://saastest3.ys7.com/ezd/index-cn">{item.name}</a>}
                 description="Progresser XTech"
               />
             </List.Item>
@@ -86,7 +86,7 @@ class App extends React.Component {
               <DescriptionItem title="Full Name" content="Lily" />
             </Col>
             <Col span={12}>
-              <DescriptionItem title="Account" content="AntDesign@example.com" />
+              <DescriptionItem title="Account" content="AnEzdDesign@example.com" />
             </Col>
           </Row>
           <Row>
@@ -125,7 +125,7 @@ class App extends React.Component {
           </Row>
           <Row>
             <Col span={12}>
-              <DescriptionItem title="Department" content="XTech" />
+              <DescriptionItem title="Department" content="EZVIZ" />
             </Col>
             <Col span={12}>
               <DescriptionItem title="Supervisor" content={<a>Lin</a>} />
@@ -143,7 +143,7 @@ class App extends React.Component {
           <p className="site-description-item-profile-p">Contacts</p>
           <Row>
             <Col span={12}>
-              <DescriptionItem title="Email" content="AntDesign@example.com" />
+              <DescriptionItem title="Email" content="EzdDesign@example.com" />
             </Col>
             <Col span={12}>
               <DescriptionItem title="Phone Number" content="+86 181 0000 0000" />
@@ -154,8 +154,8 @@ class App extends React.Component {
               <DescriptionItem
                 title="Github"
                 content={
-                  <a href="http://github.com/ant-design/ant-design/">
-                    github.com/ant-design/ant-design/
+                  <a href="https://github.com/Ezviz-OpenBiz/ezviz-design-master/">
+                    github.com/Ezviz-OpenBiz/ezviz-design-master
                   </a>
                 }
               />
@@ -183,7 +183,7 @@ ReactDOM.render(<App />, mountNode);
   line-height: 1.66667;
 }
 
-.ant-drawer-body p.site-description-item-profile-p {
+.ezd-drawer-body p.site-description-item-profile-p {
   display: block;
   margin-bottom: 16px;
   color: rgba(0, 0, 0, 0.85);
@@ -191,7 +191,7 @@ ReactDOM.render(<App />, mountNode);
   line-height: 1.5715;
 }
 
-[data-theme='compact'] .ant-drawer-body p.site-description-item-profile-p {
+[data-theme='compact'] .ezd-drawer-body p.site-description-item-profile-p {
   font-size: 14px;
   line-height: 1.66667;
 }

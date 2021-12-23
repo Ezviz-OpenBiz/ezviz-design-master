@@ -2,22 +2,22 @@
 
 exports[`ConfigProvider.Form form requiredMark set requiredMark optional 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="ezd-form ezd-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="ezd-row ezd-form-item"
   >
     <div
-      class="ant-col ant-form-item-label"
+      class="ezd-col ezd-form-item-label"
     >
       <label
-        class="ant-form-item-required-mark-optional"
+        class="ezd-form-item-required-mark-optional"
         for="age"
         title="年龄"
       >
         年龄
         <span
-          class="ant-form-item-optional"
+          class="ezd-form-item-optional"
           title=""
         >
           (optional)
@@ -25,13 +25,13 @@ exports[`ConfigProvider.Form form requiredMark set requiredMark optional 1`] = `
       </label>
     </div>
     <div
-      class="ant-col ant-form-item-control"
+      class="ezd-col ezd-form-item-control"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ezd-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ezd-form-item-control-input-content"
         >
           <input
             id="age"

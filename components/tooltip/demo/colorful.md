@@ -57,7 +57,7 @@ ReactDOM.render(
 ```
 
 ```css
-.ant-tag {
+.ezd-tag {
   margin-bottom: 8px;
 }
 ```

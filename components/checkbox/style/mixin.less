@@ -1,6 +1,6 @@
 @import '../../style/mixins/index';
 
-.antCheckboxFn(@checkbox-prefix-cls: ~'@{ezd-prefix}-checkbox') {
+.ezdCheckboxFn(@checkbox-prefix-cls: ~'@{ezd-prefix}-checkbox') {
   @checkbox-inner-prefix-cls: ~'@{checkbox-prefix-cls}-inner';
   // 一般状态
   .@{checkbox-prefix-cls} {
@@ -28,7 +28,7 @@
       border: 1px solid @checkbox-color;
       border-radius: @border-radius-base;
       visibility: hidden;
-      animation: antCheckboxEffect 0.36s ease-in-out;
+      animation: ezdCheckboxEffect 0.36s ease-in-out;
       animation-fill-mode: backwards;
       content: '';
     }
@@ -50,7 +50,6 @@
       border: @checkbox-border-width @border-style-base @border-color-base;
       border-radius: @checkbox-border-radius;
       // Fix IE checked style
-      // https://github.com/ant-design/ant-design/issues/12597
       border-collapse: separate;
       transition: all 0.3s;
 
@@ -60,8 +59,6 @@
 
         position: absolute;
         top: 50%;
-        // https://github.com/ant-design/ant-design/pull/19452
-        // https://github.com/ant-design/ant-design/pull/31726
         left: 21.5%;
         display: table;
         width: @check-width;
@@ -220,7 +217,7 @@
   }
 }
 
-@keyframes antCheckboxEffect {
+@keyframes ezdCheckboxEffect {
   0% {
     transform: scale(1);
     opacity: 0.5;

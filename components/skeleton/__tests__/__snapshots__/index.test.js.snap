@@ -2,70 +2,70 @@
 
 exports[`Skeleton avatar element active 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+  class="ezd-skeleton ezd-skeleton-element ezd-skeleton-active"
 >
   <span
-    class="ant-skeleton-avatar ant-skeleton-avatar-circle"
+    class="ezd-skeleton-avatar ezd-skeleton-avatar-circle"
   />
 </div>
 `;
 
 exports[`Skeleton avatar element shape 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-avatar ant-skeleton-avatar-circle"
+    class="ezd-skeleton-avatar ezd-skeleton-avatar-circle"
   />
 </div>
 `;
 
 exports[`Skeleton avatar element shape 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-avatar ant-skeleton-avatar-square"
+    class="ezd-skeleton-avatar ezd-skeleton-avatar-square"
   />
 </div>
 `;
 
 exports[`Skeleton avatar element size 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-avatar ant-skeleton-avatar-sm ant-skeleton-avatar-circle"
+    class="ezd-skeleton-avatar ezd-skeleton-avatar-sm ezd-skeleton-avatar-circle"
   />
 </div>
 `;
 
 exports[`Skeleton avatar element size 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-avatar ant-skeleton-avatar-circle"
+    class="ezd-skeleton-avatar ezd-skeleton-avatar-circle"
   />
 </div>
 `;
 
 exports[`Skeleton avatar element size 3`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+    class="ezd-skeleton-avatar ezd-skeleton-avatar-lg ezd-skeleton-avatar-circle"
   />
 </div>
 `;
 
 exports[`Skeleton avatar element size 4`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-avatar ant-skeleton-avatar-circle"
+    class="ezd-skeleton-avatar ezd-skeleton-avatar-circle"
     style="width: 20px; height: 20px; line-height: 20px;"
   />
 </div>
@@ -73,24 +73,24 @@ exports[`Skeleton avatar element size 4`] = `
 
 exports[`Skeleton avatar shape 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="ezd-skeleton ezd-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="ezd-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+      class="ezd-skeleton-avatar ezd-skeleton-avatar-lg ezd-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -101,24 +101,24 @@ exports[`Skeleton avatar shape 1`] = `
 
 exports[`Skeleton avatar shape 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="ezd-skeleton ezd-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="ezd-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-square"
+      class="ezd-skeleton-avatar ezd-skeleton-avatar-lg ezd-skeleton-avatar-square"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -129,24 +129,24 @@ exports[`Skeleton avatar shape 2`] = `
 
 exports[`Skeleton avatar size 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="ezd-skeleton ezd-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="ezd-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-sm ant-skeleton-avatar-circle"
+      class="ezd-skeleton-avatar ezd-skeleton-avatar-sm ezd-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -157,24 +157,24 @@ exports[`Skeleton avatar size 1`] = `
 
 exports[`Skeleton avatar size 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="ezd-skeleton ezd-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="ezd-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-circle"
+      class="ezd-skeleton-avatar ezd-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -185,24 +185,24 @@ exports[`Skeleton avatar size 2`] = `
 
 exports[`Skeleton avatar size 3`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="ezd-skeleton ezd-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="ezd-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+      class="ezd-skeleton-avatar ezd-skeleton-avatar-lg ezd-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -213,25 +213,25 @@ exports[`Skeleton avatar size 3`] = `
 
 exports[`Skeleton avatar size 4`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="ezd-skeleton ezd-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="ezd-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-circle"
+      class="ezd-skeleton-avatar ezd-skeleton-avatar-circle"
       style="width: 20px; height: 20px; line-height: 20px;"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -242,98 +242,98 @@ exports[`Skeleton avatar size 4`] = `
 
 exports[`Skeleton button element active 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+  class="ezd-skeleton ezd-skeleton-element ezd-skeleton-active"
 >
   <span
-    class="ant-skeleton-button"
+    class="ezd-skeleton-button"
   />
 </div>
 `;
 
 exports[`Skeleton button element block 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element ant-skeleton-block"
+  class="ezd-skeleton ezd-skeleton-element ezd-skeleton-block"
 >
   <span
-    class="ant-skeleton-button"
+    class="ezd-skeleton-button"
   />
 </div>
 `;
 
 exports[`Skeleton button element shape 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-button"
+    class="ezd-skeleton-button"
   />
 </div>
 `;
 
 exports[`Skeleton button element shape 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-button ant-skeleton-button-round"
+    class="ezd-skeleton-button ezd-skeleton-button-round"
   />
 </div>
 `;
 
 exports[`Skeleton button element shape 3`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-button ant-skeleton-button-circle"
+    class="ezd-skeleton-button ezd-skeleton-button-circle"
   />
 </div>
 `;
 
 exports[`Skeleton button element size 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-button"
+    class="ezd-skeleton-button"
   />
 </div>
 `;
 
 exports[`Skeleton button element size 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-button ant-skeleton-button-lg"
+    class="ezd-skeleton-button ezd-skeleton-button-lg"
   />
 </div>
 `;
 
 exports[`Skeleton button element size 3`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-button ant-skeleton-button-sm"
+    class="ezd-skeleton-button ezd-skeleton-button-sm"
   />
 </div>
 `;
 
 exports[`Skeleton image element should render normal 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <div
-    class="ant-skeleton-image"
+    class="ezd-skeleton-image"
   >
     <svg
-      class="ant-skeleton-image-svg"
+      class="ezd-skeleton-image-svg"
       viewBox="0 0 1098 1024"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        class="ant-skeleton-image-path"
+        class="ezd-skeleton-image-path"
         d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
       />
     </svg>
@@ -343,57 +343,57 @@ exports[`Skeleton image element should render normal 1`] = `
 
 exports[`Skeleton input element active 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+  class="ezd-skeleton ezd-skeleton-element ezd-skeleton-active"
 >
   <span
-    class="ant-skeleton-input"
+    class="ezd-skeleton-input"
   />
 </div>
 `;
 
 exports[`Skeleton input element size 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-input ant-skeleton-input-sm"
+    class="ezd-skeleton-input ezd-skeleton-input-sm"
   />
 </div>
 `;
 
 exports[`Skeleton input element size 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-input"
+    class="ezd-skeleton-input"
   />
 </div>
 `;
 
 exports[`Skeleton input element size 3`] = `
 <div
-  class="ant-skeleton ant-skeleton-element"
+  class="ezd-skeleton ezd-skeleton-element"
 >
   <span
-    class="ant-skeleton-input ant-skeleton-input-lg"
+    class="ezd-skeleton-input ezd-skeleton-input-lg"
   />
 </div>
 `;
 
 exports[`Skeleton paragraph rows 1`] = `
 <div
-  class="ant-skeleton"
+  class="ezd-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 38%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -409,17 +409,17 @@ exports[`Skeleton paragraph rows 1`] = `
 
 exports[`Skeleton paragraph width 1`] = `
 <div
-  class="ant-skeleton"
+  class="ezd-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 38%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -433,17 +433,17 @@ exports[`Skeleton paragraph width 1`] = `
 
 exports[`Skeleton paragraph width 2`] = `
 <div
-  class="ant-skeleton"
+  class="ezd-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 38%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li
         style="width: 28%;"
@@ -459,17 +459,17 @@ exports[`Skeleton paragraph width 2`] = `
 
 exports[`Skeleton rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-rtl"
+  class="ezd-skeleton ezd-skeleton-rtl"
 >
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width:38%"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -483,17 +483,17 @@ exports[`Skeleton rtl render component should be rendered correctly in RTL direc
 
 exports[`Skeleton should round title and paragraph 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-round"
+  class="ezd-skeleton ezd-skeleton-round"
 >
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 38%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />
@@ -507,20 +507,20 @@ exports[`Skeleton should round title and paragraph 1`] = `
 
 exports[`Skeleton should square avatar 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="ezd-skeleton ezd-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="ezd-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-square"
+      class="ezd-skeleton-avatar ezd-skeleton-avatar-lg ezd-skeleton-avatar-square"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
     />
   </div>
 </div>
@@ -528,13 +528,13 @@ exports[`Skeleton should square avatar 1`] = `
 
 exports[`Skeleton should without avatar and paragraph 1`] = `
 <div
-  class="ant-skeleton"
+  class="ezd-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
     />
   </div>
 </div>
@@ -542,17 +542,17 @@ exports[`Skeleton should without avatar and paragraph 1`] = `
 
 exports[`Skeleton title width 1`] = `
 <div
-  class="ant-skeleton"
+  class="ezd-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="ezd-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="ezd-skeleton-title"
       style="width: 93%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="ezd-skeleton-paragraph"
     >
       <li />
       <li />

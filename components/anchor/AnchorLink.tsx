@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { AntAnchor } from './Anchor';
+import { EzdAnchor } from './Anchor';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
 import AnchorContext from './context';
 
@@ -13,14 +13,14 @@ export interface AnchorLinkProps {
   className?: string;
 }
 
-class AnchorLink extends React.Component<AnchorLinkProps, any, AntAnchor> {
+class AnchorLink extends React.Component<AnchorLinkProps, any, EzdAnchor> {
   static defaultProps = {
     href: '#',
   };
 
   static contextType = AnchorContext;
 
-  context: AntAnchor;
+  context: EzdAnchor;
 
   componentDidMount() {
     this.context.registerLink(this.props.href);

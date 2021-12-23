@@ -90,7 +90,7 @@ message.config({
 | duration | Time before auto-dismiss, in seconds | number | 3 |  |
 | getContainer | Return the mount node for Message | () => HTMLElement | () => document.body |  |
 | maxCount | Max message show, drop oldest if exceed limit | number | - |  |
-| prefixCls | The prefix className of message node | string | `ant-message` | 4.5.0 |
+| prefixCls | The prefix className of message node | string | `ezd-message` | 4.5.0 |
 | rtl | Whether to enable RTL mode | boolean | false |  |
 | top | Distance from top | number | 8 |  |
 
@@ -106,7 +106,7 @@ When you need context info (like ConfigProvider context), you can use `message.u
 const [api, contextHolder] = message.useMessage();
 
 return (
-  <Context1.Provider value="Ant">
+  <Context1.Provider value="Ezd">
     {/* contextHolder is inside Context1 which means api will get value of Context1 */}
     {contextHolder}
     <Context2.Provider value="Design">

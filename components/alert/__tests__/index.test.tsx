@@ -30,7 +30,7 @@ describe('Alert', () => {
         onClose={onClose}
       />,
     );
-    wrapper.find('.ant-alert-close-icon').simulate('click');
+    wrapper.find('.ezd-alert-close-icon').simulate('click');
     jest.runAllTimers();
     expect(onClose).toHaveBeenCalled();
   });
@@ -57,20 +57,20 @@ describe('Alert', () => {
   describe('data and aria props', () => {
     it('sets data attributes on input', () => {
       const wrapper = mount(<Alert data-test="test-id" data-id="12345" message={null} />);
-      const input = wrapper.find('.ant-alert').getDOMNode();
+      const input = wrapper.find('.ezd-alert').getDOMNode();
       expect(input.getAttribute('data-test')).toBe('test-id');
       expect(input.getAttribute('data-id')).toBe('12345');
     });
 
     it('sets aria attributes on input', () => {
       const wrapper = mount(<Alert aria-describedby="some-label" message={null} />);
-      const input = wrapper.find('.ant-alert').getDOMNode();
+      const input = wrapper.find('.ezd-alert').getDOMNode();
       expect(input.getAttribute('aria-describedby')).toBe('some-label');
     });
 
     it('sets role attribute on input', () => {
       const wrapper = mount(<Alert role="status" message={null} />);
-      const input = wrapper.find('.ant-alert').getDOMNode();
+      const input = wrapper.find('.ezd-alert').getDOMNode();
       expect(input.getAttribute('role')).toBe('status');
     });
   });
@@ -104,7 +104,7 @@ describe('Alert', () => {
         />
       </Tooltip>,
     );
-    wrapper.find('.ant-alert').simulate('mouseenter');
+    wrapper.find('.ezd-alert').simulate('mouseenter');
     await sleep(0);
     expect(ref.current.getPopupDomNode()).toBeTruthy();
     jest.useFakeTimers();
@@ -121,7 +121,7 @@ describe('Alert', () => {
         />
       </Popconfirm>,
     );
-    wrapper.find('.ant-alert').simulate('click');
+    wrapper.find('.ezd-alert').simulate('click');
     await sleep(0);
     expect(ref.current.getPopupDomNode()).toBeTruthy();
     jest.useFakeTimers();
@@ -134,6 +134,6 @@ describe('Alert', () => {
 
   it('should not render message div when no message', () => {
     const wrapper = mount(<Alert description="description" />);
-    expect(wrapper.exists('.ant-alert-message')).toBe(false);
+    expect(wrapper.exists('.ezd-alert-message')).toBe(false);
   });
 });

@@ -2,12 +2,12 @@
 
 exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
 <ul
-  class="ant-rate"
+  class="ezd-rate"
   role="radiogroup"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -17,7 +17,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -40,7 +40,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -65,7 +65,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -75,7 +75,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -98,7 +98,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -123,7 +123,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -133,7 +133,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -156,7 +156,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -181,7 +181,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -191,7 +191,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -214,7 +214,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -239,7 +239,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -249,7 +249,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -272,7 +272,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -302,12 +302,12 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
 exports[`renders ./components/rate/demo/character.md correctly 1`] = `
 Array [
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -317,7 +317,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="heart"
@@ -340,7 +340,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="heart"
@@ -365,7 +365,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -375,7 +375,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="heart"
@@ -398,7 +398,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="heart"
@@ -423,7 +423,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -433,7 +433,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="heart"
@@ -456,7 +456,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="heart"
@@ -481,7 +481,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -491,7 +491,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="heart"
@@ -514,7 +514,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="heart"
@@ -539,7 +539,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -549,7 +549,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="heart"
@@ -572,7 +572,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="heart"
@@ -599,13 +599,13 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     style="font-size:36px"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -615,19 +615,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -637,19 +637,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -659,19 +659,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -681,19 +681,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -703,12 +703,12 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           A
         </div>
@@ -717,12 +717,12 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -732,19 +732,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -754,19 +754,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -776,19 +776,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -798,19 +798,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -820,12 +820,12 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           好
         </div>
@@ -838,12 +838,12 @@ Array [
 exports[`renders ./components/rate/demo/character-function.md correctly 1`] = `
 Array [
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -853,19 +853,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           1
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           1
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -875,19 +875,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           2
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           2
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -897,19 +897,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           3
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           3
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -919,19 +919,19 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           4
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           4
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -941,12 +941,12 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           5
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           5
         </div>
@@ -955,12 +955,12 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -970,7 +970,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="frown"
@@ -993,7 +993,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="frown"
@@ -1018,7 +1018,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1028,7 +1028,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="frown"
@@ -1051,7 +1051,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="frown"
@@ -1076,7 +1076,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1086,7 +1086,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="meh"
@@ -1109,7 +1109,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="meh"
@@ -1134,7 +1134,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1144,7 +1144,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="smile"
@@ -1167,7 +1167,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="smile"
@@ -1192,7 +1192,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1202,7 +1202,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="smile"
@@ -1225,7 +1225,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="smile"
@@ -1256,12 +1256,12 @@ Array [
 exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
 Array [
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1271,7 +1271,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1294,7 +1294,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1319,7 +1319,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1329,7 +1329,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1352,7 +1352,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1377,7 +1377,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1387,7 +1387,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1410,7 +1410,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1435,7 +1435,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1445,7 +1445,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1468,7 +1468,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1493,7 +1493,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1503,7 +1503,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1526,7 +1526,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1552,18 +1552,18 @@ Array [
     </li>
   </ul>,
   <span
-    class="ant-rate-text"
+    class="ezd-rate-text"
   >
     allowClear: true
   </span>,
   <br />,
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1573,7 +1573,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1596,7 +1596,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1621,7 +1621,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1631,7 +1631,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1654,7 +1654,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1679,7 +1679,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1689,7 +1689,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1712,7 +1712,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1737,7 +1737,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1747,7 +1747,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1770,7 +1770,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1795,7 +1795,7 @@ Array [
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1805,7 +1805,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -1828,7 +1828,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -1854,7 +1854,7 @@ Array [
     </li>
   </ul>,
   <span
-    class="ant-rate-text"
+    class="ezd-rate-text"
   >
     allowClear: false
   </span>,
@@ -1863,12 +1863,12 @@ Array [
 
 exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
 <ul
-  class="ant-rate ant-rate-disabled"
+  class="ezd-rate ant-rate-disabled"
   role="radiogroup"
   tabindex="-1"
 >
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="ezd-rate-star ant-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1878,7 +1878,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -1901,7 +1901,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -1926,7 +1926,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="ezd-rate-star ant-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1936,7 +1936,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -1959,7 +1959,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -1984,7 +1984,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -1994,7 +1994,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2017,7 +2017,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2042,7 +2042,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2052,7 +2052,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2075,7 +2075,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2100,7 +2100,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2110,7 +2110,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2133,7 +2133,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2162,12 +2162,12 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
 
 exports[`renders ./components/rate/demo/half.md correctly 1`] = `
 <ul
-  class="ant-rate"
+  class="ezd-rate"
   role="radiogroup"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="ezd-rate-star ant-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -2177,7 +2177,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2200,7 +2200,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2225,7 +2225,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="ezd-rate-star ant-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -2235,7 +2235,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2258,7 +2258,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2283,7 +2283,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-half ant-rate-star-active"
+    class="ezd-rate-star ant-rate-star-half ant-rate-star-active"
   >
     <div
       aria-checked="true"
@@ -2293,7 +2293,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2316,7 +2316,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2341,7 +2341,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2351,7 +2351,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2374,7 +2374,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2399,7 +2399,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="ezd-rate-star ant-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2409,7 +2409,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="ezd-rate-star-first"
       >
         <span
           aria-label="star"
@@ -2432,7 +2432,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="ezd-rate-star-second"
       >
         <span
           aria-label="star"
@@ -2462,12 +2462,12 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
 exports[`renders ./components/rate/demo/text.md correctly 1`] = `
 <span>
   <ul
-    class="ant-rate"
+    class="ezd-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -2477,7 +2477,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -2500,7 +2500,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -2525,7 +2525,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -2535,7 +2535,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -2558,7 +2558,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -2583,7 +2583,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="ezd-rate-star ant-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -2593,7 +2593,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -2616,7 +2616,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -2641,7 +2641,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2651,7 +2651,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -2674,7 +2674,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -2699,7 +2699,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="ezd-rate-star ant-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2709,7 +2709,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="ezd-rate-star-first"
         >
           <span
             aria-label="star"
@@ -2732,7 +2732,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="ezd-rate-star-second"
         >
           <span
             aria-label="star"
@@ -2758,7 +2758,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
     </li>
   </ul>
   <span
-    class="ant-rate-text"
+    class="ezd-rate-text"
   >
     normal
   </span>

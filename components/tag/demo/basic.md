@@ -29,7 +29,7 @@ ReactDOM.render(
   <>
     <Tag>Tag 1</Tag>
     <Tag>
-      <a href="https://github.com/ant-design/ant-design/issues/1862">Link</a>
+      <a href="https://saastest3.ys7.com/">Link</a>
     </Tag>
     <Tag closable onClose={log}>
       Tag 2

@@ -2,21 +2,21 @@
 
 exports[`renders ./components/select/demo/automatic-tokenization.md correctly 1`] = `
 <div
-  class="ant-select ant-select-multiple ant-select-show-search"
+  class="ezd-select ant-select-multiple ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -26,14 +26,14 @@ exports[`renders ./components/select/demo/automatic-tokenization.md correctly 1`
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             role="combobox"
             type="search"
             value=""
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -41,7 +41,7 @@ exports[`renders ./components/select/demo/automatic-tokenization.md correctly 1`
       </div>
     </div>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     />
   </div>
 </div>
@@ -50,14 +50,14 @@ exports[`renders ./components/select/demo/automatic-tokenization.md correctly 1`
 exports[`renders ./components/select/demo/basic.md correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -66,7 +66,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -76,7 +76,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -84,7 +84,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -110,14 +110,14 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-select ant-select-single ant-select-show-arrow ant-select-disabled"
+    class="ezd-select ant-select-single ant-select-show-arrow ant-select-disabled"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -127,7 +127,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           disabled=""
           readonly=""
           role="combobox"
@@ -138,7 +138,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -146,7 +146,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -172,14 +172,14 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-select ant-select-single ant-select-show-arrow ant-select-loading"
+    class="ezd-select ant-select-single ant-select-show-arrow ant-select-loading"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -188,7 +188,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -198,7 +198,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -206,7 +206,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow ant-select-arrow-loading"
+      class="ezd-select-arrow ant-select-arrow-loading"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -232,14 +232,14 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-select ant-select-single ant-select-allow-clear ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-allow-clear ant-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -248,7 +248,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -258,7 +258,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -266,7 +266,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -292,7 +292,7 @@ Array [
     </span>
     <span
       aria-hidden="true"
-      class="ant-select-clear"
+      class="ezd-select-clear"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -323,56 +323,56 @@ Array [
 exports[`renders ./components/select/demo/big-data.md correctly 1`] = `
 Array [
   <h3
-    class="ant-typography"
+    class="ezd-typography"
   >
     EZ Design 4.0
   </h3>,
   <h4
-    class="ant-typography"
+    class="ezd-typography"
   >
     100000 Items
   </h4>,
   <div
-    class="ant-select ant-select-multiple ant-select-show-search"
+    class="ezd-select ant-select-multiple ant-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <div
-        class="ant-select-selection-overflow"
+        class="ezd-select-selection-overflow"
       >
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item ant-select-selection-item-disabled"
+            class="ezd-select-selection-item ant-select-selection-item-disabled"
             title="a10"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               a10
             </span>
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="c12"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               c12
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -399,11 +399,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+          class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
           style="opacity:1"
         >
           <div
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
             style="width:0"
           >
             <input
@@ -413,7 +413,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -423,7 +423,7 @@ Array [
             />
             <span
               aria-hidden="true"
-              class="ant-select-selection-search-mirror"
+              class="ezd-select-selection-search-mirror"
             >
                
             </span>
@@ -433,11 +433,11 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="ezd-divider ant-divider-horizontal"
     role="separator"
   />,
   <h3
-    class="ant-typography"
+    class="ezd-typography"
   >
     EZ Design 3.0
   </h3>,
@@ -452,14 +452,14 @@ Array [
 exports[`renders ./components/select/demo/bordered.md correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-borderless ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-borderless ant-select-single ant-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -468,7 +468,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -478,7 +478,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -486,7 +486,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -512,14 +512,14 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-select ant-select-borderless ant-select-single ant-select-show-arrow ant-select-disabled"
+    class="ezd-select ant-select-borderless ant-select-single ant-select-show-arrow ant-select-disabled"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -529,7 +529,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           disabled=""
           readonly=""
           role="combobox"
@@ -540,7 +540,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -548,7 +548,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -579,14 +579,14 @@ Array [
 exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -595,7 +595,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -605,7 +605,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Zhejiang"
       >
         Zhejiang
@@ -613,7 +613,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -639,14 +639,14 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -655,7 +655,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -665,7 +665,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Hangzhou"
       >
         Hangzhou
@@ -673,7 +673,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -703,14 +703,14 @@ Array [
 
 exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-arrow"
+  class="ezd-select ant-select-single ant-select-show-arrow"
   style="width:240px"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -719,7 +719,7 @@ exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] 
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         readonly=""
         role="combobox"
         style="opacity:0"
@@ -729,14 +729,14 @@ exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] 
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       custom dropdown render
     </span>
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -765,22 +765,22 @@ exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] 
 
 exports[`renders ./components/select/demo/custom-tag-render.md correctly 1`] = `
 <div
-  class="ant-select ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="ezd-select ant-select-multiple ant-select-show-arrow ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item"
+        class="ezd-select-selection-overflow-item"
         style="opacity:1"
       >
         <span>
           <span
-            class="ant-tag ant-tag-gold"
+            class="ezd-tag ant-tag-gold"
             style="margin-right:3px"
           >
             gold
@@ -808,12 +808,12 @@ exports[`renders ./components/select/demo/custom-tag-render.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select-selection-overflow-item"
+        class="ezd-select-selection-overflow-item"
         style="opacity:1"
       >
         <span>
           <span
-            class="ant-tag ant-tag-cyan"
+            class="ezd-tag ant-tag-cyan"
             style="margin-right:3px"
           >
             cyan
@@ -841,11 +841,11 @@ exports[`renders ./components/select/demo/custom-tag-render.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -855,7 +855,7 @@ exports[`renders ./components/select/demo/custom-tag-render.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -865,7 +865,7 @@ exports[`renders ./components/select/demo/custom-tag-render.md correctly 1`] = `
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -875,7 +875,7 @@ exports[`renders ./components/select/demo/custom-tag-render.md correctly 1`] = `
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -907,20 +907,20 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
   style="width:500px;position:relative;z-index:1;border:1px solid red;background:#FFF"
 >
   <input
-    class="ant-input"
+    class="ezd-input"
     style="width:100px"
     type="text"
     value="222"
   />
   <div
-    class="ant-select ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="ezd-select ant-select-single ant-select-show-arrow ant-select-show-search"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -929,21 +929,21 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           role="combobox"
           type="search"
           value=""
         />
       </span>
       <span
-        class="ant-select-selection-placeholder"
+        class="ezd-select-selection-placeholder"
       >
         233
       </span>
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -969,31 +969,31 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-select ant-select-multiple ant-select-show-search"
+    class="ezd-select ant-select-multiple ant-select-show-search"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <div
-        class="ant-select-selection-overflow"
+        class="ezd-select-selection-overflow"
       >
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -1020,11 +1020,11 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+          class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
           style="opacity:1"
         >
           <div
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
             style="width:0"
           >
             <input
@@ -1034,7 +1034,7 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -1044,7 +1044,7 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
             />
             <span
               aria-hidden="true"
-              class="ant-select-selection-search-mirror"
+              class="ezd-select-selection-search-mirror"
             >
                
             </span>
@@ -1059,7 +1059,7 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
     AntDesign
   </span>
   <button
-    class="ant-btn"
+    class="ezd-btn"
     type="button"
   >
     <span>
@@ -1071,21 +1071,21 @@ exports[`renders ./components/select/demo/debug.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
 <div
-  class="ant-select ant-select-multiple ant-select-show-search"
+  class="ezd-select ant-select-multiple ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -1095,7 +1095,7 @@ exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -1105,7 +1105,7 @@ exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -1113,7 +1113,7 @@ exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Inserted are removed
     </span>
@@ -1123,14 +1123,14 @@ exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-arrow"
+  class="ezd-select ant-select-single ant-select-show-arrow"
   style="width:120px"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -1139,7 +1139,7 @@ exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         readonly=""
         role="combobox"
         style="opacity:0"
@@ -1149,7 +1149,7 @@ exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
       />
     </span>
     <span
-      class="ant-select-selection-item"
+      class="ezd-select-selection-item"
       title="Lucy (101)"
     >
       Lucy (101)
@@ -1157,7 +1157,7 @@ exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -1187,31 +1187,31 @@ exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
 exports[`renders ./components/select/demo/multiple.md correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-multiple ant-select-allow-clear ant-select-show-search"
+    class="ezd-select ant-select-multiple ant-select-allow-clear ant-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <div
-        class="ant-select-selection-overflow"
+        class="ezd-select-selection-overflow"
       >
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="a10"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               a10
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -1238,21 +1238,21 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="c12"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               c12
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -1279,11 +1279,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+          class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
           style="opacity:1"
         >
           <div
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
             style="width:0"
           >
             <input
@@ -1293,7 +1293,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -1303,7 +1303,7 @@ Array [
             />
             <span
               aria-hidden="true"
-              class="ant-select-selection-search-mirror"
+              class="ezd-select-selection-search-mirror"
             >
                
             </span>
@@ -1313,7 +1313,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-clear"
+      class="ezd-select-clear"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -1340,51 +1340,51 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-select ant-select-multiple ant-select-disabled ant-select-show-search"
+    class="ezd-select ant-select-multiple ant-select-disabled ant-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <div
-        class="ant-select-selection-overflow"
+        class="ezd-select-selection-overflow"
       >
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="a10"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               a10
             </span>
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="c12"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               c12
             </span>
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+          class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
           style="opacity:1"
         >
           <div
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
             style="width:0"
           >
             <input
@@ -1395,7 +1395,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               disabled=""
               readonly=""
               role="combobox"
@@ -1406,7 +1406,7 @@ Array [
             />
             <span
               aria-hidden="true"
-              class="ant-select-selection-search-mirror"
+              class="ezd-select-selection-search-mirror"
             >
                
             </span>
@@ -1420,14 +1420,14 @@ Array [
 
 exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-arrow"
+  class="ezd-select ant-select-single ant-select-show-arrow"
   style="width:200px"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -1436,7 +1436,7 @@ exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         readonly=""
         role="combobox"
         style="opacity:0"
@@ -1446,7 +1446,7 @@ exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
       />
     </span>
     <span
-      class="ant-select-selection-item"
+      class="ezd-select-selection-item"
       title="Lucy"
     >
       Lucy
@@ -1454,7 +1454,7 @@ exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -1483,31 +1483,31 @@ exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/option-label-prop.md correctly 1`] = `
 <div
-  class="ant-select ant-select-multiple ant-select-show-search"
+  class="ezd-select ant-select-multiple ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item"
+        class="ezd-select-selection-overflow-item"
         style="opacity:1"
       >
         <span
-          class="ant-select-selection-item"
+          class="ezd-select-selection-item"
           title="China"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="ezd-select-selection-item-content"
           >
             China
           </span>
           <span
             aria-hidden="true"
-            class="ant-select-selection-item-remove"
+            class="ezd-select-selection-item-remove"
             style="user-select:none;-webkit-user-select:none"
             unselectable="on"
           >
@@ -1534,11 +1534,11 @@ exports[`renders ./components/select/demo/option-label-prop.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -1548,7 +1548,7 @@ exports[`renders ./components/select/demo/option-label-prop.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -1558,7 +1558,7 @@ exports[`renders ./components/select/demo/option-label-prop.md correctly 1`] = `
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -1571,45 +1571,45 @@ exports[`renders ./components/select/demo/option-label-prop.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/responsive.md correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical"
+  class="ezd-space ant-space-vertical"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
     style="margin-bottom:8px"
   >
     <div
-      class="ant-select ant-select-multiple ant-select-show-search"
+      class="ezd-select ant-select-multiple ant-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <div
-          class="ant-select-selection-overflow"
+          class="ezd-select-selection-overflow"
         >
           <div
             aria-hidden="true"
-            class="ant-select-selection-overflow-item ant-select-selection-overflow-item-rest"
+            class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-rest"
             style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
           >
             <span
-              class="ant-select-selection-item"
+              class="ezd-select-selection-item"
               title="+ 4 ..."
             >
               <span
-                class="ant-select-selection-item-content"
+                class="ezd-select-selection-item-content"
               >
                 + 4 ...
               </span>
             </span>
           </div>
           <div
-            class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+            class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
             style="opacity:1;order:0"
           >
             <div
-              class="ant-select-selection-search"
+              class="ezd-select-selection-search"
               style="width:0"
             >
               <input
@@ -1619,7 +1619,7 @@ exports[`renders ./components/select/demo/responsive.md correctly 1`] = `
                 aria-haspopup="listbox"
                 aria-owns="undefined_list"
                 autocomplete="off"
-                class="ant-select-selection-search-input"
+                class="ezd-select-selection-search-input"
                 readonly=""
                 role="combobox"
                 style="opacity:0"
@@ -1629,7 +1629,7 @@ exports[`renders ./components/select/demo/responsive.md correctly 1`] = `
               />
               <span
                 aria-hidden="true"
-                class="ant-select-selection-search-mirror"
+                class="ezd-select-selection-search-mirror"
               >
                  
               </span>
@@ -1640,40 +1640,40 @@ exports[`renders ./components/select/demo/responsive.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="ezd-space-item"
   >
     <div
-      class="ant-select ant-select-multiple ant-select-disabled ant-select-show-search"
+      class="ezd-select ant-select-multiple ant-select-disabled ant-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-selector"
+        class="ezd-select-selector"
       >
         <div
-          class="ant-select-selection-overflow"
+          class="ezd-select-selection-overflow"
         >
           <div
             aria-hidden="true"
-            class="ant-select-selection-overflow-item ant-select-selection-overflow-item-rest"
+            class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-rest"
             style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
           >
             <span
-              class="ant-select-selection-item"
+              class="ezd-select-selection-item"
               title="+ 4 ..."
             >
               <span
-                class="ant-select-selection-item-content"
+                class="ezd-select-selection-item-content"
               >
                 + 4 ...
               </span>
             </span>
           </div>
           <div
-            class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+            class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
             style="opacity:1;order:0"
           >
             <div
-              class="ant-select-selection-search"
+              class="ezd-select-selection-search"
               style="width:0"
             >
               <input
@@ -1684,7 +1684,7 @@ exports[`renders ./components/select/demo/responsive.md correctly 1`] = `
                 aria-haspopup="listbox"
                 aria-owns="undefined_list"
                 autocomplete="off"
-                class="ant-select-selection-search-input"
+                class="ezd-select-selection-search-input"
                 disabled=""
                 readonly=""
                 role="combobox"
@@ -1695,7 +1695,7 @@ exports[`renders ./components/select/demo/responsive.md correctly 1`] = `
               />
               <span
                 aria-hidden="true"
-                class="ant-select-selection-search-mirror"
+                class="ezd-select-selection-search-mirror"
               >
                  
               </span>
@@ -1710,14 +1710,14 @@ exports[`renders ./components/select/demo/responsive.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/search.md correctly 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-arrow ant-select-show-search"
+  class="ezd-select ant-select-single ant-select-show-arrow ant-select-show-search"
   style="width:200px"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -1726,21 +1726,21 @@ exports[`renders ./components/select/demo/search.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         role="combobox"
         type="search"
         value=""
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Select a person
     </span>
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -1769,14 +1769,14 @@ exports[`renders ./components/select/demo/search.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/search-box.md correctly 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-search"
+  class="ezd-select ant-select-single ant-select-show-search"
   style="width:200px"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -1785,14 +1785,14 @@ exports[`renders ./components/select/demo/search-box.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         role="combobox"
         type="search"
         value=""
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       input search text
     </span>
@@ -1802,14 +1802,14 @@ exports[`renders ./components/select/demo/search-box.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/search-sort.md correctly 1`] = `
 <div
-  class="ant-select ant-select-single ant-select-show-arrow ant-select-show-search"
+  class="ezd-select ant-select-single ant-select-show-arrow ant-select-show-search"
   style="width:200px"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <span
-      class="ant-select-selection-search"
+      class="ezd-select-selection-search"
     >
       <input
         aria-activedescendant="undefined_list_0"
@@ -1818,21 +1818,21 @@ exports[`renders ./components/select/demo/search-sort.md correctly 1`] = `
         aria-haspopup="listbox"
         aria-owns="undefined_list"
         autocomplete="off"
-        class="ant-select-selection-search-input"
+        class="ezd-select-selection-search-input"
         role="combobox"
         type="search"
         value=""
       />
     </span>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Search to Select
     </span>
   </div>
   <span
     aria-hidden="true"
-    class="ant-select-arrow"
+    class="ezd-select-arrow"
     style="user-select:none;-webkit-user-select:none"
     unselectable="on"
   >
@@ -1861,21 +1861,21 @@ exports[`renders ./components/select/demo/search-sort.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
 <div
-  class="ant-select ant-select-multiple ant-select-show-search"
+  class="ezd-select ant-select-multiple ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -1885,7 +1885,7 @@ exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             readonly=""
             role="combobox"
             style="opacity:0"
@@ -1895,7 +1895,7 @@ exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -1903,7 +1903,7 @@ exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Select users
     </span>
@@ -1914,21 +1914,21 @@ exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
 exports[`renders ./components/select/demo/size.md correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="ezd-radio-group ant-radio-group-outline"
   >
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="large"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1936,19 +1936,19 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="ezd-radio-button-wrapper ant-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="ezd-radio-button ant-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="default"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1956,18 +1956,18 @@ Array [
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="ezd-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="ezd-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="ezd-radio-button-input"
           type="radio"
           value="small"
         />
         <span
-          class="ant-radio-button-inner"
+          class="ezd-radio-button-inner"
         />
       </span>
       <span>
@@ -1978,14 +1978,14 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -1994,7 +1994,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -2004,7 +2004,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="a1"
       >
         a1
@@ -2012,7 +2012,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -2039,31 +2039,31 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-select ant-select-multiple ant-select-show-search"
+    class="ezd-select ant-select-multiple ant-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <div
-        class="ant-select-selection-overflow"
+        class="ezd-select-selection-overflow"
       >
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="a10"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               a10
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -2090,21 +2090,21 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="c12"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               c12
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -2131,11 +2131,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+          class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
           style="opacity:1"
         >
           <div
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
             style="width:0"
           >
             <input
@@ -2145,7 +2145,7 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               readonly=""
               role="combobox"
               style="opacity:0"
@@ -2155,7 +2155,7 @@ Array [
             />
             <span
               aria-hidden="true"
-              class="ant-select-selection-search-mirror"
+              class="ezd-select-selection-search-mirror"
             >
                
             </span>
@@ -2166,31 +2166,31 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-select ant-select-multiple ant-select-show-search"
+    class="ezd-select ant-select-multiple ant-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <div
-        class="ant-select-selection-overflow"
+        class="ezd-select-selection-overflow"
       >
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="a10"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               a10
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -2217,21 +2217,21 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item"
+          class="ezd-select-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="ezd-select-selection-item"
             title="c12"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="ezd-select-selection-item-content"
             >
               c12
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="ezd-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
@@ -2258,11 +2258,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+          class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
           style="opacity:1"
         >
           <div
-            class="ant-select-selection-search"
+            class="ezd-select-selection-search"
             style="width:0"
           >
             <input
@@ -2272,14 +2272,14 @@ Array [
               aria-haspopup="listbox"
               aria-owns="undefined_list"
               autocomplete="off"
-              class="ant-select-selection-search-input"
+              class="ezd-select-selection-search-input"
               role="combobox"
               type="search"
               value=""
             />
             <span
               aria-hidden="true"
-              class="ant-select-selection-search-mirror"
+              class="ezd-select-selection-search-mirror"
             >
                
             </span>
@@ -2294,14 +2294,14 @@ Array [
 exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-single ant-select-show-arrow"
+    class="ezd-select ant-select-single ant-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -2310,7 +2310,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           readonly=""
           role="combobox"
           style="opacity:0"
@@ -2320,7 +2320,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -2328,7 +2328,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -2354,14 +2354,14 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-select ant-select-single ant-select-show-arrow ant-select-disabled"
+    class="ezd-select ant-select-single ant-select-show-arrow ant-select-disabled"
     style="width:120px"
   >
     <div
-      class="ant-select-selector"
+      class="ezd-select-selector"
     >
       <span
-        class="ant-select-selection-search"
+        class="ezd-select-selection-search"
       >
         <input
           aria-activedescendant="undefined_list_0"
@@ -2371,7 +2371,7 @@ Array [
           aria-haspopup="listbox"
           aria-owns="undefined_list"
           autocomplete="off"
-          class="ant-select-selection-search-input"
+          class="ezd-select-selection-search-input"
           disabled=""
           readonly=""
           role="combobox"
@@ -2382,7 +2382,7 @@ Array [
         />
       </span>
       <span
-        class="ant-select-selection-item"
+        class="ezd-select-selection-item"
         title="Lucy"
       >
         Lucy
@@ -2390,7 +2390,7 @@ Array [
     </div>
     <span
       aria-hidden="true"
-      class="ant-select-arrow"
+      class="ezd-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
@@ -2420,21 +2420,21 @@ Array [
 
 exports[`renders ./components/select/demo/tags.md correctly 1`] = `
 <div
-  class="ant-select ant-select-multiple ant-select-show-search"
+  class="ezd-select ant-select-multiple ant-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-selector"
+    class="ezd-select-selector"
   >
     <div
-      class="ant-select-selection-overflow"
+      class="ezd-select-selection-overflow"
     >
       <div
-        class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+        class="ezd-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
         style="opacity:1"
       >
         <div
-          class="ant-select-selection-search"
+          class="ezd-select-selection-search"
           style="width:0"
         >
           <input
@@ -2444,14 +2444,14 @@ exports[`renders ./components/select/demo/tags.md correctly 1`] = `
             aria-haspopup="listbox"
             aria-owns="undefined_list"
             autocomplete="off"
-            class="ant-select-selection-search-input"
+            class="ezd-select-selection-search-input"
             role="combobox"
             type="search"
             value=""
           />
           <span
             aria-hidden="true"
-            class="ant-select-selection-search-mirror"
+            class="ezd-select-selection-search-mirror"
           >
              
           </span>
@@ -2459,7 +2459,7 @@ exports[`renders ./components/select/demo/tags.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-select-selection-placeholder"
+      class="ezd-select-selection-placeholder"
     >
       Tags Mode
     </span>

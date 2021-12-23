@@ -87,7 +87,7 @@ When you need context info (like ConfigProvider context), you can use `notificat
 const [api, contextHolder] = notification.useNotification();
 
 return (
-  <Context1.Provider value="Ant">
+  <Context1.Provider value="Ezd">
     {/* contextHolder is inside Context1 which means api will get value of Context1 */}
     {contextHolder}
     <Context2.Provider value="Design">
