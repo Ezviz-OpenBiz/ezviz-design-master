@@ -111,7 +111,6 @@
     "@ant-design/react-slick": "~0.28.1",
     "@babel/runtime": "^7.12.5",
     "@ctrl/tinycolor": "^3.4.0",
-    "@ezviz/evvd": "^1.0.0",
     "array-tree-filter": "^2.1.0",
     "classnames": "^2.2.6",
     "copy-to-clipboard": "^3.2.0",

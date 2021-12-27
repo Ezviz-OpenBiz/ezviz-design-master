@@ -21,11 +21,15 @@
   // Fix loading button animation
   > span {
     display: inline-block;
+    // 按钮文案之间的间距，包含文案和图标的距离
+    & + span {
+      margin-left: 8px;
+    }
   }
 
   &-primary {
     .btn-primary();
-
+    .button-disabled(#FFFFFF,#BFBFBF,#BFBFBF);
     .@{btn-prefix-cls}-group &:not(:first-child):not(:last-child) {
       border-right-color: @btn-group-border;
       border-left-color: @btn-group-border;

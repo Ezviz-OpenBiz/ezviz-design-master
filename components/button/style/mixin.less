@@ -248,6 +248,7 @@
   transition: all 0.3s @ease-in-out;
   user-select: none;
   touch-action: manipulation;
+  min-width: 60px;
   .button-size(
     @btn-height-base; @btn-padding-horizontal-base; @font-size-base; @btn-border-radius-base
   );
@@ -282,12 +283,14 @@
     .button-size(
       @btn-height-lg; @btn-padding-horizontal-lg; @btn-font-size-lg; @btn-border-radius-base
     );
+    min-width: 60px;
   }
 
   &-sm {
     .button-size(
       @btn-height-sm; @btn-padding-horizontal-sm; @btn-font-size-sm; @btn-border-radius-sm
     );
+    min-width: 40px;
   }
 }
 // primary button style

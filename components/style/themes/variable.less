@@ -51,7 +51,7 @@ html {
   // ========== Error Color ==========
   --@{ezd-prefix}-error-color: @red-5;
   --@{ezd-prefix}-error-color-hover: color(~`colorPalette('@{red-5}', 5) `);
-  --@{ezd-prefix}-error-color-active: color(~`colorPalette('@{red-5}', 7) `);
+  --@{ezd-prefix}-error-color-active: @red-6;
   --@{ezd-prefix}-error-color-outline: fade(@red-5, @outline-fade);
   --@{ezd-prefix}-error-color-deprecated-bg: ~`colorPalette('@{red-5}', 1) `;
   --@{ezd-prefix}-error-color-deprecated-border: ~`colorPalette('@{red-5}', 3) `;
@@ -277,9 +277,9 @@ html {
 @btn-danger-bg: @error-color;
 @btn-danger-border: @error-color;
 
-@btn-disable-color: @disabled-color;
-@btn-disable-bg: @disabled-bg;
-@btn-disable-border: @border-color-base;
+@btn-disable-color: #BFBFBF;
+@btn-disable-bg: #ffffff;
+@btn-disable-border: #D9D9D9;
 
 @btn-default-ghost-color: @component-background;
 @btn-default-ghost-bg: transparent;
